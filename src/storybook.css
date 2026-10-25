@@ -1,0 +1,44 @@
+/* The selected storybook treatment: painted light fading into warm paper. */
+.storybook { --paper: #fff9ed; background: var(--paper); color: #263e3b; }
+.storybook > .illustration::after { content: ''; position: absolute; inset: 76% 0 0; background: linear-gradient(transparent, var(--paper)); pointer-events: none; z-index: 1; }
+.storybook .art-badge { display: none; }
+.storybook .fallback-art-credit { top: 8px; bottom: auto; }
+.storybook .page-body { padding: 24px 36px 36px; }
+.storybook h2 { font-size: clamp(29px, 3.2vw, 38px); color: #263e3b; line-height: 1.22; margin: 20px 0; }
+.storybook .story-text { color: #42534b; }
+.storybook .story-text::first-letter { font-size: 1.55em; color: #916b36; }
+.storybook .choice-heading { border: 0; padding-top: 15px; color: #916b36; gap: 14px; align-items: baseline; }
+.storybook .choice-heading > span { font: italic 21px/1.5 Georgia, serif; }
+.storybook .choice-heading small { color: #766c58; line-height: 1.6; }
+.storybook .choices { gap: 8px; }
+.app-shell .storybook .choices button { display: block; min-height: 56px; padding: 14px 17px; border: 0; border-bottom: 1px solid #916b3638; border-radius: 3px; background: transparent; color: #263e3b; font: var(--story-size)/1.6 Georgia, serif; }
+.storybook .choices button:hover { background: #916b360d; border-color: #916b36; transform: none; }
+.storybook .choices button:active { background: #916b361a; }
+.storybook .choices button:focus-visible { outline: 3px solid #916b36; outline-offset: 3px; background: #fff1d6; }
+.storybook .choices small { font: 12px/1.6 'Trebuchet MS', sans-serif; color: #766349; margin-top: 5px; }
+.app-shell[data-text-size=extra] .storybook .choices small { font-size: 15px; }
+.storybook .starter.selected::after { content: none; }
+.storybook .team-conversation { background: #f5f1e6; border-color: #e5ddcb; }
+.storybook .team-conversation > p { color: #52634d; }
+.storybook .star-cell.star-6 span { font-size: 18px; }
+.storybook .star-cell.star-2 span { font-size: 40px; }
+.storybook .star-cell.star-0 span,.storybook .star-cell.star-8 span { font-size: 12px; }
+.storybook .puzzle-controls.star-grid .star-2,.storybook .puzzle-controls.star-grid .star-6 { color: #f1e1a8; }
+.storybook .puzzle-controls.star-grid .star-0,.storybook .puzzle-controls.star-grid .star-8 { color: #a1bbc0; }
+@media(max-width:680px) { .storybook .page-body,.reading-mode .storybook .page-body { padding: 18px 21px 27px; } .storybook .choice-heading small { margin-top: 4px; } .app-shell .storybook .choices button { padding: 13px 10px; } }
+.story-choice { border-bottom: 1px solid #916b3638; padding-bottom: 9px; }
+.app-shell .storybook .choices .choose-story { width: 100%; border-bottom: 0; }
+.choice-language-tools { display: flex; flex-wrap: wrap; gap: 6px 18px; padding: 0 17px; }
+.app-shell .storybook .choice-language-tools button { font: 13px/1.5 'Trebuchet MS',sans-serif; color: #6c5736; padding: 7px 0; min-height: 40px; border: 0; text-decoration: underline; text-underline-offset: 4px; }
+.choice-translation { margin: 8px 17px; padding: 12px 15px; border-left: 2px solid #b3945b; background: #f5eddd; font: 16px/1.65 Georgia,serif; color: #384a40; }
+.choice-translation small { display: block; }
+.sentence-help { margin: 0 0 24px; color: #6c5736; }
+.sentence-help summary { cursor: pointer; font: 13px/1.6 'Trebuchet MS',sans-serif; padding: 8px 0; }
+.sentence-help p { font: 14px/1.7 'Trebuchet MS',sans-serif; }
+.sentence-help > button { display: block; width: 100%; text-align: left; padding: 12px 15px; margin: 7px 0; font: var(--story-size)/1.6 Georgia,serif; color: #384a40; background: #f7f0e2; border: 1px solid #ded2ba; border-radius: 5px; }
+.sentence-speaking { background: #f4e4b9 !important; border-radius: 3px; box-decoration-break: clone; }
+.word-popover { width: 292px; max-height: min(360px,calc(100dvh - 24px)); overflow-y: auto; }
+.word-popover .norwegian-meaning,.norwegian-meaning { color: #324b3d; font-weight: bold; }
+.word-popover .pronounce { margin-top: 10px; min-height: 44px; }
+.word-popover .word-close { width: 32px; height: 32px; }
+@media(max-width:680px) { .choice-language-tools { padding: 0 10px; } .choice-translation { margin-left: 10px; margin-right: 10px; } }

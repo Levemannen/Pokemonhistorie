@@ -5,6 +5,27 @@ export type State = {scene:string; starter:Starter; flags:string[]; companions:s
 export type Choice = {label:string;to:string; flag?:string; companion?:string; needs?:string; starter?:Starter};
 export type Scene = {id:string;chapter:number;title:string;text:string;setting:string;detail:string;choices:Choice[];ending?:string};
 const c=(label:string,to:string,flag?:string,needs?:string,companion?:string,starter?:Starter):Choice=>({label,to,flag,needs,companion,starter});
+// Display copy is separate from the labels stored in existing journeys.
+export function choiceText(choice:Choice,starter:Starter):string{
+ const wording:Record<string,string>={
+  'Invite Eevee to come with us':'“Come with us, Eevee.”',
+  'Borrow Mira’s old star map':'Ask to borrow Mira’s old star map.',
+  'Ask where the seed came from':'“Where did this little seed come from?”',
+  'Comfort the frightened Pokémon':'Stay a moment and comfort the frightened Pokémon.',
+  'Examine the silver seed':'Look closely at the little silver seed.',
+  'Welcome Pikachu to the team':'“There’s a place for you with us, Pikachu.”',
+  'Ask Pikachu to protect the forest':'“Will you keep Moonwood safe while we are away?”',
+  'Read how to open the lens gently':'Read how to open the sphere gently.',
+  'Show Lumi the astronomer’s notebook':'Share what the astronomer’s notes taught us.',
+  'Leave the tools and plant a thank-you seed':'Take the lens and plant an ordinary seed in thanks.',
+  'Sit beside Lumi and listen':'Sit beside Lumi and give her time to speak.',
+  'Tell Lumi she will not face this alone':'“You won’t have to face this alone, Lumi.”',
+  'Let Shinx choose what he needs':'“What would help you feel safe, Shinx?”',
+  'Promise to help both Pokémon':'“We’ll help both of you. That’s a promise.”',
+ };
+ const text=(wording[choice.label]||choice.label).replaceAll('{starter}',starter);
+ return /[.!?”]$/.test(text)?text:text+'.';
+}
 const s=(id:string,chapter:number,title:string,text:string,setting:string,detail:string,choices:Choice[],ending?:string):Scene=>({id,chapter,title,text,setting,detail,choices,ending});
 export const chapters=['The Night the Stars Fell','Whispers in the Woods','The River Remembers','Above the Sleeping Clouds','A Light to Bring Home'];
 export const scenes:Scene[]=[
@@ -12,7 +33,7 @@ s('lantern',1,'A night without stars','Tonight is the Starlight Festival, but ev
 c('Comfort the frightened Pokémon','square','kind'),c('Examine the silver seed','square','curious'),c('Check the hill for fallen stars','hill','brave')]),
 s('square',1,'The lantern keeper','Mira, the lantern keeper, unfolds a map with a hole where Starfall Tower should be. “The sky is not broken,” she says. “Someone has hidden its light.” A little Eevee shivers beneath her table.','village','map',[
 c('Invite Eevee to come with us','gate','kind',undefined,'Eevee'),c('Borrow Mira’s old star map','gate','map'),c('Ask where the seed came from','hill','curious')]),
-s('hill',1,'A message in the grass','On the hill, a trail of silver dust circles a sleeping Hoothoot. It opens one golden eye and hoots three notes: low, high, low. {starter} taps the same rhythm, and the seed flickers.','hills','owl',[
+s('hill',1,'A message in the grass','On the hill, a trail of silver dust circles a sleeping Hoothoot. It opens its round eyes and hoots three notes: low, high, low. {starter} taps the same rhythm, and the seed flickers.','hills','owl',[
 c('Remember the three-note song','gate','song'),c('Share a snack with Hoothoot','gate','kind',undefined,'Hoothoot')]),
 s('gate',1,'The way beyond the gate','Two trails lead away from the last warm lantern. A thorny arch shelters a quiet path; on the ridge, fallen branches block the wind. Your companion waits for you to choose a way together.','forest','gate',[
 c('Help Bulbasaur untangle the arch','grove','gentle',undefined,undefined,'Bulbasaur'),c('Let Charmander light the ridge','ridge','ember',undefined,undefined,'Charmander'),c('Let Squirtle wash the muddy sign','brook','river',undefined,undefined,'Squirtle'),c('Follow the seed’s soft glow','grove','trust')]),
@@ -32,7 +53,7 @@ s('echoArchive',2,'The Echo Archive','Gastly’s laughter becomes a staircase of
 c('Borrow the astronomer’s notebook about Lumi','clearing','understanding'),c('Copy a hidden mountain route','clearing','archiveMap'),c('Learn the archive’s three-note greeting','clearing','echoTune')]),
 s('roots',2,'The oldest tree','An ancient tree arches over a door of woven roots. A carved face asks, “What grows brighter when it is shared?” In your pocket, the silver seed pulses whenever your friends stand close.','forest','tree',[
 c('Answer: “Kindness”','clearing','wisdom'),c('Answer: “A flame”','clearing','warmth'),c('Ask Bulbasaur to speak with the roots','clearing','rootFriend',undefined,undefined,'Bulbasaur')]),
-s('clearing',2,'A gift with two halves','The roots part and reveal a crescent lens on a mossy pedestal. “It can guide the lost or open a secret,” the tree explains. You can only carry one of the heavy stone tools beside it.','forest','lens',[
+s('clearing',2,'A gift with two halves','In a clearing, an ancient tree offers you a crescent lens from a mossy pedestal. “Shared kindness, shared warmth: both can brighten a dark place,” it says. You take the lens and have room for one bulky tool, or you can plant an ordinary seed from your pouch as thanks.','forest','lens',[
 c('Take the lens and a rescue rope','bank','rope'),c('Take the lens and a rune key','bank','key'),c('Leave the tools and plant a thank-you seed','bank','garden')]),
 s('bank',3,'The river of borrowed light','The Lumen River has swallowed the stars’ reflections. A stranded Lapras calls from a shallow pool while a broken ferry rocks against the bank. Far upstream, a waterfall glows behind a curtain of mist.','river','lapras',[
 c('Help Lapras reach deep water','lapras','kind'),c('Repair the ferry with fallen wood','ferry','builder'),c('Explore the waterfall on foot','falls','brave'),c('Use our clues to find the astronomer’s cave','cave','clueTrail','insight')]),
@@ -40,19 +61,19 @@ s('lapras',3,'A song across the water','You dig a channel with {starter}, and co
 c('Accept Lapras’s friendship','island','riverFriend',undefined,'Lapras'),c('Ask Lapras to guide lost travelers','ferry','riverGuard'),c('Use Squirtle’s water to widen the channel','island','clearWater',undefined,'Lapras','Squirtle')]),
 s('ferry',3,'The ferrymaker’s knot','The ferry is sound, but its rope has frayed. You remember that a good knot must hold without hurting the tree. An anxious Psyduck watches from the pier, clutching a floating plank.','river','ferry',[
 c('Use our rescue rope for a sturdy knot','island','safeCrossing','rope'),c('Weave a new rope from long reeds','island','patient'),c('Help Psyduck cross first','reedWorkshop','duck',undefined,'Psyduck')]),
-s('reedWorkshop',3,'Psyduck’s Reed Workshop','Across the ferry, Psyduck shows you a sheltered workshop woven from river reeds. “I built this to make the crossing less frightening,” it admits, offering three little projects. You can leave the river a gift, find a quieter way onward, or learn a calming tune together.','river','ferry',[
+s('reedWorkshop',3,'Psyduck’s Reed Workshop','Together you weave a safe ferry rope before crossing with Psyduck to its sheltered reed workshop. “I built this to make the crossing less frightening,” it admits, offering three little projects. You can leave the river a gift, find a quieter way onward, or learn a calming tune together.','river','ferry',[
 c('Build floating lanterns with Psyduck','island','floatingLanterns'),c('Map Psyduck’s quiet reed channel','island','reedGuide'),c('Learn Psyduck’s calming three-note tune','island','duckRhythm')]),
 s('falls',3,'Behind the silver curtain','The waterfall hides a narrow ledge and a door marked with three tiny bells. The middle bell is carved higher than the others. A wrong note will simply send you back to the river, but the right song might reveal a secret.','river','waterfall',[
 c('Enter the doorway opened by our melody','cave','door','puzzle:falls'),c('Leave the bells and follow the river','island','splash'),c('Sing the melody learned on our journey','cave','songDoor','melodyHelp'),c('Explore the safe path around the falls','island','mistTrail')]),
-s('cave',3,'The astronomer’s notebook','Behind the door, a notebook lies dry in a circle of moonstone. Its last page reads: “Lumi took the light to save a friend. Fear made the lens close.” A sketch shows a small Clefairy at Starfall Tower.','cave','notebook',[
+s('cave',3,'The astronomer’s notebook','Behind the door, a notebook lies dry in a circle of moonstone. Its last page reads: “Lumi took the light to save a friend. Fear made the sphere close.” A sketch shows a small Clefairy at Starfall Tower.','cave','notebook',[
 c('Read how to open the lens gently','island','understanding'),c('Copy the tower’s hidden stairway','island','secretStair')]),
-s('island',3,'The island of echoes','On a tiny island, the crescent lens catches a single golden speck. A memory appears: Clefairy carrying an injured little Shinx toward the mountains. {starter} presses close as the memory fades.','river','memory',[
+s('island',3,'The island of echoes','A shallow causeway links the river path to a tiny island, where riders and walkers can rest. Your lens catches a golden speck: a memory of Clefairy helping an injured Shinx toward the mountains. “Thank you, Lumi,” Shinx whispers, and you learn her name. {starter} presses close as the memory fades.','river','memory',[
 c('Promise to help both Pokémon','bridge','promise'),c('Collect the golden speck for later','bridge','stardust'),c('Ask the river to keep their secret','bridge','privacy')]),
-s('bridge',4,'A bridge made of wind','A rope bridge sways above a sea of clouds. Its far end has pulled loose, but a stone path winds around the mountain. A tiny flag shows that the wind rises and falls in a steady rhythm.','mountain','bridge',[
+s('bridge',4,'A bridge made of wind','A rope bridge sways above a sea of clouds. Its ropes are secure, but gusts rock the boards; a stone path offers another way around the mountain. A tiny flag shows that the wind rises and falls in a steady rhythm.','mountain','bridge',[
 c('Wait for the calm and cross together','shelter','steady'),c('Follow the promise trail Lapras revealed','stairs','promiseRoute','promiseTrail'),c('Take the longer stone path','windwatch','patient'),c('Let Bulbasaur anchor the bridge with vines','shelter','vineBridge',undefined,undefined,'Bulbasaur')]),
 s('windwatch',4,'Altaria’s Wind-Watch Perch','The longer path reaches a lookout where Altaria is gathering a lost flock above the clouds. A drifting cloud-platform could carry you toward the tower roof, but the little birds need a guide first. Downhill, marked steps lead to a yellow scarf and a sheltered berry nook.','mountain','altaria',[
 c('Help Altaria guide the flock to the cloud-platform','roof','flockGuide'),c('Read the wind marks and take the stone steps','stairs','windChart'),c('Ask Altaria for a sheltered path to the berry nook','shelter','windShelter')]),
-s('stairs',4,'Footprints in the frost','The stone path curls past small footprints in the frost. Shinx has been here, leaning on a friend. You find a dropped wool scarf, bright yellow against the blue snow.','mountain','scarf',[
+s('stairs',4,'Footprints in the frost','The stone path curls past small footprints in the frost. Shinx has been here, leaning on a friend. You find a dropped yellow wool scarf with Shinx’s name stitched inside.','mountain','scarf',[
 c('Carry the scarf to its owner','shelter','scarf'),c('Tie it to a marker for other travelers','shelter','trail'),c('Keep our promise and follow the hidden stair to Lumi','tower','keptPromise','promiseRoute')]),
 s('shelter',4,'The cloud shepherd','In a sheltered nook, an old Altaria tends a bowl of cloudberries. “A bright sky cannot mend a frightened heart by force,” she tells you. She offers a feather, but asks you to leave something helpful in return.','mountain','altaria',[
 c('Trade a little food for the feather','observatory','feather'),c('Repair her cracked berry bowl','observatory','craft'),c('Tell her what we learned about Lumi','observatory','counsel','understanding')]),
@@ -60,7 +81,7 @@ s('observatory',4,'The sleeping observatory','The observatory’s great roof is 
 c('Open the roof with our repaired mechanism','roof','alignment','puzzle:observatory'),c('Accept Pikachu’s help with the old motor','roof','spark','pikachuHelp'),c('Look for a hand crank with {starter}','roof','teamwork'),c('Climb the safe outside stair together','roof','outsideStair')]),
 s('roof',4,'A sky full of questions','The roof opens onto a sky as dark as ink. Your lens projects a path of silver stepping-stones toward Starfall Tower. Some stones glow warmly; others flicker whenever you rush.','tower','constellation',[
 c('Cross slowly, checking on every friend','tower','careful'),c('Find the sheltered stair beneath the roof','tower','sheltered'),c('Follow the hidden route our clues reveal','tower','secretRoute','secretWay'),c('Ask Charmander to warm the frosted stones','tower','warmPath',undefined,undefined,'Charmander')]),
-s('tower',4,'Someone behind the door','Inside the tower, you hear a small voice counting stars. “Just one more night,” it whispers. The door is open a crack, and the yellow scarf hangs from a broken chair.','tower','door',[
+s('tower',4,'Someone behind the door','Inside the tower, you hear a small voice counting stars. “Just one more night,” it whispers. Through the open door, a voice says, “My yellow scarf is here, but Shinx lost his matching one.” A scarf hangs from a broken chair beside you.','tower','door',[
 c('Knock and introduce ourselves','lumi','respect'),c('Call gently: “Lumi, we want to help”','lumi','gentleVoice'),c('Return the scarf before speaking','lumi','returnedScarf','scarf')]),
 s('lumi',5,'The keeper of lost starlight','Lumi the Clefairy stands beside a glowing glass sphere. Inside it swirl all the missing stars; beside it, a tired Shinx sleeps under a blanket. “The light keeps him warm,” Lumi says. “If I let go, what if I lose him?”','tower','clefairy',[
 c('Sit beside Lumi and listen','listen','empathy'),c('Show Lumi the astronomer’s notebook','listen','explain','understanding'),c('Suggest moving the sphere to the village','plan','villagePlan'),c('Keep our river promise and share the heart ring','heart','promiseFulfilled','keptPromise')]),
@@ -72,7 +93,7 @@ s('sky',5,'The sky ring','The sky ring trembles under your fingers. Lumi needs a
 c('Make a warm nest with the cloud feather','endAurora',undefined,'feather'),c('Let Charmander keep Shinx safely warm','endAurora',undefined,undefined,undefined,'Charmander'),c('Release the stars and carry Shinx home','endDawn'),c('Hum a healing lullaby as we open the ring','endSong')]),
 s('heart',5,'The heart ring','The heart ring glows when your companions stand together. Lumi puts one small hand beside yours, and the light becomes a quiet heartbeat. You can keep this circle in the tower or share it with the whole village.','tower','heart',[
 c('Build a sanctuary here with Lumi','endSanctuary'),c('Link Pikachu’s spark to the village lanterns','endLantern',undefined,'pikachuHelp'),c('Sing the three-note song together','endSong',undefined,'melodyHelp'),c('Bring the circle of warmth to Willowbrook','endLantern')]),
-s('earth',5,'A seed for tomorrow','On the balcony, your silver seed unfolds into a tiny star-shaped leaf. The earth ring can grow a living light, but it will need friends to tend it every day. Lumi smiles for the first time and asks where it should take root.','garden','seed',[
+s('earth',5,'A seed for tomorrow','On the balcony, your silver seed unfolds into a tiny star-shaped leaf. The earth ring can grow a living light, but it will need friends to tend it every day. Lumi smiles with hope and asks where it should take root.','garden','seed',[
 c('Plant a starlight garden in Willowbrook','endGarden'),c('Let Bulbasaur grow a living sky-vine','endGarden',undefined,undefined,undefined,'Bulbasaur'),c('Save the seed and open a tower sanctuary','endSanctuary'),c('Plant star reeds along Psyduck’s lantern trail','endGarden','reedGarden','floatingLanterns')]),
 s('endDawn',5,'The dawn you carried home','You open the sphere, and thousands of stars race back to their places. Together you carry Shinx to Mira, who wraps his paw while Lumi holds his hand. At the next festival, one lantern is named for {starter}: the friend who helped you bring everyone home.','village','dawn',[],'The Homeward Dawn'),
 s('endAurora',5,'A ribbon across the sky','Shinx snuggles into his new warm nest, and Lumi finally releases her tight grip. The stars unfurl into ribbons of green and gold, a thank-you written across the sky. You and {starter} stay until morning, learning that courage can mean helping someone let go.','mountain','aurora',[],'The Aurora Promise'),
@@ -91,7 +112,7 @@ export const hasNeed=(state:State,need:string):boolean=>{
  if(need==='promiseTrail')return state.flags.includes('promise')&&(state.flags.includes('riverFriend')||state.companions.includes('Lapras'));
  if(need==='pikachuHelp')return state.flags.includes('rescue')||state.flags.includes('guardReturned');
  if(need==='melodyHelp')return ['song','nestGift','echoTune','duckRhythm'].some(f=>state.flags.includes(f))||state.companions.includes('Hoothoot');
- if(need==='secretWay')return ['key','archiveMap','reedGuide'].some(f=>state.flags.includes(f));
+ if(need==='secretWay')return ['key','archiveMap','secretStair','reedGuide'].some(f=>state.flags.includes(f));
  return qualities[need]?qualities[need].some(f=>state.flags.includes(f)):state.flags.includes(need);
 };
 export const available=(state:State)=>byId[state.scene].choices.filter(c=>(!c.needs||hasNeed(state,c.needs))&&(!c.starter||c.starter===state.starter));
@@ -107,13 +128,19 @@ export const storyText=(scene:Scene,state:State)=>{
  let text=scene.text.replaceAll('{starter}',state.starter);
  if(scene.id==='mushrooms')text='The mushrooms reflect a tiny constellation on a flat stone. Its message reads, “A little light grows into a trail.” Your friends wait while you explore the pattern and decide which lights belong together.';
  if(scene.id==='roof'&&state.flags.includes('flockGuide'))text='Altaria’s flock carries the cloud-platform gently to the tower roof. You reached this place by guiding lost birds, leaving the frozen observatory below. Ahead, your lens reveals stepping-stones of light leading to Lumi’s door.';
+ if(scene.id==='roof'&&state.flags.includes('outsideStair'))text='The outside stair brings you to a manual latch above the frozen mechanism. Together you lift it, opening the roof without repairing the controls. Your lens projects silver stepping-stones toward Starfall Tower, and you wait for their glow to steady.';
+ if(scene.id==='ferry'&&!state.flags.includes('builder'))text='Psyduck has patched the ferry’s boards, but its rope has frayed. A good knot must hold without hurting the tree. Psyduck waits anxiously on the pier while you choose how to make the crossing safe.';
+ if(scene.id==='endSong'&&!hasNeed(state,'melodyHelp'))text='You invent a gentle three-note lullaby, and the river carries it from voice to voice. The stars rise on its notes, while a small piece of warmth stays with Shinx. Every year, the valley gathers by the river to sing the song you began together.';
+ if(scene.id==='endAurora'&&state.history.at(-1)?.choice.includes('Charmander'))text='Charmander lends gentle warmth beside Shinx’s blanket nest, and Lumi finally releases her tight grip. The stars unfurl into ribbons of green and gold across the sky. You stay until morning, learning that courage can mean helping someone let go.';
+ if(scene.id==='endGarden'&&state.flags.includes('reedGarden'))text='You plant the silver seed beside Psyduck’s floating lanterns, and its roots send star-shaped reeds along the bank. Each evening, the river garden lends light to the sky and warmth to its visitors. Lumi, Shinx, and Psyduck help you tend this new home for the stars.';
  if(scene.id==='earth'&&state.flags.includes('floatingLanterns'))text='From the balcony, you see the little lanterns you built with Psyduck bobbing along the river. A silver seed in your hand reaches toward their gentle light. You could grow a garden beside that lantern trail, or choose another home for the seed.';
  if(scene.id==='falls')text='The waterfall hides a narrow ledge and a door marked with tiny bells. Its echo rises and falls in a three-note pattern. A wrong note only makes a splash, so you can listen and try again.';
  if(scene.id==='observatory')text=state.flags.includes('guardReturned')?'A familiar Pikachu races out from behind the observatory’s frozen gears. It protected Moonwood as you asked, then followed your trail to return the kindness. The roof needs power, and Pikachu offers to help if you would like its gentle spark.':`The observatory’s great roof is stuck closed, and the usual controls have frozen. ${state.starter} spots a mechanism that its own special skill could repair. You can solve it together, find a hand crank, or take the safe outside stair.`;
  if(scene.id==='bridge'&&hasNeed(state,'promiseTrail'))text='Lapras remembers your promise to help both Lumi and Shinx. It sings to the mist, revealing a hidden stair along the mountain: the Promise Trail. You may follow it directly toward Lumi, or stay with the bridge and the cloud shepherd.';
  if(scene.id==='stairs'&&state.flags.includes('promiseRoute'))text='The Promise Trail winds along a sheltered ledge that no map has marked. Lapras’s song carries up from the river, guiding you toward a private stair to Lumi’s door. A yellow scarf lies beside the trail; you can take a detour to return it, or keep following your promise.';
- if(scene.id==='clearing'&&state.flags.includes('nestGift'))text='A Hoothoot from the nest you repaired lands beside the mossy pedestal. It sings low, high, low: a thank-you that might open another door later. Beneath its wings lies the crescent lens, with room in your pack for just one heavy tool.';
- if(scene.id==='lumi'&&state.flags.includes('replyTrust'))text='Lumi holds up the reply you floated down the river. “I kept this beside Shinx,” she says, and steps away so you can reach the sphere. Your message has turned a stranger at the door into someone she already trusts.';
+ if(scene.id==='clearing'&&state.flags.includes('nestGift'))text='A Hoothoot from the nest you repaired lands beside the mossy pedestal. It sings low, high, low: a thank-you that might open another door later. Beneath its wings lies the crescent lens, with room in your pack for one bulky tool or an ordinary seed to plant in thanks.';
+ if(scene.id==='lumi'&&state.flags.includes('replyTrust'))text='Lumi holds up your river reply: a passing Hoothoot carried it from the stream to her window. “I kept this beside Shinx,” she says, showing you the sleeping Pokémon beside the sphere of missing stars. Your message has turned a stranger at the door into someone she already trusts.';
+ if(scene.id==='lumi'&&state.flags.includes('returnedScarf'))text='Lumi hugs the yellow scarf you found on the trail. “Shinx lost this while I was helping him up the mountain,” she says, smiling beside his bed and the sphere of missing stars. Your careful kindness helps her believe you have come as friends.';
  if(scene.id==='lumi'&&state.flags.includes('keptPromise'))text='The hidden stair brings you straight to Lumi, who hears Lapras singing below. You explain the promise you made beside the river: neither she nor Shinx will be left behind. Lumi places your hand on the heart ring, opening a way that fear had kept closed.';
  if(scene.id==='earth'&&state.flags.includes('garden'))text='The seed you planted in Moonwood has sent a thread of green light to this balcony. Your first small garden is already preparing a safe home for the silver seed. Lumi offers to help you connect the two gardens, or to save the seed for a sanctuary.';
  if(scene.ending){
@@ -132,7 +159,7 @@ export const companionLine=(state:State)=>{
 export type Dialogue={speaker:string;text:string};
 export function visibleCompanions(state:State):string[]{
  const pikachuVisiting=state.flags.includes('guardReturned')&&(['observatory','roof','tower','lumi','listen','plan','heart'].includes(state.scene)||state.scene==='endLantern'&&state.history.at(-1)?.choice.includes('Pikachu'));
- return [...new Set([...state.companions,...pikachuVisiting?['Pikachu']:[],...state.scene==='clearing'&&state.flags.includes('nestGift')?['Hoothoot']:[]])];
+ return [...new Set([...state.companions.filter(name=>name!=='Lapras'||byId[state.scene].setting==='river'),...pikachuVisiting?['Pikachu']:[],...state.scene==='clearing'&&state.flags.includes('nestGift')?['Hoothoot']:[]])];
 }
 export function companionConversation(state:State):Dialogue[]{
  const result:Dialogue[]=[];const last=state.history.at(-1);
@@ -172,7 +199,7 @@ export type Memory={scene:string;title:string;choice:string;effect:string};
 export function endingMemories(state:State):Memory[]{
  const memories:Memory[]=[];
  const add=(scene:string,title:string,effect:string)=>{const h=state.history.find(h=>h.scene===scene);if(h)memories.push({scene,title,choice:h.choice,effect});};
- const finish=state.history.at(-1);if(finish)memories.push({scene:finish.scene,title:'The choice that shaped this ending',choice:finish.choice,effect:`This led to ${byId[state.scene].ending||'the next page'}${state.starter==='Charmander'&&state.scene==='endAurora'?' — your starter could lend its warmth':''}.`});
+ const finish=state.history.at(-1);if(finish)memories.push({scene:finish.scene,title:'The choice that shaped this ending',choice:finish.choice,effect:`This led to ${byId[state.scene].ending||'the next page'}${finish.choice.includes('Charmander')&&state.scene==='endAurora'?' — your starter could lend its warmth':''}.`});
  if(state.flags.includes('flockGuide'))add('windwatch','A flock showed another way','Guiding Altaria’s birds brought you to the tower roof without entering the observatory.');
  if(state.flags.includes('reedGarden'))add('reedWorkshop','A river gift took root','The lanterns you built with Psyduck became a trail for the new star-reed garden.');
  if(state.flags.includes('promiseFulfilled')||state.flags.includes('keptPromise'))add('island','A promise became a path',state.flags.includes('promiseFulfilled')?'Your river promise opened the hidden stair and Lumi’s heart ring.':'Your promise revealed a route straight to Lumi’s door.');
@@ -185,7 +212,7 @@ export function endingMemories(state:State):Memory[]{
  if(state.companions.includes('Eevee'))add('square','Nobody had to travel alone','The frightened Eevee you welcomed stayed with your team until the last page.');
  if(state.flags.includes('alignment')&&state.flags.includes('puzzle:observatory'))add('observatory',`${state.starter} found its own solution`,state.starter==='Bulbasaur'?'Bulbasaur guided the vine cables from roots to leaves to flowers.':state.starter==='Charmander'?'Charmander thawed the small gear before the big one and released the latch.':'Squirtle filled the water counterweights from the lowest basin upward.');
  if(state.flags.includes('safeCrossing'))add('clearing','A tool with a purpose','The rescue rope you chose became the knot that carried your team across the river.');
- if(state.flags.includes('secretRoute'))add(state.flags.includes('key')?'clearing':state.flags.includes('archiveMap')?'echoArchive':'reedWorkshop','A secret worth carrying',state.flags.includes('key')?'The rune key you packed opened a hidden way across the roof.':state.flags.includes('archiveMap')?'The map you copied in Gastly’s archive revealed a hidden mountain route.':'Psyduck’s channel map included a safe route through the tower’s old water passages.');
+ if(state.flags.includes('secretRoute'))add(state.flags.includes('key')?'clearing':state.flags.includes('archiveMap')?'echoArchive':state.flags.includes('secretStair')?'cave':'reedWorkshop','A secret worth carrying',state.flags.includes('key')?'The rune key you packed opened a hidden way across the roof.':state.flags.includes('archiveMap')?'The map you copied in Gastly’s archive revealed a hidden mountain route.':state.flags.includes('secretStair')?'The stairway you copied from the astronomer’s notes revealed a safe tower passage.':'Psyduck’s channel map included a safe route through the tower’s old water passages.');
  if(state.flags.includes('rune')&&state.flags.includes('puzzle:mushrooms'))add('mushrooms','A constellation solved together','You followed the growing stars and earned a forest rune instead of taking the brightest detour.');
  add('gate',`A journey with ${state.starter}`,`Your first companion stayed beside you, offering ${state.starter==='Bulbasaur'?'patient vines and a gentle heart':state.starter==='Charmander'?'careful warmth and a brave heart':'clever water skills and a curious heart'} whenever you needed another idea.`);
  add('lantern','Your very first little light','This first decision began the habits of kindness, curiosity, or courage that grew throughout your journey.');

@@ -9,7 +9,7 @@
     "preview": "vite preview --host 127.0.0.1",
     "art": "tsx scripts/art.ts && tsx scripts/sync-painted.ts",
     "build": "tsc -b && vite build",
-    "test": "tsx scripts/regression.ts && tsx scripts/discovery.tsx && tsx scripts/comfort.tsx && tsx scripts/verify.ts && tsx scripts/illustrations-test.ts"
+    "test": "tsx scripts/regression.ts && tsx scripts/discovery.tsx && tsx scripts/comfort.tsx && tsx scripts/verify.ts && tsx scripts/illustrations-test.ts && tsx scripts/consistency.ts && tsx scripts/language-test.tsx"
   },
   "dependencies": {
     "react": "^19.0.0",

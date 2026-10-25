@@ -1,6 +1,6 @@
 import {byId,sceneTitle,storyText,type State,type Starter} from './story';
 import {restoreSave} from './save';
-import {baseWord,meanings} from './words';
+import {baseWord,meanings,sentenceParts} from './words';
 export const storageKeys={game:'starlight-story-v1',endings:'starlight-endings-v1',books:'starlight-books-v1',words:'starlight-my-words-v1',reader:'starlight-reader-v1',pace:'starlight-reading-pace'};
 export type ReaderPreferences={readingMode:boolean;textSize:'normal'|'large'|'extra'};
 export const defaultReader:ReaderPreferences={readingMode:false,textSize:'normal'};
@@ -35,7 +35,7 @@ export function parseLearnedWords(raw:string|null):LearnedWord[]{
 export function learnWord(words:LearnedWord[],rawWord:string,game:State,learnedAt:string):LearnedWord[]{
  const word=baseWord(rawWord);if(!meanings[word]||words.some(entry=>entry.word===word))return words;
  const text=storyText(byId[game.scene],game);
- const sentence=[...new Intl.Segmenter('en',{granularity:'sentence'}).segment(text)].find(({segment})=>segment.split(/\b/).some(token=>baseWord(token)===word))?.segment.trim();
+ const sentence=sentenceParts(text).find(({text})=>text.split(/\b/).some(token=>baseWord(token)===word))?.text.trim();
  if(!sentence)return words;
  return [...words,{word,example:sentence,scene:game.scene,sceneTitle:sceneTitle(game),starter:game.starter,learnedAt}];
 }

@@ -1,6 +1,8 @@
 import {useEffect,useRef,useState} from 'react';
-import {available,advance,byId,chapters,companionLine,initial,storyText,companionConversation,consequence,sceneTitle,visibleCompanions,illustrationScene,type State,type Starter} from './story';
+import {advance,byId,chapters,companionLine,initial,storyText,companionConversation,consequence,sceneTitle,visibleCompanions,illustrationScene,type State,type Starter} from './story';
 import {ReadableText} from './ReadingTools';
+import {StoryChoices} from './StoryChoices';
+import {sentenceParts} from './words';
 import {PuzzleCard} from './PuzzleCard';
 import {EndingMemories} from './EndingMemories';
 import {restoreSave} from './save';
@@ -17,6 +19,7 @@ import {storageKeys as keys,parseBooks,parseLearnedWords,parseReader,archiveJour
 import {SceneArtwork} from './SceneArtwork';
 import {resolveIllustration,type IllustrationManifest} from './illustrations';
 import './style.css';
+import './storybook.css';
 
 type Manifest=IllustrationManifest;
 type Panel='words'|'history'|'library'|'map'|'bag';
@@ -34,7 +37,7 @@ export default function App(){
  const [panel,setPanel]=useState<Panel|null>(null),[restart,setRestart]=useState(false);
  const [books,setBooks]=useState(()=>parseBooks(stored(keys.books))),[words,setWords]=useState(()=>parseLearnedWords(stored(keys.words)));
  const [reader,setReader]=useState<ReaderPreferences>(()=>parseReader(stored(keys.reader))),[collected,setCollected]=useState(loadEndings);
- const [storageErrors,setStorageErrors]=useState<string[]>([]),[narrating,setNarrating]=useState(false),[speechMessage,setSpeechMessage]=useState('');
+ const [storageErrors,setStorageErrors]=useState<string[]>([]),[narrating,setNarrating]=useState(false),[speechMessage,setSpeechMessage]=useState(''),[activeSentence,setActiveSentence]=useState('');
  const [pace,setPace]=useState(()=>{const value=Number(stored(keys.pace)||'.8');return [1,.8,.65].includes(value)?value:.8;});
  const heading=useRef<HTMLHeadingElement>(null),returnFocus=useRef<HTMLElement|null>(null),utterance=useRef<SpeechSynthesisUtterance|null>(null);
  const scene=game?byId[game.scene]:null,chapter=game?pendingChapter(game):null;
@@ -44,14 +47,17 @@ export default function App(){
   try{localStorage.setItem(key,JSON.stringify(value));setStorageErrors(previous=>previous.includes(key)?previous.filter(item=>item!==key):previous);}
   catch{setStorageErrors(previous=>previous.includes(key)?previous:[...previous,key]);}
  }
- function stopSpeech(){utterance.current=null;window.speechSynthesis?.cancel();setNarrating(false);}
+ function stopSpeech(){setActiveSentence('');utterance.current=null;window.speechSynthesis?.cancel();setNarrating(false);}
  function speak(content:string,rate=pace,reading=false){
   if(!('speechSynthesis'in window)){setSpeechMessage('Narration is unavailable here. Every page can still be read.');return;}
   stopSpeech();setSpeechMessage('');const speech=new SpeechSynthesisUtterance(content);utterance.current=speech;speech.lang='en-US';speech.rate=rate;
   const voice=window.speechSynthesis.getVoices().find(v=>v.lang.startsWith('en')&&v.localService);if(voice)speech.voice=voice;
-  speech.onend=()=>{if(utterance.current===speech){setNarrating(false);utterance.current=null;}};
-  speech.onerror=event=>{if(utterance.current===speech){setNarrating(false);if(event.error!=='canceled'&&event.error!=='interrupted')setSpeechMessage('This device could not read aloud. You can keep reading or try again.');}};
-  window.speechSynthesis.speak(speech);setNarrating(reading);
+  const parts=sentenceParts(content);
+  speech.onstart=()=>{if(utterance.current===speech&&parts.length===1)setActiveSentence(parts[0].text);};
+  speech.onboundary=event=>{if(utterance.current===speech){const part=parts.find(s=>event.charIndex>=s.start&&event.charIndex<s.start+s.text.length);if(part)setActiveSentence(part.text);}};
+  speech.onend=()=>{if(utterance.current===speech){setActiveSentence('');setNarrating(false);utterance.current=null;}};
+  speech.onerror=event=>{if(utterance.current===speech){setActiveSentence('');setNarrating(false);if(event.error!=='canceled'&&event.error!=='interrupted')setSpeechMessage('This device could not read aloud. You can keep reading or try again.');}};
+  window.speechSynthesis.speak(speech);setNarrating(reading||Boolean(content));
  }
  useEffect(()=>{fetch(url('images/illustration-manifest.json')).then(response=>{if(!response.ok)throw Error();return response.json();}).then(setManifest).catch(()=>setArtError(true));},[]);
  useEffect(()=>{
@@ -91,6 +97,8 @@ export default function App(){
  const renderArtwork=(snapshot:State,className='')=><SceneArtwork manifest={manifest} state={snapshot} imageUrl={url} className={className} onError={()=>setArtError(true)}/>;
  const displayScene=chapter&&game?.history.length?byId[game.history.at(-1)!.scene]:scene||byId.lantern;
  const displayStarter=game?.starter||starter;
+ const lastPage=chapter?game?.history.at(-1):undefined;
+ const artworkState:State=game?{...game,scene:displayScene.id,flags:lastPage?.flags??game.flags,companions:lastPage?.companions??game.companions}:{...initial(displayStarter),scene:displayScene.id};
 
  const callback=game?consequence(game):null,voices=game?companionConversation(game):[];
  const saveBlocked=Boolean(game&&scene?.ending&&storageErrors.includes(keys.books));
@@ -108,27 +116,27 @@ export default function App(){
    <div className="book-layout"><div className="book-column">
     <div className="chapter-bar"><span className="chapter-dot">{chapter?'✦':game?scene!.chapter:'✦'}</span><span>{chapter?'A CHAPTER BOOKMARK':game?`CHAPTER ${scene!.chapter} OF 5`:'YOUR ADVENTURE AWAITS'}<strong>{game?chapters[scene!.chapter-1]:'Every great story begins with a friend.'}</strong></span><span className="page-count">{chapter?'A good place to pause':game?`${game.history.length+1} pages explored`:'5 chapters · 6 endings'}</span></div>
     <article className="storybook">
-     <SceneArtwork manifest={manifest} state={game?{...game,scene:displayScene.id}:{...initial(displayStarter),scene:displayScene.id}} imageUrl={url} className="illustration" onError={()=>setArtError(true)}><div className="art-badge">✧ {chapter?'A little rest between adventures':scene?.ending?'A new ending to treasure':game?'The adventure is yours':'A world of wonder awaits'}</div></SceneArtwork>
+     <SceneArtwork manifest={manifest} state={artworkState} imageUrl={url} className="illustration" onError={()=>setArtError(true)}><div className="art-badge">✧ {chapter?'A little rest between adventures':scene?.ending?'A new ending to treasure':game?'The adventure is yours':'A world of wonder awaits'}</div></SceneArtwork>
      <div className="page-body">
       {!game?<>
        <div className="page-label">PROLOGUE · WILLOWBROOK</div><h2 ref={heading} tabIndex={-1}>The stars have gone missing.</h2><p className="story-text">The festival lanterns are glowing. The sky is strangely quiet. Somewhere beyond the forest, a secret is waiting — and you don’t have to find it alone.</p>
        <div className="choose-label">Choose your first companion<span>Who will walk beside you?</span></div><div className="starter-grid">{(['Bulbasaur','Charmander','Squirtle'] as Starter[]).map(name=><button key={name} aria-pressed={starter===name} className={`starter ${name.toLowerCase()} ${starter===name?'selected':''}`} onClick={()=>setStarter(name)}><span className="starter-icon">{icons[name]}</span><strong>{name}</strong><small>{name==='Bulbasaur'?'Gentle & resourceful':name==='Charmander'?'Warm & courageous':'Curious & dependable'}</small><span className="starter-type">{name==='Bulbasaur'?'GRASS · POISON':name==='Charmander'?'FIRE':'WATER'}</span></button>)}</div>
        <button className="begin" onClick={()=>move({...initial(starter),journeyId:journeyId(),acknowledgedChapters:[1]})}>Begin with {starter}<span>→</span></button><p className="local-note">No sign-up. No cost. Just you, your friend, and a little starlight.</p>
       </>:chapter?<><h2 ref={heading} tabIndex={-1}>A chapter bookmark</h2><ChapterPause key={chapter} game={game} canSave={storageErrors.length===0} narrating={narrating} stopReading={stopSpeech} onContinue={()=>move(continueChapter(game))} speak={content=>speak(content,pace,true)}/></>:<>
-       <div className="reading-toolbar"><span className="page-label">{scene!.ending?'YOUR STORY’S ENDING':`CHAPTER ${scene!.chapter} · ${scene!.setting.toUpperCase()}`}</span><label className="pace-control">Reading pace<select aria-label="Reading pace" value={pace} onChange={event=>{setPace(Number(event.target.value));stopSpeech();}}><option value={1}>Normal</option><option value={.8}>Gentle</option><option value={.65}>Extra slow</option></select></label><button disabled={!('speechSynthesis'in window)} aria-pressed={narrating} onClick={()=>narrating?stopSpeech():speak(`${sceneTitle(game)}. ${text}`,pace,true)}>{narrating?'◼ Stop reading':'▷ Read to me'}</button></div>
+       <div className="reading-toolbar"><span className="page-label">{scene!.ending?'YOUR STORY’S ENDING':`CHAPTER ${scene!.chapter} · ${scene!.setting.toUpperCase()}`}</span><label className="pace-control">Reading pace<select aria-label="Reading pace" value={pace} onChange={event=>{setPace(Number(event.target.value));stopSpeech();}}><option value={1}>Normal</option><option value={.8}>Gentle</option><option value={.65}>Extra slow</option></select></label><button disabled={!('speechSynthesis'in window)} aria-pressed={narrating} onClick={()=>narrating?stopSpeech():speak(text,pace,true)}>{narrating?'◼ Stop reading':'▷ Read to me'}</button></div>
        <h2 ref={heading} tabIndex={-1}>{sceneTitle(game)}</h2>{speechMessage&&<p className="speech-message" role="status">{speechMessage}</p>}
-       <ReadableText text={text} speak={word=>speak(word,.65)} speechAvailable={'speechSynthesis'in window} onExplore={word=>setWords(previous=>learnWord(previous,word,game,new Date().toISOString()))}/>
+       <ReadableText text={text} activeSentence={activeSentence} speak={word=>speak(word,.65)} speechAvailable={'speechSynthesis'in window} onExplore={word=>setWords(previous=>learnWord(previous,word,game,new Date().toISOString()))}/>
        {callback&&<div className="consequence" role="note"><strong>✦ {callback.title}</strong><p>{callback.text}</p></div>}
        {!scene!.ending&&<PuzzleCard key={game.scene} game={game} onChange={setGame}/>}
        <section className="team-conversation" aria-label="Your companions are talking"><div className="page-label">AROUND YOUR LITTLE TEAM</div>{voices.map((line,i)=><p key={i}><strong>{line.speaker}</strong><span>{line.text}</span></p>)}</section>
-       {scene!.ending?<div className="ending-card"><span>✦ ENDING DISCOVERED</span><h3>{scene!.ending}</h3><p>{companionLine(game)}</p><EndingMemories game={game} imageFor={imageFor} renderArtwork={renderArtwork}/><FriendEpilogues game={game}/><p>Your journey: {game.companions.length} new {game.companions.length===1?'friend':'friends'} · {game.history.length} decisions</p><button className="small-action" onClick={()=>openPanel('library')}>▤ Read your finished books</button><button className="begin" onClick={openRestart}>Discover another story<span>↻</span></button><button className="text-button" onClick={()=>openPanel('history')}>Read your journey again</button></div>:<><div className="choice-heading"><span>What will you do?</span><small>Every choice leaves a little light.</small></div><div className="choices">{available(game).map((choice,i)=><button key={choice.label} onClick={()=>move(advance(game,choice))}><span className="choice-number">{String(i+1).padStart(2,'0')}</span><span>{choice.label.replace('{starter}',game.starter)}{choice.starter&&<small>{choice.starter}’s special path</small>}{choice.needs&&<small>{choice.needs.startsWith('puzzle:')?'Unlocked by solving the puzzle':choice.needs==='promiseTrail'||choice.needs==='keptPromise'?'Unlocked by your river promise':choice.needs==='pikachuHelp'?'Unlocked by helping Pikachu':choice.needs==='melodyHelp'?'Unlocked by a melody from your journey':'Unlocked by your journey'}</small>}</span><span className="arrow">↗</span></button>)}</div></>}
+       {scene!.ending?<div className="ending-card"><span>✦ ENDING DISCOVERED</span><h3>{scene!.ending}</h3><p>{companionLine(game)}</p><EndingMemories game={game} imageFor={imageFor} renderArtwork={renderArtwork}/><FriendEpilogues game={game}/><p>Your journey: {game.companions.length} new {game.companions.length===1?'friend':'friends'} · {game.history.length} decisions</p><button className="small-action" onClick={()=>openPanel('library')}>▤ Read your finished books</button><button className="begin" onClick={openRestart}>Discover another story<span>↻</span></button><button className="text-button" onClick={()=>openPanel('history')}>Read your journey again</button></div>:<><div className="choice-heading"><span>What will you do?</span><small>Every choice leaves a little light.</small></div><StoryChoices key={game.scene} game={game} onChoose={choice=>move(advance(game,choice))} speak={content=>speak(content,.8)} speechAvailable={'speechSynthesis'in window}/></>}
       </>}
      </div>
     </article>
     <div className="under-book"><span>{storageErrors.length?'● Saving needs attention':game?'● Your adventure is saved on this device':'Made for curious hearts, ages 8–12'}</span><button onClick={()=>openPanel('words')}>Aa <span>My Words ({words.length})</span></button></div>
     {storageErrors.length>0&&<div className="storage-notice" role="status">This browser could not save some changes. Keep this tab open; your journey and collections are still here for now.<button onClick={retrySaving}>Retry saving</button></div>}
    </div><aside>
-    <div className="side-card companion-card"><div className="side-eyebrow">YOUR TRAVELING FRIENDS</div><h3>A little team.<br/>A big adventure.</h3><div className={`companion-avatar ${displayStarter.toLowerCase()}`}>{icons[displayStarter]}</div><h4>{displayStarter}</h4><span className="friend-tag">{game?'YOUR FIRST COMPANION':'READY TO MEET YOU'}</span><p>{displayStarter==='Bulbasaur'?'A steady heart and a knack for helping things grow.':displayStarter==='Charmander'?'A warm heart and a light for even the darkest path.':'A curious heart and a clever way with water.'}</p>{game&&<><div className="friend-list">{game.companions.length?game.companions.map(name=><div key={name}><span>{icons[name]}</span><strong>{name}</strong><small>Traveling with you</small></div>):<span className="quiet">There’s room for new friends along the way.</span>}</div><p className="companion-dialogue">{companionLine(game)}</p></>}</div>
+    <div className="side-card companion-card"><div className="side-eyebrow">YOUR TRAVELING FRIENDS</div><h3>A little team.<br/>A big adventure.</h3><div className={`companion-avatar ${displayStarter.toLowerCase()}`}>{icons[displayStarter]}</div><h4>{displayStarter}</h4><span className="friend-tag">{game?'YOUR FIRST COMPANION':'READY TO MEET YOU'}</span><p>{displayStarter==='Bulbasaur'?'A steady heart and a knack for helping things grow.':displayStarter==='Charmander'?'A warm heart and a light for even the darkest path.':'A curious heart and a clever way with water.'}</p>{game&&<><div className="friend-list">{game.companions.length?game.companions.map(name=><div key={name}><span>{icons[name]}</span><strong>{name}</strong><small>{name==='Lapras'&&scene?.setting!=='river'?'Your friend on the river':'Traveling with you'}</small></div>):<span className="quiet">There’s room for new friends along the way.</span>}</div><p className="companion-dialogue">{companionLine(game)}</p></>}</div>
     <div className="side-card map-card"><div className="side-eyebrow">THE PATH AHEAD</div><ol>{chapters.map((title,i)=><li key={title} className={game&&scene!.chapter===i+1?'current':game&&scene!.chapter>i+1?'complete':''}><span>{game&&scene!.chapter>i+1?'✓':i+1}</span><div><small>CHAPTER {i+1}</small>{title}</div></li>)}</ol><button className="open-travel-map" onClick={()=>openPanel('map')}>⌖ Open your travel map</button></div><div className="tip"><span>✧</span><p>There’s no perfect path.<br/>Only the story <em>you</em> make.</p></div>{game&&<button className="restart" onClick={openRestart}>↻ Start a new adventure</button>}
    </aside></div>
    <footer><span>✦</span>A fan-made adventure, made with imagination.<small>Pokémon belongs to its respective owners. Artwork prepared locally · No images generated during play · No ads or tracking.</small>{artError&&<p role="status">An illustration could not load. Try refreshing this page.</p>}</footer>

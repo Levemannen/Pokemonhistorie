@@ -1,7 +1,7 @@
 {
   "scenes": 39,
   "choices": 104,
-  "checkedStates": 40810,
+  "checkedStates": 46314,
   "endingsPerStarter": 6,
   "puzzleSolutions": {
     "Bulbasaur": {
@@ -11,9 +11,9 @@
         "Large star"
       ],
       "falls": [
-        "Low bell",
-        "High bell",
-        "Low bell"
+        "Low note",
+        "High note",
+        "Low note"
       ],
       "observatory": [
         "Root socket",
@@ -28,9 +28,9 @@
         "Large star"
       ],
       "falls": [
-        "Low bell",
-        "High bell",
-        "Low bell"
+        "Low note",
+        "High note",
+        "Low note"
       ],
       "observatory": [
         "Small moon gear",
@@ -45,9 +45,9 @@
         "Large star"
       ],
       "falls": [
-        "Low bell",
-        "High bell",
-        "Low bell"
+        "Low note",
+        "High note",
+        "Low note"
       ],
       "observatory": [
         "Low basin",
