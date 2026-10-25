@@ -1,0 +1,12 @@
+import {readFileSync,writeFileSync,copyFileSync,existsSync,mkdirSync} from 'node:fs';
+import {resolve} from 'node:path';
+const [id,source]=process.argv.slice(2);
+const plan=JSON.parse(readFileSync('docs/painted-production-plan.json','utf8'));
+const job=plan.jobs.find(job=>job.id===id);if(!job)throw Error('Unknown planned image '+id);
+if(!source||!existsSync(source)||!source.toLowerCase().endsWith('.png'))throw Error('A generated PNG source is required');
+const folder=resolve('public/images/scenes/painted');mkdirSync(folder,{recursive:true});
+const destination=resolve(folder,id+'.png');if(!destination.startsWith(folder))throw Error('Invalid image target');
+if(resolve(source)!==destination)copyFileSync(source,destination);
+const catalogPath='public/images/painted-catalog.json';const catalog=existsSync(catalogPath)?JSON.parse(readFileSync(catalogPath,'utf8')):{};
+const {prompt,...metadata}=job;catalog[id]={...metadata,path:`images/scenes/painted/${id}.png`,promptKey:id,generator:'built-in image_gen',status:'generated'};
+writeFileSync(catalogPath,JSON.stringify(catalog,null,2));console.log(`Saved ${id}.png`);

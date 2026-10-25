@@ -1,0 +1,22 @@
+import {readFileSync,writeFileSync} from 'node:fs';
+let app=readFileSync('src/App.tsx','utf8');
+app=app.replace("import './style.css';","import {SceneArtwork} from './SceneArtwork';\nimport {resolveIllustration,type IllustrationManifest} from './illustrations';\nimport './style.css';");
+app=app.split('\n').map(line=>{
+ if(line.startsWith('type Manifest='))return 'type Manifest=IllustrationManifest;';
+ if(line.startsWith(' const imageFor='))return " const imageFor=(id:string,who:Starter)=>url(resolveIllustration(manifest,{...initial(who),scene:id}).base);\n const renderArtwork=(snapshot:State,className='')=><SceneArtwork manifest={manifest} state={snapshot} imageUrl={url} className={className} onError={()=>setArtError(true)}/>;";
+ if(line.startsWith(' const layers='))return '';
+ if(line.includes('<div className="illustration">'))return `     <SceneArtwork manifest={manifest} state={game?{...game,scene:displayScene.id}:{...initial(displayStarter),scene:displayScene.id}} imageUrl={url} className="illustration" onError={()=>setArtError(true)}><div className="art-badge">✧ {chapter?'A little rest between adventures':scene?.ending?'A new ending to treasure':game?'The adventure is yours':'A world of wonder awaits'}</div></SceneArtwork>`;
+ return line;
+}).join('\n');
+app=app.replaceAll('<EndingMemories game={game} imageFor={imageFor}/>','<EndingMemories game={game} imageFor={imageFor} renderArtwork={renderArtwork}/>');
+const bookStart=app.indexOf('<Bookshelf books={books}');if(bookStart<0)throw Error('Bookshelf not found');const bookEnd=app.indexOf('/>',bookStart);app=app.slice(0,bookStart)+'<Bookshelf books={books} collected={collected} imageFor={imageFor} renderArtwork={renderArtwork}/>'+app.slice(bookEnd+2);
+app=app.replace('Original SVG fallback artwork · No AI image calls · No ads or tracking.','Artwork prepared locally · No images generated during play · No ads or tracking.');
+writeFileSync('src/App.tsx',app);
+let memories=readFileSync('src/EndingMemories.tsx','utf8');
+memories=memories.replace('<img loading="lazy" src={imageFor(memory.scene,game.starter)} alt={`A memory of ${byId[memory.scene].title}`}/>','{renderArtwork?renderArtwork((()=>{const i=game.history.findIndex(entry=>entry.scene===memory.scene);const entry=game.history[i];return {...game,scene:memory.scene,flags:entry?.flags||[],companions:entry?.companions||[],history:game.history.slice(0,Math.max(0,i))};})(),"memory-painted"):<img loading="lazy" src={imageFor(memory.scene,game.starter)} alt={`A memory of ${byId[memory.scene].title}`}/>}');
+writeFileSync('src/EndingMemories.tsx',memories);
+let books=readFileSync('src/Bookshelf.tsx','utf8');
+books=books.replace('<div className="archived-illustration"><img','{renderArtwork?renderArtwork(game,"archived-painted"):<div className="archived-illustration"><img').replace('</div><p className="archived-story">','</div>}<p className="archived-story">');
+books=books.replace('<EndingMemories game={game} imageFor={imageFor}/>','<EndingMemories game={game} imageFor={imageFor} renderArtwork={renderArtwork}/>');
+books=books.replace('<img loading="lazy" src={imageFor(entry.state.scene,entry.state.starter)} alt=""/>','{renderArtwork?renderArtwork(entry.state,"book-painted-cover"):<img loading="lazy" src={imageFor(entry.state.scene,entry.state.starter)} alt=""/>}');
+writeFileSync('src/Bookshelf.tsx',books);

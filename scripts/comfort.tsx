@@ -1,0 +1,50 @@
+import assert from 'node:assert/strict';
+import {renderToStaticMarkup} from 'react-dom/server';
+import {initial,available,advance,byId,storyText,type State} from '../src/story';
+import {restoreSave} from '../src/save';
+import {archiveJourney,parseBooks,learnWord,parseLearnedWords,parseReader,defaultReader} from '../src/collections';
+import {pendingChapter,continueChapter,chapterRecap} from '../src/chapters';
+import {bagItems} from '../src/inventory';
+import {Bookshelf} from '../src/Bookshelf';
+import {MyWords} from '../src/MyWords';
+import {AdventureBag} from '../src/AdventureBag';
+import {ReaderControls} from '../src/ReaderControls';
+const choose=(state:State,flag:string)=>{const choice=available(state).find(choice=>choice.flag===flag||choice.label===flag);assert.ok(choice,`${flag} missing at ${state.scene}`);return advance(state,choice);};
+let journey:State={...initial('Squirtle'),journeyId:'journey-one',acknowledgedChapters:[1]};
+assert.equal(pendingChapter(journey),null);let pauseCount=0;
+while(!byId[journey.scene].ending){
+ assert.ok(journey.history.length<45,'Unexpected story loop');
+ const beforeScene=journey.scene,choice=available(journey)[0];journey=advance(journey,choice);
+ if(byId[beforeScene].chapter!==byId[journey.scene].chapter){
+  pauseCount++;const chapter=pendingChapter(journey);assert.equal(chapter,byId[journey.scene].chapter);
+  const restored=restoreSave(JSON.stringify(journey))!;assert.equal(pendingChapter(restored),chapter,'A pending bookmark must survive reload');
+  const recap=chapterRecap(restored);assert.equal(recap.completed,chapter!-1);assert.ok(recap.memories.length>=2);assert.ok(recap.carry);
+  const historyLength=restored.history.length;journey=continueChapter(restored);assert.equal(pendingChapter(journey),null);assert.equal(journey.history.length,historyLength,'A chapter continue must not invent a choice');
+  assert.equal(journey.journeyId,'journey-one');
+ }
+}
+assert.equal(pauseCount,4);assert.equal(pendingChapter(journey),null);
+const one=archiveJourney([],journey,'2026-10-25T10:00:00Z');assert.equal(one.length,1);
+assert.equal(archiveJourney(one,journey,'2026-10-25T11:00:00Z'),one,'Reloading an ending must not duplicate its finished book');
+const two=archiveJourney(one,{...journey,journeyId:'journey-two'},'2026-10-25T12:00:00Z');assert.equal(two.length,2,'Two independent runs of the same route are two books');
+assert.equal(archiveJourney(two,initial('Bulbasaur'),'2026-10-25'),two,'An unfinished adventure is not a completed book');
+const snapshot=JSON.stringify(two);const current={...initial('Charmander'),journeyId:'a-new-adventure'};
+const html=renderToStaticMarkup(<Bookshelf books={two} collected={[journey.scene]} imageFor={()=>'local-art.svg'}/>);assert.ok(html.includes('Open this book'));assert.equal(JSON.stringify(two),snapshot);assert.equal(current.scene,'lantern');
+const cloned=archiveJourney([],journey,'2026-10-25');const originalFlags=[...journey.flags];journey.flags.push('external-mutation');assert.ok(!cloned[0].state.flags.includes('external-mutation'));journey.flags=originalFlags;
+const restoredBooks=parseBooks(JSON.stringify(two));assert.equal(restoredBooks.length,2);assert.equal(restoredBooks[0].state.journeyId,'journey-two');assert.deepEqual(restoredBooks[0].state.history,two[0].state.history);
+assert.equal(parseBooks(JSON.stringify([...two,two[0],{id:'broken',completedAt:'bad',state:null}])).length,2);assert.deepEqual(parseBooks('bad json'),[]);
+const old=restoreSave(JSON.stringify({...initial('Bulbasaur'),scene:'bank'}))!;assert.equal(pendingChapter(old),null,'Old saves should not gain a surprise chapter pause');assert.deepEqual(old.acknowledgedChapters,[1,2,3]);
+let words=learnWord([], 'stars',initial('Bulbasaur'),'2026-10-25');assert.equal(words[0].word,'star');assert.ok(storyText(byId.lantern,initial('Bulbasaur')).includes(words[0].example));
+assert.equal(learnWord(words,'Star',initial('Squirtle'),'2026-10-26'),words,'Inflections and repeat taps must not duplicate a word');
+assert.equal(learnWord(words,'gear',initial('Squirtle'),'2026-10-26'),words,'Never invent an example that was absent from the selected story');
+const trail={...initial('Squirtle'),scene:'stairs',flags:['promiseRoute']};words=learnWord(words,'promise',trail,'2026-10-25');assert.equal(words[1].sceneTitle,'The Moonlit Promise Trail');assert.equal(words[1].starter,'Squirtle');
+assert.deepEqual(parseLearnedWords(JSON.stringify(words)),words);assert.deepEqual(parseLearnedWords('null'),[]);
+assert.ok(renderToStaticMarkup(<MyWords words={words} speak={()=>{}} speechAvailable={false}/>).includes(words[0].example));
+assert.deepEqual(parseReader('bad json'),defaultReader);assert.deepEqual(parseReader('{"readingMode":true,"textSize":"extra"}'),{readingMode:true,textSize:'extra'});
+const controls=renderToStaticMarkup(<ReaderControls preferences={{readingMode:true,textSize:'large'}} onChange={()=>{}} openBag={()=>{}} openWords={()=>{}}/>);assert.ok(controls.includes('Exit reading mode'));assert.ok(controls.includes('Text size'));
+let pack=initial('Bulbasaur');for(const flag of ['kind','map','gentle','listener','wisdom','rope'])pack=choose(pack,flag);
+const inventory=bagItems(pack);assert.ok(inventory.some(item=>item.id==='rope'&&item.choice==='Take the lens and a rescue rope'));assert.ok(inventory.some(item=>item.id==='lens'));assert.ok(!inventory.some(item=>item.id==='key'||item.id==='feather'));
+pack=choose(pack,'builder');pack=choose(pack,'safeCrossing');assert.equal(bagItems(pack).find(item=>item.id==='rope')?.used,true);
+const storedPack=JSON.stringify(pack);renderToStaticMarkup(<AdventureBag game={pack}/>);assert.equal(JSON.stringify(pack),storedPack);
+assert.ok(!renderToStaticMarkup(<AdventureBag game={null}/>).includes('Cloud feather'),'An empty pack must not reveal future treasures');
+console.log('PASS: full journey archives, duplicate prevention, independent identical runs, old-save compatibility, four persistent chapter bookmarks, contextual word collection, reader preferences and truthful inventory.');

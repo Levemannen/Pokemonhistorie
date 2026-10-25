@@ -1,0 +1,928 @@
+{
+  "version": 2,
+  "artType": "Mixed locally prepared full-scene AI artwork and clearly labeled SVG fallbacks",
+  "scenes": {
+    "lantern": {
+      "base": {
+        "Bulbasaur": "images/scenes/painted/lantern-bulbasaur.png",
+        "Charmander": "images/scenes/painted/lantern-charmander.png",
+        "Squirtle": "images/scenes/painted/lantern-squirtle.png"
+      },
+      "visualSituation": "lantern",
+      "promptKeys": [
+        "lantern-bulbasaur.svg",
+        "lantern-charmander.svg",
+        "lantern-squirtle.svg"
+      ],
+      "fallbackBase": {
+        "Bulbasaur": "images/scenes/lantern-bulbasaur.svg",
+        "Charmander": "images/scenes/lantern-charmander.svg",
+        "Squirtle": "images/scenes/lantern-squirtle.svg"
+      },
+      "render": "painted-baked",
+      "variants": []
+    },
+    "square": {
+      "base": {
+        "Bulbasaur": "images/scenes/painted/scene-square.png",
+        "Charmander": "images/scenes/painted/scene-square.png",
+        "Squirtle": "images/scenes/painted/scene-square.png"
+      },
+      "visualSituation": "map",
+      "promptKeys": [
+        "square-bulbasaur.svg",
+        "square-charmander.svg",
+        "square-squirtle.svg"
+      ],
+      "fallbackBase": {
+        "Bulbasaur": "images/scenes/square-bulbasaur.svg",
+        "Charmander": "images/scenes/square-charmander.svg",
+        "Squirtle": "images/scenes/square-squirtle.svg"
+      },
+      "render": "painted-baked",
+      "variants": []
+    },
+    "hill": {
+      "base": {
+        "Bulbasaur": "images/scenes/painted/scene-hill.png",
+        "Charmander": "images/scenes/painted/scene-hill.png",
+        "Squirtle": "images/scenes/painted/scene-hill.png"
+      },
+      "visualSituation": "owl",
+      "promptKeys": [
+        "hill-bulbasaur.svg",
+        "hill-charmander.svg",
+        "hill-squirtle.svg"
+      ],
+      "fallbackBase": {
+        "Bulbasaur": "images/scenes/hill-bulbasaur.svg",
+        "Charmander": "images/scenes/hill-charmander.svg",
+        "Squirtle": "images/scenes/hill-squirtle.svg"
+      },
+      "render": "painted-baked",
+      "variants": []
+    },
+    "gate": {
+      "base": {
+        "Bulbasaur": "images/scenes/painted/scene-gate.png",
+        "Charmander": "images/scenes/painted/scene-gate.png",
+        "Squirtle": "images/scenes/painted/scene-gate.png"
+      },
+      "visualSituation": "gate",
+      "promptKeys": [
+        "gate-bulbasaur.svg",
+        "gate-charmander.svg",
+        "gate-squirtle.svg"
+      ],
+      "fallbackBase": {
+        "Bulbasaur": "images/scenes/gate-bulbasaur.svg",
+        "Charmander": "images/scenes/gate-charmander.svg",
+        "Squirtle": "images/scenes/gate-squirtle.svg"
+      },
+      "render": "painted-baked",
+      "variants": [
+        {
+          "path": "images/scenes/painted/gate-eevee.png",
+          "needs": "companion:Eevee",
+          "priority": 15
+        },
+        {
+          "path": "images/scenes/painted/gate-hoothoot-v2.png",
+          "needs": "companion:Hoothoot",
+          "priority": 15
+        }
+      ]
+    },
+    "ridge": {
+      "base": {
+        "Bulbasaur": "images/scenes/ridge-bulbasaur.svg",
+        "Charmander": "images/scenes/painted/scene-ridge-charmander.png",
+        "Squirtle": "images/scenes/ridge-squirtle.svg"
+      },
+      "visualSituation": "nest",
+      "promptKeys": [
+        "ridge-bulbasaur.svg",
+        "ridge-charmander.svg",
+        "ridge-squirtle.svg"
+      ],
+      "fallbackBase": {
+        "Bulbasaur": "images/scenes/ridge-bulbasaur.svg",
+        "Charmander": "images/scenes/ridge-charmander.svg",
+        "Squirtle": "images/scenes/ridge-squirtle.svg"
+      },
+      "render": "painted-baked",
+      "variants": []
+    },
+    "brook": {
+      "base": {
+        "Bulbasaur": "images/scenes/painted/scene-brook.png",
+        "Charmander": "images/scenes/painted/scene-brook.png",
+        "Squirtle": "images/scenes/painted/scene-brook.png"
+      },
+      "visualSituation": "bottle",
+      "promptKeys": [
+        "brook-bulbasaur.svg",
+        "brook-charmander.svg",
+        "brook-squirtle.svg"
+      ],
+      "fallbackBase": {
+        "Bulbasaur": "images/scenes/brook-bulbasaur.svg",
+        "Charmander": "images/scenes/brook-charmander.svg",
+        "Squirtle": "images/scenes/brook-squirtle.svg"
+      },
+      "render": "painted-baked",
+      "variants": []
+    },
+    "grove": {
+      "base": {
+        "Bulbasaur": "images/scenes/painted/scene-grove-bulbasaur.png",
+        "Charmander": "images/scenes/grove-charmander.svg",
+        "Squirtle": "images/scenes/grove-squirtle.svg"
+      },
+      "visualSituation": "ivy",
+      "promptKeys": [
+        "grove-bulbasaur.svg",
+        "grove-charmander.svg",
+        "grove-squirtle.svg"
+      ],
+      "fallbackBase": {
+        "Bulbasaur": "images/scenes/grove-bulbasaur.svg",
+        "Charmander": "images/scenes/grove-charmander.svg",
+        "Squirtle": "images/scenes/grove-squirtle.svg"
+      },
+      "render": "painted-baked",
+      "variants": []
+    },
+    "rescue": {
+      "base": {
+        "Bulbasaur": "images/scenes/painted/scene-rescue.png",
+        "Charmander": "images/scenes/painted/scene-rescue.png",
+        "Squirtle": "images/scenes/painted/scene-rescue.png"
+      },
+      "visualSituation": "pikachu",
+      "promptKeys": [
+        "rescue-bulbasaur.svg",
+        "rescue-charmander.svg",
+        "rescue-squirtle.svg"
+      ],
+      "fallbackBase": {
+        "Bulbasaur": "images/scenes/rescue-bulbasaur.svg",
+        "Charmander": "images/scenes/rescue-charmander.svg",
+        "Squirtle": "images/scenes/rescue-squirtle.svg"
+      },
+      "render": "painted-baked",
+      "variants": []
+    },
+    "mushrooms": {
+      "base": {
+        "Bulbasaur": "images/scenes/painted/scene-mushrooms.png",
+        "Charmander": "images/scenes/painted/scene-mushrooms.png",
+        "Squirtle": "images/scenes/painted/scene-mushrooms.png"
+      },
+      "visualSituation": "mushrooms",
+      "promptKeys": [
+        "mushrooms-bulbasaur.svg",
+        "mushrooms-charmander.svg",
+        "mushrooms-squirtle.svg"
+      ],
+      "fallbackBase": {
+        "Bulbasaur": "images/scenes/mushrooms-bulbasaur.svg",
+        "Charmander": "images/scenes/mushrooms-charmander.svg",
+        "Squirtle": "images/scenes/mushrooms-squirtle.svg"
+      },
+      "render": "painted-baked",
+      "variants": []
+    },
+    "hollow": {
+      "base": {
+        "Bulbasaur": "images/scenes/painted/scene-hollow.png",
+        "Charmander": "images/scenes/painted/scene-hollow.png",
+        "Squirtle": "images/scenes/painted/scene-hollow.png"
+      },
+      "visualSituation": "ghost",
+      "promptKeys": [
+        "hollow-bulbasaur.svg",
+        "hollow-charmander.svg",
+        "hollow-squirtle.svg"
+      ],
+      "fallbackBase": {
+        "Bulbasaur": "images/scenes/hollow-bulbasaur.svg",
+        "Charmander": "images/scenes/hollow-charmander.svg",
+        "Squirtle": "images/scenes/hollow-squirtle.svg"
+      },
+      "render": "painted-baked",
+      "variants": []
+    },
+    "roots": {
+      "base": {
+        "Bulbasaur": "images/scenes/painted/scene-roots.png",
+        "Charmander": "images/scenes/painted/scene-roots.png",
+        "Squirtle": "images/scenes/painted/scene-roots.png"
+      },
+      "visualSituation": "tree",
+      "promptKeys": [
+        "roots-bulbasaur.svg",
+        "roots-charmander.svg",
+        "roots-squirtle.svg"
+      ],
+      "fallbackBase": {
+        "Bulbasaur": "images/scenes/roots-bulbasaur.svg",
+        "Charmander": "images/scenes/roots-charmander.svg",
+        "Squirtle": "images/scenes/roots-squirtle.svg"
+      },
+      "render": "painted-baked",
+      "variants": []
+    },
+    "clearing": {
+      "base": {
+        "Bulbasaur": "images/scenes/painted/scene-clearing.png",
+        "Charmander": "images/scenes/painted/scene-clearing.png",
+        "Squirtle": "images/scenes/painted/scene-clearing.png"
+      },
+      "visualSituation": "lens",
+      "promptKeys": [
+        "clearing-bulbasaur.svg",
+        "clearing-charmander.svg",
+        "clearing-squirtle.svg"
+      ],
+      "fallbackBase": {
+        "Bulbasaur": "images/scenes/clearing-bulbasaur.svg",
+        "Charmander": "images/scenes/clearing-charmander.svg",
+        "Squirtle": "images/scenes/clearing-squirtle.svg"
+      },
+      "render": "painted-baked",
+      "variants": [
+        {
+          "path": "images/scenes/painted/clearing-nest.png",
+          "needs": "nestGift",
+          "priority": 10
+        }
+      ]
+    },
+    "bank": {
+      "base": {
+        "Bulbasaur": "images/scenes/painted/scene-bank.png",
+        "Charmander": "images/scenes/painted/scene-bank.png",
+        "Squirtle": "images/scenes/painted/scene-bank.png"
+      },
+      "visualSituation": "lapras",
+      "promptKeys": [
+        "bank-bulbasaur.svg",
+        "bank-charmander.svg",
+        "bank-squirtle.svg"
+      ],
+      "fallbackBase": {
+        "Bulbasaur": "images/scenes/bank-bulbasaur.svg",
+        "Charmander": "images/scenes/bank-charmander.svg",
+        "Squirtle": "images/scenes/bank-squirtle.svg"
+      },
+      "render": "painted-baked",
+      "variants": []
+    },
+    "lapras": {
+      "base": {
+        "Bulbasaur": "images/scenes/lapras-bulbasaur.svg",
+        "Charmander": "images/scenes/lapras-charmander.svg",
+        "Squirtle": "images/scenes/lapras-squirtle.svg"
+      },
+      "visualSituation": "song",
+      "promptKeys": [
+        "lapras-bulbasaur.svg",
+        "lapras-charmander.svg",
+        "lapras-squirtle.svg"
+      ],
+      "fallbackBase": {
+        "Bulbasaur": "images/scenes/lapras-bulbasaur.svg",
+        "Charmander": "images/scenes/lapras-charmander.svg",
+        "Squirtle": "images/scenes/lapras-squirtle.svg"
+      },
+      "variants": []
+    },
+    "ferry": {
+      "base": {
+        "Bulbasaur": "images/scenes/painted/scene-ferry.png",
+        "Charmander": "images/scenes/painted/scene-ferry.png",
+        "Squirtle": "images/scenes/painted/scene-ferry.png"
+      },
+      "visualSituation": "ferry",
+      "promptKeys": [
+        "ferry-bulbasaur.svg",
+        "ferry-charmander.svg",
+        "ferry-squirtle.svg"
+      ],
+      "fallbackBase": {
+        "Bulbasaur": "images/scenes/ferry-bulbasaur.svg",
+        "Charmander": "images/scenes/ferry-charmander.svg",
+        "Squirtle": "images/scenes/ferry-squirtle.svg"
+      },
+      "render": "painted-baked",
+      "variants": []
+    },
+    "falls": {
+      "base": {
+        "Bulbasaur": "images/scenes/painted/scene-falls.png",
+        "Charmander": "images/scenes/painted/scene-falls.png",
+        "Squirtle": "images/scenes/painted/scene-falls.png"
+      },
+      "visualSituation": "waterfall",
+      "promptKeys": [
+        "falls-bulbasaur.svg",
+        "falls-charmander.svg",
+        "falls-squirtle.svg"
+      ],
+      "fallbackBase": {
+        "Bulbasaur": "images/scenes/falls-bulbasaur.svg",
+        "Charmander": "images/scenes/falls-charmander.svg",
+        "Squirtle": "images/scenes/falls-squirtle.svg"
+      },
+      "render": "painted-baked",
+      "variants": []
+    },
+    "cave": {
+      "base": {
+        "Bulbasaur": "images/scenes/painted/scene-cave.png",
+        "Charmander": "images/scenes/painted/scene-cave.png",
+        "Squirtle": "images/scenes/painted/scene-cave.png"
+      },
+      "visualSituation": "notebook",
+      "promptKeys": [
+        "cave-bulbasaur.svg",
+        "cave-charmander.svg",
+        "cave-squirtle.svg"
+      ],
+      "fallbackBase": {
+        "Bulbasaur": "images/scenes/cave-bulbasaur.svg",
+        "Charmander": "images/scenes/cave-charmander.svg",
+        "Squirtle": "images/scenes/cave-squirtle.svg"
+      },
+      "render": "painted-baked",
+      "variants": []
+    },
+    "island": {
+      "base": {
+        "Bulbasaur": "images/scenes/painted/scene-island.png",
+        "Charmander": "images/scenes/painted/scene-island.png",
+        "Squirtle": "images/scenes/painted/scene-island.png"
+      },
+      "visualSituation": "memory",
+      "promptKeys": [
+        "island-bulbasaur.svg",
+        "island-charmander.svg",
+        "island-squirtle.svg"
+      ],
+      "fallbackBase": {
+        "Bulbasaur": "images/scenes/island-bulbasaur.svg",
+        "Charmander": "images/scenes/island-charmander.svg",
+        "Squirtle": "images/scenes/island-squirtle.svg"
+      },
+      "render": "painted-baked",
+      "variants": [
+        {
+          "path": "images/scenes/painted/island-lapras-v2.png",
+          "needs": "companion:Lapras",
+          "priority": 15
+        },
+        {
+          "path": "images/scenes/painted/island-psyduck-v2.png",
+          "needs": "companion:Psyduck",
+          "priority": 15
+        }
+      ]
+    },
+    "bridge": {
+      "base": {
+        "Bulbasaur": "images/scenes/painted/scene-bridge.png",
+        "Charmander": "images/scenes/painted/scene-bridge.png",
+        "Squirtle": "images/scenes/painted/scene-bridge.png"
+      },
+      "visualSituation": "bridge",
+      "promptKeys": [
+        "bridge-bulbasaur.svg",
+        "bridge-charmander.svg",
+        "bridge-squirtle.svg"
+      ],
+      "fallbackBase": {
+        "Bulbasaur": "images/scenes/bridge-bulbasaur.svg",
+        "Charmander": "images/scenes/bridge-charmander.svg",
+        "Squirtle": "images/scenes/bridge-squirtle.svg"
+      },
+      "render": "painted-baked",
+      "variants": [
+        {
+          "path": "images/scenes/painted/bridge-promise.png",
+          "needs": "promiseTrail",
+          "priority": 10
+        }
+      ]
+    },
+    "stairs": {
+      "base": {
+        "Bulbasaur": "images/scenes/painted/scene-stairs.png",
+        "Charmander": "images/scenes/painted/scene-stairs.png",
+        "Squirtle": "images/scenes/painted/scene-stairs.png"
+      },
+      "visualSituation": "scarf",
+      "promptKeys": [
+        "stairs-bulbasaur.svg",
+        "stairs-charmander.svg",
+        "stairs-squirtle.svg"
+      ],
+      "fallbackBase": {
+        "Bulbasaur": "images/scenes/stairs-bulbasaur.svg",
+        "Charmander": "images/scenes/stairs-charmander.svg",
+        "Squirtle": "images/scenes/stairs-squirtle.svg"
+      },
+      "render": "painted-baked",
+      "variants": [
+        {
+          "path": "images/scenes/painted/stairs-promise.png",
+          "needs": "promiseRoute",
+          "priority": 10
+        }
+      ]
+    },
+    "shelter": {
+      "base": {
+        "Bulbasaur": "images/scenes/painted/scene-shelter.png",
+        "Charmander": "images/scenes/painted/scene-shelter.png",
+        "Squirtle": "images/scenes/painted/scene-shelter.png"
+      },
+      "visualSituation": "altaria",
+      "promptKeys": [
+        "shelter-bulbasaur.svg",
+        "shelter-charmander.svg",
+        "shelter-squirtle.svg"
+      ],
+      "fallbackBase": {
+        "Bulbasaur": "images/scenes/shelter-bulbasaur.svg",
+        "Charmander": "images/scenes/shelter-charmander.svg",
+        "Squirtle": "images/scenes/shelter-squirtle.svg"
+      },
+      "render": "painted-baked",
+      "variants": []
+    },
+    "observatory": {
+      "base": {
+        "Bulbasaur": "images/scenes/painted/scene-observatory-bulbasaur.png",
+        "Charmander": "images/scenes/painted/scene-observatory-charmander.png",
+        "Squirtle": "images/scenes/painted/scene-observatory-squirtle.png"
+      },
+      "visualSituation": "gears",
+      "promptKeys": [
+        "observatory-bulbasaur.svg",
+        "observatory-charmander.svg",
+        "observatory-squirtle.svg"
+      ],
+      "fallbackBase": {
+        "Bulbasaur": "images/scenes/observatory-bulbasaur.svg",
+        "Charmander": "images/scenes/observatory-charmander.svg",
+        "Squirtle": "images/scenes/observatory-squirtle.svg"
+      },
+      "render": "painted-baked",
+      "variants": [
+        {
+          "path": "images/scenes/painted/observatory-guard.png",
+          "needs": "pikachuHelp",
+          "priority": 10
+        }
+      ]
+    },
+    "roof": {
+      "base": {
+        "Bulbasaur": "images/scenes/painted/scene-roof.png",
+        "Charmander": "images/scenes/painted/scene-roof.png",
+        "Squirtle": "images/scenes/painted/scene-roof.png"
+      },
+      "visualSituation": "constellation",
+      "promptKeys": [
+        "roof-bulbasaur.svg",
+        "roof-charmander.svg",
+        "roof-squirtle.svg"
+      ],
+      "fallbackBase": {
+        "Bulbasaur": "images/scenes/roof-bulbasaur.svg",
+        "Charmander": "images/scenes/roof-charmander.svg",
+        "Squirtle": "images/scenes/roof-squirtle.svg"
+      },
+      "render": "painted-baked",
+      "variants": [
+        {
+          "path": "images/scenes/painted/roof-flock.png",
+          "needs": "flockGuide",
+          "priority": 10
+        }
+      ]
+    },
+    "tower": {
+      "base": {
+        "Bulbasaur": "images/scenes/painted/scene-tower.png",
+        "Charmander": "images/scenes/painted/scene-tower.png",
+        "Squirtle": "images/scenes/painted/scene-tower.png"
+      },
+      "visualSituation": "door",
+      "promptKeys": [
+        "tower-bulbasaur.svg",
+        "tower-charmander.svg",
+        "tower-squirtle.svg"
+      ],
+      "fallbackBase": {
+        "Bulbasaur": "images/scenes/tower-bulbasaur.svg",
+        "Charmander": "images/scenes/tower-charmander.svg",
+        "Squirtle": "images/scenes/tower-squirtle.svg"
+      },
+      "render": "painted-baked",
+      "variants": []
+    },
+    "lumi": {
+      "base": {
+        "Bulbasaur": "images/scenes/painted/scene-lumi.png",
+        "Charmander": "images/scenes/painted/scene-lumi.png",
+        "Squirtle": "images/scenes/painted/scene-lumi.png"
+      },
+      "visualSituation": "clefairy",
+      "promptKeys": [
+        "lumi-bulbasaur.svg",
+        "lumi-charmander.svg",
+        "lumi-squirtle.svg"
+      ],
+      "fallbackBase": {
+        "Bulbasaur": "images/scenes/lumi-bulbasaur.svg",
+        "Charmander": "images/scenes/lumi-charmander.svg",
+        "Squirtle": "images/scenes/lumi-squirtle.svg"
+      },
+      "render": "painted-baked",
+      "variants": [
+        {
+          "path": "images/scenes/painted/lumi-reply.png",
+          "needs": "replyTrust",
+          "priority": 10
+        },
+        {
+          "path": "images/scenes/painted/lumi-scarf.png",
+          "needs": "returnedScarf",
+          "priority": 20
+        },
+        {
+          "path": "images/scenes/painted/lumi-promise.png",
+          "needs": "keptPromise",
+          "priority": 30
+        }
+      ]
+    },
+    "listen": {
+      "base": {
+        "Bulbasaur": "images/scenes/painted/scene-listen.png",
+        "Charmander": "images/scenes/painted/scene-listen.png",
+        "Squirtle": "images/scenes/painted/scene-listen.png"
+      },
+      "visualSituation": "shinx",
+      "promptKeys": [
+        "listen-bulbasaur.svg",
+        "listen-charmander.svg",
+        "listen-squirtle.svg"
+      ],
+      "fallbackBase": {
+        "Bulbasaur": "images/scenes/listen-bulbasaur.svg",
+        "Charmander": "images/scenes/listen-charmander.svg",
+        "Squirtle": "images/scenes/listen-squirtle.svg"
+      },
+      "render": "painted-baked",
+      "variants": []
+    },
+    "plan": {
+      "base": {
+        "Bulbasaur": "images/scenes/painted/scene-plan.png",
+        "Charmander": "images/scenes/painted/scene-plan.png",
+        "Squirtle": "images/scenes/painted/scene-plan.png"
+      },
+      "visualSituation": "rings",
+      "promptKeys": [
+        "plan-bulbasaur.svg",
+        "plan-charmander.svg",
+        "plan-squirtle.svg"
+      ],
+      "fallbackBase": {
+        "Bulbasaur": "images/scenes/plan-bulbasaur.svg",
+        "Charmander": "images/scenes/plan-charmander.svg",
+        "Squirtle": "images/scenes/plan-squirtle.svg"
+      },
+      "render": "painted-baked",
+      "variants": []
+    },
+    "sky": {
+      "base": {
+        "Bulbasaur": "images/scenes/painted/scene-sky.png",
+        "Charmander": "images/scenes/painted/scene-sky.png",
+        "Squirtle": "images/scenes/painted/scene-sky.png"
+      },
+      "visualSituation": "sky",
+      "promptKeys": [
+        "sky-bulbasaur.svg",
+        "sky-charmander.svg",
+        "sky-squirtle.svg"
+      ],
+      "fallbackBase": {
+        "Bulbasaur": "images/scenes/sky-bulbasaur.svg",
+        "Charmander": "images/scenes/sky-charmander.svg",
+        "Squirtle": "images/scenes/sky-squirtle.svg"
+      },
+      "render": "painted-baked",
+      "variants": []
+    },
+    "heart": {
+      "base": {
+        "Bulbasaur": "images/scenes/heart-bulbasaur.svg",
+        "Charmander": "images/scenes/heart-charmander.svg",
+        "Squirtle": "images/scenes/heart-squirtle.svg"
+      },
+      "visualSituation": "heart",
+      "promptKeys": [
+        "heart-bulbasaur.svg",
+        "heart-charmander.svg",
+        "heart-squirtle.svg"
+      ],
+      "fallbackBase": {
+        "Bulbasaur": "images/scenes/heart-bulbasaur.svg",
+        "Charmander": "images/scenes/heart-charmander.svg",
+        "Squirtle": "images/scenes/heart-squirtle.svg"
+      },
+      "variants": []
+    },
+    "earth": {
+      "base": {
+        "Bulbasaur": "images/scenes/painted/scene-earth.png",
+        "Charmander": "images/scenes/painted/scene-earth.png",
+        "Squirtle": "images/scenes/painted/scene-earth.png"
+      },
+      "visualSituation": "seed",
+      "promptKeys": [
+        "earth-bulbasaur.svg",
+        "earth-charmander.svg",
+        "earth-squirtle.svg"
+      ],
+      "fallbackBase": {
+        "Bulbasaur": "images/scenes/earth-bulbasaur.svg",
+        "Charmander": "images/scenes/earth-charmander.svg",
+        "Squirtle": "images/scenes/earth-squirtle.svg"
+      },
+      "render": "painted-baked",
+      "variants": [
+        {
+          "path": "images/scenes/painted/earth-lanterns.png",
+          "needs": "floatingLanterns",
+          "priority": 10
+        },
+        {
+          "path": "images/scenes/painted/earth-garden.png",
+          "needs": "garden",
+          "priority": 20
+        }
+      ]
+    },
+    "endDawn": {
+      "base": {
+        "Bulbasaur": "images/scenes/painted/scene-endDawn.png",
+        "Charmander": "images/scenes/painted/scene-endDawn.png",
+        "Squirtle": "images/scenes/painted/scene-endDawn.png"
+      },
+      "visualSituation": "dawn",
+      "promptKeys": [
+        "endDawn-bulbasaur.svg",
+        "endDawn-charmander.svg",
+        "endDawn-squirtle.svg"
+      ],
+      "fallbackBase": {
+        "Bulbasaur": "images/scenes/endDawn-bulbasaur.svg",
+        "Charmander": "images/scenes/endDawn-charmander.svg",
+        "Squirtle": "images/scenes/endDawn-squirtle.svg"
+      },
+      "render": "painted-baked",
+      "variants": []
+    },
+    "endAurora": {
+      "base": {
+        "Bulbasaur": "images/scenes/painted/scene-endAurora.png",
+        "Charmander": "images/scenes/painted/scene-endAurora.png",
+        "Squirtle": "images/scenes/painted/scene-endAurora.png"
+      },
+      "visualSituation": "aurora",
+      "promptKeys": [
+        "endAurora-bulbasaur.svg",
+        "endAurora-charmander.svg",
+        "endAurora-squirtle.svg"
+      ],
+      "fallbackBase": {
+        "Bulbasaur": "images/scenes/endAurora-bulbasaur.svg",
+        "Charmander": "images/scenes/endAurora-charmander.svg",
+        "Squirtle": "images/scenes/endAurora-squirtle.svg"
+      },
+      "render": "painted-baked",
+      "variants": []
+    },
+    "endSong": {
+      "base": {
+        "Bulbasaur": "images/scenes/endSong-bulbasaur.svg",
+        "Charmander": "images/scenes/endSong-charmander.svg",
+        "Squirtle": "images/scenes/endSong-squirtle.svg"
+      },
+      "visualSituation": "music",
+      "promptKeys": [
+        "endSong-bulbasaur.svg",
+        "endSong-charmander.svg",
+        "endSong-squirtle.svg"
+      ],
+      "fallbackBase": {
+        "Bulbasaur": "images/scenes/endSong-bulbasaur.svg",
+        "Charmander": "images/scenes/endSong-charmander.svg",
+        "Squirtle": "images/scenes/endSong-squirtle.svg"
+      },
+      "variants": []
+    },
+    "endSanctuary": {
+      "base": {
+        "Bulbasaur": "images/scenes/endSanctuary-bulbasaur.svg",
+        "Charmander": "images/scenes/endSanctuary-charmander.svg",
+        "Squirtle": "images/scenes/endSanctuary-squirtle.svg"
+      },
+      "visualSituation": "sanctuary",
+      "promptKeys": [
+        "endSanctuary-bulbasaur.svg",
+        "endSanctuary-charmander.svg",
+        "endSanctuary-squirtle.svg"
+      ],
+      "fallbackBase": {
+        "Bulbasaur": "images/scenes/endSanctuary-bulbasaur.svg",
+        "Charmander": "images/scenes/endSanctuary-charmander.svg",
+        "Squirtle": "images/scenes/endSanctuary-squirtle.svg"
+      },
+      "variants": []
+    },
+    "endLantern": {
+      "base": {
+        "Bulbasaur": "images/scenes/endLantern-bulbasaur.svg",
+        "Charmander": "images/scenes/endLantern-charmander.svg",
+        "Squirtle": "images/scenes/endLantern-squirtle.svg"
+      },
+      "visualSituation": "parade",
+      "promptKeys": [
+        "endLantern-bulbasaur.svg",
+        "endLantern-charmander.svg",
+        "endLantern-squirtle.svg"
+      ],
+      "fallbackBase": {
+        "Bulbasaur": "images/scenes/endLantern-bulbasaur.svg",
+        "Charmander": "images/scenes/endLantern-charmander.svg",
+        "Squirtle": "images/scenes/endLantern-squirtle.svg"
+      },
+      "variants": []
+    },
+    "endGarden": {
+      "base": {
+        "Bulbasaur": "images/scenes/painted/scene-endGarden.png",
+        "Charmander": "images/scenes/painted/scene-endGarden.png",
+        "Squirtle": "images/scenes/painted/scene-endGarden.png"
+      },
+      "visualSituation": "starTree",
+      "promptKeys": [
+        "endGarden-bulbasaur.svg",
+        "endGarden-charmander.svg",
+        "endGarden-squirtle.svg"
+      ],
+      "fallbackBase": {
+        "Bulbasaur": "images/scenes/endGarden-bulbasaur.svg",
+        "Charmander": "images/scenes/endGarden-charmander.svg",
+        "Squirtle": "images/scenes/endGarden-squirtle.svg"
+      },
+      "render": "painted-baked",
+      "variants": [
+        {
+          "path": "images/scenes/painted/endGarden-reeds.png",
+          "needs": "reedGarden",
+          "priority": 10
+        }
+      ]
+    },
+    "echoArchive": {
+      "base": {
+        "Bulbasaur": "images/scenes/painted/scene-echoArchive.png",
+        "Charmander": "images/scenes/painted/scene-echoArchive.png",
+        "Squirtle": "images/scenes/painted/scene-echoArchive.png"
+      },
+      "visualSituation": "notebook",
+      "promptKeys": [
+        "cave-bulbasaur.svg",
+        "cave-charmander.svg",
+        "cave-squirtle.svg"
+      ],
+      "fallbackSourceScene": "cave",
+      "artStatus": "Existing local fallback reused; new illustration deferred",
+      "fallbackBase": {
+        "Bulbasaur": "images/scenes/cave-bulbasaur.svg",
+        "Charmander": "images/scenes/cave-charmander.svg",
+        "Squirtle": "images/scenes/cave-squirtle.svg"
+      },
+      "render": "painted-baked",
+      "variants": []
+    },
+    "reedWorkshop": {
+      "base": {
+        "Bulbasaur": "images/scenes/painted/scene-reedWorkshop.png",
+        "Charmander": "images/scenes/painted/scene-reedWorkshop.png",
+        "Squirtle": "images/scenes/painted/scene-reedWorkshop.png"
+      },
+      "visualSituation": "ferry",
+      "promptKeys": [
+        "ferry-bulbasaur.svg",
+        "ferry-charmander.svg",
+        "ferry-squirtle.svg"
+      ],
+      "fallbackSourceScene": "ferry",
+      "artStatus": "Existing local fallback reused; new illustration deferred",
+      "fallbackBase": {
+        "Bulbasaur": "images/scenes/ferry-bulbasaur.svg",
+        "Charmander": "images/scenes/ferry-charmander.svg",
+        "Squirtle": "images/scenes/ferry-squirtle.svg"
+      },
+      "render": "painted-baked",
+      "variants": []
+    },
+    "windwatch": {
+      "base": {
+        "Bulbasaur": "images/scenes/painted/scene-windwatch.png",
+        "Charmander": "images/scenes/painted/scene-windwatch.png",
+        "Squirtle": "images/scenes/painted/scene-windwatch.png"
+      },
+      "visualSituation": "altaria",
+      "promptKeys": [
+        "shelter-bulbasaur.svg",
+        "shelter-charmander.svg",
+        "shelter-squirtle.svg"
+      ],
+      "fallbackSourceScene": "shelter",
+      "artStatus": "Existing local fallback reused; new illustration deferred",
+      "fallbackBase": {
+        "Bulbasaur": "images/scenes/shelter-bulbasaur.svg",
+        "Charmander": "images/scenes/shelter-charmander.svg",
+        "Squirtle": "images/scenes/shelter-squirtle.svg"
+      },
+      "render": "painted-baked",
+      "variants": []
+    }
+  },
+  "companionLayers": {
+    "Eevee": "images/scenes/companion-eevee.svg",
+    "Hoothoot": "images/scenes/companion-hoothoot.svg",
+    "Pikachu": "images/scenes/companion-pikachu.svg",
+    "Lapras": "images/scenes/companion-lapras.svg",
+    "Psyduck": "images/scenes/companion-psyduck.svg"
+  },
+  "decisionLayers": [
+    {
+      "flag": "scarf",
+      "scenes": [
+        "shelter",
+        "observatory",
+        "roof",
+        "tower"
+      ],
+      "path": "images/scenes/decision-scarf.svg"
+    },
+    {
+      "flag": "feather",
+      "scenes": [
+        "observatory",
+        "roof",
+        "tower",
+        "lumi",
+        "listen",
+        "plan",
+        "sky",
+        "heart",
+        "earth"
+      ],
+      "path": "images/scenes/decision-feather.svg"
+    },
+    {
+      "flag": "rescue",
+      "scenes": [
+        "observatory",
+        "roof"
+      ],
+      "path": "images/scenes/decision-spark.svg"
+    },
+    {
+      "flag": "garden",
+      "scenes": [
+        "endGarden"
+      ],
+      "path": "images/scenes/decision-flowers.svg"
+    }
+  ],
+  "coverage": {
+    "paintedScenes": 33,
+    "totalScenes": 39,
+    "completedAssets": 52,
+    "plannedAssets": 59,
+    "optionalAssets": 6
+  }
+}
