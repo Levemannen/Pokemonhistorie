@@ -1,214 +1,234 @@
 [
   {
-    "label": "lantern / Bulbasaur",
-    "path": "images/scenes/painted/lantern-bulbasaur.png"
+    "path": "images/scenes/painted/lantern-bulbasaur.png",
+    "label": "lantern / Bulbasaur"
   },
   {
-    "label": "lantern / Charmander",
-    "path": "images/scenes/painted/lantern-charmander.png"
+    "path": "images/scenes/painted/lantern-charmander.png",
+    "label": "lantern / Charmander"
   },
   {
-    "label": "lantern / Squirtle",
-    "path": "images/scenes/painted/lantern-squirtle.png"
+    "path": "images/scenes/painted/lantern-squirtle.png",
+    "label": "lantern / Squirtle"
   },
   {
-    "label": "square / Bulbasaur",
-    "path": "images/scenes/painted/scene-square.png"
+    "path": "images/scenes/painted/scene-square.png",
+    "label": "square / Bulbasaur"
   },
   {
-    "label": "hill / Bulbasaur",
-    "path": "images/scenes/painted/scene-hill.png"
+    "path": "images/scenes/painted/scene-hill.png",
+    "label": "hill / Bulbasaur"
   },
   {
-    "label": "gate / Bulbasaur",
-    "path": "images/scenes/painted/scene-gate.png"
+    "path": "images/scenes/painted/scene-gate.png",
+    "label": "gate / Bulbasaur"
   },
   {
-    "label": "gate / companion:Eevee",
-    "path": "images/scenes/painted/gate-eevee.png"
+    "path": "images/scenes/painted/gate-eevee.png",
+    "label": "gate / companion:Eevee"
   },
   {
-    "label": "gate / companion:Hoothoot",
-    "path": "images/scenes/painted/gate-hoothoot-v2.png"
+    "path": "images/scenes/painted/gate-hoothoot-v2.png",
+    "label": "gate / companion:Hoothoot"
   },
   {
-    "label": "ridge / Charmander",
-    "path": "images/scenes/painted/scene-ridge-charmander.png"
+    "path": "images/scenes/painted/scene-ridge-charmander.png",
+    "label": "ridge / Charmander"
   },
   {
-    "label": "brook / Bulbasaur",
-    "path": "images/scenes/painted/scene-brook.png"
+    "path": "images/scenes/painted/scene-brook.png",
+    "label": "brook / Bulbasaur"
   },
   {
-    "label": "grove / Bulbasaur",
-    "path": "images/scenes/painted/scene-grove-bulbasaur.png"
+    "path": "images/scenes/painted/scene-grove.png",
+    "label": "grove / Bulbasaur"
   },
   {
-    "label": "rescue / Bulbasaur",
-    "path": "images/scenes/painted/scene-rescue.png"
+    "path": "images/scenes/painted/scene-rescue.png",
+    "label": "rescue / Bulbasaur"
   },
   {
-    "label": "mushrooms / Bulbasaur",
-    "path": "images/scenes/painted/scene-mushrooms.png"
+    "path": "images/scenes/painted/scene-mushrooms.png",
+    "label": "mushrooms / Bulbasaur"
   },
   {
-    "label": "hollow / Bulbasaur",
-    "path": "images/scenes/painted/scene-hollow.png"
+    "path": "images/scenes/painted/scene-hollow.png",
+    "label": "hollow / Bulbasaur"
   },
   {
-    "label": "roots / Bulbasaur",
-    "path": "images/scenes/painted/scene-roots.png"
+    "path": "images/scenes/painted/scene-roots.png",
+    "label": "roots / Bulbasaur"
   },
   {
-    "label": "clearing / Bulbasaur",
-    "path": "images/scenes/painted/scene-clearing.png"
+    "path": "images/scenes/painted/scene-clearing.png",
+    "label": "clearing / Bulbasaur"
   },
   {
-    "label": "clearing / nestGift",
-    "path": "images/scenes/painted/clearing-nest.png"
+    "path": "images/scenes/painted/clearing-nest.png",
+    "label": "clearing / nestGift"
   },
   {
-    "label": "bank / Bulbasaur",
-    "path": "images/scenes/painted/scene-bank.png"
+    "path": "images/scenes/painted/scene-bank.png",
+    "label": "bank / Bulbasaur"
   },
   {
-    "label": "ferry / Bulbasaur",
-    "path": "images/scenes/painted/scene-ferry.png"
+    "path": "images/scenes/painted/scene-lapras.png",
+    "label": "lapras / Bulbasaur"
   },
   {
-    "label": "falls / Bulbasaur",
-    "path": "images/scenes/painted/scene-falls.png"
+    "path": "images/scenes/painted/scene-ferry.png",
+    "label": "ferry / Bulbasaur"
   },
   {
-    "label": "cave / Bulbasaur",
-    "path": "images/scenes/painted/scene-cave.png"
+    "path": "images/scenes/painted/scene-falls.png",
+    "label": "falls / Bulbasaur"
   },
   {
-    "label": "island / Bulbasaur",
-    "path": "images/scenes/painted/scene-island.png"
+    "path": "images/scenes/painted/scene-cave.png",
+    "label": "cave / Bulbasaur"
   },
   {
-    "label": "island / companion:Lapras",
-    "path": "images/scenes/painted/island-lapras-v2.png"
+    "path": "images/scenes/painted/scene-island.png",
+    "label": "island / Bulbasaur"
   },
   {
-    "label": "island / companion:Psyduck",
-    "path": "images/scenes/painted/island-psyduck-v2.png"
+    "path": "images/scenes/painted/island-lapras-v2.png",
+    "label": "island / companion:Lapras"
   },
   {
-    "label": "bridge / Bulbasaur",
-    "path": "images/scenes/painted/scene-bridge.png"
+    "path": "images/scenes/painted/island-psyduck-v2.png",
+    "label": "island / companion:Psyduck"
   },
   {
-    "label": "bridge / promiseTrail",
-    "path": "images/scenes/painted/bridge-promise.png"
+    "path": "images/scenes/painted/scene-bridge.png",
+    "label": "bridge / Bulbasaur"
   },
   {
-    "label": "stairs / Bulbasaur",
-    "path": "images/scenes/painted/scene-stairs.png"
+    "path": "images/scenes/painted/bridge-promise.png",
+    "label": "bridge / promiseTrail"
   },
   {
-    "label": "stairs / promiseRoute",
-    "path": "images/scenes/painted/stairs-promise.png"
+    "path": "images/scenes/painted/scene-stairs.png",
+    "label": "stairs / Bulbasaur"
   },
   {
-    "label": "shelter / Bulbasaur",
-    "path": "images/scenes/painted/scene-shelter.png"
+    "path": "images/scenes/painted/stairs-promise.png",
+    "label": "stairs / promiseRoute"
   },
   {
-    "label": "observatory / Bulbasaur",
-    "path": "images/scenes/painted/scene-observatory-bulbasaur.png"
+    "path": "images/scenes/painted/scene-shelter.png",
+    "label": "shelter / Bulbasaur"
   },
   {
-    "label": "observatory / Charmander",
-    "path": "images/scenes/painted/scene-observatory-charmander.png"
+    "path": "images/scenes/painted/scene-observatory-bulbasaur.png",
+    "label": "observatory / Bulbasaur"
   },
   {
-    "label": "observatory / Squirtle",
-    "path": "images/scenes/painted/scene-observatory-squirtle.png"
+    "path": "images/scenes/painted/scene-observatory-charmander.png",
+    "label": "observatory / Charmander"
   },
   {
-    "label": "observatory / pikachuHelp",
-    "path": "images/scenes/painted/observatory-guard.png"
+    "path": "images/scenes/painted/scene-observatory-squirtle.png",
+    "label": "observatory / Squirtle"
   },
   {
-    "label": "roof / Bulbasaur",
-    "path": "images/scenes/painted/scene-roof.png"
+    "path": "images/scenes/painted/observatory-guard.png",
+    "label": "observatory / pikachuHelp"
   },
   {
-    "label": "roof / flockGuide",
-    "path": "images/scenes/painted/roof-flock.png"
+    "path": "images/scenes/painted/scene-roof.png",
+    "label": "roof / Bulbasaur"
   },
   {
-    "label": "tower / Bulbasaur",
-    "path": "images/scenes/painted/scene-tower.png"
+    "path": "images/scenes/painted/roof-flock.png",
+    "label": "roof / flockGuide"
   },
   {
-    "label": "lumi / Bulbasaur",
-    "path": "images/scenes/painted/scene-lumi.png"
+    "path": "images/scenes/painted/scene-tower.png",
+    "label": "tower / Bulbasaur"
   },
   {
-    "label": "lumi / replyTrust",
-    "path": "images/scenes/painted/lumi-reply.png"
+    "path": "images/scenes/painted/scene-lumi.png",
+    "label": "lumi / Bulbasaur"
   },
   {
-    "label": "lumi / returnedScarf",
-    "path": "images/scenes/painted/lumi-scarf.png"
+    "path": "images/scenes/painted/lumi-reply.png",
+    "label": "lumi / replyTrust"
   },
   {
-    "label": "lumi / keptPromise",
-    "path": "images/scenes/painted/lumi-promise.png"
+    "path": "images/scenes/painted/lumi-scarf.png",
+    "label": "lumi / returnedScarf"
   },
   {
-    "label": "listen / Bulbasaur",
-    "path": "images/scenes/painted/scene-listen.png"
+    "path": "images/scenes/painted/lumi-promise.png",
+    "label": "lumi / keptPromise"
   },
   {
-    "label": "plan / Bulbasaur",
-    "path": "images/scenes/painted/scene-plan.png"
+    "path": "images/scenes/painted/scene-listen.png",
+    "label": "listen / Bulbasaur"
   },
   {
-    "label": "sky / Bulbasaur",
-    "path": "images/scenes/painted/scene-sky.png"
+    "path": "images/scenes/painted/scene-plan.png",
+    "label": "plan / Bulbasaur"
   },
   {
-    "label": "earth / Bulbasaur",
-    "path": "images/scenes/painted/scene-earth.png"
+    "path": "images/scenes/painted/scene-sky.png",
+    "label": "sky / Bulbasaur"
   },
   {
-    "label": "earth / floatingLanterns",
-    "path": "images/scenes/painted/earth-lanterns.png"
+    "path": "images/scenes/painted/scene-heart.png",
+    "label": "heart / Bulbasaur"
   },
   {
-    "label": "earth / garden",
-    "path": "images/scenes/painted/earth-garden.png"
+    "path": "images/scenes/painted/scene-earth.png",
+    "label": "earth / Bulbasaur"
   },
   {
-    "label": "endDawn / Bulbasaur",
-    "path": "images/scenes/painted/scene-endDawn.png"
+    "path": "images/scenes/painted/earth-lanterns.png",
+    "label": "earth / floatingLanterns"
   },
   {
-    "label": "endAurora / Bulbasaur",
-    "path": "images/scenes/painted/scene-endAurora.png"
+    "path": "images/scenes/painted/earth-garden.png",
+    "label": "earth / garden"
   },
   {
-    "label": "endGarden / Bulbasaur",
-    "path": "images/scenes/painted/scene-endGarden.png"
+    "path": "images/scenes/painted/scene-endDawn.png",
+    "label": "endDawn / Bulbasaur"
   },
   {
-    "label": "endGarden / reedGarden",
-    "path": "images/scenes/painted/endGarden-reeds.png"
+    "path": "images/scenes/painted/scene-endAurora.png",
+    "label": "endAurora / Bulbasaur"
   },
   {
-    "label": "echoArchive / Bulbasaur",
-    "path": "images/scenes/painted/scene-echoArchive.png"
+    "path": "images/scenes/painted/scene-endSong.png",
+    "label": "endSong / Bulbasaur"
   },
   {
-    "label": "reedWorkshop / Bulbasaur",
-    "path": "images/scenes/painted/scene-reedWorkshop.png"
+    "path": "images/scenes/painted/scene-endSanctuary.png",
+    "label": "endSanctuary / Bulbasaur"
   },
   {
-    "label": "windwatch / Bulbasaur",
-    "path": "images/scenes/painted/scene-windwatch.png"
+    "path": "images/scenes/painted/scene-endLantern.png",
+    "label": "endLantern / Bulbasaur"
+  },
+  {
+    "path": "images/scenes/painted/scene-endGarden.png",
+    "label": "endGarden / Bulbasaur"
+  },
+  {
+    "path": "images/scenes/painted/endGarden-reeds.png",
+    "label": "endGarden / reedGarden"
+  },
+  {
+    "path": "images/scenes/painted/scene-echoArchive.png",
+    "label": "echoArchive / Bulbasaur"
+  },
+  {
+    "path": "images/scenes/painted/scene-reedWorkshop.png",
+    "label": "reedWorkshop / Bulbasaur"
+  },
+  {
+    "path": "images/scenes/painted/scene-windwatch.png",
+    "label": "windwatch / Bulbasaur"
   }
 ]

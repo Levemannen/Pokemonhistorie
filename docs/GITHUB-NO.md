@@ -24,7 +24,7 @@ Ikke velg publisering direkte fra `main`-mappen. Dette prosjektet skal bygges me
 
 `node_modules/`, `dist/`, mellomlagring, lokale miljøfiler og ZIP-pakker er utelatt med `.gitignore`. Publiser kildeprosjektet, ikke bare ZIP-filen med det ferdige nettstedet.
 
-Bildene er ferdig lagret før leseren spiller. 33 av 39 scener har nye malte illustrasjoner for alle tilgjengelige start-Pokémon. Seks scener og én følgesvennvariant mangler et godkjent generert bilde; reserveillustrasjoner eller grunnbildet brukes der. Spillet er spillbart fra begynnelse til slutt. Alle seks avslutninger er testet som tilgjengelige med hver start-Pokémon.
+Bildene er ferdig lagret før leseren spiller. Alle 39 scener har nå malte illustrasjoner for alle tilgjengelige start-Pokémon. Én planlagt følgesvennvariant bruker det malte grunnbildet. SVG-reserver brukes bare hvis en bildefil ikke kan lastes. Alle 104 valg har en egen fortalt følge, og alle seks avslutninger er testet som tilgjengelige med hver start-Pokémon.
 
 ## Senere endringer
 

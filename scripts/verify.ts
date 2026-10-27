@@ -22,7 +22,7 @@ for(const file of Object.values(manifest.companionLayers) as string[])assert.ok(
 for(const d of manifest.decisionLayers)assert.ok(existsSync('public/'+d.path));
 // Keep all full states, but merge futures after their earlier clues can no longer
 // change any available path. Puzzles add a solved edge; retries are tested separately.
-const dependencies:Record<string,string[]>={promiseTrail:['promise','riverFriend'],pikachuHelp:['rescue','forestGuard','guardReturned'],melodyHelp:['song','nest','nestGift','echoTune','duckRhythm'],secretWay:['key','archiveMap','secretStair','reedGuide']};
+const dependencies:Record<string,string[]>={caveClues:['map','letter','archiveMap'],promiseTrail:['promise','riverFriend'],pikachuHelp:['rescue','forestGuard','guardReturned'],melodyHelp:['song','nest','nestGift','echoTune','duckRhythm'],secretWay:['key','archiveMap','secretStair','reedGuide']};
 const futureCache=new Map<string,string[]>();
 function futureNeeds(id:string):string[]{
  const cached=futureCache.get(id);if(cached)return cached;

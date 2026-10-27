@@ -1,0 +1,3410 @@
+{
+  "method": "Static consumer audit plus authored transition outcomes. Read candidates include display code and are not proof of gameplay significance; see classification and review manually. Trait-only flags are retained for old saves and aggregate forest-care paths. This does not label every choice as mechanically unique.",
+  "flags": [
+    {
+      "flag": "kind",
+      "producers": [
+        {
+          "scene": "lantern",
+          "choice": "Comfort the frightened Pokémon",
+          "to": "square"
+        },
+        {
+          "scene": "square",
+          "choice": "Invite Eevee to come with us",
+          "to": "gate"
+        },
+        {
+          "scene": "hill",
+          "choice": "Share a snack with Hoothoot",
+          "to": "gate"
+        },
+        {
+          "scene": "grove",
+          "choice": "Stop and free Pikachu",
+          "to": "rescue"
+        },
+        {
+          "scene": "bank",
+          "choice": "Help Lapras reach deep water",
+          "to": "lapras"
+        }
+      ],
+      "gates": [],
+      "readCandidates": [
+        {
+          "file": "inventory.ts",
+          "line": 10
+        }
+      ],
+      "traitCategories": [
+        "care"
+      ],
+      "activeTraitGates": [
+        "care"
+      ],
+      "classification": "Narrative, inventory, relationship or rule consumer found"
+    },
+    {
+      "flag": "curious",
+      "producers": [
+        {
+          "scene": "lantern",
+          "choice": "Examine the silver seed",
+          "to": "square"
+        },
+        {
+          "scene": "square",
+          "choice": "Ask where the seed came from",
+          "to": "hill"
+        },
+        {
+          "scene": "grove",
+          "choice": "Study the blinking mushrooms",
+          "to": "mushrooms"
+        }
+      ],
+      "gates": [],
+      "readCandidates": [],
+      "traitCategories": [
+        "insight"
+      ],
+      "activeTraitGates": [],
+      "classification": "No direct future read found; immediate outcome/history only"
+    },
+    {
+      "flag": "brave",
+      "producers": [
+        {
+          "scene": "lantern",
+          "choice": "Check the hill for fallen stars",
+          "to": "hill"
+        },
+        {
+          "scene": "bank",
+          "choice": "Explore the waterfall on foot",
+          "to": "falls"
+        }
+      ],
+      "gates": [],
+      "readCandidates": [],
+      "traitCategories": [
+        "courage"
+      ],
+      "activeTraitGates": [],
+      "classification": "No direct future read found; immediate outcome/history only"
+    },
+    {
+      "flag": "map",
+      "producers": [
+        {
+          "scene": "square",
+          "choice": "Borrow Mira’s old star map",
+          "to": "gate"
+        },
+        {
+          "scene": "mushrooms",
+          "choice": "Wait and draw the whole pattern",
+          "to": "roots"
+        }
+      ],
+      "gates": [],
+      "readCandidates": [
+        {
+          "file": "App.tsx",
+          "line": 26
+        },
+        {
+          "file": "App.tsx",
+          "line": 265
+        },
+        {
+          "file": "App.tsx",
+          "line": 297
+        },
+        {
+          "file": "App.tsx",
+          "line": 301
+        },
+        {
+          "file": "Bookshelf.tsx",
+          "line": 17
+        },
+        {
+          "file": "Bookshelf.tsx",
+          "line": 23
+        },
+        {
+          "file": "inventory.ts",
+          "line": 17
+        },
+        {
+          "file": "story.ts",
+          "line": 35
+        },
+        {
+          "file": "story.ts",
+          "line": 118
+        },
+        {
+          "file": "storyDepth.ts",
+          "line": 22
+        },
+        {
+          "file": "storyDepth.ts",
+          "line": 29
+        }
+      ],
+      "traitCategories": [
+        "insight"
+      ],
+      "activeTraitGates": [],
+      "classification": "Narrative, inventory, relationship or rule consumer found"
+    },
+    {
+      "flag": "song",
+      "producers": [
+        {
+          "scene": "hill",
+          "choice": "Remember the three-note song",
+          "to": "gate"
+        }
+      ],
+      "gates": [],
+      "readCandidates": [
+        {
+          "file": "inventory.ts",
+          "line": 26
+        },
+        {
+          "file": "puzzles.ts",
+          "line": 17
+        },
+        {
+          "file": "story.ts",
+          "line": 61
+        },
+        {
+          "file": "story.ts",
+          "line": 121
+        },
+        {
+          "file": "story.ts",
+          "line": 192
+        }
+      ],
+      "traitCategories": [
+        "insight"
+      ],
+      "activeTraitGates": [],
+      "classification": "Narrative, inventory, relationship or rule consumer found"
+    },
+    {
+      "flag": "gentle",
+      "producers": [
+        {
+          "scene": "gate",
+          "choice": "Help Bulbasaur untangle the arch",
+          "to": "grove"
+        }
+      ],
+      "gates": [],
+      "readCandidates": [],
+      "traitCategories": [
+        "care"
+      ],
+      "activeTraitGates": [
+        "care"
+      ],
+      "classification": "Trait gate only; no other direct read found"
+    },
+    {
+      "flag": "ember",
+      "producers": [
+        {
+          "scene": "gate",
+          "choice": "Let Charmander light the ridge",
+          "to": "ridge"
+        }
+      ],
+      "gates": [],
+      "readCandidates": [],
+      "traitCategories": [
+        "courage"
+      ],
+      "activeTraitGates": [],
+      "classification": "No direct future read found; immediate outcome/history only"
+    },
+    {
+      "flag": "river",
+      "producers": [
+        {
+          "scene": "gate",
+          "choice": "Let Squirtle wash the muddy sign",
+          "to": "brook"
+        }
+      ],
+      "gates": [],
+      "readCandidates": [
+        {
+          "file": "App.tsx",
+          "line": 296
+        },
+        {
+          "file": "story.ts",
+          "line": 43
+        },
+        {
+          "file": "story.ts",
+          "line": 59
+        },
+        {
+          "file": "story.ts",
+          "line": 61
+        },
+        {
+          "file": "story.ts",
+          "line": 63
+        },
+        {
+          "file": "story.ts",
+          "line": 65
+        },
+        {
+          "file": "story.ts",
+          "line": 67
+        },
+        {
+          "file": "story.ts",
+          "line": 71
+        },
+        {
+          "file": "story.ts",
+          "line": 101
+        },
+        {
+          "file": "story.ts",
+          "line": 138
+        },
+        {
+          "file": "story.ts",
+          "line": 139
+        },
+        {
+          "file": "story.ts",
+          "line": 145
+        }
+      ],
+      "traitCategories": [
+        "insight"
+      ],
+      "activeTraitGates": [],
+      "classification": "Narrative, inventory, relationship or rule consumer found"
+    },
+    {
+      "flag": "trust",
+      "producers": [
+        {
+          "scene": "gate",
+          "choice": "Follow the seed’s soft glow",
+          "to": "grove"
+        }
+      ],
+      "gates": [],
+      "readCandidates": [],
+      "traitCategories": [
+        "care"
+      ],
+      "activeTraitGates": [
+        "care"
+      ],
+      "classification": "Trait gate only; no other direct read found"
+    },
+    {
+      "flag": "nest",
+      "producers": [
+        {
+          "scene": "ridge",
+          "choice": "Lift the branch and repair the nest",
+          "to": "grove"
+        }
+      ],
+      "gates": [],
+      "readCandidates": [
+        {
+          "file": "chapters.ts",
+          "line": 13
+        },
+        {
+          "file": "epilogues.ts",
+          "line": 11
+        },
+        {
+          "file": "save.ts",
+          "line": 23
+        },
+        {
+          "file": "story.ts",
+          "line": 41
+        },
+        {
+          "file": "story.ts",
+          "line": 130
+        },
+        {
+          "file": "story.ts",
+          "line": 149
+        }
+      ],
+      "traitCategories": [
+        "care"
+      ],
+      "activeTraitGates": [
+        "care"
+      ],
+      "classification": "Narrative, inventory, relationship or rule consumer found"
+    },
+    {
+      "flag": "marker",
+      "producers": [
+        {
+          "scene": "ridge",
+          "choice": "Mark the nest so Mira can help",
+          "to": "brook"
+        }
+      ],
+      "gates": [],
+      "readCandidates": [
+        {
+          "file": "epilogues.ts",
+          "line": 12
+        }
+      ],
+      "traitCategories": [
+        "insight"
+      ],
+      "activeTraitGates": [],
+      "classification": "Narrative, inventory, relationship or rule consumer found"
+    },
+    {
+      "flag": "letter",
+      "producers": [
+        {
+          "scene": "brook",
+          "choice": "Keep the message safe",
+          "to": "grove"
+        }
+      ],
+      "gates": [],
+      "readCandidates": [
+        {
+          "file": "inventory.ts",
+          "line": 18
+        },
+        {
+          "file": "story.ts",
+          "line": 118
+        }
+      ],
+      "traitCategories": [
+        "insight"
+      ],
+      "activeTraitGates": [],
+      "classification": "Narrative, inventory, relationship or rule consumer found"
+    },
+    {
+      "flag": "reply",
+      "producers": [
+        {
+          "scene": "brook",
+          "choice": "Float a reply: “We are coming”",
+          "to": "grove"
+        }
+      ],
+      "gates": [],
+      "readCandidates": [
+        {
+          "file": "chapters.ts",
+          "line": 13
+        },
+        {
+          "file": "inventory.ts",
+          "line": 19
+        },
+        {
+          "file": "save.ts",
+          "line": 24
+        },
+        {
+          "file": "story.ts",
+          "line": 131
+        }
+      ],
+      "traitCategories": [
+        "care"
+      ],
+      "activeTraitGates": [
+        "care"
+      ],
+      "classification": "Narrative, inventory, relationship or rule consumer found"
+    },
+    {
+      "flag": "listener",
+      "producers": [
+        {
+          "scene": "grove",
+          "choice": "Ask the trees to speak one at a time",
+          "to": "roots"
+        }
+      ],
+      "gates": [],
+      "readCandidates": [],
+      "traitCategories": [
+        "care"
+      ],
+      "activeTraitGates": [
+        "care"
+      ],
+      "classification": "Trait gate only; no other direct read found"
+    },
+    {
+      "flag": "rescue",
+      "producers": [
+        {
+          "scene": "rescue",
+          "choice": "Welcome Pikachu to the team",
+          "to": "mushrooms"
+        }
+      ],
+      "gates": [],
+      "readCandidates": [
+        {
+          "file": "epilogues.ts",
+          "line": 10
+        },
+        {
+          "file": "narrative.ts",
+          "line": 104
+        },
+        {
+          "file": "story.ts",
+          "line": 47
+        },
+        {
+          "file": "story.ts",
+          "line": 120
+        },
+        {
+          "file": "story.ts",
+          "line": 150
+        },
+        {
+          "file": "story.ts",
+          "line": 189
+        },
+        {
+          "file": "story.ts",
+          "line": 190
+        },
+        {
+          "file": "storyDepth.ts",
+          "line": 23
+        },
+        {
+          "file": "storyDepth.ts",
+          "line": 36
+        }
+      ],
+      "traitCategories": [
+        "care"
+      ],
+      "activeTraitGates": [
+        "care"
+      ],
+      "classification": "Narrative, inventory, relationship or rule consumer found"
+    },
+    {
+      "flag": "forestGuard",
+      "producers": [
+        {
+          "scene": "rescue",
+          "choice": "Ask Pikachu to protect the forest",
+          "to": "roots"
+        }
+      ],
+      "gates": [],
+      "readCandidates": [
+        {
+          "file": "chapters.ts",
+          "line": 14
+        },
+        {
+          "file": "epilogues.ts",
+          "line": 9
+        },
+        {
+          "file": "save.ts",
+          "line": 22
+        },
+        {
+          "file": "story.ts",
+          "line": 129
+        },
+        {
+          "file": "story.ts",
+          "line": 189
+        },
+        {
+          "file": "story.ts",
+          "line": 205
+        }
+      ],
+      "traitCategories": [
+        "care"
+      ],
+      "activeTraitGates": [
+        "care"
+      ],
+      "classification": "Narrative, inventory, relationship or rule consumer found"
+    },
+    {
+      "flag": "rune",
+      "producers": [
+        {
+          "scene": "mushrooms",
+          "choice": "Follow the constellation we solved",
+          "to": "roots"
+        }
+      ],
+      "gates": [],
+      "readCandidates": [
+        {
+          "file": "story.ts",
+          "line": 199
+        }
+      ],
+      "traitCategories": [
+        "insight"
+      ],
+      "activeTraitGates": [],
+      "classification": "Narrative, inventory, relationship or rule consumer found"
+    },
+    {
+      "flag": "detour",
+      "producers": [
+        {
+          "scene": "mushrooms",
+          "choice": "Follow the brightest cluster",
+          "to": "hollow"
+        }
+      ],
+      "gates": [],
+      "readCandidates": [],
+      "traitCategories": [
+        "courage"
+      ],
+      "activeTraitGates": [],
+      "classification": "No direct future read found; immediate outcome/history only"
+    },
+    {
+      "flag": "kindTrail",
+      "producers": [
+        {
+          "scene": "mushrooms",
+          "choice": "Let our kindness guide a path through the ivy",
+          "to": "clearing"
+        }
+      ],
+      "gates": [],
+      "readCandidates": [],
+      "traitCategories": [
+        "care"
+      ],
+      "activeTraitGates": [
+        "care"
+      ],
+      "classification": "Trait gate only; no other direct read found"
+    },
+    {
+      "flag": "humor",
+      "producers": [
+        {
+          "scene": "hollow",
+          "choice": "Tell a story about our first adventure",
+          "to": "echoArchive"
+        }
+      ],
+      "gates": [],
+      "readCandidates": [
+        {
+          "file": "epilogues.ts",
+          "line": 18
+        }
+      ],
+      "traitCategories": [
+        "insight"
+      ],
+      "activeTraitGates": [],
+      "classification": "Narrative, inventory, relationship or rule consumer found"
+    },
+    {
+      "flag": "honest",
+      "producers": [
+        {
+          "scene": "hollow",
+          "choice": "Explain why we must help the sky",
+          "to": "roots"
+        }
+      ],
+      "gates": [],
+      "readCandidates": [
+        {
+          "file": "epilogues.ts",
+          "line": 18
+        }
+      ],
+      "traitCategories": [
+        "insight"
+      ],
+      "activeTraitGates": [],
+      "classification": "Narrative, inventory, relationship or rule consumer found"
+    },
+    {
+      "flag": "understanding",
+      "producers": [
+        {
+          "scene": "echoArchive",
+          "choice": "Borrow the astronomer’s notebook about Lumi",
+          "to": "clearing"
+        },
+        {
+          "scene": "cave",
+          "choice": "Read how to open the lens gently",
+          "to": "island"
+        }
+      ],
+      "gates": [
+        {
+          "scene": "shelter",
+          "choice": "Tell her what we learned about Lumi"
+        },
+        {
+          "scene": "lumi",
+          "choice": "Show Lumi the astronomer’s notebook"
+        }
+      ],
+      "readCandidates": [
+        {
+          "file": "inventory.ts",
+          "line": 38
+        },
+        {
+          "file": "inventory.ts",
+          "line": 40
+        },
+        {
+          "file": "story.ts",
+          "line": 132
+        },
+        {
+          "file": "storyDepth.ts",
+          "line": 15
+        },
+        {
+          "file": "storyDepth.ts",
+          "line": 68
+        },
+        {
+          "file": "storyDepth.ts",
+          "line": 81
+        }
+      ],
+      "traitCategories": [
+        "insight"
+      ],
+      "activeTraitGates": [],
+      "classification": "Direct future choice gate"
+    },
+    {
+      "flag": "archiveMap",
+      "producers": [
+        {
+          "scene": "echoArchive",
+          "choice": "Copy a hidden mountain route",
+          "to": "clearing"
+        }
+      ],
+      "gates": [],
+      "readCandidates": [
+        {
+          "file": "chapters.ts",
+          "line": 14
+        },
+        {
+          "file": "inventory.ts",
+          "line": 23
+        },
+        {
+          "file": "inventory.ts",
+          "line": 24
+        },
+        {
+          "file": "story.ts",
+          "line": 118
+        },
+        {
+          "file": "story.ts",
+          "line": 122
+        },
+        {
+          "file": "story.ts",
+          "line": 198
+        }
+      ],
+      "traitCategories": [
+        "insight"
+      ],
+      "activeTraitGates": [],
+      "classification": "Narrative, inventory, relationship or rule consumer found"
+    },
+    {
+      "flag": "echoTune",
+      "producers": [
+        {
+          "scene": "echoArchive",
+          "choice": "Learn the archive’s three-note greeting",
+          "to": "clearing"
+        }
+      ],
+      "gates": [],
+      "readCandidates": [
+        {
+          "file": "chapters.ts",
+          "line": 14
+        },
+        {
+          "file": "inventory.ts",
+          "line": 26
+        },
+        {
+          "file": "story.ts",
+          "line": 121
+        },
+        {
+          "file": "story.ts",
+          "line": 192
+        }
+      ],
+      "traitCategories": [
+        "insight"
+      ],
+      "activeTraitGates": [],
+      "classification": "Narrative, inventory, relationship or rule consumer found"
+    },
+    {
+      "flag": "wisdom",
+      "producers": [
+        {
+          "scene": "roots",
+          "choice": "Answer: “Kindness”",
+          "to": "clearing"
+        }
+      ],
+      "gates": [],
+      "readCandidates": [],
+      "traitCategories": [
+        "insight"
+      ],
+      "activeTraitGates": [],
+      "classification": "No direct future read found; immediate outcome/history only"
+    },
+    {
+      "flag": "warmth",
+      "producers": [
+        {
+          "scene": "roots",
+          "choice": "Answer: “A flame”",
+          "to": "clearing"
+        }
+      ],
+      "gates": [],
+      "readCandidates": [],
+      "traitCategories": [
+        "courage"
+      ],
+      "activeTraitGates": [],
+      "classification": "No direct future read found; immediate outcome/history only"
+    },
+    {
+      "flag": "rootFriend",
+      "producers": [
+        {
+          "scene": "roots",
+          "choice": "Ask Bulbasaur to speak with the roots",
+          "to": "clearing"
+        }
+      ],
+      "gates": [],
+      "readCandidates": [],
+      "traitCategories": [
+        "care"
+      ],
+      "activeTraitGates": [
+        "care"
+      ],
+      "classification": "Trait gate only; no other direct read found"
+    },
+    {
+      "flag": "rope",
+      "producers": [
+        {
+          "scene": "clearing",
+          "choice": "Take the lens and a rescue rope",
+          "to": "bank"
+        }
+      ],
+      "gates": [
+        {
+          "scene": "ferry",
+          "choice": "Use our rescue rope for a sturdy knot"
+        }
+      ],
+      "readCandidates": [
+        {
+          "file": "chapters.ts",
+          "line": 14
+        },
+        {
+          "file": "inventory.ts",
+          "line": 15
+        }
+      ],
+      "traitCategories": [
+        "courage"
+      ],
+      "activeTraitGates": [],
+      "classification": "Direct future choice gate"
+    },
+    {
+      "flag": "key",
+      "producers": [
+        {
+          "scene": "clearing",
+          "choice": "Take the lens and a rune key",
+          "to": "bank"
+        }
+      ],
+      "gates": [],
+      "readCandidates": [
+        {
+          "file": "chapters.ts",
+          "line": 14
+        },
+        {
+          "file": "inventory.ts",
+          "line": 16
+        },
+        {
+          "file": "inventory.ts",
+          "line": 23
+        },
+        {
+          "file": "inventory.ts",
+          "line": 24
+        },
+        {
+          "file": "story.ts",
+          "line": 122
+        },
+        {
+          "file": "story.ts",
+          "line": 198
+        }
+      ],
+      "traitCategories": [
+        "insight"
+      ],
+      "activeTraitGates": [],
+      "classification": "Narrative, inventory, relationship or rule consumer found"
+    },
+    {
+      "flag": "garden",
+      "producers": [
+        {
+          "scene": "clearing",
+          "choice": "Leave the tools and plant a thank-you seed",
+          "to": "bank"
+        }
+      ],
+      "gates": [],
+      "readCandidates": [
+        {
+          "file": "story.ts",
+          "line": 97
+        },
+        {
+          "file": "story.ts",
+          "line": 104
+        },
+        {
+          "file": "story.ts",
+          "line": 175
+        },
+        {
+          "file": "story.ts",
+          "line": 194
+        },
+        {
+          "file": "storyDepth.ts",
+          "line": 18
+        },
+        {
+          "file": "storyDepth.ts",
+          "line": 77
+        }
+      ],
+      "traitCategories": [
+        "care"
+      ],
+      "activeTraitGates": [
+        "care"
+      ],
+      "classification": "Narrative, inventory, relationship or rule consumer found"
+    },
+    {
+      "flag": "builder",
+      "producers": [
+        {
+          "scene": "bank",
+          "choice": "Repair the ferry with fallen wood",
+          "to": "ferry"
+        }
+      ],
+      "gates": [],
+      "readCandidates": [],
+      "traitCategories": [
+        "insight"
+      ],
+      "activeTraitGates": [],
+      "classification": "No direct future read found; immediate outcome/history only"
+    },
+    {
+      "flag": "clueTrail",
+      "producers": [
+        {
+          "scene": "bank",
+          "choice": "Use our clues to find the astronomer’s cave",
+          "to": "cave"
+        }
+      ],
+      "gates": [],
+      "readCandidates": [],
+      "traitCategories": [
+        "insight"
+      ],
+      "activeTraitGates": [],
+      "classification": "No direct future read found; immediate outcome/history only"
+    },
+    {
+      "flag": "riverFriend",
+      "producers": [
+        {
+          "scene": "lapras",
+          "choice": "Accept Lapras’s friendship",
+          "to": "island"
+        }
+      ],
+      "gates": [],
+      "readCandidates": [
+        {
+          "file": "epilogues.ts",
+          "line": 15
+        },
+        {
+          "file": "narrative.ts",
+          "line": 122
+        },
+        {
+          "file": "story.ts",
+          "line": 119
+        }
+      ],
+      "traitCategories": [
+        "care"
+      ],
+      "activeTraitGates": [
+        "care"
+      ],
+      "classification": "Narrative, inventory, relationship or rule consumer found"
+    },
+    {
+      "flag": "riverGuard",
+      "producers": [
+        {
+          "scene": "lapras",
+          "choice": "Ask Lapras to guide lost travelers",
+          "to": "ferry"
+        }
+      ],
+      "gates": [],
+      "readCandidates": [
+        {
+          "file": "chapters.ts",
+          "line": 15
+        },
+        {
+          "file": "epilogues.ts",
+          "line": 14
+        }
+      ],
+      "traitCategories": [
+        "care"
+      ],
+      "activeTraitGates": [
+        "care"
+      ],
+      "classification": "Narrative, inventory, relationship or rule consumer found"
+    },
+    {
+      "flag": "clearWater",
+      "producers": [
+        {
+          "scene": "lapras",
+          "choice": "Use Squirtle’s water to widen the channel",
+          "to": "island"
+        }
+      ],
+      "gates": [],
+      "readCandidates": [
+        {
+          "file": "epilogues.ts",
+          "line": 15
+        }
+      ],
+      "traitCategories": [
+        "insight"
+      ],
+      "activeTraitGates": [],
+      "classification": "Narrative, inventory, relationship or rule consumer found"
+    },
+    {
+      "flag": "safeCrossing",
+      "producers": [
+        {
+          "scene": "ferry",
+          "choice": "Use our rescue rope for a sturdy knot",
+          "to": "island"
+        }
+      ],
+      "gates": [],
+      "readCandidates": [
+        {
+          "file": "inventory.ts",
+          "line": 15
+        },
+        {
+          "file": "story.ts",
+          "line": 197
+        }
+      ],
+      "traitCategories": [
+        "insight"
+      ],
+      "activeTraitGates": [],
+      "classification": "Narrative, inventory, relationship or rule consumer found"
+    },
+    {
+      "flag": "patient",
+      "producers": [
+        {
+          "scene": "ferry",
+          "choice": "Weave a new rope from long reeds",
+          "to": "island"
+        },
+        {
+          "scene": "bridge",
+          "choice": "Take the longer stone path",
+          "to": "windwatch"
+        }
+      ],
+      "gates": [],
+      "readCandidates": [],
+      "traitCategories": [
+        "insight"
+      ],
+      "activeTraitGates": [],
+      "classification": "No direct future read found; immediate outcome/history only"
+    },
+    {
+      "flag": "duck",
+      "producers": [
+        {
+          "scene": "ferry",
+          "choice": "Help Psyduck cross first",
+          "to": "reedWorkshop"
+        }
+      ],
+      "gates": [],
+      "readCandidates": [
+        {
+          "file": "epilogues.ts",
+          "line": 16
+        }
+      ],
+      "traitCategories": [
+        "care"
+      ],
+      "activeTraitGates": [
+        "care"
+      ],
+      "classification": "Narrative, inventory, relationship or rule consumer found"
+    },
+    {
+      "flag": "floatingLanterns",
+      "producers": [
+        {
+          "scene": "reedWorkshop",
+          "choice": "Build floating lanterns with Psyduck",
+          "to": "island"
+        }
+      ],
+      "gates": [
+        {
+          "scene": "earth",
+          "choice": "Plant star reeds along Psyduck’s lantern trail"
+        }
+      ],
+      "readCandidates": [
+        {
+          "file": "chapters.ts",
+          "line": 15
+        },
+        {
+          "file": "epilogues.ts",
+          "line": 16
+        },
+        {
+          "file": "story.ts",
+          "line": 177
+        },
+        {
+          "file": "storyDepth.ts",
+          "line": 19
+        }
+      ],
+      "traitCategories": [
+        "care"
+      ],
+      "activeTraitGates": [
+        "care"
+      ],
+      "classification": "Direct future choice gate"
+    },
+    {
+      "flag": "reedGuide",
+      "producers": [
+        {
+          "scene": "reedWorkshop",
+          "choice": "Map Psyduck’s quiet reed channel",
+          "to": "island"
+        }
+      ],
+      "gates": [],
+      "readCandidates": [
+        {
+          "file": "epilogues.ts",
+          "line": 16
+        },
+        {
+          "file": "inventory.ts",
+          "line": 24
+        },
+        {
+          "file": "story.ts",
+          "line": 122
+        }
+      ],
+      "traitCategories": [
+        "insight"
+      ],
+      "activeTraitGates": [],
+      "classification": "Narrative, inventory, relationship or rule consumer found"
+    },
+    {
+      "flag": "duckRhythm",
+      "producers": [
+        {
+          "scene": "reedWorkshop",
+          "choice": "Learn Psyduck’s calming three-note tune",
+          "to": "island"
+        }
+      ],
+      "gates": [],
+      "readCandidates": [
+        {
+          "file": "epilogues.ts",
+          "line": 16
+        },
+        {
+          "file": "inventory.ts",
+          "line": 26
+        },
+        {
+          "file": "story.ts",
+          "line": 121
+        },
+        {
+          "file": "storyDepth.ts",
+          "line": 70
+        }
+      ],
+      "traitCategories": [
+        "insight"
+      ],
+      "activeTraitGates": [],
+      "classification": "Narrative, inventory, relationship or rule consumer found"
+    },
+    {
+      "flag": "door",
+      "producers": [
+        {
+          "scene": "falls",
+          "choice": "Enter the doorway opened by our melody",
+          "to": "cave"
+        }
+      ],
+      "gates": [],
+      "readCandidates": [
+        {
+          "file": "story.ts",
+          "line": 85
+        }
+      ],
+      "traitCategories": [
+        "insight"
+      ],
+      "activeTraitGates": [],
+      "classification": "Narrative, inventory, relationship or rule consumer found"
+    },
+    {
+      "flag": "splash",
+      "producers": [
+        {
+          "scene": "falls",
+          "choice": "Leave the bells and follow the river",
+          "to": "island"
+        }
+      ],
+      "gates": [],
+      "readCandidates": [],
+      "traitCategories": [
+        "courage"
+      ],
+      "activeTraitGates": [],
+      "classification": "No direct future read found; immediate outcome/history only"
+    },
+    {
+      "flag": "songDoor",
+      "producers": [
+        {
+          "scene": "falls",
+          "choice": "Sing the melody learned on our journey",
+          "to": "cave"
+        }
+      ],
+      "gates": [],
+      "readCandidates": [
+        {
+          "file": "inventory.ts",
+          "line": 27
+        }
+      ],
+      "traitCategories": [
+        "insight"
+      ],
+      "activeTraitGates": [],
+      "classification": "Narrative, inventory, relationship or rule consumer found"
+    },
+    {
+      "flag": "mistTrail",
+      "producers": [
+        {
+          "scene": "falls",
+          "choice": "Explore the safe path around the falls",
+          "to": "island"
+        }
+      ],
+      "gates": [],
+      "readCandidates": [],
+      "traitCategories": [],
+      "activeTraitGates": [],
+      "classification": "No direct future read found; immediate outcome/history only"
+    },
+    {
+      "flag": "secretStair",
+      "producers": [
+        {
+          "scene": "cave",
+          "choice": "Copy the tower’s hidden stairway",
+          "to": "island"
+        }
+      ],
+      "gates": [],
+      "readCandidates": [
+        {
+          "file": "inventory.ts",
+          "line": 25
+        },
+        {
+          "file": "story.ts",
+          "line": 122
+        },
+        {
+          "file": "story.ts",
+          "line": 198
+        }
+      ],
+      "traitCategories": [
+        "insight"
+      ],
+      "activeTraitGates": [],
+      "classification": "Narrative, inventory, relationship or rule consumer found"
+    },
+    {
+      "flag": "promise",
+      "producers": [
+        {
+          "scene": "island",
+          "choice": "Promise to help both Pokémon",
+          "to": "bridge"
+        }
+      ],
+      "gates": [],
+      "readCandidates": [
+        {
+          "file": "chapters.ts",
+          "line": 15
+        },
+        {
+          "file": "chapters.ts",
+          "line": 17
+        },
+        {
+          "file": "narrative.ts",
+          "line": 122
+        },
+        {
+          "file": "story.ts",
+          "line": 119
+        },
+        {
+          "file": "story.ts",
+          "line": 163
+        }
+      ],
+      "traitCategories": [
+        "care"
+      ],
+      "activeTraitGates": [
+        "care"
+      ],
+      "classification": "Narrative, inventory, relationship or rule consumer found"
+    },
+    {
+      "flag": "stardust",
+      "producers": [
+        {
+          "scene": "island",
+          "choice": "Collect the golden speck for later",
+          "to": "bridge"
+        }
+      ],
+      "gates": [],
+      "readCandidates": [
+        {
+          "file": "inventory.ts",
+          "line": 22
+        },
+        {
+          "file": "storyDepth.ts",
+          "line": 35
+        },
+        {
+          "file": "storyDepth.ts",
+          "line": 68
+        },
+        {
+          "file": "storyDepth.ts",
+          "line": 81
+        }
+      ],
+      "traitCategories": [
+        "insight"
+      ],
+      "activeTraitGates": [],
+      "classification": "Narrative, inventory, relationship or rule consumer found"
+    },
+    {
+      "flag": "privacy",
+      "producers": [
+        {
+          "scene": "island",
+          "choice": "Ask the river to keep their secret",
+          "to": "bridge"
+        }
+      ],
+      "gates": [],
+      "readCandidates": [
+        {
+          "file": "chapters.ts",
+          "line": 15
+        },
+        {
+          "file": "storyDepth.ts",
+          "line": 10
+        }
+      ],
+      "traitCategories": [
+        "care"
+      ],
+      "activeTraitGates": [
+        "care"
+      ],
+      "classification": "Narrative, inventory, relationship or rule consumer found"
+    },
+    {
+      "flag": "steady",
+      "producers": [
+        {
+          "scene": "bridge",
+          "choice": "Wait for the calm and cross together",
+          "to": "shelter"
+        }
+      ],
+      "gates": [],
+      "readCandidates": [],
+      "traitCategories": [
+        "courage"
+      ],
+      "activeTraitGates": [],
+      "classification": "No direct future read found; immediate outcome/history only"
+    },
+    {
+      "flag": "promiseRoute",
+      "producers": [
+        {
+          "scene": "bridge",
+          "choice": "Follow the promise trail Lapras revealed",
+          "to": "stairs"
+        }
+      ],
+      "gates": [
+        {
+          "scene": "stairs",
+          "choice": "Keep our promise and follow the hidden stair to Lumi"
+        }
+      ],
+      "readCandidates": [
+        {
+          "file": "narrative.ts",
+          "line": 114
+        },
+        {
+          "file": "narrative.ts",
+          "line": 123
+        },
+        {
+          "file": "story.ts",
+          "line": 113
+        },
+        {
+          "file": "story.ts",
+          "line": 153
+        },
+        {
+          "file": "story.ts",
+          "line": 171
+        }
+      ],
+      "traitCategories": [],
+      "activeTraitGates": [],
+      "classification": "Direct future choice gate"
+    },
+    {
+      "flag": "vineBridge",
+      "producers": [
+        {
+          "scene": "bridge",
+          "choice": "Let Bulbasaur anchor the bridge with vines",
+          "to": "shelter"
+        }
+      ],
+      "gates": [],
+      "readCandidates": [],
+      "traitCategories": [
+        "courage"
+      ],
+      "activeTraitGates": [],
+      "classification": "No direct future read found; immediate outcome/history only"
+    },
+    {
+      "flag": "flockGuide",
+      "producers": [
+        {
+          "scene": "windwatch",
+          "choice": "Help Altaria guide the flock to the cloud-platform",
+          "to": "roof"
+        }
+      ],
+      "gates": [],
+      "readCandidates": [
+        {
+          "file": "chapters.ts",
+          "line": 16
+        },
+        {
+          "file": "epilogues.ts",
+          "line": 17
+        },
+        {
+          "file": "narrative.ts",
+          "line": 124
+        },
+        {
+          "file": "story.ts",
+          "line": 176
+        },
+        {
+          "file": "story.ts",
+          "line": 186
+        }
+      ],
+      "traitCategories": [
+        "care"
+      ],
+      "activeTraitGates": [
+        "care"
+      ],
+      "classification": "Narrative, inventory, relationship or rule consumer found"
+    },
+    {
+      "flag": "windChart",
+      "producers": [
+        {
+          "scene": "windwatch",
+          "choice": "Read the wind marks and take the stone steps",
+          "to": "stairs"
+        }
+      ],
+      "gates": [],
+      "readCandidates": [],
+      "traitCategories": [
+        "insight"
+      ],
+      "activeTraitGates": [],
+      "classification": "No direct future read found; immediate outcome/history only"
+    },
+    {
+      "flag": "windShelter",
+      "producers": [
+        {
+          "scene": "windwatch",
+          "choice": "Ask Altaria for a sheltered path to the berry nook",
+          "to": "shelter"
+        }
+      ],
+      "gates": [],
+      "readCandidates": [],
+      "traitCategories": [
+        "care"
+      ],
+      "activeTraitGates": [
+        "care"
+      ],
+      "classification": "Trait gate only; no other direct read found"
+    },
+    {
+      "flag": "scarf",
+      "producers": [
+        {
+          "scene": "stairs",
+          "choice": "Carry the scarf to its owner",
+          "to": "shelter"
+        }
+      ],
+      "gates": [
+        {
+          "scene": "tower",
+          "choice": "Return the scarf before speaking"
+        }
+      ],
+      "readCandidates": [
+        {
+          "file": "inventory.ts",
+          "line": 21
+        },
+        {
+          "file": "story.ts",
+          "line": 77
+        }
+      ],
+      "traitCategories": [
+        "care"
+      ],
+      "activeTraitGates": [
+        "care"
+      ],
+      "classification": "Direct future choice gate"
+    },
+    {
+      "flag": "trail",
+      "producers": [
+        {
+          "scene": "stairs",
+          "choice": "Tie it to a marker for other travelers",
+          "to": "shelter"
+        }
+      ],
+      "gates": [],
+      "readCandidates": [],
+      "traitCategories": [
+        "insight"
+      ],
+      "activeTraitGates": [],
+      "classification": "No direct future read found; immediate outcome/history only"
+    },
+    {
+      "flag": "keptPromise",
+      "producers": [
+        {
+          "scene": "stairs",
+          "choice": "Keep our promise and follow the hidden stair to Lumi",
+          "to": "tower"
+        }
+      ],
+      "gates": [
+        {
+          "scene": "lumi",
+          "choice": "Keep our river promise and share the heart ring"
+        }
+      ],
+      "readCandidates": [
+        {
+          "file": "chapters.ts",
+          "line": 16
+        },
+        {
+          "file": "epilogues.ts",
+          "line": 15
+        },
+        {
+          "file": "story.ts",
+          "line": 173
+        },
+        {
+          "file": "story.ts",
+          "line": 188
+        },
+        {
+          "file": "story.ts",
+          "line": 206
+        },
+        {
+          "file": "StoryChoices.tsx",
+          "line": 15
+        },
+        {
+          "file": "storyDepth.ts",
+          "line": 7
+        }
+      ],
+      "traitCategories": [],
+      "activeTraitGates": [],
+      "classification": "Direct future choice gate"
+    },
+    {
+      "flag": "feather",
+      "producers": [
+        {
+          "scene": "shelter",
+          "choice": "Trade a little food for the feather",
+          "to": "observatory"
+        }
+      ],
+      "gates": [
+        {
+          "scene": "listen",
+          "choice": "Share the feather’s soft warmth"
+        },
+        {
+          "scene": "sky",
+          "choice": "Make a warm nest with the cloud feather"
+        }
+      ],
+      "readCandidates": [
+        {
+          "file": "epilogues.ts",
+          "line": 17
+        },
+        {
+          "file": "inventory.ts",
+          "line": 20
+        },
+        {
+          "file": "narrative.ts",
+          "line": 116
+        },
+        {
+          "file": "story.ts",
+          "line": 191
+        },
+        {
+          "file": "storyDepth.ts",
+          "line": 66
+        }
+      ],
+      "traitCategories": [
+        "care"
+      ],
+      "activeTraitGates": [
+        "care"
+      ],
+      "classification": "Direct future choice gate"
+    },
+    {
+      "flag": "craft",
+      "producers": [
+        {
+          "scene": "shelter",
+          "choice": "Repair her cracked berry bowl",
+          "to": "observatory"
+        }
+      ],
+      "gates": [],
+      "readCandidates": [
+        {
+          "file": "epilogues.ts",
+          "line": 17
+        },
+        {
+          "file": "storyDepth.ts",
+          "line": 28
+        }
+      ],
+      "traitCategories": [
+        "insight"
+      ],
+      "activeTraitGates": [],
+      "classification": "Narrative, inventory, relationship or rule consumer found"
+    },
+    {
+      "flag": "counsel",
+      "producers": [
+        {
+          "scene": "shelter",
+          "choice": "Tell her what we learned about Lumi",
+          "to": "observatory"
+        }
+      ],
+      "gates": [],
+      "readCandidates": [
+        {
+          "file": "epilogues.ts",
+          "line": 17
+        },
+        {
+          "file": "storyDepth.ts",
+          "line": 34
+        }
+      ],
+      "traitCategories": [
+        "care"
+      ],
+      "activeTraitGates": [
+        "care"
+      ],
+      "classification": "Narrative, inventory, relationship or rule consumer found"
+    },
+    {
+      "flag": "alignment",
+      "producers": [
+        {
+          "scene": "observatory",
+          "choice": "Open the roof with our repaired mechanism",
+          "to": "roof"
+        }
+      ],
+      "gates": [],
+      "readCandidates": [
+        {
+          "file": "chapters.ts",
+          "line": 16
+        },
+        {
+          "file": "epilogues.ts",
+          "line": 7
+        },
+        {
+          "file": "inventory.ts",
+          "line": 14
+        },
+        {
+          "file": "story.ts",
+          "line": 196
+        }
+      ],
+      "traitCategories": [
+        "insight"
+      ],
+      "activeTraitGates": [],
+      "classification": "Narrative, inventory, relationship or rule consumer found"
+    },
+    {
+      "flag": "spark",
+      "producers": [
+        {
+          "scene": "observatory",
+          "choice": "Accept Pikachu’s help with the old motor",
+          "to": "roof"
+        }
+      ],
+      "gates": [],
+      "readCandidates": [
+        {
+          "file": "chapters.ts",
+          "line": 16
+        },
+        {
+          "file": "story.ts",
+          "line": 189
+        }
+      ],
+      "traitCategories": [
+        "insight"
+      ],
+      "activeTraitGates": [],
+      "classification": "Narrative, inventory, relationship or rule consumer found"
+    },
+    {
+      "flag": "teamwork",
+      "producers": [
+        {
+          "scene": "observatory",
+          "choice": "Look for a hand crank with {starter}",
+          "to": "roof"
+        }
+      ],
+      "gates": [],
+      "readCandidates": [],
+      "traitCategories": [
+        "insight"
+      ],
+      "activeTraitGates": [],
+      "classification": "No direct future read found; immediate outcome/history only"
+    },
+    {
+      "flag": "outsideStair",
+      "producers": [
+        {
+          "scene": "observatory",
+          "choice": "Climb the safe outside stair together",
+          "to": "roof"
+        }
+      ],
+      "gates": [],
+      "readCandidates": [],
+      "traitCategories": [],
+      "activeTraitGates": [],
+      "classification": "No direct future read found; immediate outcome/history only"
+    },
+    {
+      "flag": "careful",
+      "producers": [
+        {
+          "scene": "roof",
+          "choice": "Cross slowly, checking on every friend",
+          "to": "tower"
+        }
+      ],
+      "gates": [],
+      "readCandidates": [],
+      "traitCategories": [
+        "care"
+      ],
+      "activeTraitGates": [
+        "care"
+      ],
+      "classification": "Trait gate only; no other direct read found"
+    },
+    {
+      "flag": "sheltered",
+      "producers": [
+        {
+          "scene": "roof",
+          "choice": "Find the sheltered stair beneath the roof",
+          "to": "tower"
+        }
+      ],
+      "gates": [],
+      "readCandidates": [],
+      "traitCategories": [
+        "courage"
+      ],
+      "activeTraitGates": [],
+      "classification": "No direct future read found; immediate outcome/history only"
+    },
+    {
+      "flag": "secretRoute",
+      "producers": [
+        {
+          "scene": "roof",
+          "choice": "Follow the hidden route our clues reveal",
+          "to": "tower"
+        }
+      ],
+      "gates": [],
+      "readCandidates": [
+        {
+          "file": "inventory.ts",
+          "line": 16
+        },
+        {
+          "file": "inventory.ts",
+          "line": 23
+        },
+        {
+          "file": "inventory.ts",
+          "line": 24
+        },
+        {
+          "file": "inventory.ts",
+          "line": 25
+        },
+        {
+          "file": "story.ts",
+          "line": 132
+        },
+        {
+          "file": "story.ts",
+          "line": 198
+        },
+        {
+          "file": "storyDepth.ts",
+          "line": 65
+        }
+      ],
+      "traitCategories": [
+        "insight"
+      ],
+      "activeTraitGates": [],
+      "classification": "Narrative, inventory, relationship or rule consumer found"
+    },
+    {
+      "flag": "warmPath",
+      "producers": [
+        {
+          "scene": "roof",
+          "choice": "Ask Charmander to warm the frosted stones",
+          "to": "tower"
+        }
+      ],
+      "gates": [],
+      "readCandidates": [],
+      "traitCategories": [
+        "courage"
+      ],
+      "activeTraitGates": [],
+      "classification": "No direct future read found; immediate outcome/history only"
+    },
+    {
+      "flag": "respect",
+      "producers": [
+        {
+          "scene": "tower",
+          "choice": "Knock and introduce ourselves",
+          "to": "lumi"
+        }
+      ],
+      "gates": [],
+      "readCandidates": [],
+      "traitCategories": [
+        "care"
+      ],
+      "activeTraitGates": [
+        "care"
+      ],
+      "classification": "Trait gate only; no other direct read found"
+    },
+    {
+      "flag": "gentleVoice",
+      "producers": [
+        {
+          "scene": "tower",
+          "choice": "Call gently: “Lumi, we want to help”",
+          "to": "lumi"
+        }
+      ],
+      "gates": [],
+      "readCandidates": [],
+      "traitCategories": [
+        "care"
+      ],
+      "activeTraitGates": [
+        "care"
+      ],
+      "classification": "Trait gate only; no other direct read found"
+    },
+    {
+      "flag": "returnedScarf",
+      "producers": [
+        {
+          "scene": "tower",
+          "choice": "Return the scarf before speaking",
+          "to": "lumi"
+        }
+      ],
+      "gates": [],
+      "readCandidates": [
+        {
+          "file": "chapters.ts",
+          "line": 16
+        },
+        {
+          "file": "inventory.ts",
+          "line": 21
+        },
+        {
+          "file": "inventory.ts",
+          "line": 45
+        },
+        {
+          "file": "storyDepth.ts",
+          "line": 8
+        }
+      ],
+      "traitCategories": [
+        "care"
+      ],
+      "activeTraitGates": [
+        "care"
+      ],
+      "classification": "Narrative, inventory, relationship or rule consumer found"
+    },
+    {
+      "flag": "empathy",
+      "producers": [
+        {
+          "scene": "lumi",
+          "choice": "Sit beside Lumi and listen",
+          "to": "listen"
+        }
+      ],
+      "gates": [],
+      "readCandidates": [],
+      "traitCategories": [
+        "care"
+      ],
+      "activeTraitGates": [
+        "care"
+      ],
+      "classification": "Trait gate only; no other direct read found"
+    },
+    {
+      "flag": "explain",
+      "producers": [
+        {
+          "scene": "lumi",
+          "choice": "Show Lumi the astronomer’s notebook",
+          "to": "listen"
+        }
+      ],
+      "gates": [],
+      "readCandidates": [],
+      "traitCategories": [
+        "insight"
+      ],
+      "activeTraitGates": [],
+      "classification": "No direct future read found; immediate outcome/history only"
+    },
+    {
+      "flag": "villagePlan",
+      "producers": [
+        {
+          "scene": "lumi",
+          "choice": "Suggest moving the sphere to the village",
+          "to": "plan"
+        }
+      ],
+      "gates": [
+        {
+          "scene": "plan",
+          "choice": "Follow our plan and bring the closed sphere to Mira"
+        }
+      ],
+      "readCandidates": [
+        {
+          "file": "StoryChoices.tsx",
+          "line": 15
+        },
+        {
+          "file": "storyDepth.ts",
+          "line": 13
+        },
+        {
+          "file": "storyDepth.ts",
+          "line": 32
+        }
+      ],
+      "traitCategories": [],
+      "activeTraitGates": [],
+      "classification": "Direct future choice gate"
+    },
+    {
+      "flag": "promiseFulfilled",
+      "producers": [
+        {
+          "scene": "lumi",
+          "choice": "Keep our river promise and share the heart ring",
+          "to": "heart"
+        }
+      ],
+      "gates": [],
+      "readCandidates": [
+        {
+          "file": "story.ts",
+          "line": 188
+        }
+      ],
+      "traitCategories": [],
+      "activeTraitGates": [],
+      "classification": "Narrative, inventory, relationship or rule consumer found"
+    },
+    {
+      "flag": "support",
+      "producers": [
+        {
+          "scene": "listen",
+          "choice": "Tell Lumi she will not face this alone",
+          "to": "plan"
+        }
+      ],
+      "gates": [],
+      "readCandidates": [],
+      "traitCategories": [
+        "care"
+      ],
+      "activeTraitGates": [
+        "care"
+      ],
+      "classification": "Trait gate only; no other direct read found"
+    },
+    {
+      "flag": "agency",
+      "producers": [
+        {
+          "scene": "listen",
+          "choice": "Let Shinx choose what he needs",
+          "to": "plan"
+        }
+      ],
+      "gates": [],
+      "readCandidates": [
+        {
+          "file": "storyDepth.ts",
+          "line": 14
+        },
+        {
+          "file": "storyDepth.ts",
+          "line": 33
+        }
+      ],
+      "traitCategories": [
+        "care"
+      ],
+      "activeTraitGates": [
+        "care"
+      ],
+      "classification": "Narrative, inventory, relationship or rule consumer found"
+    },
+    {
+      "flag": "cloudWarmth",
+      "producers": [
+        {
+          "scene": "listen",
+          "choice": "Share the feather’s soft warmth",
+          "to": "plan"
+        }
+      ],
+      "gates": [],
+      "readCandidates": [
+        {
+          "file": "inventory.ts",
+          "line": 20
+        }
+      ],
+      "traitCategories": [
+        "care"
+      ],
+      "activeTraitGates": [
+        "care"
+      ],
+      "classification": "Narrative, inventory, relationship or rule consumer found"
+    },
+    {
+      "flag": "skyPlan",
+      "producers": [
+        {
+          "scene": "plan",
+          "choice": "Prepare to release the stars to the sky",
+          "to": "sky"
+        }
+      ],
+      "gates": [],
+      "readCandidates": [],
+      "traitCategories": [
+        "courage"
+      ],
+      "activeTraitGates": [],
+      "classification": "No direct future read found; immediate outcome/history only"
+    },
+    {
+      "flag": "heartPlan",
+      "producers": [
+        {
+          "scene": "plan",
+          "choice": "Gather everyone around the heart ring",
+          "to": "heart"
+        }
+      ],
+      "gates": [],
+      "readCandidates": [],
+      "traitCategories": [
+        "care"
+      ],
+      "activeTraitGates": [
+        "care"
+      ],
+      "classification": "Trait gate only; no other direct read found"
+    },
+    {
+      "flag": "earthPlan",
+      "producers": [
+        {
+          "scene": "plan",
+          "choice": "Carry the earth ring to the garden balcony",
+          "to": "earth"
+        }
+      ],
+      "gates": [],
+      "readCandidates": [],
+      "traitCategories": [
+        "insight"
+      ],
+      "activeTraitGates": [],
+      "classification": "No direct future read found; immediate outcome/history only"
+    },
+    {
+      "flag": "villageTogether",
+      "producers": [
+        {
+          "scene": "plan",
+          "choice": "Follow our plan and bring the closed sphere to Mira",
+          "to": "endLantern"
+        }
+      ],
+      "gates": [],
+      "readCandidates": [],
+      "traitCategories": [],
+      "activeTraitGates": [],
+      "classification": "No direct future read found; immediate outcome/history only"
+    },
+    {
+      "flag": "reedGarden",
+      "producers": [
+        {
+          "scene": "earth",
+          "choice": "Plant star reeds along Psyduck’s lantern trail",
+          "to": "endGarden"
+        }
+      ],
+      "gates": [],
+      "readCandidates": [
+        {
+          "file": "epilogues.ts",
+          "line": 16
+        },
+        {
+          "file": "narrative.ts",
+          "line": 125
+        },
+        {
+          "file": "story.ts",
+          "line": 187
+        },
+        {
+          "file": "storyDepth.ts",
+          "line": 76
+        }
+      ],
+      "traitCategories": [
+        "care"
+      ],
+      "activeTraitGates": [
+        "care"
+      ],
+      "classification": "Narrative, inventory, relationship or rule consumer found"
+    }
+  ],
+  "edges": [
+    {
+      "scene": "lantern",
+      "choice": "Comfort the frightened Pokémon",
+      "to": "square",
+      "immediateOutcome": "You kneel beside {starter} until it feels braver, then walk together to Mira’s lantern stall for help.",
+      "persistentFlag": "kind",
+      "companion": null,
+      "requirement": null,
+      "starter": null
+    },
+    {
+      "scene": "lantern",
+      "choice": "Examine the silver seed",
+      "to": "square",
+      "immediateOutcome": "The seed glows whenever you turn toward Moonwood, so you take it to Mira, the village lantern keeper, to ask what it means.",
+      "persistentFlag": "curious",
+      "companion": null,
+      "requirement": null,
+      "starter": null
+    },
+    {
+      "scene": "lantern",
+      "choice": "Check the hill for fallen stars",
+      "to": "hill",
+      "immediateOutcome": "You and {starter} climb the grassy hill above the square, looking for the light that fell from the sky.",
+      "persistentFlag": "brave",
+      "companion": null,
+      "requirement": null,
+      "starter": null
+    },
+    {
+      "scene": "square",
+      "choice": "Invite Eevee to come with us",
+      "to": "gate",
+      "immediateOutcome": "Eevee steps out from under the stall and joins you; Mira points your little team toward the Moonwood gate.",
+      "persistentFlag": "kind",
+      "companion": "Eevee",
+      "requirement": null,
+      "starter": null
+    },
+    {
+      "scene": "square",
+      "choice": "Borrow Mira’s old star map",
+      "to": "gate",
+      "immediateOutcome": "Mira lends you her map and traces the route through Moonwood, across the river and up to Starfall Tower before showing you to the gate.",
+      "persistentFlag": "map",
+      "companion": null,
+      "requirement": null,
+      "starter": null
+    },
+    {
+      "scene": "square",
+      "choice": "Ask where the seed came from",
+      "to": "hill",
+      "immediateOutcome": "Mira says the seed fell from the direction of Starfall Tower, then sends you to the nearby hill to find the beginning of its silver trail.",
+      "persistentFlag": "curious",
+      "companion": null,
+      "requirement": null,
+      "starter": null
+    },
+    {
+      "scene": "hill",
+      "choice": "Remember the three-note song",
+      "to": "gate",
+      "immediateOutcome": "You hum low, high, low until you remember the song, then follow the silver trail downhill to Moonwood’s gate.",
+      "persistentFlag": "song",
+      "companion": null,
+      "requirement": null,
+      "starter": null
+    },
+    {
+      "scene": "hill",
+      "choice": "Share a snack with Hoothoot",
+      "to": "gate",
+      "immediateOutcome": "Hoothoot eats your snack and decides to come along, flying ahead to show you the Moonwood gate.",
+      "persistentFlag": "kind",
+      "companion": "Hoothoot",
+      "requirement": null,
+      "starter": null
+    },
+    {
+      "scene": "gate",
+      "choice": "Help Bulbasaur untangle the arch",
+      "to": "grove",
+      "immediateOutcome": "Bulbasaur lifts the thorny stems one at a time, opening the arch so you can walk safely into Moonwood.",
+      "persistentFlag": "gentle",
+      "companion": null,
+      "requirement": null,
+      "starter": "Bulbasaur"
+    },
+    {
+      "scene": "gate",
+      "choice": "Let Charmander light the ridge",
+      "to": "ridge",
+      "immediateOutcome": "Charmander lights the ridge with its tail, and you follow the visible path around the thorny arch.",
+      "persistentFlag": "ember",
+      "companion": null,
+      "requirement": null,
+      "starter": "Charmander"
+    },
+    {
+      "scene": "gate",
+      "choice": "Let Squirtle wash the muddy sign",
+      "to": "brook",
+      "immediateOutcome": "Squirtle washes mud off the sign, revealing an arrow toward a brook that leads into Moonwood.",
+      "persistentFlag": "river",
+      "companion": null,
+      "requirement": null,
+      "starter": "Squirtle"
+    },
+    {
+      "scene": "gate",
+      "choice": "Follow the seed’s soft glow",
+      "to": "grove",
+      "immediateOutcome": "The seed lights a narrow gap beside the thorny arch, and you and {starter} squeeze through to the forest path.",
+      "persistentFlag": "trust",
+      "companion": null,
+      "requirement": null,
+      "starter": null
+    },
+    {
+      "scene": "ridge",
+      "choice": "Lift the branch and repair the nest",
+      "to": "grove",
+      "immediateOutcome": "You repair the fallen nest and set it safely in a low tree, then follow the ridge path down into Moonwood.",
+      "persistentFlag": "nest",
+      "companion": null,
+      "requirement": null,
+      "starter": null
+    },
+    {
+      "scene": "ridge",
+      "choice": "Mark the nest so Mira can help",
+      "to": "brook",
+      "immediateOutcome": "You mark the nest on a branch for Mira to find, then follow the carved arrow down to the brook.",
+      "persistentFlag": "marker",
+      "companion": null,
+      "requirement": null,
+      "starter": null
+    },
+    {
+      "scene": "brook",
+      "choice": "Keep the message safe",
+      "to": "grove",
+      "immediateOutcome": "You tuck the letter safely into your pocket and follow the stream into Moonwood.",
+      "persistentFlag": "letter",
+      "companion": null,
+      "requirement": null,
+      "starter": null
+    },
+    {
+      "scene": "brook",
+      "choice": "Float a reply: “We are coming”",
+      "to": "grove",
+      "immediateOutcome": "You float your reply in the bottle, and a passing Hoothoot lifts it toward the mountain while you follow the stream into Moonwood.",
+      "persistentFlag": "reply",
+      "companion": null,
+      "requirement": null,
+      "starter": null
+    },
+    {
+      "scene": "grove",
+      "choice": "Stop and free Pikachu",
+      "to": "rescue",
+      "immediateOutcome": "You stop beside Pikachu and carefully loosen the silver ivy while {starter} holds the stems still.",
+      "persistentFlag": "kind",
+      "companion": null,
+      "requirement": null,
+      "starter": null
+    },
+    {
+      "scene": "grove",
+      "choice": "Study the blinking mushrooms",
+      "to": "mushrooms",
+      "immediateOutcome": "Pikachu wiggles free of the loose loop and waves goodbye before you follow the nearby mushrooms.",
+      "persistentFlag": "curious",
+      "companion": null,
+      "requirement": null,
+      "starter": null
+    },
+    {
+      "scene": "grove",
+      "choice": "Ask the trees to speak one at a time",
+      "to": "roots",
+      "immediateOutcome": "The leaves fall quiet, loosen Pikachu’s ivy and whisper one clear instruction: follow the roots to the oldest tree.",
+      "persistentFlag": "listener",
+      "companion": null,
+      "requirement": null,
+      "starter": null
+    },
+    {
+      "scene": "rescue",
+      "choice": "Welcome Pikachu to the team",
+      "to": "mushrooms",
+      "immediateOutcome": "Pikachu chooses to travel with you and leads you a few steps along the glowing mushroom path.",
+      "persistentFlag": "rescue",
+      "companion": "Pikachu",
+      "requirement": null,
+      "starter": null
+    },
+    {
+      "scene": "rescue",
+      "choice": "Ask Pikachu to protect the forest",
+      "to": "roots",
+      "immediateOutcome": "Pikachu promises to guard Moonwood, then points you toward the oldest tree before waving goodbye.",
+      "persistentFlag": "forestGuard",
+      "companion": null,
+      "requirement": null,
+      "starter": null
+    },
+    {
+      "scene": "mushrooms",
+      "choice": "Follow the constellation we solved",
+      "to": "roots",
+      "immediateOutcome": "The stars light up in the order you solved, showing a trail through the ferns to the oldest tree.",
+      "persistentFlag": "rune",
+      "companion": null,
+      "requirement": "puzzle:mushrooms",
+      "starter": null
+    },
+    {
+      "scene": "mushrooms",
+      "choice": "Follow the brightest cluster",
+      "to": "hollow",
+      "immediateOutcome": "You follow the brightest mushrooms into a hollow tree, where the light suddenly breaks into laughter.",
+      "persistentFlag": "detour",
+      "companion": null,
+      "requirement": null,
+      "starter": null
+    },
+    {
+      "scene": "mushrooms",
+      "choice": "Wait and draw the whole pattern",
+      "to": "roots",
+      "immediateOutcome": "Your drawing shows that the blinking lights all point toward the same ancient tree, so you follow that path.",
+      "persistentFlag": "map",
+      "companion": null,
+      "requirement": null,
+      "starter": null
+    },
+    {
+      "scene": "mushrooms",
+      "choice": "Let our kindness guide a path through the ivy",
+      "to": "clearing",
+      "immediateOutcome": "You ask the ivy for a safe path without breaking its stems; it bends aside and leads you straight to a mossy clearing.",
+      "persistentFlag": "kindTrail",
+      "companion": null,
+      "requirement": "care",
+      "starter": null
+    },
+    {
+      "scene": "hollow",
+      "choice": "Tell a story about our first adventure",
+      "to": "echoArchive",
+      "immediateOutcome": "Gastly laughs at your story and opens a tiny doorway inside the hollow tree to its secret reading room.",
+      "persistentFlag": "humor",
+      "companion": null,
+      "requirement": null,
+      "starter": null
+    },
+    {
+      "scene": "hollow",
+      "choice": "Explain why we must help the sky",
+      "to": "roots",
+      "immediateOutcome": "Gastly stops giggling when you explain the missing stars and guides you back outside to the oldest tree.",
+      "persistentFlag": "honest",
+      "companion": null,
+      "requirement": null,
+      "starter": null
+    },
+    {
+      "scene": "echoArchive",
+      "choice": "Borrow the astronomer’s notebook about Lumi",
+      "to": "clearing",
+      "immediateOutcome": "You borrow notes explaining that Lumi is a Clefairy caring for Shinx, then Gastly leads you out to the lens clearing.",
+      "persistentFlag": "understanding",
+      "companion": null,
+      "requirement": null,
+      "starter": null
+    },
+    {
+      "scene": "echoArchive",
+      "choice": "Copy a hidden mountain route",
+      "to": "clearing",
+      "immediateOutcome": "You copy the old mountain route, then Gastly leads you through a short tunnel to the lens clearing.",
+      "persistentFlag": "archiveMap",
+      "companion": null,
+      "requirement": null,
+      "starter": null
+    },
+    {
+      "scene": "echoArchive",
+      "choice": "Learn the archive’s three-note greeting",
+      "to": "clearing",
+      "immediateOutcome": "You practice the archive’s low-high-low greeting, then follow Gastly out to the lens clearing.",
+      "persistentFlag": "echoTune",
+      "companion": null,
+      "requirement": null,
+      "starter": null
+    },
+    {
+      "scene": "roots",
+      "choice": "Answer: “Kindness”",
+      "to": "clearing",
+      "immediateOutcome": "“Kindness grows when we pass it on,” the tree agrees, opening its root door to the clearing behind it.",
+      "persistentFlag": "wisdom",
+      "companion": null,
+      "requirement": null,
+      "starter": null
+    },
+    {
+      "scene": "roots",
+      "choice": "Answer: “A flame”",
+      "to": "clearing",
+      "immediateOutcome": "“One flame can light another without going out,” the tree agrees, opening its root door to the clearing behind it.",
+      "persistentFlag": "warmth",
+      "companion": null,
+      "requirement": null,
+      "starter": null
+    },
+    {
+      "scene": "roots",
+      "choice": "Ask Bulbasaur to speak with the roots",
+      "to": "clearing",
+      "immediateOutcome": "Bulbasaur touches the roots with its vines and listens; the tree answers in a low rumble, then lifts its roots into a doorway for you.",
+      "persistentFlag": "rootFriend",
+      "companion": null,
+      "requirement": null,
+      "starter": "Bulbasaur"
+    },
+    {
+      "scene": "clearing",
+      "choice": "Take the lens and a rescue rope",
+      "to": "bank",
+      "immediateOutcome": "You pack the crescent lens and rescue rope, then follow the tree’s riverside path toward Starfall Tower.",
+      "persistentFlag": "rope",
+      "companion": null,
+      "requirement": null,
+      "starter": null
+    },
+    {
+      "scene": "clearing",
+      "choice": "Take the lens and a rune key",
+      "to": "bank",
+      "immediateOutcome": "You pack the crescent lens and rune key, then follow the tree’s riverside path toward Starfall Tower.",
+      "persistentFlag": "key",
+      "companion": null,
+      "requirement": null,
+      "starter": null
+    },
+    {
+      "scene": "clearing",
+      "choice": "Leave the tools and plant a thank-you seed",
+      "to": "bank",
+      "immediateOutcome": "You plant an ordinary seed in thanks, keep the silver seed and lens, and follow the tree’s riverside path toward Starfall Tower.",
+      "persistentFlag": "garden",
+      "companion": null,
+      "requirement": null,
+      "starter": null
+    },
+    {
+      "scene": "bank",
+      "choice": "Help Lapras reach deep water",
+      "to": "lapras",
+      "immediateOutcome": "You and {starter} dig a small channel from the river to Lapras’s shallow pool.",
+      "persistentFlag": "kind",
+      "companion": null,
+      "requirement": null,
+      "starter": null
+    },
+    {
+      "scene": "bank",
+      "choice": "Repair the ferry with fallen wood",
+      "to": "ferry",
+      "immediateOutcome": "You replace the ferry’s broken boards with fallen wood, then check the rope before anyone steps aboard.",
+      "persistentFlag": "builder",
+      "companion": null,
+      "requirement": null,
+      "starter": null
+    },
+    {
+      "scene": "bank",
+      "choice": "Explore the waterfall on foot",
+      "to": "falls",
+      "immediateOutcome": "You follow the bank upstream and find a dry ledge behind the waterfall.",
+      "persistentFlag": "brave",
+      "companion": null,
+      "requirement": null,
+      "starter": null
+    },
+    {
+      "scene": "bank",
+      "choice": "Use our clues to find the astronomer’s cave",
+      "to": "cave",
+      "immediateOutcome": "You match the crescent on your map or letter to the moon-shaped marks along the bank and find the cave’s open side entrance.",
+      "persistentFlag": "clueTrail",
+      "companion": null,
+      "requirement": "caveClues",
+      "starter": null
+    },
+    {
+      "scene": "lapras",
+      "choice": "Accept Lapras’s friendship",
+      "to": "island",
+      "immediateOutcome": "Lapras carries you safely to a little island at the foot of the mountain, promising to stay nearby on the river.",
+      "persistentFlag": "riverFriend",
+      "companion": "Lapras",
+      "requirement": null,
+      "starter": null
+    },
+    {
+      "scene": "lapras",
+      "choice": "Ask Lapras to guide lost travelers",
+      "to": "ferry",
+      "immediateOutcome": "Lapras stays to guide other travelers while you walk back to Psyduck’s ferry.",
+      "persistentFlag": "riverGuard",
+      "companion": null,
+      "requirement": null,
+      "starter": null
+    },
+    {
+      "scene": "lapras",
+      "choice": "Use Squirtle’s water to widen the channel",
+      "to": "island",
+      "immediateOutcome": "Squirtle widens the channel with a gentle stream, and grateful Lapras carries you to the island at the foot of the mountain.",
+      "persistentFlag": "clearWater",
+      "companion": "Lapras",
+      "requirement": null,
+      "starter": "Squirtle"
+    },
+    {
+      "scene": "ferry",
+      "choice": "Use our rescue rope for a sturdy knot",
+      "to": "island",
+      "immediateOutcome": "Your rescue rope holds the ferry safely, and you cross to the island at the foot of the mountain.",
+      "persistentFlag": "safeCrossing",
+      "companion": null,
+      "requirement": "rope",
+      "starter": null
+    },
+    {
+      "scene": "ferry",
+      "choice": "Weave a new rope from long reeds",
+      "to": "island",
+      "immediateOutcome": "You braid a strong reed rope and cross safely by ferry to the island at the foot of the mountain.",
+      "persistentFlag": "patient",
+      "companion": null,
+      "requirement": null,
+      "starter": null
+    },
+    {
+      "scene": "ferry",
+      "choice": "Help Psyduck cross first",
+      "to": "reedWorkshop",
+      "immediateOutcome": "You weave a safe ferry rope and help Psyduck cross first; it invites you into its reed workshop beside the far bank.",
+      "persistentFlag": "duck",
+      "companion": "Psyduck",
+      "requirement": null,
+      "starter": null
+    },
+    {
+      "scene": "reedWorkshop",
+      "choice": "Build floating lanterns with Psyduck",
+      "to": "island",
+      "immediateOutcome": "You and Psyduck set floating lanterns along the bank, then follow the short causeway to the island.",
+      "persistentFlag": "floatingLanterns",
+      "companion": null,
+      "requirement": null,
+      "starter": null
+    },
+    {
+      "scene": "reedWorkshop",
+      "choice": "Map Psyduck’s quiet reed channel",
+      "to": "island",
+      "immediateOutcome": "Psyduck marks a quiet river route and the tower’s old water passage on your map, then walks with you to the island.",
+      "persistentFlag": "reedGuide",
+      "companion": null,
+      "requirement": null,
+      "starter": null
+    },
+    {
+      "scene": "reedWorkshop",
+      "choice": "Learn Psyduck’s calming three-note tune",
+      "to": "island",
+      "immediateOutcome": "You learn Psyduck’s calming low-high-low tune, then walk together along the causeway to the island.",
+      "persistentFlag": "duckRhythm",
+      "companion": null,
+      "requirement": null,
+      "starter": null
+    },
+    {
+      "scene": "falls",
+      "choice": "Enter the doorway opened by our melody",
+      "to": "cave",
+      "immediateOutcome": "Your three notes open the door, and you step into a dry cave behind the falling water.",
+      "persistentFlag": "door",
+      "companion": null,
+      "requirement": "puzzle:falls",
+      "starter": null
+    },
+    {
+      "scene": "falls",
+      "choice": "Leave the bells and follow the river",
+      "to": "island",
+      "immediateOutcome": "You leave the bells alone and follow the riverbank to a stone causeway leading onto the island.",
+      "persistentFlag": "splash",
+      "companion": null,
+      "requirement": null,
+      "starter": null
+    },
+    {
+      "scene": "falls",
+      "choice": "Sing the melody learned on our journey",
+      "to": "cave",
+      "immediateOutcome": "You sing the melody you learned earlier; the bells answer, and the door opens into a dry cave.",
+      "persistentFlag": "songDoor",
+      "companion": null,
+      "requirement": "melodyHelp",
+      "starter": null
+    },
+    {
+      "scene": "falls",
+      "choice": "Explore the safe path around the falls",
+      "to": "island",
+      "immediateOutcome": "The safe path curves around the waterfall and reaches a causeway leading onto the island.",
+      "persistentFlag": "mistTrail",
+      "companion": null,
+      "requirement": null,
+      "starter": null
+    },
+    {
+      "scene": "cave",
+      "choice": "Read how to open the lens gently",
+      "to": "island",
+      "immediateOutcome": "You learn that friends can open the sphere by helping Lumi feel safe, then take the cave’s lower exit onto the island causeway.",
+      "persistentFlag": "understanding",
+      "companion": null,
+      "requirement": null,
+      "starter": null
+    },
+    {
+      "scene": "cave",
+      "choice": "Copy the tower’s hidden stairway",
+      "to": "island",
+      "immediateOutcome": "You copy the tower’s hidden stairway, then take the cave’s lower exit onto the island causeway.",
+      "persistentFlag": "secretStair",
+      "companion": null,
+      "requirement": null,
+      "starter": null
+    },
+    {
+      "scene": "island",
+      "choice": "Promise to help both Pokémon",
+      "to": "bridge",
+      "immediateOutcome": "You promise to help both Lumi and Shinx, then follow their footprints uphill toward Starfall Tower.",
+      "persistentFlag": "promise",
+      "companion": null,
+      "requirement": null,
+      "starter": null
+    },
+    {
+      "scene": "island",
+      "choice": "Collect the golden speck for later",
+      "to": "bridge",
+      "immediateOutcome": "You catch the golden speck in your lens, where it lights their footprints up the mountain.",
+      "persistentFlag": "stardust",
+      "companion": null,
+      "requirement": null,
+      "starter": null
+    },
+    {
+      "scene": "island",
+      "choice": "Ask the river to keep their secret",
+      "to": "bridge",
+      "immediateOutcome": "You promise to share the memory only with people who can help, then follow the friends’ footprints up the mountain.",
+      "persistentFlag": "privacy",
+      "companion": null,
+      "requirement": null,
+      "starter": null
+    },
+    {
+      "scene": "bridge",
+      "choice": "Wait for the calm and cross together",
+      "to": "shelter",
+      "immediateOutcome": "You wait for a quiet moment in the wind and cross the bridge together to a sheltered nook.",
+      "persistentFlag": "steady",
+      "companion": null,
+      "requirement": null,
+      "starter": null
+    },
+    {
+      "scene": "bridge",
+      "choice": "Follow the promise trail Lapras revealed",
+      "to": "stairs",
+      "immediateOutcome": "Lapras sings from the river below, and you follow the glowing Promise Trail along the mountainside.",
+      "persistentFlag": "promiseRoute",
+      "companion": null,
+      "requirement": "promiseTrail",
+      "starter": null
+    },
+    {
+      "scene": "bridge",
+      "choice": "Take the longer stone path",
+      "to": "windwatch",
+      "immediateOutcome": "You take the longer stone path around the bridge and climb to a lookout above the clouds.",
+      "persistentFlag": "patient",
+      "companion": null,
+      "requirement": null,
+      "starter": null
+    },
+    {
+      "scene": "bridge",
+      "choice": "Let Bulbasaur anchor the bridge with vines",
+      "to": "shelter",
+      "immediateOutcome": "Bulbasaur wraps its vines around the bridge posts to keep the boards steady while everyone crosses to a sheltered nook.",
+      "persistentFlag": "vineBridge",
+      "companion": null,
+      "requirement": null,
+      "starter": "Bulbasaur"
+    },
+    {
+      "scene": "windwatch",
+      "choice": "Help Altaria guide the flock to the cloud-platform",
+      "to": "roof",
+      "immediateOutcome": "You guide Altaria’s little birds onto the cloud-platform, and the grateful flock carries you to the observatory roof.",
+      "persistentFlag": "flockGuide",
+      "companion": null,
+      "requirement": null,
+      "starter": null
+    },
+    {
+      "scene": "windwatch",
+      "choice": "Read the wind marks and take the stone steps",
+      "to": "stairs",
+      "immediateOutcome": "The wind marks point to a sheltered flight of stone steps, so you follow them toward the tower.",
+      "persistentFlag": "windChart",
+      "companion": null,
+      "requirement": null,
+      "starter": null
+    },
+    {
+      "scene": "windwatch",
+      "choice": "Ask Altaria for a sheltered path to the berry nook",
+      "to": "shelter",
+      "immediateOutcome": "Altaria shows you a path behind the rocks that leads safely to the cloudberry nook.",
+      "persistentFlag": "windShelter",
+      "companion": null,
+      "requirement": null,
+      "starter": null
+    },
+    {
+      "scene": "stairs",
+      "choice": "Carry the scarf to its owner",
+      "to": "shelter",
+      "immediateOutcome": "You tuck Shinx’s scarf into your pack and follow the path toward the tower, stopping at a sheltered nook ahead.",
+      "persistentFlag": "scarf",
+      "companion": null,
+      "requirement": null,
+      "starter": null
+    },
+    {
+      "scene": "stairs",
+      "choice": "Tie it to a marker for other travelers",
+      "to": "shelter",
+      "immediateOutcome": "You tie the scarf to a trail marker where other travelers can see it, then follow the path to a sheltered nook.",
+      "persistentFlag": "trail",
+      "companion": null,
+      "requirement": null,
+      "starter": null
+    },
+    {
+      "scene": "stairs",
+      "choice": "Keep our promise and follow the hidden stair to Lumi",
+      "to": "tower",
+      "immediateOutcome": "You stay on the hidden stair until it reaches Lumi’s door, keeping the promise you made beside the river.",
+      "persistentFlag": "keptPromise",
+      "companion": null,
+      "requirement": "promiseRoute",
+      "starter": null
+    },
+    {
+      "scene": "shelter",
+      "choice": "Trade a little food for the feather",
+      "to": "observatory",
+      "immediateOutcome": "You share some food, and Altaria gives you a warm cloud feather before pointing out the nearby observatory.",
+      "persistentFlag": "feather",
+      "companion": null,
+      "requirement": null,
+      "starter": null
+    },
+    {
+      "scene": "shelter",
+      "choice": "Repair her cracked berry bowl",
+      "to": "observatory",
+      "immediateOutcome": "You repair Altaria’s berry bowl, and she thanks you by showing you the sheltered way to the nearby observatory.",
+      "persistentFlag": "craft",
+      "companion": null,
+      "requirement": null,
+      "starter": null
+    },
+    {
+      "scene": "shelter",
+      "choice": "Tell her what we learned about Lumi",
+      "to": "observatory",
+      "immediateOutcome": "Altaria listens to what you learned about Lumi and explains that sharing warmth will help, then shows you the nearby observatory.",
+      "persistentFlag": "counsel",
+      "companion": null,
+      "requirement": "understanding",
+      "starter": null
+    },
+    {
+      "scene": "observatory",
+      "choice": "Open the roof with our repaired mechanism",
+      "to": "roof",
+      "immediateOutcome": "Your repaired mechanism turns, and you climb the stairs as the observatory roof opens.",
+      "persistentFlag": "alignment",
+      "companion": null,
+      "requirement": "puzzle:observatory",
+      "starter": null
+    },
+    {
+      "scene": "observatory",
+      "choice": "Accept Pikachu’s help with the old motor",
+      "to": "roof",
+      "immediateOutcome": "Pikachu gives the motor a small, steady spark, opening the roof so you can climb up.",
+      "persistentFlag": "spark",
+      "companion": null,
+      "requirement": "pikachuHelp",
+      "starter": null
+    },
+    {
+      "scene": "observatory",
+      "choice": "Look for a hand crank with {starter}",
+      "to": "roof",
+      "immediateOutcome": "You and {starter} find a hand crank and turn it together until the roof opens.",
+      "persistentFlag": "teamwork",
+      "companion": null,
+      "requirement": null,
+      "starter": null
+    },
+    {
+      "scene": "observatory",
+      "choice": "Climb the safe outside stair together",
+      "to": "roof",
+      "immediateOutcome": "The outside stair brings you to a manual latch above the frozen controls, and you lift it to open the roof.",
+      "persistentFlag": "outsideStair",
+      "companion": null,
+      "requirement": null,
+      "starter": null
+    },
+    {
+      "scene": "roof",
+      "choice": "Cross slowly, checking on every friend",
+      "to": "tower",
+      "immediateOutcome": "You wait for each stepping-stone to glow steadily and cross together to Starfall Tower.",
+      "persistentFlag": "careful",
+      "companion": null,
+      "requirement": null,
+      "starter": null
+    },
+    {
+      "scene": "roof",
+      "choice": "Find the sheltered stair beneath the roof",
+      "to": "tower",
+      "immediateOutcome": "You find a solid stair beneath the platform and follow it around the gap to Starfall Tower.",
+      "persistentFlag": "sheltered",
+      "companion": null,
+      "requirement": null,
+      "starter": null
+    },
+    {
+      "scene": "roof",
+      "choice": "Follow the hidden route our clues reveal",
+      "to": "tower",
+      "immediateOutcome": "Your earlier discovery reveals a sheltered passage with a diagram of the sphere’s warm-light setting, which you copy before reaching Starfall Tower.",
+      "persistentFlag": "secretRoute",
+      "companion": null,
+      "requirement": "secretWay",
+      "starter": null
+    },
+    {
+      "scene": "roof",
+      "choice": "Ask Charmander to warm the frosted stones",
+      "to": "tower",
+      "immediateOutcome": "Charmander gently melts the frost, making the glowing stepping-stones safe to cross to Starfall Tower.",
+      "persistentFlag": "warmPath",
+      "companion": null,
+      "requirement": null,
+      "starter": "Charmander"
+    },
+    {
+      "scene": "tower",
+      "choice": "Knock and introduce ourselves",
+      "to": "lumi",
+      "immediateOutcome": "You knock and say your names; Lumi opens the door and invites you inside.",
+      "persistentFlag": "respect",
+      "companion": null,
+      "requirement": null,
+      "starter": null
+    },
+    {
+      "scene": "tower",
+      "choice": "Call gently: “Lumi, we want to help”",
+      "to": "lumi",
+      "immediateOutcome": "You call Lumi’s name softly and explain that you came to help; she opens the door.",
+      "persistentFlag": "gentleVoice",
+      "companion": null,
+      "requirement": null,
+      "starter": null
+    },
+    {
+      "scene": "tower",
+      "choice": "Return the scarf before speaking",
+      "to": "lumi",
+      "immediateOutcome": "You hold out the scarf you found, and Lumi opens the door with a grateful smile.",
+      "persistentFlag": "returnedScarf",
+      "companion": null,
+      "requirement": "scarf",
+      "starter": null
+    },
+    {
+      "scene": "lumi",
+      "choice": "Sit beside Lumi and listen",
+      "to": "listen",
+      "immediateOutcome": "You sit quietly beside Lumi, and she begins to tell you why she borrowed the stars.",
+      "persistentFlag": "empathy",
+      "companion": null,
+      "requirement": null,
+      "starter": null
+    },
+    {
+      "scene": "lumi",
+      "choice": "Show Lumi the astronomer’s notebook",
+      "to": "listen",
+      "immediateOutcome": "You share what the astronomer’s notes taught you, and Lumi explains what happened to Shinx.",
+      "persistentFlag": "explain",
+      "companion": null,
+      "requirement": "understanding",
+      "starter": null
+    },
+    {
+      "scene": "lumi",
+      "choice": "Suggest moving the sphere to the village",
+      "to": "plan",
+      "immediateOutcome": "Lumi agrees that the village could help, but asks you to choose how to carry the warmth before moving the sphere.",
+      "persistentFlag": "villagePlan",
+      "companion": null,
+      "requirement": null,
+      "starter": null
+    },
+    {
+      "scene": "lumi",
+      "choice": "Keep our river promise and share the heart ring",
+      "to": "heart",
+      "immediateOutcome": "Lumi remembers your river promise and trusts you to place your hand on the heart ring.",
+      "persistentFlag": "promiseFulfilled",
+      "companion": null,
+      "requirement": "keptPromise",
+      "starter": null
+    },
+    {
+      "scene": "listen",
+      "choice": "Tell Lumi she will not face this alone",
+      "to": "plan",
+      "immediateOutcome": "You promise Lumi that your friends will help her, and she turns the sphere so you can study its rings together.",
+      "persistentFlag": "support",
+      "companion": null,
+      "requirement": null,
+      "starter": null
+    },
+    {
+      "scene": "listen",
+      "choice": "Let Shinx choose what he needs",
+      "to": "plan",
+      "immediateOutcome": "Shinx asks to stay warm and close to Lumi, so you study the rings for a way to help them both.",
+      "persistentFlag": "agency",
+      "companion": null,
+      "requirement": null,
+      "starter": null
+    },
+    {
+      "scene": "listen",
+      "choice": "Share the feather’s soft warmth",
+      "to": "plan",
+      "immediateOutcome": "You tuck the cloud feather around Shinx; feeling its warmth, Lumi relaxes and shows you the sphere’s rings.",
+      "persistentFlag": "cloudWarmth",
+      "companion": null,
+      "requirement": "feather",
+      "starter": null
+    },
+    {
+      "scene": "plan",
+      "choice": "Prepare to release the stars to the sky",
+      "to": "sky",
+      "immediateOutcome": "You turn the sky ring toward the window, ready to return the missing stars.",
+      "persistentFlag": "skyPlan",
+      "companion": null,
+      "requirement": null,
+      "starter": null
+    },
+    {
+      "scene": "plan",
+      "choice": "Gather everyone around the heart ring",
+      "to": "heart",
+      "immediateOutcome": "You gather close to Lumi and place your hands beside the heart ring.",
+      "persistentFlag": "heartPlan",
+      "companion": null,
+      "requirement": null,
+      "starter": null
+    },
+    {
+      "scene": "plan",
+      "choice": "Carry the earth ring to the garden balcony",
+      "to": "earth",
+      "immediateOutcome": "Lumi carries the sphere with you onto the garden balcony, where you set the earth ring beside your silver seed.",
+      "persistentFlag": "earthPlan",
+      "companion": null,
+      "requirement": null,
+      "starter": null
+    },
+    {
+      "scene": "plan",
+      "choice": "Follow our plan and bring the closed sphere to Mira",
+      "to": "endLantern",
+      "immediateOutcome": "Keeping the sphere closed and Shinx warm, you and Lumi follow your village plan down to Mira’s waiting lanterns.",
+      "persistentFlag": "villageTogether",
+      "companion": null,
+      "requirement": "villagePlan",
+      "starter": null
+    },
+    {
+      "scene": "sky",
+      "choice": "Make a warm nest with the cloud feather",
+      "to": "endAurora",
+      "immediateOutcome": "You shape the cloud feather into a warm nest for Shinx, giving Lumi the courage to release the stars.",
+      "persistentFlag": null,
+      "companion": null,
+      "requirement": "feather",
+      "starter": null
+    },
+    {
+      "scene": "sky",
+      "choice": "Let Charmander keep Shinx safely warm",
+      "to": "endAurora",
+      "immediateOutcome": "Charmander lends gentle warmth beside Shinx’s blanket nest, and Lumi finally feels ready to let go.",
+      "persistentFlag": null,
+      "companion": null,
+      "requirement": null,
+      "starter": "Charmander"
+    },
+    {
+      "scene": "sky",
+      "choice": "Release the stars and carry Shinx home",
+      "to": "endDawn",
+      "immediateOutcome": "You wrap Shinx warmly first, then release the stars and take the sheltered path down to Mira.",
+      "persistentFlag": null,
+      "companion": null,
+      "requirement": null,
+      "starter": null
+    },
+    {
+      "scene": "sky",
+      "choice": "Hum a healing lullaby as we open the ring",
+      "to": "endSong",
+      "immediateOutcome": "You hum a gentle three-note lullaby; Lumi turns the heart ring to share its warmth, then opens the sky ring in time with your song.",
+      "persistentFlag": null,
+      "companion": null,
+      "requirement": null,
+      "starter": null
+    },
+    {
+      "scene": "heart",
+      "choice": "Build a sanctuary here with Lumi",
+      "to": "endSanctuary",
+      "immediateOutcome": "You and Lumi decide to turn the tower into a safe home for Pokémon who need care.",
+      "persistentFlag": null,
+      "companion": null,
+      "requirement": null,
+      "starter": null
+    },
+    {
+      "scene": "heart",
+      "choice": "Link Pikachu’s spark to the village lanterns",
+      "to": "endLantern",
+      "immediateOutcome": "Pikachu sends a gentle spark through the lantern wires while your circle shares its warmth with the village below.",
+      "persistentFlag": null,
+      "companion": null,
+      "requirement": "pikachuHelp",
+      "starter": null
+    },
+    {
+      "scene": "heart",
+      "choice": "Sing the three-note song together",
+      "to": "endSong",
+      "immediateOutcome": "You sing the three-note melody together, and the heart ring opens to the rhythm you remember.",
+      "persistentFlag": null,
+      "companion": null,
+      "requirement": "melodyHelp",
+      "starter": null
+    },
+    {
+      "scene": "heart",
+      "choice": "Bring the circle of warmth to Willowbrook",
+      "to": "endLantern",
+      "immediateOutcome": "You carry the sphere down together, and Mira gathers the village around it to share the warmth.",
+      "persistentFlag": null,
+      "companion": null,
+      "requirement": null,
+      "starter": null
+    },
+    {
+      "scene": "earth",
+      "choice": "Plant a starlight garden in Willowbrook",
+      "to": "endGarden",
+      "immediateOutcome": "You carry the silver seed down to Willowbrook and plant it in the village garden.",
+      "persistentFlag": null,
+      "companion": null,
+      "requirement": null,
+      "starter": null
+    },
+    {
+      "scene": "earth",
+      "choice": "Let Bulbasaur grow a living sky-vine",
+      "to": "endGarden",
+      "immediateOutcome": "Bulbasaur helps you carry the seed down to Willowbrook, then guides its roots into a living sky-vine.",
+      "persistentFlag": null,
+      "companion": null,
+      "requirement": null,
+      "starter": "Bulbasaur"
+    },
+    {
+      "scene": "earth",
+      "choice": "Save the seed and open a tower sanctuary",
+      "to": "endSanctuary",
+      "immediateOutcome": "You save the seed in a pot and return inside with Lumi to make the tower a safe home.",
+      "persistentFlag": null,
+      "companion": null,
+      "requirement": null,
+      "starter": null
+    },
+    {
+      "scene": "earth",
+      "choice": "Plant star reeds along Psyduck’s lantern trail",
+      "to": "endGarden",
+      "immediateOutcome": "You carry the silver seed down to Psyduck’s lantern trail, where its roots grow into glowing reeds.",
+      "persistentFlag": "reedGarden",
+      "companion": null,
+      "requirement": "floatingLanterns",
+      "starter": null
+    }
+  ]
+}

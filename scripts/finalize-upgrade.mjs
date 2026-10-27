@@ -1,0 +1,6 @@
+import fs from 'node:fs';
+let p='src/storyDepth.ts',s=fs.readFileSync(p,'utf8').replace("has('feather')&&state.history.at(-1)?.choice.includes('feather')?", "(s!=='Charmander'||state.history.at(-1)?.choice.includes('feather'))?");fs.writeFileSync(p,s);
+p='package.json';let j=JSON.parse(fs.readFileSync(p,'utf8'));j.scripts.test+=' && tsx scripts/development-test.tsx && tsx scripts/consequence-audit.ts';j.scripts['export:story']='tsx scripts/export-story.ts';fs.writeFileSync(p,JSON.stringify(j,null,2)+'\n');
+p='scripts/language-test.tsx';s=fs.readFileSync(p,'utf8').replace('all 104 translated','all 105 translated');fs.writeFileSync(p,s);
+p='.gitignore';s=fs.readFileSync(p,'utf8');if(!s.includes('exports/'))s+='\n# Shareable review bundles contain copies of project artwork.\nexports/\n';fs.writeFileSync(p,s);
+p='src/story.ts';s=fs.readFileSync(p,'utf8').replace("text:state.flags.includes('promise')?'You promised to help them both. My song will show you a trail made for that promise.'", "text:byId[state.scene].ending?'The stars are back in my river. I will keep the crossing safe whenever you return.':state.flags.includes('promise')?'You promised to help them both. My song will show you a trail made for that promise.'");fs.writeFileSync(p,s);

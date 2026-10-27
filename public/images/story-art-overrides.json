@@ -1,0 +1,4 @@
+{
+  "endAurora": [{"path":"images/scenes/painted/endAurora-charmander.png","starter":"Charmander","needs":"charmanderWarmth","priority":50}],
+  "grove": [{"path":"images/scenes/painted/scene-rescue.png","needs":"puzzle:grove","priority":50}]
+}

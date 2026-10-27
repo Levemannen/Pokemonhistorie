@@ -1,3 +1,5 @@
+Current edition: automatic chapter-pause screens are no longer shown; chapters flow directly into one another. Legacy bookmark data remains readable in older saves.
+
 # Reading, collecting and coming back
 
 ## Calm reading

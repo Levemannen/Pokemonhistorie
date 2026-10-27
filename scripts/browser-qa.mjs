@@ -1,0 +1,16 @@
+import {mkdirSync,writeFileSync} from 'node:fs';
+import {pathToFileURL} from 'node:url';
+const {chromium}=await import(pathToFileURL(process.env.PLAYWRIGHT_MODULE).href);
+const browser=await chromium.launch({executablePath:process.env.BROWSER_EXECUTABLE,headless:true});
+const context=await browser.newContext({viewport:{width:1440,height:1000}});
+const page=await context.newPage();const errors=[];
+page.on('pageerror',e=>errors.push(e.message));
+await page.goto('http://127.0.0.1:4173/');
+await page.waitForSelector('.starter-grid');
+mkdirSync('docs/browser-qa',{recursive:true});
+await page.screenshot({path:'docs/browser-qa/start-en.png',fullPage:true});
+await page.getByRole('button',{name:'Norsk',exact:true}).click();
+await page.screenshot({path:'docs/browser-qa/start-nb.png',fullPage:true});
+writeFileSync('docs/browser-qa/start-nb.txt',await page.locator('body').innerText());
+console.log(JSON.stringify({errors,text:await page.locator('.page-body').innerText()}));
+await browser.close();

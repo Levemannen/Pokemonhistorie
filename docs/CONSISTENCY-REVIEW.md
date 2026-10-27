@@ -1,3 +1,7 @@
+# Superseded initial review
+
+The later narrative rework replaces this initial audit: see STORY-REWORK.md and STORY-TRANSITIONS.md. All 39 scenes now have painted coverage.
+
 # Story and illustration review — 25 October 2026
 
 Reviewed all 39 authored scenes, the branch graph, 53 distinct selected paintings (contact sheets in `art-review/`), and the 18 SVG starter fallbacks used by the six partly/unpainted scenes. The illustrations are narrative moments, not an exhaustive picture of every traveling companion.

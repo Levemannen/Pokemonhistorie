@@ -1,0 +1,6 @@
+{
+  "results": [
+    "English narration uses en-US; Norwegian narration uses nb-NO; word pronunciation uses rate 0.65; scene changes cancel old speech; speech failure gives visible feedback; Norwegian journey download contains translated history."
+  ],
+  "scope": "Mocked browser speech engine tests wiring and failure handling only. No claim about actual audio quality, installed voices or real mobile devices."
+}

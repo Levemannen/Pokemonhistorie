@@ -2,7 +2,7 @@
 
 All artwork is stored in `public/images/scenes/`. The game never generates images, calls an image service, or requires an API key during play.
 
-Current prepared coverage: 52 of 59 required painted assets are saved, covering 33 of 39 scenes for every reachable starter. Six earlier starter-specific paintings are also available. The generated outputs for `scene-grove`, `scene-lapras`, `scene-heart`, `scene-endSong`, `scene-endSanctuary`, `scene-endLantern`, and `mushrooms-pikachu` were rejected by the image tool. Those situations retain the appropriate SVG or base-scene fallback. Three companion drafts with incorrect locations are retained as unselected drafts; corrected versions edit the canonical scene directly. This is partial painted coverage, not a claim that every page has finished generated artwork.
+Current prepared coverage: 58 of 59 planned painted assets are saved, covering all 39 scenes for every reachable starter. The remaining mushrooms/Pikachu companion variant uses the finished base painting; it does not produce an old-style page. Six newly prepared paintings replace the last normal-play SVG scenes: grove, lapras, heart, endSong, endSanctuary and endLantern. Sanctuary and song endings use painted environments without characters. SVGs are retained only for load-failure recovery. Three incorrect-location companion drafts remain unselected. Exact replacement prompts are preserved in painted-revisions.json.
 
 ## Shared illustrations
 
@@ -16,7 +16,7 @@ The opening and the observatory puzzle have starter-specific illustrations, beca
 
 `public/images/painted-catalog.json` records only successfully saved generated images. `public/images/illustration-manifest.json` selects the appropriate local file and reports actual production coverage. Shared scene images take precedence over older starter-specific extras. Shared variants have no starter restriction; starter-specific variants are checked against the selected Pokémon. When several variants match, the highest priority wins.
 
-Original SVG illustrations remain available. An unfinished or unavailable generated image uses an explicitly labeled SVG fallback. Loading failures also recover to the original SVG illustration. The application does not label those fallback illustrations as finished AI artwork.
+Original SVG illustrations remain available. Loading failures also recover to the original SVG illustration. The application does not label those fallback illustrations as finished AI artwork.
 
 After registering newly generated artwork, run `tsx scripts/sync-painted.ts` and rebuild the static application. The `art` command regenerates SVG assets and then reapplies the prepared paintings, so it does not discard the generated artwork from the manifest.
 

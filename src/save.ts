@@ -1,5 +1,5 @@
 import {byId,type State} from './story';
-import {puzzleIds,type PuzzleProgress} from './puzzles';
+import {puzzleIds,getPuzzle,type PuzzleProgress} from './puzzles';
 const strings=(value:unknown):value is string[]=>Array.isArray(value)&&value.every(v=>typeof v==='string');
 export function restoreSave(raw:string|null):State|null{
  try{
@@ -9,11 +9,13 @@ export function restoreSave(raw:string|null):State|null{
   const state:State={scene:value.scene,starter:value.starter,flags:[...new Set(value.flags as string[])],companions:[...new Set(value.companions as string[])],history:value.history.map((h:{scene:string;choice:string;flags?:unknown;companions?:unknown})=>({scene:h.scene,choice:h.choice,...strings(h.flags)?{flags:h.flags}:{},...strings(h.companions)?{companions:h.companions}:{}}))};
   const puzzles:Record<string,PuzzleProgress>={};
   if(value.puzzles&&typeof value.puzzles==='object')for(const id of puzzleIds){
-   const p=value.puzzles[id];if(!p||!Array.isArray(p.input)||!p.input.every((n:unknown)=>Number.isInteger(n)&&Number(n)>=0&&Number(n)<(id==='mushrooms'?9:id==='falls'?2:3))||p.input.length>3)continue;
+   const definition=getPuzzle({...state,scene:id});if(!definition)continue;
+   const p=value.puzzles[id];if(!p||!Array.isArray(p.input)||!p.input.every((n:unknown)=>Number.isInteger(n)&&Number(n)>=0&&Number(n)<definition.buttons.length)||p.input.length>definition.answer.length)continue;
    const solved=state.flags.includes(`puzzle:${id}`);
-   puzzles[id]={input:!solved&&p.input.length===3?[]:p.input,attempts:Number.isInteger(p.attempts)&&p.attempts>=0?p.attempts:0,hints:Number.isInteger(p.hints)?Math.max(0,Math.min(2,p.hints)):0,solved};
+   puzzles[id]={input:!solved&&p.input.length===definition.answer.length?[]:p.input,attempts:Number.isInteger(p.attempts)&&p.attempts>=0?p.attempts:0,hints:Number.isInteger(p.hints)?Math.max(0,Math.min(definition.hints.length,p.hints)):0,solved};
   }
   state.puzzles=puzzles;
+  if(value.language==='en'||value.language==='nb')state.language=value.language;
   if(typeof value.journeyId==='string'&&value.journeyId)state.journeyId=value.journeyId;
   state.acknowledgedChapters=Array.isArray(value.acknowledgedChapters)?[...new Set(value.acknowledgedChapters.filter((n:unknown)=>Number.isInteger(n)&&Number(n)>=1&&Number(n)<=5))] as number[]:Array.from({length:byId[state.scene].chapter},(_,i)=>i+1);
   // Existing v1 saves keep their progress and gain arrival effects from the new edition.

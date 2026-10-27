@@ -1,0 +1,102 @@
+[
+  {
+    "file": "App.tsx",
+    "text": "Pokémon "
+  },
+  {
+    "file": "App.tsx",
+    "text": "Language / Språk"
+  },
+  {
+    "file": "App.tsx",
+    "text": "Language / Språk"
+  },
+  {
+    "file": "App.tsx",
+    "text": "Norsk"
+  },
+  {
+    "file": "App.tsx",
+    "text": "English"
+  },
+  {
+    "file": "ChapterPause.tsx",
+    "text": " COMPLETE"
+  },
+  {
+    "file": "ChapterPause.tsx",
+    "text": "Resume"
+  },
+  {
+    "file": "ChapterPause.tsx",
+    "text": "Next: "
+  },
+  {
+    "file": "ChapterPause.tsx",
+    "text": ". Your progress saves automatically on this device."
+  },
+  {
+    "file": "JourneyMap.tsx",
+    "text": "your"
+  },
+  {
+    "file": "MyWords.tsx",
+    "text": "Mine ord ("
+  },
+  {
+    "file": "MyWords.tsx",
+    "text": "Hele ordlisten"
+  },
+  {
+    "file": "MyWords.tsx",
+    "text": "Her finner du ordene du har trykket på, med norsk betydning og en engelsk setning fra ditt eget eventyr."
+  },
+  {
+    "file": "MyWords.tsx",
+    "text": "Hør ordet sakte"
+  },
+  {
+    "file": "MyWords.tsx",
+    "text": "Hør eksempelsetningen"
+  },
+  {
+    "file": "MyWords.tsx",
+    "text": "Trykk på et understreket ord i historien. Da lagres betydningen og en setning fra siden her."
+  },
+  {
+    "file": "MyWords.tsx",
+    "text": " sakte"
+  },
+  {
+    "file": "ReadingTools.tsx",
+    "text": "Lytt til én setning om gangen"
+  },
+  {
+    "file": "ReadingTools.tsx",
+    "text": "Hør, les og prøv gjerne å si setningen selv. Du kan lytte flere ganger."
+  },
+  {
+    "file": "ReadingTools.tsx",
+    "text": "Denne nettleseren støtter ikke opplesning. Du kan fortsatt lese og bruke ordhjelpen."
+  },
+  {
+    "file": "ReadingTools.tsx",
+    "text": "Lukk ordforklaring"
+  },
+  {
+    "file": "ReadingTools.tsx",
+    "text": "ORDHJELP"
+  },
+  {
+    "file": "ReadingTools.tsx",
+    "text": "Lagret i Mine ord"
+  },
+  {
+    "file": "ReadingTools.tsx",
+    "text": "Hør uttalen"
+  },
+  {
+    "file": "StoryChoices.tsx",
+    "text": "Hør valget"
+  }
+]

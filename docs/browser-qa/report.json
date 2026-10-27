@@ -1,0 +1,40 @@
+{
+  "routes": 36,
+  "pages": 666,
+  "widths": [
+    375,
+    768,
+    1440
+  ],
+  "screenshots": [
+    "lantern",
+    "hill",
+    "gate",
+    "grove",
+    "roots",
+    "clearing",
+    "bank",
+    "falls",
+    "island",
+    "bridge",
+    "shelter",
+    "observatory",
+    "roof",
+    "tower",
+    "lumi",
+    "plan",
+    "endLantern",
+    "earth",
+    "endSanctuary",
+    "endGarden",
+    "heart",
+    "endSong",
+    "sky",
+    "endDawn",
+    "endAurora",
+    "windwatch"
+  ],
+  "errors": [],
+  "failures": [],
+  "scope": "Real UI clicks on 18 representative routes in each language. Reduced motion. Separate clean browser profiles; no user saves changed."
+}

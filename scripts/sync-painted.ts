@@ -8,6 +8,7 @@ const plan=JSON.parse(readFileSync('docs/painted-production-plan.json','utf8'));
 const prompts=JSON.parse(readFileSync('public/images/illustration-prompts.json','utf8'));
 const starters:Starter[]=['Bulbasaur','Charmander','Squirtle'];
 const ready=(id:string)=>catalog[id]&&catalog[id].status==='generated'&&existsSync('public/'+catalog[id].path);
+const overrides=JSON.parse(readFileSync('public/images/story-art-overrides.json','utf8'));
 delete manifest.paintedStarters;delete manifest.paintedFriends;
 let paintedScenes=0;
 for(const scene of scenes){
@@ -23,6 +24,7 @@ for(const scene of scenes){
  }
  if(painted){entry.render='painted-baked';if(painted===reachable.length)paintedScenes++;}
  entry.variants=plan.jobs.filter((job:{id:string;kind:string;scene:string})=>job.kind==='variant'&&job.scene===scene.id&&ready(job.id)).map((job:{id:string;starter:string;needs:string;priority:number})=>({path:catalog[job.id].path,starter:job.starter,needs:job.needs,priority:job.priority}));
+ for(const variant of overrides[scene.id]||[]){if(!existsSync('public/'+variant.path))throw Error('Missing reviewed variant '+variant.path);entry.variants.push(variant);}
 }
 for(const job of plan.jobs){if(ready(job.id))prompts[`${job.id}.png`]=job.prompt;}
 const required=plan.jobs.filter((job:{optional?:boolean})=>!job.optional);

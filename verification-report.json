@@ -1,7 +1,7 @@
 {
   "scenes": 39,
-  "choices": 104,
-  "checkedStates": 46314,
+  "choices": 105,
+  "checkedStates": 48907,
   "endingsPerStarter": 6,
   "puzzleSolutions": {
     "Bulbasaur": {
@@ -58,6 +58,25 @@
   },
   "reachableRoutes": {
     "Bulbasaur": {
+      "The Lantern League": [
+        "lantern: Check the hill for fallen stars",
+        "hill: Share a snack with Hoothoot",
+        "gate: Follow the seed’s soft glow",
+        "grove: Ask the trees to speak one at a time",
+        "roots: Ask Bulbasaur to speak with the roots",
+        "clearing: Leave the tools and plant a thank-you seed",
+        "bank: Explore the waterfall on foot",
+        "falls: Explore the safe path around the falls",
+        "island: Ask the river to keep their secret",
+        "bridge: Let Bulbasaur anchor the bridge with vines",
+        "shelter: Repair her cracked berry bowl",
+        "observatory: Climb the safe outside stair together",
+        "roof: Find the sheltered stair beneath the roof",
+        "tower: Call gently: “Lumi, we want to help”",
+        "lumi: Suggest moving the sphere to the village",
+        "plan: Follow our plan and bring the closed sphere to Mira",
+        "endLantern"
+      ],
       "The Starlight Sanctuary": [
         "lantern: Check the hill for fallen stars",
         "hill: Share a snack with Hoothoot",
@@ -97,26 +116,6 @@
         "plan: Carry the earth ring to the garden balcony",
         "earth: Let Bulbasaur grow a living sky-vine",
         "endGarden"
-      ],
-      "The Lantern League": [
-        "lantern: Check the hill for fallen stars",
-        "hill: Share a snack with Hoothoot",
-        "gate: Follow the seed’s soft glow",
-        "grove: Ask the trees to speak one at a time",
-        "roots: Ask Bulbasaur to speak with the roots",
-        "clearing: Leave the tools and plant a thank-you seed",
-        "bank: Explore the waterfall on foot",
-        "falls: Explore the safe path around the falls",
-        "island: Ask the river to keep their secret",
-        "bridge: Let Bulbasaur anchor the bridge with vines",
-        "shelter: Repair her cracked berry bowl",
-        "observatory: Climb the safe outside stair together",
-        "roof: Find the sheltered stair beneath the roof",
-        "tower: Call gently: “Lumi, we want to help”",
-        "lumi: Suggest moving the sphere to the village",
-        "plan: Gather everyone around the heart ring",
-        "heart: Bring the circle of warmth to Willowbrook",
-        "endLantern"
       ],
       "The River of Stars": [
         "lantern: Check the hill for fallen stars",
@@ -180,6 +179,26 @@
       ]
     },
     "Charmander": {
+      "The Lantern League": [
+        "lantern: Check the hill for fallen stars",
+        "hill: Share a snack with Hoothoot",
+        "gate: Follow the seed’s soft glow",
+        "grove: Ask the trees to speak one at a time",
+        "roots: Answer: “A flame”",
+        "clearing: Leave the tools and plant a thank-you seed",
+        "bank: Explore the waterfall on foot",
+        "falls: Explore the safe path around the falls",
+        "island: Ask the river to keep their secret",
+        "bridge: Take the longer stone path",
+        "windwatch: Ask Altaria for a sheltered path to the berry nook",
+        "shelter: Repair her cracked berry bowl",
+        "observatory: Climb the safe outside stair together",
+        "roof: Ask Charmander to warm the frosted stones",
+        "tower: Call gently: “Lumi, we want to help”",
+        "lumi: Suggest moving the sphere to the village",
+        "plan: Follow our plan and bring the closed sphere to Mira",
+        "endLantern"
+      ],
       "The Starlight Sanctuary": [
         "lantern: Check the hill for fallen stars",
         "hill: Share a snack with Hoothoot",
@@ -221,27 +240,6 @@
         "plan: Carry the earth ring to the garden balcony",
         "earth: Plant a starlight garden in Willowbrook",
         "endGarden"
-      ],
-      "The Lantern League": [
-        "lantern: Check the hill for fallen stars",
-        "hill: Share a snack with Hoothoot",
-        "gate: Follow the seed’s soft glow",
-        "grove: Ask the trees to speak one at a time",
-        "roots: Answer: “A flame”",
-        "clearing: Leave the tools and plant a thank-you seed",
-        "bank: Explore the waterfall on foot",
-        "falls: Explore the safe path around the falls",
-        "island: Ask the river to keep their secret",
-        "bridge: Take the longer stone path",
-        "windwatch: Ask Altaria for a sheltered path to the berry nook",
-        "shelter: Repair her cracked berry bowl",
-        "observatory: Climb the safe outside stair together",
-        "roof: Ask Charmander to warm the frosted stones",
-        "tower: Call gently: “Lumi, we want to help”",
-        "lumi: Suggest moving the sphere to the village",
-        "plan: Gather everyone around the heart ring",
-        "heart: Bring the circle of warmth to Willowbrook",
-        "endLantern"
       ],
       "The River of Stars": [
         "lantern: Check the hill for fallen stars",
@@ -308,6 +306,26 @@
       ]
     },
     "Squirtle": {
+      "The Lantern League": [
+        "lantern: Check the hill for fallen stars",
+        "hill: Share a snack with Hoothoot",
+        "gate: Follow the seed’s soft glow",
+        "grove: Ask the trees to speak one at a time",
+        "roots: Answer: “A flame”",
+        "clearing: Leave the tools and plant a thank-you seed",
+        "bank: Explore the waterfall on foot",
+        "falls: Explore the safe path around the falls",
+        "island: Ask the river to keep their secret",
+        "bridge: Take the longer stone path",
+        "windwatch: Ask Altaria for a sheltered path to the berry nook",
+        "shelter: Repair her cracked berry bowl",
+        "observatory: Climb the safe outside stair together",
+        "roof: Find the sheltered stair beneath the roof",
+        "tower: Call gently: “Lumi, we want to help”",
+        "lumi: Suggest moving the sphere to the village",
+        "plan: Follow our plan and bring the closed sphere to Mira",
+        "endLantern"
+      ],
       "The Starlight Sanctuary": [
         "lantern: Check the hill for fallen stars",
         "hill: Share a snack with Hoothoot",
@@ -349,27 +367,6 @@
         "plan: Carry the earth ring to the garden balcony",
         "earth: Plant a starlight garden in Willowbrook",
         "endGarden"
-      ],
-      "The Lantern League": [
-        "lantern: Check the hill for fallen stars",
-        "hill: Share a snack with Hoothoot",
-        "gate: Follow the seed’s soft glow",
-        "grove: Ask the trees to speak one at a time",
-        "roots: Answer: “A flame”",
-        "clearing: Leave the tools and plant a thank-you seed",
-        "bank: Explore the waterfall on foot",
-        "falls: Explore the safe path around the falls",
-        "island: Ask the river to keep their secret",
-        "bridge: Take the longer stone path",
-        "windwatch: Ask Altaria for a sheltered path to the berry nook",
-        "shelter: Repair her cracked berry bowl",
-        "observatory: Climb the safe outside stair together",
-        "roof: Find the sheltered stair beneath the roof",
-        "tower: Call gently: “Lumi, we want to help”",
-        "lumi: Suggest moving the sphere to the village",
-        "plan: Gather everyone around the heart ring",
-        "heart: Bring the circle of warmth to Willowbrook",
-        "endLantern"
       ],
       "The River of Stars": [
         "lantern: Check the hill for fallen stars",

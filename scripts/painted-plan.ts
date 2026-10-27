@@ -1,4 +1,4 @@
-import {writeFileSync,mkdirSync} from 'node:fs';
+import {writeFileSync,mkdirSync,readFileSync,existsSync} from 'node:fs';
 import {scenes} from '../src/story';
 const style=`Use case: illustration-story. Asset: finished illustration for a children's interactive Pokémon adventure, ages 8–12. Reference image 1 is a STYLE AND CHARACTER REFERENCE, not a composition to copy. Match its professional richly detailed 2D animated storybook painting, fine expressive ink edges, warm amber illumination against deep teal and midnight blue, textured stone, wood and foliage, atmospheric depth and cinematic storytelling. Keep EXACTLY the same child explorer: about 10 years old, short tousled dark-brown hair, large brown eyes, navy cap with cream brim and small cream arc emblem, mustard hooded jacket, dark olive trousers, brown walking boots, teal backpack. Gentle wonder and kindness, never horror or combat. No text, letters, logos, captions, frames, collage or watermark.`;
 const staging=`Wide 2:1 landscape, one full illustration. The child is at the LEFT THIRD (about 28% across), feet or lowest knee around 86% down; use an expressive readable pose. Main story event and NPCs occupy the middle-right, about 65% across. Keep the central lower foreground around 40–53% across clear of characters and large props: a matching Pokémon companion will be displayed there by the game. Leave modest open ground along the lower edge for other traveling friends. Do NOT paint Bulbasaur, Charmander or Squirtle into this background. Do NOT add Eevee, Pikachu, Hoothoot, Lapras or Psyduck unless explicitly requested as a story NPC below. No stars in the sky before the ending; moonlight and tiny magical ground sparks are fine.`;
@@ -115,6 +115,11 @@ for(const [id,sourceId,change] of revisions){
  optimized.push({...original,id:`${id}-v2`,optional:false,sourceId,prompt,editPrompt:prompt});
 }
 jobs.splice(0,jobs.length,...optimized);
+// Preserve the exact prompts for reviewed replacements when rebuilding the plan.
+if(existsSync('public/images/painted-revisions.json')){
+ const revisions=JSON.parse(readFileSync('public/images/painted-revisions.json','utf8'));
+ for(const job of jobs)if(revisions[job.id])job.prompt=revisions[job.id];
+}
 mkdirSync('docs',{recursive:true});mkdirSync('public/images/scenes/painted',{recursive:true});
 writeFileSync('docs/painted-production-plan.json',JSON.stringify({reference:'public/images/scenes/painted/lantern-bulbasaur.png',method:'Built-in image_gen; prepared locally before play',jobs},null,2));
 writeFileSync('public/images/painted-prompts.json',JSON.stringify(Object.fromEntries(jobs.map(job=>[job.id,job.prompt])),null,2));

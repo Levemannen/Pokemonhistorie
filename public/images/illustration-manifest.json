@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "artType": "Mixed locally prepared full-scene AI artwork and clearly labeled SVG fallbacks",
+  "artType": "Locally prepared AI storybook scenes, shared across starters where appropriate; SVG fallbacks retained",
   "scenes": {
     "lantern": {
       "base": {
@@ -135,9 +135,9 @@
     },
     "grove": {
       "base": {
-        "Bulbasaur": "images/scenes/painted/scene-grove-bulbasaur.png",
-        "Charmander": "images/scenes/grove-charmander.svg",
-        "Squirtle": "images/scenes/grove-squirtle.svg"
+        "Bulbasaur": "images/scenes/painted/scene-grove.png",
+        "Charmander": "images/scenes/painted/scene-grove.png",
+        "Squirtle": "images/scenes/painted/scene-grove.png"
       },
       "visualSituation": "ivy",
       "promptKeys": [
@@ -151,7 +151,13 @@
         "Squirtle": "images/scenes/grove-squirtle.svg"
       },
       "render": "painted-baked",
-      "variants": []
+      "variants": [
+        {
+          "path": "images/scenes/painted/scene-rescue.png",
+          "needs": "puzzle:grove",
+          "priority": 50
+        }
+      ]
     },
     "rescue": {
       "base": {
@@ -281,9 +287,9 @@
     },
     "lapras": {
       "base": {
-        "Bulbasaur": "images/scenes/lapras-bulbasaur.svg",
-        "Charmander": "images/scenes/lapras-charmander.svg",
-        "Squirtle": "images/scenes/lapras-squirtle.svg"
+        "Bulbasaur": "images/scenes/painted/scene-lapras.png",
+        "Charmander": "images/scenes/painted/scene-lapras.png",
+        "Squirtle": "images/scenes/painted/scene-lapras.png"
       },
       "visualSituation": "song",
       "promptKeys": [
@@ -296,6 +302,7 @@
         "Charmander": "images/scenes/lapras-charmander.svg",
         "Squirtle": "images/scenes/lapras-squirtle.svg"
       },
+      "render": "painted-baked",
       "variants": []
     },
     "ferry": {
@@ -631,9 +638,9 @@
     },
     "heart": {
       "base": {
-        "Bulbasaur": "images/scenes/heart-bulbasaur.svg",
-        "Charmander": "images/scenes/heart-charmander.svg",
-        "Squirtle": "images/scenes/heart-squirtle.svg"
+        "Bulbasaur": "images/scenes/painted/scene-heart.png",
+        "Charmander": "images/scenes/painted/scene-heart.png",
+        "Squirtle": "images/scenes/painted/scene-heart.png"
       },
       "visualSituation": "heart",
       "promptKeys": [
@@ -646,6 +653,7 @@
         "Charmander": "images/scenes/heart-charmander.svg",
         "Squirtle": "images/scenes/heart-squirtle.svg"
       },
+      "render": "painted-baked",
       "variants": []
     },
     "earth": {
@@ -717,13 +725,20 @@
         "Squirtle": "images/scenes/endAurora-squirtle.svg"
       },
       "render": "painted-baked",
-      "variants": []
+      "variants": [
+        {
+          "path": "images/scenes/painted/endAurora-charmander.png",
+          "starter": "Charmander",
+          "needs": "charmanderWarmth",
+          "priority": 50
+        }
+      ]
     },
     "endSong": {
       "base": {
-        "Bulbasaur": "images/scenes/endSong-bulbasaur.svg",
-        "Charmander": "images/scenes/endSong-charmander.svg",
-        "Squirtle": "images/scenes/endSong-squirtle.svg"
+        "Bulbasaur": "images/scenes/painted/scene-endSong.png",
+        "Charmander": "images/scenes/painted/scene-endSong.png",
+        "Squirtle": "images/scenes/painted/scene-endSong.png"
       },
       "visualSituation": "music",
       "promptKeys": [
@@ -736,13 +751,14 @@
         "Charmander": "images/scenes/endSong-charmander.svg",
         "Squirtle": "images/scenes/endSong-squirtle.svg"
       },
+      "render": "painted-baked",
       "variants": []
     },
     "endSanctuary": {
       "base": {
-        "Bulbasaur": "images/scenes/endSanctuary-bulbasaur.svg",
-        "Charmander": "images/scenes/endSanctuary-charmander.svg",
-        "Squirtle": "images/scenes/endSanctuary-squirtle.svg"
+        "Bulbasaur": "images/scenes/painted/scene-endSanctuary.png",
+        "Charmander": "images/scenes/painted/scene-endSanctuary.png",
+        "Squirtle": "images/scenes/painted/scene-endSanctuary.png"
       },
       "visualSituation": "sanctuary",
       "promptKeys": [
@@ -755,13 +771,14 @@
         "Charmander": "images/scenes/endSanctuary-charmander.svg",
         "Squirtle": "images/scenes/endSanctuary-squirtle.svg"
       },
+      "render": "painted-baked",
       "variants": []
     },
     "endLantern": {
       "base": {
-        "Bulbasaur": "images/scenes/endLantern-bulbasaur.svg",
-        "Charmander": "images/scenes/endLantern-charmander.svg",
-        "Squirtle": "images/scenes/endLantern-squirtle.svg"
+        "Bulbasaur": "images/scenes/painted/scene-endLantern.png",
+        "Charmander": "images/scenes/painted/scene-endLantern.png",
+        "Squirtle": "images/scenes/painted/scene-endLantern.png"
       },
       "visualSituation": "parade",
       "promptKeys": [
@@ -774,6 +791,7 @@
         "Charmander": "images/scenes/endLantern-charmander.svg",
         "Squirtle": "images/scenes/endLantern-squirtle.svg"
       },
+      "render": "painted-baked",
       "variants": []
     },
     "endGarden": {
@@ -919,9 +937,9 @@
     }
   ],
   "coverage": {
-    "paintedScenes": 33,
+    "paintedScenes": 39,
     "totalScenes": 39,
-    "completedAssets": 52,
+    "completedAssets": 58,
     "plannedAssets": 59,
     "optionalAssets": 6
   }

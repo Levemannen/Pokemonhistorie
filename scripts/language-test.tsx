@@ -27,4 +27,4 @@ const reading=renderToStaticMarkup(<ReadableText text={sample} speak={()=>{}} sp
 assert(reading.includes('sentence-speaking'));assert(reading.includes('lang="en"'));assert(reading.includes('ikke opplesning'));
 const notebook=renderToStaticMarkup(<MyWords words={[{word:'promise',example:'We keep our promise.',scene:'island',sceneTitle:'The island',starter:'Bulbasaur',learnedAt:'2026-10-25'}]} speak={()=>{}} speechAvailable={false}/>);
 assert(notebook.includes('løfte'));assert(notebook.includes('We keep our promise.'));
-console.log('PASS: '+Object.keys(meanings).length+' bilingual entries, all 104 translated choices for each starter, sentence offsets/highlighting, separate help controls, disabled audio fallback and bilingual saved words.');
+console.log('PASS: '+Object.keys(meanings).length+' bilingual entries, all 105 translated choices for each starter, sentence offsets/highlighting, separate help controls, disabled audio fallback and bilingual saved words.');

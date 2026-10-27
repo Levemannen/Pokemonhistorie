@@ -1,0 +1,333 @@
+{
+  "puzzleAndCombinationCases": 40,
+  "replayedEndings": 18,
+  "actualSpecialRoute": [
+    {
+      "scene": "lantern",
+      "choice": "Comfort the frightened Pokémon",
+      "flags": [],
+      "companions": []
+    },
+    {
+      "scene": "square",
+      "choice": "Borrow Mira’s old star map",
+      "flags": [
+        "kind"
+      ],
+      "companions": []
+    },
+    {
+      "scene": "gate",
+      "choice": "Follow the seed’s soft glow",
+      "flags": [
+        "kind",
+        "map"
+      ],
+      "companions": []
+    },
+    {
+      "scene": "grove",
+      "choice": "Study the blinking mushrooms",
+      "flags": [
+        "kind",
+        "map",
+        "trust"
+      ],
+      "companions": []
+    },
+    {
+      "scene": "mushrooms",
+      "choice": "Follow the brightest cluster",
+      "flags": [
+        "kind",
+        "map",
+        "trust",
+        "curious"
+      ],
+      "companions": []
+    },
+    {
+      "scene": "hollow",
+      "choice": "Tell a story about our first adventure",
+      "flags": [
+        "kind",
+        "map",
+        "trust",
+        "curious",
+        "detour"
+      ],
+      "companions": []
+    },
+    {
+      "scene": "echoArchive",
+      "choice": "Borrow the astronomer’s notebook about Lumi",
+      "flags": [
+        "kind",
+        "map",
+        "trust",
+        "curious",
+        "detour",
+        "humor"
+      ],
+      "companions": []
+    },
+    {
+      "scene": "clearing",
+      "choice": "Take the lens and a rune key",
+      "flags": [
+        "kind",
+        "map",
+        "trust",
+        "curious",
+        "detour",
+        "humor",
+        "understanding"
+      ],
+      "companions": []
+    },
+    {
+      "scene": "bank",
+      "choice": "Repair the ferry with fallen wood",
+      "flags": [
+        "kind",
+        "map",
+        "trust",
+        "curious",
+        "detour",
+        "humor",
+        "understanding",
+        "key"
+      ],
+      "companions": []
+    },
+    {
+      "scene": "ferry",
+      "choice": "Weave a new rope from long reeds",
+      "flags": [
+        "kind",
+        "map",
+        "trust",
+        "curious",
+        "detour",
+        "humor",
+        "understanding",
+        "key",
+        "builder"
+      ],
+      "companions": []
+    },
+    {
+      "scene": "island",
+      "choice": "Collect the golden speck for later",
+      "flags": [
+        "kind",
+        "map",
+        "trust",
+        "curious",
+        "detour",
+        "humor",
+        "understanding",
+        "key",
+        "builder",
+        "patient"
+      ],
+      "companions": []
+    },
+    {
+      "scene": "bridge",
+      "choice": "Wait for the calm and cross together",
+      "flags": [
+        "kind",
+        "map",
+        "trust",
+        "curious",
+        "detour",
+        "humor",
+        "understanding",
+        "key",
+        "builder",
+        "patient",
+        "stardust",
+        "inspected:stardust"
+      ],
+      "companions": []
+    },
+    {
+      "scene": "shelter",
+      "choice": "Trade a little food for the feather",
+      "flags": [
+        "kind",
+        "map",
+        "trust",
+        "curious",
+        "detour",
+        "humor",
+        "understanding",
+        "key",
+        "builder",
+        "patient",
+        "stardust",
+        "inspected:stardust",
+        "steady"
+      ],
+      "companions": []
+    },
+    {
+      "scene": "observatory",
+      "choice": "Look for a hand crank with Squirtle",
+      "flags": [
+        "kind",
+        "map",
+        "trust",
+        "curious",
+        "detour",
+        "humor",
+        "understanding",
+        "key",
+        "builder",
+        "patient",
+        "stardust",
+        "inspected:stardust",
+        "steady",
+        "feather"
+      ],
+      "companions": []
+    },
+    {
+      "scene": "roof",
+      "choice": "Follow the hidden route our clues reveal",
+      "flags": [
+        "kind",
+        "map",
+        "trust",
+        "curious",
+        "detour",
+        "humor",
+        "understanding",
+        "key",
+        "builder",
+        "patient",
+        "stardust",
+        "inspected:stardust",
+        "steady",
+        "feather",
+        "teamwork"
+      ],
+      "companions": []
+    },
+    {
+      "scene": "tower",
+      "choice": "Knock and introduce ourselves",
+      "flags": [
+        "kind",
+        "map",
+        "trust",
+        "curious",
+        "detour",
+        "humor",
+        "understanding",
+        "key",
+        "builder",
+        "patient",
+        "stardust",
+        "inspected:stardust",
+        "steady",
+        "feather",
+        "teamwork",
+        "secretRoute"
+      ],
+      "companions": []
+    },
+    {
+      "scene": "lumi",
+      "choice": "Suggest moving the sphere to the village",
+      "flags": [
+        "kind",
+        "map",
+        "trust",
+        "curious",
+        "detour",
+        "humor",
+        "understanding",
+        "key",
+        "builder",
+        "patient",
+        "stardust",
+        "inspected:stardust",
+        "steady",
+        "feather",
+        "teamwork",
+        "secretRoute",
+        "respect"
+      ],
+      "companions": []
+    },
+    {
+      "scene": "plan",
+      "choice": "Prepare to release the stars to the sky",
+      "flags": [
+        "kind",
+        "map",
+        "trust",
+        "curious",
+        "detour",
+        "humor",
+        "understanding",
+        "key",
+        "builder",
+        "patient",
+        "stardust",
+        "inspected:stardust",
+        "steady",
+        "feather",
+        "teamwork",
+        "secretRoute",
+        "respect",
+        "villagePlan"
+      ],
+      "companions": []
+    },
+    {
+      "scene": "sky",
+      "choice": "Release the stars and carry Shinx home",
+      "flags": [
+        "kind",
+        "map",
+        "trust",
+        "curious",
+        "detour",
+        "humor",
+        "understanding",
+        "key",
+        "builder",
+        "patient",
+        "stardust",
+        "inspected:stardust",
+        "steady",
+        "feather",
+        "teamwork",
+        "secretRoute",
+        "respect",
+        "villagePlan",
+        "skyPlan"
+      ],
+      "companions": []
+    }
+  ],
+  "checks": [
+    "mid-puzzle save",
+    "wrong answers",
+    "combined Lumi reactions",
+    "combined gardens",
+    "geographic cave gate",
+    "starter labels",
+    "river-only Lapras",
+    "item ownership",
+    "examined-memory solution",
+    "safe branch snapshot",
+    "text download",
+    "conditional art",
+    "case-sensitive asset paths"
+  ],
+  "note": "Combination contracts are synthetic unit tests; only engine-replayed paths are reported as actual routes."
+}

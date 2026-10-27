@@ -1,0 +1,12 @@
+{
+  "generator": "built-in image_gen",
+  "aurora": {
+    "prompt": "Edit this existing Pokémon storybook illustration for an alternate ending. Preserve the polished animated painted style, landscape 2:1 composition, traveler in mustard jacket and navy cap, Lumi the Clefairy, Shinx resting safely on a plain woven blanket, mountain valley and green gold aurora with returned stars. Add Charmander seated on a bare stone safely between the traveler and the nest, small tail flame held far from all fabric and flowers, lending gentle warmth. Replace the fluffy feather nest with ordinary folded blankets so this is clearly the Charmander-warmth ending rather than feather ending. Exactly one Charmander, one Clefairy, one Shinx, one traveler. Cozy tender mood, no text. Preserve identities and surroundings.",
+    "status": "generated",
+    "path": "images/scenes/painted/endAurora-charmander.png"
+  },
+  "garden": {
+    "prompt": "Edit this existing Pokémon storybook illustration to show the Squirtle ending variant. Keep exactly the same polished colorful animated painted storybook style, wide 2:1 landscape, warm lantern village garden, huge tree with new golden star-shaped blossoms, returned original stars in blue sky, traveler in mustard jacket navy cap, Lumi the Clefairy and Shinx. Add exactly one Squirtle at foreground right beside the pond making a gentle small stream into a clear shallow stone irrigation channel leading to the newly planted seedling. Shinx rests comfortably on a folded blanket beside Lumi, with one paw pointing to little stepping stones over the channel. Keep the traveler planting. The watering channel is visually legible and calm, no flooding or jets. No other Pokémon, no text.",
+    "status": "generation rejected by image tool safety system; existing local garden painting retained"
+  }
+}

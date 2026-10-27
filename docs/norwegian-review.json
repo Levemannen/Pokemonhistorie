@@ -1,0 +1,245 @@
+{
+  "chapters": [
+    "Natten da stjernene falt",
+    "Hvisking i skogen",
+    "Elven husker",
+    "Over de sovende skyene",
+    "Et lys å ta med hjem"
+  ],
+  "pages": [
+    {
+      "id": "lantern",
+      "title": "En natt uten stjerner",
+      "text": "Festivalmusikken stopper idet stjernene slukner, og Bulbasaur presser seg inntil deg mens alle ser opp. Et varmt sølvfrø lander ved føttene dine; Mira ber deg følge lyset mens hun holder landsbylyktene tent. Bulbasaur merker at blomstene snur seg mot frøet, og sammen bestemmer dere dere for å finne ut hvorfor.",
+      "choices": "    Trøst Bulbasaur, og be Mira om hjelp.    Hør valget  English help   Comfort Bulbasaur, then ask Mira for help. Trykk på den norske valgknappen for å velge.      Undersøk sølvfrøet.    Hør valget  English help   Look closely at the little silver seed. Trykk på den norske valgknappen for å velge.      Se etter falne stjerner på åsen.    Hør valget  English help   Check the hill for fallen stars. Trykk på den norske valgknappen for å velge.    "
+    },
+    {
+      "id": "square",
+      "title": "Lyktevokteren",
+      "text": "«Dette frøet har samme merke som den gamle tårnhagen», sier Mira og følger en halvmåne på kartet med fingeren; hun kjenner veien, men ikke grunnen til at stjernene forsvant. Eevee skjelver under bordet mens hun tilbyr et kart eller muligheten til å lete etter flere spor på bakken.",
+      "choices": "    «Bli med oss, Eevee.»    Hør valget  English help   “Come with us, Eevee.” Trykk på den norske valgknappen for å velge.      Spør om å få låne Miras gamle stjernekart.    Hør valget  English help   Ask to borrow Mira’s old star map. Trykk på den norske valgknappen for å velge.      «Hvor kom dette lille frøet fra?»    Hør valget  English help   “Where did this little seed come from?” Trykk på den norske valgknappen for å velge.    "
+    },
+    {
+      "id": "hill",
+      "title": "En beskjed i gresset",
+      "text": "«Jeg så et lysspor fly mot tårnet», forteller Hoothoot og peker på halvmånemerket i støvet. Den synger lavt, høyt, lavt; frøet svarer på hver tone, og sølvsporet leder ned mot porten til Moonwood.",
+      "choices": "    Husk sangen med tre toner.    Hør valget  English help   Remember the three-note song. Trykk på den norske valgknappen for å velge.      Del litt mat med Hoothoot.    Hør valget  English help   Share a snack with Hoothoot. Trykk på den norske valgknappen for å velge.    "
+    },
+    {
+      "id": "gate",
+      "title": "Veien bortenfor porten",
+      "text": "Ved kanten av Moonwood sperrer en tornekranset bue hovedstien, men en fjellrygg og en bekk tilbyr andre veier. Et gjørmete skilt står ved buen, og sølvfrøet lyser mot trærne på den andre siden.",
+      "choices": "    Hjelp Bulbasaur med å løsne den sammenfiltrede buen. Bulbasaur sin spesielle vei     Hør valget  English help   Help Bulbasaur untangle the arch. Trykk på den norske valgknappen for å velge.      Følg den svake gløden fra frøet.    Hør valget  English help   Follow the seed’s soft glow. Trykk på den norske valgknappen for å velge.    "
+    },
+    {
+      "id": "ridge",
+      "title": "En forsiktig liten flamme",
+      "text": "I Charmanders forsiktige lys ser dere et falt rede som ligger under en gren. En utskåret pil peker ned mot en bekk, mens stien langs ryggen fortsetter inn i Moonwood.",
+      "choices": "    Løft greinen og reparer reiret.    Hør valget  English help   Lift the branch and repair the nest. Trykk på den norske valgknappen for å velge.      Merk reiret så Mira kan hjelpe.    Hør valget  English help   Mark the nest so Mira can help. Trykk på den norske valgknappen for å velge.    "
+    },
+    {
+      "id": "brook",
+      "title": "Brev under gjørmen",
+      "text": "Et skilt med en utskåret måne står ved bekken, der en flaske dupper i det grunne vannet. Inni ligger et brev som ber om hjelp ved Starfall-tårnet, undertegnet med én bokstav: L.",
+      "choices": "    Ta vare på beskjeden.    Hør valget  English help   Keep the message safe. Trykk på den norske valgknappen for å velge.      Send svaret «Vi kommer» med strømmen.    Hør valget  English help   Float a reply: “We are coming” Trykk på den norske valgknappen for å velge.    "
+    },
+    {
+      "id": "grove",
+      "title": "De hviskende trærne",
+      "text": "Bladene i Moonwood hvisker i munnen på hverandre, og en Pikachu har fått ankelen inn i en løs løkke av sølveføy. Den er ikke skadet, men vil gjerne ha hjelp; lysende sopper og en rekke gamle røtter viser to veier videre inn i skogen.",
+      "choices": "    Stopp og befri Pikachu.    Hør valget  English help   Stop and free Pikachu. Trykk på den norske valgknappen for å velge.      Studer de blinkende soppene.    Hør valget  English help   Study the blinking mushrooms. Trykk på den norske valgknappen for å velge.      Be trærne snakke ett om gangen.    Hør valget  English help   Ask the trees to speak one at a time. Trykk på den norske valgknappen for å velge.    "
+    },
+    {
+      "id": "rescue",
+      "title": "En vennskapsgnist",
+      "text": "Pikachu kommer seg fri og takker med en liten gnist. Den kan følge dere langs soppstien eller bli igjen og hjelpe andre reisende mens dere besøker det eldste treet.",
+      "choices": "    Ønsk Pikachu velkommen på laget.    Hør valget  English help   “There’s a place for you with us, Pikachu.” Trykk på den norske valgknappen for å velge.      Be Pikachu passe på skogen.    Hør valget  English help   “Will you keep Moonwood safe while we are away?” Trykk på den norske valgknappen for å velge.    "
+    },
+    {
+      "id": "mushrooms",
+      "title": "Soppenes alfabet",
+      "text": "En flat stein blant soppene viser tre gylne stjerner som vokser fra liten til stor. Mønsteret kan avsløre en sti til det eldste treet; en lysere sidesti forsvinner inn i en hul trestamme.",
+      "choices": "    Følg gruppen som lyser sterkest.    Hør valget  English help   Follow the brightest cluster. Trykk på den norske valgknappen for å velge.      Vent og tegn hele mønsteret.    Hør valget  English help   Wait and draw the whole pattern. Trykk på den norske valgknappen for å velge.    "
+    },
+    {
+      "id": "hollow",
+      "title": "Det fnisende hule treet",
+      "text": "En Gastly har et skjevt blad på hodet som hatt: «Vi laget en gjettelek, men ingen ville bli og leke!» Når du forklarer den mørke himmelen, legger den hatten bort og tilbyr enten det hemmelige arkivet eller veien rett til det eldste treet.",
+      "choices": "    Fortell om vårt første eventyr.    Hør valget  English help   Tell a story about our first adventure. Trykk på den norske valgknappen for å velge.      Forklar hvorfor vi må hjelpe himmelen.    Hør valget  English help   Explain why we must help the sky. Trykk på den norske valgknappen for å velge.    "
+    },
+    {
+      "id": "echoArchive",
+      "title": "Ekkoarkivet",
+      "text": "Gastly passer på tre bøker med helt ombyttede etiketter og håper du kan sette dem i orden. Du kan undersøke stjernemaskinen før du låner astronomens notater, en fjellrute eller en musikalsk hilsen.",
+      "choices": "    Lån astronomens notatbok om Lumi.    Hør valget  English help   Borrow the astronomer’s notebook about Lumi. Trykk på den norske valgknappen for å velge.      Tegn av en skjult fjellrute.    Hør valget  English help   Copy a hidden mountain route. Trykk på den norske valgknappen for å velge.      Lær arkivets hilsen med tre toner.    Hør valget  English help   Learn the archive’s three-note greeting. Trykk på den norske valgknappen for å velge.    "
+    },
+    {
+      "id": "roots",
+      "title": "Det eldste treet",
+      "text": "Det eldste treet vokter en dør vevd av røtter og spør: «Hva lyser sterkere når vi deler det?» Bak døren ligger en halvmånelinse på en sokkel; kanskje et svar, eller Bulbasaurs måte å snakke med planter på, kan åpne veien.",
+      "choices": "    Svar: «Vennlighet».    Hør valget  English help   Answer: “Kindness” Trykk på den norske valgknappen for å velge.      Svar: «En flamme».    Hør valget  English help   Answer: “A flame” Trykk på den norske valgknappen for å velge.      Be Bulbasaur snakke med røttene. Bulbasaur sin spesielle vei     Hør valget  English help   Ask Bulbasaur to speak with the roots. Trykk på den norske valgknappen for å velge.    "
+    },
+    {
+      "id": "clearing",
+      "title": "En gave med to halvdeler",
+      "text": "Halvmånelinsen kan vise minner; ved siden av ligger et tau til elven og en nøkkel merket med tårnets halvmåne. Sekken har plass til ett redskap, eller du kan plante et vanlig frø her og la skogen hjelpe en fremtidig hage.",
+      "choices": "    Ta linsen og et redningstau.    Hør valget  English help   Take the lens and a rescue rope. Trykk på den norske valgknappen for å velge.      Ta linsen og en runenøkkel.    Hør valget  English help   Take the lens and a rune key. Trykk på den norske valgknappen for å velge.      Ta linsen og plant et vanlig frø som takk.    Hør valget  English help   Take the lens and plant an ordinary seed in thanks. Trykk på den norske valgknappen for å velge.    "
+    },
+    {
+      "id": "bank",
+      "title": "Elven av lånt lys",
+      "text": "Skogsstien ender ved Lumen-elven, med Starfall-tårnet synlig på fjellet bortenfor. Lapras sitter fast i en grunn dam, Psyducks ferge trenger reparasjon, og en sti langs bredden går mot en foss og en gammel hule.",
+      "choices": "    Hjelp Lapras ut på dypt vann.    Hør valget  English help   Help Lapras reach deep water. Trykk på den norske valgknappen for å velge.      Reparer fergen med trevirke du finner.    Hør valget  English help   Repair the ferry with fallen wood. Trykk på den norske valgknappen for å velge.      Utforsk fossen til fots.    Hør valget  English help   Explore the waterfall on foot. Trykk på den norske valgknappen for å velge.    "
+    },
+    {
+      "id": "lapras",
+      "title": "En sang over vannet",
+      "text": "«Jeg viste en ung svømmer vei da vannet sank», sier Lapras mens kanalen fylles og setter den fri. Den tilbyr skyss til øya og lover å bli på elven, der andre reisende fortsatt trenger en veiviser.",
+      "choices": "    Bli venn med Lapras.    Hør valget  English help   Accept Lapras’s friendship. Trykk på den norske valgknappen for å velge.      Be Lapras vise vei for bortkomne reisende.    Hør valget  English help   Ask Lapras to guide lost travelers. Trykk på den norske valgknappen for å velge.    "
+    },
+    {
+      "id": "ferry",
+      "title": "Fergemakerens knute",
+      "text": "Fergens planker er trygge nå, men Psyduck peker på et frynsete tau: «Jeg kan styre hvis noen hjelper med knuten.» Et redningstau sparer tid; siv kan også bli en trygg line hvis dere tester den før overfarten.",
+      "choices": "    Flett et nytt tau av lange siv.    Hør valget  English help   Weave a new rope from long reeds. Trykk på den norske valgknappen for å velge.      Hjelp Psyduck over først.    Hør valget  English help   Help Psyduck cross first. Trykk på den norske valgknappen for å velge.    "
+    },
+    {
+      "id": "reedWorkshop",
+      "title": "Psyducks sivverksted",
+      "text": "«Jeg kom over!» sier Psyduck, overrasket over sin egen latter, og viser dere verkstedet på den andre bredden. Den vil hjelpe den neste nervøse reisende med lykter, en rolig rute eller en beroligende melodi.",
+      "choices": "    Bygg flytende lykter med Psyduck.    Hør valget  English help   Build floating lanterns with Psyduck. Trykk på den norske valgknappen for å velge.      Tegn et kart over Psyducks rolige sivkanal.    Hør valget  English help   Map Psyduck’s quiet reed channel. Trykk på den norske valgknappen for å velge.      Lær Psyducks beroligende melodi med tre toner.    Hør valget  English help   Learn Psyduck’s calming three-note tune. Trykk på den norske valgknappen for å velge.    "
+    },
+    {
+      "id": "falls",
+      "title": "Bak sølvforhenget",
+      "text": "Tre klokker henger ved den tørre døråpningen bak fossen: De slitte utskjæringene viser at to lyder likt, mens én er annerledes. Lytt til ekkoet eller les mønsteret for å finne melodien; elvebredden tilbyr også en trygg vei rundt.",
+      "choices": "    La klokkene være og følg elven.    Hør valget  English help   Leave the bells and follow the river. Trykk på den norske valgknappen for å velge.      Utforsk den trygge stien rundt fossen.    Hør valget  English help   Explore the safe path around the falls. Trykk på den norske valgknappen for å velge.    "
+    },
+    {
+      "id": "cave",
+      "title": "Astronomens notatbok",
+      "text": "Den revne tegningen i notatboken viser en sfære laget for å låne varme, ikke stjele stjerner: Sikkerhetslåsen lukket seg da Lumi fikk panikk. Sølvfrøet er den levende reservedelen som kan skape nytt lys uten å fange de opprinnelige stjernene; en annen side viser en skjult tårntrapp.",
+      "choices": "    Les hvordan vi kan åpne kulen varsomt.    Hør valget  English help   Read how to open the sphere gently. Trykk på den norske valgknappen for å velge.      Tegn av tårnets skjulte trapp.    Hør valget  English help   Copy the tower’s hidden stairway. Trykk på den norske valgknappen for å velge.    "
+    },
+    {
+      "id": "island",
+      "title": "Ekkoøya",
+      "text": "I linsens gylne minne løfter Lumi Shinx bort fra falne steiner og pakker ham inn i sitt eget teppe mens hun hvisker: «Jeg har deg.» Han presser det gule skjerfet, som er likt hennes, mot kinnet hennes før hun bærer ham mot tårnet; fotsporene fortsetter oppover.",
+      "choices": "    Lov å hjelpe begge Pokémonene.    Hør valget  English help   “We’ll help both of you. That’s a promise.” Trykk på den norske valgknappen for å velge.      Ta vare på den gylne lysprikken.    Hør valget  English help   Collect the golden speck for later. Trykk på den norske valgknappen for å velge.      Be elven bevare hemmeligheten deres.    Hør valget  English help   Ask the river to keep their secret. Trykk på den norske valgknappen for å velge.    "
+    },
+    {
+      "id": "bridge",
+      "title": "En bro av vind",
+      "text": "Fotsporene leder til en taubro nedenfor Starfall-tårnet; tauene er solide, men vindkast får plankene til å gynge. Dere kan vente på roligere vind, støtte broen eller ta en lengre steinsti til Altarias utsiktspunkt.",
+      "choices": "    Vent til vinden roer seg, og kryss sammen.    Hør valget  English help   Wait for the calm and cross together. Trykk på den norske valgknappen for å velge.      Ta den lengre steinstien.    Hør valget  English help   Take the longer stone path. Trykk på den norske valgknappen for å velge.      La Bulbasaur holde broen stødig med slyngplantene sine. Bulbasaur sin spesielle vei     Hør valget  English help   Let Bulbasaur anchor the bridge with vines. Trykk på den norske valgknappen for å velge.    "
+    },
+    {
+      "id": "windwatch",
+      "title": "Altarias vindutsikt",
+      "text": "Småfuglene samler seg på én kant av Altarias skyplattform og får den til å helle mot vinden. Dere kan hjelpe flokken å fordele seg jevnt og få skyss til observatoriets tak eller holde føttene på de merkede steinstiene.",
+      "choices": "    Hjelp Altaria å lede flokken til skyplattformen.    Hør valget  English help   Help Altaria guide the flock to the cloud-platform. Trykk på den norske valgknappen for å velge.      Les vindmerkene og ta steintrappen.    Hør valget  English help   Read the wind marks and take the stone steps. Trykk på den norske valgknappen for å velge.      Be Altaria vise en sti i ly til bærkroken.    Hør valget  English help   Ask Altaria for a sheltered path to the berry nook. Trykk på den norske valgknappen for å velge.    "
+    },
+    {
+      "id": "stairs",
+      "title": "Fotspor i rimet",
+      "text": "På steintrappen finner dere et gult skjerf med Shinx sitt navn sydd på innsiden. Stien passerer en lun krok på vei til tårnet; dere kan ta med skjerfet eller bruke det til å merke veien for andre.",
+      "choices": "    Ta med skjerfet til eieren.    Hør valget  English help   Carry the scarf to its owner. Trykk på den norske valgknappen for å velge.      Knyt skjerfet til et merke som hjelper andre reisende.    Hør valget  English help   Tie it to a marker for other travelers. Trykk på den norske valgknappen for å velge.    "
+    },
+    {
+      "id": "shelter",
+      "title": "Skyhyrden",
+      "text": "Altaria steller skybær i en krok nedenfor observatoriet, med utsikt over det siste gapet før Starfall-tårnet. Den tilbyr en varm fjær i bytte mot mat, eller viser veien hvis dere reparerer skålen eller deler det dere lærte om Lumi.",
+      "choices": "    Bytt litt mat mot fjæren.    Hør valget  English help   Trade a little food for the feather. Trykk på den norske valgknappen for å velge.      Reparer den sprukne bærskålen.    Hør valget  English help   Repair her cracked berry bowl. Trykk på den norske valgknappen for å velge.    "
+    },
+    {
+      "id": "observatory",
+      "title": "Det sovende observatoriet",
+      "text": "Observatoriet sjekket en gang at sfæren delte varmen trygt; nå sperrer det frosne taket plattformen til linsen. Bulbasaur finner levende rankekabler under kontrollene, mens en håndsveiv og en trapp utenfor tilbyr andre veier opp.",
+      "choices": "    Let etter en håndsveiv med Bulbasaur.    Hør valget  English help   Look for a hand crank with Bulbasaur. Trykk på den norske valgknappen for å velge.      Gå opp den trygge utetrappen sammen.    Hør valget  English help   Climb the safe outside stair together. Trykk på den norske valgknappen for å velge.    "
+    },
+    {
+      "id": "roof",
+      "title": "En himmel full av spørsmål",
+      "text": "Fra observatoriets tak lyser halvmånelinsen opp tråkkesteiner over gapet til Starfall-tårnet. Steinene lyser jevnt når dere beveger dere sakte, og gamle passasjer tilbyr en annen vei rundt.",
+      "choices": "    Gå sakte over og pass på alle vennene.    Hør valget  English help   Cross slowly, checking on every friend. Trykk på den norske valgknappen for å velge.      Finn trappen i ly under taket.    Hør valget  English help   Find the sheltered stair beneath the roof. Trykk på den norske valgknappen for å velge.    "
+    },
+    {
+      "id": "tower",
+      "title": "Noen bak døren",
+      "text": "Bak den lukkede døren teller noen stjerner, stopper og hvisker: «Hva om det ikke er nok?» Lumis gule skjerf henger på en stol utenfor; en gammel tegning ved siden av viser henne og Shinx som strikker de like skjerfene sammen.",
+      "choices": "    Bank på og presenter oss.    Hør valget  English help   Knock and introduce ourselves. Trykk på den norske valgknappen for å velge.      Si varsomt: «Lumi, vi vil hjelpe.»    Hør valget  English help   Call gently: “Lumi, we want to help” Trykk på den norske valgknappen for å velge.    "
+    },
+    {
+      "id": "lumi",
+      "title": "Vokteren av det tapte stjernelyset",
+      "text": "Lumi står mellom dere og sfæren, skamfull over den tomme himmelen, men redd for Shinx på teppet. «Jeg ville bare låne litt varme», sier hun; Shinx strekker seg etter hånden hennes og ber henne høre på dere.",
+      "choices": "    Sett deg ved siden av Lumi og lytt.    Hør valget  English help   Sit beside Lumi and give her time to speak. Trykk på den norske valgknappen for å velge.      Foreslå å flytte kulen til landsbyen.    Hør valget  English help   Suggest moving the sphere to the village. Trykk på den norske valgknappen for å velge.    "
+    },
+    {
+      "id": "listen",
+      "title": "En modig innrømmelse",
+      "text": "«Jeg dro hardere da jeg ble redd, og sikkerhetslåsen lukket seg», innrømmer Lumi; sfæren slipper stjernene fri når en annen varmekilde er klar. Shinx setter seg opp: «Jeg kan også hjelpe til med å velge — bare hold meg varm og nær Lumi.»",
+      "choices": "    Fortell Lumi at hun ikke står alene.    Hør valget  English help   “You won’t have to face this alone, Lumi.” Trykk på den norske valgknappen for å velge.      La Shinx velge hva han trenger.    Hør valget  English help   “What would help you feel safe, Shinx?” Trykk på den norske valgknappen for å velge.    "
+    },
+    {
+      "id": "plan",
+      "title": "Tre måter å skape daggry på",
+      "text": "Himmelringen slipper alle stjernene fri med én gang når Shinx har varme; hjerteringen deler varme mellom venner, enten her eller i landsbyen. Jordringen dyrker nytt lys fra frøet mens de opprinnelige stjernene vender tilbake, men noen må vanne og stelle plantene.",
+      "choices": "    Gjør klart til å slippe stjernene tilbake på himmelen.    Hør valget  English help   Prepare to release the stars to the sky. Trykk på den norske valgknappen for å velge.      Samle alle rundt hjerteringen.    Hør valget  English help   Gather everyone around the heart ring. Trykk på den norske valgknappen for å velge.      Ta med jordringen til hagebalkongen.    Hør valget  English help   Carry the earth ring to the garden balcony. Trykk på den norske valgknappen for å velge.    "
+    },
+    {
+      "id": "sky",
+      "title": "Himmelringen",
+      "text": "Himmelringen er klar, men Lumi må vite hvordan Shinx skal holde varmen. Dere kan bære Shinx hjem, eller synge en trøstende sang.",
+      "choices": "    Slipp stjernene fri og bær Shinx hjem.    Hør valget  English help   Release the stars and carry Shinx home. Trykk på den norske valgknappen for å velge.      Nynn en lindrende vuggesang mens vi åpner ringen.    Hør valget  English help   Hum a healing lullaby as we open the ring. Trykk på den norske valgknappen for å velge.    "
+    },
+    {
+      "id": "heart",
+      "title": "Hjerteringen",
+      "text": "Hjerteringen lyser når du og Lumi deler varmen med Shinx. Dere kan gjøre sirkelen til et hjem i tårnet, bære den til landsbyen eller sende lyset av sted med en sang.",
+      "choices": "    Lag et trygt tilfluktssted her med Lumi.    Hør valget  English help   Build a sanctuary here with Lumi. Trykk på den norske valgknappen for å velge.      Ta med varmesirkelen til Willowbrook.    Hør valget  English help   Bring the circle of warmth to Willowbrook. Trykk på den norske valgknappen for å velge.    "
+    },
+    {
+      "id": "earth",
+      "title": "Et frø for morgendagen",
+      "text": "På balkongen får jordringen sølvfrøet til å åpne seg til et stjerneformet blad. Dere kan plante det i dalen, dyrke en himmelranke med Bulbasaur eller ta vare på det mens dere gjør tårnet til et trygt hjem.",
+      "choices": "    Plant en stjernelyshage i Willowbrook.    Hør valget  English help   Plant a starlight garden in Willowbrook. Trykk på den norske valgknappen for å velge.      La Bulbasaur dyrke en levende himmelplante. Bulbasaur sin spesielle vei     Hør valget  English help   Let Bulbasaur grow a living sky-vine. Trykk på den norske valgknappen for å velge.      Spar frøet og lag et tilfluktssted i tårnet.    Hør valget  English help   Save the seed and open a tower sanctuary. Trykk på den norske valgknappen for å velge.    "
+    },
+    {
+      "id": "endDawn",
+      "title": "Daggryet dere bar hjem",
+      "text": "Med Shinx varm i teppet og Lumi ved hans side tar dere den skjermede stien hjem under alle stjernene som vender tilbake. Mira ønsker dem begge velkommen, steller poten hans og rer opp to senger ved ildstedet; ingen ber Lumi forklare før hun har fått hvile.",
+      "choices": "  "
+    },
+    {
+      "id": "endAurora",
+      "title": "Et bånd over himmelen",
+      "text": "Altarias skyfjær holder varmen rundt Shinx mens alle de opprinnelige stjernene vender tilbake som grønne og gylne bånd på himmelen. Lumi setter seg ved det myke redet, og dere holder vakt til morgenen.",
+      "choices": "  "
+    },
+    {
+      "id": "endSong",
+      "title": "Sangen stjernene husket",
+      "text": "Du nynner en rolig melodi til Lumi finner sin egen tone. Hjerteringen gjør den delte varmen til et varmt teppe for Shinx mens alle de opprinnelige stjernene vender tilbake, og elven bærer sangen hjem.",
+      "choices": "  "
+    },
+    {
+      "id": "endSanctuary",
+      "title": "Et hjem over skyene",
+      "text": "Sikkerhetslåsen slipper noen stjerner fri hver natt mens Lumi og landsbyboerne erstatter varmen med tepper, lykter og et ildsted. Shinx hviler trygt ved siden av Lumi i det nye tilfluktsstedet; når den siste opprinnelige stjernen drar hjem, holder ildstedet alle sengene varme.",
+      "choices": "  "
+    },
+    {
+      "id": "endLantern",
+      "title": "Tusen små lys",
+      "text": "Mira samler lykter fra alle hjem, og landsbyboerne bærer varmen til Shinx. Når hjerteringen deler varmen, slipper Lumi alle de opprinnelige stjernene fri; Shinx velger en plass ved siden av henne i det neste lyktetoget.",
+      "choices": "  "
+    },
+    {
+      "id": "endGarden",
+      "title": "Der morgendagen vokser",
+      "text": "Frøet vokser til et stjernebilde-tre i Willowbrook og lager sitt eget nye lys mens alle de opprinnelige stjernene vender tilbake til himmelen. Lumi og landsbyboerne deler på vanningen, mens Shinx hviler trygt i hagens varme.",
+      "choices": "  "
+    }
+  ]
+}

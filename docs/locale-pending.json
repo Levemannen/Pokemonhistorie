@@ -1,0 +1,4502 @@
+[
+  {
+    "id": 0,
+    "en": "You kneel beside {starter} until it feels braver, then walk together to Mira’s lantern stall for help.",
+    "file": "narrative.ts"
+  },
+  {
+    "id": 1,
+    "en": "The seed glows whenever you turn toward Moonwood, so you take it to Mira, the village lantern keeper, to ask what it means.",
+    "file": "narrative.ts"
+  },
+  {
+    "id": 2,
+    "en": "You and {starter} climb the grassy hill above the square, looking for the light that fell from the sky.",
+    "file": "narrative.ts"
+  },
+  {
+    "id": 3,
+    "en": "Eevee steps out from under the stall and joins you; Mira points your little team toward the Moonwood gate.",
+    "file": "narrative.ts"
+  },
+  {
+    "id": 4,
+    "en": "Mira lends you her map and traces the route through Moonwood, across the river and up to Starfall Tower before showing you to the gate.",
+    "file": "narrative.ts"
+  },
+  {
+    "id": 5,
+    "en": "Mira says the seed fell from the direction of Starfall Tower, then sends you to the nearby hill to find the beginning of its silver trail.",
+    "file": "narrative.ts"
+  },
+  {
+    "id": 6,
+    "en": "You hum low, high, low until you remember the song, then follow the silver trail downhill to Moonwood’s gate.",
+    "file": "narrative.ts"
+  },
+  {
+    "id": 7,
+    "en": "Hoothoot eats your snack and decides to come along, flying ahead to show you the Moonwood gate.",
+    "file": "narrative.ts"
+  },
+  {
+    "id": 8,
+    "en": "Bulbasaur lifts the thorny stems one at a time, opening the arch so you can walk safely into Moonwood.",
+    "file": "narrative.ts"
+  },
+  {
+    "id": 9,
+    "en": "Charmander lights the ridge with its tail, and you follow the visible path around the thorny arch.",
+    "file": "narrative.ts"
+  },
+  {
+    "id": 10,
+    "en": "Squirtle washes mud off the sign, revealing an arrow toward a brook that leads into Moonwood.",
+    "file": "narrative.ts"
+  },
+  {
+    "id": 11,
+    "en": "The seed lights a narrow gap beside the thorny arch, and you and {starter} squeeze through to the forest path.",
+    "file": "narrative.ts"
+  },
+  {
+    "id": 12,
+    "en": "You repair the fallen nest and set it safely in a low tree, then follow the ridge path down into Moonwood.",
+    "file": "narrative.ts"
+  },
+  {
+    "id": 13,
+    "en": "You mark the nest on a branch for Mira to find, then follow the carved arrow down to the brook.",
+    "file": "narrative.ts"
+  },
+  {
+    "id": 14,
+    "en": "You tuck the letter safely into your pocket and follow the stream into Moonwood.",
+    "file": "narrative.ts"
+  },
+  {
+    "id": 15,
+    "en": "You float your reply in the bottle, and a passing Hoothoot lifts it toward the mountain while you follow the stream into Moonwood.",
+    "file": "narrative.ts"
+  },
+  {
+    "id": 16,
+    "en": "You stop beside Pikachu and carefully loosen the silver ivy while {starter} holds the stems still.",
+    "file": "narrative.ts"
+  },
+  {
+    "id": 17,
+    "en": "Pikachu wiggles free of the loose loop and waves goodbye before you follow the nearby mushrooms.",
+    "file": "narrative.ts"
+  },
+  {
+    "id": 18,
+    "en": "The leaves fall quiet, loosen Pikachu’s ivy and whisper one clear instruction: follow the roots to the oldest tree.",
+    "file": "narrative.ts"
+  },
+  {
+    "id": 19,
+    "en": "Pikachu chooses to travel with you and leads you a few steps along the glowing mushroom path.",
+    "file": "narrative.ts"
+  },
+  {
+    "id": 20,
+    "en": "Pikachu promises to guard Moonwood, then points you toward the oldest tree before waving goodbye.",
+    "file": "narrative.ts"
+  },
+  {
+    "id": 21,
+    "en": "The stars light up in the order you solved, showing a trail through the ferns to the oldest tree.",
+    "file": "narrative.ts"
+  },
+  {
+    "id": 22,
+    "en": "You follow the brightest mushrooms into a hollow tree, where the light suddenly breaks into laughter.",
+    "file": "narrative.ts"
+  },
+  {
+    "id": 23,
+    "en": "Your drawing shows that the blinking lights all point toward the same ancient tree, so you follow that path.",
+    "file": "narrative.ts"
+  },
+  {
+    "id": 24,
+    "en": "You ask the ivy for a safe path without breaking its stems; it bends aside and leads you straight to a mossy clearing.",
+    "file": "narrative.ts"
+  },
+  {
+    "id": 25,
+    "en": "Gastly laughs at your story and opens a tiny doorway inside the hollow tree to its secret reading room.",
+    "file": "narrative.ts"
+  },
+  {
+    "id": 26,
+    "en": "Gastly stops giggling when you explain the missing stars and guides you back outside to the oldest tree.",
+    "file": "narrative.ts"
+  },
+  {
+    "id": 27,
+    "en": "You borrow notes explaining that Lumi is a Clefairy caring for Shinx, then Gastly leads you out to the lens clearing.",
+    "file": "narrative.ts"
+  },
+  {
+    "id": 28,
+    "en": "You copy the old mountain route, then Gastly leads you through a short tunnel to the lens clearing.",
+    "file": "narrative.ts"
+  },
+  {
+    "id": 29,
+    "en": "You practice the archive’s low-high-low greeting, then follow Gastly out to the lens clearing.",
+    "file": "narrative.ts"
+  },
+  {
+    "id": 30,
+    "en": "“Kindness grows when we pass it on,” the tree agrees, opening its root door to the clearing behind it.",
+    "file": "narrative.ts"
+  },
+  {
+    "id": 31,
+    "en": "“One flame can light another without going out,” the tree agrees, opening its root door to the clearing behind it.",
+    "file": "narrative.ts"
+  },
+  {
+    "id": 32,
+    "en": "Bulbasaur touches the roots with its vines and listens; the tree answers in a low rumble, then lifts its roots into a doorway for you.",
+    "file": "narrative.ts"
+  },
+  {
+    "id": 33,
+    "en": "You pack the crescent lens and rescue rope, then follow the tree’s riverside path toward Starfall Tower.",
+    "file": "narrative.ts"
+  },
+  {
+    "id": 34,
+    "en": "You pack the crescent lens and rune key, then follow the tree’s riverside path toward Starfall Tower.",
+    "file": "narrative.ts"
+  },
+  {
+    "id": 35,
+    "en": "You plant an ordinary seed in thanks, keep the silver seed and lens, and follow the tree’s riverside path toward Starfall Tower.",
+    "file": "narrative.ts"
+  },
+  {
+    "id": 36,
+    "en": "You and {starter} dig a small channel from the river to Lapras’s shallow pool.",
+    "file": "narrative.ts"
+  },
+  {
+    "id": 37,
+    "en": "You replace the ferry’s broken boards with fallen wood, then check the rope before anyone steps aboard.",
+    "file": "narrative.ts"
+  },
+  {
+    "id": 38,
+    "en": "You follow the bank upstream and find a dry ledge behind the waterfall.",
+    "file": "narrative.ts"
+  },
+  {
+    "id": 39,
+    "en": "You match the crescent on your map or letter to the moon-shaped marks along the bank and find the cave’s open side entrance.",
+    "file": "narrative.ts"
+  },
+  {
+    "id": 40,
+    "en": "Lapras carries you safely to a little island at the foot of the mountain, promising to stay nearby on the river.",
+    "file": "narrative.ts"
+  },
+  {
+    "id": 41,
+    "en": "Lapras stays to guide other travelers while you walk back to Psyduck’s ferry.",
+    "file": "narrative.ts"
+  },
+  {
+    "id": 42,
+    "en": "Squirtle widens the channel with a gentle stream, and grateful Lapras carries you to the island at the foot of the mountain.",
+    "file": "narrative.ts"
+  },
+  {
+    "id": 43,
+    "en": "Your rescue rope holds the ferry safely, and you cross to the island at the foot of the mountain.",
+    "file": "narrative.ts"
+  },
+  {
+    "id": 44,
+    "en": "You braid a strong reed rope and cross safely by ferry to the island at the foot of the mountain.",
+    "file": "narrative.ts"
+  },
+  {
+    "id": 45,
+    "en": "You weave a safe ferry rope and help Psyduck cross first; it invites you into its reed workshop beside the far bank.",
+    "file": "narrative.ts"
+  },
+  {
+    "id": 46,
+    "en": "You and Psyduck set floating lanterns along the bank, then follow the short causeway to the island.",
+    "file": "narrative.ts"
+  },
+  {
+    "id": 47,
+    "en": "Psyduck marks a quiet river route and the tower’s old water passage on your map, then walks with you to the island.",
+    "file": "narrative.ts"
+  },
+  {
+    "id": 48,
+    "en": "You learn Psyduck’s calming low-high-low tune, then walk together along the causeway to the island.",
+    "file": "narrative.ts"
+  },
+  {
+    "id": 49,
+    "en": "Your three notes open the door, and you step into a dry cave behind the falling water.",
+    "file": "narrative.ts"
+  },
+  {
+    "id": 50,
+    "en": "You leave the bells alone and follow the riverbank to a stone causeway leading onto the island.",
+    "file": "narrative.ts"
+  },
+  {
+    "id": 51,
+    "en": "You sing the melody you learned earlier; the bells answer, and the door opens into a dry cave.",
+    "file": "narrative.ts"
+  },
+  {
+    "id": 52,
+    "en": "The safe path curves around the waterfall and reaches a causeway leading onto the island.",
+    "file": "narrative.ts"
+  },
+  {
+    "id": 53,
+    "en": "You learn that friends can open the sphere by helping Lumi feel safe, then take the cave’s lower exit onto the island causeway.",
+    "file": "narrative.ts"
+  },
+  {
+    "id": 54,
+    "en": "You copy the tower’s hidden stairway, then take the cave’s lower exit onto the island causeway.",
+    "file": "narrative.ts"
+  },
+  {
+    "id": 55,
+    "en": "You promise to help both Lumi and Shinx, then follow their footprints uphill toward Starfall Tower.",
+    "file": "narrative.ts"
+  },
+  {
+    "id": 56,
+    "en": "You catch the golden speck in your lens, where it lights their footprints up the mountain.",
+    "file": "narrative.ts"
+  },
+  {
+    "id": 57,
+    "en": "You promise to share the memory only with people who can help, then follow the friends’ footprints up the mountain.",
+    "file": "narrative.ts"
+  },
+  {
+    "id": 58,
+    "en": "You wait for a quiet moment in the wind and cross the bridge together to a sheltered nook.",
+    "file": "narrative.ts"
+  },
+  {
+    "id": 59,
+    "en": "Lapras sings from the river below, and you follow the glowing Promise Trail along the mountainside.",
+    "file": "narrative.ts"
+  },
+  {
+    "id": 60,
+    "en": "You take the longer stone path around the bridge and climb to a lookout above the clouds.",
+    "file": "narrative.ts"
+  },
+  {
+    "id": 61,
+    "en": "Bulbasaur wraps its vines around the bridge posts to keep the boards steady while everyone crosses to a sheltered nook.",
+    "file": "narrative.ts"
+  },
+  {
+    "id": 62,
+    "en": "You guide Altaria’s little birds onto the cloud-platform, and the grateful flock carries you to the observatory roof.",
+    "file": "narrative.ts"
+  },
+  {
+    "id": 63,
+    "en": "The wind marks point to a sheltered flight of stone steps, so you follow them toward the tower.",
+    "file": "narrative.ts"
+  },
+  {
+    "id": 64,
+    "en": "Altaria shows you a path behind the rocks that leads safely to the cloudberry nook.",
+    "file": "narrative.ts"
+  },
+  {
+    "id": 65,
+    "en": "You tuck Shinx’s scarf into your pack and follow the path toward the tower, stopping at a sheltered nook ahead.",
+    "file": "narrative.ts"
+  },
+  {
+    "id": 66,
+    "en": "You tie the scarf to a trail marker where other travelers can see it, then follow the path to a sheltered nook.",
+    "file": "narrative.ts"
+  },
+  {
+    "id": 67,
+    "en": "You stay on the hidden stair until it reaches Lumi’s door, keeping the promise you made beside the river.",
+    "file": "narrative.ts"
+  },
+  {
+    "id": 68,
+    "en": "You share some food, and Altaria gives you a warm cloud feather before pointing out the nearby observatory.",
+    "file": "narrative.ts"
+  },
+  {
+    "id": 69,
+    "en": "You repair Altaria’s berry bowl, and she thanks you by showing you the sheltered way to the nearby observatory.",
+    "file": "narrative.ts"
+  },
+  {
+    "id": 70,
+    "en": "Altaria listens to what you learned about Lumi and explains that sharing warmth will help, then shows you the nearby observatory.",
+    "file": "narrative.ts"
+  },
+  {
+    "id": 71,
+    "en": "Your repaired mechanism turns, and you climb the stairs as the observatory roof opens.",
+    "file": "narrative.ts"
+  },
+  {
+    "id": 72,
+    "en": "Pikachu gives the motor a small, steady spark, opening the roof so you can climb up.",
+    "file": "narrative.ts"
+  },
+  {
+    "id": 73,
+    "en": "You and {starter} find a hand crank and turn it together until the roof opens.",
+    "file": "narrative.ts"
+  },
+  {
+    "id": 74,
+    "en": "The outside stair brings you to a manual latch above the frozen controls, and you lift it to open the roof.",
+    "file": "narrative.ts"
+  },
+  {
+    "id": 75,
+    "en": "You wait for each stepping-stone to glow steadily and cross together to Starfall Tower.",
+    "file": "narrative.ts"
+  },
+  {
+    "id": 76,
+    "en": "You find a solid stair beneath the platform and follow it around the gap to Starfall Tower.",
+    "file": "narrative.ts"
+  },
+  {
+    "id": 77,
+    "en": "Your earlier discovery reveals a sheltered passage with a diagram of the sphere’s warm-light setting, which you copy before reaching Starfall Tower.",
+    "file": "narrative.ts"
+  },
+  {
+    "id": 78,
+    "en": "Charmander gently melts the frost, making the glowing stepping-stones safe to cross to Starfall Tower.",
+    "file": "narrative.ts"
+  },
+  {
+    "id": 79,
+    "en": "You knock and say your names; Lumi opens the door and invites you inside.",
+    "file": "narrative.ts"
+  },
+  {
+    "id": 80,
+    "en": "You call Lumi’s name softly and explain that you came to help; she opens the door.",
+    "file": "narrative.ts"
+  },
+  {
+    "id": 81,
+    "en": "You hold out the scarf you found, and Lumi opens the door with a grateful smile.",
+    "file": "narrative.ts"
+  },
+  {
+    "id": 82,
+    "en": "You sit quietly beside Lumi, and she begins to tell you why she borrowed the stars.",
+    "file": "narrative.ts"
+  },
+  {
+    "id": 83,
+    "en": "You share what the astronomer’s notes taught you, and Lumi explains what happened to Shinx.",
+    "file": "narrative.ts"
+  },
+  {
+    "id": 84,
+    "en": "Lumi agrees that the village could help, but asks you to choose how to carry the warmth before moving the sphere.",
+    "file": "narrative.ts"
+  },
+  {
+    "id": 85,
+    "en": "Lumi remembers your river promise and trusts you to place your hand on the heart ring.",
+    "file": "narrative.ts"
+  },
+  {
+    "id": 86,
+    "en": "You promise Lumi that your friends will help her, and she turns the sphere so you can study its rings together.",
+    "file": "narrative.ts"
+  },
+  {
+    "id": 87,
+    "en": "Shinx asks to stay warm and close to Lumi, so you study the rings for a way to help them both.",
+    "file": "narrative.ts"
+  },
+  {
+    "id": 88,
+    "en": "You tuck the cloud feather around Shinx; feeling its warmth, Lumi relaxes and shows you the sphere’s rings.",
+    "file": "narrative.ts"
+  },
+  {
+    "id": 89,
+    "en": "You turn the sky ring toward the window, ready to return the missing stars.",
+    "file": "narrative.ts"
+  },
+  {
+    "id": 90,
+    "en": "You gather close to Lumi and place your hands beside the heart ring.",
+    "file": "narrative.ts"
+  },
+  {
+    "id": 91,
+    "en": "Lumi carries the sphere with you onto the garden balcony, where you set the earth ring beside your silver seed.",
+    "file": "narrative.ts"
+  },
+  {
+    "id": 92,
+    "en": "Keeping the sphere closed and Shinx warm, you and Lumi follow your village plan down to Mira’s waiting lanterns.",
+    "file": "narrative.ts"
+  },
+  {
+    "id": 93,
+    "en": "You shape the cloud feather into a warm nest for Shinx, giving Lumi the courage to release the stars.",
+    "file": "narrative.ts"
+  },
+  {
+    "id": 94,
+    "en": "Charmander lends gentle warmth beside Shinx’s blanket nest, and Lumi finally feels ready to let go.",
+    "file": "narrative.ts"
+  },
+  {
+    "id": 95,
+    "en": "You wrap Shinx warmly first, then release the stars and take the sheltered path down to Mira.",
+    "file": "narrative.ts"
+  },
+  {
+    "id": 96,
+    "en": "You hum a gentle three-note lullaby; Lumi turns the heart ring to share its warmth, then opens the sky ring in time with your song.",
+    "file": "narrative.ts"
+  },
+  {
+    "id": 97,
+    "en": "You and Lumi decide to turn the tower into a safe home for Pokémon who need care.",
+    "file": "narrative.ts"
+  },
+  {
+    "id": 98,
+    "en": "Pikachu sends a gentle spark through the lantern wires while your circle shares its warmth with the village below.",
+    "file": "narrative.ts"
+  },
+  {
+    "id": 99,
+    "en": "You sing the three-note melody together, and the heart ring opens to the rhythm you remember.",
+    "file": "narrative.ts"
+  },
+  {
+    "id": 100,
+    "en": "You carry the sphere down together, and Mira gathers the village around it to share the warmth.",
+    "file": "narrative.ts"
+  },
+  {
+    "id": 101,
+    "en": "You carry the silver seed down to Willowbrook and plant it in the village garden.",
+    "file": "narrative.ts"
+  },
+  {
+    "id": 102,
+    "en": "Bulbasaur helps you carry the seed down to Willowbrook, then guides its roots into a living sky-vine.",
+    "file": "narrative.ts"
+  },
+  {
+    "id": 103,
+    "en": "You save the seed in a pot and return inside with Lumi to make the tower a safe home.",
+    "file": "narrative.ts"
+  },
+  {
+    "id": 104,
+    "en": "You carry the silver seed down to Psyduck’s lantern trail, where its roots grow into glowing reeds.",
+    "file": "narrative.ts"
+  },
+  {
+    "id": 105,
+    "en": "The festival has begun, but the stars have vanished and {starter} presses close to you, unsure of the dark sky. A warm silver seed lands at your feet and glows toward Moonwood. Across the square, Mira the lantern keeper is checking her old star map; a grassy hill nearby offers a clear view of the forest.",
+    "file": "narrative.ts"
+  },
+  {
+    "id": 106,
+    "en": "Mira, the lantern keeper, studies the silver seed beside her map: its light points toward Starfall Tower, beyond Moonwood and the river. A little Eevee shivers under her table, afraid of the suddenly dark sky.",
+    "file": "narrative.ts"
+  },
+  {
+    "id": 107,
+    "en": "On the hill, Hoothoot stands inside a circle of silver dust and sings low, high, low. Your seed flashes with each note, and the silver trail continues downhill toward Moonwood’s gate.",
+    "file": "narrative.ts"
+  },
+  {
+    "id": 108,
+    "en": "At Moonwood’s edge, a thorny arch blocks the main path, but a ridge and a brook offer ways around it. A muddy sign stands beside the arch, and the silver seed glows toward the trees beyond.",
+    "file": "narrative.ts"
+  },
+  {
+    "id": 109,
+    "en": "In Charmander’s careful light, you see a fallen nest caught beneath a branch. A carved arrow points down to a brook, while the ridge path continues into Moonwood.",
+    "file": "narrative.ts"
+  },
+  {
+    "id": 110,
+    "en": "A moon-carved sign stands beside the brook, where a bottle bobs in the shallow water. Inside is a letter asking for help at Starfall Tower, signed with a single letter: L.",
+    "file": "narrative.ts"
+  },
+  {
+    "id": 111,
+    "en": "Moonwood’s leaves whisper over one another, and a Pikachu has caught its ankle in a loose loop of silver ivy. It is not hurt, but would welcome help; nearby, glowing mushrooms and a line of old roots offer two ways deeper into the forest.",
+    "file": "narrative.ts"
+  },
+  {
+    "id": 112,
+    "en": "Pikachu steps free and thanks you with a tiny spark. It can come with you along the mushroom path, or stay to help other travelers while you visit the oldest tree.",
+    "file": "narrative.ts"
+  },
+  {
+    "id": 113,
+    "en": "A flat stone among the mushrooms shows three gold stars growing from small to large. The pattern could reveal a path to the oldest tree; a brighter side trail disappears into a hollow trunk.",
+    "file": "narrative.ts"
+  },
+  {
+    "id": 114,
+    "en": "Friendly Gastly float inside the hollow tree, admitting that they lit the brightest mushrooms for a game. They offer to show you their secret reading room, or guide you straight to the oldest tree if you explain your journey.",
+    "file": "narrative.ts"
+  },
+  {
+    "id": 115,
+    "en": "Gastly’s little archive holds the astronomer’s notes, an old mountain map and a musical greeting. You can borrow one discovery before Gastly leads you out to the clearing where the forest keeps its crescent lens.",
+    "file": "narrative.ts"
+  },
+  {
+    "id": 116,
+    "en": "The oldest tree guards a doorway woven from roots and asks, “What grows brighter when it is shared?” Beyond the doorway, a crescent lens rests on a pedestal; perhaps an answer, or Bulbasaur’s way of speaking to plants, will open the way.",
+    "file": "narrative.ts"
+  },
+  {
+    "id": 117,
+    "en": "The tree offers you the crescent lens: it can show memories and light the way to Starfall Tower. A rescue rope and rune key lie beside it, but your pack has room for only one tool; you could also leave both and plant an ordinary seed in thanks.",
+    "file": "narrative.ts"
+  },
+  {
+    "id": 118,
+    "en": "The forest path ends at the Lumen River, with Starfall Tower visible on the mountain beyond. Lapras is stuck in a shallow pool, Psyduck’s ferry needs repairs, and a riverbank path leads toward a waterfall and an old cave.",
+    "file": "narrative.ts"
+  },
+  {
+    "id": 119,
+    "en": "Water fills the channel and Lapras slides into the deep river with a grateful song. It offers to carry you to the island below Starfall Tower, or stay here to guide other travelers.",
+    "file": "narrative.ts"
+  },
+  {
+    "id": 120,
+    "en": "Psyduck’s ferry now has sound boards, but its rope is frayed and must be replaced before anyone crosses. You can use a rope from your pack, weave one from reeds, or help nervous Psyduck make the first safe crossing.",
+    "file": "narrative.ts"
+  },
+  {
+    "id": 121,
+    "en": "Psyduck’s workshop stands beside the far bank, a short walk from the island below Starfall Tower. Your new friend offers to help you make floating lanterns, copy a quiet route or learn a calming tune before you go.",
+    "file": "narrative.ts"
+  },
+  {
+    "id": 122,
+    "en": "Three bells hang beside a door on the dry ledge behind the waterfall: the outer bells sound low and the middle one sounds high. Their low-high-low echo is the key, but you can also follow the bank around to the island without opening the door.",
+    "file": "narrative.ts"
+  },
+  {
+    "id": 123,
+    "en": "In the astronomer’s cave, a notebook tells of Lumi, a Clefairy who took the stars to keep an injured Shinx warm inside a magic sphere. The notes explain how to open it gently and show a hidden tower stair; a lower exit leads to the island.",
+    "file": "narrative.ts"
+  },
+  {
+    "id": 124,
+    "en": "On the island, your lens catches a golden speck and shows a memory of Clefairy helping an injured Shinx toward the mountain. Shinx calls her Lumi, so you learn her name, and their footprints continue uphill toward Starfall Tower.",
+    "file": "narrative.ts"
+  },
+  {
+    "id": 125,
+    "en": "The footprints lead to a rope bridge below Starfall Tower; its ropes are secure, but gusts rock the boards. You can wait for the wind, steady the bridge, or take a longer stone path to an Altaria lookout.",
+    "file": "narrative.ts"
+  },
+  {
+    "id": 126,
+    "en": "Altaria is gathering a lost flock on a lookout beside a floating cloud-platform. Helping the birds would earn a ride to the observatory roof, while marked steps and a sheltered path lead toward the cloudberry nook below it.",
+    "file": "narrative.ts"
+  },
+  {
+    "id": 127,
+    "en": "On the stone steps you find a yellow scarf with Shinx’s name stitched inside. The main path passes a sheltered nook on its way to the tower, while the glowing Promise Trail, if you found it, leads straight to Lumi’s door.",
+    "file": "narrative.ts"
+  },
+  {
+    "id": 128,
+    "en": "Altaria tends cloudberries in a nook below the observatory, which overlooks the last gap before Starfall Tower. She offers a warm feather in exchange for food, or will show the way if you repair her bowl or share what you learned about Lumi.",
+    "file": "narrative.ts"
+  },
+  {
+    "id": 129,
+    "en": "The observatory’s roof is frozen shut, blocking the platform from which your lens can light a path to Starfall Tower. {starter} notices a mechanism suited to its skills, and you can also search for a hand crank or take the safe outside stair.",
+    "file": "narrative.ts"
+  },
+  {
+    "id": 130,
+    "en": "From the observatory roof, your crescent lens lights a path of stepping-stones across the gap to Starfall Tower. The stones glow steadily when you move slowly, and old passages offer another way around the gap.",
+    "file": "narrative.ts"
+  },
+  {
+    "id": 131,
+    "en": "At Lumi’s door, you hear a worried voice asking Shinx to rest for one more night. A yellow scarf hangs on a chair beside the door, with a name stitched into it: Lumi; it belongs to the matching pair she and Shinx wore.",
+    "file": "narrative.ts"
+  },
+  {
+    "id": 132,
+    "en": "Inside, Lumi stands beside a glass sphere holding the missing stars, while Shinx rests on a warm blanket. She is afraid that opening the sphere will leave her friend cold, and waits to hear how you can help.",
+    "file": "narrative.ts"
+  },
+  {
+    "id": 133,
+    "en": "Lumi explains that Shinx was hurt during the meteor shower, and the sphere closed when she became afraid to lose him. Shinx is awake now, listening as you decide how to help him feel safe enough for Lumi to release the light.",
+    "file": "narrative.ts"
+  },
+  {
+    "id": 134,
+    "en": "Lumi shows you three rings: sky returns the stars, heart shares warmth between friends, and earth lets the light grow into a plant. Each can help Shinx and the valley, but you must choose which kind of future to make together.",
+    "file": "narrative.ts"
+  },
+  {
+    "id": 135,
+    "en": "The sky ring is ready, but Lumi needs to know how Shinx will stay warm. A feather, a careful flame, a journey home or a comforting song can help her let the stars go.",
+    "file": "narrative.ts"
+  },
+  {
+    "id": 136,
+    "en": "The heart ring glows as you and Lumi share your warmth with Shinx. You can make this circle a home in the tower, carry it to the village or send its light along a song.",
+    "file": "narrative.ts"
+  },
+  {
+    "id": 137,
+    "en": "On the balcony, the earth ring makes your silver seed open into a star-shaped leaf. You can plant it in the valley, grow a sky-vine with Bulbasaur, or save it while you make the tower a safe home.",
+    "file": "narrative.ts"
+  },
+  {
+    "id": 138,
+    "en": "Mira welcomes you home and tends Shinx while Lumi holds his hand beneath a sky full of stars. At the next festival, a lantern bears {starter}’s name in thanks for bringing everyone safely home.",
+    "file": "narrative.ts"
+  },
+  {
+    "id": 139,
+    "en": "Shinx rests in his warm nest as the freed stars spread into ribbons of green and gold. You and {starter} stay with Lumi until morning, watching the sky shine again.",
+    "file": "narrative.ts"
+  },
+  {
+    "id": 140,
+    "en": "The song carries the stars out of the sphere, while a little shared warmth stays with Shinx. Every year, the village gathers by the river to sing the three notes that helped you bring back the sky.",
+    "file": "narrative.ts"
+  },
+  {
+    "id": 141,
+    "en": "Lumi becomes the keeper of the new sanctuary, where Shinx rests and other lost Pokémon find warm beds. The sphere sends more stars home each night, keeping only enough light to help those still healing.",
+    "file": "narrative.ts"
+  },
+  {
+    "id": 142,
+    "en": "Every family offers a lantern, and the shared warmth lets Lumi release all the stars. When Shinx is well, he and Lumi join the lantern parade with you, knowing that nobody needs to hold the whole sky alone.",
+    "file": "narrative.ts"
+  },
+  {
+    "id": 143,
+    "en": "The new garden grows a living constellation, lending light to the sky and warmth to anyone who rests beneath it. Lumi, Shinx and your friends take turns tending it, and {starter} helps you plant the next seed.",
+    "file": "narrative.ts"
+  },
+  {
+    "id": 144,
+    "en": "You stay beside the freed Pikachu to ask what it would like to do next.",
+    "file": "narrative.ts"
+  },
+  {
+    "id": 145,
+    "en": "You wave goodbye to the freed Pikachu and follow the roots to the oldest tree.",
+    "file": "narrative.ts"
+  },
+  {
+    "id": 146,
+    "en": "You wave goodbye to the freed Pikachu and follow the blinking mushroom path.",
+    "file": "narrative.ts"
+  },
+  {
+    "id": 147,
+    "en": "The oldest tree guards a doorway woven from roots and asks, “What grows brighter when it is shared?” Beyond the doorway, a crescent lens rests on a pedestal, waiting for someone who can answer the tree’s question.",
+    "file": "narrative.ts"
+  },
+  {
+    "id": 148,
+    "en": "The footprints lead to a rope bridge below Starfall Tower; its ropes are secure, but gusts rock the boards. You can wait for the wind to calm or take a longer stone path to an Altaria lookout.",
+    "file": "narrative.ts"
+  },
+  {
+    "id": 149,
+    "en": "On the stone steps you find a yellow scarf with Shinx’s name stitched inside. The path passes a sheltered nook on its way to the tower; you can take the scarf along or use it to mark the trail for others.",
+    "file": "narrative.ts"
+  },
+  {
+    "id": 150,
+    "en": "make a nest with your cloud feather",
+    "file": "narrative.ts"
+  },
+  {
+    "id": 151,
+    "en": "ask Charmander to lend gentle warmth",
+    "file": "narrative.ts"
+  },
+  {
+    "id": 152,
+    "en": "carry Shinx home",
+    "file": "narrative.ts"
+  },
+  {
+    "id": 153,
+    "en": "sing a comforting song",
+    "file": "narrative.ts"
+  },
+  {
+    "id": 154,
+    "en": "The sky ring is ready, but Lumi needs to know how Shinx will stay warm. You could",
+    "file": "narrative.ts"
+  },
+  {
+    "id": 155,
+    "en": ", or",
+    "file": "narrative.ts"
+  },
+  {
+    "id": 156,
+    "en": "On the balcony, the earth ring makes your silver seed open into a star-shaped leaf. You can plant it in the valley or save it while you make the tower a safe home.",
+    "file": "narrative.ts"
+  },
+  {
+    "id": 157,
+    "en": "A Hoothoot from your repaired nest arrives to sing low, high, low in thanks, giving you a melody to remember.",
+    "file": "narrative.ts"
+  },
+  {
+    "id": 158,
+    "en": "From the river below, Lapras remembers your promise and sings a hidden stair into view: the Promise Trail to Lumi’s door.",
+    "file": "narrative.ts"
+  },
+  {
+    "id": 159,
+    "en": "Lapras’s song guides you along the hidden stair toward Lumi’s door, past a yellow scarf dropped by Shinx. You can keep your promise and go straight to Lumi, or take the main path through the cloudberry nook with the scarf.",
+    "file": "narrative.ts"
+  },
+  {
+    "id": 160,
+    "en": "The frozen observatory is still below you; the flock has brought you above it without needing its machinery.",
+    "file": "narrative.ts"
+  },
+  {
+    "id": 161,
+    "en": "Star reeds grow along the water beside Psyduck’s lanterns, sharing their light with the sky and warmth with passing travelers. Lumi, Shinx and Psyduck help you tend this new river garden together.",
+    "file": "narrative.ts"
+  },
+  {
+    "id": 162,
+    "en": "Lumi recognises the promise you kept on the hidden stair and offers to open the heart ring with you",
+    "file": "storyDepth.ts"
+  },
+  {
+    "id": 163,
+    "en": "Shinx wraps the scarf you found around his shoulders and purrs",
+    "file": "storyDepth.ts"
+  },
+  {
+    "id": 164,
+    "en": "Lumi shows you the river reply that gave her hope",
+    "file": "storyDepth.ts"
+  },
+  {
+    "id": 165,
+    "en": "she thanks you for keeping the river memory private",
+    "file": "storyDepth.ts"
+  },
+  {
+    "id": 166,
+    "en": "Mira’s village lanterns can provide warmth, so Lumi agrees to carry the closed sphere home if you choose the heart ring",
+    "file": "storyDepth.ts"
+  },
+  {
+    "id": 167,
+    "en": "Shinx asks to stay beside Lumi and chooses to help hold the blanket instead of being carried alone",
+    "file": "storyDepth.ts"
+  },
+  {
+    "id": 168,
+    "en": "your notes reveal that the rings release stars only when another source of warmth is ready",
+    "file": "storyDepth.ts"
+  },
+  {
+    "id": 169,
+    "en": "your first small garden in Moonwood sends a green thread to help this new garden take root",
+    "file": "storyDepth.ts"
+  },
+  {
+    "id": 170,
+    "en": "Psyduck’s floating lanterns mark another planting place beside the river",
+    "file": "storyDepth.ts"
+  },
+  {
+    "id": 171,
+    "en": "Squirtle offers to build a watering channel so the young star plants can survive dry days",
+    "file": "storyDepth.ts"
+  },
+  {
+    "id": 172,
+    "en": "your map matches a crescent mark beside the cave’s side entrance",
+    "file": "storyDepth.ts"
+  },
+  {
+    "id": 173,
+    "en": "Pikachu remembers your gentle rescue and teaches you how to hold a spark steady",
+    "file": "storyDepth.ts"
+  },
+  {
+    "id": 174,
+    "en": "Psyduck points proudly to the knot you tested together and offers to check the next crossing itself",
+    "file": "storyDepth.ts"
+  },
+  {
+    "id": 175,
+    "en": "the bells have lit a hidden diagram showing how a melody can steady the heart ring",
+    "file": "storyDepth.ts"
+  },
+  {
+    "id": 176,
+    "en": "a familiar Pikachu returns from guarding Moonwood and offers a spark for the friend who freed it",
+    "file": "storyDepth.ts"
+  },
+  {
+    "id": 177,
+    "en": "Altaria’s repaired bowl has become a warm-water carrier, helping you loosen the frozen controls",
+    "file": "storyDepth.ts"
+  },
+  {
+    "id": 178,
+    "en": "your star map shows that the roof once measured warmth as well as light",
+    "file": "storyDepth.ts"
+  },
+  {
+    "id": 179,
+    "en": "Lumi is ready to follow your village plan, carrying Shinx beside her in his blanket",
+    "file": "storyDepth.ts"
+  },
+  {
+    "id": 180,
+    "en": "Shinx asks everyone to leave a comfortable space beside Lumi for him",
+    "file": "storyDepth.ts"
+  },
+  {
+    "id": 181,
+    "en": "you repeat Altaria’s advice to ask before helping, and Lumi places her hand on the ring herself",
+    "file": "storyDepth.ts"
+  },
+  {
+    "id": 182,
+    "en": "the saved golden speck reflects Shinx’s smile and steadies Lumi’s trembling hands",
+    "file": "storyDepth.ts"
+  },
+  {
+    "id": 183,
+    "en": "Pikachu uses the steady spark it practised after your careful rescue",
+    "file": "storyDepth.ts"
+  },
+  {
+    "id": 184,
+    "en": "The festival music stops as the stars blink out, and {0} presses against you while everyone looks up. A warm silver seed lands at your feet; Mira asks you to follow its light while she keeps the village lanterns burning. {1}, and together you decide to find out why.",
+    "file": "storyDepth.ts"
+  },
+  {
+    "id": 185,
+    "en": "Bulbasaur feels the flowers turn toward the seed",
+    "file": "storyDepth.ts"
+  },
+  {
+    "id": 186,
+    "en": "Charmander notices its flame lean toward the seed",
+    "file": "storyDepth.ts"
+  },
+  {
+    "id": 187,
+    "en": "Squirtle sees a tiny star reflected in the seed, although the sky is empty",
+    "file": "storyDepth.ts"
+  },
+  {
+    "id": 188,
+    "en": "“This seed has the same mark as the old tower garden,” Mira says, tracing a crescent on her map; she knows the road, but not why the stars vanished. Eevee shivers under her table as she offers you a map or a chance to look for more clues on the hill.",
+    "file": "storyDepth.ts"
+  },
+  {
+    "id": 189,
+    "en": "“I saw a trail of light fly toward the tower,” Hoothoot tells you, tapping the crescent mark in the dust. It sings low, high, low; your seed answers each note, and the silver trail leads down to Moonwood’s gate.",
+    "file": "storyDepth.ts"
+  },
+  {
+    "id": 190,
+    "en": "One Gastly wears a crooked leaf as a hat: “We made a guessing game, but nobody stayed to play!” When you explain the dark sky, it puts the hat away and offers either its secret archive or the direct path to the oldest tree.",
+    "file": "storyDepth.ts"
+  },
+  {
+    "id": 191,
+    "en": "Gastly guards three books with badly mixed-up labels, hoping you can put them in order. You may investigate the star machine before borrowing the astronomer’s notes, a mountain route or a musical greeting.",
+    "file": "storyDepth.ts"
+  },
+  {
+    "id": 192,
+    "en": "The crescent lens can reveal memories; beside it lie a rope for the river and a key marked with the tower’s crescent. Your pack holds one tool, or you can plant an ordinary seed here and let the forest help a future garden.",
+    "file": "storyDepth.ts"
+  },
+  {
+    "id": 193,
+    "en": "“I was guiding a young swimmer when the water fell,” Lapras says as the channel fills and frees it. It offers a ride to the island, promising to stay on the river where other travelers still need a guide.",
+    "file": "storyDepth.ts"
+  },
+  {
+    "id": 194,
+    "en": "The ferry’s boards are safe now, but Psyduck points to a frayed rope: “I can steer if someone helps with the knot.” A rescue rope saves time; reeds can also make a safe line if you test them before crossing.",
+    "file": "storyDepth.ts"
+  },
+  {
+    "id": 195,
+    "en": "Three bells hang beside the dry doorway behind the waterfall: their worn carvings show that two sound alike and one is different. Listen to the echo or read its pattern to discover the tune; the riverbank also offers a safe way around.",
+    "file": "storyDepth.ts"
+  },
+  {
+    "id": 196,
+    "en": "“I crossed!” Psyduck says, surprising itself with a laugh as it shows you the workshop on the far bank. It wants to help the next nervous traveler with lanterns, a quiet route or a calming tune.",
+    "file": "storyDepth.ts"
+  },
+  {
+    "id": 197,
+    "en": "The notebook’s torn diagram shows a sphere made to borrow warmth, not steal stars: its safety lock closed when Lumi panicked. The silver seed is its living spare part, able to grow new light without trapping the original stars; another page shows a hidden tower stair.",
+    "file": "storyDepth.ts"
+  },
+  {
+    "id": 198,
+    "en": "In the lens’s golden memory, Lumi lifts Shinx from fallen stones and wraps him in her own blanket, whispering, “I have you.” He presses his matching yellow scarf to her cheek before she carries him toward the tower; their footprints continue uphill.",
+    "file": "storyDepth.ts"
+  },
+  {
+    "id": 199,
+    "en": "The little birds crowd one edge of Altaria’s cloud-platform, tipping it toward the wind. You can guide them into a balanced flock for a ride to the observatory roof, or keep your feet on the marked stone paths.",
+    "file": "storyDepth.ts"
+  },
+  {
+    "id": 200,
+    "en": "The observatory once checked that the sphere shared warmth safely; its frozen roof now blocks the lens platform. {0}, while a hand crank and an outside stair offer other ways up.",
+    "file": "storyDepth.ts"
+  },
+  {
+    "id": 201,
+    "en": "Bulbasaur finds living vine cables under the controls",
+    "file": "storyDepth.ts"
+  },
+  {
+    "id": 202,
+    "en": "Charmander finds ice locking a small gear inside a larger one",
+    "file": "storyDepth.ts"
+  },
+  {
+    "id": 203,
+    "en": "Squirtle finds empty water basins connected to the roof weights",
+    "file": "storyDepth.ts"
+  },
+  {
+    "id": 204,
+    "en": "Beyond the closed door, someone counts stars, stops, and whispers, “What if it is not enough?” Lumi’s yellow scarf hangs on a chair outside; an old drawing beside it shows her and Shinx knitting their matching scarves together.",
+    "file": "storyDepth.ts"
+  },
+  {
+    "id": 205,
+    "en": "Lumi stands between you and the sphere, ashamed of the empty sky but frightened for Shinx on his blanket. “I meant to borrow a little warmth,” she says; Shinx reaches for her hand, asking her to hear you out.",
+    "file": "storyDepth.ts"
+  },
+  {
+    "id": 206,
+    "en": "“I pulled harder when I got scared, and the safety lock shut,” Lumi admits; the sphere will release its stars when another source of warmth is ready. Shinx sits up: “I can help choose, too — just keep me warm and close to Lumi.”",
+    "file": "storyDepth.ts"
+  },
+  {
+    "id": 207,
+    "en": "The sky ring frees every star immediately once Shinx has warmth; the heart ring shares warmth between friends, either here or in the village. The earth ring grows new light from the seed while returning the original stars, but someone must water and tend the plants.",
+    "file": "storyDepth.ts"
+  },
+  {
+    "id": 208,
+    "en": "Pikachu shakes its freed ankle and thanks you for the careful rescue. You can stay to talk, study the nearby mushrooms or ask the whispering trees for a path.",
+    "file": "storyDepth.ts"
+  },
+  {
+    "id": 209,
+    "en": "Altaria’s cloud feather holds warmth around Shinx while every original star returns to the sky in ribbons of green and gold. Lumi settles beside his soft nest, and you watch until morning.",
+    "file": "storyDepth.ts"
+  },
+  {
+    "id": 210,
+    "en": "Charmander rests at a safe distance from Shinx’s blanket, lending steady warmth while every original star returns in ribbons of green and gold. Lumi keeps watch with you until sunrise warms the tower.",
+    "file": "storyDepth.ts"
+  },
+  {
+    "id": 211,
+    "en": "With Shinx warm in his blanket and Lumi beside him, you take the sheltered path home under all the returning stars. Mira welcomes them both, tends his paw and makes up two beds beside the hearth; nobody asks Lumi to explain before she has rested.",
+    "file": "storyDepth.ts"
+  },
+  {
+    "id": 212,
+    "en": "Using the examined golden speck and the astronomer’s diagram, you set the lens to hold a little borrowed warmth without holding any stars. Shinx carries this warm night-light home beside Lumi, where Mira welcomes them under a sky with every original star safely returned.",
+    "file": "storyDepth.ts"
+  },
+  {
+    "id": 213,
+    "en": "Hoothoot gives the first note",
+    "file": "storyDepth.ts"
+  },
+  {
+    "id": 214,
+    "en": "Psyduck keeps a calm beat",
+    "file": "storyDepth.ts"
+  },
+  {
+    "id": 215,
+    "en": "the waterfall bells answer from below",
+    "file": "storyDepth.ts"
+  },
+  {
+    "id": 216,
+    "en": ", and everyone joins the song.",
+    "file": "storyDepth.ts"
+  },
+  {
+    "id": 217,
+    "en": "You hum a gentle tune until Lumi finds a note of her own.",
+    "file": "storyDepth.ts"
+  },
+  {
+    "id": 218,
+    "en": "The heart ring turns your shared warmth into a warm blanket for Shinx as all the original stars return, and the river carries your song home.",
+    "file": "storyDepth.ts"
+  },
+  {
+    "id": 219,
+    "en": "The safety lock releases a few stars each night while Lumi and the villagers replace their warmth with blankets, lanterns and a hearth. Shinx rests safely beside Lumi in the new sanctuary; when the last original star goes home, the hearth keeps every bed warm.",
+    "file": "storyDepth.ts"
+  },
+  {
+    "id": 220,
+    "en": "Pikachu lights the lantern wires one careful spark at a time, and every home adds a lantern.",
+    "file": "storyDepth.ts"
+  },
+  {
+    "id": 221,
+    "en": "Mira gathers lanterns from every home, and the villagers carry their warmth to Shinx.",
+    "file": "storyDepth.ts"
+  },
+  {
+    "id": 222,
+    "en": "Once the heart ring shares that warmth, Lumi releases every original star; Shinx chooses a place beside her at the next parade.",
+    "file": "storyDepth.ts"
+  },
+  {
+    "id": 223,
+    "en": "star reeds beside Psyduck’s river lanterns",
+    "file": "storyDepth.ts"
+  },
+  {
+    "id": 224,
+    "en": "a living sky-vine above Willowbrook",
+    "file": "storyDepth.ts"
+  },
+  {
+    "id": 225,
+    "en": "a constellation tree in Willowbrook",
+    "file": "storyDepth.ts"
+  },
+  {
+    "id": 226,
+    "en": "The seed grows {0}, making new light of its own while every original star returns to the sky. {1}.",
+    "file": "storyDepth.ts"
+  },
+  {
+    "id": 227,
+    "en": "Squirtle builds a watering channel, and Shinx tests its tiny stepping-stones from his warm blanket",
+    "file": "storyDepth.ts"
+  },
+  {
+    "id": 228,
+    "en": "Roots from your first Moonwood planting help the new garden grow, while Shinx rests beneath its warmth",
+    "file": "storyDepth.ts"
+  },
+  {
+    "id": 229,
+    "en": "Lumi and the villagers share the watering, while Shinx rests safely in the garden’s warmth",
+    "file": "storyDepth.ts"
+  },
+  {
+    "id": 230,
+    "en": "You fit the examined golden speck into the lens, revealing a warm-light setting that will keep Shinx safe through the night.",
+    "file": "storyDepth.ts"
+  },
+  {
+    "id": 231,
+    "en": "A gentle rescue with {0}",
+    "file": "puzzles.ts"
+  },
+  {
+    "id": 232,
+    "en": "Pikachu can wiggle free, but you can help without pulling the ivy tight. Try three careful steps.",
+    "file": "puzzles.ts"
+  },
+  {
+    "id": 233,
+    "en": "A vine can lift the stem; the loop loosens when its weight is supported.",
+    "file": "puzzles.ts"
+  },
+  {
+    "id": 234,
+    "en": "The dry ivy must stay away from the flame; your hands can hold the stem still.",
+    "file": "puzzles.ts"
+  },
+  {
+    "id": 235,
+    "en": "A little water softens the earth, letting the stem lift without pulling Pikachu’s ankle.",
+    "file": "puzzles.ts"
+  },
+  {
+    "id": 236,
+    "en": "Loosen the loop",
+    "file": "puzzles.ts"
+  },
+  {
+    "id": 237,
+    "en": "Support the stem",
+    "file": "puzzles.ts"
+  },
+  {
+    "id": 238,
+    "en": "Let Pikachu step out",
+    "file": "puzzles.ts"
+  },
+  {
+    "id": 239,
+    "en": "What must stop pulling before the loop can loosen?",
+    "file": "puzzles.ts"
+  },
+  {
+    "id": 240,
+    "en": "Support the stem, loosen the loop, then let Pikachu step out.",
+    "file": "puzzles.ts"
+  },
+  {
+    "id": 241,
+    "en": "Pikachu is free! It notices how carefully you worked and offers to teach you a steady, gentle spark.",
+    "file": "puzzles.ts"
+  },
+  {
+    "id": 242,
+    "en": "The mixed-up star books",
+    "file": "puzzles.ts"
+  },
+  {
+    "id": 243,
+    "en": "Put the astronomer’s discoveries in order: what powers the sphere, what holds it, and what replaces it?",
+    "file": "puzzles.ts"
+  },
+  {
+    "id": 244,
+    "en": "A star gives warmth; a glass sphere borrows it; a living seed can grow new light.",
+    "file": "puzzles.ts"
+  },
+  {
+    "id": 245,
+    "en": "The living seed",
+    "file": "puzzles.ts"
+  },
+  {
+    "id": 246,
+    "en": "The original stars",
+    "file": "puzzles.ts"
+  },
+  {
+    "id": 247,
+    "en": "The glass sphere",
+    "file": "puzzles.ts"
+  },
+  {
+    "id": 248,
+    "en": "Start with the warmth that existed before the machine.",
+    "file": "puzzles.ts"
+  },
+  {
+    "id": 249,
+    "en": "Stars, sphere, seed: borrowed warmth can be replaced, and the stars can go home.",
+    "file": "puzzles.ts"
+  },
+  {
+    "id": 250,
+    "en": "Gastly uncovers the warm-light diagram. Examine a golden memory later, and these notes may help you use it.",
+    "file": "puzzles.ts"
+  },
+  {
+    "id": 251,
+    "en": "What grows when shared?",
+    "file": "puzzles.ts"
+  },
+  {
+    "id": 252,
+    "en": "Try an answer before speaking to the old tree. It does not mind a thoughtful mistake.",
+    "file": "puzzles.ts"
+  },
+  {
+    "id": 253,
+    "en": "Sharing an apple leaves smaller pieces; sharing kindness can inspire another kind act.",
+    "file": "puzzles.ts"
+  },
+  {
+    "id": 254,
+    "en": "A pile of apples",
+    "file": "puzzles.ts"
+  },
+  {
+    "id": 255,
+    "en": "A secret kept from everyone",
+    "file": "puzzles.ts"
+  },
+  {
+    "id": 256,
+    "en": "Think of something another person can pass on.",
+    "file": "puzzles.ts"
+  },
+  {
+    "id": 257,
+    "en": "Try kindness: someone you help may help another friend.",
+    "file": "puzzles.ts"
+  },
+  {
+    "id": 258,
+    "en": "“Exactly,” rumbles the tree; a new shoot opens beside the doorway. “Your kindness can keep growing.”",
+    "file": "puzzles.ts"
+  },
+  {
+    "id": 259,
+    "en": "A crossing Psyduck can trust",
+    "file": "puzzles.ts"
+  },
+  {
+    "id": 260,
+    "en": "Prepare the ferry in three steps. Psyduck will steer once you check that it is safe.",
+    "file": "puzzles.ts"
+  },
+  {
+    "id": 261,
+    "en": "The rope must be attached before it can be tested; passengers wait on the bank until the test is finished.",
+    "file": "puzzles.ts"
+  },
+  {
+    "id": 262,
+    "en": "Test the empty ferry",
+    "file": "puzzles.ts"
+  },
+  {
+    "id": 263,
+    "en": "Invite the passengers",
+    "file": "puzzles.ts"
+  },
+  {
+    "id": 264,
+    "en": "Tie the new rope",
+    "file": "puzzles.ts"
+  },
+  {
+    "id": 265,
+    "en": "Would you test a ferry with friends already aboard?",
+    "file": "puzzles.ts"
+  },
+  {
+    "id": 266,
+    "en": "Tie the rope, test the empty ferry, then invite the passengers.",
+    "file": "puzzles.ts"
+  },
+  {
+    "id": 267,
+    "en": "The ferry stays steady. Psyduck takes the tiller: “I checked it with you — I can do this!”",
+    "file": "puzzles.ts"
+  },
+  {
+    "id": 268,
+    "en": "Balance the little flock",
+    "file": "puzzles.ts"
+  },
+  {
+    "id": 269,
+    "en": "Guide the birds onto the cloud-platform without crowding one side.",
+    "file": "puzzles.ts"
+  },
+  {
+    "id": 270,
+    "en": "A heavy bird should settle in the centre first; the two lighter birds can balance each other on opposite edges.",
+    "file": "puzzles.ts"
+  },
+  {
+    "id": 271,
+    "en": "Small bird to the left",
+    "file": "puzzles.ts"
+  },
+  {
+    "id": 272,
+    "en": "Small bird to the right",
+    "file": "puzzles.ts"
+  },
+  {
+    "id": 273,
+    "en": "Heavy bird to the centre",
+    "file": "puzzles.ts"
+  },
+  {
+    "id": 274,
+    "en": "Which bird would tip the platform most if it landed on an edge?",
+    "file": "puzzles.ts"
+  },
+  {
+    "id": 275,
+    "en": "Heavy bird to the centre, then one small bird left and one right.",
+    "file": "puzzles.ts"
+  },
+  {
+    "id": 276,
+    "en": "The platform floats level. Altaria shows you how to keep it steady, even when the wind changes.",
+    "file": "puzzles.ts"
+  },
+  {
+    "id": 277,
+    "en": "Support the stem with vines",
+    "file": "puzzles.ts"
+  },
+  {
+    "id": 278,
+    "en": "Keep the flame back and support the stem",
+    "file": "puzzles.ts"
+  },
+  {
+    "id": 279,
+    "en": "Soften the soil with water",
+    "file": "puzzles.ts"
+  },
+  {
+    "id": 280,
+    "en": "The little constellation",
+    "file": "puzzles.ts"
+  },
+  {
+    "id": 281,
+    "en": "A stone reads, “A little light grows into a trail.” Choose three stars to trace the hidden path.",
+    "file": "puzzles.ts"
+  },
+  {
+    "id": 282,
+    "en": "Three gold stars share a diagonal. The pale sparks sit off that line, and the gold stars have different sizes.",
+    "file": "puzzles.ts"
+  },
+  {
+    "id": 283,
+    "en": "Decoy star",
+    "file": "PuzzleCard.tsx"
+  },
+  {
+    "id": 284,
+    "en": "Empty sky",
+    "file": "PuzzleCard.tsx"
+  },
+  {
+    "id": 285,
+    "en": "Large star",
+    "file": "PuzzleCard.tsx"
+  },
+  {
+    "id": 286,
+    "en": "Medium star",
+    "file": "PuzzleCard.tsx"
+  },
+  {
+    "id": 287,
+    "en": "Small star",
+    "file": "PuzzleCard.tsx"
+  },
+  {
+    "id": 288,
+    "en": "What could “grows” mean when three stars have different sizes?",
+    "file": "puzzles.ts"
+  },
+  {
+    "id": 289,
+    "en": "Start with the small gold star at the bottom left, then the centre star, then the large star at the top right.",
+    "file": "puzzles.ts"
+  },
+  {
+    "id": 290,
+    "en": "The constellation lights up! A forest rune appears beneath the smallest mushroom.",
+    "file": "puzzles.ts"
+  },
+  {
+    "id": 291,
+    "en": "The waterfall’s melody",
+    "file": "puzzles.ts"
+  },
+  {
+    "id": 292,
+    "en": "The hidden door answers a three-note echo. The three bells make two different notes; listen before choosing your tune.",
+    "file": "puzzles.ts"
+  },
+  {
+    "id": 293,
+    "en": "The two outer bells make the same deep note; the middle bell rings higher. The echo has three beats, and its first and last notes sound alike.",
+    "file": "puzzles.ts"
+  },
+  {
+    "id": 294,
+    "en": "Low note",
+    "file": "puzzles.ts"
+  },
+  {
+    "id": 295,
+    "en": "High note",
+    "file": "puzzles.ts"
+  },
+  {
+    "id": 296,
+    "en": "Think back to the hilltop melody. Which note did Hoothoot return to?",
+    "file": "puzzles.ts"
+  },
+  {
+    "id": 297,
+    "en": "Listen for whether the middle note rises or falls from the first note.",
+    "file": "puzzles.ts"
+  },
+  {
+    "id": 298,
+    "en": "Ring low, then high, then low. You can listen to the echo as often as you like.",
+    "file": "puzzles.ts"
+  },
+  {
+    "id": 299,
+    "en": "The bells answer in harmony. A dry doorway opens behind the waterfall.",
+    "file": "puzzles.ts"
+  },
+  {
+    "id": 300,
+    "en": "{0}’s observatory challenge",
+    "file": "puzzles.ts"
+  },
+  {
+    "id": 301,
+    "en": "The old mechanism wakes up. Your starter’s special skill opens the roof!",
+    "file": "puzzles.ts"
+  },
+  {
+    "id": 302,
+    "en": "Three vine cables connect to parts of a stone plant. Bulbasaur can move them; you must discover the order that brings it to life.",
+    "file": "puzzles.ts"
+  },
+  {
+    "id": 303,
+    "en": "A faded picture shows water under the soil, sunlight on a leaf, and a flower opening. Each socket matches part of the picture.",
+    "file": "puzzles.ts"
+  },
+  {
+    "id": 304,
+    "en": "Root socket",
+    "file": "puzzles.ts"
+  },
+  {
+    "id": 305,
+    "en": "Leaf socket",
+    "file": "puzzles.ts"
+  },
+  {
+    "id": 306,
+    "en": "Flower socket",
+    "file": "puzzles.ts"
+  },
+  {
+    "id": 307,
+    "en": "Which part of a plant takes in water before the rest can grow?",
+    "file": "puzzles.ts"
+  },
+  {
+    "id": 308,
+    "en": "Connect Root → Leaf → Flower. Bulbasaur will gently pull the cables into place.",
+    "file": "puzzles.ts"
+  },
+  {
+    "id": 309,
+    "en": "Two frozen gears and a roof latch need careful attention. Charmander can supply warmth while you work out a safe order.",
+    "file": "puzzles.ts"
+  },
+  {
+    "id": 310,
+    "en": "The little moon gear sits inside the big sun gear. A warning mark shows that the latch cannot move while either gear is frozen.",
+    "file": "puzzles.ts"
+  },
+  {
+    "id": 311,
+    "en": "Big sun gear",
+    "file": "puzzles.ts"
+  },
+  {
+    "id": 312,
+    "en": "Small moon gear",
+    "file": "puzzles.ts"
+  },
+  {
+    "id": 313,
+    "en": "Star latch",
+    "file": "puzzles.ts"
+  },
+  {
+    "id": 314,
+    "en": "Could warming the big outer gear force the frozen little gear to turn?",
+    "file": "puzzles.ts"
+  },
+  {
+    "id": 315,
+    "en": "Warm Moon → Sun, then release Star. Charmander keeps its flame away from the wood.",
+    "file": "puzzles.ts"
+  },
+  {
+    "id": 316,
+    "en": "Three water basins balance the roof. Squirtle can fill them, but the order of their counterweights is yours to discover.",
+    "file": "puzzles.ts"
+  },
+  {
+    "id": 317,
+    "en": "A water pipe rises from the floor, linking the basins like steps. Dry floats show where the water must lift each weight.",
+    "file": "puzzles.ts"
+  },
+  {
+    "id": 318,
+    "en": "Middle basin",
+    "file": "puzzles.ts"
+  },
+  {
+    "id": 319,
+    "en": "High basin",
+    "file": "puzzles.ts"
+  },
+  {
+    "id": 320,
+    "en": "Low basin",
+    "file": "puzzles.ts"
+  },
+  {
+    "id": 321,
+    "en": "Where would water coming from the floor reach first?",
+    "file": "puzzles.ts"
+  },
+  {
+    "id": 322,
+    "en": "Fill Low → Middle → High. Squirtle uses a gentle stream, not a blast.",
+    "file": "puzzles.ts"
+  },
+  {
+    "id": 323,
+    "en": "Tool",
+    "file": "inventory.ts"
+  },
+  {
+    "id": 324,
+    "en": "Clue",
+    "file": "inventory.ts"
+  },
+  {
+    "id": 325,
+    "en": "Keepsake",
+    "file": "inventory.ts"
+  },
+  {
+    "id": 326,
+    "en": "Silver seed",
+    "file": "inventory.ts"
+  },
+  {
+    "id": 327,
+    "en": "The little silver seed that began your adventure.",
+    "file": "inventory.ts"
+  },
+  {
+    "id": 328,
+    "en": "Planted in the new starlight garden.",
+    "file": "inventory.ts"
+  },
+  {
+    "id": 329,
+    "en": "A small reminder of the mystery you are following.",
+    "file": "inventory.ts"
+  },
+  {
+    "id": 330,
+    "en": "A night without stars",
+    "file": "titles"
+  },
+  {
+    "id": 331,
+    "en": "Your journey",
+    "file": "App.tsx"
+  },
+  {
+    "id": 332,
+    "en": "Crescent lens",
+    "file": "inventory.ts"
+  },
+  {
+    "id": 333,
+    "en": "The curved lens from Moonwood’s mossy pedestal.",
+    "file": "inventory.ts"
+  },
+  {
+    "id": 334,
+    "en": "You fitted it into the observatory’s mechanism.",
+    "file": "inventory.ts"
+  },
+  {
+    "id": 335,
+    "en": "It helped you see the river’s memory.",
+    "file": "inventory.ts"
+  },
+  {
+    "id": 336,
+    "en": "Its glass catches light that is otherwise hard to see.",
+    "file": "inventory.ts"
+  },
+  {
+    "id": 337,
+    "en": "A gift with two halves",
+    "file": "titles"
+  },
+  {
+    "id": 338,
+    "en": "Rescue rope",
+    "file": "inventory.ts"
+  },
+  {
+    "id": 339,
+    "en": "The rope you chose at the forest pedestal.",
+    "file": "inventory.ts"
+  },
+  {
+    "id": 340,
+    "en": "Used to make a steady ferry knot.",
+    "file": "inventory.ts"
+  },
+  {
+    "id": 341,
+    "en": "Ready when a safe crossing needs a strong knot.",
+    "file": "inventory.ts"
+  },
+  {
+    "id": 342,
+    "en": "Rune key",
+    "file": "inventory.ts"
+  },
+  {
+    "id": 343,
+    "en": "The stone key you chose at the forest pedestal.",
+    "file": "inventory.ts"
+  },
+  {
+    "id": 344,
+    "en": "Used to reveal a hidden tower route.",
+    "file": "inventory.ts"
+  },
+  {
+    "id": 345,
+    "en": "Its carved marks may match a secret passage.",
+    "file": "inventory.ts"
+  },
+  {
+    "id": 346,
+    "en": "Trail map",
+    "file": "inventory.ts"
+  },
+  {
+    "id": 347,
+    "en": "A map you borrowed or drew along your route.",
+    "file": "inventory.ts"
+  },
+  {
+    "id": 348,
+    "en": "A record of paths and patterns you took time to notice.",
+    "file": "inventory.ts"
+  },
+  {
+    "id": 349,
+    "en": "Bottled message",
+    "file": "inventory.ts"
+  },
+  {
+    "id": 350,
+    "en": "A note signed “L” asks for the dawn to return.",
+    "file": "inventory.ts"
+  },
+  {
+    "id": 351,
+    "en": "Kept safe after you found it in the river.",
+    "file": "inventory.ts"
+  },
+  {
+    "id": 352,
+    "en": "Your river reply",
+    "file": "inventory.ts"
+  },
+  {
+    "id": 353,
+    "en": "You sent a message saying, “We are coming.”",
+    "file": "inventory.ts"
+  },
+  {
+    "id": 354,
+    "en": "It reached Lumi and helped her trust you.",
+    "file": "inventory.ts"
+  },
+  {
+    "id": 355,
+    "en": "Sent downriver, waiting to reach its reader.",
+    "file": "inventory.ts"
+  },
+  {
+    "id": 356,
+    "en": "Cloud feather",
+    "file": "inventory.ts"
+  },
+  {
+    "id": 357,
+    "en": "The soft feather Altaria traded for a little food.",
+    "file": "inventory.ts"
+  },
+  {
+    "id": 358,
+    "en": "Shared to bring gentle warmth to a frightened friend.",
+    "file": "inventory.ts"
+  },
+  {
+    "id": 359,
+    "en": "Soft enough to make a little nest feel warm and safe.",
+    "file": "inventory.ts"
+  },
+  {
+    "id": 360,
+    "en": "Yellow scarf",
+    "file": "inventory.ts"
+  },
+  {
+    "id": 361,
+    "en": "A scarf you found on the mountain trail.",
+    "file": "inventory.ts"
+  },
+  {
+    "id": 362,
+    "en": "Returned to its owner at the tower.",
+    "file": "inventory.ts"
+  },
+  {
+    "id": 363,
+    "en": "Kept safe until you can return it.",
+    "file": "inventory.ts"
+  },
+  {
+    "id": 364,
+    "en": "Golden stardust",
+    "file": "inventory.ts"
+  },
+  {
+    "id": 365,
+    "en": "A golden speck from the river’s memory.",
+    "file": "inventory.ts"
+  },
+  {
+    "id": 366,
+    "en": "It holds a memory of warmth; examining it may help you understand the sphere.",
+    "file": "inventory.ts"
+  },
+  {
+    "id": 367,
+    "en": "Archive route notes",
+    "file": "inventory.ts"
+  },
+  {
+    "id": 368,
+    "en": "A hidden mountain route copied from Gastly’s archive.",
+    "file": "inventory.ts"
+  },
+  {
+    "id": 369,
+    "en": "Used to find a hidden way across the tower.",
+    "file": "inventory.ts"
+  },
+  {
+    "id": 370,
+    "en": "An unusual discovery from the path you took through the hollow tree.",
+    "file": "inventory.ts"
+  },
+  {
+    "id": 371,
+    "en": "Quiet-channel map",
+    "file": "inventory.ts"
+  },
+  {
+    "id": 372,
+    "en": "The gentle river route Psyduck helped you map.",
+    "file": "inventory.ts"
+  },
+  {
+    "id": 373,
+    "en": "Its old water passages revealed another tower route.",
+    "file": "inventory.ts"
+  },
+  {
+    "id": 374,
+    "en": "Made for travelers who prefer a quieter crossing.",
+    "file": "inventory.ts"
+  },
+  {
+    "id": 375,
+    "en": "Hidden-stair sketch",
+    "file": "inventory.ts"
+  },
+  {
+    "id": 376,
+    "en": "A stairway copied from the astronomer’s notebook.",
+    "file": "inventory.ts"
+  },
+  {
+    "id": 377,
+    "en": "Your sketch helped reveal a safe passage through the tower.",
+    "file": "inventory.ts"
+  },
+  {
+    "id": 378,
+    "en": "Your sketch may reveal a hidden route when you reach the roof.",
+    "file": "inventory.ts"
+  },
+  {
+    "id": 379,
+    "en": "Three-note melody",
+    "file": "inventory.ts"
+  },
+  {
+    "id": 380,
+    "en": "A tune a friend shared during your journey.",
+    "file": "inventory.ts"
+  },
+  {
+    "id": 381,
+    "en": "Your remembered melody opened a door or brought friends together.",
+    "file": "inventory.ts"
+  },
+  {
+    "id": 382,
+    "en": "A melody you can carry without using any space in your pack.",
+    "file": "inventory.ts"
+  },
+  {
+    "id": 383,
+    "en": "A message in the grass",
+    "file": "titles"
+  },
+  {
+    "id": 384,
+    "en": "The astronomer’s diagram explains it: the seed can grow new light while the original stars go home.",
+    "file": "inventory.ts"
+  },
+  {
+    "id": 385,
+    "en": "The seed warms your hand and points toward the tower; the tiny mark on its shell is a crescent.",
+    "file": "inventory.ts"
+  },
+  {
+    "id": 386,
+    "en": "The curved glass can hold a reflection even after you turn it away from the light.",
+    "file": "inventory.ts"
+  },
+  {
+    "id": 387,
+    "en": "Inside the lens, the speck matches the warm-light diagram: a little warmth can stay without trapping a star.",
+    "file": "inventory.ts"
+  },
+  {
+    "id": 388,
+    "en": "The speck repeats a moment when Shinx felt safe; you need a diagram of the sphere to understand how to use that warmth.",
+    "file": "inventory.ts"
+  },
+  {
+    "id": 389,
+    "en": "A crescent beside the river marks an old cave entrance; it matches the crescent carved on the tower.",
+    "file": "inventory.ts"
+  },
+  {
+    "id": 390,
+    "en": "The paper carries a crescent watermark and a sketch of a riverbank doorway, not just the letter L.",
+    "file": "inventory.ts"
+  },
+  {
+    "id": 391,
+    "en": "The rope is strong and supple; a padded loop will hold the ferry without cutting into the tree.",
+    "file": "inventory.ts"
+  },
+  {
+    "id": 392,
+    "en": "Its crescent teeth fit a narrow tower lock; it opens a sheltered passage with a diagram inside.",
+    "file": "inventory.ts"
+  },
+  {
+    "id": 393,
+    "en": "Shinx is wearing his own scarf again; this entry is a memory of returning it.",
+    "file": "inventory.ts"
+  },
+  {
+    "id": 394,
+    "en": "Shinx’s name is stitched into the yellow wool; a second set of tiny stitches looks like Lumi’s careful work.",
+    "file": "inventory.ts"
+  },
+  {
+    "id": 395,
+    "en": "Tiny air pockets hold warmth inside the cloud feather, making a soft nest without a flame.",
+    "file": "inventory.ts"
+  },
+  {
+    "id": 396,
+    "en": "{0} keeps a place beside your backpack, ready for another adventure. {1}",
+    "file": "epilogues.ts"
+  },
+  {
+    "id": 397,
+    "en": "The observatory still works because you solved its {0} together.",
+    "file": "epilogues.ts"
+  },
+  {
+    "id": 398,
+    "en": "vine cables",
+    "file": "epilogues.ts"
+  },
+  {
+    "id": 399,
+    "en": "frozen gears",
+    "file": "epilogues.ts"
+  },
+  {
+    "id": 400,
+    "en": "water counterweights",
+    "file": "epilogues.ts"
+  },
+  {
+    "id": 401,
+    "en": "Your first friend remembers every time you chose to keep going together.",
+    "file": "epilogues.ts"
+  },
+  {
+    "id": 402,
+    "en": "Eevee no longer hides under Mira’s table. It welcomes shy newcomers to the village, remembering how you welcomed it.",
+    "file": "epilogues.ts"
+  },
+  {
+    "id": 403,
+    "en": "After returning to help your team, Pikachu becomes Moonwood’s lantern guide. It shows lost travelers the way home with gentle sparks.",
+    "file": "epilogues.ts"
+  },
+  {
+    "id": 404,
+    "en": "Pikachu keeps the promise you trusted it with and guards Moonwood. When you return, safe paths and a cheerful spark are waiting for you.",
+    "file": "epilogues.ts"
+  },
+  {
+    "id": 405,
+    "en": "Pikachu helps loosen tangles of ivy for smaller Pokémon. The rescue you began has become a kindness it passes on.",
+    "file": "epilogues.ts"
+  },
+  {
+    "id": 406,
+    "en": "The repaired nest becomes home to a new clutch of Hoothoot chicks. Their first lesson is the melody their parent brought you as a thank-you.",
+    "file": "epilogues.ts"
+  },
+  {
+    "id": 407,
+    "en": "Mira follows the marker you left and repairs the fallen nest. Its Hoothoot family is safe because you made sure someone could find them.",
+    "file": "epilogues.ts"
+  },
+  {
+    "id": 408,
+    "en": "Hoothoot returns to the hill with stories of your journey. It still saves a friendly hoot for the person who shared a snack.",
+    "file": "epilogues.ts"
+  },
+  {
+    "id": 409,
+    "en": "Lapras stays on the river to guide lost travelers, just as you asked. Its song now marks the safest crossings, even for friends who cannot swim.",
+    "file": "epilogues.ts"
+  },
+  {
+    "id": 410,
+    "en": "Lapras sings about a promise that became a hidden trail. Every time your team visits, it asks how Lumi and Shinx are doing.",
+    "file": "epilogues.ts"
+  },
+  {
+    "id": 411,
+    "en": "Lapras keeps the channel you opened clear for other river Pokémon. Your friend always offers you a ride when you return.",
+    "file": "epilogues.ts"
+  },
+  {
+    "id": 412,
+    "en": "Psyduck tends the star reeds beside your lantern trail. The once-frightened passenger now guides other nervous travelers through their soft light.",
+    "file": "epilogues.ts"
+  },
+  {
+    "id": 413,
+    "en": "Psyduck holds a lantern-making afternoon at the reed workshop every week. Nervous travelers leave with a little light and a new friend.",
+    "file": "epilogues.ts"
+  },
+  {
+    "id": 414,
+    "en": "Psyduck shares the quiet channel map you made together. Its workshop becomes a restful stop for travelers who prefer a gentle crossing.",
+    "file": "epilogues.ts"
+  },
+  {
+    "id": 415,
+    "en": "Psyduck teaches its calming rhythm at the ferry. “One note at a time,” it tells every nervous new passenger.",
+    "file": "epilogues.ts"
+  },
+  {
+    "id": 416,
+    "en": "Psyduck helps other worried Pokémon onto the ferry, remembering that you let it cross first.",
+    "file": "epilogues.ts"
+  },
+  {
+    "id": 417,
+    "en": "Altaria’s lost flock learns the cloud-platform route you helped them find. The wind-watch perch becomes a meeting place for young explorers.",
+    "file": "epilogues.ts"
+  },
+  {
+    "id": 418,
+    "en": "Altaria fills the berry bowl you repaired for every hungry traveler. She leaves a space at the sheltered nook for your team.",
+    "file": "epilogues.ts"
+  },
+  {
+    "id": 419,
+    "en": "Altaria passes on what you taught her about listening to frightened friends. Her sheltered nook becomes a place where nobody has to pretend to be brave.",
+    "file": "epilogues.ts"
+  },
+  {
+    "id": 420,
+    "en": "Altaria remembers the food you shared and grows more cloudberries for the next traveler. A soft feather marks your favorite seat.",
+    "file": "epilogues.ts"
+  },
+  {
+    "id": 421,
+    "en": "Gastly turns the hollow tree into a friendly story club. Visitors can trade a tale for a discovery in the Echo Archive.",
+    "file": "epilogues.ts"
+  },
+  {
+    "id": 422,
+    "en": "Gastly changes its confusing tricks into helpful trail signs. It still enjoys a joke, but now it checks that everyone is laughing.",
+    "file": "epilogues.ts"
+  },
+  {
+    "id": 423,
+    "en": "Lumi becomes Mira’s festival helper, keeping one lantern ready for anyone still on the road.",
+    "file": "epilogues.ts"
+  },
+  {
+    "id": 424,
+    "en": "Shinx’s paw heals with Mira’s care. It practices a small, proud walk at the next festival.",
+    "file": "epilogues.ts"
+  },
+  {
+    "id": 425,
+    "en": "Lumi learns that she can ask friends for warmth instead of holding the whole sky. She watches each aurora with your team.",
+    "file": "epilogues.ts"
+  },
+  {
+    "id": 426,
+    "en": "Shinx’s warm nest gives it time to rest and heal. Its first playful leap happens beneath the ribbon of lights you released.",
+    "file": "epilogues.ts"
+  },
+  {
+    "id": 427,
+    "en": "Lumi joins the riverbank choir and teaches younger Pokémon to listen before singing.",
+    "file": "epilogues.ts"
+  },
+  {
+    "id": 428,
+    "en": "Shinx learns a gentle harmony for your river song. Its healing paw taps along whenever the first three notes begin.",
+    "file": "epilogues.ts"
+  },
+  {
+    "id": 429,
+    "en": "Lumi keeps the tower sanctuary open to frightened and lost visitors. She asks for help when a night feels too heavy.",
+    "file": "epilogues.ts"
+  },
+  {
+    "id": 430,
+    "en": "Shinx becomes the sanctuary’s cheerful greeter after its paw heals. It knows how much a warm welcome can matter.",
+    "file": "epilogues.ts"
+  },
+  {
+    "id": 431,
+    "en": "Lumi helps share the festival lanterns among every home, so nobody carries the light alone.",
+    "file": "epilogues.ts"
+  },
+  {
+    "id": 432,
+    "en": "Shinx recovers beside its new village friends. At the next parade, it carries a little lantern of its own.",
+    "file": "epilogues.ts"
+  },
+  {
+    "id": 433,
+    "en": "Lumi keeps a garden journal and takes turns tending the living starlight with your team.",
+    "file": "epilogues.ts"
+  },
+  {
+    "id": 434,
+    "en": "Shinx rests beneath the constellation tree while its paw heals. Soon it is showing little Pokémon where the softest grass grows.",
+    "file": "epilogues.ts"
+  },
+  {
+    "id": 435,
+    "en": "A young traveler kneels beside a glowing silver seed on a lantern-lit village path",
+    "file": "artDescriptions.ts"
+  },
+  {
+    "id": 436,
+    "en": "Mira studies a map with the traveler at her lantern stall",
+    "file": "artDescriptions.ts"
+  },
+  {
+    "id": 437,
+    "en": "Hoothoot stands in a circle of golden light above the village",
+    "file": "artDescriptions.ts"
+  },
+  {
+    "id": 438,
+    "en": "The traveler studies wooden signs beneath an ivy-covered forest arch",
+    "file": "artDescriptions.ts"
+  },
+  {
+    "id": 439,
+    "en": "Charmander lights a fallen nest while the traveler lifts a branch",
+    "file": "artDescriptions.ts"
+  },
+  {
+    "id": 440,
+    "en": "The traveler reaches toward a glowing bottle beside a crescent-marked sign",
+    "file": "artDescriptions.ts"
+  },
+  {
+    "id": 441,
+    "en": "Pikachu sits among silver ivy as the traveler reaches out to help",
+    "file": "artDescriptions.ts"
+  },
+  {
+    "id": 442,
+    "en": "The traveler lifts silver ivy away from a smiling Pikachu",
+    "file": "artDescriptions.ts"
+  },
+  {
+    "id": 443,
+    "en": "Three gold stars of different sizes glow on a stone surrounded by mushrooms",
+    "file": "artDescriptions.ts"
+  },
+  {
+    "id": 444,
+    "en": "Gastly gather around the traveler inside a lantern-lit hollow tree",
+    "file": "artDescriptions.ts"
+  },
+  {
+    "id": 445,
+    "en": "Gastly watch the traveler examine books and a map in a forest reading room",
+    "file": "artDescriptions.ts"
+  },
+  {
+    "id": 446,
+    "en": "The traveler faces a glowing doorway woven into an ancient tree’s roots",
+    "file": "artDescriptions.ts"
+  },
+  {
+    "id": 447,
+    "en": "A crescent lens, coiled rope and carved key rest on a mossy pedestal",
+    "file": "artDescriptions.ts"
+  },
+  {
+    "id": 448,
+    "en": "Lapras waits beside the river near a small wooden crossing",
+    "file": "artDescriptions.ts"
+  },
+  {
+    "id": 449,
+    "en": "Lapras sings in the river beside the traveler and a newly opened channel",
+    "file": "artDescriptions.ts"
+  },
+  {
+    "id": 450,
+    "en": "Psyduck waits in a wooden ferry while the traveler checks a rope",
+    "file": "artDescriptions.ts"
+  },
+  {
+    "id": 451,
+    "en": "Psyduck and the traveler work on reeds and a map under a riverside shelter",
+    "file": "artDescriptions.ts"
+  },
+  {
+    "id": 452,
+    "en": "Three bells and a lit doorway stand beside a waterfall",
+    "file": "artDescriptions.ts"
+  },
+  {
+    "id": 453,
+    "en": "The traveler studies an illustrated notebook in a cave with astronomical instruments",
+    "file": "artDescriptions.ts"
+  },
+  {
+    "id": 454,
+    "en": "A crescent lens projects a golden memory of Lumi helping Shinx",
+    "file": "artDescriptions.ts"
+  },
+  {
+    "id": 455,
+    "en": "The traveler checks a rope bridge above the clouds",
+    "file": "artDescriptions.ts"
+  },
+  {
+    "id": 456,
+    "en": "Altaria gathers small birds on a cloud beside the traveler",
+    "file": "artDescriptions.ts"
+  },
+  {
+    "id": 457,
+    "en": "The traveler finds a yellow scarf among frosty footprints on stone steps",
+    "file": "artDescriptions.ts"
+  },
+  {
+    "id": 458,
+    "en": "Altaria offers cloudberries beside a bowl and a soft feather",
+    "file": "artDescriptions.ts"
+  },
+  {
+    "id": 459,
+    "en": "The traveler works at a large frozen mechanism in the observatory",
+    "file": "artDescriptions.ts"
+  },
+  {
+    "id": 460,
+    "en": "Glowing stepping-stones stretch from the observatory toward Starfall Tower",
+    "file": "artDescriptions.ts"
+  },
+  {
+    "id": 461,
+    "en": "The traveler listens at a wooden door beside a yellow scarf",
+    "file": "artDescriptions.ts"
+  },
+  {
+    "id": 462,
+    "en": "Lumi watches the traveler beside a star-filled glass sphere and resting Shinx",
+    "file": "artDescriptions.ts"
+  },
+  {
+    "id": 463,
+    "en": "The traveler listens to Lumi while Shinx rests beside the glowing sphere",
+    "file": "artDescriptions.ts"
+  },
+  {
+    "id": 464,
+    "en": "Three decorated rings surround the star-filled sphere, with Lumi and Shinx nearby",
+    "file": "artDescriptions.ts"
+  },
+  {
+    "id": 465,
+    "en": "Lumi stands beside the sphere while Shinx rests on blankets",
+    "file": "artDescriptions.ts"
+  },
+  {
+    "id": 466,
+    "en": "Lumi and the traveler touch the glowing sphere beside Shinx’s blanket",
+    "file": "artDescriptions.ts"
+  },
+  {
+    "id": 467,
+    "en": "The traveler holds a silver seed above a planter on the tower balcony",
+    "file": "artDescriptions.ts"
+  },
+  {
+    "id": 468,
+    "en": "A village helper tends Shinx beside Lumi as dawn lights the village",
+    "file": "artDescriptions.ts"
+  },
+  {
+    "id": 469,
+    "en": "Lumi and Shinx rest in a soft nest beneath green and gold aurora ribbons",
+    "file": "artDescriptions.ts"
+  },
+  {
+    "id": 470,
+    "en": "Musical instruments wait beside a lantern-lit river beneath returning stars",
+    "file": "artDescriptions.ts"
+  },
+  {
+    "id": 471,
+    "en": "Warm beds and a glowing sphere fill the tower’s new sanctuary",
+    "file": "artDescriptions.ts"
+  },
+  {
+    "id": 472,
+    "en": "Mira, the traveler, Lumi and Shinx join a lantern celebration under the stars",
+    "file": "artDescriptions.ts"
+  },
+  {
+    "id": 473,
+    "en": "The traveler plants a seed beside Lumi and Shinx beneath a glowing constellation tree",
+    "file": "artDescriptions.ts"
+  },
+  {
+    "id": 474,
+    "en": "Charmander lends warmth from a bare stone beside Lumi and Shinx’s woven blanket under the aurora",
+    "file": "artDescriptions.ts"
+  },
+  {
+    "id": 475,
+    "en": "Eevee stands beside the traveler at the forest gate",
+    "file": "artDescriptions.ts"
+  },
+  {
+    "id": 476,
+    "en": "Hoothoot perches above the traveler at the forest gate",
+    "file": "artDescriptions.ts"
+  },
+  {
+    "id": 477,
+    "en": "Hoothoot visits the traveler beside the lens, rope and key",
+    "file": "artDescriptions.ts"
+  },
+  {
+    "id": 478,
+    "en": "Lapras watches from the river as the lens shows Lumi and Shinx",
+    "file": "artDescriptions.ts"
+  },
+  {
+    "id": 479,
+    "en": "Psyduck watches the golden memory beside the traveler",
+    "file": "artDescriptions.ts"
+  },
+  {
+    "id": 480,
+    "en": "A glowing hidden stair rises above the river toward the tower",
+    "file": "artDescriptions.ts"
+  },
+  {
+    "id": 481,
+    "en": "The traveler faces a glowing stair beside a yellow scarf",
+    "file": "artDescriptions.ts"
+  },
+  {
+    "id": 482,
+    "en": "Pikachu offers a spark from a metal platform beside the frozen mechanism",
+    "file": "artDescriptions.ts"
+  },
+  {
+    "id": 483,
+    "en": "Altaria and its flock carry their cloud-platform beside the observatory roof",
+    "file": "artDescriptions.ts"
+  },
+  {
+    "id": 484,
+    "en": "Lumi reaches toward the traveler beside the sphere while Shinx sleeps",
+    "file": "artDescriptions.ts"
+  },
+  {
+    "id": 485,
+    "en": "Lumi holds the returned yellow scarf beside resting Shinx",
+    "file": "artDescriptions.ts"
+  },
+  {
+    "id": 486,
+    "en": "Lumi and the traveler reach toward one another beside the sphere",
+    "file": "artDescriptions.ts"
+  },
+  {
+    "id": 487,
+    "en": "The traveler holds the seed above a balcony overlooking floating river lanterns",
+    "file": "artDescriptions.ts"
+  },
+  {
+    "id": 488,
+    "en": "A green thread of light connects the balcony planter to the forest",
+    "file": "artDescriptions.ts"
+  },
+  {
+    "id": 489,
+    "en": "The traveler plants star reeds beside Lumi and Shinx on Psyduck’s lantern-lit riverbank",
+    "file": "artDescriptions.ts"
+  },
+  {
+    "id": 490,
+    "en": "An illustrated scene from the adventure",
+    "file": "artDescriptions.ts"
+  },
+  {
+    "id": 491,
+    "en": ", with {0}",
+    "file": "artDescriptions.ts"
+  },
+  {
+    "id": 492,
+    "en": "Pokémon – The Mystery of the Lost Starlight",
+    "file": "journeyReview.ts"
+  },
+  {
+    "id": 493,
+    "en": "An adventure with {0}",
+    "file": "journeyReview.ts"
+  },
+  {
+    "id": 494,
+    "en": "[This older save has no state snapshot; its exact page text cannot be reconstructed.]",
+    "file": "journeyReview.ts"
+  },
+  {
+    "id": 495,
+    "en": "You chose: {0}",
+    "file": "journeyReview.ts"
+  },
+  {
+    "id": 496,
+    "en": "Choose a companion and begin. Your first discoveries will find a home in this bag.",
+    "file": "AdventureBag.tsx"
+  },
+  {
+    "id": 497,
+    "en": "Your adventure bag",
+    "file": "App.tsx"
+  },
+  {
+    "id": 498,
+    "en": "Look closely at tools, clues and keepsakes. Your discoveries are saved with your adventure.",
+    "file": "AdventureBag.tsx"
+  },
+  {
+    "id": 499,
+    "en": "· USED ON YOUR JOURNEY",
+    "file": "AdventureBag.tsx"
+  },
+  {
+    "id": 500,
+    "en": "Examined",
+    "file": "AdventureBag.tsx"
+  },
+  {
+    "id": 501,
+    "en": "How it became part of your story",
+    "file": "AdventureBag.tsx"
+  },
+  {
+    "id": 502,
+    "en": "You chose:",
+    "file": "JourneyMap.tsx"
+  },
+  {
+    "id": 503,
+    "en": "My Words",
+    "file": "App.tsx"
+  },
+  {
+    "id": 504,
+    "en": "Your journey so far",
+    "file": "App.tsx"
+  },
+  {
+    "id": 505,
+    "en": "Your bookshelf",
+    "file": "App.tsx"
+  },
+  {
+    "id": 506,
+    "en": "Your travel map",
+    "file": "App.tsx"
+  },
+  {
+    "id": 507,
+    "en": "Narration is unavailable here. Every page can still be read.",
+    "file": "App.tsx"
+  },
+  {
+    "id": 508,
+    "en": "This device could not read aloud. You can keep reading or try again.",
+    "file": "App.tsx"
+  },
+  {
+    "id": 509,
+    "en": "(prefers-reduced-motion: reduce)",
+    "file": "JourneyMap.tsx"
+  },
+  {
+    "id": 510,
+    "en": "Your original journey could not be saved, so it has not been changed.",
+    "file": "App.tsx"
+  },
+  {
+    "id": 511,
+    "en": "Your journey could not be restored yet. Please keep this tab open and try again.",
+    "file": "App.tsx"
+  },
+  {
+    "id": 512,
+    "en": "STARLIGHT STORIES",
+    "file": "App.tsx"
+  },
+  {
+    "id": 513,
+    "en": "A Pokémon adventure",
+    "file": "App.tsx"
+  },
+  {
+    "id": 514,
+    "en": "Story tools",
+    "file": "App.tsx"
+  },
+  {
+    "id": 515,
+    "en": "Map",
+    "file": "App.tsx"
+  },
+  {
+    "id": 516,
+    "en": "Bookshelf: {0} finished {1}, {2} of 6 endings",
+    "file": "App.tsx"
+  },
+  {
+    "id": 517,
+    "en": "Bookshelf",
+    "file": "App.tsx"
+  },
+  {
+    "id": 518,
+    "en": "AN INTERACTIVE STORYBOOK",
+    "file": "App.tsx"
+  },
+  {
+    "id": 519,
+    "en": "The Mystery of the",
+    "file": "App.tsx"
+  },
+  {
+    "id": 520,
+    "en": "Lost Starlight",
+    "file": "App.tsx"
+  },
+  {
+    "id": 521,
+    "en": "A little courage. A faithful friend. A sky waiting to shine again.",
+    "file": "App.tsx"
+  },
+  {
+    "id": 522,
+    "en": "You are exploring another path. Your original adventure is safe.",
+    "file": "App.tsx"
+  },
+  {
+    "id": 523,
+    "en": "Return to my original adventure",
+    "file": "App.tsx"
+  },
+  {
+    "id": 524,
+    "en": "CHAPTER {0} OF 5",
+    "file": "App.tsx"
+  },
+  {
+    "id": 525,
+    "en": "YOUR ADVENTURE AWAITS",
+    "file": "App.tsx"
+  },
+  {
+    "id": 526,
+    "en": "Every great story begins with a friend.",
+    "file": "App.tsx"
+  },
+  {
+    "id": 527,
+    "en": "{0} pages explored",
+    "file": "App.tsx"
+  },
+  {
+    "id": 528,
+    "en": "5 chapters · 6 endings",
+    "file": "App.tsx"
+  },
+  {
+    "id": 529,
+    "en": "A new ending to treasure",
+    "file": "App.tsx"
+  },
+  {
+    "id": 530,
+    "en": "The adventure is yours",
+    "file": "App.tsx"
+  },
+  {
+    "id": 531,
+    "en": "A world of wonder awaits",
+    "file": "App.tsx"
+  },
+  {
+    "id": 532,
+    "en": "PROLOGUE · WILLOWBROOK",
+    "file": "App.tsx"
+  },
+  {
+    "id": 533,
+    "en": "The stars have gone missing.",
+    "file": "App.tsx"
+  },
+  {
+    "id": 534,
+    "en": "The festival lanterns are glowing. The sky is strangely quiet. Somewhere beyond the forest, a secret is waiting — and you don’t have to find it alone.",
+    "file": "App.tsx"
+  },
+  {
+    "id": 535,
+    "en": "Choose your first companion",
+    "file": "App.tsx"
+  },
+  {
+    "id": 536,
+    "en": "Who will walk beside you?",
+    "file": "App.tsx"
+  },
+  {
+    "id": 537,
+    "en": "starter {0} {1}",
+    "file": "App.tsx"
+  },
+  {
+    "id": 538,
+    "en": "Gentle & resourceful",
+    "file": "App.tsx"
+  },
+  {
+    "id": 539,
+    "en": "Warm & courageous",
+    "file": "App.tsx"
+  },
+  {
+    "id": 540,
+    "en": "Curious & dependable",
+    "file": "App.tsx"
+  },
+  {
+    "id": 541,
+    "en": "GRASS · POISON",
+    "file": "App.tsx"
+  },
+  {
+    "id": 542,
+    "en": "Begin with",
+    "file": "App.tsx"
+  },
+  {
+    "id": 543,
+    "en": "No sign-up. No cost. Just you, your friend, and a little starlight.",
+    "file": "App.tsx"
+  },
+  {
+    "id": 544,
+    "en": "YOUR STORY’S ENDING",
+    "file": "App.tsx"
+  },
+  {
+    "id": 545,
+    "en": "CHAPTER {0} · {1}",
+    "file": "App.tsx"
+  },
+  {
+    "id": 546,
+    "en": "Reading pace",
+    "file": "App.tsx"
+  },
+  {
+    "id": 547,
+    "en": "Normal",
+    "file": "App.tsx"
+  },
+  {
+    "id": 548,
+    "en": "Gentle",
+    "file": "App.tsx"
+  },
+  {
+    "id": 549,
+    "en": "Extra slow",
+    "file": "App.tsx"
+  },
+  {
+    "id": 550,
+    "en": "◼ Stop reading",
+    "file": "App.tsx"
+  },
+  {
+    "id": 551,
+    "en": "▷ Read to me",
+    "file": "App.tsx"
+  },
+  {
+    "id": 552,
+    "en": "✦ ENDING DISCOVERED",
+    "file": "App.tsx"
+  },
+  {
+    "id": 553,
+    "en": "Download my finished story",
+    "file": "App.tsx"
+  },
+  {
+    "id": 554,
+    "en": "Your journey:",
+    "file": "App.tsx"
+  },
+  {
+    "id": 555,
+    "en": "▤ Read your finished books",
+    "file": "App.tsx"
+  },
+  {
+    "id": 556,
+    "en": "Discover another story",
+    "file": "App.tsx"
+  },
+  {
+    "id": 557,
+    "en": "Read your journey again",
+    "file": "App.tsx"
+  },
+  {
+    "id": 558,
+    "en": "What will you do?",
+    "file": "App.tsx"
+  },
+  {
+    "id": 559,
+    "en": "Every choice leaves a little light.",
+    "file": "App.tsx"
+  },
+  {
+    "id": 560,
+    "en": "● Saving needs attention",
+    "file": "App.tsx"
+  },
+  {
+    "id": 561,
+    "en": "● Your adventure is saved on this device",
+    "file": "App.tsx"
+  },
+  {
+    "id": 562,
+    "en": "Made for curious hearts, ages 8–12",
+    "file": "App.tsx"
+  },
+  {
+    "id": 563,
+    "en": "My Words (",
+    "file": "App.tsx"
+  },
+  {
+    "id": 564,
+    "en": "This browser could not save some changes. Keep this tab open; your journey and collections are still here for now.",
+    "file": "App.tsx"
+  },
+  {
+    "id": 565,
+    "en": "Retry saving",
+    "file": "App.tsx"
+  },
+  {
+    "id": 566,
+    "en": "YOUR TRAVELING FRIENDS",
+    "file": "App.tsx"
+  },
+  {
+    "id": 567,
+    "en": "A little team.",
+    "file": "App.tsx"
+  },
+  {
+    "id": 568,
+    "en": "A big adventure.",
+    "file": "App.tsx"
+  },
+  {
+    "id": 569,
+    "en": "YOUR FIRST COMPANION",
+    "file": "App.tsx"
+  },
+  {
+    "id": 570,
+    "en": "READY TO MEET YOU",
+    "file": "App.tsx"
+  },
+  {
+    "id": 571,
+    "en": "A steady heart and a knack for helping things grow.",
+    "file": "App.tsx"
+  },
+  {
+    "id": 572,
+    "en": "A warm heart and a light for even the darkest path.",
+    "file": "App.tsx"
+  },
+  {
+    "id": 573,
+    "en": "A curious heart and a clever way with water.",
+    "file": "App.tsx"
+  },
+  {
+    "id": 574,
+    "en": "Your friend on the river",
+    "file": "App.tsx"
+  },
+  {
+    "id": 575,
+    "en": "Traveling with you",
+    "file": "App.tsx"
+  },
+  {
+    "id": 576,
+    "en": "Visiting to help",
+    "file": "App.tsx"
+  },
+  {
+    "id": 577,
+    "en": "There’s room for new friends along the way.",
+    "file": "App.tsx"
+  },
+  {
+    "id": 578,
+    "en": "THE PATH AHEAD",
+    "file": "App.tsx"
+  },
+  {
+    "id": 579,
+    "en": "⌖ Open your travel map",
+    "file": "App.tsx"
+  },
+  {
+    "id": 580,
+    "en": "There’s no perfect path.",
+    "file": "App.tsx"
+  },
+  {
+    "id": 581,
+    "en": "Only the story",
+    "file": "App.tsx"
+  },
+  {
+    "id": 582,
+    "en": "↻ Start a new adventure",
+    "file": "App.tsx"
+  },
+  {
+    "id": 583,
+    "en": "A fan-made adventure, made with imagination.",
+    "file": "App.tsx"
+  },
+  {
+    "id": 584,
+    "en": "Pokémon belongs to its respective owners. Artwork prepared locally · No images generated during play · No ads or tracking.",
+    "file": "App.tsx"
+  },
+  {
+    "id": 585,
+    "en": "An illustration could not load. Try refreshing this page.",
+    "file": "App.tsx"
+  },
+  {
+    "id": 586,
+    "en": "modal map-modal",
+    "file": "App.tsx"
+  },
+  {
+    "id": 587,
+    "en": "Close dialog",
+    "file": "App.tsx"
+  },
+  {
+    "id": 588,
+    "en": "YOUR STORYBOOK TOOLKIT",
+    "file": "App.tsx"
+  },
+  {
+    "id": 589,
+    "en": "Start a new adventure",
+    "file": "App.tsx"
+  },
+  {
+    "id": 590,
+    "en": "A fresh first page?",
+    "file": "App.tsx"
+  },
+  {
+    "id": 591,
+    "en": "This replaces your current journey. Your finished books, discovered endings, and personal word notebook stay in their collections.",
+    "file": "App.tsx"
+  },
+  {
+    "id": 592,
+    "en": "Your finished book could not be saved yet. Close this dialog and retry saving before beginning again.",
+    "file": "App.tsx"
+  },
+  {
+    "id": 593,
+    "en": "Start again",
+    "file": "App.tsx"
+  },
+  {
+    "id": 594,
+    "en": "Keep my adventure",
+    "file": "App.tsx"
+  },
+  {
+    "id": 595,
+    "en": "A completed adventure",
+    "file": "Bookshelf.tsx"
+  },
+  {
+    "id": 596,
+    "en": "← Back to bookshelf",
+    "file": "Bookshelf.tsx"
+  },
+  {
+    "id": 597,
+    "en": "You are reading a finished book. Your current adventure stays exactly where it is.",
+    "file": "Bookshelf.tsx"
+  },
+  {
+    "id": 598,
+    "en": "decisions ·",
+    "file": "Bookshelf.tsx"
+  },
+  {
+    "id": 599,
+    "en": "Ending & friends",
+    "file": "Bookshelf.tsx"
+  },
+  {
+    "id": 600,
+    "en": "Travel map",
+    "file": "Bookshelf.tsx"
+  },
+  {
+    "id": 601,
+    "en": "Story journal",
+    "file": "Bookshelf.tsx"
+  },
+  {
+    "id": 602,
+    "en": "Adventure bag",
+    "file": "Bookshelf.tsx"
+  },
+  {
+    "id": 603,
+    "en": "Your completed adventure: {0}",
+    "file": "Bookshelf.tsx"
+  },
+  {
+    "id": 604,
+    "en": "Your finished adventures",
+    "file": "Bookshelf.tsx"
+  },
+  {
+    "id": 605,
+    "en": "Finish an adventure to keep its whole journey here: the ending, map, choices, and friends. Beginning again will not replace these books.",
+    "file": "Bookshelf.tsx"
+  },
+  {
+    "id": 606,
+    "en": "A FINISHED ADVENTURE",
+    "file": "Bookshelf.tsx"
+  },
+  {
+    "id": 607,
+    "en": "Open this book ↗",
+    "file": "Bookshelf.tsx"
+  },
+  {
+    "id": 608,
+    "en": "Your first finished book is still being written.",
+    "file": "Bookshelf.tsx"
+  },
+  {
+    "id": 609,
+    "en": "Your earlier discovered endings are still collected below; complete another journey to keep its full book.",
+    "file": "Bookshelf.tsx"
+  },
+  {
+    "id": 610,
+    "en": "Six ways to shine ·",
+    "file": "Bookshelf.tsx"
+  },
+  {
+    "id": 611,
+    "en": "/6 discovered",
+    "file": "Bookshelf.tsx"
+  },
+  {
+    "id": 612,
+    "en": "An undiscovered ending",
+    "file": "Bookshelf.tsx"
+  },
+  {
+    "id": 613,
+    "en": "A different choice may lead here.",
+    "file": "Bookshelf.tsx"
+  },
+  {
+    "id": 614,
+    "en": "Chapter bookmark",
+    "file": "ChapterPause.tsx"
+  },
+  {
+    "id": 615,
+    "en": "A bookmark is waiting for you.",
+    "file": "ChapterPause.tsx"
+  },
+  {
+    "id": 616,
+    "en": "A little pause for your traveling team.",
+    "file": "ChapterPause.tsx"
+  },
+  {
+    "id": 617,
+    "en": "You can close the page and come back to this bookmark on the same device.",
+    "file": "ChapterPause.tsx"
+  },
+  {
+    "id": 618,
+    "en": "Keep this page open while saving needs attention. Use Retry saving below before leaving.",
+    "file": "ChapterPause.tsx"
+  },
+  {
+    "id": 619,
+    "en": "Take a breath and remember the little lights you left behind.",
+    "file": "ChapterPause.tsx"
+  },
+  {
+    "id": 620,
+    "en": "◼ Stop recap",
+    "file": "ChapterPause.tsx"
+  },
+  {
+    "id": 621,
+    "en": "▷ Read my recap",
+    "file": "ChapterPause.tsx"
+  },
+  {
+    "id": 622,
+    "en": "Pause here",
+    "file": "ChapterPause.tsx"
+  },
+  {
+    "id": 623,
+    "en": "Continue to",
+    "file": "ChapterPause.tsx"
+  },
+  {
+    "id": 624,
+    "en": "How your choices shaped this ending",
+    "file": "EndingMemories.tsx"
+  },
+  {
+    "id": 625,
+    "en": "THE LIGHT YOU LEFT BEHIND",
+    "file": "EndingMemories.tsx"
+  },
+  {
+    "id": 626,
+    "en": "Your choices made this ending.",
+    "file": "EndingMemories.tsx"
+  },
+  {
+    "id": 627,
+    "en": "A memory of {0}",
+    "file": "EndingMemories.tsx"
+  },
+  {
+    "id": 628,
+    "en": "A little “what if” for next time…",
+    "file": "EndingMemories.tsx"
+  },
+  {
+    "id": 629,
+    "en": "What happened to the Pokémon you helped",
+    "file": "FriendEpilogues.tsx"
+  },
+  {
+    "id": 630,
+    "en": "AFTER THE LAST PAGE",
+    "file": "FriendEpilogues.tsx"
+  },
+  {
+    "id": 631,
+    "en": "And your friends?",
+    "file": "FriendEpilogues.tsx"
+  },
+  {
+    "id": 632,
+    "en": "Kindness keeps going, even when friends choose different paths.",
+    "file": "FriendEpilogues.tsx"
+  },
+  {
+    "id": 633,
+    "en": "YOUR FRIEND ON THE RIVER",
+    "file": "FriendEpilogues.tsx"
+  },
+  {
+    "id": 634,
+    "en": "TRAVELED WITH YOU",
+    "file": "FriendEpilogues.tsx"
+  },
+  {
+    "id": 635,
+    "en": "A FRIEND ALONG THE WAY",
+    "file": "FriendEpilogues.tsx"
+  },
+  {
+    "id": 636,
+    "en": "Your first page is still waiting.",
+    "file": "HistoryJournal.tsx"
+  },
+  {
+    "id": 637,
+    "en": "Your choices are part of the story. This journal keeps them safe.",
+    "file": "HistoryJournal.tsx"
+  },
+  {
+    "id": 638,
+    "en": "Download this adventure as text",
+    "file": "HistoryJournal.tsx"
+  },
+  {
+    "id": 639,
+    "en": "Your original adventure will be kept safe while you try another path.",
+    "file": "HistoryJournal.tsx"
+  },
+  {
+    "id": 640,
+    "en": "Try a different choice from here",
+    "file": "HistoryJournal.tsx"
+  },
+  {
+    "id": 641,
+    "en": "Your map is waiting for its first footprint.",
+    "file": "JourneyMap.tsx"
+  },
+  {
+    "id": 642,
+    "en": "Choose a companion and begin. Only places you visit will appear here.",
+    "file": "JourneyMap.tsx"
+  },
+  {
+    "id": 643,
+    "en": "A map of",
+    "file": "JourneyMap.tsx"
+  },
+  {
+    "id": 644,
+    "en": "journey. Select a footprint to read its memory; your current story stays where it is.",
+    "file": "JourneyMap.tsx"
+  },
+  {
+    "id": 645,
+    "en": "● Visited",
+    "file": "JourneyMap.tsx"
+  },
+  {
+    "id": 646,
+    "en": "✦ You are here",
+    "file": "JourneyMap.tsx"
+  },
+  {
+    "id": 647,
+    "en": "? Still unexplored",
+    "file": "JourneyMap.tsx"
+  },
+  {
+    "id": 648,
+    "en": "Scroll or swipe sideways to explore the map.",
+    "file": "JourneyMap.tsx"
+  },
+  {
+    "id": 649,
+    "en": "Travel map; scroll sideways on a small screen",
+    "file": "JourneyMap.tsx"
+  },
+  {
+    "id": 650,
+    "en": "{0}: {1}, stop {2}",
+    "file": "JourneyMap.tsx"
+  },
+  {
+    "id": 651,
+    "en": "You are here",
+    "file": "JourneyMap.tsx"
+  },
+  {
+    "id": 652,
+    "en": "Unexplored paths",
+    "file": "JourneyMap.tsx"
+  },
+  {
+    "id": 653,
+    "en": "Unknown places",
+    "file": "JourneyMap.tsx"
+  },
+  {
+    "id": 654,
+    "en": "On a small screen, swipe the map sideways. Every discovered place is also a keyboard-accessible button.",
+    "file": "JourneyMap.tsx"
+  },
+  {
+    "id": 655,
+    "en": "Selected travel memory",
+    "file": "JourneyMap.tsx"
+  },
+  {
+    "id": 656,
+    "en": "YOUR CURRENT PAGE",
+    "file": "JourneyMap.tsx"
+  },
+  {
+    "id": 657,
+    "en": "STOP {0} · CHAPTER {1}",
+    "file": "JourneyMap.tsx"
+  },
+  {
+    "id": 658,
+    "en": "You are here. Close the map to continue your adventure.",
+    "file": "JourneyMap.tsx"
+  },
+  {
+    "id": 659,
+    "en": "Back to the map",
+    "file": "JourneyMap.tsx"
+  },
+  {
+    "id": 660,
+    "en": "Personal word notebook",
+    "file": "MyWords.tsx"
+  },
+  {
+    "id": 661,
+    "en": "Mine ord (",
+    "file": "MyWords.tsx"
+  },
+  {
+    "id": 662,
+    "en": "Hele ordlisten",
+    "file": "MyWords.tsx"
+  },
+  {
+    "id": 663,
+    "en": "Her finner du ordene du har trykket på, med norsk betydning og en engelsk setning fra ditt eget eventyr.",
+    "file": "MyWords.tsx"
+  },
+  {
+    "id": 664,
+    "en": "· with",
+    "file": "MyWords.tsx"
+  },
+  {
+    "id": 665,
+    "en": "Hør ordet sakte",
+    "file": "MyWords.tsx"
+  },
+  {
+    "id": 666,
+    "en": "Hør eksempelsetningen",
+    "file": "MyWords.tsx"
+  },
+  {
+    "id": 667,
+    "en": "Trykk på et understreket ord i historien. Da lagres betydningen og en setning fra siden her.",
+    "file": "MyWords.tsx"
+  },
+  {
+    "id": 668,
+    "en": "✦ SOLVED TOGETHER",
+    "file": "PuzzleCard.tsx"
+  },
+  {
+    "id": 669,
+    "en": "✧ TRY A LITTLE PUZZLE",
+    "file": "PuzzleCard.tsx"
+  },
+  {
+    "id": 670,
+    "en": "Look a little closer",
+    "file": "PuzzleCard.tsx"
+  },
+  {
+    "id": 671,
+    "en": "♫ Listen to the echo",
+    "file": "PuzzleCard.tsx"
+  },
+  {
+    "id": 672,
+    "en": "Read the echo instead of listening",
+    "file": "PuzzleCard.tsx"
+  },
+  {
+    "id": 673,
+    "en": "The echo: low → high → low. This is the same clue as the sound.",
+    "file": "PuzzleCard.tsx"
+  },
+  {
+    "id": 674,
+    "en": "Sound is unavailable here. Choose “Read the echo” for the same clue without audio.",
+    "file": "PuzzleCard.tsx"
+  },
+  {
+    "id": 675,
+    "en": "Empty sky, square {0}",
+    "file": "PuzzleCard.tsx"
+  },
+  {
+    "id": 676,
+    "en": "Faint spark, square {0}",
+    "file": "PuzzleCard.tsx"
+  },
+  {
+    "id": 677,
+    "en": "Your sequence: {0}. {1} more to choose.",
+    "file": "PuzzleCard.tsx"
+  },
+  {
+    "id": 678,
+    "en": "The tree shakes its leaves: “That would not grow by sharing — try something someone else can pass on.”",
+    "file": "PuzzleCard.tsx"
+  },
+  {
+    "id": 679,
+    "en": "Not quite yet — nothing is lost! Try again, ask for a hint, or choose another story path.",
+    "file": "PuzzleCard.tsx"
+  },
+  {
+    "id": 680,
+    "en": "Choose {0}. You can try as often as you like.",
+    "file": "PuzzleCard.tsx"
+  },
+  {
+    "id": 681,
+    "en": "one answer",
+    "file": "PuzzleCard.tsx"
+  },
+  {
+    "id": 682,
+    "en": "steps in order",
+    "file": "PuzzleCard.tsx"
+  },
+  {
+    "id": 683,
+    "en": "All hints shown",
+    "file": "PuzzleCard.tsx"
+  },
+  {
+    "id": 684,
+    "en": "Show a clearer hint",
+    "file": "PuzzleCard.tsx"
+  },
+  {
+    "id": 685,
+    "en": "Ask {0} for a hint",
+    "file": "PuzzleCard.tsx"
+  },
+  {
+    "id": 686,
+    "en": "Clear my sequence",
+    "file": "PuzzleCard.tsx"
+  },
+  {
+    "id": 687,
+    "en": "Reading and adventure tools",
+    "file": "ReaderControls.tsx"
+  },
+  {
+    "id": 688,
+    "en": "☷ Exit reading mode",
+    "file": "ReaderControls.tsx"
+  },
+  {
+    "id": 689,
+    "en": "☷ Reading mode",
+    "file": "ReaderControls.tsx"
+  },
+  {
+    "id": 690,
+    "en": "Text size",
+    "file": "ReaderControls.tsx"
+  },
+  {
+    "id": 691,
+    "en": "Comfortable",
+    "file": "ReaderControls.tsx"
+  },
+  {
+    "id": 692,
+    "en": "Large",
+    "file": "ReaderControls.tsx"
+  },
+  {
+    "id": 693,
+    "en": "Extra large",
+    "file": "ReaderControls.tsx"
+  },
+  {
+    "id": 694,
+    "en": "♧ Adventure bag",
+    "file": "ReaderControls.tsx"
+  },
+  {
+    "id": 695,
+    "en": "Aa My Words",
+    "file": "ReaderControls.tsx"
+  },
+  {
+    "id": 696,
+    "en": "Lytt til én setning om gangen",
+    "file": "ReadingTools.tsx"
+  },
+  {
+    "id": 697,
+    "en": "Hør, les og prøv gjerne å si setningen selv. Du kan lytte flere ganger.",
+    "file": "ReadingTools.tsx"
+  },
+  {
+    "id": 698,
+    "en": "Hør setning",
+    "file": "ReadingTools.tsx"
+  },
+  {
+    "id": 699,
+    "en": "Denne nettleseren støtter ikke opplesning. Du kan fortsatt lese og bruke ordhjelpen.",
+    "file": "ReadingTools.tsx"
+  },
+  {
+    "id": 700,
+    "en": "Lukk ordforklaring",
+    "file": "ReadingTools.tsx"
+  },
+  {
+    "id": 701,
+    "en": "Lagret i Mine ord",
+    "file": "ReadingTools.tsx"
+  },
+  {
+    "id": 702,
+    "en": "Hør uttalen",
+    "file": "ReadingTools.tsx"
+  },
+  {
+    "id": 703,
+    "en": "SVG fallback illustration",
+    "file": "SceneArtwork.tsx"
+  },
+  {
+    "id": 704,
+    "en": "’s special path",
+    "file": "StoryChoices.tsx"
+  },
+  {
+    "id": 705,
+    "en": "You solved the puzzle together",
+    "file": "StoryChoices.tsx"
+  },
+  {
+    "id": 706,
+    "en": "Your river promise opened this path",
+    "file": "StoryChoices.tsx"
+  },
+  {
+    "id": 707,
+    "en": "Pikachu remembers your kindness",
+    "file": "StoryChoices.tsx"
+  },
+  {
+    "id": 708,
+    "en": "Lumi agreed to the village plan you suggested",
+    "file": "StoryChoices.tsx"
+  },
+  {
+    "id": 709,
+    "en": "You remember a song from your journey",
+    "file": "StoryChoices.tsx"
+  },
+  {
+    "id": 710,
+    "en": "Something you learned makes this possible",
+    "file": "StoryChoices.tsx"
+  },
+  {
+    "id": 711,
+    "en": "Hør valget: {0}",
+    "file": "StoryChoices.tsx"
+  },
+  {
+    "id": 712,
+    "en": "Hør valget",
+    "file": "StoryChoices.tsx"
+  },
+  {
+    "id": 713,
+    "en": "Norsk hjelp",
+    "file": "StoryChoices.tsx"
+  },
+  {
+    "id": 714,
+    "en": "Trykk på den engelske teksten når du vil velge.",
+    "file": "StoryChoices.tsx"
+  },
+  {
+    "id": 715,
+    "en": "What made you want to follow the seed?",
+    "file": "StoryExtras.tsx"
+  },
+  {
+    "id": 716,
+    "en": "Which forest friend did you stop to help?",
+    "file": "StoryExtras.tsx"
+  },
+  {
+    "id": 717,
+    "en": "What did the river teach you about Lumi and Shinx?",
+    "file": "StoryExtras.tsx"
+  },
+  {
+    "id": 718,
+    "en": "Which mountain path felt right for your team?",
+    "file": "StoryExtras.tsx"
+  },
+  {
+    "id": 719,
+    "en": "What will change in the valley after your choice?",
+    "file": "StoryExtras.tsx"
+  },
+  {
+    "id": 720,
+    "en": "How an earlier choice helped",
+    "file": "StoryExtras.tsx"
+  },
+  {
+    "id": 721,
+    "en": "Talk with your friends",
+    "file": "StoryExtras.tsx"
+  },
+  {
+    "id": 722,
+    "en": "Read {0}'s words",
+    "file": "StoryExtras.tsx"
+  },
+  {
+    "id": 723,
+    "en": "Listen",
+    "file": "StoryExtras.tsx"
+  },
+  {
+    "id": 724,
+    "en": "A moment to think about chapter",
+    "file": "StoryExtras.tsx"
+  },
+  {
+    "id": 725,
+    "en": "You can talk about it in English or Norwegian, or keep your answer to yourself.",
+    "file": "StoryExtras.tsx"
+  },
+  {
+    "id": 726,
+    "en": "The Moonlit Promise Trail",
+    "file": "story.ts"
+  },
+  {
+    "id": 727,
+    "en": "Unavailable choice",
+    "file": "story.ts"
+  },
+  {
+    "id": 728,
+    "en": "Bulbasaur hums to the roots: “Let’s listen before we hurry.”",
+    "file": "story.ts"
+  },
+  {
+    "id": 729,
+    "en": "Bulbasaur’s vines curl toward you: “We can help this place grow.”",
+    "file": "story.ts"
+  },
+  {
+    "id": 730,
+    "en": "Charmander shields its little flame: “We’ll keep each other warm.”",
+    "file": "story.ts"
+  },
+  {
+    "id": 731,
+    "en": "Charmander lifts its tail carefully: “There is always a little light.”",
+    "file": "story.ts"
+  },
+  {
+    "id": 732,
+    "en": "Squirtle studies the ripples: “Water always finds another way.”",
+    "file": "story.ts"
+  },
+  {
+    "id": 733,
+    "en": "Squirtle pats your hand: “Together, one small step at a time.”",
+    "file": "story.ts"
+  },
+  {
+    "id": 734,
+    "en": "Lapras answers with a reassuring hum.",
+    "file": "story.ts"
+  },
+  {
+    "id": 735,
+    "en": "Pikachu offers a tiny spark for the old machines.",
+    "file": "story.ts"
+  },
+  {
+    "id": 736,
+    "en": "Hoothoot quietly repeats the three-note melody.",
+    "file": "story.ts"
+  },
+  {
+    "id": 737,
+    "en": "Eevee stays close, keeping watch for friends who need you.",
+    "file": "story.ts"
+  },
+  {
+    "id": 738,
+    "en": "Psyduck offers its lucky river pebble for courage.",
+    "file": "story.ts"
+  },
+  {
+    "id": 739,
+    "en": "You stopped for that little nest even when the sky needed us. Small lives matter too.",
+    "file": "story.ts"
+  },
+  {
+    "id": 740,
+    "en": "I’ll lift the ivy gently. Can you loosen the knot?",
+    "file": "story.ts"
+  },
+  {
+    "id": 741,
+    "en": "My flame would hurt the ivy. I’ll keep it back while you help Pikachu.",
+    "file": "story.ts"
+  },
+  {
+    "id": 742,
+    "en": "I can soften the ground around the roots, then we can lift the ivy together.",
+    "file": "story.ts"
+  },
+  {
+    "id": 743,
+    "en": "This machine thinks like a plant. What part needs a drink before the others can grow?",
+    "file": "story.ts"
+  },
+  {
+    "id": 744,
+    "en": "Look at how the gears fit inside each other. Which one would be safest to thaw first?",
+    "file": "story.ts"
+  },
+  {
+    "id": 745,
+    "en": "The water comes up from the floor. What might that tell us about the counterweights?",
+    "file": "story.ts"
+  },
+  {
+    "id": 746,
+    "en": "Listen between the splashes. The water is echoing a tune!",
+    "file": "story.ts"
+  },
+  {
+    "id": 747,
+    "en": "We can listen again. There is no hurry, and wrong notes cannot hurt us.",
+    "file": "story.ts"
+  },
+  {
+    "id": 748,
+    "en": "A promise became a real path. Let’s see it through together.",
+    "file": "story.ts"
+  },
+  {
+    "id": 749,
+    "en": "You helped Psyduck before crossing yourself. That was a good kind of brave.",
+    "file": "story.ts"
+  },
+  {
+    "id": 750,
+    "en": "Look how many little choices brought us here. Which adventure shall we try next?",
+    "file": "story.ts"
+  },
+  {
+    "id": 751,
+    "en": "Lumi is frightened, not unkind. Let’s give her time to speak.",
+    "file": "story.ts"
+  },
+  {
+    "id": 752,
+    "en": "We can take our time. I’m right beside you.",
+    "file": "story.ts"
+  },
+  {
+    "id": 753,
+    "en": "A good story deserves a good discovery! Choose what interests you; the direct trail never passes through our little archive.",
+    "file": "story.ts"
+  },
+  {
+    "id": 754,
+    "en": "There is more than one way to the tower. Help my little flock find its courage, and we can travel above the wind together.",
+    "file": "story.ts"
+  },
+  {
+    "id": 755,
+    "en": "You trusted me to guard Moonwood. Now it’s my turn to help you!",
+    "file": "story.ts"
+  },
+  {
+    "id": 756,
+    "en": "You helped me in Moonwood. I can send a small spark to the village lanterns, if we all share the warmth.",
+    "file": "story.ts"
+  },
+  {
+    "id": 757,
+    "en": "A little spark, not a thunderbolt. We can wake this up gently.",
+    "file": "story.ts"
+  },
+  {
+    "id": 758,
+    "en": "You loosened the ivy instead of pulling it tight. I won’t forget that! Let me watch for blinking lights.",
+    "file": "story.ts"
+  },
+  {
+    "id": 759,
+    "en": "If something needs a spark, ask me first. My cheeks are small, but my courage is growing.",
+    "file": "story.ts"
+  },
+  {
+    "id": 760,
+    "en": "Remember how frightened I was under Mira’s table? Let’s welcome Lumi the way you welcomed me.",
+    "file": "story.ts"
+  },
+  {
+    "id": 761,
+    "en": "I’ll watch the wind flag. Tell everyone when it’s safe!",
+    "file": "story.ts"
+  },
+  {
+    "id": 762,
+    "en": "I’ll check behind us so nobody gets left out.",
+    "file": "story.ts"
+  },
+  {
+    "id": 763,
+    "en": "That echo sounds familiar. I can help you remember the melody if you ask for a hint.",
+    "file": "story.ts"
+  },
+  {
+    "id": 764,
+    "en": "Hoo! I remember our little melody. Ask me if a door needs a song.",
+    "file": "story.ts"
+  },
+  {
+    "id": 765,
+    "en": "The stars are back in my river. I will keep the crossing safe whenever you return.",
+    "file": "story.ts"
+  },
+  {
+    "id": 766,
+    "en": "You promised to help them both. My song will show you a trail made for that promise.",
+    "file": "story.ts"
+  },
+  {
+    "id": 767,
+    "en": "Listen to the river before choosing. It carries stories as well as light.",
+    "file": "story.ts"
+  },
+  {
+    "id": 768,
+    "en": "I made this place while I was afraid to cross. Maybe we can make something here that helps the next traveler.",
+    "file": "story.ts"
+  },
+  {
+    "id": 769,
+    "en": "That is a lot of gears. Let’s do just one step at a time.",
+    "file": "story.ts"
+  },
+  {
+    "id": 770,
+    "en": "I’m a little nervous. But crossing with you taught me I can try.",
+    "file": "story.ts"
+  },
+  {
+    "id": 771,
+    "en": "Eevee → Pikachu",
+    "file": "story.ts"
+  },
+  {
+    "id": 772,
+    "en": "You bring the spark; I’ll keep everyone close. A whole team can share one light.",
+    "file": "story.ts"
+  },
+  {
+    "id": 773,
+    "en": "A kindness comes back",
+    "file": "story.ts"
+  },
+  {
+    "id": 774,
+    "en": "Because you freed Pikachu and trusted it to guard Moonwood, it has returned with a new way to power the roof.",
+    "file": "story.ts"
+  },
+  {
+    "id": 775,
+    "en": "Your promise opened a path",
+    "file": "story.ts"
+  },
+  {
+    "id": 776,
+    "en": "Helping Lapras and promising to save both friends revealed the Promise Trail. It bypasses the observatory and leads to a special conversation with Lumi.",
+    "file": "story.ts"
+  },
+  {
+    "id": 777,
+    "en": "A path only your promise revealed",
+    "file": "story.ts"
+  },
+  {
+    "id": 778,
+    "en": "You can now follow the hidden stair straight to the tower, or take a longer detour for the scarf and Altaria’s feather.",
+    "file": "story.ts"
+  },
+  {
+    "id": 779,
+    "en": "A nest becomes a melody",
+    "file": "story.ts"
+  },
+  {
+    "id": 780,
+    "en": "Repairing the nest earned Hoothoot’s song. You can use it at the waterfall or sing it with the heart ring.",
+    "file": "story.ts"
+  },
+  {
+    "id": 781,
+    "en": "A promise kept",
+    "file": "story.ts"
+  },
+  {
+    "id": 782,
+    "en": "The Promise Trail lets you open the heart ring with Lumi immediately. You can still choose to listen first.",
+    "file": "story.ts"
+  },
+  {
+    "id": 783,
+    "en": "She remembers your message",
+    "file": "story.ts"
+  },
+  {
+    "id": 784,
+    "en": "Your river reply reached Lumi before you did. Her greeting has changed because she already knows you came to help.",
+    "file": "story.ts"
+  },
+  {
+    "id": 785,
+    "en": "Your first seed is still growing",
+    "file": "story.ts"
+  },
+  {
+    "id": 786,
+    "en": "The thank-you seed you planted in Moonwood becomes part of the living constellation if you choose the garden ending.",
+    "file": "story.ts"
+  },
+  {
+    "id": 787,
+    "en": "A different way above the clouds",
+    "file": "story.ts"
+  },
+  {
+    "id": 788,
+    "en": "Helping Altaria’s lost flock brought you straight to the roof. The frozen observatory was never part of this route.",
+    "file": "story.ts"
+  },
+  {
+    "id": 789,
+    "en": "A workshop gift becomes a new home",
+    "file": "story.ts"
+  },
+  {
+    "id": 790,
+    "en": "The lanterns you built with Psyduck now mark a place where star reeds could grow.",
+    "file": "story.ts"
+  },
+  {
+    "id": 791,
+    "en": "A detour with its own discovery",
+    "file": "story.ts"
+  },
+  {
+    "id": 792,
+    "en": "Sharing a funny story with Gastly opened a reading room that the direct forest paths never visit.",
+    "file": "story.ts"
+  },
+  {
+    "id": 793,
+    "en": "The choice that shaped this ending",
+    "file": "story.ts"
+  },
+  {
+    "id": 794,
+    "en": "This led to {0}{1}.",
+    "file": "story.ts"
+  },
+  {
+    "id": 795,
+    "en": "the next page",
+    "file": "story.ts"
+  },
+  {
+    "id": 796,
+    "en": "— your starter could lend its warmth",
+    "file": "story.ts"
+  },
+  {
+    "id": 797,
+    "en": "A flock showed another way",
+    "file": "story.ts"
+  },
+  {
+    "id": 798,
+    "en": "Guiding Altaria’s birds brought you to the tower roof without entering the observatory.",
+    "file": "story.ts"
+  },
+  {
+    "id": 799,
+    "en": "A river gift took root",
+    "file": "story.ts"
+  },
+  {
+    "id": 800,
+    "en": "The lanterns you built with Psyduck became a trail for the new star-reed garden.",
+    "file": "story.ts"
+  },
+  {
+    "id": 801,
+    "en": "A promise became a path",
+    "file": "story.ts"
+  },
+  {
+    "id": 802,
+    "en": "Your river promise opened the hidden stair and Lumi’s heart ring.",
+    "file": "story.ts"
+  },
+  {
+    "id": 803,
+    "en": "Your promise revealed a route straight to Lumi’s door.",
+    "file": "story.ts"
+  },
+  {
+    "id": 804,
+    "en": "Pikachu returned the kindness",
+    "file": "story.ts"
+  },
+  {
+    "id": 805,
+    "en": "You trusted Pikachu to guard the forest; it came back and powered the roof.",
+    "file": "story.ts"
+  },
+  {
+    "id": 806,
+    "en": "The friend you rescued helped you power the observatory.",
+    "file": "story.ts"
+  },
+  {
+    "id": 807,
+    "en": "A rescued friend came back",
+    "file": "story.ts"
+  },
+  {
+    "id": 808,
+    "en": "Pikachu returned after guarding Moonwood and offered you another way through the observatory.",
+    "file": "story.ts"
+  },
+  {
+    "id": 809,
+    "en": "Warmth from the cloud shepherd",
+    "file": "story.ts"
+  },
+  {
+    "id": 810,
+    "en": "Altaria’s feather made a warm nest so Lumi could let the stars go.",
+    "file": "story.ts"
+  },
+  {
+    "id": 811,
+    "en": "A melody worth remembering",
+    "file": "story.ts"
+  },
+  {
+    "id": 812,
+    "en": "The melody you earned earlier became the song you shared with the heart ring.",
+    "file": "story.ts"
+  },
+  {
+    "id": 813,
+    "en": "A message reached its reader",
+    "file": "story.ts"
+  },
+  {
+    "id": 814,
+    "en": "Lumi kept your river reply beside Shinx and welcomed you with trust.",
+    "file": "story.ts"
+  },
+  {
+    "id": 815,
+    "en": "The first seed mattered",
+    "file": "story.ts"
+  },
+  {
+    "id": 816,
+    "en": "Your thank-you seed became the roots of the valley’s new starlight garden.",
+    "file": "story.ts"
+  },
+  {
+    "id": 817,
+    "en": "Nobody had to travel alone",
+    "file": "story.ts"
+  },
+  {
+    "id": 818,
+    "en": "The frightened Eevee you welcomed stayed with your team until the last page.",
+    "file": "story.ts"
+  },
+  {
+    "id": 819,
+    "en": "{0} found its own solution",
+    "file": "story.ts"
+  },
+  {
+    "id": 820,
+    "en": "Bulbasaur guided the vine cables from roots to leaves to flowers.",
+    "file": "story.ts"
+  },
+  {
+    "id": 821,
+    "en": "Charmander thawed the small gear before the big one and released the latch.",
+    "file": "story.ts"
+  },
+  {
+    "id": 822,
+    "en": "Squirtle filled the water counterweights from the lowest basin upward.",
+    "file": "story.ts"
+  },
+  {
+    "id": 823,
+    "en": "A tool with a purpose",
+    "file": "story.ts"
+  },
+  {
+    "id": 824,
+    "en": "The rescue rope you chose became the knot that carried your team across the river.",
+    "file": "story.ts"
+  },
+  {
+    "id": 825,
+    "en": "A secret worth carrying",
+    "file": "story.ts"
+  },
+  {
+    "id": 826,
+    "en": "The rune key you packed opened a hidden way across the roof.",
+    "file": "story.ts"
+  },
+  {
+    "id": 827,
+    "en": "The map you copied in Gastly’s archive revealed a hidden mountain route.",
+    "file": "story.ts"
+  },
+  {
+    "id": 828,
+    "en": "The stairway you copied from the astronomer’s notes revealed a safe tower passage.",
+    "file": "story.ts"
+  },
+  {
+    "id": 829,
+    "en": "Psyduck’s channel map included a safe route through the tower’s old water passages.",
+    "file": "story.ts"
+  },
+  {
+    "id": 830,
+    "en": "A constellation solved together",
+    "file": "story.ts"
+  },
+  {
+    "id": 831,
+    "en": "You followed the growing stars and earned a forest rune instead of taking the brightest detour.",
+    "file": "story.ts"
+  },
+  {
+    "id": 832,
+    "en": "A journey with {0}",
+    "file": "story.ts"
+  },
+  {
+    "id": 833,
+    "en": "Your first companion stayed beside you, offering {0} whenever you needed another idea.",
+    "file": "story.ts"
+  },
+  {
+    "id": 834,
+    "en": "patient vines and a gentle heart",
+    "file": "story.ts"
+  },
+  {
+    "id": 835,
+    "en": "careful warmth and a brave heart",
+    "file": "story.ts"
+  },
+  {
+    "id": 836,
+    "en": "clever water skills and a curious heart",
+    "file": "story.ts"
+  },
+  {
+    "id": 837,
+    "en": "Your very first little light",
+    "file": "story.ts"
+  },
+  {
+    "id": 838,
+    "en": "This first decision began the habits of kindness, curiosity, or courage that grew throughout your journey.",
+    "file": "story.ts"
+  },
+  {
+    "id": 839,
+    "en": "What if you trusted Pikachu to guard Moonwood? A kindness can return much later.",
+    "file": "story.ts"
+  },
+  {
+    "id": 840,
+    "en": "What if you befriended Lapras, then promised to help both friends? A hidden mountain trail might appear.",
+    "file": "story.ts"
+  },
+  {
+    "id": 841,
+    "en": "Try Charmander’s ridge and stop to repair the nest. Someone may remember that kindness.",
+    "file": "story.ts"
+  },
+  {
+    "id": 842,
+    "en": "Try a different starter: vines, careful warmth, and water each solve the observatory in a different way.",
+    "file": "story.ts"
+  },
+  {
+    "id": 843,
+    "en": "A curved shape like a thin moon.",
+    "file": "story.ts"
+  },
+  {
+    "id": 844,
+    "en": "A group of stars that seems to make a picture.",
+    "file": "story.ts"
+  },
+  {
+    "id": 845,
+    "en": "A safe, peaceful place where someone is cared for.",
+    "file": "story.ts"
+  },
+  {
+    "id": 846,
+    "en": "A building used to watch stars and space.",
+    "file": "story.ts"
+  },
+  {
+    "id": 847,
+    "en": "A symbol carved or written to carry a special meaning.",
+    "file": "story.ts"
+  },
+  {
+    "id": 848,
+    "en": "A curved piece of glass that bends or focuses light.",
+    "file": "story.ts"
+  },
+  {
+    "id": 849,
+    "en": "A bright streak made when a space rock enters the sky.",
+    "file": "story.ts"
+  },
+  {
+    "id": 850,
+    "en": "An image you see in water, glass, or a mirror.",
+    "file": "story.ts"
+  },
+  {
+    "id": 851,
+    "en": "A stand that holds something special.",
+    "file": "story.ts"
+  },
+  {
+    "id": 852,
+    "en": "Ribbons of colored light that sometimes appear in the night sky.",
+    "file": "story.ts"
+  },
+  {
+    "id": 853,
+    "en": "Worn at the edges, with threads coming loose.",
+    "file": "story.ts"
+  },
+  {
+    "id": 854,
+    "en": "A pattern of sounds or movements that repeats.",
+    "file": "story.ts"
+  },
+  {
+    "id": 855,
+    "en": "A climbing plant that grows along trees or walls.",
+    "file": "story.ts"
+  },
+  {
+    "id": 856,
+    "en": "A thin layer of ice crystals on a cold surface.",
+    "file": "story.ts"
+  },
+  {
+    "id": 857,
+    "en": "Understanding and caring about how someone else feels.",
+    "file": "story.ts"
+  },
+  {
+    "id": 858,
+    "en": "The lantern keeper",
+    "file": "titles"
+  },
+  {
+    "id": 859,
+    "en": "The way beyond the gate",
+    "file": "titles"
+  },
+  {
+    "id": 860,
+    "en": "A careful little flame",
+    "file": "titles"
+  },
+  {
+    "id": 861,
+    "en": "Letters under the mud",
+    "file": "titles"
+  },
+  {
+    "id": 862,
+    "en": "The whispering trees",
+    "file": "titles"
+  },
+  {
+    "id": 863,
+    "en": "A spark of friendship",
+    "file": "titles"
+  },
+  {
+    "id": 864,
+    "en": "The mushroom alphabet",
+    "file": "titles"
+  },
+  {
+    "id": 865,
+    "en": "The hollow that giggles",
+    "file": "titles"
+  },
+  {
+    "id": 866,
+    "en": "The Echo Archive",
+    "file": "titles"
+  },
+  {
+    "id": 867,
+    "en": "The oldest tree",
+    "file": "titles"
+  },
+  {
+    "id": 868,
+    "en": "The river of borrowed light",
+    "file": "titles"
+  },
+  {
+    "id": 869,
+    "en": "A song across the water",
+    "file": "titles"
+  },
+  {
+    "id": 870,
+    "en": "The ferrymaker’s knot",
+    "file": "titles"
+  },
+  {
+    "id": 871,
+    "en": "Psyduck’s Reed Workshop",
+    "file": "titles"
+  },
+  {
+    "id": 872,
+    "en": "Behind the silver curtain",
+    "file": "titles"
+  },
+  {
+    "id": 873,
+    "en": "The astronomer’s notebook",
+    "file": "titles"
+  },
+  {
+    "id": 874,
+    "en": "The island of echoes",
+    "file": "titles"
+  },
+  {
+    "id": 875,
+    "en": "A bridge made of wind",
+    "file": "titles"
+  },
+  {
+    "id": 876,
+    "en": "Altaria’s Wind-Watch Perch",
+    "file": "titles"
+  },
+  {
+    "id": 877,
+    "en": "Footprints in the frost",
+    "file": "titles"
+  },
+  {
+    "id": 878,
+    "en": "The cloud shepherd",
+    "file": "titles"
+  },
+  {
+    "id": 879,
+    "en": "The sleeping observatory",
+    "file": "titles"
+  },
+  {
+    "id": 880,
+    "en": "A sky full of questions",
+    "file": "titles"
+  },
+  {
+    "id": 881,
+    "en": "Someone behind the door",
+    "file": "titles"
+  },
+  {
+    "id": 882,
+    "en": "The keeper of lost starlight",
+    "file": "titles"
+  },
+  {
+    "id": 883,
+    "en": "A brave thing to admit",
+    "file": "titles"
+  },
+  {
+    "id": 884,
+    "en": "Three ways to make a dawn",
+    "file": "titles"
+  },
+  {
+    "id": 885,
+    "en": "The sky ring",
+    "file": "titles"
+  },
+  {
+    "id": 886,
+    "en": "The heart ring",
+    "file": "titles"
+  },
+  {
+    "id": 887,
+    "en": "A seed for tomorrow",
+    "file": "titles"
+  },
+  {
+    "id": 888,
+    "en": "The dawn you carried home",
+    "file": "titles"
+  },
+  {
+    "id": 889,
+    "en": "The Homeward Dawn",
+    "file": "titles"
+  },
+  {
+    "id": 890,
+    "en": "A ribbon across the sky",
+    "file": "titles"
+  },
+  {
+    "id": 891,
+    "en": "The Aurora Promise",
+    "file": "titles"
+  },
+  {
+    "id": 892,
+    "en": "The song the stars remembered",
+    "file": "titles"
+  },
+  {
+    "id": 893,
+    "en": "The River of Stars",
+    "file": "titles"
+  },
+  {
+    "id": 894,
+    "en": "A home above the clouds",
+    "file": "titles"
+  },
+  {
+    "id": 895,
+    "en": "The Starlight Sanctuary",
+    "file": "titles"
+  },
+  {
+    "id": 896,
+    "en": "A thousand little lights",
+    "file": "titles"
+  },
+  {
+    "id": 897,
+    "en": "The Lantern League",
+    "file": "titles"
+  },
+  {
+    "id": 898,
+    "en": "Where tomorrow grows",
+    "file": "titles"
+  },
+  {
+    "id": 899,
+    "en": "The Living Constellation",
+    "file": "titles"
+  }
+]

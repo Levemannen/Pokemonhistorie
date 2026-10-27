@@ -1,0 +1,16 @@
+import fs from 'node:fs';
+let p='src/narrative.ts',s=fs.readFileSync(p,'utf8');s="import {deeperPage} from './storyDepth';\n"+s;
+const start=s.indexOf(" if(scene.id==='lumi'){",s.indexOf('export function narrativeText'));
+const end=s.indexOf(" if(scene.id==='endGarden'",start);
+s=s.slice(0,start)+s.slice(end);
+s=s.replace(" if(scene.id==='observatory'&&has('guardReturned'))extra='A familiar Pikachu has followed your trail after guarding Moonwood, and offers to power the motor for the friend who freed it.';",'');
+s=s.replace('return [arrivalText(scene,state,lookup),body,extra]','return [arrivalText(scene,state,lookup),deeperPage(state,body),extra]');
+s=s.replace('Pikachu says it can wiggle out of the loose loop, so you follow the nearby mushrooms to look for the way onward.','Pikachu wiggles free of the loose loop and waves goodbye before you follow the nearby mushrooms.');
+s=s.replace('You release the stars and wrap Shinx warmly for the journey down to Mira.','You wrap Shinx warmly first, then release the stars and take the sheltered path down to Mira.');
+s=s.replace('You compare your clues with the moon-shaped marks along the bank and find the cave through its open side entrance.','You match the crescent on your map or letter to the moon-shaped marks along the bank and find the cave’s open side entrance.');
+s=s.replace('Your earlier discovery reveals a sheltered passage, which you follow safely to Starfall Tower.','Your earlier discovery reveals a sheltered passage with a diagram of the sphere’s warm-light setting, which you copy before reaching Starfall Tower.');
+fs.writeFileSync(p,s);
+p='src/story.ts';s=fs.readFileSync(p,'utf8');s=s.replace("'clueTrail','insight'","'clueTrail','caveClues'");s=s.replace(" if(need==='promiseTrail')", " if(need==='caveClues')return ['map','letter','archiveMap'].some(f=>state.flags.includes(f));\n if(need==='promiseTrail')");
+s=s.replace("if(choice.to==='lumi'&&flags.includes('reply'))flags.push('replyTrust');","if(choice.to==='lumi'&&flags.includes('reply'))flags.push('replyTrust');\n if(choice.flag==='secretRoute')flags.push('understanding');");
+s=s.replace("if(state.companions.includes('Lapras')&&['bridge','stairs','island','endSong'].includes(state.scene))","if(state.companions.includes('Lapras')&&['bridge','island','endSong'].includes(state.scene))");
+fs.writeFileSync(p,s);

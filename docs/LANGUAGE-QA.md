@@ -2,7 +2,7 @@
 
 ## Delivered
 
-- 66 locally authored English definitions with Norwegian Bokmål meanings. Common inflections resolve to the same saved word.
+- 74 locally authored English definitions with Norwegian Bokmål meanings. Common inflections resolve to the same saved word.
 - Norwegian help for all 104 authored choices, including starter names. Help and audio are separate native buttons outside the navigation button; translations are initially hidden.
 - Optional sentence-by-sentence playback. A spoken sentence is highlighted when the browser provides speech events. Full-page highlighting follows boundary events; it does not falsely leave the first sentence highlighted on devices without boundary support.
 - Bilingual personal vocabulary notebook retains the English example from the child's own journey. Existing saves remain readable.
