@@ -1,0 +1,16 @@
+{
+  "date": "2026-10-28",
+  "passed": true,
+  "offlineSceneChecks": 42,
+  "checks": [
+    "GitHub Pages subpath scope",
+    "Install manifest",
+    "Download failure and retry",
+    "Complete ending through actual clicks while offline",
+    "All 39 painted scenes offline",
+    "Cold offline tab launch",
+    "Norwegian offline status",
+    "User-triggered app update preserves the saved journey"
+  ],
+  "limitations": "Chromium emulation, not physical iPad installation or actual installed voice quality."
+}

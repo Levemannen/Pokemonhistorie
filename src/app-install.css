@@ -1,0 +1,8 @@
+.app-install{max-width:960px;margin:0 auto 18px;border:1px solid #dbe2ce;border-radius:9px;background:#fff9ed;color:#425649;font-size:14px}
+.app-install>summary{cursor:pointer;padding:14px 18px;min-height:48px}
+.app-install>summary span{color:#60734f}
+.app-install-content{padding:0 18px 18px;max-width:760px;line-height:1.7}
+.app-install p{margin:12px 0}
+.app-install button{min-height:48px;padding:10px 16px;border:1px solid #6a805d;border-radius:8px;background:#465f44;color:#fff9ed;font:inherit}
+.app-install progress{display:block;width:100%;margin-top:8px;accent-color:#465f44}
+@media(display-mode:standalone){header{padding-top:env(safe-area-inset-top,0px);height:auto;min-height:76px}body{padding-bottom:env(safe-area-inset-bottom,0px)}.app-install{margin-bottom:12px}}

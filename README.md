@@ -46,6 +46,12 @@ pnpm build
 
 `pnpm test:full` additionally builds and serves the production files under `/Pokemonhistorie/` to verify repository-subpath deployment. `pnpm export:story` refreshes the third-party review package, including 18 English and 18 Norwegian reading routes.
 
+## Tablet layout
+
+The book is also an installable web app with local icons, standalone launch and an optional complete offline download. Open “Keep this book on your tablet” in the book. See [installation, offline behavior and update notes](docs/APP-MODE.md).
+
+Portrait tablets use a full-width book with companions below; landscape widths of 1100–1366 pixels show a side panel. Tablet text is larger, separate touch controls have at least 44-pixel targets, and dialogs fit the available screen height. Pinch zoom remains available. Reading mode hides the side panel. Automated checks cover portrait, landscape, rotation and split-screen widths in Edge touch emulation; physical iPad/Safari testing remains recommended.
+
 ## Norwegian and English
 
 Choose **Norsk** or **English** above the book before starting, or change language during the journey. Language is saved locally with progress. Local catalogs are `src/manuscript-nb.json`, `src/edition-ui-nb.json` and `src/nb.json`; no translation service is called. Narration requests `nb-NO` or `en-US` and depends on voices installed in the browser/device. The vocabulary notebook deliberately keeps English words and example sentences alongside Norwegian meanings.

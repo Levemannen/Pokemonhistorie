@@ -1,0 +1,392 @@
+{
+  "date": "2026-10-28",
+  "checks": 64,
+  "results": [
+    {
+      "width": 768,
+      "height": 1024,
+      "language": "en",
+      "scene": "lantern"
+    },
+    {
+      "width": 768,
+      "height": 1024,
+      "language": "en",
+      "scene": "plan"
+    },
+    {
+      "width": 768,
+      "height": 1024,
+      "language": "en",
+      "scene": "observatory"
+    },
+    {
+      "width": 768,
+      "height": 1024,
+      "language": "en",
+      "scene": "endGarden"
+    },
+    {
+      "width": 768,
+      "height": 1024,
+      "language": "nb",
+      "scene": "lantern"
+    },
+    {
+      "width": 768,
+      "height": 1024,
+      "language": "nb",
+      "scene": "plan"
+    },
+    {
+      "width": 768,
+      "height": 1024,
+      "language": "nb",
+      "scene": "observatory"
+    },
+    {
+      "width": 768,
+      "height": 1024,
+      "language": "nb",
+      "scene": "endGarden"
+    },
+    {
+      "width": 820,
+      "height": 1180,
+      "language": "en",
+      "scene": "lantern"
+    },
+    {
+      "width": 820,
+      "height": 1180,
+      "language": "en",
+      "scene": "plan"
+    },
+    {
+      "width": 820,
+      "height": 1180,
+      "language": "en",
+      "scene": "observatory"
+    },
+    {
+      "width": 820,
+      "height": 1180,
+      "language": "en",
+      "scene": "endGarden"
+    },
+    {
+      "width": 820,
+      "height": 1180,
+      "language": "nb",
+      "scene": "lantern"
+    },
+    {
+      "width": 820,
+      "height": 1180,
+      "language": "nb",
+      "scene": "plan"
+    },
+    {
+      "width": 820,
+      "height": 1180,
+      "language": "nb",
+      "scene": "observatory"
+    },
+    {
+      "width": 820,
+      "height": 1180,
+      "language": "nb",
+      "scene": "endGarden"
+    },
+    {
+      "width": 1024,
+      "height": 1366,
+      "language": "en",
+      "scene": "lantern"
+    },
+    {
+      "width": 1024,
+      "height": 1366,
+      "language": "en",
+      "scene": "plan"
+    },
+    {
+      "width": 1024,
+      "height": 1366,
+      "language": "en",
+      "scene": "observatory"
+    },
+    {
+      "width": 1024,
+      "height": 1366,
+      "language": "en",
+      "scene": "endGarden"
+    },
+    {
+      "width": 1024,
+      "height": 1366,
+      "language": "nb",
+      "scene": "lantern"
+    },
+    {
+      "width": 1024,
+      "height": 1366,
+      "language": "nb",
+      "scene": "plan"
+    },
+    {
+      "width": 1024,
+      "height": 1366,
+      "language": "nb",
+      "scene": "observatory"
+    },
+    {
+      "width": 1024,
+      "height": 1366,
+      "language": "nb",
+      "scene": "endGarden"
+    },
+    {
+      "width": 1024,
+      "height": 768,
+      "language": "en",
+      "scene": "lantern"
+    },
+    {
+      "width": 1024,
+      "height": 768,
+      "language": "en",
+      "scene": "plan"
+    },
+    {
+      "width": 1024,
+      "height": 768,
+      "language": "en",
+      "scene": "observatory"
+    },
+    {
+      "width": 1024,
+      "height": 768,
+      "language": "en",
+      "scene": "endGarden"
+    },
+    {
+      "width": 1024,
+      "height": 768,
+      "language": "nb",
+      "scene": "lantern"
+    },
+    {
+      "width": 1024,
+      "height": 768,
+      "language": "nb",
+      "scene": "plan"
+    },
+    {
+      "width": 1024,
+      "height": 768,
+      "language": "nb",
+      "scene": "observatory"
+    },
+    {
+      "width": 1024,
+      "height": 768,
+      "language": "nb",
+      "scene": "endGarden"
+    },
+    {
+      "width": 1180,
+      "height": 820,
+      "language": "en",
+      "scene": "lantern"
+    },
+    {
+      "width": 1180,
+      "height": 820,
+      "language": "en",
+      "scene": "plan"
+    },
+    {
+      "width": 1180,
+      "height": 820,
+      "language": "en",
+      "scene": "observatory"
+    },
+    {
+      "width": 1180,
+      "height": 820,
+      "language": "en",
+      "scene": "endGarden"
+    },
+    {
+      "width": 1180,
+      "height": 820,
+      "language": "nb",
+      "scene": "lantern"
+    },
+    {
+      "width": 1180,
+      "height": 820,
+      "language": "nb",
+      "scene": "plan"
+    },
+    {
+      "width": 1180,
+      "height": 820,
+      "language": "nb",
+      "scene": "observatory"
+    },
+    {
+      "width": 1180,
+      "height": 820,
+      "language": "nb",
+      "scene": "endGarden"
+    },
+    {
+      "width": 1366,
+      "height": 1024,
+      "language": "en",
+      "scene": "lantern"
+    },
+    {
+      "width": 1366,
+      "height": 1024,
+      "language": "en",
+      "scene": "plan"
+    },
+    {
+      "width": 1366,
+      "height": 1024,
+      "language": "en",
+      "scene": "observatory"
+    },
+    {
+      "width": 1366,
+      "height": 1024,
+      "language": "en",
+      "scene": "endGarden"
+    },
+    {
+      "width": 1366,
+      "height": 1024,
+      "language": "nb",
+      "scene": "lantern"
+    },
+    {
+      "width": 1366,
+      "height": 1024,
+      "language": "nb",
+      "scene": "plan"
+    },
+    {
+      "width": 1366,
+      "height": 1024,
+      "language": "nb",
+      "scene": "observatory"
+    },
+    {
+      "width": 1366,
+      "height": 1024,
+      "language": "nb",
+      "scene": "endGarden"
+    },
+    {
+      "width": 600,
+      "height": 900,
+      "language": "en",
+      "scene": "lantern"
+    },
+    {
+      "width": 600,
+      "height": 900,
+      "language": "en",
+      "scene": "plan"
+    },
+    {
+      "width": 600,
+      "height": 900,
+      "language": "en",
+      "scene": "observatory"
+    },
+    {
+      "width": 600,
+      "height": 900,
+      "language": "en",
+      "scene": "endGarden"
+    },
+    {
+      "width": 600,
+      "height": 900,
+      "language": "nb",
+      "scene": "lantern"
+    },
+    {
+      "width": 600,
+      "height": 900,
+      "language": "nb",
+      "scene": "plan"
+    },
+    {
+      "width": 600,
+      "height": 900,
+      "language": "nb",
+      "scene": "observatory"
+    },
+    {
+      "width": 600,
+      "height": 900,
+      "language": "nb",
+      "scene": "endGarden"
+    },
+    {
+      "width": 390,
+      "height": 844,
+      "language": "en",
+      "scene": "lantern"
+    },
+    {
+      "width": 390,
+      "height": 844,
+      "language": "en",
+      "scene": "plan"
+    },
+    {
+      "width": 390,
+      "height": 844,
+      "language": "en",
+      "scene": "observatory"
+    },
+    {
+      "width": 390,
+      "height": 844,
+      "language": "en",
+      "scene": "endGarden"
+    },
+    {
+      "width": 390,
+      "height": 844,
+      "language": "nb",
+      "scene": "lantern"
+    },
+    {
+      "width": 390,
+      "height": 844,
+      "language": "nb",
+      "scene": "plan"
+    },
+    {
+      "width": 390,
+      "height": 844,
+      "language": "nb",
+      "scene": "observatory"
+    },
+    {
+      "width": 390,
+      "height": 844,
+      "language": "nb",
+      "scene": "endGarden"
+    }
+  ],
+  "errors": [],
+  "scope": "Edge touch emulation; portrait, landscape, split-screen, phone, both languages, saved-state rotation, journal and reading mode. Not a physical iPad/Safari test."
+}

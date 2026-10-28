@@ -1,4 +1,5 @@
 import { t } from './i18n';
+import {AppInstall} from './AppInstall';
 import {chapters as legacyChapters} from './legacyStory';
 import { translate, setLanguage, type Language } from './i18n';
 import { StoryExtras } from './StoryExtras';
@@ -23,6 +24,7 @@ import { SceneArtwork } from './SceneArtwork';
 import { resolveIllustration, type IllustrationManifest } from './illustrations';
 import './style.css';
 import './storybook.css';
+import './tablet.css';
 type Manifest = IllustrationManifest;
 type Panel = 'words' | 'history' | 'library' | 'map' | 'bag';
 const titles: Record<Panel, string> = { words: 'My Words', history: 'Your journey so far', library: 'Your bookshelf', map: 'Your travel map', bag: 'Your adventure bag' };
@@ -272,6 +274,7 @@ export default function App() {
    <h1>{t("Pok\u00E9mon ")}<span className="title-dash">{t("\u2014")}</span><br />{t("The Mystery of the ")}<em>{t("Lost Starlight")}</em></h1>
    <p className="subtitle">{t("A little courage. A faithful friend. A sky waiting to shine again.")}</p>
    <section className="language-picker" aria-label={t("Language / Språk")}><span>{t("Language / Spr\u00E5k")}</span><button lang="nb" aria-pressed={language === 'nb'} onClick={() => changeLanguage('nb')}>{t("Norsk")}</button><button lang="en" aria-pressed={language === 'en'} onClick={() => changeLanguage('en')}>{t("English")}</button></section>
+   <AppInstall language={language}/>
    <ReaderControls preferences={reader} onChange={setReader} openBag={() => openPanel('bag')} openWords={() => openPanel('words')}/>
    {t(originalJourney && <p className="branch-notice" role="status">{t("You are exploring another path. Your original adventure is safe. ")}<button className="small-action" onClick={returnToOriginal}>{t("Return to my original adventure")}</button></p>)}
    <div className="book-layout"><div className="book-column">
