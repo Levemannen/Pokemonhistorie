@@ -26,6 +26,14 @@ export function ReadableText({ text, speak, speechAvailable, onExplore, activeSe
         if (!selected)
             return;
         const close = (e: Event) => {
+            if (e.type === 'scroll' || e.type === 'resize') {
+                const r=anchor.current?.getBoundingClientRect();
+                if(!r||r.bottom<0||r.top>window.innerHeight){setSelected(null);return;}
+                const left=Math.max(12,Math.min(r.left-30,document.documentElement.clientWidth-304));
+                const top=Math.max(12,Math.min(r.bottom+9,window.innerHeight-310));
+                setSelected(previous=>previous&&(previous.left!==left||previous.top!==top)?{...previous,left,top}:previous);
+                return;
+            }
             if (e.type === 'keydown' && (e as KeyboardEvent).key !== 'Escape')
                 return;
             if ((e.type === 'pointerdown' || e.type === 'focusin' || e.type === 'scroll') && container.current?.contains(e.target as Node))

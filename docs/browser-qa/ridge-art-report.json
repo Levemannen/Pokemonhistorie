@@ -1,0 +1,20 @@
+{
+  "date": "2026-10-28",
+  "results": [
+    {
+      "starter": "Bulbasaur",
+      "image": "./images/scenes/painted/scene-ridge-bulbasaur.png",
+      "passed": true
+    },
+    {
+      "starter": "Charmander",
+      "image": "./images/scenes/painted/scene-ridge-charmander.png",
+      "passed": true
+    },
+    {
+      "starter": "Squirtle",
+      "image": "./images/scenes/painted/scene-ridge-squirtle.png",
+      "passed": true
+    }
+  ]
+}

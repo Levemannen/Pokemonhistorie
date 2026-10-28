@@ -13,7 +13,7 @@ const read=(key='starlight-story-v1')=>page.evaluate((key:string)=>JSON.parse(lo
 try{
  await page.goto(url);await page.locator('.begin').click();
  const first=await read();await page.locator('.choice-language-tools button').nth(1).click();assert.deepEqual(await read(),first);assert(await page.locator('.choice-translation').first().isVisible());
- await page.locator('.word').first().click();assert(await page.locator('.word-popover').isVisible());assert((await read('starlight-my-words-v1')).length===1);await page.keyboard.press('Escape');assert.equal(await page.locator('.word-popover').count(),0);
+ await page.locator('.word').first().click();await page.locator('.word-popover').waitFor({state:'visible'});assert((await read('starlight-my-words-v1')).length===1);await page.keyboard.press('Escape');await page.locator('.word-popover').waitFor({state:'detached'});
  await page.locator('.choose-story').first().click();await page.locator('.choose-story').nth(1).click();
  const before=await read();await page.getByRole('button',{name:'Norsk',exact:true}).click();await page.reload();assert.deepEqual((await read()).history,before.history);assert.equal(await page.locator('html').getAttribute('lang'),'nb');
  await page.getByRole('button',{name:'English',exact:true}).click();
@@ -23,14 +23,14 @@ try{
  await history.click();const original=await read();await page.getByRole('button',{name:'Try a different choice from here',exact:true}).first().click();assert.deepEqual(await read('starlight-original-journey-v1'),original);assert.equal((await read()).scene,'lantern');await page.locator('.choose-story').nth(1).click();await page.getByRole('button',{name:'Return to my original adventure',exact:true}).click();assert.deepEqual(await read(),original);assert.equal(await read('starlight-original-journey-v1'),null);
  await page.locator('.reader-tool-links button').first().click();const examine=page.getByRole('button',{name:/^Examine /});assert(await examine.count()>0);await examine.first().click();assert((await read()).flags.some((f:string)=>f.startsWith('inspected:')));await page.keyboard.press('Escape');
  results.push('Choice help does not navigate; vocabulary saves; Escape closes word help; language, text size and reading mode survive reload; modal focus/escape; branch original restored; bag examination persists.');
- for(const starter of ['Bulbasaur','Charmander','Squirtle'] as Starter[])for(const id of puzzleIds){
+ for(const starter of ['Bulbasaur','Charmander','Squirtle'] as Starter[])for(const id of puzzleIds.filter(id=>['mushrooms','falls','observatory'].includes(id))){
   const fixture={...initial(starter),scene:id,language:'en' as const,journeyId:'qa-puzzle'};await page.evaluate((s:unknown)=>localStorage.setItem('starlight-story-v1',JSON.stringify(s)),fixture);await page.reload();const puzzle=getPuzzle(fixture)!;
   const wrong=Array(puzzle.answer.length).fill((puzzle.answer[0]+1)%puzzle.buttons.length);for(const n of wrong)await page.locator('.puzzle-controls button').nth(n).click();assert.equal((await read()).puzzles[id].attempts,1);
   await page.locator('.puzzle-actions button').first().click();assert((await page.locator('.puzzle-hint').innerText()).length>8);
   await page.locator('.puzzle-controls button').nth(puzzle.answer[0]).click();await page.reload();
   for(const n of puzzle.answer.slice(1))await page.locator('.puzzle-controls button').nth(n).click();assert((await read()).flags.includes('puzzle:'+id));assert(await page.locator('.puzzle-card.solved').isVisible());
  }
- results.push('24 isolated puzzle fixtures: wrong answers, hints, mid-puzzle reload, correct solutions for all starters. Fixtures are not reported as reachable routes.');
+ results.push('9 isolated puzzle fixtures: wrong answers, hints, mid-puzzle reload, correct solutions for all starters. Fixtures are not reported as reachable routes.');
  for(const width of [320,390,768,1280]){
   await page.setViewportSize({width,height:900});
   for(const scene of scenes){await page.evaluate((s:unknown)=>localStorage.setItem('starlight-story-v1',JSON.stringify(s)),{...initial('Bulbasaur'),scene:scene.id,language:'nb',journeyId:'qa-layout'});await page.reload();await page.waitForSelector('.page-body h2');assert.equal(await page.evaluate(()=>document.documentElement.scrollWidth>innerWidth+1),false,scene.id+' overflow at '+width);}

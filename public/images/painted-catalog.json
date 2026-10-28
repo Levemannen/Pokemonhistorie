@@ -835,5 +835,29 @@
     "promptKey": "endAurora-charmander",
     "generator": "built-in image_gen",
     "status": "generated"
+  },
+  "scene-ridge-bulbasaur": {
+    "id": "scene-ridge-bulbasaur",
+    "kind": "stage",
+    "scene": "ridge",
+    "embedded": [],
+    "transparent": false,
+    "starter": "Bulbasaur",
+    "path": "images/scenes/painted/scene-ridge-bulbasaur.png",
+    "promptKey": "scene-ridge-bulbasaur",
+    "generator": "built-in image_gen",
+    "status": "generated"
+  },
+  "scene-ridge-squirtle": {
+    "id": "scene-ridge-squirtle",
+    "kind": "stage",
+    "scene": "ridge",
+    "embedded": [],
+    "transparent": false,
+    "starter": "Squirtle",
+    "path": "images/scenes/painted/scene-ridge-squirtle.png",
+    "promptKey": "scene-ridge-squirtle",
+    "generator": "built-in image_gen",
+    "status": "generated"
   }
 }

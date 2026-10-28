@@ -15,7 +15,7 @@ for(const scene of scenes){
  const entry=manifest.scenes[scene.id];
  entry.fallbackBase??={...entry.base};entry.base={...entry.fallbackBase};delete entry.render;delete entry.embedded;delete entry.variants;
  const shared=`scene-${scene.id}`;
- const reachable=scene.id==='ridge'?['Charmander'] as Starter[]:starters;
+ const reachable=starters;
  let painted=0;
  for(const name of starters){
   const specific=scene.id==='lantern'?`lantern-${name.toLowerCase()}`:`scene-${scene.id}-${name.toLowerCase()}`;

@@ -13,6 +13,8 @@ const variants:Record<string,string>={
 };
 export function illustrationAlt(state:State,path:string):string{
  const key=path.split('/').at(-1)!.replace(/\.\w+$/,'');
+ if(state.scene==='ridge'&&path.endsWith('.svg'))return `A rocky ridge above the forest, with ${state.starter}.`;
+ if(state.scene==='ridge'&&state.starter!=='Charmander')return `A rocky ridge above the forest, with ${state.starter}.`;
  const description=variants[key]||(state.scene==='grove'&&state.flags.includes('puzzle:grove')?scenes.rescue:scenes[state.scene])||'An illustrated scene from the adventure';
  const starter=state.scene==='lantern'||state.scene==='observatory'&&!key.includes('pikachu')?`, with ${state.starter}`:'';
  return description+starter+'.';

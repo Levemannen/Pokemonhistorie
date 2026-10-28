@@ -1,28 +1,5 @@
-import {byId,type State} from './story';
-export type Fate={name:string;symbol:string;text:string;travelled:boolean};
-export function friendFates(state:State):Fate[]{
- if(!byId[state.scene].ending)return [];
- const has=(flag:string)=>state.flags.includes(flag);const fates:Fate[]=[];
- const add=(name:string,symbol:string,text:string)=>fates.push({name,symbol,text,travelled:name===state.starter||state.companions.includes(name)});
- add(state.starter,'✦',`${state.starter} keeps a place beside your backpack, ready for another adventure. ${has('alignment')&&has('puzzle:observatory')?`The observatory still works because you solved its ${state.starter==='Bulbasaur'?'vine cables':state.starter==='Charmander'?'frozen gears':'water counterweights'} together.`:'Your first friend remembers every time you chose to keep going together.'}`);
- if(state.companions.includes('Eevee'))add('Eevee','❧','Eevee no longer hides under Mira’s table. It welcomes shy newcomers to the village, remembering how you welcomed it.');
- if(has('forestGuard'))add('Pikachu','ϟ',has('guardReturned')?'After returning to help your team, Pikachu becomes Moonwood’s lantern guide. It shows lost travelers the way home with gentle sparks.':'Pikachu keeps the promise you trusted it with and guards Moonwood. When you return, safe paths and a cheerful spark are waiting for you.');
- else if(has('rescue')||has('puzzle:grove')||state.companions.includes('Pikachu'))add('Pikachu','ϟ','Pikachu helps loosen tangles of ivy for smaller Pokémon. The rescue you began has become a kindness it passes on.');
- if(has('nest'))add('Hoothoot','◉','The repaired nest becomes home to a new clutch of Hoothoot chicks. Their first lesson is the melody their parent brought you as a thank-you.');
- else if(has('marker'))add('Hoothoot','◉','Mira follows the marker you left and repairs the fallen nest. Its Hoothoot family is safe because you made sure someone could find them.');
- else if(state.companions.includes('Hoothoot'))add('Hoothoot','◉','Hoothoot returns to the hill with stories of your journey. It still saves a friendly hoot for the person who shared a snack.');
- if(has('riverGuard'))add('Lapras','≈','Lapras stays on the river to guide lost travelers, just as you asked. Its song now marks the safest crossings, even for friends who cannot swim.');
- else if(has('riverFriend')||has('clearWater')||state.companions.includes('Lapras'))add('Lapras','≈',has('keptPromise')?'Lapras sings about a promise that became a hidden trail. Every time your team visits, it asks how Lumi and Shinx are doing.':'Lapras keeps the channel you opened clear for other river Pokémon. Your friend always offers you a ride when you return.');
- if(has('duck')||state.companions.includes('Psyduck'))add('Psyduck','♧',has('reedGarden')?'Psyduck tends the star reeds beside your lantern trail. The once-frightened passenger now guides other nervous travelers through their soft light.':has('floatingLanterns')?'Psyduck holds a lantern-making afternoon at the reed workshop every week. Nervous travelers leave with a little light and a new friend.':has('reedGuide')?'Psyduck shares the quiet channel map you made together. Its workshop becomes a restful stop for travelers who prefer a gentle crossing.':has('duckRhythm')?'Psyduck teaches its calming rhythm at the ferry. “One note at a time,” it tells every nervous new passenger.':'Psyduck helps other worried Pokémon onto the ferry, remembering that you let it cross first.');
- if(has('feather')||has('craft')||has('counsel')||has('flockGuide'))add('Altaria','☁',has('flockGuide')?'Altaria’s lost flock learns the cloud-platform route you helped them find. The wind-watch perch becomes a meeting place for young explorers.':has('craft')?'Altaria fills the berry bowl you repaired for every hungry traveler. She leaves a space at the sheltered nook for your team.':has('counsel')?'Altaria passes on what you taught her about listening to frightened friends. Her sheltered nook becomes a place where nobody has to pretend to be brave.':'Altaria remembers the food you shared and grows more cloudberries for the next traveler. A soft feather marks your favorite seat.');
- if(has('humor')||has('honest'))add('Gastly','◌',has('humor')?'Gastly turns the hollow tree into a friendly story club. Visitors can trade a tale for a discovery in the Echo Archive.':'Gastly changes its confusing tricks into helpful trail signs. It still enjoys a joke, but now it checks that everyone is laughing.');
- const resolutions:Record<string,[string,string]>={
-  endDawn:['Lumi becomes Mira’s festival helper, keeping one lantern ready for anyone still on the road.','Shinx’s paw heals with Mira’s care. It practices a small, proud walk at the next festival.'],
-  endAurora:['Lumi learns that she can ask friends for warmth instead of holding the whole sky. She watches each aurora with your team.','Shinx’s warm nest gives it time to rest and heal. Its first playful leap happens beneath the ribbon of lights you released.'],
-  endSong:['Lumi joins the riverbank choir and teaches younger Pokémon to listen before singing.','Shinx learns a gentle harmony for your river song. Its healing paw taps along whenever the first three notes begin.'],
-  endSanctuary:['Lumi keeps the tower sanctuary open to frightened and lost visitors. She asks for help when a night feels too heavy.','Shinx becomes the sanctuary’s cheerful greeter after its paw heals. It knows how much a warm welcome can matter.'],
-  endLantern:['Lumi helps share the festival lanterns among every home, so nobody carries the light alone.','Shinx recovers beside its new village friends. At the next parade, it carries a little lantern of its own.'],
-  endGarden:['Lumi keeps a garden journal and takes turns tending the living starlight with your team.','Shinx rests beneath the constellation tree while its paw heals. Soon it is showing little Pokémon where the softest grass grows.']
- };
- const ending=resolutions[state.scene];add('Lumi','✧',ending[0]);add('Shinx','ϟ',ending[1]);return fates;
-}
+import * as legacy from './legacyEpilogues';
+import * as edition from './editionEpilogues';
+import type {State} from './story';
+export type {Fate} from './legacyEpilogues';
+export const friendFates=(state:State)=>state.world?edition.friendFates(state):legacy.friendFates(state);

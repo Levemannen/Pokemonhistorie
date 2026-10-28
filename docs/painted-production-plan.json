@@ -655,6 +655,24 @@
       "optional": false,
       "sourceId": "scene-island",
       "editPrompt": "Use case: precise-object-edit. Image 1 is the finished scene to edit. Add exactly one friendly Psyduck sitting on the island beside the child, outside the projected memory. Keep the crescent lens and the translucent memory of Clefairy helping Shinx completely intact. Preserve the exact child, pose, clothing, scenery, perspective, starless sky, moon, lighting and detailed storybook painting quality. Match the added Pokémon's size, light and contact shadows naturally to the scene. No Bulbasaur, Charmander or Squirtle. Change only what is necessary to add the named friend. No text, watermark or panels. One finished 2:1 scene."
+    },
+    {
+      "id": "scene-ridge-bulbasaur",
+      "kind": "stage",
+      "scene": "ridge",
+      "embedded": [],
+      "transparent": false,
+      "starter": "Bulbasaur",
+      "prompt": "Use case: precise-object-edit. Asset: finished local illustration for a children's Pokémon storybook. Input image is the EDIT TARGET. Create the Bulbasaur version of this exact wide 2:1 ridge scene. Replace ONLY Charmander with recognizable Bulbasaur: small turquoise-green quadruped, darker green patches, large red eyes, rounded broad face and large closed green bulb on its back. Same approximate placement and scale, looking warmly toward the feather beneath the fallen branch. Remove all orange Charmander parts, tail and flame completely. Preserve the same child explorer's identity, face, navy-and-cream cap, mustard jacket, teal backpack, crouching pose, hands, fallen branch, feather, rocks, nest, distant village and river, moon, completely starless blue night sky, framing and rich professional painterly animated storybook detail. Retain warm foreground lighting, motivated by a small shielded lantern near the child's left boot rather than a Pokémon flame. Bulbasaur has correct four-legged anatomy and no extra limbs. No additional Pokémon. No writing, watermark, collage, or panels. Finished polished illustration, opaque background."
+    },
+    {
+      "id": "scene-ridge-squirtle",
+      "kind": "stage",
+      "scene": "ridge",
+      "embedded": [],
+      "transparent": false,
+      "starter": "Squirtle",
+      "prompt": "Use case: precise-object-edit. Asset: finished local illustration for a children's Pokémon storybook. Input image is the EDIT TARGET. Create the Squirtle version of this exact wide 2:1 ridge scene. Replace ONLY Charmander with recognizable Squirtle: small light-blue turtle Pokémon, warm brown shell with cream rim, cream segmented belly, expressive large violet-brown eyes and curled blue tail. Same approximate placement and scale, looking warmly toward the feather beneath the fallen branch. Remove all orange Charmander parts, tail and flame completely. Preserve the same child explorer's identity, face, navy-and-cream cap, mustard jacket, teal backpack, crouching pose, hands, fallen branch, feather, rocks, nest, distant village and river, moon, completely starless blue night sky, framing and rich professional painterly animated storybook detail. Retain warm foreground lighting, motivated by a small enclosed amber lantern near the child's boot rather than a Pokémon flame. Squirtle has correct anatomy, two arms and two legs, no extra limbs. No additional Pokémon. No writing, watermark, collage, or panels. Finished polished illustration, opaque background."
     }
   ]
 }

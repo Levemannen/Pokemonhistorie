@@ -23,17 +23,17 @@ Push this project to the `main` branch of a GitHub repository. In the repository
 
 Every choice now has its own action result leading into the next scene. The story runs directly between chapters, with important companion reactions woven into the prose. See [all transitions](docs/STORY-TRANSITIONS.md).
 
-39 scenes, five chapters, 104 authored choices, and six endings. Choose Bulbasaur, Charmander or Squirtle; starter abilities unlock different paths. Decisions preserve clues, tools, promises and recruited companions. Some grant later options, while scene-specific consequences and collected companions change the text and illustration layers. All six endings are available to each starter, with additional routes unlocked by prior choices. No combat, punishment, purchases, or timed reading.
+Edition 2.1 has 39 scenes, five chapters, 118 authored choices, and six endings, fully available in English and Norwegian Bokmål. Choose Bulbasaur, Charmander or Squirtle; starter abilities unlock different paths. Decisions preserve clues, tools, promises and explicitly recruited companions. All six endings are available to each starter. Existing saves continue in the previous edition without converting their flags into new story facts. See [edition notes and limitations](docs/EDITION-2.1.md). No combat, punishment, purchases, or timed reading.
 
-- **Read to me:** optional browser speech synthesis, English at a gentle pace. Available voices and offline support depend on the browser/OS; the app calls no narration API. Playback requires a click, stops at scene changes, and can be stopped immediately.
-- **Word explorer:** 74 bilingual English/Bokmål definitions; underlined story words open it. All 104 choices have optional Norwegian help and separate playback.
-- **Your journey:** chronological, read-only record of visited pages and decisions.
+- **Read to me:** optional English or Norwegian browser speech synthesis, with slower reading speeds. Available voices and offline support depend on the browser/OS; the app calls no narration API. Playback requires a click, stops at scene changes, and can be stopped immediately.
+- **Word explorer:** bilingual English/Bokmål definitions beside underlined English words. All 118 choices have optional language help and separate playback.
+- **Your journey:** chronological record with historical state snapshots and safe branching while keeping the original journey.
 - **Companions:** starter plus recruited Pokémon remain beside you.
 - **Local save:** automatically resumes on the same browser/device. Endings stay collected when starting again. Clearing browser storage removes progress. If storage is blocked, the app remains playable and shows a warning.
 
 ## Art pipeline
 
-The storybook now supports **prepared AI illustrations for all 39 scenes, with clearly labeled SVG recovery if an image fails to load**. Generated paintings are stored in `public/images/scenes/painted/`. Most scenes share one illustration across all three starters, focusing on the location, discovery, or encounter. The opening and observatory use starter-specific paintings; important companions and decisions can select alternate scenes. Original SVGs remain available for loading recovery. The app uses only local prebuilt assets and never generates artwork during play.
+The storybook has prepared AI illustrations for all 39 locations, with clearly labeled SVG recovery if an image fails to load. The ridge now has matching prepared paintings for Bulbasaur, Charmander and Squirtle. Generated paintings are stored in `public/images/scenes/painted/`. Most scenes share one illustration across all three starters, focusing on the location, discovery, or encounter. The opening and observatory use starter-specific paintings; important companions and decisions select alternate scenes. The app uses only local prebuilt assets and never generates artwork during play.
 
 `public/images/illustration-manifest.json` maps each scene, starter, companion, and major decision to local artwork and records actual painted coverage. `public/images/painted-prompts.json` contains the detailed painting prompts; `public/images/painted-catalog.json` records saved generated files. `public/images/illustration-prompts.json` also retains the original fallback prompts. See [artwork production notes](docs/ARTWORK.md). `pnpm art` regenerates SVG fallbacks and reapplies registered paintings to the manifest.
 
@@ -44,15 +44,15 @@ pnpm test
 pnpm build
 ```
 
-`pnpm test:full` additionally checks rendered text/art variants and serves the production files under `/Pokemonhistorie/` to verify repository-subpath deployment. `pnpm export:story` refreshes the third-party review package, including 18 Norwegian reading routes.
+`pnpm test:full` additionally builds and serves the production files under `/Pokemonhistorie/` to verify repository-subpath deployment. `pnpm export:story` refreshes the third-party review package, including 18 English and 18 Norwegian reading routes.
 
 ## Norwegian and English
 
-Choose **Norsk** or **English** above the book before starting, or change language during the journey. Language is saved locally with progress. The story, choices, puzzles and tools use the local `src/nb.json` translation catalog; no translation service is called. Narration requests `nb-NO` or `en-US` and depends on voices installed in the browser/device. The vocabulary notebook deliberately keeps English words and example sentences alongside Norwegian meanings.
+Choose **Norsk** or **English** above the book before starting, or change language during the journey. Language is saved locally with progress. Local catalogs are `src/manuscript-nb.json`, `src/edition-ui-nb.json` and `src/nb.json`; no translation service is called. Narration requests `nb-NO` or `en-US` and depends on voices installed in the browser/device. The vocabulary notebook deliberately keeps English words and example sentences alongside Norwegian meanings.
 
 See [the 100-point development report](docs/DEVELOPMENT-REVIEW.md) for implemented changes, partial items, test evidence and manual checks still needed.
 
-The [latest quality-control report](docs/QUALITY-CONTROL-2026-10-27.md) includes 36 complete browser journeys, narrow-screen tests, storage/error recovery, and the distinction between tested speech wiring and real-device audio quality.
+See [the revised edition quality report](docs/QUALITY-CONTROL-EDITION-2.1.md) for current checks. The earlier October 27 report describes the previous edition.
 
 The story checker explores future-relevant state combinations, checks every authored choice and scene is reachable, checks there are no dead ends, preserves companions and decisions, validates local art/prompt references, and proves all six endings are reachable with each starter. `verification-report.json` records example complete routes for every ending and starter. Browser checks should additionally cover narration on your own device, saved progress, mobile layout, keyboard interaction, and the deployed Pages URL.
 

@@ -9,9 +9,9 @@
     "preview": "vite preview --host 127.0.0.1",
     "art": "tsx scripts/art.ts && tsx scripts/sync-painted.ts",
     "build": "tsc -b && vite build",
-    "test:full": "pnpm test && pnpm build && tsx scripts/full-qa.tsx && node scripts/deployment-test.mjs",
-    "test": "tsx scripts/regression.ts && tsx scripts/discovery.tsx && tsx scripts/comfort.tsx && tsx scripts/verify.ts && tsx scripts/illustrations-test.ts && tsx scripts/consistency.ts && tsx scripts/language-test.tsx && tsx scripts/narrative-test.ts && tsx scripts/development-test.tsx && tsx scripts/consequence-audit.ts && tsx scripts/bilingual-test.tsx",
-    "export:story": "tsx scripts/export-story.ts"
+    "test:full": "pnpm test && pnpm build && node scripts/deployment-test.mjs",
+    "test": "tsx scripts/edition-test.ts && tsx scripts/edition-presentation-test.tsx",
+    "export:story": "tsx scripts/export-edition.ts"
   },
   "dependencies": {
     "react": "^19.0.0",

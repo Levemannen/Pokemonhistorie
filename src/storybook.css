@@ -52,3 +52,6 @@
 .language-picker{display:flex;align-items:center;justify-content:center;gap:10px;flex-wrap:wrap;margin:18px auto;color:#425649;font-size:14px}
 .language-picker button{min-height:44px;min-width:88px;border:1px solid #b6bca6;border-radius:20px;background:#fffaf0;color:#344b39;padding:8px 16px}
 .language-picker button[aria-pressed=true]{background:#465f44;color:white;border-color:#465f44}
+
+/* Preserve the manuscript’s distinct arrival and narrative paragraphs. */
+.story-text{white-space:pre-line}

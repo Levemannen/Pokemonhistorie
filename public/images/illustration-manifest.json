@@ -95,9 +95,9 @@
     },
     "ridge": {
       "base": {
-        "Bulbasaur": "images/scenes/ridge-bulbasaur.svg",
+        "Bulbasaur": "images/scenes/painted/scene-ridge-bulbasaur.png",
         "Charmander": "images/scenes/painted/scene-ridge-charmander.png",
-        "Squirtle": "images/scenes/ridge-squirtle.svg"
+        "Squirtle": "images/scenes/painted/scene-ridge-squirtle.png"
       },
       "visualSituation": "nest",
       "promptKeys": [
@@ -939,8 +939,8 @@
   "coverage": {
     "paintedScenes": 39,
     "totalScenes": 39,
-    "completedAssets": 58,
-    "plannedAssets": 59,
+    "completedAssets": 60,
+    "plannedAssets": 61,
     "optionalAssets": 6
   }
 }

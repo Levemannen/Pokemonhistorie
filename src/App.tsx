@@ -1,4 +1,5 @@
 import { t } from './i18n';
+import {chapters as legacyChapters} from './legacyStory';
 import { translate, setLanguage, type Language } from './i18n';
 import { StoryExtras } from './StoryExtras';
 import { branchAt, downloadJourney } from './journeyReview';
@@ -59,6 +60,7 @@ export default function App() {
     const [storageErrors, setStorageErrors] = useState<string[]>([]), [narrating, setNarrating] = useState(false), [speechMessage, setSpeechMessage] = useState(''), [activeSentence, setActiveSentence] = useState('');
     const [pace, setPace] = useState(() => { const value = Number(stored(keys.pace) || '.8'); return [1, .8, .65].includes(value) ? value : .8; });
     const heading = useRef<HTMLHeadingElement>(null), returnFocus = useRef<HTMLElement | null>(null), utterance = useRef<SpeechSynthesisUtterance | null>(null);
+    const chapterTitles=game&&!game.world?legacyChapters:chapters;
     const scene = game ? byId[game.scene] : null;
     const text = scene && game ? translate(storyText(scene, game), language) : '';
     function changeLanguage(next: Language) { stopSpeech(); setLanguage(next); setLocale(next); try {
@@ -230,6 +232,7 @@ export default function App() {
             return;
         stopSpeech();
         try {
+            if(game&&!game.world&&!originalJourney){localStorage.setItem('starlight-original-journey-v1',JSON.stringify(game));setOriginalJourney(game);}
             localStorage.removeItem(keys.game);
         }
         catch {
@@ -272,7 +275,8 @@ export default function App() {
    <ReaderControls preferences={reader} onChange={setReader} openBag={() => openPanel('bag')} openWords={() => openPanel('words')}/>
    {t(originalJourney && <p className="branch-notice" role="status">{t("You are exploring another path. Your original adventure is safe. ")}<button className="small-action" onClick={returnToOriginal}>{t("Return to my original adventure")}</button></p>)}
    <div className="book-layout"><div className="book-column">
-    <div className="chapter-bar"><span className="chapter-dot">{t(game ? scene!.chapter : '✦')}</span><span>{t(game ? `CHAPTER ${scene!.chapter} OF 5` : 'YOUR ADVENTURE AWAITS')}<strong>{t(game ? chapters[scene!.chapter - 1] : 'Every great story begins with a friend.')}</strong></span><span className="page-count">{t(game ? `${game.history.length + 1} pages explored` : '5 chapters · 6 endings')}</span></div>
+    {game&&!game.world&&<p className="branch-notice">{t("You are continuing the previous edition. Your saved choices are preserved.")}</p>}
+    <div className="chapter-bar"><span className="chapter-dot">{t(game ? scene!.chapter : '✦')}</span><span>{t(game ? `CHAPTER ${scene!.chapter} OF 5` : 'YOUR ADVENTURE AWAITS')}<strong>{t(game ? chapterTitles[scene!.chapter - 1] : 'Every great story begins with a friend.')}</strong></span><span className="page-count">{t(game ? `${game.history.length + 1} pages explored` : '5 chapters · 6 endings')}</span></div>
     <article className="storybook">
      <SceneArtwork manifest={manifest} state={artworkState} imageUrl={url} className="illustration" onError={() => setArtError(true)}><div className="art-badge">{t("\u2727 ")}{t(scene?.ending ? 'A new ending to treasure' : game ? 'The adventure is yours' : 'A world of wonder awaits')}</div></SceneArtwork>
      <div className="page-body">
@@ -294,7 +298,7 @@ export default function App() {
     {t(storageErrors.length > 0 && <div className="storage-notice" role="status">{t("This browser could not save some changes. Keep this tab open; your journey and collections are still here for now.")}<button onClick={retrySaving}>{t("Retry saving")}</button></div>)}
    </div><aside>
     <div className="side-card companion-card"><div className="side-eyebrow">{t("YOUR TRAVELING FRIENDS")}</div><h3>{t("A little team.")}<br />{t("A big adventure.")}</h3><div className={`companion-avatar ${displayStarter.toLowerCase()}`}>{t(icons[displayStarter])}</div><h4>{t(displayStarter)}</h4><span className="friend-tag">{t(game ? 'YOUR FIRST COMPANION' : 'READY TO MEET YOU')}</span><p>{t(displayStarter === 'Bulbasaur' ? 'A steady heart and a knack for helping things grow.' : displayStarter === 'Charmander' ? 'A warm heart and a light for even the darkest path.' : 'A curious heart and a clever way with water.')}</p>{t(game && <><div className="friend-list">{t([...new Set([...game.companions, ...visibleCompanions(game)])].length ? [...new Set([...game.companions, ...visibleCompanions(game)])].map(name => <div key={name}><span>{t(icons[name])}</span><strong>{t(name)}</strong><small>{t(name === 'Lapras' && scene?.setting !== 'river' ? 'Your friend on the river' : game.companions.includes(name) ? 'Traveling with you' : 'Visiting to help')}</small></div>) : <span className="quiet">{t("There\u2019s room for new friends along the way.")}</span>)}</div><p className="companion-dialogue">{t(companionLine(game))}</p></>)}</div>
-    <div className="side-card map-card"><div className="side-eyebrow">{t("THE PATH AHEAD")}</div><ol>{t(chapters.map((title, i) => <li key={title} className={game && scene!.chapter === i + 1 ? 'current' : game && scene!.chapter > i + 1 ? 'complete' : ''}><span>{t(game && scene!.chapter > i + 1 ? '✓' : i + 1)}</span><div><small>{t("CHAPTER ")}{t(i + 1)}</small>{t(title)}</div></li>))}</ol><button className="open-travel-map" onClick={() => openPanel('map')}>{t("\u2316 Open your travel map")}</button></div><div className="tip"><span>{t("\u2727")}</span><p>{t("There\u2019s no perfect path.")}<br />{t("Only the story ")}<em>{t("you")}</em>{t(" make.")}</p></div>{t(game && <button className="restart" onClick={openRestart}>{t("\u21BB Start a new adventure")}</button>)}
+    <div className="side-card map-card"><div className="side-eyebrow">{t("THE PATH AHEAD")}</div><ol>{t(chapterTitles.map((title, i) => <li key={title} className={game && scene!.chapter === i + 1 ? 'current' : game && scene!.chapter > i + 1 ? 'complete' : ''}><span>{t(game && scene!.chapter > i + 1 ? '✓' : i + 1)}</span><div><small>{t("CHAPTER ")}{t(i + 1)}</small>{t(title)}</div></li>))}</ol><button className="open-travel-map" onClick={() => openPanel('map')}>{t("\u2316 Open your travel map")}</button></div><div className="tip"><span>{t("\u2727")}</span><p>{t("There\u2019s no perfect path.")}<br />{t("Only the story ")}<em>{t("you")}</em>{t(" make.")}</p></div>{t(game && <button className="restart" onClick={openRestart}>{t("\u21BB Start a new adventure")}</button>)}
    </aside></div>
    <footer><span>{t("\u2726")}</span>{t("A fan-made adventure, made with imagination.")}<small>{t("Pok\u00E9mon belongs to its respective owners. Artwork prepared locally \u00B7 No images generated during play \u00B7 No ads or tracking.")}</small>{t(artError && <p role="status">{t("An illustration could not load. Try refreshing this page.")}</p>)}</footer>
   </main>

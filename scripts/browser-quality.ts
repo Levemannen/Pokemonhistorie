@@ -4,7 +4,7 @@ import {pathToFileURL} from 'node:url';
 import {initial,available,advance,byId,storyText,type State,type Starter} from '../src/story';
 import {getPuzzle} from '../src/puzzles';
 import {restoreSave} from '../src/save';
-import {translate} from '../src/i18n';
+import {translate,setLanguage} from '../src/i18n';
 import {resolveIllustration} from '../src/illustrations';
 const {chromium}=await import(pathToFileURL(process.env.PLAYWRIGHT_MODULE!).href);
 const browser=await chromium.launch({executablePath:process.env.BROWSER_EXECUTABLE,headless:true});
@@ -16,7 +16,7 @@ const widths=[375,768,1440];const normalize=(s:string)=>s.replace(/\s+/g,' ').tr
 const stateOf=(page:any):Promise<State>=>page.evaluate(()=>JSON.parse(localStorage.getItem('starlight-story-v1')!));
 try{
  for(const language of ['en','nb'] as const)for(const starter of ['Bulbasaur','Charmander','Squirtle'] as Starter[])for(const [ending,steps] of Object.entries(proof.reachableRoutes[starter]) as [string,string[]][]){
-  const width=widths[routes%3];const context=await browser.newContext({viewport:{width,height:900},reducedMotion:'reduce'});const page=await context.newPage();
+  setLanguage(language);const width=widths[routes%3];const context=await browser.newContext({viewport:{width,height:900},reducedMotion:'reduce'});const page=await context.newPage();
   page.on('pageerror',(e:Error)=>errors.push(e.message));
   try{
    await page.goto('http://127.0.0.1:4173/');

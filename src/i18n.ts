@@ -1,9 +1,20 @@
 import norwegian from './nb.json';
+import manuscript from './manuscript-v2.json';
+import revisedNorwegian from './manuscript-nb.json';
+import editionUi from './edition-ui-nb.json';
 export type Language='en'|'nb';
 let language:Language='en';
 export const getLanguage=()=>language;
 export function setLanguage(value:Language){language=value;}
-const dictionary=norwegian as Record<string,string>;
+const dictionary:Record<string,string>={...norwegian,...editionUi};
+type LocalScene={title:string;body:string;choices:string[][];variants:string[]};
+const revised=revisedNorwegian as Record<string,LocalScene>;
+for(const scene of manuscript){
+ const nb=revised[scene.id];if(!nb)continue;
+ dictionary[scene.title]=nb.title;dictionary[scene.body]=nb.body;
+ scene.choices.forEach((choice,i)=>{if(nb.choices[i]){dictionary[choice.label]=nb.choices[i][0];dictionary[choice.immediateText]=nb.choices[i][1];}});
+ Object.values(scene.variants).forEach((text,i)=>{if(text&&nb.variants[i])dictionary[text]=nb.variants[i];});
+}
 const escape=(s:string)=>s.replace(/[.*+?^${}()|[\]\\]/g,'\\$&');
 const entries=Object.entries(dictionary).sort((a,b)=>b[0].length-a[0].length);
 const lower=new Map(entries.map(([en,nb])=>[en.toLocaleLowerCase('en'),nb]));

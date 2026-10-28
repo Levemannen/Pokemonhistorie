@@ -1,0 +1,9 @@
+{
+  "passed": true,
+  "checks": [
+    "Legacy saved journey retains original choices and history",
+    "Legacy choice advances with legacy engine",
+    "Starting revised edition keeps an original backup",
+    "Return button restores legacy state exactly"
+  ]
+}

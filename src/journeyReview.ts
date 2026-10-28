@@ -1,10 +1,10 @@
 import {translate} from './i18n';
-import {byId,initial,storyText,historyChoiceText,type State} from './story';
+import {byId,historicalState,storyText,historyChoiceText,type State} from './story';
 
 /** Historic flags are snapshots taken before the choice, so future knowledge stays behind. */
 export function branchAt(game:State,index:number):State|null{
  const entry=game.history[index];if(!entry||!entry.flags||!entry.companions)return null;
- return {...initial(game.starter),scene:entry.scene,language:game.language,flags:[...entry.flags],companions:[...entry.companions],history:game.history.slice(0,index).map(h=>({...h,flags:h.flags&&[...h.flags],companions:h.companions&&[...h.companions]})),journeyId:globalThis.crypto?.randomUUID?.()||`branch-${Date.now()}`};
+ return {...historicalState(game,index),journeyId:globalThis.crypto?.randomUUID?.()||`branch-${Date.now()}`};
 }
 export function journeyText(game:State):string{
  const lines=['Pokémon – The Mystery of the Lost Starlight',`An adventure with ${game.starter}`,''];
