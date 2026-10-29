@@ -56,3 +56,18 @@
   .app-shell > header { height: auto; min-height: 75px; flex-wrap: wrap; gap: 8px; padding: 12px 18px; }
   .app-shell > header nav { margin-left: auto; max-width: 100%; flex-wrap: wrap; }
 }
+
+/* A visible restart action remains available when reading mode hides the side rail. */
+.app-shell .reader-controls > .reader-restart {
+  min-height: 44px;
+  padding: 8px 16px;
+  border: 1px solid #9a875d;
+  border-radius: 7px;
+  background: #fff9eb;
+  color: #57472b;
+  font-size: 14px;
+  white-space: nowrap;
+}
+.app-shell .reader-controls > .reader-restart:hover { background: #f2e8d1; }
+.app-shell .reader-controls > .reader-restart:focus-visible { outline: 3px solid #665333; outline-offset: 3px; }
+

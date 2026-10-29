@@ -275,7 +275,7 @@ export default function App() {
    <p className="subtitle">{t("A little courage. A faithful friend. A sky waiting to shine again.")}</p>
    <section className="language-picker" aria-label={t("Language / Språk")}><span>{t("Language / Spr\u00E5k")}</span><button lang="nb" aria-pressed={language === 'nb'} onClick={() => changeLanguage('nb')}>{t("Norsk")}</button><button lang="en" aria-pressed={language === 'en'} onClick={() => changeLanguage('en')}>{t("English")}</button></section>
    <AppInstall language={language}/>
-   <ReaderControls preferences={reader} onChange={setReader} openBag={() => openPanel('bag')} openWords={() => openPanel('words')}/>
+   <ReaderControls preferences={reader} onChange={setReader} openBag={() => openPanel('bag')} openWords={() => openPanel('words')} onRestart={game ? openRestart : undefined}/>
    {t(originalJourney && <p className="branch-notice" role="status">{t("You are exploring another path. Your original adventure is safe. ")}<button className="small-action" onClick={returnToOriginal}>{t("Return to my original adventure")}</button></p>)}
    <div className="book-layout"><div className="book-column">
     {game&&!game.world&&<p className="branch-notice">{t("You are continuing the previous edition. Your saved choices are preserved.")}</p>}
