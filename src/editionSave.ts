@@ -12,6 +12,15 @@ function validWorld(v:unknown):v is WorldState{
  w.visited.every(id=>Boolean(byId[id]))&&typeof w.arrivalMode==='string'&&
  (w.lastChoiceId===null||typeof w.lastChoiceId==='string'&&Boolean(choicesById[w.lastChoiceId]));
 }
+/** Corrections justified only by recorded choices, also for historical snapshots. */
+function editorialWorld(source:WorldState,choices:string[]):WorldState{
+ const w=structuredClone(source);
+ if(choices.includes('hill.3'))w.flags.nest='saved';
+ if(choices.includes('lumi.2')&&w.items.includes('letter')){
+  w.items=w.items.filter(id=>id!=='letter');w.usedItems=[...new Set([...w.usedItems,'letter'])];
+ }
+ return w;
+}
 /** Missing edition means legacy: never infer new facts from old flags. */
 export function restoreSave(raw:string|null):State|null{
  try{
@@ -20,6 +29,7 @@ export function restoreSave(raw:string|null):State|null{
   if(!validWorld(value.world))return null;
   const base=restoreLegacy(raw);if(!base)return null;
   if(!value.history.every((h:State['history'][number])=>validWorld(h.world)&&typeof h.choiceId==='string'&&Boolean(choicesById[h.choiceId])&&byId[h.scene]?.choices.some(c=>c.id===h.choiceId)))return null;
-  return {...base,world:structuredClone(value.world),companions:[...value.world.partyTraveling],history:value.history.map((h:State['history'][number])=>({...h,world:structuredClone(h.world),flags:[...h.flags||[]],companions:[...h.world!.partyTraveling]}))};
+  const ids=value.history.map((h:State['history'][number])=>h.choiceId!);
+  return {...base,world:editorialWorld(value.world,ids),companions:[...value.world.partyTraveling],history:value.history.map((h:State['history'][number],index:number)=>({...h,world:editorialWorld(h.world!,ids.slice(0,index)),flags:[...h.flags||[]],companions:[...h.world!.partyTraveling]}))};
  }catch{return null;}
 }

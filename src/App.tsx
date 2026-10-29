@@ -64,7 +64,7 @@ export default function App() {
     const heading = useRef<HTMLHeadingElement>(null), returnFocus = useRef<HTMLElement | null>(null), utterance = useRef<SpeechSynthesisUtterance | null>(null);
     const chapterTitles=game&&!game.world?legacyChapters:chapters;
     const scene = game ? byId[game.scene] : null;
-    const text = scene && game ? translate(storyText(scene, game), language) : '';
+    const text = scene && game ? game.world?storyText(scene,game):translate(storyText(scene, game), language) : '';
     function changeLanguage(next: Language) { stopSpeech(); setLanguage(next); setLocale(next); try {
         localStorage.setItem('starlight-language', next);
     }

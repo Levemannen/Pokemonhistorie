@@ -115,9 +115,9 @@
     },
     "brook": {
       "base": {
-        "Bulbasaur": "images/scenes/painted/scene-brook.png",
-        "Charmander": "images/scenes/painted/scene-brook.png",
-        "Squirtle": "images/scenes/painted/scene-brook.png"
+        "Bulbasaur": "images/scenes/painted/scene-brook-v3.png",
+        "Charmander": "images/scenes/painted/scene-brook-v3.png",
+        "Squirtle": "images/scenes/painted/scene-brook-v3.png"
       },
       "visualSituation": "bottle",
       "promptKeys": [
@@ -201,9 +201,9 @@
     },
     "hollow": {
       "base": {
-        "Bulbasaur": "images/scenes/painted/scene-hollow.png",
-        "Charmander": "images/scenes/painted/scene-hollow.png",
-        "Squirtle": "images/scenes/painted/scene-hollow.png"
+        "Bulbasaur": "images/scenes/painted/scene-hollow-v3.png",
+        "Charmander": "images/scenes/painted/scene-hollow-v3.png",
+        "Squirtle": "images/scenes/painted/scene-hollow-v3.png"
       },
       "visualSituation": "ghost",
       "promptKeys": [
@@ -347,9 +347,9 @@
     },
     "cave": {
       "base": {
-        "Bulbasaur": "images/scenes/painted/scene-cave.png",
-        "Charmander": "images/scenes/painted/scene-cave.png",
-        "Squirtle": "images/scenes/painted/scene-cave.png"
+        "Bulbasaur": "images/scenes/painted/scene-cave-v3.png",
+        "Charmander": "images/scenes/painted/scene-cave-v3.png",
+        "Squirtle": "images/scenes/painted/scene-cave-v3.png"
       },
       "visualSituation": "notebook",
       "promptKeys": [
@@ -424,9 +424,9 @@
     },
     "stairs": {
       "base": {
-        "Bulbasaur": "images/scenes/painted/scene-stairs.png",
-        "Charmander": "images/scenes/painted/scene-stairs.png",
-        "Squirtle": "images/scenes/painted/scene-stairs.png"
+        "Bulbasaur": "images/scenes/painted/scene-stairs-v3.png",
+        "Charmander": "images/scenes/painted/scene-stairs-v3.png",
+        "Squirtle": "images/scenes/painted/scene-stairs-v3.png"
       },
       "visualSituation": "scarf",
       "promptKeys": [
@@ -496,9 +496,9 @@
     },
     "roof": {
       "base": {
-        "Bulbasaur": "images/scenes/painted/scene-roof.png",
-        "Charmander": "images/scenes/painted/scene-roof.png",
-        "Squirtle": "images/scenes/painted/scene-roof.png"
+        "Bulbasaur": "images/scenes/painted/scene-roof-v3.png",
+        "Charmander": "images/scenes/painted/scene-roof-v3.png",
+        "Squirtle": "images/scenes/painted/scene-roof-v3.png"
       },
       "visualSituation": "constellation",
       "promptKeys": [
@@ -514,7 +514,7 @@
       "render": "painted-baked",
       "variants": [
         {
-          "path": "images/scenes/painted/roof-flock.png",
+          "path": "images/scenes/painted/roof-flock-v3.png",
           "needs": "flockGuide",
           "priority": 10
         }
@@ -522,9 +522,9 @@
     },
     "tower": {
       "base": {
-        "Bulbasaur": "images/scenes/painted/scene-tower.png",
-        "Charmander": "images/scenes/painted/scene-tower.png",
-        "Squirtle": "images/scenes/painted/scene-tower.png"
+        "Bulbasaur": "images/scenes/painted/scene-tower-v3.png",
+        "Charmander": "images/scenes/painted/scene-tower-v3.png",
+        "Squirtle": "images/scenes/painted/scene-tower-v3.png"
       },
       "visualSituation": "door",
       "promptKeys": [
@@ -822,9 +822,9 @@
     },
     "echoArchive": {
       "base": {
-        "Bulbasaur": "images/scenes/painted/scene-echoArchive.png",
-        "Charmander": "images/scenes/painted/scene-echoArchive.png",
-        "Squirtle": "images/scenes/painted/scene-echoArchive.png"
+        "Bulbasaur": "images/scenes/painted/scene-echoArchive-v3.png",
+        "Charmander": "images/scenes/painted/scene-echoArchive-v3.png",
+        "Squirtle": "images/scenes/painted/scene-echoArchive-v3.png"
       },
       "visualSituation": "notebook",
       "promptKeys": [

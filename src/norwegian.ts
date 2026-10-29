@@ -1,5 +1,5 @@
 import {byId,type Choice} from './legacyStory';
-import {translate} from './i18n';
+import {norwegianChoice} from './storyLocale';
 export const norwegianWords:Record<string,string>={
  causeway:'steinvei over grunt vann',astronomer:'astronom – en som studerer stjerner og verdensrommet',platform:'plattform – et flatt sted å stå',channel:'kanal – et løp som vann kan renne gjennom',nook:'liten, skjermet krok',ribbon:'bånd',footprints:'fotspor',shelter:'ly eller et beskyttet sted',
  crescent:'halvmåneform',constellation:'stjernebilde',sanctuary:'trygt tilfluktssted',observatory:'observatorium – et sted for å studere stjerner',rune:'rune – et skrevet eller risset tegn',lens:'linse',meteor:'meteor – et lysende stjerneskudd',reflection:'speilbilde',pedestal:'sokkel',aurora:'nordlys eller sørlys',frayed:'frynsete',rhythm:'rytme',ivy:'eføy – en klatreplante',frost:'rim',empathy:'empati – å forstå hvordan andre har det',
@@ -43,7 +43,7 @@ const translations:Record<string,string[]>={
  earth:['Plant en stjernelyshage i Willowbrook.','La Bulbasaur dyrke en levende himmelplante.','Spar frøet og lag et tilfluktssted i tårnet.','Plant stjernesiv langs Psyducks lyktesti.'],
 };
 export function choiceNorwegian(scene:string,choice:Choice,starter:string):string{
- if(choice.id)return translate(choice.label,'nb');
+ if(choice.id)return norwegianChoice(choice.id)||'';
  const index=byId[scene]?.choices.indexOf(choice)??-1;
  return (translations[scene]?.[index]||'').replaceAll('{starter}',starter);
 }

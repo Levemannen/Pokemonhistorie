@@ -1,7 +1,8 @@
 import type {State} from './story';
 import type {BagItem} from './legacyInventory';
+import {seedLocation} from './seedLocation';
 const descriptions:Record<string,[string,string,string,BagItem['kind']]>={
- silverSeed:['Silver seed','✦','An emergency key from the Starlight Glass. It stays in your belt pouch until the Glass is safe.','Keepsake'],
+ silverSeed:['Silver seed','✦','An emergency key from the Starlight Glass that can grow into a plant holding gentle warmth.','Keepsake'],
  lantern:['Lantern','✧','Your festival lantern supplies ordinary light and warmth.','Tool'],
  map:['Mira’s map','⌑','A folding map of the village, forest, river and mountain routes.','Tool'],
  spareScarf:['Spare scarf','〰','Mira packed this thick scarf for the cold ridge. It is not Shinx’s scarf.','Tool'],
@@ -18,6 +19,7 @@ export function bagItems(game:State):BagItem[]{
  return [...new Set([...w.items,...w.usedItems])].map(id=>{
   const [name,symbol,description,kind]=descriptions[id]||[id,'✦',id,'Keepsake'];
   const spent=!w.items.includes(id);
-  return {id,name,symbol,description,kind,used:w.usedItems.includes(id),source:'Your journey',note:spent?'This is a memory of an item you used or gave away. It is no longer in your bag.':'You are carrying this item.'};
+  const home=id==='silverSeed'?seedLocation(game):null;
+  return {id,name,symbol,description,kind,used:w.usedItems.includes(id),source:'Your journey',note:home?home[0]:id==='silverSeed'&&game.scene==='earth'?'The silver seed is growing in the pot beside Shinx.':spent?'This is a memory of an item you used or gave away. It is no longer in your bag.':'You are carrying this item.'};
  });
 }

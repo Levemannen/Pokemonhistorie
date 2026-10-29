@@ -1,19 +1,19 @@
 import norwegian from './nb.json';
 import manuscript from './manuscript-v2.json';
-import revisedNorwegian from './manuscript-nb.json';
+import {localizedManuscript} from './storyLocale';
 import editionUi from './edition-ui-nb.json';
 export type Language='en'|'nb';
 let language:Language='en';
 export const getLanguage=()=>language;
 export function setLanguage(value:Language){language=value;}
 const dictionary:Record<string,string>={...norwegian,...editionUi};
-type LocalScene={title:string;body:string;choices:string[][];variants:string[]};
-const revised=revisedNorwegian as Record<string,LocalScene>;
+const revised=localizedManuscript;
 for(const scene of manuscript){
  const nb=revised[scene.id];if(!nb)continue;
  dictionary[scene.title]=nb.title;dictionary[scene.body]=nb.body;
- scene.choices.forEach((choice,i)=>{if(nb.choices[i]){dictionary[choice.label]=nb.choices[i][0];dictionary[choice.immediateText]=nb.choices[i][1];}});
- Object.values(scene.variants).forEach((text,i)=>{if(text&&nb.variants[i])dictionary[text]=nb.variants[i];});
+ scene.choices.forEach(choice=>{const local=nb.choices[choice.id];if(local){dictionary[choice.label]=local.label;dictionary[choice.immediateText]=local.immediateText;}});
+ // Compatibility for UI callers; story rendering itself uses IDs, never this dictionary.
+ scene.passages.forEach(block=>{dictionary[block.text]=nb.passages[block.id];});
 }
 const escape=(s:string)=>s.replace(/[.*+?^${}()|[\]\\]/g,'\\$&');
 const entries=Object.entries(dictionary).sort((a,b)=>b[0].length-a[0].length);
@@ -27,6 +27,8 @@ const patterns=entries.map(([key])=>templates.find(t=>t.key===key)?.pattern||esc
 const matcher=new RegExp('(?<![A-Za-z])(?:'+patterns.join('|')+')(?![A-Za-z])','giu');
 const cache=new Map<string,string>();
 const translatedOutputs=new Set<string>();
+/** Already authored in the selected language: never run dictionary substitutions over it. */
+export function authoredText(text:string):string{if(language==='nb')translatedOutputs.add(text);return text;}
 function matchCase(source:string,translated:string){
  if(source.length>3&&/[A-Z]/.test(source)&&source===source.toUpperCase())return translated.toUpperCase();
  return /^[A-Z]/.test(source)&&/^[a-zæøå]/.test(translated)?translated[0].toUpperCase()+translated.slice(1):translated;

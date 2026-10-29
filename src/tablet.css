@@ -51,3 +51,8 @@
   .reading-mode .reader-controls { top: env(safe-area-inset-top,0px); }
   .app-shell button:active { -webkit-tap-highlight-color: #b3945b33; }
 }
+/* Keep all three 44px navigation targets at narrow phone widths, including Norwegian. */
+@media (max-width: 360px) {
+  .app-shell > header { height: auto; min-height: 75px; flex-wrap: wrap; gap: 8px; padding: 12px 18px; }
+  .app-shell > header nav { margin-left: auto; max-width: 100%; flex-wrap: wrap; }
+}

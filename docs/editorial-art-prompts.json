@@ -1,0 +1,66 @@
+[
+  {
+    "id": "scene-cave",
+    "scene": "cave",
+    "path": "images/scenes/painted/scene-cave-v3.png",
+    "prompt": "Edit the supplied image for the existing children's Pokémon storybook. Preserve the same 2:1 wide composition, richly detailed professional hand-painted animated illustration, warm golden lanterns against deep blue moonlight, the SAME child (brown hair, navy cap, mustard jacket, teal backpack), cave and waterfall atmosphere. Correct the story content: remove the large foreground open book entirely, especially the pictures of Clefairy and Shinx. Instead the child stands beside an ancient cave STONE WALL on the left, studying an old engraved mural illuminated by his lantern. The mural shows a glass sphere encircled by three rings, with small symbolic pictograms of a blanket-wrapped anonymous traveler, three lanterns, and a silver-leaf plant; small old mountain-path diagram below. These are ancient instructions, NOT a record of the current accident. No Pokémon or recognizable Clefairy/Shinx anywhere, no alphabetic text, no labels, no typography. Keep the waterfall opening and crescent moon to the right, a dry safe stone passage with railing leading outward. A crescent lens rests in the child's hand. Maintain beautiful texture, expressive child identity and existing palette. The illustration must be finished storybook artwork, not a diagram page or a collage.",
+    "generator": "built-in image_gen",
+    "date": "2026-10-29"
+  },
+  {
+    "id": "scene-tower",
+    "scene": "tower",
+    "path": "images/scenes/painted/scene-tower-v3.png",
+    "prompt": "Use case: precise-object-edit. Edit target: the supplied tower illustration from Pokémon – The Mystery of the Lost Starlight. Keep the SAME child and warm lantern/moonlight painterly style, 2:1 landscape. The wooden tower door must be CLOSED, with only a thin light seam underneath. Add a narrow clearly open viewing window in the stone wall beside the door. THROUGH this window show the interior chair with ONE yellow scarf draped on it, embroidered clearly LUMI. Remove the yellow scarf currently lying OUTSIDE on the wooden railing. Child waits outside holding his warm silver seed, NOT already knocking, looking toward the window. No visible Pokémon, no second scarf outside, no extra people. Preserve beautiful texture and established character design.",
+    "generator": "built-in image_gen",
+    "date": "2026-10-29"
+  },
+  {
+    "id": "scene-roof",
+    "scene": "roof",
+    "path": "images/scenes/painted/scene-roof-v3.png",
+    "prompt": "Use case: precise-object-edit. Edit target: the supplied roof illustration from Pokémon – The Mystery of the Lost Starlight. Preserve this richly painted animated night scene and SAME child design, 2:1 landscape, golden lanterns and deep blue moonlight. Correct the crossing: replace the extremely long dangerous floating path with a SHORT crossing to the tower room adjoining the observatory. The child remains entirely on the near landing surveying routes, has not chosen a crossing yet. Broad glowing stones have clearly visible solid stone supports beneath them and sturdy continuous railings on both sides. A covered wooden walkway is visible just below as a second safe route to the SAME nearby tower door. No faraway second tower as destination. Keep crescent moon, mountain mist, telescope and flowers. No Pokémon, no typography.",
+    "generator": "built-in image_gen",
+    "date": "2026-10-29"
+  },
+  {
+    "id": "scene-hollow",
+    "scene": "hollow",
+    "path": "images/scenes/painted/scene-hollow-v3.png",
+    "prompt": "Use case: precise-object-edit. Edit target: the supplied hollow illustration from Pokémon – The Mystery of the Lost Starlight. Precise edit of this existing storybook illustration. Keep SAME child, composition, lighting, painterly style and hollow tree environment. Keep ONLY the friendly smiling Gastly in the upper right/center. Completely remove the Gastly at upper left and lower right, replacing those areas with natural tree bark, shelves of lost mittens, odd buttons and travel journals. There must be exactly ONE Gastly total. Preserve the little silver seed, but keep it in the child's open hand rather than abandoned on the stump. No additional Pokémon, no text. 2:1 landscape.",
+    "generator": "built-in image_gen",
+    "date": "2026-10-29"
+  },
+  {
+    "id": "scene-echoArchive",
+    "scene": "echoArchive",
+    "path": "images/scenes/painted/scene-echoArchive-v3.png",
+    "prompt": "Use case: precise-object-edit. Edit target: the supplied echoArchive illustration from Pokémon – The Mystery of the Lost Starlight. Precise edit of this existing richly painted children's storybook scene. SAME child, composition, palette and warm forest archive. Exactly ONE friendly Gastly: retain the larger Gastly in the center-right, remove the smaller far-right Gastly completely and fill with books and warm lantern detail. Replace the foreground chest and glowing seed on the desk with an open aged astronomer's notebook showing only three-ring mechanical diagrams; beside it place a SEPARATE newer sheet of handwritten notes, without readable text. Child examines the old notebook, seed remains in closed belt pouch. No duplicate Gastly, no Clefairy or Shinx drawing, no typography. Preserve 2:1 wide format.",
+    "generator": "built-in image_gen",
+    "date": "2026-10-29"
+  },
+  {
+    "id": "scene-brook",
+    "scene": "brook",
+    "path": "images/scenes/painted/scene-brook-v3.png",
+    "prompt": "Use case: precise-object-edit. Edit this Pokémon storybook illustration. Keep the exact existing child finding the bottle at the brook, forest, warm lanterns, deep blue moon and polished animated painted aesthetic. Add a believable small wooden waterwheel at the right bank, connected by gears to an uphill cable pulley, with ONE small empty wicker mail basket attached to that cable at the loading station. The cable continues uphill toward a distant tower. This is a stationary scene before choosing to reply; the child still reaches for the bottle in the water, NOT sending it yet. No Pokémon, no extra people, no lettering. Preserve 2:1 landscape.",
+    "generator": "built-in image_gen",
+    "date": "2026-10-29"
+  },
+  {
+    "id": "scene-stairs",
+    "scene": "stairs",
+    "path": "images/scenes/painted/scene-stairs-v3.png",
+    "prompt": "Use case: precise-object-edit. Edit this Pokémon storybook illustration. Preserve the same child finding the yellow scarf on stone stairs, 2:1 landscape and rich painted animated style. Make the scarf partly caught under the adjacent railing with the embroidered name SHINX clearly visible. Add a small weatherproof photo box on the near stone wall: a tiny framed photo of exactly one Clefairy and one Shinx wearing matching yellow scarves. Photo subjects only, no actual Pokémon on the stairs. Replace the distant separate tall tower with nearer stone observatory/tower walls along the stair path: these steps wrap around the tower complex. Keep lanterns, moonlit mountains and light frost, expressive child and warm palette.",
+    "generator": "built-in image_gen",
+    "date": "2026-10-29"
+  },
+  {
+    "id": "roof-flock",
+    "scene": "roof",
+    "path": "images/scenes/painted/roof-flock-v3.png",
+    "prompt": "Use case: precise-object-edit. Edit this Pokémon storybook illustration. Use the supplied corrected roof illustration as the EDIT TARGET. Preserve EVERYTHING about the safe short stone crossing, solid supports, continuous railings, covered walkway below, nearby tower, same child, golden lanterns and painterly style. Add exactly ONE friendly Altaria standing with the child on the spacious near observatory landing, having just safely delivered the child after rescuing the flock. No Swablu here: they are safely at their roost offscreen. No other Pokémon. Child stands entirely on landing, no character obstructing railing. 2:1 landscape.",
+    "generator": "built-in image_gen",
+    "date": "2026-10-29"
+  }
+]

@@ -1,41 +1,933 @@
 {
- "lantern":{"title":"Natten da himmelen ble stille","body":"Den første lykten under Stjernelysfesten er din å tenne. Mira, lyktevokteren i Willowbrook, holder fyrstikken mens din nye Pokémon-venn følger med ved støvlene dine. «Én flamme for dem som er hjemme», sier hun, «og én for dem som leter etter veien.» Vennen din strekker seg mot lykten, og sammen holder dere den stødig. Det er den første lille oppgaven dere har løst sammen, og du klarer ikke å la være å smile. Så forsvinner stjernene. Ikke én etter én. Alle på én gang. Utenfor landsbyen slår tårnklokken tre ganger, selv om ingen har brukt den på flere år. Et sølvfrø faller ned i den åpne hånden din. Det er varmt og pulserer i takt med et svakt rop fra fjellene. Mira blir alvorlig. «Den klokken kjenner jeg.»","choices":[["Spør Mira hva klokken betyr","«Det er tårnets nødklokke», sier Mira. «Ingen ringer med den for moro skyld.»"],["Vis Mira det merkelige frøet","Mira holder hendene rundt frøet. «En nødnøkkel. Jeg håpet at jeg aldri skulle se en slik igjen.»"],["Hold vennen din inntil deg og spør om det er trygt","Mira kneler ved siden av dere. «Det er ikke skogen som er farlig», sier hun. «Det er å være alene med et problem.»"]],"variants":["Bulbasaur holder lykten stødig med en forsiktig slyngtråd. Rundt den andre sitter et festbånd som Bulbasaur er svært stolt av.","Charmander skjermer en liten flamme med begge potene og holder halen godt unna papirpynten.","Squirtle fanger fyrstikkesken før den faller i en sølepytt. Så undersøker den lykten din med blikket til en streng branninspektør."]},
- "square":{"title":"Mira og den manglende kartbiten","body":"Mira leder dere inn under festteltet. På det gamle kartet hennes ser du Willowbrook, Moonwood, Lumen-elven, fjellstien i øst og observatoriet over Starfall-tårnet. Akkurat der tårnet skulle ha vært, er en sirkel klippet ut av papiret. «Den biten fjernet jeg selv», sier Mira. «I tårnet står en maskin som heter Stjernelysglasset. Den fanger lyset som når dalen vår, ikke de virkelige stjernene. Noen har vekket den.» Hun peker på frøet. «Det er en nødnøkkel. Glasset sender ut en slik når det trenger hjelp. Det velger noen som er villig til å følge etter. Jeg kan ikke forlate landsbyen, men jeg kan sende signaler fra lyktetårnet, sende forsyninger langs fjellstien og møte dere når dere kommer tilbake. Snu hvis en vei blir utrygg.» En redd Eevee kikker frem under stolen hennes. Mira gir deg et sammenleggbart kart og et tykt reserveskjerf til den kalde fjellryggen. Hun legger sølvfrøet i en sikker pung på beltet ditt. Det må bli hos deg til Glasset er trygt. «Jeg holder en lykt tent her. Ta med dere alle som trenger hjelp, hjem.»","choices":[["Spør hvem som bor i tårnet","«Clefairyen Lumi», sier Mira, «og ofte vennen hennes, Shinx. De har ikke vært på besøk i dag.»"],["Spør hvorfor Glasset kan trenge hjelp","«Det låner speilbilder», sier Mira. «Hvis en redd vokter nekter å gi dem tilbake, kan låsen stramme seg.»"],["Trøst Eevee og inviter den med","Eevee ser på hånden du rekker frem, og hopper så opp i armene dine. Mira pakker et ekstra bær til den nye reisekameraten din."],["Be Eevee bli hos Mira og passe på lyktene","Eevee klatrer opp på Miras bord og begynner den viktige jobben med å undersøke lyktevekene."]],"variants":[]},
- "hill":{"title":"Tre toner på åsen","body":"Fra åsen kan du se både elven og tårnet for siste gang før skogen. Hoothoot står ved et lite reir og vugger på én fot. Den synger tre klare toner: lav, høy, lav. Sølvfrøet blinker tre ganger. «Observatoriets gamle hilsen», kalte Mira den en gang. Nå hører du mønsteret selv. En løs gren henger faretruende over reiret. Hoothoot ser på grenen og så på deg, som om den lurer på om du er klok eller bare veldig høy. Den mørke skogen venter nedenfor, men uglen vil ikke flytte seg før du har valgt hva du vil gjøre. Miras lyktetårn er synlig på den andre siden av ryggen, nær nok til å motta et signal.","choices":[["Løft grenen og gjør reiret trygt","Hoothoot bruser lettet med fjærene og synger tonene en gang til som takk."],["Merk grenen på Miras kart så hun kan ordne den","Du setter et tydelig kryss på kartet du deler med Mira, og sender et signal med lykten. Fra torget svarer hun med to blink: Beskjeden er mottatt."],["Syng tonene tilbake og spør om Hoothoot vil bli med","Hoothoot svarer lav, høy, lav og hopper opp på sekken din. Den har bestemt seg for å bli musikklæreren din."],["Takk Hoothoot og gå stille videre","Hoothoot bukker, tipper til siden, retter seg opp med stor verdighet og blir igjen for å vokte reiret."]],"variants":["Eevee går forsiktig frem og tilbyr Hoothoot et bær. Uglen tar imot med høytidelig mine."]},
- "gate":{"title":"Fire veier inn i Moonwood","body":"Ved den siste landsbyporten deler veien seg i fire. En rotdekket bue fører inn i lunden. En steinete rygg stiger over den. En grunn bekk følger trærne mot øst. En smal sti følger sølvfrøets lys mellom dem. Du kan se alle fire fra veiviseren. Bokstavene er dekket av gjørme, men Miras kart viser hvor hver vei fører. Du legger hånden mot lykten hjemmefra. Den brenner fortsatt. Skogen er verken tom eller ond, bare uvanlig stille, som om nattens musikk har glemt neste tone.","choices":[["Gå gjennom rotbuen","Dere går under røttene. {rootArch}"],["Gå opp på fjellryggen","Dere følger den merkede stien oppover og hører snart vinden over de steinete bakkene."],["Følg bekken","Dere følger bekken og tørker gjørmen av det gamle treskiltet før dere leser det."],["Stol på frøets smale sti","Frøet lyser sterkere ved hvert veiskille og leder dere mellom trærne til lunden."]],"variants":["Bulbasaur tilbyr å skyve røttene varsomt til side i stedet for å rive dem løs.","Charmander ser etter tørre blader på stien før den lyser opp veien.","Squirtle peker ut hvor bekken er grunn nok til å krysse."]},
- "ridge":{"title":"En fjær i vinden","body":"Fjellryggen går over lunden, og tårnklokkens ekko synes å sitte i hver stein. En Hoothoot-fjær har satt seg fast under en falt gren. Herfra ser du reiret på åsen og bekken nedenfor. Vennen din oppdager en tryggere skråning gjennom lyngen. Et blekt lys glir over fjellsiden. Det er ikke et monster, men speilbildet av noe som beveger seg inne i det fjerne tårnet. Noen er der fremdeles.","choices":[["Fest den falne grenen før dere går videre","Grenen truer ikke lenger den smale stien. Bak dere hører dere Hoothoot rope fra sitt trygge sted."],["Merk det farlige stedet på Miras kart","Du tegner den falne grenen og merker en trygg omvei for den neste som kommer."],["Følg den høye stien rett til lunden","Dere går ned den høye stien gjennom lyngen og kommer inn i lunden ovenfra."]],"variants":[]},
- "brook":{"title":"Brevet i vannet","body":"Ved bekken står et gammelt skilt: MOONWOOD – LYTT FØR DU HOPPER. Du tørker bort den siste gjørmen med ermet. Skiltet kan leses uansett hvilken vei dere kom. En flaske dunker mot en stein. Inni ligger en lapp med skjelvende håndskrift: «Jeg prøvde å hjelpe. Jeg klarer ikke å åpne den igjen. Vær så snill, hent morgenen tilbake. – L.» Et annet merke ligner et lite poteavtrykk. Papiret er fuktig, men ordene er tydelige. Den som skrev dette, er redd for hva som vil skje videre.","choices":[["Ta vare på brevet for å vise det til den som skrev det","Du bretter lappen forsiktig sammen og legger den i en tørr lomme i sekken."],["Send et svar: «Vi kommer. Du er ikke alene.»","Du skriver svaret på baksiden av lappen, fester den til flasken og setter den på vannet. {riverReply}"],["Tegn poteavtrykket på Miras kart","Du tegner det poteformede merket, også den lille skjeve streken, i kanten av kartet."]],"variants":["Du lurer på om L står for Lumi. Du vet det ikke sikkert ennå."]},
- "grove":{"title":"Moonwood holder pusten","body":"Trærne i Moonwood svaier selv om luften står stille. Sølvfarget eføy har viklet seg rundt en gammel lyktestolpe. Inne i slyngene strever en Pikachu med å få løs poten. Eføyen angriper ikke. Den har vokst mot de fangede speilbildene av stjernene og strammet seg rundt alt som lyser. En sti av glødende sopper går forbi stolpen. Lenger borte stønner det eldste treet svakt i søvne. Dere kan gå videre for å finne hjelp, men Pikachu møter blikket ditt og gir fra seg et skarpt, flaut pip. Høyt oppe blinker det igjen, og eføyen strammer seg rundt stolpen.","choices":[["Stopp og befri Pikachu","Du kneler for å se knuten uten å trekke i den fangede poten. «Vi er her», sier du til Pikachu."],["Undersøk soppstien først","Soppstien gir deg en nyttig ledetråd, men foreløpig blir Pikachu igjen. Ved neste lykt henger du opp en advarsel og ber Miras skoghjelpere klippe bort eføyen."],["Spør det gamle treet om en trygg vei gjennom skogen","Det eldste treet peker ut en trygg vei. Dere kan ikke befri Pikachu akkurat nå, så du merker stedet nøye på Miras kart og sender et hjelpesignal fra lysningen."]],"variants":["Hoothoot advarer om at sterkt lys får eføyen til å stramme seg."]},
- "rescue":{"title":"Den minste gnisten","body":"Eføyen skjelver når du rører ved den. {starterRescue} Med din hjelp åpner slyngene seg endelig. Pikachu tumler ut, lager en fryktelig streng grimase mot eføyen og sjekker så om fingrene dine er skadet. En liten gnist berører sølvfrøet. Lyset får en jevn rytme. Pikachu peker mot fjellet. Den vet at tårnet har noe med den merkelige natten å gjøre.","choices":[["Inviter Pikachu med på reisen","Pikachu hopper ut på stien ved siden av deg og dytter borti ankelen din som for å si takk."],["Be Pikachu bli igjen og holde skogstiene trygge","Pikachu hilser med en liten gnist og løper nedover skogstien. Dere avtaler å møtes ved observatoriet hvis den kan."],["Del mat og spør hva Pikachu så","Pikachu tegner tre lysende sirkler i jorden og peker mot tårnet. Du tegner av formen på kartet."]],"variants":[]},
- "mushrooms":{"title":"Det lille stjernebildet","body":"Ni sopper lyser ved en flat stein. Tre gylne hatter danner en stigende skrå linje, fra liten til middels til stor. De andre blinker som lokkelys. Under dem står det risset: «Små lys kan vise en voksende vei.» Sølvfrøet lyser når du berører den minste gullhatten. Et rampete fnis slipper ut fra et hult tre bak soppene. Dette er ingen prøve i mot. Det er en prøve i å legge merke til ting.","choices":[["Løs stjernemønsteret fra minst til størst","Du berører de tre gulllysene fra minst til størst. Steinen klikker og avslører månerunen og tårnmerket som passer til den."],["Følg de sterkest lysende soppene i stedet","De lysende hattene leder inn i et hult tre. Noen der inne fniser av det overraskede ansiktet ditt."],["Tegn mønsteret på Miras kart og ta rotstien","Du tegner den skrå linjen uten å åpne runegjemmestedet. Tegningen kan likevel hjelpe deg å kjenne igjen tårnsymbolet."],["Følg lyktestien inn i lysningen","Dere følger den åpne lyktestien og lar gåten stå uløst. Halvmånelinsen finnes fortsatt i den neste lysningen."]],"variants":[]},
- "hollow":{"title":"Treet som lo","body":"Du går inn i et hult tre, og noe sier: «Bø!» Så, med én gang: «Var det for mye? Jeg øver.» En Gastly svever opp ned mellom hyller med bortkomne hansker, rare knapper og kart reisende har glemt. Dette er historiesamlingen dens, ikke middagen. Den beklager at den lokket dere bort fra stien, men tilbyr en ekte oppdagelse i bytte mot en av deres egne historier. «Jeg liker de morsomme delene best», legger den til, «men jeg tåler heltemodig gjesping også.»","choices":[["Fortell om det morsomste start-Pokémonen din har gjort","Gastly ler så mye at den snurrer opp ned to ganger. «Det fortjener et besøk i arkivet!»"],["Be Gastly slutte å forvirre redde reisende","Gastly synker litt sammen, men bytter så ut et falskt skilt med et ekte. «Bare hyggelige overraskelser fra nå av», lover den."],["Fortell hvorfor de savnede stjernene betyr noe","Gastly lytter uten å avbryte. «Dere bør se de ordentlige opptegnelsene», sier den til slutt."]],"variants":[]},
- "echoArchive":{"title":"Ekkoarkivet","body":"Gastly leder dere forbi samlingen sin til et lite, tørt leserom. En hundre år gammel astronomdagbok forklarer Stjernelysglasset. Det lagrer reflektert lys. Himmelringen sender speilbildene tilbake, hjerteringen fordeler lagret varme mellom hjelpere, og jordringen dyrker frem en levende mottaker. «Lukk aldri Glasset mens noen er avhengig av det», advarer boken. Ved siden av ser du en tegning av et sølvfrø og en halvmånelinse. En annen side forteller om en ung Clefairy som heter Lumi. Hun skrev en gang av notatene og stilte mange spørsmål om å beskytte skadede venner. Gastly lar deg kopiere akkurat én nyttig side.","choices":[["Skriv av hvordan Glasset åpnes trygt","Du skriver: «Gjør klar en ny varmekilde, løsne sperren og åpne veien tilbake.»"],["Tegn av kartet over den skjulte servicetrappen","Du tegner trappen som går under observatoriet til den nedre tårndøren."],["Tegn av ringene og det hver av dem krever","Du tegner tre sirkler: HIMMEL trenger trygg transport, HJERTE trenger villige hjelpere, og JORD trenger en levende mottaker og noen som passer den."]],"variants":[]},
- "roots":{"title":"Det eldste treet","body":"Et eldgammelt tre sperrer stien med røtter tykke som benker. En hulning i barken ligner et vennlig, gammelt ansikt. «Hva lyser sterkere når det deles?» spør treet. På grenene vokser vanlige frø med papirtynne vinger. Treet ser på sølvfrøet i hånden din. «Det er ikke mitt. Det kom fra en maskin som husket hvordan man ber om hjelp.» En rot flytter seg og viser veien til en rund lysning med en gammel steinsokkel.","choices":[["Svar: «Et lys som går fra venn til venn»","Treet nynner. «Ja. Ingen mister flammen sin ved å dele lyset.»"],["Svar: «En god idé»","Treet nikker. «Og ideer blir sterkere når noen stiller et bedre spørsmål.»"],["La Bulbasaur snakke med røttene","Bulbasaur legger en slyngtråd mot barken. Røttene åpner seg, og treet ønsker dere varmt velkommen uten ord."],["Be treet om et vanlig frø i gave","Treet rister et lite brunt frø ned i håndflaten din. Dette er et vanlig skogfrø, ikke det skinnende sølvfrøet."]],"variants":[]},
- "clearing":{"title":"Halvmånelinsen","body":"Skogen åpner seg rundt en sirkel av mose. I midten ligger halvmånelinsen som Mira merket på kartet. Du holder opp sølvfrøet. Det sender en tynn lysstråle gjennom linsen, og et gammelt minne kommer til syne i barken. Noen gikk opp mot tårnet med en liten, haltende Pokémon i armene. Et gult skjerf blafrer. Du kan ennå ikke høre ordene deres. Under linsen ligger et lite skilt: «Glasset gir tilbake det det låner, når annen varme er klar.» Du tar linsen. Her finnes også tau og en runefordypning, men du trenger ikke å ha løst soppgåten for å komme hit. Et lyktesignal fra Willowbrook flimrer mellom grenene. Landsbyens hjelpere undersøker skogstiene i natt.","choices":[["Ta tauet til vanskelige kryssinger","Du ruller sammen tauet og fester det til sekken. Det er klart hvis en overgang trenger et rekkverk."],["Bruk månerunen til å kopiere merket for den skjulte tårndøren","Runen passer. Et lysende symbol viser seg i linsen, og du tegner av merket for den nedre døren."],["Plant det vanlige frøet ved sokkelen","Du presser det lille brune frøet ned i fuktig jord og vanner det fra drikkeflasken."],["La en lykt brenne for skogen","Du tenner en skjermet veke ved sokkelen. Den vil hjelpe andre reisende å finne lysningen."]],"variants":["Det poteformede merket på lappen ligner den lille figuren i minnet.","Eevee legger merke til at den minste figuren støttet seg til den største mens de gikk.","Du får to svarblink fra Miras hjelpere. De har nådd eføyen og er i gang med å befri Pikachu. Pikachu blir hos hjelperne i skogen."]}
-,"bank":{"title":"Elven uten speilbilder","body":"Moonwood skråner ned mot Lumen-elven. Vanligvis ligger lange, skjelvende stjernebilder på vannet. I natt speiler det bare lykten din. Lapras sitter fast i en grunn dam etter at en gren sperret kanalen. På den andre siden venter en slitt ferge ved et sivverksted. Oppstrøms henger en foss som et sølvteppe. Fjellstien begynner på en liten øy bortenfor. Dere trenger ikke besøke alle steder langs elven, men alle veiene videre møtes på øya.","choices":[["Hjelp Lapras ut av den grunne dammen","Sammen åpner dere den sperrede kanalen. Lapras glir ut på dypere vann og synger lettet."],["Reparer fergen for å nå øya","Du samler solide bord ved fergen. Psyduck følger arbeidet ditt med stadig større beundring."],["Følg stien til fossen","Dere følger en trygg hylle langs elven mot lyden av klokkene."],["Let etter huleinngangen på Miras kart","Ved hjelp av veien du tegnet av, finner dere den tørre sideinngangen over bekken."]],"variants":[]},
- "lapras":{"title":"Elvens vokter","body":"Du og vennen din har flyttet grenen som sperret for Lapras. Vannet strømmer inn i kanalen igjen, og Lapras glir ut på dypet med en takknemlig, rungende sang. «Elven bærer nyheter», synes den å fortelle med en dyp, musikalsk stemme. Du forklarer at dere leter etter noen som har lånt himmelens speilbilder. Lapras har sett to reisende på øystien: en Clefairy som støttet en haltende Shinx. Den vil frakte dere over, men hører hjemme på elven, der andre fortsatt kan trenge hjelp.","choices":[["Be Lapras ta dere til øya","Lapras senker halsen så dere kan klatre opp, og frakter dere til øyas rullesteinstrand."],["Be Lapras vise vei for andre bortkomne reisende","Lapras vil gjerne bli ved elven. Sangen følger dere mens dere går mot fergen."],["Lov å hjelpe begge de reisende, ikke bare hente stjernene tilbake","Lapras svarer med en rolig sang. «Begge», gjentar du mens den bærer dere over."]],"variants":[]},
- "ferry":{"title":"Psyduck og den vaklende fergen","body":"En liten Psyduck reparerer fergen med stor omhu og ganske dårlig treffsikkerhet. Den holder ett bord, så et annet, og glemmer hvor hammeren ble av. «Å», ser den ut til å si når den finner den under sin egen fot. Du hjelper til med å feste bordene før noen går om bord. Fergen er trygg å bruke, men rekkverket kunne vært sterkere. Med nervøse bevegelser og mye hodekløing forklarer Psyduck at fosselyden gjør den engstelig. Sivverkstedet har lykter og tegninger av fjellets vanntunneler. Psyduck vil gjerne over, men bare hvis den vet hva som skal skje videre.","choices":[["Kryss langsomt sammen og gi Psyduck god tid","Psyduck setter en fot på dekket, skjelver og gjennomfører så turen sammen med dere. Den bestemmer seg for å hjelpe til ved landingsstedet."],["Besøk sivverkstedet for å finne tryggere utstyr","Psyduck låser opp det lille verkstedet med en nøkkel som var gjemt i hatten."],["Be Psyduck bli igjen som fergevokter","Psyduck nikker lettet og lover å holde fergen trygg for alle som kommer etter."]],"variants":["Tauet ditt blir et solid rekkverk over fergedekket."]},
- "reedWorkshop":{"title":"Ett skritt om gangen","body":"Verkstedet til Psyduck lukter siv og vått tre. Små lykter flyter i et prøvebasseng. Ved et kanalkart henger skiltet: «Prøv én ting før du bekymrer deg for den neste.» Dere kan gjøre elven tryggere, lære en melodi som roer redde reisende, eller tegne av tunnelen mellom elvens gamle vannsystem og observatoriet. Dere har tid til ett prosjekt før daggry. Etterpå viser Psyduck veien tilbake til fergen. Psyduck vil hjelpe, men må selv bestemme om den vil forlate verkstedet. «Jeg kan skjelve», forteller den med et bestemt nikk, «og likevel få til ting.»","choices":[["Bygg lykter som viser vei etter mørkets frembrudd","Sammen legger dere ut en rekke flytende lykter og merker dem på elvekartet."],["Lær Psyducks rolige puste- og klokkerytme","Psyduck lærer dere mønsteret lav–høy–lav, med en pustepause etter hver runde."],["Tegn av vanntunnelen opp mot fjellet","Du tegner tunnelåpningen under broen og servicetrappen i den andre enden."],["Inviter Psyduck med etter at dere har laget lyktene","Dere gjør først ferdig de flytende sikkerhetsmerkene. Så spør du om Psyduck vil forlate verkstedet og bli med. Den velger å reise og tar med sin egen lille lykt."]],"variants":[]},
- "falls":{"title":"Klokken bak vannet","body":"En smal, trygg sti fører til fossen. To dype klokker og én lysere henger ved en stengt steindør. Skiltet sier: «Elven husker: lav, høy, lav.» Du kan høre mønsteret selv, også uten hjelp fra Hoothoot. Et feil forsøk gir bare et ufarlig plask. Ingen må gå tilbake. En sti til høyre fører også til øya. Gjennom vannet fanger halvmånelinsen omrisset av en dør og trinn som leder inn i en hule.","choices":[["Spill lav–høy–lav og åpne steindøren","Klokkene svarer i samklang. Vannet glir til side og viser tørre trinn inn i hulen."],["Ta den trygge stien rundt fossen","Dere lar klokkene være og følger den merkede stien langs bredden til øya."],["Husk fossens rytme til senere","Du trommer de tre tonene på sekken for å huske dem."]],"variants":[]},
- "cave":{"title":"Astronomens stille hule","body":"Hulen har to innganger: en sti fra elvebredden og klokkedøren bak fossen. {caveArrival} Inne viser en gammel veggtegning tre ringer rundt en lysende kule. Himmelringen åpner en klar vei tilbake. Hjerteringen overfører varme til en levende kilde. Jordringen sender kraft til en plantet mottaker. Under tegningen står det: «Det som lånes, må gis tilbake. La aldri frykt velge låsen.» Ingenting her forteller om gårsdagens ulykke. Boken er gammel. Den lærer bort regler, ikke dagens nyheter.","choices":[["Skriv av regelen for å gi lyset tilbake før dere rører ringene","Du skriver advarselen ved siden av ringtegningen på Miras kart."],["Tegn de tre trygge veiene opp fjellet","Du tegner broen, omveien via lyet og den gamle servicetrappen som tre ulike linjer."],["Se på de slitte veggmerkene gjennom linsen","Linsen gjør de gamle linjene tydelige nok til å vise hvor returveiene går. Den lager ikke nye minner fra i går."]],"variants":[]},
- "island":{"title":"Et minne på øya","body":"Veiene fra fergen, fossen og Lapras møtes på øya. Halvmånelinsen skinner mot en stein med stjernestøv. Et minne flimrer frem: En Clefairy bærer en haltende Shinx mot fjellet. «Lumi», roper Shinx, «gå litt saktere.» Hun gjør det. Hun stopper og pakker sitt eget gule skjerf rundt ham. Så brister minnet. Shinx lever, og Lumi forsøkte å hjelpe ham. Sølvfrøet lyser mot den høye broen. To reisende gikk opp sammen. En av dem har vært redd siden.","choices":[["Si høyt hva minnet forteller","«Lumi prøvde å hjelpe Shinx», sier du. «Men noe mer må ha skjedd i tårnet.»"],["Lov å høre Lumis historie før du dømmer henne","Start-Pokémonen din hører løftet og nikker alvorlig."],["Bruk linsen til å se om Shinx kunne gå","Minnet viser at Shinx tok noen skritt med hjelp. Han er skadet, men ikke hjelpeløs."],["Hold minnet privat til dere kan spørre dem","Du bretter kartet sammen. De bør få fortelle sin egen historie først."]],"variants":["Du kjenner igjen Lumis navn fra Miras fortelling. Nå har du sett henne selv."]}
-,"bridge":{"title":"Broen i vinden","body":"Dere følger øyas nordlige sti opp fjellet i nesten en time. Før daggry kommer dere til en smal hengebro over et juv under observatoriet. Vinden vugger plankene, men ingen er ødelagt. En annen sti går rundt juvet til Altarias ly ved skybærbuskene. Høyt over dere står Starfall-tårnet bak observatoriet. Nå er dere nær nok til å se en blek kule pulsere i det øverste vinduet. Hver puls gjør dalen litt mørkere.","choices":[["Hold hengebroen stødig og kryss sammen","Dere venter til vinden løyer og går planke for planke mens dere holder i rekkverket."],["Ta den lange stien til Altarias utkikkspunkt","Dere går oppover langs steinene som skjermer mot vinden, mot utkikkspunktet."],["La Bulbasaur feste broen med slyngplantene sine","Bulbasaur støtter stolpene. Nå kan alle gå over på stødigere planker."],["Bruk den gamle vanntunnelen under broen","Dere følger den merkede tunnelen under broen og kommer ut ved de gamle trinnene."]],"variants":[]},
- "windwatch":{"title":"Altaria og den bortkomne flokken","body":"Altaria holder vakt over det vindfulle fjellet. Flere små Swablu har kommet bort fra hverandre i tåken. De bekymrede ropene driver mellom steinene. Altaria er sterk nok til å bære reisende, men vil ikke dra før alle ungene er funnet. «Det er lettere å være modig», synes blikket hennes å si, «når noen sjekker det siste reiret.» En unge gjemmer seg bak en steinlykt ved stien til lyet. Dere kan hjelpe Altaria eller følge den merkede gangstien.","choices":[["Hjelp Altaria med å samle den lille flokken","Den siste Swabluen kommer ut av tåken og slutter seg til de andre. Altaria tilbyr en flytur i le rett til taket."],["Vis Altaria hvor den savnede ungen gjemmer seg","Altaria samler ungen under en vinge og viser dere veien til lyet sitt."],["Ta den merkede gangstien","Dere vinker til Altaria og følger stien inn i den lune kroken."]],"variants":[]},
- "shelter":{"title":"Ly ved skybærene","body":"Stien svinger rundt fjellet til en lun krok under observatoriet. Her steller Altaria bærbusker for slitne reisende. En steinskål har sprukket, og maten har falt ut. Ved skålen ligger en myk fjær, varm fra reiret. Herfra kan dere gå rett til observatoriet eller følge en smal servicesti som møter trappen mot tårnet. Dere gjør plass i sekken til det dere eventuelt tar med.","choices":[["Reparer skålen og spør om å få en fjær","Du binder skålen sammen med snor. Altaria legger en varm fjær i hendene dine."],["Del mat og spør om en varm fjær","Altaria takker for maten og gir deg en myk fjær til en kald natt."],["Gå til observatoriet uten å ta med noe","Dere takker Altaria og følger den tydelige stien opp til observatoriet."],["Ta den merkede servicetrappen mot tårnet","Dere følger den svingete servicetrappen til den nedre veien inn mot tårnet."]],"variants":[]},
- "stairs":{"title":"Trappen og de to skjerfene","body":"På den andre siden av juvet svinger en steintrapp rundt observatoriets nedre vegg. Et gult skjerf har satt seg fast under rekkverket. SHINX står brodert med skjeve bokstaver. Et falmet fotografi i en værbestandig boks viser to venner med like skjerf: Shinx med dette, Lumi med et annet. Du løfter det bortkomne skjerfet forsiktig. Månerunen på døren ved siden av ligner det lille stjernebildet fra skogen. Den vanlige trappen fører også til observatoriet. Uansett ligger tårnet fortsatt foran dere.","choices":[["Ta vare på Shinx sitt skjerf og følg yttertrappen","Du bretter skjerfet og går opp til observatoriet, fast bestemt på å levere det tilbake."],["Bruk den merkede servicegangen til tårndøren","Servicekartet viser dere under plattformen og ut ved tårndøren."],["Ta utendørsveien til observatoriets tak","Du pakker skjerfet trygt bort, og dere går opp den skjermede utetrappen."]],"variants":[]},
- "observatory":{"title":"Observatoriet som glemte himmelen","body":"Observatoriet er knyttet til Starfall-tårnet med en kort, overbygd gang og en plattform over juvet. Taket har frosset fast og låst hovedkontrollene. En trygg utetrapp fører til en håndspak, men den gamle mekanismen kan også repareres. En instruksjonsplate viser tre veier til samme utløser: røtter og blader, måne- og soltannhjul eller vannbassenger, alt etter hvilket verktøy man bruker. Vennen din ser på maskinen som om den er bygget nettopp for dens evner.","choices":[["Løs observatoriets mekanisme sammen med vennen din","Sammen fullfører dere mekanismen i riktig rekkefølge. Taklåsen glir lett rundt."],["Bruk håndsveiven og samarbeid","Sveiven går sakte, men virker. Dere åpner taket uten å løse den gamle mekanismen."],["Gå opp den trygge utetrappen","Trappen fører til en manuell utløser. Du løfter den og åpner taket."]],"variants":["Bulbasaur undersøker kablene med rot, blad og blomst.","Charmander ser at det lille månetannhjulet må tines før det store soltannhjulet.","Squirtle ser at motvektsbassengene henger sammen fra lavest til høyest.","Fra skogstien blinker en kjent gnist to ganger. Pikachu er ferdig med å vise reisende veien og kommer for å hjelpe ved observatoriet. Etterpå vender Pikachu tilbake til skogstiene."]},
- "roof":{"title":"Over det siste gapet","body":"Fra observatoriets tak er Starfall-tårnet så nær at dere hører noen bevege seg inne. Den overbygde gangen nedenfor er hel. Over den ligger en rekke lysende tråkkesteiner som gir en kortere, men mer utsatt vei. Halvmånelinsen viser at steinene holder seg stødig hvis dere går langsomt. Dette er Starfall-tårnet som Mira viste på kartet sitt. Ved døren henger en messingklokkesnor med et måneformet håndtak.","choices":[["Kryss den overbygde gangen og bank på","Gangen skjermer dere mot vinden på veien til tårnet."],["Kryss forsiktig på tråkkesteinene","Du prøver hver lysende stein før du legger vekten på den, og når døren trygt."],["Ring forsiktig med måneklokken før dere går frem","Klokken svarer med tre myke toner. Dere hører skritt som nærmer seg døren."],["Ta den lune trappen rundt juvet","Den gamle steintrappen svinger under plattformen og fører til tårnets nedre avsats."]],"variants":[]},
- "tower":{"title":"Noen bak døren","body":"En dempet stemme teller stille: «Én, to, tre. Vær så snill, bare én natt til.» Bak døren hører du en annen stemme, liten og trøtt: «Lumi, jeg sover ikke.» Du kjenner navnet fra minnet på øya. Nå vet dere at Lumi og Shinx er sammen bak døren. Et gult skjerf henger over en stol der inne. Det tilhører Lumi. {towerScarf} Frøet lyser i hånden din, men døren er fremdeles stengt. Nå må du velge hvordan du vil ta kontakt.","choices":[["Bank på og presenter deg","Du sier hva du og vennen din heter, uten å kreve at Lumi åpner med én gang."],["Si rolig at sølvfrøet ba om hjelp og ledet dere hit","Du viser det varme sølvfrøet gjennom det smale vinduet og forklarer at det ledet dere hit."],["Hold opp Shinx sitt skjerf og spør om å få levere det tilbake","Du bretter ut skjerfet og holder det rent og tørt så de der inne kan se navnet."],["Spør først om det går bra med Shinx","Du spør om Shinx i stedet for maskinen. Noen der inne kommer nærmere."]],"variants":["Det glitrer fortsatt støv fra tråkkesteinene under skosålene dine.","Hele reisefølget ditt kom til døren gjennom den skjermede servicegangen.","Stemmen der inne slutter å telle når den gamle måneklokken ringer."]}
-,"lumi":{"title":"Vokteren som var redd","body":"Lumi åpner døren akkurat nok til å se ansiktet ditt. Hun er en liten Clefairy med et gult skjerf rundt håndleddet, og hun har vært våken altfor lenge. Shinx hviler ved en glasskule fylt med snurrende lyspunkter. Poten hans er bandasjert. En blå gnist i pelsen flimrer hver gang kulen blir mørkere. Lumi innrømmer at hun startet Stjernelysglasset etter at Shinx falt under en storm. Det lånte lyset hjalp ham å holde den svake elektriske gnisten stabil. Så låste kulen seg, og dalen ble mørk. «Jeg sendte et brev», hvisker hun. «Så ble jeg for redd til å åpne døren.» Shinx ser opp. «Nå snakker dere om meg igjen.» Ingen rører kontrollene ennå.","choices":[["Spør Lumi nøyaktig hva som skjedde etter ulykken","«Jeg må forstå når det ble farlig», sier du. Lumi trekker pusten skjelvende og begynner med stormen."],["Vis Lumi lappen du tok vare på","Lumi kjenner igjen håndskriften og nikker. «Det var virkelig jeg som sendte den», sier hun."],["Si at dere kom for å lytte, ikke for å legge skylden på henne","Du setter deg der Lumi ser deg tydelig, og venter på at hun skal snakke."],["Gi Shinx skjerfet tilbake og la ham snakke","Shinx tar imot skjerfet og vikler det rundt halsen før han kremter."]],"variants":["{replyArrival} Lumi viser deg dine egne ord, brettet sammen ved kulen. «Jeg trodde ikke noen ville komme», sier hun.","«Takk for at dere banket på», sier Lumi. «Jeg trodde alle ville være sinte.»","Hun kjenner igjen frøet med én gang. «Glasset ba virkelig om hjelp.»","Shinx svarer: «Jeg har vondt i poten. Jeg er lei av å bli behandlet som en hemmelighet.»","Shinx piper lykkelig når han ser skjerfet sitt. Lumi ler én gang, litt skjelvende.","Lumi kjenner igjen det fuktige papiret i sekken din. «Det var mitt første forsøk på å be om hjelp», sier hun. «Takk for at du tok det med tilbake.»"]},
- "listen":{"title":"Sannheten mellom to venner","body":"Lumi forteller hele historien. Shinx skled på våt stein mens han hjalp henne å reparere tårnets stormklokke. Den skadede poten gjorde det vanskelig å regulere den elektriske ladningen, og han ble farlig kald i fjellvinden. Glasset ga jevn varme mens de ventet på hjelp. Men den gamle låsen kan stenge når én vokter nekter å dele ansvaret med andre. Miras forsyninger og vanlig ly kan hjelpe Shinx å bli frisk nå, særlig med venner som kan bære ham trygt. Lumi trodde at det å slippe stjernene fri betydde å svikte ham. Shinx løfter hodet. «Jeg vil bli frisk», sier han. «Men jeg vil også at du skal sove. Og jeg vil ha himmelen tilbake.» Kulen svarer med én klar tone.","choices":[["Spør Shinx hva slags hjelp han ønsker først","Du gir Shinx tid til å svare. «Varme, hvile og en sjanse til å bestemme hva som skjer videre», sier han."],["Lov Lumi at hun ikke trenger å gjøre alt alene","Lumi senker skuldrene. «Jeg skal spørre neste gang», sier hun, «selv om jeg synes det er flaut.»"],["Del de gamle reglene du fant","Du viser Lumi regelen du skrev av, og hun peker ut den trygge utløseren."],["Be Lumi vise hvordan de tre ringene virker","Lumi viser hver ring med én liten gnist i stedet for å risikere hele kulen."]],"variants":["Lumi innrømmer at hun var redd for å rope på Mira fordi hun trodde landsbyen ville gi Shinx skylden.","Lumi snur den fuktige lappen. «Jeg skrev den før låsen stengte helt.»","Med skjerfet tilbake retter Shinx seg litt opp. «Jeg trodde vi hadde mistet det også.»","Eevee setter seg tett inntil Lumi uten å kreve noe svar."]},
- "plan":{"title":"Tre ringer, én himmel","body":"Nå som alle forstår problemet, viser Lumi dere de tre ringene. HIMMELRINGEN sender alle lånte speilbilder hjem på én gang. Shinx må først ha jevn varme og trygg transport. HJERTERINGEN overfører den lagrede varmen til en krets av villige hjelpere før stjernene gis tilbake. JORDRINGEN sender varmen inn i en levende mottaker som vokser fra sølvfrøet, og slipper så de fangede speilbildene fri. Glasset kan ikke gi varme og holde himmelen låst for alltid. Hver løsning handler om hvor hjelpen skal komme fra videre. Mira har allerede lovet et varmt sted i landsbyen og kan svare på lyktesignalene fra dette vinduet. Dere blir enige om å sjekke varmekilden, reisen og Shinx sitt samtykke før noen ring åpnes. Shinx har ett ønske: «Spør meg før dere flytter meg.» Lumi nikker. For første gang går hun bort fra kontrollene.","choices":[["Gjør klar en trygg frigjøring med himmelringen","Dere sjekker teppet, døren og veien ned før dere rører himmelringen."],["Be villige venner danne en varmekrets","Du spør alle etter tur, også Shinx, om de ønsker å hjelpe."],["Ta frøet til hagebalkongen for å bruke jordringen","Du og Lumi bærer frøet ut i det voksende lyset ved plantekassen på balkongen."],["Be Mira ordne hjelp fra Willowbrook før lyset slippes fri","Du blinker Miras festsignal fra tårnvinduet. Et klart svar kommer fra landsbyen."]],"variants":["Shinx sier: «Et varmt teppe og skyss hjem. Og jeg vil se stjernene i natt.»","Lumi tar hånden din og sier: «Da kan jeg endelig slutte å late som jeg vet alt.»","Lumi kjenner igjen advarselen du skrev av, og viser nøyaktig hvilken sperre den handler om.","Hun viser ringene med én lånt gnist. Lyset vender tilbake til det lille vinduet sitt når hun slipper spaken.","Eevee holder seg nær Lumi, men lar Shinx bestemme om han vil ha kos.","Pikachu tilbyr en nøye tilpasset gnist til hjerteringens krets, men venter på lov.","Hoothoot gjentar hilsenen med tre toner som dere hørte på åsen.","Psyduck sjekker planen ett trinn om gangen, slik den øvde på ved fergen."]},
- "sky":{"title":"Himmelringen","body":"Himmelringen klikker på plass. Utenfor venter dalen uten de vanlige stjernene. Shinx kan ikke bli igjen i det kalde tårnet når lyset slippes fri. Dere sjekker teppet og veien ned. Mira har gjort klar et varmt sted i Willowbrook. Dere ordner en godt polstret bærekurv med en oppvarmet stein, en tildekket lykt og en trygg gangvei ned. Du kjenner på steinen. Den er behagelig varm, aldri het. Vennen din kan hjelpe med forsyningene. Denne planen virker uten spesielle gjenstander. Har dere tatt med en varm fjær, kan den bli et lunt rede. Charmander kan også gi forsiktig varme. «Si fra når jeg skal flyttes», sier Shinx. Han er også redd, men vil være med på å velge.","choices":[["Pakk Shinx godt inn og bær ham til Mira når Lumi åpner Glasset","Shinx sier ja til den myke bærekurven. Dere varmer og sikrer den før Lumi åpner Glasset. Så drar alle straks til stedet Mira har gjort klart."],["Lag et varmt rede av Altarias fjær før Glasset åpnes","Dere legger Shinx i redet og sjekker at det holder på varmen før Lumi slipper stjernene fri."],["Be Charmander holde varmen trygg mens lyset slippes fri","Charmander velger et trygt sted ved Shinx, der den skjermede halen kan holde redet varmt."],["Bruk den jevne klokkerytmen til å roe Shinx mens lyset slippes fri","De tre tonene hjelper Shinx å holde seg rolig, men musikk kan ikke erstatte varme. Dere bruker den polstrede kurven og den varme steinen før Lumi åpner Glasset."]],"variants":[]},
- "heart":{"title":"Hjerteringen","body":"Hjerteringen virker ikke bare fordi venner står i nærheten. Den virker når noen frivillig deler litt varme en stund. Start-Pokémonen din sier ja med én gang. Lumi sier ja etter en pause. Shinx sier ja til å ta imot. Dere stiller ringen på TILBAKE, men lar sperren være lukket til den nye varmekilden er klar. En tynn lyslinje forbinder kulen med hjelpernes lykter. Stjernene holdes fortsatt fanget til overføringen er ferdig. Mira svarer med tre blink. Frivillige i Willowbrook har tent festlyktene og sagt ja til å hjelpe hvis dere trenger dem. Lyktene kan ta imot den siste varmen nede i landsbyen. Hvis alle blir ved tårnet, kan en liten krets og et klargjort rom holde Shinx trygg til han kan reise. Ingen Pokémon må gi mer enn den selv velger.","choices":[["Koble ringen til Miras festlykter og del arbeidet med landsbyen","Landsbylyktene svarer på signalet. Hver gir litt lys uten å slukne."],["Lag et bemannet hvilerom i tårnet mens stjernene vender tilbake","Lumi skriver navnene på frivillige hjelpere på tavlen. Shinx godkjenner vaktplanen."],["Bruk den kjente melodien med tre toner til å lede frigjøringen","Hjerteringen pulserer til sangen lav–høy–lav til den kan slippe resten av lyset fri."],["La Shinx bestemme tempoet når varmen går mellom hjelperne","Shinx teller hver overføring til landsbyens frivillige lykter og gir selv klarsignalet. Lumi venter på nikket hans og sender så speilbildene tilbake."]],"variants":[]},
- "earth":{"title":"Et frø for morgendagen","body":"Lumi leder dere ut på hagebalkongen, i trygg avstand fra den skjøre kulen. Sølvfrøet åpner seg til et stjerneformet blad. Det var aldri en vanlig plante. Glasset sender en levende mottaker ut i dalen når det ikke lenger klarer å gi lyset tilbake alene. Sølvbladet kan lagre mild varme trygt mens alle stjernenes speilbilder vender tilbake til himmelen. Deretter kan det bæres ned til landsbyhagen i en polstret potte eller bli i tårnets hvilerom. Bladet trenger stell, men blir ikke kaldt under reisen. I en plantekasse i tårnet kan det varme et lite hvilerom mens Glasset tømmes. Før dere slipper stjernene fri, legger du og Lumi Shinx i et rede ved mottakeren. Dere velger hvem som skal stelle planten, og hvor den skal bo etterpå. Den trenger vann, sol og omsorg. «Jeg liker at den ikke kan vokse helt alene», sier Shinx.","choices":[["Plant mottakeren i Willowbrooks felleshage","Dere setter den unge mottakeren i en reisepotte. Den overtar varmen, og Lumi slipper speilbildene fri. I morgen skal dere plante den sammen med Mira i Willowbrook."],["La Bulbasaur forme mottakeren til en slyngplante","Bulbasaur former en myk kurv av slyngplanter rundt mottakeren. Planten holder varmen stabil mens Lumi slipper speilbildene fri. Dere skal bære den ned til landsbyhagen."],["Bruk mottakeren til et bemannet tilfluktssted i tårnet","Dere setter mottakeren i en dyp potte og sørger for at et lag av hjelpere vil stelle den."],["Plant mottakeren ved Psyducks flytende lyktesti","Dere gjør klar en polstret reisepotte og ber Mira møte dere ved Psyducks elvekanal. Mottakeren overtar varmen, og stjernene kommer tilbake over dere."]],"variants":["Du husker det vanlige frøet du plantet i skogen. Ikke alt som vokser, trenger magi.","Psyducks lyktesti gir en trygg vei med vann til den unge mottakeren. Lumi peker den ut på kartet.","Fjæren ligger fortsatt i sekken din. Dere trenger den ikke for å bruke jordringen."]},
- "endDawn":{"title":"Daggry på hjemveien","body":"Glasset står åpent, og stjernelyset finner tilbake til sine vanlige plasser over Willowbrook. Steinen i Shinx sin polstrede kurv holder seg behagelig varm på turen ned. Du og vennen din bytter på å bære Shinx mens Lumi holder lykten. Mira møter dere ved landsbyporten med varmt vann, rene bandasjer og en seng ved ilden. Shinx vil gå de siste tre skrittene selv. Han klarer to og tar imot en hånd til det tredje. Lumi forteller Mira hva som skjedde og vil hjelpe med å reparere maskinen når alle har hvilt. Ved neste fest tennes to lykter sammen: én for dem som er hjemme, én for dem som leter etter veien. Nå som Glasset er trygt, blir frøet en vanlig spire med sølvblader. Dere planter den i Miras vinduskasse.","choices":[],"variants":["Bulbasaur bærer Shinx sitt teppe uten å la det slepe over steinene.","Charmander går ved kurven og passer på å holde halen på trygg avstand.","Squirtle sjekker hvert glatt trinn på veien ned."]},
- "endAurora":{"title":"Nordlysløftet","body":"Redet holder seg varmt mens kulen tømmes. Lumi dreier himmelringen, og hvert lånte speilbilde vender tilbake til sin stjerne. Et øyeblikk danner den siste gløden grønne og gylne gardiner over fjellene. Det er nordlys, ikke erstatninger for stjernene. Shinx synker ned i redet og smiler til de ekte stjernebildene. «Se», sier han, «de ventet.» Altaria ser til lyet hver morgen, og Mira kommer med bandasjer og mat. Lumi lærer å be om hjelp før hun blir fortvilet. Shinx blir langsomt frisk og feirer sin første snøfrie dag med et praktfullt hopp. Nå som alarmen er over, hviler det lille sølvfrøet i Altarias plantekasse på fjellet.","choices":[],"variants":["Bulbasaur holder det myke redet stødig med slyngplantene sine.","Charmander ser på himmelen mens den passer den lille, trygge flammen.","Squirtle setter en kopp vann ved det varme redet til Shinx våkner."]},
- "endSong":{"title":"Elven av stjerner","body":"De tre tonene begynner forsiktig: lav, høy, lav. Vennene dine gjentar dem i sitt eget tempo. Ingen trenger å synge perfekt. Rytmen forteller Shinx når frigjøringen begynner og gir Lumi mot til å åpne hånden. Glasset gir tilbake alle stjernespeilbildene. {songWarmth} Sangen hjelper dere å samordne overføringen, men helbreder ingen alene. Nede i fjellet fanger Lumen-elven sangen og sender den tilbake som et muntert ekko. Om morgenen er himmelen hel. Ved neste Stjernelysfest synger landsbyen de tre tonene før lyktene tennes. Shinx insisterer på å lede, selv om han synger herlig falskt. Nå som oppgaven er fullført, plantes sølvfrøet ved elvestien der sangen blir husket.","choices":[],"variants":["Bulbasaur trommer den dype takten forsiktig mot gulvet.","Charmander nynner en overraskende pipete høy tone.","Squirtle insisterer på å dirigere med en pinne som er altfor stor."]},
- "endSanctuary":{"title":"Stjernelysets tilfluktssted","body":"{sanctuarySource} holder på litt varme i tårnet mens Glasset tømmes og gir alle lånte speilbilder tilbake til himmelen. Dalen er ikke lenger frarøvet lyset. Med Miras hjelp gjør Lumi observatoriet til et ordentlig tilfluktssted med tørre senger, matlager, trygge stier og en vaktplan for frivillige. Shinx velger å bli frisk der før han reiser. Fra puten hilser han på alle besøkende og gir iblant alle beskjed om å hvile. «En svært viktig beskjed fra helsevesenet», kaller han det. Sølvfrøet vokser i en potte ved vinduet. Det blir aldri låst inne eller tvunget til å gjøre jobben til en hel landsby.","choices":[],"variants":["Bulbasaur leder en slyngplante rundt den nye vinduskassen.","Charmander lærer hjelperne å holde varmekilden på trygg avstand fra sengetøyet.","Squirtle lager en ryddig vanningsplan og signerer med en våt pote."]},
- "endLantern":{"title":"Lyktelaget","body":"Mira sender et signal fra landsbyporten. Én etter én svarer festlyktene, til en lyskjede strekker seg opp fjellstien. Hjerteringen henter litt frivillig varme fra hver lykt. Ingen mister flammen sin. Når varmen er trygt fordelt, åpner Lumi Glasset, og de fangede speilbildene flyr hjem til stjernene. Shinx bæres ned sammen med de andre og hviler ved Miras ildsted. Under neste fest har hver lykt et malt merke av en hjelpende hånd. Lumi snakker først. «Jeg trodde jeg måtte redde vennen min helt alene», sier hun. Shinx avbryter: «Det var slitsomt å se henne prøve.» Alle ler, også Lumi. Mira planter det stille sølvfrøet ved stativet for festlyktene.","choices":[],"variants":["Bulbasaur lager et grønt slyngplantehåndtak til den første lykten.","Charmander tenner forsiktig lykten foran i toget.","Squirtle sjekker alle lyktelokk for regnlekkasjer før festen."]},
- "endGarden":{"title":"Det levende stjernebildet","body":"Etter at Lumi ga tilbake alle stjernespeilbildene ved tårnet, holder den levende mottakeren trygt på varmen Shinx trenger under reisen. {gardenPlace} Røttene vokser gradvis mot Lumen-elven, og bladene lagrer bare den milde varmen som trengs til lyet. De lysende bladene later ikke som de er stjerner. De lager et nytt mønster her på jorden, et løfte om at hjelp kan vokse uten å ta lys fra andre. Shinx hviler under grenene mens poten blir frisk. Lumi skriver nøye i hagedagboken. Du og vennen din glemmer stadig å vanne akkurat det samme hjørnet. Ved neste fest lyser treet stille under en himmel full av ekte stjerner. Sølvfrøet har slått rot som den levende mottakeren. Det ligger ikke lenger i pungen din.","choices":[],"variants":["Bulbasaur undersøker jorden forsiktig uten å forstyrre de unge røttene.","Charmander holder insektene varme ved hagekanten en kjølig kveld.","Squirtle tar vanningsjobben altfor alvorlig og gjør skoene dine gjennomvåte."]}
+  "lantern": {
+    "title": "Natten da himmelen ble stille",
+    "body": "Du får tenne den første lykten under stjernelysfesten. Mira holder fyrstikken mens den nye Pokémon-vennen din venter ved føttene dine. «En flamme for dem som er hjemme», sier hun, «og en for dem som leter etter veien.» Dere holder lykten stødig sammen. Vennen din ser opp på deg, som for å spørre: Klar?\n\nSå forsvinner alle stjernene over dalen. Den gamle klokken i fjellet slår tre ganger. Noe sølvblankt daler ned i hånden din: et frø, varmt som en stein i solen. Det pulserer i takt med et svakt rop fra fjellet. Mira knuger fyrstikkesken. «Den klokken kjenner jeg.»",
+    "choices": {
+      "lantern.1": {
+        "label": "Spør Mira hva klokken betyr",
+        "immediateText": "«Det er tårnets nødklokke», sier Mira. «Ingen ringer med den for moro skyld.»"
+      },
+      "lantern.2": {
+        "label": "Vis Mira det merkelige frøet",
+        "immediateText": "Mira holder hendene rundt frøet. «En nødnøkkel. Jeg håpet at jeg aldri skulle se en slik igjen.»"
+      },
+      "lantern.3": {
+        "label": "Hold vennen din inntil deg og spør om det er trygt",
+        "immediateText": "Mira kneler ved dere. «Hold sammen. Jeg lar lykten stå der dere kan se den.»"
+      }
+    },
+    "passages": {
+      "variant-0": "Bulbasaur holder lykten stødig med en forsiktig slyngtråd. Rundt den andre sitter et festbånd som Bulbasaur er svært stolt av.",
+      "variant-1": "Charmander skjermer en liten flamme med begge potene og holder halen godt unna papirpynten.",
+      "variant-2": "Squirtle fanger fyrstikkesken før den faller i en sølepytt. Så undersøker den lykten din med blikket til en streng branninspektør.",
+      "body": "Du får tenne den første lykten under stjernelysfesten. Mira holder fyrstikken mens den nye Pokémon-vennen din venter ved føttene dine. «En flamme for dem som er hjemme», sier hun, «og en for dem som leter etter veien.» Dere holder lykten stødig sammen. Vennen din ser opp på deg, som for å spørre: Klar?",
+      "darkness": "Så forsvinner alle stjernene over dalen. Den gamle klokken i fjellet slår tre ganger. Noe sølvblankt daler ned i hånden din: et frø, varmt som en stein i solen. Det pulserer i takt med et svakt rop fra fjellet. Mira knuger fyrstikkesken. «Den klokken kjenner jeg.»"
+    }
+  },
+  "square": {
+    "title": "Mira og den manglende kartbiten",
+    "body": "Under festteltet bretter Mira ut et kart. Moonwood, Lumen-elven, fjellstien – og et pent hull der Starfall-tårnet skulle vært. «Jeg klippet det bort etter at noen skadet seg der oppe», innrømmer hun. «Jeg trodde alle ville være trygge hvis de holdt seg unna.» En Eevee skjelver under stolen hennes. Du setter deg på huk i nærheten mens Mira legger et kart og et ekstra ullskjerf i sekken din.\n\n«Stjernelysglasset samler lys til lyktene og varmeovnene i tårnet», sier Mira. «Stjernene er der ennå. Det er lyset deres som ikke når fram til oss. Frøet ber om hjelp.» Hun tegner inn tårnet på kartet ditt og fester en liten frøpose til beltet ditt. «Følg skinnet. Jeg sender tepper og mat opp forsyningsstien og holder en lykt tent her, så vi kan sende signaler. Snu hvis stien kjennes utrygg.»",
+    "choices": {
+      "square.1": {
+        "label": "Spør hvem som bor i tårnet",
+        "immediateText": "«Clefairyen Lumi», sier Mira, «og ofte vennen hennes, Shinx. De har ikke vært på besøk i dag.»"
+      },
+      "square.2": {
+        "label": "Spør hvorfor Glasset kan trenge hjelp",
+        "immediateText": "«Det skal slippe det lagrede lyset ut hver morgen», sier Mira. «Kanskje noen holder låsen stengt.»"
+      },
+      "square.3": {
+        "label": "Trøst Eevee og inviter den med",
+        "immediateText": "Eevee ser på hånden du rekker frem, og hopper så opp i armene dine. Mira pakker et ekstra bær til den nye reisekameraten din."
+      },
+      "square.4": {
+        "label": "Be Eevee bli hos Mira og passe på lyktene",
+        "immediateText": "Eevee klatrer opp på Miras bord og begynner den viktige jobben med å undersøke lyktevekene."
+      }
+    },
+    "passages": {
+      "body": "Under festteltet bretter Mira ut et kart. Moonwood, Lumen-elven, fjellstien – og et pent hull der Starfall-tårnet skulle vært. «Jeg klippet det bort etter at noen skadet seg der oppe», innrømmer hun. «Jeg trodde alle ville være trygge hvis de holdt seg unna.» En Eevee skjelver under stolen hennes. Du setter deg på huk i nærheten mens Mira legger et kart og et ekstra ullskjerf i sekken din.",
+      "mission": "«Stjernelysglasset samler lys til lyktene og varmeovnene i tårnet», sier Mira. «Stjernene er der ennå. Det er lyset deres som ikke når fram til oss. Frøet ber om hjelp.» Hun tegner inn tårnet på kartet ditt og fester en liten frøpose til beltet ditt. «Følg skinnet. Jeg sender tepper og mat opp forsyningsstien og holder en lykt tent her, så vi kan sende signaler. Snu hvis stien kjennes utrygg.»"
+    }
+  },
+  "hill": {
+    "title": "Tre toner på åsen",
+    "body": "Fra høyden ser du elven slynge seg mot fjellet. Hoothoot vokter et rede under en skjev gren. Den synger tre toner – dyp, lys, dyp – og frøet svarer med tre blink. På kartet til Mira er en ugle tegnet ved observatoriet. Hoothoot ser fra grenen til hendene dine. Det følger visst ansvar med å være høy.",
+    "choices": {
+      "hill.1": {
+        "label": "Løft grenen og gjør reiret trygt",
+        "immediateText": "Du løfter grenen mens vennen din støtter den med en kløftet kvist. Hoothoot sjekker redet, bruser med fjærene og synger de tre tonene igjen."
+      },
+      "hill.2": {
+        "label": "Merk grenen på Miras kart så hun kan ordne den",
+        "immediateText": "Du tegner grenen på kartet og blinker til Mira for å vise hvor den er. Lykten hennes svarer to ganger. Hjelp er på vei. Hoothoot blir ved redet til hjelperne kommer."
+      },
+      "hill.3": {
+        "label": "Sikre redet og inviter Hoothoot med",
+        "immediateText": "Du og vennen din støtter grenen med en kløftet kvist fra bakken. Hoothoot sjekker redet, synger de tre tonene igjen og hopper opp på sekken din. Musikklæreren blir med."
+      },
+      "hill.4": {
+        "label": "Takk Hoothoot og gå stille videre",
+        "immediateText": "Hoothoot bukker, tipper til siden, retter seg opp med stor verdighet og blir igjen for å vokte reiret."
+      }
+    },
+    "passages": {
+      "variant-0": "Eevee går forsiktig frem og tilbyr Hoothoot et bær. Uglen tar imot med høytidelig mine.",
+      "body": "Fra høyden ser du elven slynge seg mot fjellet. Hoothoot vokter et rede under en skjev gren. Den synger tre toner – dyp, lys, dyp – og frøet svarer med tre blink. På kartet til Mira er en ugle tegnet ved observatoriet. Hoothoot ser fra grenen til hendene dine. Det følger visst ansvar med å være høy."
+    }
+  },
+  "gate": {
+    "title": "Fire veier inn i Moonwood",
+    "body": "Fire stier går fra landsbyporten. Røtter danner en bue over veien til lunden. Til høyre stiger en åsrygg, og til venstre snor en bekk seg av sted. Mellom dem lyser frøet opp en smal sti under trærne. Du børster gjørme av skiltet og sammenligner det med kartet. Et sted inne i Moonwood knekker en kvist.",
+    "choices": {
+      "gate.1": {
+        "label": "Gå gjennom rotbuen",
+        "immediateText": "Du bøyer deg under rotbuen og følger den lune stien inn i lunden.",
+        "responses": {
+          "vines": "Bulbasaur holder de minste røttene til side til alle har passert, og senker dem forsiktig igjen."
+        }
+      },
+      "gate.2": {
+        "label": "Gå opp på fjellryggen",
+        "immediateText": "Dere følger den merkede stien oppover og hører snart vinden over de steinete bakkene."
+      },
+      "gate.3": {
+        "label": "Følg bekken",
+        "immediateText": "Dere følger bekken og tørker gjørmen av det gamle treskiltet før dere leser det."
+      },
+      "gate.4": {
+        "label": "Stol på frøets smale sti",
+        "immediateText": "Frøet lyser sterkere ved hvert veiskille og leder dere mellom trærne til lunden."
+      }
+    },
+    "passages": {
+      "variant-0": "Bulbasaur tilbyr å skyve røttene varsomt til side i stedet for å rive dem løs.",
+      "variant-1": "Charmander ser etter tørre blader på stien før den lyser opp veien.",
+      "variant-2": "Squirtle peker ut hvor bekken er grunn nok til å krysse.",
+      "body": "Fire stier går fra landsbyporten. Røtter danner en bue over veien til lunden. Til høyre stiger en åsrygg, og til venstre snor en bekk seg av sted. Mellom dem lyser frøet opp en smal sti under trærne. Du børster gjørme av skiltet og sammenligner det med kartet. Et sted inne i Moonwood knekker en kvist."
+    }
+  },
+  "ridge": {
+    "title": "En fjær i vinden",
+    "body": "En nedfalt gren sperrer halve åsryggen. En løs uglefjær skjelver under den. Nedenfor skimter du høyden der Hoothoot hadde redet sitt, og bekken bortenfor. Denne grenen har falt fra et annet tre, rett over stien. Vennen din finner fotfeste i lyngen. Høyt oppe i fjellet glir et blekt lysglimt over et tårnvindu og forsvinner.",
+    "choices": {
+      "ridge.1": {
+        "label": "Fest den falne grenen før dere går videre",
+        "immediateText": "Dere fester grenen over den smale stien. Den løse fjæren svever fri, og veien er åpen for den neste som kommer."
+      },
+      "ridge.2": {
+        "label": "Merk det farlige stedet på Miras kart",
+        "immediateText": "Du tegner den falne grenen og merker en trygg omvei for den neste som kommer."
+      },
+      "ridge.3": {
+        "label": "Følg den høye stien rett til lunden",
+        "immediateText": "Dere går ned den høye stien gjennom lyngen og kommer inn i lunden ovenfra."
+      }
+    },
+    "passages": {
+      "body": "En nedfalt gren sperrer halve åsryggen. En løs uglefjær skjelver under den. Nedenfor skimter du høyden der Hoothoot hadde redet sitt, og bekken bortenfor. Denne grenen har falt fra et annet tre, rett over stien. Vennen din finner fotfeste i lyngen. Høyt oppe i fjellet glir et blekt lysglimt over et tårnvindu og forsvinner.",
+      "nest-repaired": "Støtten på høyden holder fremdeles. Du husker hvor lettet Hoothoot ble da redet var trygt."
+    }
+  },
+  "brook": {
+    "title": "Brevet i vannet",
+    "body": "En flaske dunker mot en stein i bekken. Inni ligger en papirlapp med tett håndskrift: «Jeg prøvde å hjelpe. Nå får jeg den ikke opp igjen. Vær så snill å hente morgenen. – L.» Ved siden av ordene er et utydelig poteavtrykk. Over bredden går en gammel kabel opp mot tårnet. Et vannhjul driver en liten postkurv oppover langs kabelen. På skiltet står det TÅRNPOST.",
+    "choices": {
+      "brook.1": {
+        "label": "Ta vare på brevet for å vise det til den som skrev det",
+        "immediateText": "Du bretter lappen forsiktig sammen og legger den i en tørr lomme i sekken."
+      },
+      "brook.2": {
+        "label": "Send et svar: «Vi kommer. Du er ikke alene.»",
+        "immediateText": "Du skriver svaret bak på brevet, legger det i flasken og setter flasken i postkurven. Vannhjulet trekker den oppover til den bare er en prikk mot fjellet.",
+        "responses": {
+          "owl-watches": "Hoothoot følger kabelen med blikket og tuter da kurven kommer forbi et skjevt trinsehjul."
+        }
+      },
+      "brook.3": {
+        "label": "Tegn poteavtrykket på Miras kart",
+        "immediateText": "Du tegner det poteformede merket, også den lille skjeve streken, i kanten av kartet."
+      }
+    },
+    "passages": {
+      "variant-0": "Du lurer på om L står for Lumi. Du vet det ikke sikkert ennå.",
+      "body": "En flaske dunker mot en stein i bekken. Inni ligger en papirlapp med tett håndskrift: «Jeg prøvde å hjelpe. Nå får jeg den ikke opp igjen. Vær så snill å hente morgenen. – L.» Ved siden av ordene er et utydelig poteavtrykk. Over bredden går en gammel kabel opp mot tårnet. Et vannhjul driver en liten postkurv oppover langs kabelen. På skiltet står det TÅRNPOST."
+    }
+  },
+  "grove": {
+    "title": "Moonwood holder pusten",
+    "body": "Sølvblank eføy knirker rundt en gammel lyktestolpe. Mellom stenglene strever en Pikachu med å få løs den ene poten. Når lykten din svinger nærmere, strammer eføyen seg. Du stopper med en gang. Bortenfor stolpen lyser sopper langs én sti, mens et digert tre brer røttene sine over en annen. Pikachu piper skarpt. Den prøver veldig hardt å ikke høres redd ut.",
+    "choices": {
+      "grove.1": {
+        "label": "Stopp og befri Pikachu",
+        "immediateText": "Du kneler for å se knuten uten å trekke i den fangede poten. «Vi er her», sier du til Pikachu."
+      },
+      "grove.2": {
+        "label": "Undersøk soppstien først",
+        "immediateText": "Du henger et hjelpeflagg på lyktestolpen til Miras skogshjelpere og viser nøyaktig hvor Pikachu sitter fast. Så følger du soppene."
+      },
+      "grove.3": {
+        "label": "Spør det gamle treet om en trygg vei gjennom skogen",
+        "immediateText": "Du markerer lyktestolpen på kartet og henger et hjelpeflagg på stimerkingen til Miras skogshjelpere. Så følger du røttene bort til det gamle treet."
+      }
+    },
+    "passages": {
+      "variant-0": "Hoothoot advarer om at sterkt lys får eføyen til å stramme seg.",
+      "body": "Sølvblank eføy knirker rundt en gammel lyktestolpe. Mellom stenglene strever en Pikachu med å få løs den ene poten. Når lykten din svinger nærmere, strammer eføyen seg. Du stopper med en gang. Bortenfor stolpen lyser sopper langs én sti, mens et digert tre brer røttene sine over en annen. Pikachu piper skarpt. Den prøver veldig hardt å ikke høres redd ut."
+    }
+  },
+  "rescue": {
+    "title": "Den minste gnisten",
+    "body": "Du skjermer lykten med jakken. Eføyen slutter å stramme seg, men løkken holder fremdeles rundt poten til Pikachu. «Stå stille, bare litt», hvisker du. Pikachu setter den frie foten mot stolpen og venter.\n\nPikachu ramler ut, skjærer en fryktelig grimase til eføyen og sjekker så om du har skrapt fingrene dine. En liten gnist streifer frøet, og det urolige skinnet blir jevnt. Pikachu peker ivrig mot tårnet.",
+    "choices": {
+      "rescue.1": {
+        "label": "Inviter Pikachu med på reisen",
+        "immediateText": "Pikachu hopper ut på stien ved siden av deg og dytter borti ankelen din som for å si takk."
+      },
+      "rescue.2": {
+        "label": "Be Pikachu bli igjen og holde skogstiene trygge",
+        "immediateText": "Pikachu hilser med en liten gnist og løper nedover skogstien. Dere avtaler å møtes ved observatoriet hvis den kan."
+      },
+      "rescue.3": {
+        "label": "Del mat og spør hva Pikachu så",
+        "immediateText": "Pikachu tegner tre lysende sirkler i jorden og peker mot tårnet. Du tegner av formen på kartet."
+      }
+    },
+    "passages": {
+      "body": "Du skjermer lykten med jakken. Eføyen slutter å stramme seg, men løkken holder fremdeles rundt poten til Pikachu. «Stå stille, bare litt», hvisker du. Pikachu setter den frie foten mot stolpen og venter.",
+      "rescue-Bulbasaur": "Bulbasaur skyver en slyngtråd under eføystengelen og løfter den. Du lirker den løse løkken over tærne til Pikachu.",
+      "rescue-Charmander": "Charmander holder halen bak en stein og støtter den tunge stengelen med begge potene. I det svake lykteskinnet lirker du løs løkken.",
+      "rescue-Squirtle": "Squirtle fukter jorden rundt røttene til eføyen. Du løfter den myke jordklumpen akkurat nok til at stengelen løsner, og Pikachu trekker poten fri.",
+      "free": "Pikachu ramler ut, skjærer en fryktelig grimase til eføyen og sjekker så om du har skrapt fingrene dine. En liten gnist streifer frøet, og det urolige skinnet blir jevnt. Pikachu peker ivrig mot tårnet."
+    }
+  },
+  "mushrooms": {
+    "title": "Det lille stjernebildet",
+    "body": "Ni sopper lyser ved en flat stein. Noen hatter gløder gyllent, andre blinker blekblått. Under dem står det risset inn: SMÅ LYS KAN VISE EN VEI SOM VOKSER. Frøet varmer i håndflaten din, men steinen holder seg lukket. En latter høres fra et hult tre lenger nede langs stien.",
+    "choices": {
+      "mushrooms.1": {
+        "label": "Åpne gjemmestedet med stjernemønsteret du løste",
+        "immediateText": "Steinen glir til side. Du løfter fram en månerune, kjølig og glatt, med tårnets halvmåne risset inn på forsiden."
+      },
+      "mushrooms.2": {
+        "label": "Følg de sterkest lysende soppene i stedet",
+        "immediateText": "De lysende hattene leder inn i et hult tre. Noen der inne fniser av det overraskede ansiktet ditt."
+      },
+      "mushrooms.3": {
+        "label": "Tegn mønsteret på Miras kart og ta rotstien",
+        "immediateText": "Du tegner den skrå linjen uten å åpne runegjemmestedet. Tegningen kan likevel hjelpe deg å kjenne igjen tårnsymbolet."
+      },
+      "mushrooms.4": {
+        "label": "Følg lyktestien inn i lysningen",
+        "immediateText": "Du følger den lune lyktestien mot en ring av trær."
+      }
+    },
+    "passages": {
+      "body": "Ni sopper lyser ved en flat stein. Noen hatter gløder gyllent, andre blinker blekblått. Under dem står det risset inn: SMÅ LYS KAN VISE EN VEI SOM VOKSER. Frøet varmer i håndflaten din, men steinen holder seg lukket. En latter høres fra et hult tre lenger nede langs stien."
+    }
+  },
+  "hollow": {
+    "title": "Treet som lo",
+    "body": "«Bø!» sier treet. «Oi. Ble det for mye?» En Gastly svever opp ned mellom hyller med bortkomne votter, knapper og reisedagbøker. «Før stoppet folk og fortalte meg ting», sier den og snur seg riktig vei. «Nå skynder de seg forbi. Jeg kan ha flyttet et skilt.» Den vil vise deg sitt beste funn i bytte mot en historie. «Helst en med noe pinlig i.»",
+    "choices": {
+      "hollow.1": {
+        "label": "Fortell Gastly noe morsomt vennen din har gjort",
+        "immediateText": "Gastly ler så hardt at den snur seg opp ned to ganger. «Du må komme oftere. Bli med og se arkivet!»"
+      },
+      "hollow.2": {
+        "label": "Be Gastly slutte å forvirre redde reisende",
+        "immediateText": "Gastly synker litt sammen, men bytter så ut et falskt skilt med et ekte. «Bare hyggelige overraskelser fra nå av», lover den."
+      },
+      "hollow.3": {
+        "label": "Fortell hvorfor de savnede stjernene betyr noe",
+        "immediateText": "Gastly lytter uten å avbryte. «Dere bør se de ordentlige opptegnelsene», sier den til slutt."
+      }
+    },
+    "passages": {
+      "body": "«Bø!» sier treet. «Oi. Ble det for mye?» En Gastly svever opp ned mellom hyller med bortkomne votter, knapper og reisedagbøker. «Før stoppet folk og fortalte meg ting», sier den og snur seg riktig vei. «Nå skynder de seg forbi. Jeg kan ha flyttet et skilt.» Den vil vise deg sitt beste funn i bytte mot en historie. «Helst en med noe pinlig i.»"
+    }
+  },
+  "echoArchive": {
+    "title": "Ekkoarkivet",
+    "body": "Gastly svever foran deg inn i et tørt leserom. En astronomibok som er hundre år gammel, viser hvordan Glasset gir lys og varme under fjellstormer. Tre ringer slipper det lagrede lyset trygt ut igjen. Ved siden av ligger et langt nyere ark: Lumis omhyggelige avskrift, med spørsmål i margen. «Hvor lenge kan det varme en skadet venn?» har hun skrevet. Svaret er understreket: TIL ANNEN VARME ER KLAR. Gastly finner papir til én side med notater.",
+    "choices": {
+      "echoArchive.1": {
+        "label": "Skriv av hvordan Glasset åpnes trygt",
+        "immediateText": "Du skriver: «Gjør klar en ny varmekilde, løsne sperren og åpne veien tilbake.»"
+      },
+      "echoArchive.2": {
+        "label": "Tegn av kartet over den skjulte servicetrappen",
+        "immediateText": "Du tegner trappen som går under observatoriet til den nedre tårndøren."
+      },
+      "echoArchive.3": {
+        "label": "Tegn av ringene og det hver av dem krever",
+        "immediateText": "Du tegner tre sirkler: HIMMEL trenger trygg transport og varme, HJERTE trenger frivillige lyktevakter, og JORD trenger en varm plante og gartnere."
+      }
+    },
+    "passages": {
+      "body": "Gastly svever foran deg inn i et tørt leserom. En astronomibok som er hundre år gammel, viser hvordan Glasset gir lys og varme under fjellstormer. Tre ringer slipper det lagrede lyset trygt ut igjen. Ved siden av ligger et langt nyere ark: Lumis omhyggelige avskrift, med spørsmål i margen. «Hvor lenge kan det varme en skadet venn?» har hun skrevet. Svaret er understreket: TIL ANNEN VARME ER KLAR. Gastly finner papir til én side med notater."
+    }
+  },
+  "roots": {
+    "title": "Det eldste treet",
+    "body": "Røtter tykke som benker krysser stien. Over dem åpner et ansikt seg i barken på en eldgammel lønn. «Hva blir lysere når det deles?» spør treet. Frø med vinger rasler over hodet ditt. Treet ser på sølvfrøet. «Ikke et av mine. Det kom fra en maskin som husket hvordan den skulle be om hjelp.» Bak røttene skimter du en lysning, men treet venter på svaret ditt.",
+    "choices": {
+      "roots.1": {
+        "label": "Svar: «Et lys som går fra venn til venn»",
+        "immediateText": "«Ja», mumler treet. «Én flamme kan tenne en annen.» Røttene løfter seg og åpner en dør inn til lysningen."
+      },
+      "roots.2": {
+        "label": "Svar: «En god idé»",
+        "immediateText": "Treet humrer. «Særlig når noen stiller et enda bedre spørsmål!» Røttene løfter seg og slipper deg forbi."
+      },
+      "roots.3": {
+        "label": "La Bulbasaur snakke med røttene",
+        "immediateText": "Bulbasaur legger en slyngtråd mot barken. Røttene åpner seg, og treet ønsker dere varmt velkommen uten ord."
+      },
+      "roots.4": {
+        "label": "Be treet om et vanlig frø i gave",
+        "immediateText": "Et vingefrø snurrer ned i håndflaten din. «Plant det på et godt sted», sier lønnen og løfter røttene så du ser lysningen."
+      }
+    },
+    "passages": {
+      "body": "Røtter tykke som benker krysser stien. Over dem åpner et ansikt seg i barken på en eldgammel lønn. «Hva blir lysere når det deles?» spør treet. Frø med vinger rasler over hodet ditt. Treet ser på sølvfrøet. «Ikke et av mine. Det kom fra en maskin som husket hvordan den skulle be om hjelp.» Bak røttene skimter du en lysning, men treet venter på svaret ditt."
+    }
+  },
+  "clearing": {
+    "title": "Halvmånelinsen",
+    "body": "I lysningen dekker myk mose en steinsokkel. På toppen ligger en halvmåneformet linse. Når du holder frøet bak den, skjelver et bilde over barken: Noen går mot tårnet og støtter en liten Pokémon som halter. Et gult skjerf fanger lyset. Bildet blekner før du får sett ansiktene deres. Du pakker linsen forsiktig ned. Ved sokkelen henger et tau og et lite skilt: SLIPP LYSET UT NÅR ANNEN VARME ER KLAR.",
+    "choices": {
+      "clearing.1": {
+        "label": "Ta tauet til vanskelige kryssinger",
+        "immediateText": "Du ruller sammen tauet og fester det til sekken, klart til en glatt elvekryssing."
+      },
+      "clearing.2": {
+        "label": "Bruk månerunen til å kopiere merket for den skjulte tårndøren",
+        "immediateText": "Runen passer. Et lysende symbol viser seg i linsen, og du tegner av merket for den nedre døren."
+      },
+      "clearing.3": {
+        "label": "Plant det vanlige frøet ved sokkelen",
+        "immediateText": "Du presser det lille brune frøet ned i fuktig jord og vanner det fra drikkeflasken."
+      },
+      "clearing.4": {
+        "label": "La en lykt brenne for skogen",
+        "immediateText": "Du tenner en skjermet veke ved sokkelen. Den vil hjelpe andre reisende å finne lysningen."
+      }
+    },
+    "passages": {
+      "body": "I lysningen dekker myk mose en steinsokkel. På toppen ligger en halvmåneformet linse. Når du holder frøet bak den, skjelver et bilde over barken: Noen går mot tårnet og støtter en liten Pokémon som halter. Et gult skjerf fanger lyset. Bildet blekner før du får sett ansiktene deres. Du pakker linsen forsiktig ned. Ved sokkelen henger et tau og et lite skilt: SLIPP LYSET UT NÅR ANNEN VARME ER KLAR.",
+      "letter-print": "Du bretter ut brevet. Det utydelige poteavtrykket er akkurat passe stort til den minste av de to.",
+      "eevee-notices": "Eevee dytter hånden din mot stedet der den minste skikkelsen lente seg mot vennen sin.",
+      "rescue-help": "To lyktelys blinker fra stolpen. Miras hjelpere har løsnet eføyen, og Pikachu er trygg hos dem. En liten gul gnist følger signalet."
+    }
+  },
+  "bank": {
+    "title": "Elven uten speilbilder",
+    "body": "Vanligvis bærer Lumen-elven tusen skjelvende stjerner. I kveld er det bare lykten din som speiler seg i vannet. Lapras venter i en grunn kulp, sperret inne av en nedfalt gren. Langs bredden ligger en fergekai og et sivverksted. Lenger oppe buldrer en foss. Bortenfor fossen deler en liten øy elven i to. Fra nordsiden av øya går en sti opp mot fjellet.",
+    "choices": {
+      "bank.1": {
+        "label": "Hjelp Lapras ut av den grunne dammen",
+        "immediateText": "Sammen åpner dere den sperrede kanalen. Lapras glir ut på dypere vann og synger lettet."
+      },
+      "bank.2": {
+        "label": "Reparer fergen for å nå øya",
+        "immediateText": "Du bærer solide bord bort til kaien, der Psyduck sjekker fergedekket."
+      },
+      "bank.3": {
+        "label": "Følg stien til fossen",
+        "immediateText": "Dere følger en trygg hylle langs elven mot lyden av klokkene."
+      },
+      "bank.4": {
+        "label": "Let etter huleinngangen på Miras kart",
+        "immediateText": "Tårnsymbolene i notatene dine passer med et merke over bekken. Du følger det og finner en tørr sidesti inn til hulen."
+      }
+    },
+    "passages": {
+      "body": "Vanligvis bærer Lumen-elven tusen skjelvende stjerner. I kveld er det bare lykten din som speiler seg i vannet. Lapras venter i en grunn kulp, sperret inne av en nedfalt gren. Langs bredden ligger en fergekai og et sivverksted. Lenger oppe buldrer en foss. Bortenfor fossen deler en liten øy elven i to. Fra nordsiden av øya går en sti opp mot fjellet."
+    }
+  },
+  "lapras": {
+    "title": "Elvens vokter",
+    "body": "Vannet virvler gjennom løpet dere åpnet. Lapras svømmer en runde, strekker finnene og senker hodet for å lytte. Når du peker mot tårnet, tegner den to figurer i sanden: en med runde ører, og en mindre som lener seg mot henne. De krysset elven sammen. Lapras tilbyr dere plass på ryggen, men ser stadig nedover elven, der andre reisende kan trenge en veiviser.",
+    "choices": {
+      "lapras.1": {
+        "label": "Be Lapras ta dere til øya",
+        "immediateText": "Lapras senker halsen så dere kan klatre opp, og frakter dere til øyas rullesteinstrand."
+      },
+      "lapras.2": {
+        "label": "Be Lapras vise vei for andre bortkomne reisende",
+        "immediateText": "Lapras vil gjerne bli ved elven. Sangen følger dere mens dere går mot fergen."
+      },
+      "lapras.3": {
+        "label": "Lov å hjelpe begge vennene og hente lyset tilbake",
+        "immediateText": "Lapras svarer med en rolig sang. «Begge», gjentar du mens den bærer dere over."
+      }
+    },
+    "passages": {
+      "body": "Vannet virvler gjennom løpet dere åpnet. Lapras svømmer en runde, strekker finnene og senker hodet for å lytte. Når du peker mot tårnet, tegner den to figurer i sanden: en med runde ører, og en mindre som lener seg mot henne. De krysset elven sammen. Lapras tilbyr dere plass på ryggen, men ser stadig nedover elven, der andre reisende kan trenge en veiviser."
+    }
+  },
+  "ferry": {
+    "title": "Psyduck og den vaklende fergen",
+    "body": "Psyduck har lagt de reparerte fergebordene på rekke, fra kortest til lengst. Den banker på hvert bord og lytter etter sprekker. Du holder dem stødig mens Psyduck fester dem. Sammen tester dere den tomme fergen før noen går om bord. Dekket holder. Da fossen buldrer, griper Psyduck seg til hodet, før den nøye sjekker fortøyningen igjen. Verksteddøren står åpen bak dere, med siv og små lykter innenfor.",
+    "choices": {
+      "ferry.1": {
+        "label": "Kryss langsomt sammen og gi Psyduck god tid",
+        "immediateText": "Psyduck setter en fot på dekket, skjelver og gjennomfører så turen sammen med dere. Den bestemmer seg for å hjelpe til ved landingsstedet."
+      },
+      "ferry.2": {
+        "label": "Besøk sivverkstedet for å finne tryggere utstyr",
+        "immediateText": "Psyduck vinker deg inn gjennom den åpne verksteddøren og løfter en lykt ned fra hyllen."
+      },
+      "ferry.3": {
+        "label": "Be Psyduck bli igjen som fergevokter",
+        "immediateText": "Psyduck viser hvordan du trekker fergen langs ledertauet, og blir på kaien for å hjelpe de neste reisende. Du krysser langsomt og går i land på øya."
+      }
+    },
+    "passages": {
+      "variant-0": "Tauet ditt blir et solid rekkverk over fergedekket.",
+      "body": "Psyduck har lagt de reparerte fergebordene på rekke, fra kortest til lengst. Den banker på hvert bord og lytter etter sprekker. Du holder dem stødig mens Psyduck fester dem. Sammen tester dere den tomme fergen før noen går om bord. Dekket holder. Da fossen buldrer, griper Psyduck seg til hodet, før den nøye sjekker fortøyningen igjen. Verksteddøren står åpen bak dere, med siv og små lykter innenfor."
+    }
+  },
+  "reedWorkshop": {
+    "title": "Ett skritt om gangen",
+    "body": "Det lukter vått tre i verkstedet til Psyduck. Ferdige lykter dupper i et prøvekar. Bøyde siv fyller en kurv merket PRØV IGJEN. På veggen henger et kart over avløpstunnelene og en rekke små klokker. Psyduck ser at du kikker på kurven, og trekker på skuldrene. Så velger den et rett siv og setter i gang. Dere rekker ett prosjekt før dere tar den reparerte fergen til øya.",
+    "choices": {
+      "reedWorkshop.1": {
+        "label": "Bygg lykter som viser vei etter mørkets frembrudd",
+        "immediateText": "Sammen legger dere ut en rekke flytende lykter og merker dem på elvekartet.",
+        "responses": {
+          "crossing": "Psyduck sjekker fergetauet en gang til og viser deg trygt over til øya."
+        }
+      },
+      "reedWorkshop.2": {
+        "label": "Lær Psyducks rolige puste- og klokkerytme",
+        "immediateText": "Psyduck lærer dere mønsteret dyp–lys–dyp, med en pustepause etter hver runde.",
+        "responses": {
+          "crossing": "Psyduck sjekker fergetauet en gang til og viser deg trygt over til øya."
+        }
+      },
+      "reedWorkshop.3": {
+        "label": "Tegn av vanntunnelen opp mot fjellet",
+        "immediateText": "Du tegner tunnelåpningen under broen og servicetrappen i den andre enden.",
+        "responses": {
+          "crossing": "Psyduck sjekker fergetauet en gang til og viser deg trygt over til øya."
+        }
+      },
+      "reedWorkshop.4": {
+        "label": "Lag lyktestaker på vannet og inviter Psyduck med",
+        "immediateText": "Dere gjør ferdig de flytende merkelyktene sammen. Psyduck henger opp et skilt til neste fergevakt, pakker en liten lykt og bestemmer seg for å bli med.",
+        "responses": {
+          "crossing": "Psyduck sjekker fergetauet en gang til og viser deg trygt over til øya."
+        }
+      }
+    },
+    "passages": {
+      "body": "Det lukter vått tre i verkstedet til Psyduck. Ferdige lykter dupper i et prøvekar. Bøyde siv fyller en kurv merket PRØV IGJEN. På veggen henger et kart over avløpstunnelene og en rekke små klokker. Psyduck ser at du kikker på kurven, og trekker på skuldrene. Så velger den et rett siv og setter i gang. Dere rekker ett prosjekt før dere tar den reparerte fergen til øya."
+    }
+  },
+  "falls": {
+    "title": "Klokken bak vannet",
+    "body": "Vanndråper kjøler kinnene dine ved fossen. Tre klokker henger utenfor en steindør. Ekkoet fra dem vever seg inn i bruset. En slitt innskrift sier ELVEN HUSKER. Gjennom halvmånelinsen ser du trinn bak døren. Til høyre svinger en merket gangsti rundt fossen og bort til øya.",
+    "choices": {
+      "falls.1": {
+        "label": "Åpne døren med melodien du fant",
+        "immediateText": "Klokkene klinger sammen. Vannet glir til side og viser tørre trinn inn til hulen."
+      },
+      "falls.2": {
+        "label": "Ta den trygge stien rundt fossen",
+        "immediateText": "Dere lar klokkene være og følger den merkede stien langs bredden til øya."
+      },
+      "falls.3": {
+        "label": "Husk fossens rytme til senere",
+        "immediateText": "Du lytter til ekkoet blir tydelig, og trommer dyp, lys, dyp på sekken. Du holder takten mens du følger gangstien ut på øya."
+      }
+    },
+    "passages": {
+      "body": "Vanndråper kjøler kinnene dine ved fossen. Tre klokker henger utenfor en steindør. Ekkoet fra dem vever seg inn i bruset. En slitt innskrift sier ELVEN HUSKER. Gjennom halvmånelinsen ser du trinn bak døren. Til høyre svinger en merket gangsti rundt fossen og bort til øya."
+    }
+  },
+  "cave": {
+    "title": "Astronomens stille hule",
+    "body": "En veggtegning glitrer i lykteskinnet: tre ringer rundt en glasskule. Ved himmelringen har noen tegnet en reisende pakket inn i et teppe. Ved hjerteringen står en krets av lykter, og ved jordringen en plante med sølvblader. Under står det med slitte bokstaver: GJØR VARMEN KLAR, SÅ SLIPPER DU LYSET UT. En annen tegning viser fjellstier. Innerst i hulen skimter du lys tåke ved utgangen mot øya.",
+    "choices": {
+      "cave.1": {
+        "label": "Skriv av regelen for å gi lyset tilbake før dere rører ringene",
+        "immediateText": "Du skriver advarselen ved siden av ringtegningen på Miras kart."
+      },
+      "cave.2": {
+        "label": "Tegn de tre trygge veiene opp fjellet",
+        "immediateText": "Du tegner broen, omveien via lyet og den gamle servicetrappen som tre ulike linjer."
+      },
+      "cave.3": {
+        "label": "Se på de slitte veggmerkene gjennom linsen",
+        "immediateText": "Gjennom linsen blir de bleke strekene tydelige: Alle ringene fører til samme utløser. Du kopierer tegningen og følger den innerste gangen ut på øya."
+      }
+    },
+    "passages": {
+      "body": "En veggtegning glitrer i lykteskinnet: tre ringer rundt en glasskule. Ved himmelringen har noen tegnet en reisende pakket inn i et teppe. Ved hjerteringen står en krets av lykter, og ved jordringen en plante med sølvblader. Under står det med slitte bokstaver: GJØR VARMEN KLAR, SÅ SLIPPER DU LYSET UT. En annen tegning viser fjellstier. Innerst i hulen skimter du lys tåke ved utgangen mot øya.",
+      "arrival-falls": "Dere går opp de tørre trinnene bak fossen og inn i hulen.",
+      "arrival-bank": "Dere følger den tørre sidestien fra elvebredden og inn i hulen."
+    }
+  },
+  "island": {
+    "title": "Et minne på øya",
+    "body": "På øya ligger stjernestøv på en flat stein. Linsen fanger det, og et minne flimrer fram: En Clefairy hjelper en haltende Shinx mot fjellet. Begge har gult skjerf. «Lumi, ikke så fort», ber Shinx. Lumi stopper, tar av sitt eget skjerf og legger det rundt skuldrene hans. Bildet blekner. Han kunne snakke og gå litt da, men du vet fremdeles ikke hvordan han har det nå. Frøet lyser mot den høye broen.",
+    "choices": {
+      "island.1": {
+        "label": "Si høyt hva minnet forteller",
+        "immediateText": "«Lumi prøvde å hjelpe Shinx», sier du. «Men noe mer må ha skjedd i tårnet.»"
+      },
+      "island.2": {
+        "label": "Lov å høre Lumis historie før du dømmer henne",
+        "immediateText": "Start-Pokémonen din hører løftet og nikker alvorlig."
+      },
+      "island.3": {
+        "label": "Bruk linsen til å se om Shinx kunne gå",
+        "immediateText": "Du ser en gang til. Shinx klarte noen skritt med Lumis hjelp da minnet ble til. Du noterer sporet på kartet og følger fjellstien."
+      },
+      "island.4": {
+        "label": "Hold minnet privat til dere kan spørre dem",
+        "immediateText": "Du bretter kartet sammen. De bør få fortelle sin egen historie først."
+      }
+    },
+    "passages": {
+      "variant-0": "Du kjenner igjen Lumis navn fra Miras fortelling. Nå har du sett henne selv.",
+      "body": "På øya ligger stjernestøv på en flat stein. Linsen fanger det, og et minne flimrer fram: En Clefairy hjelper en haltende Shinx mot fjellet. Begge har gult skjerf. «Lumi, ikke så fort», ber Shinx. Lumi stopper, tar av sitt eget skjerf og legger det rundt skuldrene hans. Bildet blekner. Han kunne snakke og gå litt da, men du vet fremdeles ikke hvordan han har det nå. Frøet lyser mot den høye broen."
+    }
+  },
+  "bridge": {
+    "title": "Broen i vinden",
+    "body": "Stien fra øya stiger i nesten en time før du når en hengebro. På den andre siden av juvet ligger observatoriet inntil den nedre muren på Starfall-tårnet. Tårnrommet lyser over det. Broplankene er hele, men vinden får dem til å svaie. En annen sti slynger seg mot utkikkspunktet til Altaria. Langt under broen går en smal avløpstunnel gjennom fjellet.",
+    "choices": {
+      "bridge.1": {
+        "label": "Hold hengebroen stødig og kryss sammen",
+        "immediateText": "Dere venter til vinden løyer og krysser én om gangen mens dere holder i rekkverket."
+      },
+      "bridge.2": {
+        "label": "Ta den lange stien til Altarias utkikkspunkt",
+        "immediateText": "Dere går oppover langs steinene som skjermer mot vinden, mot utkikkspunktet."
+      },
+      "bridge.3": {
+        "label": "La Bulbasaur støtte broen med slyngtrådene",
+        "immediateText": "Bulbasaur legger slyngtrådene rundt de solide stolpene på deres side og støtter rekkverket. Dere går over én om gangen. Så slipper Bulbasaur taket og følger etter."
+      },
+      "bridge.4": {
+        "label": "Bruk den gamle vanntunnelen under broen",
+        "immediateText": "Dere følger den merkede tunnelen under broen og kommer ut ved de gamle trinnene."
+      }
+    },
+    "passages": {
+      "body": "Stien fra øya stiger i nesten en time før du når en hengebro. På den andre siden av juvet ligger observatoriet inntil den nedre muren på Starfall-tårnet. Tårnrommet lyser over det. Broplankene er hele, men vinden får dem til å svaie. En annen sti slynger seg mot utkikkspunktet til Altaria. Langt under broen går en smal avløpstunnel gjennom fjellet.",
+      "copied-route": "De tre veiene stemmer med skissen fra hulen. Du snur kartet slik at juvet ligger riktig vei.",
+      "spare-scarf": "Du tar Miras tykke reserveskjerf rundt halsen før du går ut i vinden."
+    }
+  },
+  "windwatch": {
+    "title": "Altaria og den bortkomne flokken",
+    "body": "Rop fra Swablu høres gjennom tåken. Altaria flyr i lave sirkler og teller ungene som slår seg ned bak steiner i le for vinden. Et siste pip kommer fra en steinlykt ved stien til lyet. Altaria lander nær deg og ser fra tåken til lykten. De brede vingene hennes kan bære dere over juvet, men hun drar ikke fra en eneste unge.",
+    "choices": {
+      "windwatch.1": {
+        "label": "Hjelp Altaria med å samle hele flokken",
+        "immediateText": "Du viser den siste ungen rundt steinlykten. Altaria teller alle hodene og leder flokken inn på den lune soveplassen. Når ungene er trygge, bærer hun dere til taket på observatoriet."
+      },
+      "windwatch.2": {
+        "label": "Vis Altaria hvor den savnede ungen gjemmer seg",
+        "immediateText": "Altaria samler ungen under en vinge og viser dere veien til lyet sitt."
+      },
+      "windwatch.3": {
+        "label": "Følg den merkede gangstien",
+        "immediateText": "Du følger den merkede stien. Bak deg nyser den skjulte ungen voldsomt. Altaria hører det, henter sistemann og leder flokken mot lyet."
+      }
+    },
+    "passages": {
+      "body": "Rop fra Swablu høres gjennom tåken. Altaria flyr i lave sirkler og teller ungene som slår seg ned bak steiner i le for vinden. Et siste pip kommer fra en steinlykt ved stien til lyet. Altaria lander nær deg og ser fra tåken til lykten. De brede vingene hennes kan bære dere over juvet, men hun drar ikke fra en eneste unge."
+    }
+  },
+  "shelter": {
+    "title": "Ly ved skybærene",
+    "body": "Alle Swablu-ungene ligger på den lune soveplassen når du kommer rundt svingen. Altaria sjekker dem en gang til og dytter så til en sprukket matskål med nebbet. Bær har trillet ut i gresset. En løs, varm fjær ligger ved redet. Over bærbuskene går én sti til observatoriet, mens en annen følger de skjermede tjenestetrinnene langs tårnet.",
+    "choices": {
+      "shelter.1": {
+        "label": "Reparer skålen og spør om å få en fjær",
+        "immediateText": "Du binder skålen sammen med snor. Altaria legger en varm fjær i hendene dine."
+      },
+      "shelter.2": {
+        "label": "Del mat og spør om en varm fjær",
+        "immediateText": "Altaria takker for maten og gir deg en myk fjær til en kald natt."
+      },
+      "shelter.3": {
+        "label": "Gå til observatoriet uten å ta med noe",
+        "immediateText": "Dere takker Altaria og følger den tydelige stien opp til observatoriet."
+      },
+      "shelter.4": {
+        "label": "Ta den merkede servicetrappen mot tårnet",
+        "immediateText": "Dere følger den svingete servicetrappen til den nedre veien inn mot tårnet."
+      }
+    },
+    "passages": {
+      "body": "Alle Swablu-ungene ligger på den lune soveplassen når du kommer rundt svingen. Altaria sjekker dem en gang til og dytter så til en sprukket matskål med nebbet. Bær har trillet ut i gresset. En løs, varm fjær ligger ved redet. Over bærbuskene går én sti til observatoriet, mens en annen følger de skjermede tjenestetrinnene langs tårnet.",
+      "found-chick": "Ungen du fant, setter seg ved støvelen din. Altaria stryker deg over skulderen med en vinge."
+    }
+  },
+  "stairs": {
+    "title": "Trappen og de to skjerfene",
+    "body": "Steintrinn svinger rundt observatoriemuren. Et gult skjerf sitter fast under rekkverket. SHINX, står det med skjeve sting. Du løfter det løs, bretter det og legger det trygt i sekken. I en værbestandig eske like ved viser et fotografi Lumi og Shinx med like skjerf, hvert med navnet til eieren. En halvmåne er risset inn på tjenestedøren. De vanlige trinnene fortsetter oppover ved siden av.",
+    "choices": {
+      "stairs.1": {
+        "label": "Ta vare på Shinx sitt skjerf og følg yttertrappen",
+        "immediateText": "Du sjekker at skjerfet ligger trygt i sekken, og går opp mot observatoriet."
+      },
+      "stairs.2": {
+        "label": "Bruk den merkede servicegangen til tårndøren",
+        "immediateText": "Sporene du skrev av, leder dere under plattformen og opp tjenestegangen til tårndøren."
+      },
+      "stairs.3": {
+        "label": "Ta utendørsveien til observatoriets tak",
+        "immediateText": "Du pakker skjerfet trygt bort, og dere går opp den skjermede utetrappen."
+      }
+    },
+    "passages": {
+      "body": "Steintrinn svinger rundt observatoriemuren. Et gult skjerf sitter fast under rekkverket. SHINX, står det med skjeve sting. Du løfter det løs, bretter det og legger det trygt i sekken. I en værbestandig eske like ved viser et fotografi Lumi og Shinx med like skjerf, hvert med navnet til eieren. En halvmåne er risset inn på tjenestedøren. De vanlige trinnene fortsetter oppover ved siden av."
+    }
+  },
+  "observatory": {
+    "title": "Observatoriet som glemte himmelen",
+    "body": "Rim dekker styringen til plattformen i observatoriet. Gjennom vinduene ser du den overbygde gangbroen til tårnrommet, men taklåsen vil ikke rikke seg. Tre små mekanismer er koblet til den: planteformede kontakter, frosne tannhjul og vannkar. Vennen din gransker de slitte instruksjonstegningene. En håndsveiv og en utetrapp gir andre muligheter til å nå låsen.",
+    "choices": {
+      "observatory.1": {
+        "label": "Løs observatoriets mekanisme sammen med vennen din",
+        "immediateText": "Mekanismen klikker på plass. Vennen din tester låsen to ganger og ser svært fornøyd ut. Plattformen åpner veien til taket."
+      },
+      "observatory.2": {
+        "label": "Bruk håndsveiven og samarbeid",
+        "immediateText": "Dere bytter på å dra i den trege sveiven. Til slutt løfter låsen seg, og litt rim drysser fra taket."
+      },
+      "observatory.3": {
+        "label": "Gå opp den trygge utetrappen",
+        "immediateText": "Trappen fører til en manuell utløser. Du løfter den og åpner taket."
+      }
+    },
+    "passages": {
+      "body": "Rim dekker styringen til plattformen i observatoriet. Gjennom vinduene ser du den overbygde gangbroen til tårnrommet, men taklåsen vil ikke rikke seg. Tre små mekanismer er koblet til den: planteformede kontakter, frosne tannhjul og vannkar. Vennen din gransker de slitte instruksjonstegningene. En håndsveiv og en utetrapp gir andre muligheter til å nå låsen.",
+      "guard-visits": "En kjent gnist blinker på stien nedenfor. Pikachu er ferdig med å vise skogens reisende vei og kommer for å støtte sveiven. Etterpå skal den tilbake til vaktposten sin."
+    }
+  },
+  "roof": {
+    "title": "Over det siste gapet",
+    "body": "Fra observatorietaket hører du skritt inne i tårnrommet. En overbygd gangbro krysser åpningen nedenfor. Over den danner brede, lysende steiner en kort vei mellom solide rekkverk. Gjennom linsen ser du steinstøttene under skinnet. En skjermet trapp svinger rundt fjellet til den samme avsatsen. Ved gangbroen henger en klokkesnor med et måneformet håndtak.",
+    "choices": {
+      "roof.1": {
+        "label": "Kryss den overbygde gangbroen til døren",
+        "immediateText": "Gangbroen skjermer dere mot vinden på veien til tårnet."
+      },
+      "roof.2": {
+        "label": "Kryss forsiktig på tråkkesteinene",
+        "immediateText": "Du prøver hver lysende stein før du legger vekten på den, og når døren trygt."
+      },
+      "roof.3": {
+        "label": "Ring forsiktig med måneklokken før dere går frem",
+        "immediateText": "Klokken svarer med tre myke toner. Dere hører skritt som nærmer seg døren."
+      },
+      "roof.4": {
+        "label": "Ta den lune trappen rundt juvet",
+        "immediateText": "Den gamle steintrappen svinger under plattformen og fører til tårnets nedre avsats."
+      }
+    },
+    "passages": {
+      "body": "Fra observatorietaket hører du skritt inne i tårnrommet. En overbygd gangbro krysser åpningen nedenfor. Over den danner brede, lysende steiner en kort vei mellom solide rekkverk. Gjennom linsen ser du steinstøttene under skinnet. En skjermet trapp svinger rundt fjellet til den samme avsatsen. Ved gangbroen henger en klokkesnor med et måneformet håndtak."
+    }
+  },
+  "tower": {
+    "title": "Noen bak døren",
+    "body": "«En, to, tre. Vær så snill, bare én natt til.» En dempet stemme teller bak den lukkede døren. En annen svarer, trøtt, men tydelig: «Lumi, jeg sover ikke.» Du puster ut. Shinx er her, og han kan snakke. Gjennom et smalt vindu ved døren ser du et gult skjerf på en stol. LUMI er sydd langs kanten. Hun har fått sitt eget skjerf tilbake. Frøet varmer hånden din.",
+    "choices": {
+      "tower.1": {
+        "label": "Bank på og presenter deg",
+        "immediateText": "Du sier hva du og vennen din heter, uten å kreve at Lumi åpner med én gang."
+      },
+      "tower.2": {
+        "label": "Si rolig at sølvfrøet ba om hjelp og ledet dere hit",
+        "immediateText": "Du viser det varme sølvfrøet gjennom det smale vinduet og forklarer at det ledet dere hit."
+      },
+      "tower.3": {
+        "label": "Hold opp Shinx sitt skjerf og spør om å få levere det tilbake",
+        "immediateText": "Du bretter ut skjerfet og holder det rent og tørt så de der inne kan se navnet."
+      },
+      "tower.4": {
+        "label": "Spør først om det går bra med Shinx",
+        "immediateText": "Du spør om Shinx i stedet for maskinen. Noen der inne kommer nærmere."
+      }
+    },
+    "passages": {
+      "body": "«En, to, tre. Vær så snill, bare én natt til.» En dempet stemme teller bak den lukkede døren. En annen svarer, trøtt, men tydelig: «Lumi, jeg sover ikke.» Du puster ut. Shinx er her, og han kan snakke. Gjennom et smalt vindu ved døren ser du et gult skjerf på en stol. LUMI er sydd langs kanten. Hun har fått sitt eget skjerf tilbake. Frøet varmer hånden din.",
+      "scarf-in-pack": "Det like skjerfet til Shinx ligger fremdeles tørt i sekken. Du kan vise det fram gjennom vinduet.",
+      "service-arrival": "Den skjermede tjenestegangen har ført hele følget til denne avsatsen, i le for vinden.",
+      "bell-arrival": "Tellingen stopper. De tre myke klokketonene dine er blitt hørt.",
+      "kept-map-clue": "Merket ved døren passer med det du skrev av. Notatene dine har ført deg helt fram til avsatsen."
+    }
+  },
+  "lumi": {
+    "title": "Vokteren som var redd",
+    "body": "Lumi åpner døren på gløtt. Den lille Clefairyen har trøtte øyne, men holder fast i håndtaket. Bak henne ligger Shinx ved en glasskule full av virvlende lys. Den ene poten er bandasjert. «Ikke slipp inn trekken», sier Lumi og gjør plass til dere. Shinx løfter hodet. «Besøk. Utmerket. Kanskje noen vil snakke med meg.»\n\nLumi holder en hånd nær spakene. «Glasset holdt ham varm etter fallet. Jeg vet ikke hvordan jeg skal la det stoppe.» Ingen strekker seg etter en spak.",
+    "choices": {
+      "lumi.1": {
+        "label": "Spør Lumi nøyaktig hva som skjedde etter ulykken",
+        "immediateText": "«Jeg må forstå når det ble farlig», sier du. Lumi trekker pusten skjelvende og begynner med stormen."
+      },
+      "lumi.2": {
+        "label": "Vis Lumi brevet du tok vare på",
+        "immediateText": "Lumi tar brevet og glatter ut det fuktige hjørnet. «Jeg skrev dette før jeg sluttet å åpne døren.»"
+      },
+      "lumi.3": {
+        "label": "Si at dere kom for å lytte, ikke for å legge skylden på henne",
+        "immediateText": "Du setter deg der Lumi ser deg tydelig, og venter på at hun skal snakke."
+      },
+      "lumi.4": {
+        "label": "Gi Shinx skjerfet tilbake og la ham snakke",
+        "immediateText": "Shinx tar imot skjerfet og vikler det rundt halsen før han kremter."
+      }
+    },
+    "passages": {
+      "body": "Lumi åpner døren på gløtt. Den lille Clefairyen har trøtte øyne, men holder fast i håndtaket. Bak henne ligger Shinx ved en glasskule full av virvlende lys. Den ene poten er bandasjert. «Ikke slipp inn trekken», sier Lumi og gjør plass til dere. Shinx løfter hodet. «Besøk. Utmerket. Kanskje noen vil snakke med meg.»",
+      "reply-arrived": "Flasken din står ved postkurven. Lumi bretter ut svaret ditt. «Du skrev at dere kom.» Hun leser den siste linjen en gang til: Du er ikke alene.",
+      "knock": "«Takk for at du banket forsiktig», sier Lumi. «Jeg ventet hele tiden at noen skulle hamre på døren.»",
+      "key": "Lumi kjenner igjen frøet. «Det hentet hjelp selv da jeg ikke klarte det.» Hun løsner grepet om håndtaket.",
+      "ask-shinx": "«Poten gjør vondt», forteller Shinx. «Og jeg vil gjerne slutte å være en hemmelighet.» Lumi ser ned på føttene sine.",
+      "show-scarf": "Ørene til Shinx reiser seg når han ser skjerfet. «Jeg visste at fjellet ikke hadde spist det.»",
+      "kept-letter": "Du kjenner igjen det utydelige poteavtrykket på brevet. Shinx har den samme blekkstreken på den friske poten.",
+      "promise-listen": "Du husker løftet fra øya og setter deg før du spør om noe. Lumi trekker en krakk nærmere.",
+      "privacy": "Du lar være å nevne minnet fra øya. «Har dere lyst til å fortelle?» spør du i stedet.",
+      "waiting": "Lumi holder en hånd nær spakene. «Glasset holdt ham varm etter fallet. Jeg vet ikke hvordan jeg skal la det stoppe.» Ingen strekker seg etter en spak."
+    }
+  },
+  "listen": {
+    "title": "Sannheten mellom to venner",
+    "body": "«Klokketauet røk i stormen», sier Lumi. «Shinx skled mens vi reparerte det.» Han skadet poten, gnistene ble ustø, og vinden gjorde ham fryktelig kald. Lumi visste hvordan hun skulle bruke varmeovnen i Glasset. Hun visste ikke hvor lenge det ville ta før hjelpen kom. «Jeg skrudde opp varmen igjen og igjen. Så holdt jeg vokterlåsen stengt.» Hun viser deg det lille håndtaket under tommelen. «Det slipper ikke lyset ut før jeg lar noen andre overta varmen.»\n\n«Jeg vil bli frisk», sier Shinx. «Jeg vil også at du skal sove. Og jeg vil ha himmelen tilbake.» Du forteller at Mira har sendt forsyninger. Gjennom vinduet blinker en lykt fra tjenestestien nedenfor. Hjelperne har nådd fram til forsyningsverandaen. Endelig løfter Lumi tommelen fra låsen. Bare litt.",
+    "choices": {
+      "listen.1": {
+        "label": "Spør Shinx hva slags hjelp han ønsker først",
+        "immediateText": "Du gir Shinx tid til å svare. «Varme, hvile og en sjanse til å bestemme hva som skjer videre», sier han."
+      },
+      "listen.2": {
+        "label": "Lov Lumi at hun ikke trenger å gjøre alt alene",
+        "immediateText": "Lumi senker skuldrene. «Jeg skal spørre neste gang», sier hun, «selv om jeg synes det er flaut.»"
+      },
+      "listen.3": {
+        "label": "Del de gamle reglene du fant",
+        "immediateText": "Du viser Lumi regelen du skrev av, og hun peker ut den trygge utløseren."
+      },
+      "listen.4": {
+        "label": "Be Lumi vise hvordan de tre ringene virker",
+        "immediateText": "Lumi viser hver ring med én liten gnist i stedet for å risikere hele kulen."
+      }
+    },
+    "passages": {
+      "body": "«Klokketauet røk i stormen», sier Lumi. «Shinx skled mens vi reparerte det.» Han skadet poten, gnistene ble ustø, og vinden gjorde ham fryktelig kald. Lumi visste hvordan hun skulle bruke varmeovnen i Glasset. Hun visste ikke hvor lenge det ville ta før hjelpen kom. «Jeg skrudde opp varmen igjen og igjen. Så holdt jeg vokterlåsen stengt.» Hun viser deg det lille håndtaket under tommelen. «Det slipper ikke lyset ut før jeg lar noen andre overta varmen.»",
+      "history": "«Jeg trodde Mira ville gi ham skylden», innrømmer Lumi. Shinx fnyser. «For å falle? Jeg gjorde det ikke med vilje.»",
+      "letter": "Lumi bretter sammen brevet hun fikk tilbake. «Jeg klarte å spørre på papiret. Ved døren forsvant ordene.»",
+      "returned-scarf": "Shinx trekker sitt eget skjerf opp under haken. «To skjerf ble for varmt da vi kom inn. Jeg ga Lumi sitt tilbake. Så oppdaget vi at mitt var borte.»",
+      "eevee": "Eevee setter seg ved krakken til Lumi. Etter en stund legger Lumi en hånd på hodet dens.",
+      "shinx-wishes": "«Jeg vil bli frisk», sier Shinx. «Jeg vil også at du skal sove. Og jeg vil ha himmelen tilbake.» Du forteller at Mira har sendt forsyninger. Gjennom vinduet blinker en lykt fra tjenestestien nedenfor. Hjelperne har nådd fram til forsyningsverandaen. Endelig løfter Lumi tommelen fra låsen. Bare litt.",
+      "paw-clue": "Blekket på poten til Shinx passer med avtrykket du tegnet på kartet. Han ser at du kikker. «Jeg hjalp til med brevet. Min jobb var å holde flasken.»",
+      "pikachu-diagram": "Du viser Lumi de tre sirklene Pikachu tegnet. «Den så ringene gjennom vinduet», sier hun. «Jeg skulle ønske jeg hadde åpnet døren da.»"
+    }
+  },
+  "plan": {
+    "title": "Tre ringer, én himmel",
+    "body": "Du og Lumi henter pakken fra hjelperne på forsyningsverandaen: tepper, mat, en polstret bærekurv og lykter med lokk. Hun sjekker hver ting før hun legger den ved Shinx. «Mira gjemte en kartbit for at folk skulle være trygge», forteller du. Lumi ser på den låste kulen. «Og jeg stengte en dør.» Hun snur seg mot de tre ringene.\n\nHIMMELRINGEN kan åpnes når Shinx har en varm bærekurv og en trygg vei ned. HJERTERINGEN kan sende varme inn i lykter som frivillige hjelpere passer på. JORDRINGEN kan få sølvfrøet til å vokse til en plante som lagrer varme. Lumi berører utløseren under dem. «Uansett hva vi velger, må varmen være klar først.»\n\nLykten til Mira svarer fra landsbyen: Et varmt rom står klart. «Spør før dere løfter meg», sier Shinx. Lumi setter bærekurven ned igjen og venter på at han nikker.",
+    "choices": {
+      "plan.1": {
+        "label": "Gjør klar en trygg frigjøring med himmelringen",
+        "immediateText": "Dere sjekker teppet, døren og veien ned før dere rører himmelringen."
+      },
+      "plan.2": {
+        "label": "Be villige venner danne en varmekrets",
+        "immediateText": "Du spør alle etter tur, også Shinx, om de ønsker å hjelpe."
+      },
+      "plan.3": {
+        "label": "Ta frøet til hagebalkongen for å bruke jordringen",
+        "immediateText": "Du og Lumi bærer frøet ut i det voksende lyset ved plantekassen på balkongen."
+      },
+      "plan.4": {
+        "label": "Be Mira ordne hjelp fra Willowbrook før lyset slippes fri",
+        "immediateText": "Du blinker Miras festsignal fra tårnvinduet. Et klart svar kommer fra landsbyen."
+      }
+    },
+    "passages": {
+      "body": "Du og Lumi henter pakken fra hjelperne på forsyningsverandaen: tepper, mat, en polstret bærekurv og lykter med lokk. Hun sjekker hver ting før hun legger den ved Shinx. «Mira gjemte en kartbit for at folk skulle være trygge», forteller du. Lumi ser på den låste kulen. «Og jeg stengte en dør.» Hun snur seg mot de tre ringene.",
+      "rings": "HIMMELRINGEN kan åpnes når Shinx har en varm bærekurv og en trygg vei ned. HJERTERINGEN kan sende varme inn i lykter som frivillige hjelpere passer på. JORDRINGEN kan få sølvfrøet til å vokse til en plante som lagrer varme. Lumi berører utløseren under dem. «Uansett hva vi velger, må varmen være klar først.»",
+      "shinx-asked": "Shinx peker på bærekurven. «Den ser god ut. Men la meg bestemme når vi flytter oss.» Du setter den innen rekkevidde.",
+      "trust": "Lumi gir deg en av lyktene. «Da kan dette være din oppgave.» Hånden hennes skjelver ikke like mye lenger.",
+      "knowledge": "Regelen du skrev av, ligger ved spakene. Lumi sammenligner tegningen med låsen og nikker. «Nå vet vi det begge to.»",
+      "demonstration": "Lumi sender en liten gnist rundt demonstrasjonsskiven og henter den tilbake. Shinx følger hver bevegelse.",
+      "lapras-promise": "Du forteller Shinx om løftet du ga ved Lapras: Du kom for begge vennene, og for lyset. «Bra», sier han. «Hun trenger også noen som passer på henne.»",
+      "consent": "Lykten til Mira svarer fra landsbyen: Et varmt rom står klart. «Spør før dere løfter meg», sier Shinx. Lumi setter bærekurven ned igjen og venter på at han nikker.",
+      "psyduck-steps": "Psyduck legger forsyningene i den rekkefølgen dere skal bruke dem, akkurat som fergebordene. Shinx godkjenner teppehaugen.",
+      "pikachu-permission": "Pikachu tilbyr en liten gnist til en lykt og venter. Shinx nikker. Lumi ser at de blir enige før noen av dem rører seg.",
+      "hoothoot-refrain": "Hoothoot banker tre ganger på sekken din. Shinx banker tilbake, litt for fort, og uglen gir ham et svært alvorlig blikk."
+    }
+  },
+  "sky": {
+    "title": "Himmelringen",
+    "body": "Lumi varmer en glatt stein ved varmeovnen i Glasset, pakker den inn og kjenner på den med håndleddet. Du legger et teppe i bærekurven. Shinx prøver den, vrikker på seg og ber deg rette ut en klumpete brett. Utenfor venter hjelperne ved den lune stien ned til Miras varme rom. Utløseren blir stående stengt mens dere gjør det siste klart.",
+    "choices": {
+      "sky.1": {
+        "label": "Legg Shinx i den varme kurven og slipp lyset ut",
+        "immediateText": "Shinx nikker. Du løfter kurven sammen med en hjelper, og Lumi sjekker at den innpakkede steinen fremdeles er varm. Hun stiller seg ved utløseren."
+      },
+      "sky.2": {
+        "label": "Lag et varmt rede med Altarias fjær før lyset slippes ut",
+        "immediateText": "Altarias fjær brer seg ut som et mykt fôr rundt den innpakkede varme steinen. Shinx legger seg i redet og godkjenner det med et søvnig blunk."
+      },
+      "sky.3": {
+        "label": "La Charmander holde Shinx varm mens lyset slippes ut",
+        "immediateText": "Charmander setter seg stødig ved bærekurven, med halen trygt unna teppet. Shinx kjenner på varmen med den friske poten og nikker."
+      },
+      "sky.4": {
+        "label": "Bruk den rolige klokketakten under åpningen",
+        "immediateText": "Du legger Shinx ved den innpakkede varme steinen. Han trommer med den friske poten: klar for de tre tonene og for at Lumi skal åpne låsen."
+      }
+    },
+    "passages": {
+      "body": "Lumi varmer en glatt stein ved varmeovnen i Glasset, pakker den inn og kjenner på den med håndleddet. Du legger et teppe i bærekurven. Shinx prøver den, vrikker på seg og ber deg rette ut en klumpete brett. Utenfor venter hjelperne ved den lune stien ned til Miras varme rom. Utløseren blir stående stengt mens dere gjør det siste klart.",
+      "feather-option": "Du legger Altarias varme fjær ved kurven. Den er bred nok til å fôre redet.",
+      "fire-option": "Charmander måler opp en trygg plass ved kurven med potene og ser på Shinx for å få lov."
+    }
+  },
+  "heart": {
+    "title": "Hjerteringen",
+    "body": "Lumi setter tre lykter med lokk rundt sengen til Shinx. Du og vennen din sier ja til å passe én hver. Hun tar den tredje. En gyllen tråd går fra hjerteringen og inn i lykteglassene. «Varmt nok?» spør hun. Shinx strekker fram den friske poten. «Litt nærmere, takk.» Langt nede signaliserer Mira at de frivillige i landsbyen også er klare. Lumi lar utløseren stå stengt til dere har bestemt hvem som tar neste vakt.",
+    "choices": {
+      "heart.1": {
+        "label": "Koble ringen til Miras festlykter og del arbeidet med landsbyen",
+        "immediateText": "Landsbylyktene svarer på signalet. Hver gir litt lys uten å slukne."
+      },
+      "heart.2": {
+        "label": "Lag et hvilerom med hjelpere i tårnet mens lyset vender tilbake",
+        "immediateText": "Lumi skriver navnene på de frivillige på tavlen i observatoriet. Shinx godkjenner vaktplanen."
+      },
+      "heart.3": {
+        "label": "Syng den kjente melodien mens varmen deles",
+        "immediateText": "Du begynner på den kjente melodien. Shinx teller med poten mens lyktevaktene sjekker at den lille kretsen er varm."
+      },
+      "heart.4": {
+        "label": "La Shinx bestemme tempoet når varmen går mellom hjelperne",
+        "immediateText": "«Vent», sier Shinx og sjekker hver lykt. Til slutt nikker han. Lumi venter ved utløseren mens han selv teller til tre."
+      }
+    },
+    "passages": {
+      "body": "Lumi setter tre lykter med lokk rundt sengen til Shinx. Du og vennen din sier ja til å passe én hver. Hun tar den tredje. En gyllen tråd går fra hjerteringen og inn i lykteglassene. «Varmt nok?» spør hun. Shinx strekker fram den friske poten. «Litt nærmere, takk.» Langt nede signaliserer Mira at de frivillige i landsbyen også er klare. Lumi lar utløseren stå stengt til dere har bestemt hvem som tar neste vakt.",
+      "village-plan": "I svaret sitt navngir Mira det første vaktlaget i landsbyen. Hjelperne på forsyningsverandaen pakker ut ekstra lykter til turen ned."
+    }
+  },
+  "earth": {
+    "title": "Et frø for morgendagen",
+    "body": "På den skjermede hagebalkongen setter Lumi en potte med jord under jordringen. Du senker sølvfrøet ned i den. En rot folder seg ut, så et stjerneformet blad, mykt som en ny bregne. Bladet varmer håndflaten din. «Den andre oppgaven», hvisker Lumi. «En nødnøkkel som kan vokse til en ny varmekilde.» Du setter potten ved bærekurven til Shinx. Han lener seg mot den. «Den kan få sitte ved meg.»\n\nDen lille planten kan holde Shinx varm mens Glasset tømmes. Potten kan reise ved siden av ham. Etterpå trenger den vann, sollys og noen som steller den. Lumi finner en blyant. «La oss skrive ned hvem som gjør hva.»",
+    "choices": {
+      "earth.1": {
+        "label": "Gjør planten klar til felleshagen i Willowbrook",
+        "immediateText": "Du legger potten i en polstret kurv ved Shinx. Mira svarer på signalet: Hun hjelper dere med å plante den i landsbyen i morgen."
+      },
+      "earth.2": {
+        "label": "La Bulbasaur forme en levende kurv rundt planten",
+        "immediateText": "Bulbasaur leder den unge ranken rundt kanten på reisepotten. Potten sitter stødig ved Shinx, klar til turen til Willowbrook."
+      },
+      "earth.3": {
+        "label": "La den varme planten bli i tårnets hvilested",
+        "immediateText": "Du setter planten i en dyp potte ved Shinx. Hjelperne avtaler vanning og nattevakter før Lumi rører utløseren."
+      },
+      "earth.4": {
+        "label": "Plant sølvplanten ved Psyducks lyktekanal",
+        "immediateText": "Du polstrer reisepotten og signaliserer til Mira at dere møtes i elvehagen. Shinx sier ja til å reise med den varme planten ved siden av seg."
+      }
+    },
+    "passages": {
+      "body": "På den skjermede hagebalkongen setter Lumi en potte med jord under jordringen. Du senker sølvfrøet ned i den. En rot folder seg ut, så et stjerneformet blad, mykt som en ny bregne. Bladet varmer håndflaten din. «Den andre oppgaven», hvisker Lumi. «En nødnøkkel som kan vokse til en ny varmekilde.» Du setter potten ved bærekurven til Shinx. Han lener seg mot den. «Den kan få sitte ved meg.»",
+      "plain-seed": "Du tenker på det lille lønnefrøet i Moonwood. To svært forskjellige frø vil trenge noen som vanner dem.",
+      "river-garden": "På kartet viser du Lumi lyktekanalen du laget med Psyduck. På bredden er det plass til en hage, nær vannet og fergevaktene.",
+      "plant-care": "Den lille planten kan holde Shinx varm mens Glasset tømmes. Potten kan reise ved siden av ham. Etterpå trenger den vann, sollys og noen som steller den. Lumi finner en blyant. «La oss skrive ned hvem som gjør hva.»"
+    }
+  },
+  "endDawn": {
+    "title": "Daggry på hjemveien",
+    "body": "Lumi åpner låsen. Stjernelyset strømmer over dalen, og elven skinner igjen. Shinx ligger varmt ved den innpakkede steinen mens du og en hjelper bærer ham ned. Lumi går ved siden av med lykten din. Ved landsbyporten venter Mira med varmt vann, rene bandasjer og en seng ved peisen. Shinx vil gå de siste tre skrittene selv. Han klarer to, og tar imot en hånd på det tredje.\n\nNår alle har hvilt, planter dere det stille sølvfrøet i vinduskassen til Mira. Lumi hjelper henne med å tegne et ordentlig tårnkart, der de trygge stiene er tydelig merket. På neste fest tenner du og vennen din den første lykten sammen. På den andre siden av torget vinker to gule skjerf tilbake.",
+    "choices": {},
+    "passages": {
+      "variant-0": "Bulbasaur bærer Shinx sitt teppe uten å la det slepe over steinene.",
+      "variant-1": "Charmander går ved kurven og passer på å holde halen på trygg avstand.",
+      "variant-2": "Squirtle sjekker hvert glatt trinn på veien ned.",
+      "body": "Lumi åpner låsen. Stjernelyset strømmer over dalen, og elven skinner igjen. Shinx ligger varmt ved den innpakkede steinen mens du og en hjelper bærer ham ned. Lumi går ved siden av med lykten din. Ved landsbyporten venter Mira med varmt vann, rene bandasjer og en seng ved peisen. Shinx vil gå de siste tre skrittene selv. Han klarer to, og tar imot en hånd på det tredje.",
+      "home": "Når alle har hvilt, planter dere det stille sølvfrøet i vinduskassen til Mira. Lumi hjelper henne med å tegne et ordentlig tårnkart, der de trygge stiene er tydelig merket. På neste fest tenner du og vennen din den første lykten sammen. På den andre siden av torget vinker to gule skjerf tilbake."
+    }
+  },
+  "endAurora": {
+    "title": "Nordlysløftet",
+    "body": "Redet holder seg varmt mens Lumi åpner himmelringen. Lyset strømmer over fjellet i grønne og gylne slør. Bak dem har de ekte stjernene ventet hele tiden. Shinx synker ned i teppet. «Verdt å holde seg våken for», sier han og sovner straks. Med bærekurven klar følger dere hjelperne ned til Miras varme rom.\n\nShinx blir langsomt bedre. Det første hoppet hans får jubel. Det andre får et bestemt «Nok for i dag» fra Mira. Sølvfrøet vokser stille i en potte utenfor rommet hans. En kveld kommer Lumi for å se på stjernene sammen med dere, og glemmer å telle dem.",
+    "choices": {},
+    "passages": {
+      "variant-0": "Bulbasaur holder det myke redet stødig med slyngplantene sine.",
+      "variant-1": "Charmander ser på himmelen mens den passer den lille, trygge flammen.",
+      "variant-2": "Squirtle setter en kopp vann ved det varme redet til Shinx våkner.",
+      "body": "Redet holder seg varmt mens Lumi åpner himmelringen. Lyset strømmer over fjellet i grønne og gylne slør. Bak dem har de ekte stjernene ventet hele tiden. Shinx synker ned i teppet. «Verdt å holde seg våken for», sier han og sovner straks. Med bærekurven klar følger dere hjelperne ned til Miras varme rom.",
+      "feather-thanks": "Senere tar dere med en kurv med bær til Altaria og forteller hvordan fjæren hjalp. En Swablu graver seg ned i kurven før du får snakket ferdig.",
+      "recovery": "Shinx blir langsomt bedre. Det første hoppet hans får jubel. Det andre får et bestemt «Nok for i dag» fra Mira. Sølvfrøet vokser stille i en potte utenfor rommet hans. En kveld kommer Lumi for å se på stjernene sammen med dere, og glemmer å telle dem."
+    }
+  },
+  "endSong": {
+    "title": "Elven av stjerner",
+    "body": "Dyp, lys, dyp. Melodien fra høyden fyller tårnet. Shinx slår det siste taktslaget med den friske poten, og Lumi åpner låsen. Lyset glitrer nedover fjellet og samler seg i krusningene på elven. Dere synger til de stramme skuldrene til Lumi endelig senker seg.\n\nEtter at Shinx har hvilt, planter dere sølvfrøet ved elvestien. Til neste fest har det fått noen blanke blader. Landsbyen synger de tre tonene før lyktene tennes, med Shinx som stolt forsanger. Han synger aldeles fryktelig falskt. Ingen bryr seg.",
+    "choices": {},
+    "passages": {
+      "variant-0": "Bulbasaur trommer den dype takten forsiktig mot gulvet.",
+      "variant-1": "Charmander nynner en overraskende pipete høy tone.",
+      "variant-2": "Squirtle insisterer på å dirigere med en pinne som er altfor stor.",
+      "body": "Dyp, lys, dyp. Melodien fra høyden fyller tårnet. Shinx slår det siste taktslaget med den friske poten, og Lumi åpner låsen. Lyset glitrer nedover fjellet og samler seg i krusningene på elven. Dere synger til de stramme skuldrene til Lumi endelig senker seg.",
+      "sky-warmth": "Den innpakkede varme steinen holder Shinx varm i kurven hele veien ned til Mira. Du nynner når stien blir humpete.",
+      "heart-warmth": "De frivilliges lykter holder på den delte varmen rundt bærekurven til Shinx. Lyktevaktene går ved siden av dere helt fram til Mira.",
+      "song-home": "Etter at Shinx har hvilt, planter dere sølvfrøet ved elvestien. Til neste fest har det fått noen blanke blader. Landsbyen synger de tre tonene før lyktene tennes, med Shinx som stolt forsanger. Han synger aldeles fryktelig falskt. Ingen bryr seg."
+    }
+  },
+  "endSanctuary": {
+    "title": "Stjernelysets tilfluktssted",
+    "body": "Shinx velger sengen ved vinduet. Derfra kan han se stjernene uten å flytte den vonde poten. Lumi kommer med vaktlisten. Han gransker navnene før han skriver hennes på listen merket HVILE. «Det er legens ordre!» erklærer han. Hun ler og trekker fram en stol.\n\nMed Miras hjelp blir observatoriet et hvilested for slitne reisende. Poten til Shinx trenger tid på å gro, men gjestene får alltid en velkomst. Over døren henger Lumi et nytt skilt: BANK GJERNE PÅ. VI ER HER.",
+    "choices": {},
+    "passages": {
+      "variant-0": "Bulbasaur leder en slyngplante rundt den nye vinduskassen.",
+      "variant-1": "Charmander lærer hjelperne å holde varmekilden på trygg avstand fra sengetøyet.",
+      "variant-2": "Squirtle lager en ryddig vanningsplan og signerer med en våt pote.",
+      "body": "Shinx velger sengen ved vinduet. Derfra kan han se stjernene uten å flytte den vonde poten. Lumi kommer med vaktlisten. Han gransker navnene før han skriver hennes på listen merket HVILE. «Det er legens ordre!» erklærer han. Hun ler og trekker fram en stol.",
+      "plant-warmth": "Sølvplanten holder jevn varme ved Shinx. Lumi åpner Glasset, og stjernelyset når dalen igjen.",
+      "helpers-warmth": "De frivillige lyktevaktene tar plass rundt Shinx. Når varmen deres er jevn, åpner Lumi Glasset, og stjernelyset når dalen igjen.",
+      "plant-location": "Du lar sølvplanten stå i den dype potten ved tårnvinduet. Vanningslisten henger ved navnene på de frivillige.",
+      "seed-location": "Nå som alarmen er over, er sølvfrøet stille. Du planter det i en potte ved tårnvinduet og gir vanningslisten til de frivillige.",
+      "open-door": "Med Miras hjelp blir observatoriet et hvilested for slitne reisende. Poten til Shinx trenger tid på å gro, men gjestene får alltid en velkomst. Over døren henger Lumi et nytt skilt: BANK GJERNE PÅ. VI ER HER."
+    }
+  },
+  "endLantern": {
+    "title": "Lyktelaget",
+    "body": "Én etter én svarer landsbylyktene på Miras signal. En gyllen kjede klatrer opp fjellstien. Lyktevaktene deler varmen, og Lumi åpner låsen. Stjernelyset skyller over tak, elv og skog. Dere bærer Shinx ned mellom lyktene til peisen hos Mira. Han holder den friske poten på hånden til Lumi.\n\nSølvfrøet slår rot ved festens lyktestativ. På neste feiring taler Lumi under de små bladene. «Jeg trodde jeg måtte gjøre alt selv.» Shinx kremter. «Slitsomt å se på.» Til og med Lumi ler. Du hjelper vennen din med å tenne den første lykten. Denne gangen svarer hundre flammer.",
+    "choices": {},
+    "passages": {
+      "variant-0": "Bulbasaur lager et grønt slyngplantehåndtak til den første lykten.",
+      "variant-1": "Charmander tenner forsiktig lykten foran i toget.",
+      "variant-2": "Squirtle sjekker alle lyktelokk for regnlekkasjer før festen.",
+      "body": "Én etter én svarer landsbylyktene på Miras signal. En gyllen kjede klatrer opp fjellstien. Lyktevaktene deler varmen, og Lumi åpner låsen. Stjernelyset skyller over tak, elv og skog. Dere bærer Shinx ned mellom lyktene til peisen hos Mira. Han holder den friske poten på hånden til Lumi.",
+      "festival": "Sølvfrøet slår rot ved festens lyktestativ. På neste feiring taler Lumi under de små bladene. «Jeg trodde jeg måtte gjøre alt selv.» Shinx kremter. «Slitsomt å se på.» Til og med Lumi ler. Du hjelper vennen din med å tenne den første lykten. Denne gangen svarer hundre flammer."
+    }
+  },
+  "endGarden": {
+    "title": "Det levende stjernebildet",
+    "body": "Sølvbladet lyser jevnt ved Shinx. Lumi sjekker varmen en siste gang og åpner låsen. Stjernelyset når dalen igjen. Dere bærer Shinx og den polstrede potten ned sammen. En hjelper støtter bærekurven, og Lumi lyser opp stien.\n\nLumi fører hagedagbok. Shinx tegner små, skjeve figurer i margen. I skumringen setter du deg ved de varme bladene og ser opp. Det lille treet har sitt eget lys. Himmelen har alle stjernene sine.",
+    "choices": {},
+    "passages": {
+      "body": "Sølvbladet lyser jevnt ved Shinx. Lumi sjekker varmen en siste gang og åpner låsen. Stjernelyset når dalen igjen. Dere bærer Shinx og den polstrede potten ned sammen. En hjelper støtter bærekurven, og Lumi lyser opp stien.",
+      "river-planting": "Neste morgen møter Mira dere ved Psyducks lyktekanal. Dere planter den lille sølvplanten på elvebredden, ovenfor flommerket. Fergevaktene sier ja til å stelle den. De grunne røttene drikker fra den fuktige jorden. Shinx hviler i lyet like ved mens poten gror.",
+      "village-planting": "Neste morgen planter du og Mira den lille sølvplanten i felleshagen i Willowbrook. Naboene bærer vann i små bøtter. Røttene blir i den myke hagejorden. Shinx hviler ved de varme bladene når han besøker hagen fra rommet sitt hos Mira.",
+      "bulba-gardener": "Bulbasaur løsner jorden rundt røttene og klapper fornøyd på arbeidet sitt.",
+      "charmander-gardener": "Charmander legger en ring av steiner rundt bedet. «Så ingen tråkker på planten», sier du.",
+      "squirtle-gardener": "Squirtle vanner planten, skoene dine og ganske mye av Mira. «Grundig arbeid», sier hun og vrir opp ermet.",
+      "quiet-ending": "Lumi fører hagedagbok. Shinx tegner små, skjeve figurer i margen. I skumringen setter du deg ved de varme bladene og ser opp. Det lille treet har sitt eget lys. Himmelen har alle stjernene sine."
+    }
+  }
 }

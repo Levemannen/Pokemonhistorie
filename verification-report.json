@@ -65,7 +65,7 @@
         "lumi: Return Shinx’s scarf and let him speak",
         "listen: Ask Lumi to show you how the three rings work",
         "plan: Ask Mira to organize help from Willowbrook before release",
-        "heart: Keep a staffed recovery room at the tower while the stars return",
+        "heart: Keep a staffed recovery room at the tower while the light returns",
         "endSanctuary"
       ],
       "The Living Constellation": [
@@ -86,7 +86,7 @@
         "lumi: Return Shinx’s scarf and let him speak",
         "listen: Ask Lumi to show you how the three rings work",
         "plan: Carry the seed to the garden balcony for the earth ring",
-        "earth: Grow the receiver into a vine with Bulbasaur and its roots",
+        "earth: Ask Bulbasaur to make a living basket for the plant",
         "endGarden"
       ],
       "The Homeward Dawn": [
@@ -107,7 +107,7 @@
         "lumi: Return Shinx’s scarf and let him speak",
         "listen: Ask Lumi to show you how the three rings work",
         "plan: Prepare a safe immediate release with the sky ring",
-        "sky: Wrap Shinx and carry him down to Mira while Lumi opens the Glass",
+        "sky: Settle Shinx in the warm carrier, then release the light",
         "endDawn"
       ],
       "The Aurora Promise": [
@@ -201,7 +201,7 @@
         "lumi: Return Shinx’s scarf and let him speak",
         "listen: Ask Lumi to show you how the three rings work",
         "plan: Ask Mira to organize help from Willowbrook before release",
-        "heart: Keep a staffed recovery room at the tower while the stars return",
+        "heart: Keep a staffed recovery room at the tower while the light returns",
         "endSanctuary"
       ],
       "The Living Constellation": [
@@ -224,7 +224,7 @@
         "lumi: Return Shinx’s scarf and let him speak",
         "listen: Ask Lumi to show you how the three rings work",
         "plan: Carry the seed to the garden balcony for the earth ring",
-        "earth: Plant the receiver in Willowbrook’s shared garden",
+        "earth: Prepare the plant for Willowbrook’s shared garden",
         "endGarden"
       ],
       "The Aurora Promise": [
@@ -270,7 +270,7 @@
         "lumi: Return Shinx’s scarf and let him speak",
         "listen: Ask Lumi to show you how the three rings work",
         "plan: Prepare a safe immediate release with the sky ring",
-        "sky: Wrap Shinx and carry him down to Mira while Lumi opens the Glass",
+        "sky: Settle Shinx in the warm carrier, then release the light",
         "endDawn"
       ]
     },
@@ -341,7 +341,7 @@
         "lumi: Return Shinx’s scarf and let him speak",
         "listen: Ask Lumi to show you how the three rings work",
         "plan: Ask Mira to organize help from Willowbrook before release",
-        "heart: Keep a staffed recovery room at the tower while the stars return",
+        "heart: Keep a staffed recovery room at the tower while the light returns",
         "endSanctuary"
       ],
       "The Living Constellation": [
@@ -364,7 +364,7 @@
         "lumi: Return Shinx’s scarf and let him speak",
         "listen: Ask Lumi to show you how the three rings work",
         "plan: Carry the seed to the garden balcony for the earth ring",
-        "earth: Plant the receiver in Willowbrook’s shared garden",
+        "earth: Prepare the plant for Willowbrook’s shared garden",
         "endGarden"
       ],
       "The Homeward Dawn": [
@@ -387,7 +387,7 @@
         "lumi: Return Shinx’s scarf and let him speak",
         "listen: Ask Lumi to show you how the three rings work",
         "plan: Prepare a safe immediate release with the sky ring",
-        "sky: Wrap Shinx and carry him down to Mira while Lumi opens the Glass",
+        "sky: Settle Shinx in the warm carrier, then release the light",
         "endDawn"
       ],
       "The Aurora Promise": [

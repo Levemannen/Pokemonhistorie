@@ -21,6 +21,8 @@ Push this project to the `main` branch of a GitHub repository. In the repository
 
 ## Story and controls
 
+The October 29 editorial revision rewrites the English and Bokmål scene text with stable paragraph IDs, explicit conditions, continuity tests, and historical-save corrections. See the [revision report](docs/EDITORIAL-REVISION-2026-10-29.md) and [story canon](docs/STORY-CANON.md).
+
 Every choice now has its own action result leading into the next scene. The story runs directly between chapters, with important companion reactions woven into the prose. See [all transitions](docs/STORY-TRANSITIONS.md).
 
 Edition 2.1 has 39 scenes, five chapters, 118 authored choices, and six endings, fully available in English and Norwegian Bokmål. Choose Bulbasaur, Charmander or Squirtle; starter abilities unlock different paths. Decisions preserve clues, tools, promises and explicitly recruited companions. All six endings are available to each starter. Existing saves continue in the previous edition without converting their flags into new story facts. See [edition notes and limitations](docs/EDITION-2.1.md). No combat, punishment, purchases, or timed reading.

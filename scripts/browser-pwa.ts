@@ -56,6 +56,6 @@ try{
  await Promise.all([page.waitForEvent('load'),updateButton.click()]);
  await page.locator('.page-body h2').waitFor();assert.deepEqual(await page.evaluate(()=>JSON.parse(localStorage.getItem('starlight-story-v1')!)),saved);
  assert.equal(errors.length,0,errors.join('\n'));
- writeFileSync('docs/browser-qa/pwa-report.json',JSON.stringify({date:'2026-10-28',passed:true,offlineSceneChecks:checked,checks:['GitHub Pages subpath scope','Install manifest','Download failure and retry','Complete ending through actual clicks while offline','All 39 painted scenes offline','Cold offline tab launch','Norwegian offline status','User-triggered app update preserves the saved journey'],limitations:'Chromium emulation, not physical iPad installation or actual installed voice quality.'},null,2));
+ writeFileSync('docs/browser-qa/pwa-report.json',JSON.stringify({date:new Date().toISOString().slice(0,10),passed:true,offlineSceneChecks:checked,checks:['GitHub Pages subpath scope','Install manifest','Download failure and retry','Complete ending through actual clicks while offline','All 39 painted scenes offline','Cold offline tab launch','Norwegian offline status','User-triggered app update preserves the saved journey'],limitations:'Chromium emulation, not physical iPad installation or actual installed voice quality.'},null,2));
  console.log(`PASS: install manifest, scoped service worker, failed download recovery, offline ending and ${checked} offline illustrated pages.`);
 }finally{await browser.close();await new Promise<void>(r=>server.close(()=>r()));}

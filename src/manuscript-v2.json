@@ -4,7 +4,7 @@
     "chapter": 1,
     "title": "The Night the Sky Went Quiet",
     "entry": "Start; starter selected",
-    "body": "The first lantern of the Starlight Festival is yours to light. Mira, Willowbrook’s lantern keeper, holds the match while your new Pokémon partner watches from your boots. “One flame for those at home,” she says, “and one for those finding their way.” Your partner reaches for the lantern, and you steady it together. It is the first small job you have managed as a team, and you cannot help grinning. Then the stars disappear. Not one by one. All at once. Beyond the village, the tower bell rings three times, though no one has used it in years. A silver seed falls into your open hand. It is warm, and it pulses in time with a faint cry from the mountains. Mira’s face changes. “I know that bell.”",
+    "body": "The first lantern of the Starlight Festival is yours to light. Mira holds the match while your new Pokémon partner waits at your feet. “One flame for those at home,” she says, “and one for those finding their way.” You steady the lantern together, and your partner looks up as if to ask, Ready?\n\nThen every star above the valley vanishes. The old mountain bell rings three times. Something silver drifts down into your palm: a seed, warm as a sunlit pebble, pulsing in time with a faint cry from the mountain. Mira grips the matchbox. “I know that bell.”",
     "choices": [
       {
         "label": "Ask Mira what the bell means",
@@ -27,7 +27,7 @@
         "to": "square",
         "effect": "approach=care",
         "condition": "always",
-        "immediateText": "Mira kneels beside you. “The forest is not the danger,” she says. “Being alone with a problem is.”",
+        "immediateText": "Mira kneels beside you. “Stay together. I’ll keep my lantern where you can see it.”",
         "id": "lantern.3"
       }
     ],
@@ -35,14 +35,40 @@
       "starter=Bulbasaur": "Bulbasaur steadies the lantern with one careful vine. A spare festival ribbon is proudly wrapped around the other.",
       "starter=Charmander": "Charmander shields a tiny flame with both paws, keeping its tail safely away from the paper decorations.",
       "starter=Squirtle": "Squirtle catches the tipping matchbox before it falls into a puddle, then checks your lantern with the expression of a strict fire-safety inspector."
-    }
+    },
+    "passages": [
+      {
+        "id": "body",
+        "text": "The first lantern of the Starlight Festival is yours to light. Mira holds the match while your new Pokémon partner waits at your feet. “One flame for those at home,” she says, “and one for those finding their way.” You steady the lantern together, and your partner looks up as if to ask, Ready?"
+      },
+      {
+        "id": "variant-0",
+        "text": "Bulbasaur steadies the lantern with one careful vine. A spare festival ribbon is proudly wrapped around the other.",
+        "when": "starter=Bulbasaur"
+      },
+      {
+        "id": "variant-1",
+        "text": "Charmander shields a tiny flame with both paws, keeping its tail safely away from the paper decorations.",
+        "when": "starter=Charmander"
+      },
+      {
+        "id": "variant-2",
+        "text": "Squirtle catches the tipping matchbox before it falls into a puddle, then checks your lantern with the expression of a strict fire-safety inspector.",
+        "when": "starter=Squirtle"
+      },
+      {
+        "id": "darkness",
+        "when": "always",
+        "text": "Then every star above the valley vanishes. The old mountain bell rings three times. Something silver drifts down into your palm: a seed, warm as a sunlit pebble, pulsing in time with a faint cry from the mountain. Mira grips the matchbox. “I know that bell.”"
+      }
+    ]
   },
   {
     "id": "square",
     "chapter": 1,
     "title": "Mira and the Missing Piece",
     "entry": "lantern",
-    "body": "Mira leads you beneath the festival awning. Her old map shows Willowbrook, Moonwood, the Lumen River, the eastern mountain path and the observatory above Starfall Tower. A neat circular hole has been cut from the paper exactly where the tower should be. “I removed that piece myself,” Mira says. “The old tower has a machine called the Starlight Glass. It catches the light that reaches our valley—not the real stars. Someone has woken it.” She points to the seed. “That is an emergency key. The Glass sends one out when it needs help. It chooses someone willing to follow it. I cannot leave the village untended, but I can signal from the lantern tower, send supplies along the mountain trail and meet you when you return. If a route becomes unsafe, come back.” A frightened Eevee peers from beneath her chair. Mira gives you a folding map and a thick spare scarf for the cold ridge. She tucks the little silver seed into a secure pouch on your belt: it must stay with you until the Glass is safe. “I’ll keep a lantern burning here. Bring anyone who needs help home.”",
+    "body": "Under the festival awning, Mira spreads out a map. Moonwood, the Lumen River, the mountain trail—and a neat hole where Starfall Tower should be. “I cut it out after someone got hurt up there,” she admits. “I thought keeping people away would keep them safe.” An Eevee shivers beneath her chair. You crouch nearby while Mira puts a map and a spare wool scarf into your pack.\n\n“The Starlight Glass catches light for the tower’s lamps and heaters,” Mira says. “The stars are still there; their light isn’t reaching us. This seed is its call for help.” She draws the missing tower onto your map and fastens a pouch for the seed to your belt. “Follow its glow. I’ll send blankets and food up the supply trail, and keep a lantern here for signals. Come back if the path feels unsafe.”",
     "choices": [
       {
         "label": "Ask who lives in the tower",
@@ -57,7 +83,7 @@
         "to": "hill",
         "effect": "know=glass_rule",
         "condition": "always",
-        "immediateText": "“It borrows reflections,” Mira says. “If a frightened keeper refuses to return them, the lock can tighten.”",
+        "immediateText": "“It should release its stored light each morning,” Mira says. “Someone may be keeping the catch shut.”",
         "id": "square.2"
       },
       {
@@ -77,21 +103,32 @@
         "id": "square.4"
       }
     ],
-    "variants": {}
+    "variants": {},
+    "passages": [
+      {
+        "id": "body",
+        "text": "Under the festival awning, Mira spreads out a map. Moonwood, the Lumen River, the mountain trail—and a neat hole where Starfall Tower should be. “I cut it out after someone got hurt up there,” she admits. “I thought keeping people away would keep them safe.” An Eevee shivers beneath her chair. You crouch nearby while Mira puts a map and a spare wool scarf into your pack."
+      },
+      {
+        "id": "mission",
+        "when": "always",
+        "text": "“The Starlight Glass catches light for the tower’s lamps and heaters,” Mira says. “The stars are still there; their light isn’t reaching us. This seed is its call for help.” She draws the missing tower onto your map and fastens a pouch for the seed to your belt. “Follow its glow. I’ll send blankets and food up the supply trail, and keep a lantern here for signals. Come back if the path feels unsafe.”"
+      }
+    ]
   },
   {
     "id": "hill",
     "chapter": 1,
     "title": "Three Notes on the Hill",
     "entry": "square",
-    "body": "The hill is the last place where the river and the tower can be seen together. Hoothoot stands beside a tiny nest, rocking on one foot. It sings three clear notes: low, high, low. The silver seed flashes three times. “The old observatory greeting,” Mira called it once; now you can hear the pattern for yourself. A loose branch leans dangerously over the nest. Hoothoot looks at the branch, then at you, as if deciding whether you are clever or simply very tall. The dark forest waits below, but the little owl refuses to move until you choose what to do. Mira’s lantern tower is visible across the ridge, close enough to receive a signal.",
+    "body": "From the hill you can see the river winding toward the mountain. Hoothoot guards a nest beneath a leaning branch. It sings three notes—low, high, low—and the seed answers with three flashes. A matching owl is carved on Mira’s map beside the observatory. Hoothoot looks from the branch to your hands. Apparently, being tall comes with responsibilities.",
     "choices": [
       {
         "label": "Lift the branch and make the nest safe",
         "to": "gate",
         "effect": "nest=saved;melody=known",
         "condition": "always",
-        "immediateText": "Hoothoot fluffs its feathers with relief and sings the pattern a second time to thank you.",
+        "immediateText": "You lift the branch while your partner braces it with a forked stick. Hoothoot checks the nest, fluffs its feathers, and sings the three notes again.",
         "id": "hill.1"
       },
       {
@@ -99,15 +136,15 @@
         "to": "gate",
         "effect": "nest=marked;melody=known",
         "condition": "always",
-        "immediateText": "You add a clear cross to Mira’s shared map and send a signal with your lantern. She answers from the square with two flashes: message received.",
+        "immediateText": "You sketch the branch on your map and flash its position to Mira. Her lantern answers twice. Helpers will come; Hoothoot stays beside the nest until they arrive.",
         "id": "hill.2"
       },
       {
-        "label": "Sing the three notes back and ask Hoothoot to travel with you",
+        "label": "Secure the nest, then invite Hoothoot along",
         "to": "gate",
         "effect": "melody=known;companion+=Hoothoot",
         "condition": "always",
-        "immediateText": "Hoothoot answers low, high, low, then hops onto your pack. It has decided to be your music teacher.",
+        "immediateText": "You and your partner brace the branch with a fallen fork of wood. Hoothoot checks the nest, sings its three notes again, and hops onto your pack. Your music teacher is coming along.",
         "id": "hill.3"
       },
       {
@@ -121,22 +158,40 @@
     ],
     "variants": {
       "companion=Eevee": "Eevee edges forward and offers Hoothoot a berry. The owl takes it with solemn ceremony."
-    }
+    },
+    "passages": [
+      {
+        "id": "body",
+        "text": "From the hill you can see the river winding toward the mountain. Hoothoot guards a nest beneath a leaning branch. It sings three notes—low, high, low—and the seed answers with three flashes. A matching owl is carved on Mira’s map beside the observatory. Hoothoot looks from the branch to your hands. Apparently, being tall comes with responsibilities."
+      },
+      {
+        "id": "variant-0",
+        "text": "Eevee edges forward and offers Hoothoot a berry. The owl takes it with solemn ceremony.",
+        "when": "companion=Eevee"
+      }
+    ]
   },
   {
     "id": "gate",
     "chapter": 1,
     "title": "Four Ways into Moonwood",
     "entry": "hill",
-    "body": "At the last village gate, four routes separate: a root-covered arch leads into the grove; a rocky ridge climbs above it; a shallow brook skirts the eastern trees; and a narrow path follows the silver seed between them. You can see all four from the signpost. Its lettering has been hidden beneath mud, but Mira’s folding map marks each destination. You put a hand on the lantern you brought from home. It still burns. The forest is not empty or evil—only unusually quiet, as though its usual nighttime music has forgotten the next note.",
+    "body": "Four paths leave the village gate. Roots arch over the way into the grove; a ridge rises to the right; a brook curls away to the left. Between them, the seed lights a narrow track beneath the trees. You brush mud from the signpost and compare it with Mira’s map. Somewhere in Moonwood, a twig snaps.",
     "choices": [
       {
         "label": "Take the root arch",
         "to": "grove",
         "effect": "route=roots",
         "condition": "always",
-        "immediateText": "You walk beneath the roots. Bulbasaur, if chosen, parts the smallest vines gently, leaving the arch unharmed.",
-        "id": "gate.1"
+        "immediateText": "You duck beneath the root arch and follow the sheltered path into the grove.",
+        "id": "gate.1",
+        "responses": [
+          {
+            "id": "vines",
+            "when": "starter=Bulbasaur",
+            "text": "Bulbasaur holds the smallest roots aside until the last friend has passed, then lowers them gently."
+          }
+        ]
       },
       {
         "label": "Climb the ridge",
@@ -167,21 +222,42 @@
       "starter=Bulbasaur": "Bulbasaur offers to ease the roots apart rather than tear them.",
       "starter=Charmander": "Charmander checks the ridge for dry leaves before lighting the way.",
       "starter=Squirtle": "Squirtle points out where the brook is shallow enough to cross."
-    }
+    },
+    "passages": [
+      {
+        "id": "body",
+        "text": "Four paths leave the village gate. Roots arch over the way into the grove; a ridge rises to the right; a brook curls away to the left. Between them, the seed lights a narrow track beneath the trees. You brush mud from the signpost and compare it with Mira’s map. Somewhere in Moonwood, a twig snaps."
+      },
+      {
+        "id": "variant-0",
+        "text": "Bulbasaur offers to ease the roots apart rather than tear them.",
+        "when": "starter=Bulbasaur"
+      },
+      {
+        "id": "variant-1",
+        "text": "Charmander checks the ridge for dry leaves before lighting the way.",
+        "when": "starter=Charmander"
+      },
+      {
+        "id": "variant-2",
+        "text": "Squirtle points out where the brook is shallow enough to cross.",
+        "when": "starter=Squirtle"
+      }
+    ]
   },
   {
     "id": "ridge",
     "chapter": 1,
     "title": "A Feather in the Wind",
     "entry": "gate(route=ridge)",
-    "body": "The ridge runs above the grove, and every stone carries an echo of the tower bell. A Hoothoot feather has snagged beneath a fallen branch. From here you can see the nest you passed on the hill and the brook curling below. Your partner spots a safer slope through the heather. For a moment, a pale glow crosses the mountainside: not a monster, but the reflection of something moving inside the distant tower. Someone is still there.",
+    "body": "A fallen branch narrows the ridge ahead. A loose owl feather trembles beneath it; below, you can just make out Hoothoot’s hill and the brook beyond. This branch has fallen from a different tree, right across the path. Your partner finds a foothold in the heather. High on the mountain, a pale flash sweeps across a tower window and disappears.",
     "choices": [
       {
         "label": "Secure the fallen branch before leaving",
         "to": "brook",
         "effect": "ridge=safe",
         "condition": "always",
-        "immediateText": "The branch no longer threatens the narrow ridge. You can hear Hoothoot calling safely behind you.",
+        "immediateText": "You secure the branch above the narrow path. The loose feather drifts free, and the way is clear for the next traveler.",
         "id": "ridge.1"
       },
       {
@@ -201,14 +277,27 @@
         "id": "ridge.3"
       }
     ],
-    "variants": {}
+    "variants": {
+      "nest=saved OR companion=Hoothoot": "The forked support on the hill is still holding. You remember how relieved Hoothoot looked when the nest was safe."
+    },
+    "passages": [
+      {
+        "id": "body",
+        "text": "A fallen branch narrows the ridge ahead. A loose owl feather trembles beneath it; below, you can just make out Hoothoot’s hill and the brook beyond. This branch has fallen from a different tree, right across the path. Your partner finds a foothold in the heather. High on the mountain, a pale flash sweeps across a tower window and disappears."
+      },
+      {
+        "id": "nest-repaired",
+        "when": "nest=saved OR companion=Hoothoot",
+        "text": "The forked support on the hill is still holding. You remember how relieved Hoothoot looked when the nest was safe."
+      }
+    ]
   },
   {
     "id": "brook",
     "chapter": 1,
     "title": "The Letter in the Water",
     "entry": "gate or ridge",
-    "body": "At the brook, an old sign reads: MOONWOOD—LISTEN BEFORE YOU LEAP. You wipe the last of the mud away with your sleeve. The message is readable no matter which path brought you here. A bottle taps against a stone. Inside is a note in shaky handwriting: “I was trying to help. I cannot open it again. Please bring the dawn. —L.” A second mark looks like a tiny paw print. The paper is damp, but the words are clear. Whoever wrote this is afraid of what might happen next.",
+    "body": "A bottle taps against a stone in the brook. Inside, cramped handwriting fills a scrap of paper: “I was trying to help. I cannot open it again. Please bring the dawn. —L.” Beside the letter is a smudged paw print. Above the bank, an old cable climbs toward the tower. A waterwheel turns beneath it, driving a little message basket uphill; a sign says TOWER POST.",
     "choices": [
       {
         "label": "Keep the letter to show its writer",
@@ -223,8 +312,15 @@
         "to": "grove",
         "effect": "reply=sent",
         "condition": "always",
-        "immediateText": "You write the answer on the back of the scrap, secure it to the bottle and set it afloat. Hoothoot, if traveling with you, guides it; otherwise the current carries it toward the tower’s old intake.",
-        "id": "brook.2"
+        "immediateText": "You write your answer on the back of the letter, tuck it into the bottle, and place it in the message basket. The waterwheel carries it uphill until it is a speck against the rocks.",
+        "id": "brook.2",
+        "responses": [
+          {
+            "id": "owl-watches",
+            "when": "companion=Hoothoot",
+            "text": "Hoothoot watches the cable carefully and hoots when the basket clears a crooked pulley."
+          }
+        ]
       },
       {
         "label": "Copy the paw print onto Mira’s map",
@@ -237,14 +333,25 @@
     ],
     "variants": {
       "know=lumi_name": "You wonder whether the initial L means Lumi. You cannot know for sure yet."
-    }
+    },
+    "passages": [
+      {
+        "id": "body",
+        "text": "A bottle taps against a stone in the brook. Inside, cramped handwriting fills a scrap of paper: “I was trying to help. I cannot open it again. Please bring the dawn. —L.” Beside the letter is a smudged paw print. Above the bank, an old cable climbs toward the tower. A waterwheel turns beneath it, driving a little message basket uphill; a sign says TOWER POST."
+      },
+      {
+        "id": "variant-0",
+        "text": "You wonder whether the initial L means Lumi. You cannot know for sure yet.",
+        "when": "know=lumi_name"
+      }
+    ]
   },
   {
     "id": "grove",
     "chapter": 2,
     "title": "Moonwood Holds Its Breath",
     "entry": "gate or brook or ridge",
-    "body": "The trees of Moonwood sway although the air is still. Silver ivy has curled around an old lamp post. Inside its coils, a Pikachu struggles to pull one paw free. The ivy is not attacking; it has grown toward the trapped reflections of the missing stars, tightening around anything bright. A trail of glowing mushrooms runs past the post. Farther away, the oldest tree groans softly in its sleep. You could move on to find help, but Pikachu meets your eyes and gives a sharp, embarrassed squeak. Far above, another flash of light tightens the ivy around the post.",
+    "body": "Silver ivy creaks around an old lamp post. Between the stems, a Pikachu struggles to free one paw. When your lantern swings closer, the ivy curls tighter; you stop at once. Beyond the post, mushrooms glow along one path and an enormous tree spreads its roots across another. Pikachu gives a sharp squeak. It is trying very hard not to sound frightened.",
     "choices": [
       {
         "label": "Stop and free Pikachu",
@@ -259,7 +366,7 @@
         "to": "mushrooms",
         "effect": "pikachu=left;route=mushrooms",
         "condition": "always",
-        "immediateText": "The mushroom path gives you a useful clue, but you leave Pikachu behind for now. At the next lantern marker you hang a warning and a request for Mira’s forest helpers to cut away the ivy.",
+        "immediateText": "You hang a help flag at the lantern marker for Mira’s forest helpers, showing exactly where Pikachu is trapped. Then you follow the mushrooms.",
         "id": "grove.2"
       },
       {
@@ -267,20 +374,31 @@
         "to": "roots",
         "effect": "pikachu=left;route=oldtree",
         "condition": "always",
-        "immediateText": "The oldest tree points out a safe forest passage. You cannot free Pikachu right now, so you mark its exact position on Mira’s map and flash a help signal from the clearing.",
+        "immediateText": "You mark the lamp post on your map and hang a help flag at the trail marker for Mira’s forest helpers. Then you follow the roots toward the old tree.",
         "id": "grove.3"
       }
     ],
     "variants": {
       "companion=Hoothoot": "Hoothoot warns you that bright light makes the ivy curl tighter."
-    }
+    },
+    "passages": [
+      {
+        "id": "body",
+        "text": "Silver ivy creaks around an old lamp post. Between the stems, a Pikachu struggles to free one paw. When your lantern swings closer, the ivy curls tighter; you stop at once. Beyond the post, mushrooms glow along one path and an enormous tree spreads its roots across another. Pikachu gives a sharp squeak. It is trying very hard not to sound frightened."
+      },
+      {
+        "id": "variant-0",
+        "text": "Hoothoot warns you that bright light makes the ivy curl tighter.",
+        "when": "companion=Hoothoot"
+      }
+    ]
   },
   {
     "id": "rescue",
     "chapter": 2,
     "title": "The Smallest Spark",
     "entry": "grove",
-    "body": "The ivy trembles when you touch it. Bulbasaur can loosen the roots with gentle vines; Charmander can light the knot without bringing flame near dry leaves; Squirtle can soften the earth with a thin stream of water. With your help, the coils finally open. Pikachu tumbles out, makes a very fierce face at the ivy, then checks whether your fingers are hurt. A tiny spark touches the silver seed. Its glow settles into an even beat. Pikachu points to the mountain: it knows the tower has something to do with the strange night.",
+    "body": "You shade the lantern with your coat. The ivy stops tightening, but the loop still grips Pikachu’s paw. “Hold still—just a moment,” you whisper. Pikachu plants its free foot against the post and waits.\n\nPikachu tumbles out, makes a fierce face at the ivy, then checks your fingers for scratches. A tiny spark brushes the seed, and its flickering glow settles. Pikachu points urgently toward the tower.",
     "choices": [
       {
         "label": "Invite Pikachu to join the journey",
@@ -307,21 +425,51 @@
         "id": "rescue.3"
       }
     ],
-    "variants": {}
+    "variants": {
+      "starter=Bulbasaur": "Bulbasaur slides a vine beneath the ivy stem and lifts its weight. You ease the loose loop over Pikachu’s toes.",
+      "starter=Charmander": "Charmander keeps its tail behind a rock and holds the heavy stem still with both paws. In the dim lantern light, you work the loop loose.",
+      "starter=Squirtle": "Squirtle wets the soil around the ivy’s roots. You lift the softened clump just enough to loosen the stem, and Pikachu slips its paw free."
+    },
+    "passages": [
+      {
+        "id": "body",
+        "text": "You shade the lantern with your coat. The ivy stops tightening, but the loop still grips Pikachu’s paw. “Hold still—just a moment,” you whisper. Pikachu plants its free foot against the post and waits."
+      },
+      {
+        "id": "rescue-Bulbasaur",
+        "when": "starter=Bulbasaur",
+        "text": "Bulbasaur slides a vine beneath the ivy stem and lifts its weight. You ease the loose loop over Pikachu’s toes."
+      },
+      {
+        "id": "rescue-Charmander",
+        "when": "starter=Charmander",
+        "text": "Charmander keeps its tail behind a rock and holds the heavy stem still with both paws. In the dim lantern light, you work the loop loose."
+      },
+      {
+        "id": "rescue-Squirtle",
+        "when": "starter=Squirtle",
+        "text": "Squirtle wets the soil around the ivy’s roots. You lift the softened clump just enough to loosen the stem, and Pikachu slips its paw free."
+      },
+      {
+        "id": "free",
+        "when": "always",
+        "text": "Pikachu tumbles out, makes a fierce face at the ivy, then checks your fingers for scratches. A tiny spark brushes the seed, and its flickering glow settles. Pikachu points urgently toward the tower."
+      }
+    ]
   },
   {
     "id": "mushrooms",
     "chapter": 2,
     "title": "The Little Constellation",
     "entry": "grove or rescue",
-    "body": "Nine mushrooms shine beside a flat stone. Three gold caps make an ascending diagonal, from small to medium to large; the others flicker like decoys. Carved beneath them is the message: “Little lights can show a growing way.” The silver seed glows when you touch the smallest gold cap. A mischievous chuckle escapes a hollow tree beyond the mushrooms. This is not a test of bravery. It is a test of noticing.",
+    "body": "Nine mushrooms shine beside a flat stone. Some caps glow gold; others blink pale blue. Beneath them, a carving reads: LITTLE LIGHTS CAN SHOW A GROWING WAY. The seed warms against your palm, but the stone stays shut. A chuckle comes from a hollow tree farther down the trail.",
     "choices": [
       {
-        "label": "Solve the small-to-large constellation",
+        "label": "Open the cache with the constellation you solved",
         "to": "roots",
         "effect": "rune=earned",
         "condition": "puzzle:mushrooms solved",
-        "immediateText": "You touch the three gold lights from smallest to largest. The stone clicks, revealing the moon-rune and the matching tower mark.",
+        "immediateText": "The stone slides aside. You lift out a moon-rune, cool and smooth, with the tower’s crescent carved into its face.",
         "id": "mushrooms.1"
       },
       {
@@ -345,25 +493,31 @@
         "to": "clearing",
         "effect": "route=lantern",
         "condition": "always",
-        "immediateText": "You follow the open lantern track, leaving the puzzle unsolved; the next clearing still holds the crescent lens.",
+        "immediateText": "You follow the sheltered lantern track toward a circle of trees.",
         "id": "mushrooms.4"
       }
     ],
-    "variants": {}
+    "variants": {},
+    "passages": [
+      {
+        "id": "body",
+        "text": "Nine mushrooms shine beside a flat stone. Some caps glow gold; others blink pale blue. Beneath them, a carving reads: LITTLE LIGHTS CAN SHOW A GROWING WAY. The seed warms against your palm, but the stone stays shut. A chuckle comes from a hollow tree farther down the trail."
+      }
+    ]
   },
   {
     "id": "hollow",
     "chapter": 2,
     "title": "The Tree That Laughed",
     "entry": "mushrooms",
-    "body": "You step into a tree hollow and something says, “Boo!” Then, immediately, “Was that too much? I’m practising.” A Gastly floats upside down among shelves of lost gloves, odd buttons and maps left by travelers. This is its collection of stories, not its dinner. It apologizes for leading you off the trail, but offers you an actual discovery in exchange for a tale of your own. “I prefer the funny bits,” it adds, “but I can cope with heroic yawning.”",
+    "body": "“Boo!” says the tree. “Oh. Too much?” A Gastly floats upside down between shelves of lost gloves, buttons, and travel journals. “People used to stop and tell me things,” it says, righting itself. “Now they hurry past. I may have moved a sign.” It offers to show you its best discovery in exchange for a story. “Preferably one with an embarrassing bit.”",
     "choices": [
       {
-        "label": "Tell Gastly the funniest thing your starter did",
+        "label": "Tell Gastly something funny your partner did",
         "to": "echoArchive",
         "effect": "gastly=friend",
         "condition": "always",
-        "immediateText": "Gastly laughs so hard it turns upside down twice. “That earns a visit to the archive!”",
+        "immediateText": "Gastly laughs so hard it turns upside down twice. “You must visit more often. Come and see the archive!”",
         "id": "hollow.1"
       },
       {
@@ -383,14 +537,20 @@
         "id": "hollow.3"
       }
     ],
-    "variants": {}
+    "variants": {},
+    "passages": [
+      {
+        "id": "body",
+        "text": "“Boo!” says the tree. “Oh. Too much?” A Gastly floats upside down between shelves of lost gloves, buttons, and travel journals. “People used to stop and tell me things,” it says, righting itself. “Now they hurry past. I may have moved a sign.” It offers to show you its best discovery in exchange for a story. “Preferably one with an embarrassing bit.”"
+      }
+    ]
   },
   {
     "id": "echoArchive",
     "chapter": 2,
     "title": "The Echo Archive",
     "entry": "hollow",
-    "body": "Gastly floats you past its collection to a dry little reading room. A century-old astronomer’s notebook explains the Starlight Glass: it stores reflected light; the sky ring restores those reflections; the heart ring spreads stored warmth among helpers; the earth ring grows a living receiver. “Never seal the Glass while someone depends upon it,” reads a warning. Beside the warning, a sketch shows a silver seed and a crescent lens. Another page identifies a young Clefairy called Lumi, who once copied these notes and asked many questions about protecting injured friends. Gastly lets you take a copy of exactly one useful page.",
+    "body": "Gastly floats ahead into a dry reading room. An astronomer’s notebook, dated a hundred years ago, shows the Glass feeding lamps and heaters during mountain storms. Three rings return its stored light safely. Beside it lies a much newer sheet: Lumi’s careful copies, with questions in the margins. “How long can it warm an injured friend?” she has written. The answer is underlined: UNTIL OTHER WARMTH IS READY. Gastly finds paper for one page of notes.",
     "choices": [
       {
         "label": "Copy the safe opening instructions",
@@ -413,25 +573,31 @@
         "to": "clearing",
         "effect": "knowledge=rings",
         "condition": "always",
-        "immediateText": "You copy three circles: SKY needs safe transport, HEART needs willing helpers, EARTH needs a living receiver and caretakers.",
+        "immediateText": "You copy three circles: SKY needs safe transport and warmth, HEART needs willing lantern keepers, EARTH needs a warm plant and gardeners.",
         "id": "echoArchive.3"
       }
     ],
-    "variants": {}
+    "variants": {},
+    "passages": [
+      {
+        "id": "body",
+        "text": "Gastly floats ahead into a dry reading room. An astronomer’s notebook, dated a hundred years ago, shows the Glass feeding lamps and heaters during mountain storms. Three rings return its stored light safely. Beside it lies a much newer sheet: Lumi’s careful copies, with questions in the margins. “How long can it warm an injured friend?” she has written. The answer is underlined: UNTIL OTHER WARMTH IS READY. Gastly finds paper for one page of notes."
+      }
+    ]
   },
   {
     "id": "roots",
     "chapter": 2,
     "title": "The Oldest Tree",
     "entry": "grove, mushrooms, rescue or hollow",
-    "body": "An ancient tree blocks the trail with roots as thick as benches. A hollow in its bark resembles a kind old face. “What grows brighter when shared?” the tree asks. Its branches bear ordinary seeds with papery wings. The tree glances at the silver seed in your hand. “That one is not mine. It came from a machine that remembered how to ask for help.” A root turns, revealing the way to a circular clearing and an old stone pedestal.",
+    "body": "Roots as thick as benches cross the trail. Above them, a face opens in the bark of an ancient maple. “What grows brighter when shared?” it asks. Winged seeds rustle overhead. The tree glances at your silver seed. “Not one of mine. That came from a machine which remembered how to ask for help.” Behind the roots you glimpse a clearing, but the tree waits for your answer.",
     "choices": [
       {
         "label": "Answer, “A light passed from one friend to another”",
         "to": "clearing",
         "effect": "tree=light",
         "condition": "always",
-        "immediateText": "The tree hums. “Yes. No one loses a flame by sharing its glow.”",
+        "immediateText": "“Yes,” murmurs the tree. “One flame can light another.” Its roots lift, opening a doorway into the clearing.",
         "id": "roots.1"
       },
       {
@@ -439,7 +605,7 @@
         "to": "clearing",
         "effect": "tree=idea",
         "condition": "always",
-        "immediateText": "The tree nods. “And ideas grow stronger when someone asks a better question.”",
+        "immediateText": "The tree chuckles. “Especially when someone asks a better question!” Its roots lift to let you pass.",
         "id": "roots.2"
       },
       {
@@ -455,25 +621,31 @@
         "to": "clearing",
         "effect": "ordinarySeed=owned",
         "condition": "always",
-        "immediateText": "The tree shakes a small brown seed into your palm. This is an ordinary forest seed, not the shining silver one.",
+        "immediateText": "A winged seed spins into your palm. “Plant it somewhere kind,” says the maple, raising its roots to show the clearing.",
         "id": "roots.4"
       }
     ],
-    "variants": {}
+    "variants": {},
+    "passages": [
+      {
+        "id": "body",
+        "text": "Roots as thick as benches cross the trail. Above them, a face opens in the bark of an ancient maple. “What grows brighter when shared?” it asks. Winged seeds rustle overhead. The tree glances at your silver seed. “Not one of mine. That came from a machine which remembered how to ask for help.” Behind the roots you glimpse a clearing, but the tree waits for your answer."
+      }
+    ]
   },
   {
     "id": "clearing",
     "chapter": 2,
     "title": "The Crescent Lens",
     "entry": "roots or mushrooms or echoArchive",
-    "body": "The forest opens onto a mossy circle. In its center lies the crescent lens Mira marked on the map. You hold up the silver seed. It sends a thin thread of light through the lens, which reveals an old memory in the bark: someone climbed toward the tower carrying a small, limping Pokémon. You see a yellow scarf flutter. You cannot yet hear their words. Under the lens is a little plaque: “The Glass returns what it borrows when another warmth is ready.” You take the lens. There is also rope and a rune socket, but nothing here requires you to have solved the mushroom puzzle. A lantern signal from Willowbrook flickers among the branches: the village helpers are checking the forest paths tonight.",
+    "body": "In the clearing, moss cushions a stone pedestal. A crescent lens rests on top. When you hold the seed behind it, a picture trembles across the bark: someone climbing toward the tower, supporting a small, limping Pokémon. A yellow scarf catches the light. Before you can see their faces, the picture fades. You pack the lens carefully. Beside the pedestal hang a coil of rope and a small plaque: RETURN THE LIGHT WHEN OTHER WARMTH IS READY.",
     "choices": [
       {
         "label": "Take the rope for difficult crossings",
         "to": "bank",
         "effect": "item+=rope",
         "condition": "always",
-        "immediateText": "You roll the rope and clip it to your pack. There is no need to pretend you took the rune as well.",
+        "immediateText": "You roll the rope and clip it to your pack, ready for a slippery crossing.",
         "id": "clearing.1"
       },
       {
@@ -502,17 +674,38 @@
       }
     ],
     "variants": {
-      "letter=kept": "The paw-shaped mark on the note matches the small shape in the memory.",
-      "companion=Eevee": "Eevee notices that the smaller figure leaned on the larger one as they walked.",
-      "pikachu=left": "If you left Pikachu at the lamp post, you receive two answering flashes from Mira’s helpers. They have reached the ivy and will free Pikachu; you did not claim the rescue for yourself."
-    }
+      "letter=kept": "You unfold the letter. Its smudged paw print is just the right size for the smaller traveler.",
+      "companion=Eevee": "Eevee nudges your hand toward the place where the smaller figure leaned against its friend.",
+      "pikachu=left": "Two lantern flashes answer from the lamp post. Mira’s helpers have loosened the ivy, and Pikachu is safe with them. A small yellow spark follows their signal."
+    },
+    "passages": [
+      {
+        "id": "body",
+        "text": "In the clearing, moss cushions a stone pedestal. A crescent lens rests on top. When you hold the seed behind it, a picture trembles across the bark: someone climbing toward the tower, supporting a small, limping Pokémon. A yellow scarf catches the light. Before you can see their faces, the picture fades. You pack the lens carefully. Beside the pedestal hang a coil of rope and a small plaque: RETURN THE LIGHT WHEN OTHER WARMTH IS READY."
+      },
+      {
+        "id": "letter-print",
+        "when": "letter=kept",
+        "text": "You unfold the letter. Its smudged paw print is just the right size for the smaller traveler."
+      },
+      {
+        "id": "eevee-notices",
+        "when": "companion=Eevee",
+        "text": "Eevee nudges your hand toward the place where the smaller figure leaned against its friend."
+      },
+      {
+        "id": "rescue-help",
+        "when": "pikachu=left",
+        "text": "Two lantern flashes answer from the lamp post. Mira’s helpers have loosened the ivy, and Pikachu is safe with them. A small yellow spark follows their signal."
+      }
+    ]
   },
   {
     "id": "bank",
     "chapter": 3,
     "title": "The River Without Reflections",
     "entry": "clearing",
-    "body": "Moonwood slopes down to the Lumen River. It usually holds long, trembling pictures of the stars. Tonight it reflects only your lantern. Lapras has become stranded in a side pool after a falling branch blocked the channel. Across the water, a battered ferry waits beside a reed workshop. Upstream, a waterfall hangs like a silver curtain. The mountain track rises from a small island beyond it. There is no need to visit every part of the river, but every route must eventually reach that island.",
+    "body": "The Lumen River usually carries a thousand trembling stars. Tonight, only your lantern ripples on the water. Lapras waits in a shallow pool, cut off by a fallen branch. Along the near bank stand a ferry landing and a reed workshop; upstream, a waterfall thunders. Beyond the falls, a little island divides the river. A trail climbs from its northern shore toward the mountain.",
     "choices": [
       {
         "label": "Free Lapras from the shallow pool",
@@ -527,7 +720,7 @@
         "to": "ferry",
         "effect": "route=ferry",
         "condition": "always",
-        "immediateText": "You gather sound boards beside the ferry. Psyduck watches your work with growing admiration.",
+        "immediateText": "You bring sound boards to the landing, where Psyduck is checking the ferry deck.",
         "id": "bank.2"
       },
       {
@@ -543,18 +736,24 @@
         "to": "cave",
         "effect": "route=cave",
         "condition": "knowledge=stair OR knowledge=sphere OR knowledge=door",
-        "immediateText": "Using the route you copied, you find the dry side entrance above the stream.",
+        "immediateText": "The tower symbols in your notes match a mark above the stream. Following it, you find a dry side path into the cave.",
         "id": "bank.4"
       }
     ],
-    "variants": {}
+    "variants": {},
+    "passages": [
+      {
+        "id": "body",
+        "text": "The Lumen River usually carries a thousand trembling stars. Tonight, only your lantern ripples on the water. Lapras waits in a shallow pool, cut off by a fallen branch. Along the near bank stand a ferry landing and a reed workshop; upstream, a waterfall thunders. Beyond the falls, a little island divides the river. A trail climbs from its northern shore toward the mountain."
+      }
+    ]
   },
   {
     "id": "lapras",
     "chapter": 3,
     "title": "The River Keeper",
     "entry": "bank",
-    "body": "You and your partner move the branch trapping Lapras. Water pours back into the channel, and Lapras slides into deep water with a grateful, booming song. “The river carries news,” the Pokémon seems to tell you in a low, musical voice. You explain that you are searching for someone who borrowed the sky’s reflections. Lapras has seen two travelers crossing the island path: a Clefairy supporting a limping Shinx. It will ferry you across, but its place is on the river, where others may still need help.",
+    "body": "Water swirls through the channel you cleared. Lapras glides around the pool once, stretching its fins, then lowers its head to listen. When you point to the tower, it makes two shapes in the sand: a round-eared traveler and a smaller one leaning on her. They crossed here together. Lapras offers its broad back for the crossing, but keeps glancing downstream, where other travelers may need a guide.",
     "choices": [
       {
         "label": "Ask Lapras to carry you to the island",
@@ -573,7 +772,7 @@
         "id": "lapras.2"
       },
       {
-        "label": "Promise to help both travelers, not just return the stars",
+        "label": "Promise to help both travelers as well as bring back the light",
         "to": "island",
         "effect": "promise=both;lapras=ferry",
         "condition": "always",
@@ -581,14 +780,20 @@
         "id": "lapras.3"
       }
     ],
-    "variants": {}
+    "variants": {},
+    "passages": [
+      {
+        "id": "body",
+        "text": "Water swirls through the channel you cleared. Lapras glides around the pool once, stretching its fins, then lowers its head to listen. When you point to the tower, it makes two shapes in the sand: a round-eared traveler and a smaller one leaning on her. They crossed here together. Lapras offers its broad back for the crossing, but keeps glancing downstream, where other travelers may need a guide."
+      }
+    ]
   },
   {
     "id": "ferry",
     "chapter": 3,
     "title": "Psyduck and the Wobbly Ferry",
     "entry": "bank or lapras",
-    "body": "A little Psyduck is fixing the ferry with enormous care and rather poor aim. It holds one plank, then another, and forgets where the hammer went. “Oh,” it seems to say when it finds it under its own foot. You help secure the boards before anyone steps aboard. The ferry is safe to cross, though its handrail could still be strengthened. Psyduck admits—through nervous gestures and an awful lot of head-holding—that the waterfall’s sound makes it anxious. Its reed workshop contains lanterns and sketches of the mountain drainage tunnels. It would like to cross, but only if it can see what happens next.",
+    "body": "Psyduck has lined up the ferry’s repaired boards from shortest to longest. It taps each one, listening for cracks. You hold them steady while Psyduck fastens them; together you test the empty ferry before stepping aboard. The deck holds. At the roar of the falls, Psyduck grips its head, then carefully checks the landing rope again. Its workshop door stands open behind you, full of reeds and little lanterns.",
     "choices": [
       {
         "label": "Cross together slowly, giving Psyduck time",
@@ -603,7 +808,7 @@
         "to": "reedWorkshop",
         "effect": "route=workshop",
         "condition": "always",
-        "immediateText": "Psyduck unlocks its little workshop with a key hidden in its hat.",
+        "immediateText": "Psyduck beckons you through the open workshop door and lifts a lantern from its shelf.",
         "id": "ferry.2"
       },
       {
@@ -611,20 +816,31 @@
         "to": "island",
         "effect": "psyduck=ferrykeeper",
         "condition": "always",
-        "immediateText": "Psyduck nods with relief and promises to keep the ferry safe for everyone who follows.",
+        "immediateText": "Psyduck shows you how to pull the ferry along its guide rope, then stays at the landing to help the next travelers. You cross slowly and step onto the island.",
         "id": "ferry.3"
       }
     ],
     "variants": {
       "item=rope": "Your rope makes a sound handrail across the ferry deck."
-    }
+    },
+    "passages": [
+      {
+        "id": "body",
+        "text": "Psyduck has lined up the ferry’s repaired boards from shortest to longest. It taps each one, listening for cracks. You hold them steady while Psyduck fastens them; together you test the empty ferry before stepping aboard. The deck holds. At the roar of the falls, Psyduck grips its head, then carefully checks the landing rope again. Its workshop door stands open behind you, full of reeds and little lanterns."
+      },
+      {
+        "id": "variant-0",
+        "text": "Your rope makes a sound handrail across the ferry deck.",
+        "when": "item=rope"
+      }
+    ]
   },
   {
     "id": "reedWorkshop",
     "chapter": 3,
     "title": "One Step at a Time",
     "entry": "ferry",
-    "body": "Psyduck’s workshop smells of reeds and wet wood. Small lanterns float in a testing basin; a channel map hangs beside a painted sign: “Try one thing before worrying about the next.” You can make the river safer, learn a tune to steady frightened travelers, or copy a tunnel map that connects the river’s old water system with the observatory above. You have time to finish one project before dawn; Psyduck will show you the way back to the ferry afterward. Psyduck wants to help, but it must decide whether to leave its workshop. “I may shake,” it tells you with a determined nod, “but I can still do things.”",
+    "body": "Psyduck’s workshop smells of wet wood. Finished lanterns bob in a testing basin; bent reeds fill a basket labeled TRY AGAIN. On the wall hang a drainage map and a row of tiny bells. Psyduck catches you looking at the basket and shrugs. Then it picks out one straight reed and gets to work. There is time for one project before you take the repaired ferry to the island.",
     "choices": [
       {
         "label": "Build lanterns that can guide travelers after dark",
@@ -632,7 +848,14 @@
         "effect": "river=lanterns",
         "condition": "always",
         "immediateText": "Together you set out a chain of floating lanterns and mark their positions on the river map.",
-        "id": "reedWorkshop.1"
+        "id": "reedWorkshop.1",
+        "responses": [
+          {
+            "id": "crossing",
+            "when": "always",
+            "text": "Psyduck checks the ferry rope once more and guides you across to the island."
+          }
+        ]
       },
       {
         "label": "Learn Psyduck’s slow breathing-and-bell rhythm",
@@ -640,7 +863,14 @@
         "effect": "rhythm=known",
         "condition": "always",
         "immediateText": "Psyduck teaches you a steady low–high–low pattern with a pause to breathe after each set.",
-        "id": "reedWorkshop.2"
+        "id": "reedWorkshop.2",
+        "responses": [
+          {
+            "id": "crossing",
+            "when": "always",
+            "text": "Psyduck checks the ferry rope once more and guides you across to the island."
+          }
+        ]
       },
       {
         "label": "Copy the drainage tunnel route to the mountain",
@@ -648,32 +878,52 @@
         "effect": "knowledge=drain",
         "condition": "always",
         "immediateText": "You draw the tunnel opening beneath the bridge and the service steps at its far end.",
-        "id": "reedWorkshop.3"
+        "id": "reedWorkshop.3",
+        "responses": [
+          {
+            "id": "crossing",
+            "when": "always",
+            "text": "Psyduck checks the ferry rope once more and guides you across to the island."
+          }
+        ]
       },
       {
-        "label": "Invite Psyduck to travel with you after choosing a project",
+        "label": "Build lantern markers and invite Psyduck along",
         "to": "island",
         "effect": "river=lanterns;companion+=Psyduck",
         "condition": "always",
-        "immediateText": "You and Psyduck finish the floating safety markers first. Then you ask whether it wants to leave the workshop and come along; it chooses to travel, bringing its own small lantern.",
-        "id": "reedWorkshop.4"
+        "immediateText": "You finish the floating markers together. Psyduck hangs up a sign for the next ferry keeper, packs a little lantern, and chooses to come with you.",
+        "id": "reedWorkshop.4",
+        "responses": [
+          {
+            "id": "crossing",
+            "when": "always",
+            "text": "Psyduck checks the ferry rope once more and guides you across to the island."
+          }
+        ]
       }
     ],
-    "variants": {}
+    "variants": {},
+    "passages": [
+      {
+        "id": "body",
+        "text": "Psyduck’s workshop smells of wet wood. Finished lanterns bob in a testing basin; bent reeds fill a basket labeled TRY AGAIN. On the wall hang a drainage map and a row of tiny bells. Psyduck catches you looking at the basket and shrugs. Then it picks out one straight reed and gets to work. There is time for one project before you take the repaired ferry to the island."
+      }
+    ]
   },
   {
     "id": "falls",
     "chapter": 3,
     "title": "The Bell Behind the Water",
     "entry": "bank",
-    "body": "A narrow, safe path reaches the waterfall. Two low bells and one higher bell hang beside a sealed stone door. The sign reads: “The river remembers: low, high, low.” You can hear the pattern yourself, even without meeting Hoothoot. Each failed attempt makes only a harmless splash; no one is sent backward. The island is also reachable by a path to the right. Through the water, the crescent lens catches the outline of another door and a set of steps leading into a cave.",
+    "body": "Spray cools your cheeks beside the waterfall. Three bells hang outside a stone door, and their echoes weave through the roar of the water. A worn inscription says THE RIVER REMEMBERS. Through the crescent lens you see steps behind the door. To your right, a marked footpath curls around the falls toward the island.",
     "choices": [
       {
-        "label": "Play low–high–low and open the stone door",
+        "label": "Open the door with the melody you discovered",
         "to": "cave",
         "effect": "puzzle:falls=solved",
         "condition": "puzzle:falls solved",
-        "immediateText": "The bells answer in harmony. Water slides aside to reveal dry steps into the cave.",
+        "immediateText": "The bells ring together. Water slides aside, revealing dry steps into the cave.",
         "id": "falls.1"
       },
       {
@@ -689,18 +939,24 @@
         "to": "island",
         "effect": "rhythm=known",
         "condition": "always",
-        "immediateText": "You tap the three notes on your pack so you will remember them.",
+        "immediateText": "You listen until the echo becomes clear, then tap low, high, low on your pack. Keeping the beat, you follow the footpath onto the island.",
         "id": "falls.3"
       }
     ],
-    "variants": {}
+    "variants": {},
+    "passages": [
+      {
+        "id": "body",
+        "text": "Spray cools your cheeks beside the waterfall. Three bells hang outside a stone door, and their echoes weave through the roar of the water. A worn inscription says THE RIVER REMEMBERS. Through the crescent lens you see steps behind the door. To your right, a marked footpath curls around the falls toward the island."
+      }
+    ]
   },
   {
     "id": "cave",
     "chapter": 3,
     "title": "The Astronomer’s Quiet Cave",
     "entry": "bank or falls",
-    "body": "The cave has two entrances: a path from the riverbank and the bell door behind the waterfall. You arrive by the entrance you actually used. Inside, an old wall drawing shows three rings around a shining sphere. The sky ring opens a clear return path; the heart ring transfers warmth to a living source; the earth ring sends power into a planted receiver. A note beneath the picture warns: “What is borrowed must be released. Never let fear choose the lock.” Nothing here records yesterday’s accident. The book is old; it teaches rules, not current gossip.",
+    "body": "A wall drawing glimmers in your lantern light: three rings around a glass sphere. Beside the sky ring, someone has drawn a wrapped traveler; beside the heart ring, a circle of lanterns; beside the earth ring, a silver-leaved plant. Underneath, worn letters read: PREPARE THE WARMTH, THEN RELEASE THE LIGHT. A second drawing marks mountain paths. At the far end, moonlit mist shows the way out toward the island.",
     "choices": [
       {
         "label": "Copy the rule for returning light before touching the rings",
@@ -723,18 +979,37 @@
         "to": "island",
         "effect": "knowledge=lens",
         "condition": "always",
-        "immediateText": "The lens brightens old lines just enough to show where the returns lead; it does not invent memories of yesterday.",
+        "immediateText": "Through the lens, faded lines become clear: each ring leads to the same release latch. You copy the drawing and follow the cave’s far passage to the island.",
         "id": "cave.3"
       }
     ],
-    "variants": {}
+    "variants": {
+      "arrival=falls": "You climb the dry steps behind the waterfall and enter the cave.",
+      "NOT arrival=falls": "You follow the dry side path from the riverbank into the cave."
+    },
+    "passages": [
+      {
+        "id": "arrival-falls",
+        "when": "arrival=falls",
+        "text": "You climb the dry steps behind the waterfall and enter the cave."
+      },
+      {
+        "id": "arrival-bank",
+        "when": "NOT arrival=falls",
+        "text": "You follow the dry side path from the riverbank into the cave."
+      },
+      {
+        "id": "body",
+        "text": "A wall drawing glimmers in your lantern light: three rings around a glass sphere. Beside the sky ring, someone has drawn a wrapped traveler; beside the heart ring, a circle of lanterns; beside the earth ring, a silver-leaved plant. Underneath, worn letters read: PREPARE THE WARMTH, THEN RELEASE THE LIGHT. A second drawing marks mountain paths. At the far end, moonlit mist shows the way out toward the island."
+      }
+    ]
   },
   {
     "id": "island",
     "chapter": 3,
     "title": "A Memory on the Island",
     "entry": "lapras, ferry, falls or cave",
-    "body": "The paths from ferry, waterfall and Lapras all meet on the island. Your crescent lens shines upon a stone where stardust has settled. A memory flickers: a Clefairy carrying a limping Shinx toward the mountain. “Lumi,” Shinx calls, “please slow down.” She does; she stops to wrap her own yellow scarf around him. Then the memory breaks. Shinx is alive, and Lumi was trying to help him. The silver seed glows toward the high bridge. Two travelers went up together; one of them has been afraid ever since.",
+    "body": "On the island, stardust clings to a flat stone. Your lens catches it, and a memory flickers into view: a Clefairy helping a limping Shinx toward the mountain. Each wears a yellow scarf. “Lumi, slow down,” Shinx asks. Lumi stops, takes off her own scarf, and wraps it over his shoulders. The picture fades. He could speak and walk a little then—but you still do not know how he is now. The seed glows toward the high bridge.",
     "choices": [
       {
         "label": "Say aloud what the memory tells you",
@@ -749,7 +1024,7 @@
         "to": "bridge",
         "effect": "promise=listen",
         "condition": "always",
-        "immediateText": "Your starter hears your promise and gives a small, serious nod.",
+        "immediateText": "Your partner hears your promise and gives a small, serious nod.",
         "id": "island.2"
       },
       {
@@ -757,7 +1032,7 @@
         "to": "bridge",
         "effect": "knowledge=shinx_walking",
         "condition": "always",
-        "immediateText": "The memory shows Shinx taking a few steps with help. He is hurt, but not helpless.",
+        "immediateText": "You look again. Shinx took a few steps with Lumi’s help at the time of the memory. You mark that clue on your map and follow the mountain path.",
         "id": "island.3"
       },
       {
@@ -771,21 +1046,32 @@
     ],
     "variants": {
       "know=lumi_name": "You recognize Lumi’s name from Mira’s story. Now you have seen her for yourself."
-    }
+    },
+    "passages": [
+      {
+        "id": "body",
+        "text": "On the island, stardust clings to a flat stone. Your lens catches it, and a memory flickers into view: a Clefairy helping a limping Shinx toward the mountain. Each wears a yellow scarf. “Lumi, slow down,” Shinx asks. Lumi stops, takes off her own scarf, and wraps it over his shoulders. The picture fades. He could speak and walk a little then—but you still do not know how he is now. The seed glows toward the high bridge."
+      },
+      {
+        "id": "variant-0",
+        "text": "You recognize Lumi’s name from Mira’s story. Now you have seen her for yourself.",
+        "when": "know=lumi_name"
+      }
+    ]
   },
   {
     "id": "bridge",
     "chapter": 4,
     "title": "The Bridge in the Wind",
     "entry": "island",
-    "body": "You follow the island’s north path up the mountain for nearly an hour. Before dawn, a narrow rope bridge crosses a gorge beneath the observatory. The wind rocks its boards, but none is broken. A second trail winds around the gorge to Altaria’s cloudberry shelter. High above, Starfall Tower stands behind the observatory. You have come far enough to see a pale sphere pulsing within its highest window. Each pulse dims the valley a little more.",
+    "body": "The island path climbs for nearly an hour before reaching a rope bridge. Across the gorge, the observatory clings to Starfall Tower’s lower wall; the tower room glows above it. The bridge boards are sound, but the wind makes them sway. Another path winds toward Altaria’s lookout. Far below the bridge, a narrow drainage tunnel cuts through the rock.",
     "choices": [
       {
         "label": "Steady the rope bridge and cross together",
         "to": "stairs",
         "effect": "bridge=steady",
         "condition": "always",
-        "immediateText": "You wait for a quiet gust and cross board by board, holding the rail.",
+        "immediateText": "You wait for the wind to ease and cross one at a time, holding the rail.",
         "id": "bridge.1"
       },
       {
@@ -801,7 +1087,7 @@
         "to": "stairs",
         "effect": "bridge=vines",
         "condition": "starter=Bulbasaur",
-        "immediateText": "Bulbasaur secures the posts. Everyone crosses on steadier boards.",
+        "immediateText": "Bulbasaur loops its vines around the sturdy posts on your side and braces the handrail. You cross one at a time, then Bulbasaur releases the vines and follows.",
         "id": "bridge.3"
       },
       {
@@ -813,21 +1099,40 @@
         "id": "bridge.4"
       }
     ],
-    "variants": {}
+    "variants": {
+      "knowledge=route": "The three paths match your cave sketch. You turn the map so the gorge lies in the right direction.",
+      "item=spareScarf": "You wrap Mira’s thick spare scarf around your neck before stepping into the wind."
+    },
+    "passages": [
+      {
+        "id": "body",
+        "text": "The island path climbs for nearly an hour before reaching a rope bridge. Across the gorge, the observatory clings to Starfall Tower’s lower wall; the tower room glows above it. The bridge boards are sound, but the wind makes them sway. Another path winds toward Altaria’s lookout. Far below the bridge, a narrow drainage tunnel cuts through the rock."
+      },
+      {
+        "id": "copied-route",
+        "when": "knowledge=route",
+        "text": "The three paths match your cave sketch. You turn the map so the gorge lies in the right direction."
+      },
+      {
+        "id": "spare-scarf",
+        "when": "item=spareScarf",
+        "text": "You wrap Mira’s thick spare scarf around your neck before stepping into the wind."
+      }
+    ]
   },
   {
     "id": "windwatch",
     "chapter": 4,
     "title": "Altaria and the Lost Flock",
     "entry": "bridge",
-    "body": "Altaria keeps watch over the windy mountain. Several tiny Swablu have become separated in the mist, and their worried cries drift through the rocks. Altaria is strong enough to carry travelers, but refuses to leave until every chick is accounted for. “Being brave is easier,” her expression seems to say, “when someone checks the last nest.” One chick is hiding behind a stone lantern beside the shelter path. You can help Altaria or take the marked walking trail.",
+    "body": "Swablu cries drift through the mist. Altaria circles low, counting the chicks as they settle behind windbreak stones. One last squeak comes from a stone lantern beside the shelter path. Altaria lands near you and looks from the mist to the lantern. Her broad wings could carry you above the gorge, but she will not leave a chick behind.",
     "choices": [
       {
         "label": "Help Altaria gather the little flock",
         "to": "roof",
         "effect": "altaria=flock;arrival=air",
         "condition": "always",
-        "immediateText": "The last Swablu slips out of the fog and joins the others. Altaria offers a sheltered flight straight to the roof.",
+        "immediateText": "You guide the last chick around the stone lantern. Altaria counts every head and leads the flock into its sheltered roost. With the chicks safe, she carries you to the observatory roof.",
         "id": "windwatch.1"
       },
       {
@@ -843,18 +1148,24 @@
         "to": "shelter",
         "effect": "arrival=walk",
         "condition": "always",
-        "immediateText": "You wave to Altaria and follow the path into her sheltered nook.",
+        "immediateText": "You take the marked path. Behind you, the hidden chick gives an enormous sneeze. Altaria hears it, gathers the last straggler, and brings the flock toward the shelter.",
         "id": "windwatch.3"
       }
     ],
-    "variants": {}
+    "variants": {},
+    "passages": [
+      {
+        "id": "body",
+        "text": "Swablu cries drift through the mist. Altaria circles low, counting the chicks as they settle behind windbreak stones. One last squeak comes from a stone lantern beside the shelter path. Altaria lands near you and looks from the mist to the lantern. Her broad wings could carry you above the gorge, but she will not leave a chick behind."
+      }
+    ]
   },
   {
     "id": "shelter",
     "chapter": 4,
     "title": "Cloudberry Shelter",
     "entry": "windwatch or stairs",
-    "body": "The path rounds the mountain into a sheltered nook below the observatory. Altaria tends berry bushes here for tired travelers. One stone bowl has cracked, spilling its food. A soft feather lies beside the bowl, warm from the nest. From here you can reach the observatory directly, or continue along a narrow service path that rejoins the steps toward the tower. Nothing you pick up is magically teleported elsewhere; you must carry it.",
+    "body": "All the Swablu are tucked into the sheltered roost when you round the bend. Altaria checks them once more, then nudges a cracked food bowl with her beak. Berries have rolled into the grass. A warm loose feather rests beside the nest. Above the berry bushes, one path climbs to the observatory; another follows the tower’s sheltered service steps.",
     "choices": [
       {
         "label": "Repair the bowl and ask for a feather",
@@ -889,21 +1200,34 @@
         "id": "shelter.4"
       }
     ],
-    "variants": {}
+    "variants": {
+      "altaria=found": "The chick you spotted settles beside your boot. Altaria brushes your shoulder with a wing."
+    },
+    "passages": [
+      {
+        "id": "body",
+        "text": "All the Swablu are tucked into the sheltered roost when you round the bend. Altaria checks them once more, then nudges a cracked food bowl with her beak. Berries have rolled into the grass. A warm loose feather rests beside the nest. Above the berry bushes, one path climbs to the observatory; another follows the tower’s sheltered service steps."
+      },
+      {
+        "id": "found-chick",
+        "when": "altaria=found",
+        "text": "The chick you spotted settles beside your boot. Altaria brushes your shoulder with a wing."
+      }
+    ]
   },
   {
     "id": "stairs",
     "chapter": 4,
     "title": "The Steps with Two Scarves",
     "entry": "bridge or shelter",
-    "body": "Beyond the gorge, stone stairs wrap around the observatory’s lower wall. A yellow scarf lies caught beneath a railing. It has SHINX stitched in crooked letters. A faded photograph in a weatherproof box shows two friends wearing matching scarves: Shinx in this one, Lumi in another. You lift the lost scarf carefully. The moon-rune on the nearby door matches the little constellation you may have solved, but the normal steps also reach the observatory. Either way, the tower is still ahead.",
+    "body": "Stone stairs curve around the observatory wall. A yellow scarf is caught beneath a railing: SHINX, say the crooked stitches. You lift it free, fold it, and put it safely in your pack. In a weatherproof box nearby, a photograph shows Lumi and Shinx wearing matching scarves, each with its owner’s name. A crescent marks the service door. The ordinary steps continue upward beside it.",
     "choices": [
       {
         "label": "Keep Shinx’s scarf safe and follow the outer steps",
         "to": "observatory",
         "effect": "item+=shinxScarf;arrival=stairs",
         "condition": "always",
-        "immediateText": "You fold the scarf and climb to the observatory, determined to return it.",
+        "immediateText": "You check that the scarf is secure in your pack and climb toward the observatory.",
         "id": "stairs.1"
       },
       {
@@ -911,7 +1235,7 @@
         "to": "tower",
         "effect": "item+=shinxScarf;arrival=service",
         "condition": "knowledge=stair OR knowledge=door OR bridge=drain",
-        "immediateText": "The service map guides you beneath the platform and out beside the tower door.",
+        "immediateText": "Your copied clues lead you beneath the platform and up the service passage to the tower door.",
         "id": "stairs.2"
       },
       {
@@ -923,21 +1247,27 @@
         "id": "stairs.3"
       }
     ],
-    "variants": {}
+    "variants": {},
+    "passages": [
+      {
+        "id": "body",
+        "text": "Stone stairs curve around the observatory wall. A yellow scarf is caught beneath a railing: SHINX, say the crooked stitches. You lift it free, fold it, and put it safely in your pack. In a weatherproof box nearby, a photograph shows Lumi and Shinx wearing matching scarves, each with its owner’s name. A crescent marks the service door. The ordinary steps continue upward beside it."
+      }
+    ]
   },
   {
     "id": "observatory",
     "chapter": 4,
     "title": "The Observatory That Forgot the Sky",
     "entry": "shelter or stairs",
-    "body": "The observatory is linked to Starfall Tower by a short covered walkway and a platform above the gorge. Its roof has frozen over, locking the main platform controls. A safe outside staircase reaches a hand latch, but the old mechanism can also be repaired. An instruction plate shows three paths to the same release lever—roots and leaves, moon and sun gears, or water basins—depending on the tool used. Your partner takes one look and seems to think this machine was built specifically for its talents.",
+    "body": "Frost grips the observatory’s platform controls. Through the windows you can see the covered walkway to the tower room, but its roof latch will not turn. Three little mechanisms connect to it: plant-shaped sockets, frozen gears, and water basins. Your partner examines the worn instruction pictures. A hand crank and an outside stair offer other ways to reach the latch.",
     "choices": [
       {
         "label": "Solve the observatory mechanism with your partner",
         "to": "roof",
         "effect": "puzzle:observatory=solved",
         "condition": "puzzle:observatory solved",
-        "immediateText": "Together you complete the mechanism in the order shown. The roof latch turns smoothly.",
+        "immediateText": "The mechanism clicks into place. Your partner tests the latch twice, looking very pleased, and the platform opens toward the roof.",
         "id": "observatory.1"
       },
       {
@@ -945,7 +1275,7 @@
         "to": "roof",
         "effect": "observatory=crank",
         "condition": "always",
-        "immediateText": "The crank moves slowly, but it works. You open the roof without solving the old mechanism.",
+        "immediateText": "You take turns at the stiff crank. At last the latch lifts, and a little shower of frost falls from the roof.",
         "id": "observatory.2"
       },
       {
@@ -958,21 +1288,29 @@
       }
     ],
     "variants": {
-      "starter=Bulbasaur": "Bulbasaur examines the root, leaf and flower cables.",
-      "starter=Charmander": "Charmander notices the small moon gear must thaw before the large sun gear.",
-      "starter=Squirtle": "Squirtle sees the counterweight basins connect from low to high.",
-      "pikachu=guard": "From the forest path a familiar spark flashes twice. Pikachu has finished guiding travelers and comes to help at the observatory; it is visiting, not silently joining the party."
-    }
+      "pikachu=guard": "A familiar spark flashes on the path below. Pikachu has finished guiding the forest travelers and comes to brace the crank. After helping, it will return to its post."
+    },
+    "passages": [
+      {
+        "id": "body",
+        "text": "Frost grips the observatory’s platform controls. Through the windows you can see the covered walkway to the tower room, but its roof latch will not turn. Three little mechanisms connect to it: plant-shaped sockets, frozen gears, and water basins. Your partner examines the worn instruction pictures. A hand crank and an outside stair offer other ways to reach the latch."
+      },
+      {
+        "id": "guard-visits",
+        "when": "pikachu=guard",
+        "text": "A familiar spark flashes on the path below. Pikachu has finished guiding the forest travelers and comes to brace the crank. After helping, it will return to its post."
+      }
+    ]
   },
   {
     "id": "roof",
     "chapter": 4,
     "title": "Across the Last Gap",
     "entry": "observatory, stairs or windwatch",
-    "body": "From the observatory roof, Starfall Tower is close enough to hear someone moving inside. The covered walkway below is intact. Above it, a line of glowing stepping-stones offers a shorter but exposed crossing. The crescent lens confirms the stones hold steady if you move slowly. You are not crossing to an unexplained second tower; this roof faces the same Starfall Tower Mira showed on her map. Near the door, there is a brass bell cord with a moon-shaped handle.",
+    "body": "From the observatory roof you hear footsteps in the tower room. A covered walkway crosses the gap below; above it, broad glowing stones form a short crossing between sturdy rails. Your lens shows their stone supports beneath the shimmer. A sheltered stair curls around the rock to the same landing. Beside the walkway hangs a bell cord with a moon-shaped handle.",
     "choices": [
       {
-        "label": "Cross the covered walkway and knock at the door",
+        "label": "Cross the covered walkway to the door",
         "to": "tower",
         "effect": "arrival=walkway",
         "condition": "always",
@@ -1004,14 +1342,20 @@
         "id": "roof.4"
       }
     ],
-    "variants": {}
+    "variants": {},
+    "passages": [
+      {
+        "id": "body",
+        "text": "From the observatory roof you hear footsteps in the tower room. A covered walkway crosses the gap below; above it, broad glowing stones form a short crossing between sturdy rails. Your lens shows their stone supports beneath the shimmer. A sheltered stair curls around the rock to the same landing. Beside the walkway hangs a bell cord with a moon-shaped handle."
+      }
+    ]
   },
   {
     "id": "tower",
     "chapter": 4,
     "title": "Someone Behind the Door",
     "entry": "stairs or roof",
-    "body": "A muffled voice counts quietly: “One, two, three. Please, just one more night.” Beyond the door you hear a second voice, small and tired: “Lumi, I’m not sleeping.” You recognize the name from the island memory. The little voice confirms that Lumi and Shinx are together beyond the door. A yellow scarf hangs over a chair inside. It belongs to Lumi. If you found a scarf on the stairs, you hold Shinx’s matching scarf—not this one. Your seed glows in your hand, but the door is still closed. The next choice determines how your first meeting begins.",
+    "body": "“One, two, three. Please, one more night.” A muffled voice counts behind the closed door. Another voice answers, tired but quite clear: “Lumi, I’m not sleeping.” You breathe out. Shinx is here, and he can speak. Through a narrow window beside the door, you see a yellow scarf on a chair. LUMI is stitched along its edge; she has her own scarf back. The seed warms in your hand.",
     "choices": [
       {
         "label": "Knock and introduce yourself",
@@ -1047,17 +1391,44 @@
       }
     ],
     "variants": {
-      "arrival=stones": "The soles of your shoes still sparkle with dust from the stepping-stones.",
-      "arrival=service": "You reach the door through the service passage; the others came by the roof.",
-      "arrival=bell": "Inside, the voice stops counting when the old moon-bell rings."
-    }
+      "item=shinxScarf": "Shinx’s matching scarf is still dry in your pack. You can offer it through the window.",
+      "arrival=service": "The sheltered service passage has brought your whole party to this landing, out of the wind.",
+      "arrival=bell": "The counting stops. Your three soft bell notes have been heard.",
+      "knowledge=door OR knowledge=stair": "The mark beside the door matches the one you copied. Your notes have brought you right to the landing."
+    },
+    "passages": [
+      {
+        "id": "body",
+        "text": "“One, two, three. Please, one more night.” A muffled voice counts behind the closed door. Another voice answers, tired but quite clear: “Lumi, I’m not sleeping.” You breathe out. Shinx is here, and he can speak. Through a narrow window beside the door, you see a yellow scarf on a chair. LUMI is stitched along its edge; she has her own scarf back. The seed warms in your hand."
+      },
+      {
+        "id": "scarf-in-pack",
+        "when": "item=shinxScarf",
+        "text": "Shinx’s matching scarf is still dry in your pack. You can offer it through the window."
+      },
+      {
+        "id": "service-arrival",
+        "when": "arrival=service",
+        "text": "The sheltered service passage has brought your whole party to this landing, out of the wind."
+      },
+      {
+        "id": "bell-arrival",
+        "when": "arrival=bell",
+        "text": "The counting stops. Your three soft bell notes have been heard."
+      },
+      {
+        "id": "kept-map-clue",
+        "when": "knowledge=door OR knowledge=stair",
+        "text": "The mark beside the door matches the one you copied. Your notes have brought you right to the landing."
+      }
+    ]
   },
   {
     "id": "lumi",
     "chapter": 5,
     "title": "The Keeper Who Was Afraid",
     "entry": "tower",
-    "body": "Lumi opens the door just wide enough to see your face. She is a small Clefairy with a yellow scarf wrapped around one wrist, and she has been awake for far too long. Shinx rests beside a glass sphere filled with spinning points of light. He has a bandaged paw, and a blue spark at his fur flickers whenever the sphere dims. Lumi admits she activated the Starlight Glass after Shinx fell during a storm. Its borrowed light helped stabilize his weak electric spark. Then the sphere locked, and the valley went dark. “I sent a letter,” she whispers. “Then I was too frightened to open the door.” Shinx looks up. “You are all talking about me again.” Nobody touches the controls yet.",
+    "body": "Lumi opens the door a hand’s width. The little Clefairy has tired eyes, but her grip on the handle is firm. Behind her, Shinx lies beside a glass sphere full of spinning light. One paw is bandaged. “Keep the door out of the wind,” Lumi says, and makes room for you. Shinx lifts his head. “Visitors. Excellent. Perhaps someone will talk to me.”\n\nLumi keeps one hand near the controls. “The Glass kept him warm after the fall. I don’t know how to let it stop.” Nobody reaches for a lever.",
     "choices": [
       {
         "label": "Ask Lumi exactly what happened after the accident",
@@ -1068,11 +1439,11 @@
         "id": "lumi.1"
       },
       {
-        "label": "Show Lumi the note, if you kept it",
+        "label": "Show Lumi the letter you kept",
         "to": "listen",
-        "effect": "talk=letter",
+        "effect": "talk=letter;item-=letter",
         "condition": "letter=kept",
-        "immediateText": "Lumi recognizes her handwriting and nods. “I really did send that,” she says.",
+        "immediateText": "Lumi takes the letter and smooths its damp corner. “I wrote this before I stopped answering the door.”",
         "id": "lumi.2"
       },
       {
@@ -1093,20 +1464,73 @@
       }
     ],
     "variants": {
-      "reply=sent": "A Hoothoot carrying the river reply arrived earlier; Lumi shows you your own words, folded beside the sphere. “I did not think anyone would come,” she says.",
-      "contact=knock": "“Thank you for knocking,” Lumi says. “I thought everyone would be angry.”",
-      "contact=seed": "She recognizes the seed immediately. “The Glass really did ask for help.”",
-      "contact=shinx": "Shinx answers, “My paw hurts. I am tired of being treated like a secret.”",
-      "contact=scarf": "Shinx gives a delighted squeak at the sight of his scarf. Lumi laughs once, shakily.",
-      "letter=kept": "Lumi recognizes the damp paper in your pack. “That was my first attempt to ask for help,” she says. “Thank you for bringing it back.”"
-    }
+      "reply=sent": "Your bottle stands beside the post basket. Lumi unfolds your reply. “You said you were coming.” She reads the last line again: You are not alone.",
+      "contact=knock": "“Thank you for knocking,” Lumi says. “I kept expecting someone to bang on the door.”",
+      "contact=seed": "Lumi recognizes the seed. “It sent for help even when I couldn’t.” She loosens her grip on the handle.",
+      "contact=shinx": "“My paw hurts,” Shinx tells you. “And I’d like to stop being a secret.” Lumi looks down at her feet.",
+      "contact=scarf": "Shinx’s ears rise when he sees his scarf. “I knew the mountain hadn’t eaten it.”",
+      "letter=kept": "You recognize the smudged paw print on the letter: Shinx has the same little streak of ink on his good paw.",
+      "promise=listen": "You remember your promise on the island and sit down before asking anything. Lumi pulls a stool closer.",
+      "privacy=yes": "You leave the memory on the island unmentioned. “Would you like to tell us?” you ask instead."
+    },
+    "passages": [
+      {
+        "id": "body",
+        "text": "Lumi opens the door a hand’s width. The little Clefairy has tired eyes, but her grip on the handle is firm. Behind her, Shinx lies beside a glass sphere full of spinning light. One paw is bandaged. “Keep the door out of the wind,” Lumi says, and makes room for you. Shinx lifts his head. “Visitors. Excellent. Perhaps someone will talk to me.”"
+      },
+      {
+        "id": "reply-arrived",
+        "when": "reply=sent",
+        "text": "Your bottle stands beside the post basket. Lumi unfolds your reply. “You said you were coming.” She reads the last line again: You are not alone."
+      },
+      {
+        "id": "knock",
+        "when": "contact=knock",
+        "text": "“Thank you for knocking,” Lumi says. “I kept expecting someone to bang on the door.”"
+      },
+      {
+        "id": "key",
+        "when": "contact=seed",
+        "text": "Lumi recognizes the seed. “It sent for help even when I couldn’t.” She loosens her grip on the handle."
+      },
+      {
+        "id": "ask-shinx",
+        "when": "contact=shinx",
+        "text": "“My paw hurts,” Shinx tells you. “And I’d like to stop being a secret.” Lumi looks down at her feet."
+      },
+      {
+        "id": "show-scarf",
+        "when": "contact=scarf",
+        "text": "Shinx’s ears rise when he sees his scarf. “I knew the mountain hadn’t eaten it.”"
+      },
+      {
+        "id": "kept-letter",
+        "when": "letter=kept",
+        "text": "You recognize the smudged paw print on the letter: Shinx has the same little streak of ink on his good paw."
+      },
+      {
+        "id": "promise-listen",
+        "when": "promise=listen",
+        "text": "You remember your promise on the island and sit down before asking anything. Lumi pulls a stool closer."
+      },
+      {
+        "id": "privacy",
+        "when": "privacy=yes",
+        "text": "You leave the memory on the island unmentioned. “Would you like to tell us?” you ask instead."
+      },
+      {
+        "id": "waiting",
+        "when": "always",
+        "text": "Lumi keeps one hand near the controls. “The Glass kept him warm after the fall. I don’t know how to let it stop.” Nobody reaches for a lever."
+      }
+    ]
   },
   {
     "id": "listen",
     "chapter": 5,
     "title": "The Truth Between Two Friends",
     "entry": "lumi",
-    "body": "Lumi tells the whole story. Shinx slipped on wet stone while helping her repair the tower’s storm bell. His injured paw made it difficult for him to regulate his electric charge, and he became dangerously cold in the mountain wind. The Glass supplied steady warmth while they waited for help—but its old lock can close when one keeper refuses to transfer responsibility to anyone else. Mira’s supplies and ordinary shelter could help Shinx recover now, especially with friends to carry him safely. Lumi thought releasing the stars meant abandoning him. Shinx lifts his head. “I want to get better,” he says. “But I also want you to sleep. And I want the sky back.” The sphere answers his words with one clear chime.",
+    "body": "“The bell rope broke in the storm,” Lumi says. “Shinx slipped while we were fixing it.” His paw was hurt, his sparks flickered, and the wind made him terribly cold. Lumi knew how to use the Glass’s heater. She did not know how long help would take. “I kept turning it up. Then I held the keeper’s catch shut.” She shows you the little handle beneath her thumb. “It won’t release the light until I let someone else take over the warmth.”\n\n“I want to get better,” Shinx says. “I also want you to sleep. And I want the sky back.” You tell them Mira has sent supplies. Through the window, a lantern flashes from the service trail below: the helpers have reached the supply porch. Lumi finally lifts her thumb from the catch. Just a little.",
     "choices": [
       {
         "label": "Ask Shinx what kind of help he wants first",
@@ -1142,18 +1566,61 @@
       }
     ],
     "variants": {
-      "talk=history": "Lumi admits she was afraid to call Mira because she thought the village would blame Shinx.",
-      "talk=letter": "Lumi turns the damp note over. “I wrote it before the lock closed completely.”",
-      "talk=scarf": "With his scarf back, Shinx sits up a little straighter. “I thought we had lost that too.”",
-      "companion=Eevee": "Eevee presses close to Lumi without demanding an answer."
-    }
+      "talk=history": "“I thought Mira would blame him,” Lumi admits. Shinx snorts. “For falling? I wasn’t doing it on purpose.”",
+      "talk=letter": "Lumi folds the returned letter. “I could ask on paper. At the door, I kept losing the words.”",
+      "talk=scarf": "Shinx tucks his own scarf under his chin. “Two scarves was too warm once we got inside. I gave Lumi’s back. Then we noticed mine was missing.”",
+      "companion=Eevee": "Eevee sits beside Lumi’s stool. After a moment, Lumi rests a hand on its head.",
+      "clue=pawprint": "The ink on Shinx’s paw matches the print you drew on your map. He sees you looking. “I helped with the letter. Holding the bottle was my job.”",
+      "clue=flash": "You show Lumi the three circles Pikachu drew. “It saw the rings through the window,” she says. “I wish I had opened the door then.”"
+    },
+    "passages": [
+      {
+        "id": "body",
+        "text": "“The bell rope broke in the storm,” Lumi says. “Shinx slipped while we were fixing it.” His paw was hurt, his sparks flickered, and the wind made him terribly cold. Lumi knew how to use the Glass’s heater. She did not know how long help would take. “I kept turning it up. Then I held the keeper’s catch shut.” She shows you the little handle beneath her thumb. “It won’t release the light until I let someone else take over the warmth.”"
+      },
+      {
+        "id": "history",
+        "when": "talk=history",
+        "text": "“I thought Mira would blame him,” Lumi admits. Shinx snorts. “For falling? I wasn’t doing it on purpose.”"
+      },
+      {
+        "id": "letter",
+        "when": "talk=letter",
+        "text": "Lumi folds the returned letter. “I could ask on paper. At the door, I kept losing the words.”"
+      },
+      {
+        "id": "returned-scarf",
+        "when": "talk=scarf",
+        "text": "Shinx tucks his own scarf under his chin. “Two scarves was too warm once we got inside. I gave Lumi’s back. Then we noticed mine was missing.”"
+      },
+      {
+        "id": "eevee",
+        "when": "companion=Eevee",
+        "text": "Eevee sits beside Lumi’s stool. After a moment, Lumi rests a hand on its head."
+      },
+      {
+        "id": "shinx-wishes",
+        "when": "always",
+        "text": "“I want to get better,” Shinx says. “I also want you to sleep. And I want the sky back.” You tell them Mira has sent supplies. Through the window, a lantern flashes from the service trail below: the helpers have reached the supply porch. Lumi finally lifts her thumb from the catch. Just a little."
+      },
+      {
+        "id": "paw-clue",
+        "when": "clue=pawprint",
+        "text": "The ink on Shinx’s paw matches the print you drew on your map. He sees you looking. “I helped with the letter. Holding the bottle was my job.”"
+      },
+      {
+        "id": "pikachu-diagram",
+        "when": "clue=flash",
+        "text": "You show Lumi the three circles Pikachu drew. “It saw the rings through the window,” she says. “I wish I had opened the door then.”"
+      }
+    ]
   },
   {
     "id": "plan",
     "chapter": 5,
     "title": "Three Rings, One Sky",
     "entry": "listen",
-    "body": "Lumi shows you the three rings, now that everyone knows the full problem. The SKY ring will send all borrowed reflections home at once; Shinx must already have steady warmth and safe transport. The HEART ring transfers the stored warmth into a circle of willing helpers before returning the stars. The EARTH ring sends the warmth into a living receiver grown from your silver seed, then frees the trapped reflections. The Glass cannot give warmth and keep the sky locked forever. Each way involves a choice about where help comes from next. Mira has already promised a warm shelter in the village and can answer the lantern signals from this window. You agree to check the source of warmth, the journey and Shinx’s consent before any ring is opened. Shinx makes one request: “Please ask me before moving me.” Lumi nods. For the first time, she steps away from the controls.",
+    "body": "You and Lumi bring the helpers’ parcel in from the supply porch: blankets, food, a padded carrier, and covered lanterns. She checks each item before laying it beside Shinx. “Mira hid a piece of the map to keep people safe,” you tell her. Lumi looks at the locked sphere. “And I shut a door.” She turns to the three rings.\n\nThe SKY ring can open once Shinx has a warm carrier and a safe way down. The HEART ring can send warmth into lanterns held by willing helpers. The EARTH ring can grow the silver seed into a plant that stores warmth. Lumi touches the release catch beneath them. “Whichever we choose, the warmth must be ready first.”\n\nMira’s lantern answers from the village: a warm room is waiting. “Please ask before picking me up,” Shinx says. Lumi sets the carrier down again and waits for his nod.",
     "choices": [
       {
         "label": "Prepare a safe immediate release with the sky ring",
@@ -1189,29 +1656,85 @@
       }
     ],
     "variants": {
-      "shinxChoice=asked": "Shinx says, “A warm blanket and a ride home. And I want to see the stars tonight.”",
-      "lumiTrust=promise": "Lumi takes your hand and says, “Then I can finally stop pretending I know everything.”",
-      "knowledge=shared": "Lumi recognizes the warning you copied and shows exactly which latch it describes.",
-      "knowledge=demonstrated": "She demonstrates the rings with a single borrowed spark; the light returns to its tiny window when she releases the lever.",
-      "companion=Eevee": "Eevee stays close to Lumi but lets Shinx choose whether to be touched.",
-      "companion=Pikachu": "Pikachu offers one carefully measured spark to the heart-ring circuit, but waits for permission.",
-      "companion=Hoothoot": "Hoothoot repeats the three-note greeting you first heard on the hill.",
-      "companion=Psyduck": "Psyduck checks the steps of the plan one by one, just as it practised at the ferry."
-    }
+      "shinxChoice=asked": "Shinx points to the carrier. “That looks comfortable. But let me decide when we move.” You put it within his reach.",
+      "lumiTrust=promise": "Lumi hands you one of the lanterns. “Then this can be your job.” Her hand no longer shakes quite so much.",
+      "knowledge=shared": "Your copied rule lies beside the controls. Lumi checks the diagram against the catch, then nods. “Now we both know.”",
+      "knowledge=demonstrated": "Lumi sends one tiny spark around the demonstration dial and brings it back. Shinx watches every turn.",
+      "choice=lapras.3": "You tell Shinx about the promise you made beside Lapras: you came for both friends, as well as the light. “Good,” he says. “She needs looking after too.”",
+      "companion=Psyduck": "Psyduck lines up the supplies in order of use, just as it lined up the ferry boards. Shinx approves the blanket pile.",
+      "companion=Pikachu": "Pikachu offers a tiny spark for a lantern, then waits. Shinx nods. Lumi watches them agree before either moves.",
+      "companion=Hoothoot": "Hoothoot taps three times on your pack. Shinx taps back, a little too quickly, and the owl gives him a very serious look."
+    },
+    "passages": [
+      {
+        "id": "body",
+        "text": "You and Lumi bring the helpers’ parcel in from the supply porch: blankets, food, a padded carrier, and covered lanterns. She checks each item before laying it beside Shinx. “Mira hid a piece of the map to keep people safe,” you tell her. Lumi looks at the locked sphere. “And I shut a door.” She turns to the three rings."
+      },
+      {
+        "id": "rings",
+        "when": "always",
+        "text": "The SKY ring can open once Shinx has a warm carrier and a safe way down. The HEART ring can send warmth into lanterns held by willing helpers. The EARTH ring can grow the silver seed into a plant that stores warmth. Lumi touches the release catch beneath them. “Whichever we choose, the warmth must be ready first.”"
+      },
+      {
+        "id": "shinx-asked",
+        "when": "shinxChoice=asked",
+        "text": "Shinx points to the carrier. “That looks comfortable. But let me decide when we move.” You put it within his reach."
+      },
+      {
+        "id": "trust",
+        "when": "lumiTrust=promise",
+        "text": "Lumi hands you one of the lanterns. “Then this can be your job.” Her hand no longer shakes quite so much."
+      },
+      {
+        "id": "knowledge",
+        "when": "knowledge=shared",
+        "text": "Your copied rule lies beside the controls. Lumi checks the diagram against the catch, then nods. “Now we both know.”"
+      },
+      {
+        "id": "demonstration",
+        "when": "knowledge=demonstrated",
+        "text": "Lumi sends one tiny spark around the demonstration dial and brings it back. Shinx watches every turn."
+      },
+      {
+        "id": "lapras-promise",
+        "when": "choice=lapras.3",
+        "text": "You tell Shinx about the promise you made beside Lapras: you came for both friends, as well as the light. “Good,” he says. “She needs looking after too.”"
+      },
+      {
+        "id": "consent",
+        "when": "always",
+        "text": "Mira’s lantern answers from the village: a warm room is waiting. “Please ask before picking me up,” Shinx says. Lumi sets the carrier down again and waits for his nod."
+      },
+      {
+        "id": "psyduck-steps",
+        "when": "companion=Psyduck",
+        "text": "Psyduck lines up the supplies in order of use, just as it lined up the ferry boards. Shinx approves the blanket pile."
+      },
+      {
+        "id": "pikachu-permission",
+        "when": "companion=Pikachu",
+        "text": "Pikachu offers a tiny spark for a lantern, then waits. Shinx nods. Lumi watches them agree before either moves."
+      },
+      {
+        "id": "hoothoot-refrain",
+        "when": "companion=Hoothoot",
+        "text": "Hoothoot taps three times on your pack. Shinx taps back, a little too quickly, and the owl gives him a very serious look."
+      }
+    ]
   },
   {
     "id": "sky",
     "chapter": 5,
     "title": "The Sky Ring",
     "entry": "plan",
-    "body": "The sky ring clicks into place. Outside, the valley waits without its usual stars. Shinx cannot be left in the cold tower while the light is released. You check his blanket and the path down. Mira has a lit shelter ready at Willowbrook; you prepare a well-wrapped carrier with a warmed stone, a covered lantern and a safe footpath down. You check the stone with your hand: comfortably warm, never hot. Your partner can help carry supplies. This basic plan works without any special item. There is also a warm feather nest if you brought one, or a safe portable glow made by Charmander. “Tell me when to move,” Shinx says. He is frightened too, but he wants to help choose.",
+    "body": "Lumi warms a smooth stone with the Glass’s heater, wraps it, and checks it against her wrist. You line the carrier with a blanket. Shinx tries it, wriggles, and asks you to move a lumpy corner. Outside, the helpers wait by the sheltered path down to Mira’s warm room. The release catch stays shut while you make the last preparations.",
     "choices": [
       {
-        "label": "Wrap Shinx and carry him down to Mira while Lumi opens the Glass",
+        "label": "Settle Shinx in the warm carrier, then release the light",
         "to": "endDawn",
         "effect": "endingMethod=home",
         "condition": "always",
-        "immediateText": "Shinx agrees to the padded carrier. You warm and secure it before Lumi releases the Glass. The group leaves immediately for Mira’s prepared shelter.",
+        "immediateText": "Shinx nods. You lift the carrier with a helper, and Lumi checks that the wrapped stone is still warm. She takes her place at the release catch.",
         "id": "sky.1"
       },
       {
@@ -1219,7 +1742,7 @@
         "to": "endAurora",
         "effect": "item-=feather;endingMethod=feather",
         "condition": "item=feather",
-        "immediateText": "You settle Shinx into the nest and make sure it holds warmth before Lumi releases the stars.",
+        "immediateText": "Altaria’s feather unfolds into a soft lining around the wrapped warm stone. Shinx settles into the nest and approves it with a sleepy blink.",
         "id": "sky.2"
       },
       {
@@ -1227,7 +1750,7 @@
         "to": "endAurora",
         "effect": "endingMethod=charmander",
         "condition": "starter=Charmander",
-        "immediateText": "Charmander chooses a safe place beside Shinx, where its carefully guarded tail can keep the nest warm.",
+        "immediateText": "Charmander takes a steady place beside the carrier, its tail safely clear of the bedding. Shinx tests the warmth with his good paw and nods.",
         "id": "sky.3"
       },
       {
@@ -1235,18 +1758,37 @@
         "to": "endSong",
         "effect": "endingMethod=rhythm",
         "condition": "rhythm=known OR melody=known",
-        "immediateText": "The three notes help Shinx keep calm, but music cannot replace heat. You use the same padded carrier and warmed stone as the ordinary descent before Lumi opens the Glass.",
+        "immediateText": "You settle Shinx beside the wrapped warm stone. He taps his good paw: ready for the three notes, and for Lumi to open the catch.",
         "id": "sky.4"
       }
     ],
-    "variants": {}
+    "variants": {
+      "item=feather": "You lay Altaria’s warm feather beside the carrier. It is wide enough to line the nest.",
+      "starter=Charmander": "Charmander measures a safe space beside the carrier with its paws, then looks to Shinx for permission."
+    },
+    "passages": [
+      {
+        "id": "body",
+        "text": "Lumi warms a smooth stone with the Glass’s heater, wraps it, and checks it against her wrist. You line the carrier with a blanket. Shinx tries it, wriggles, and asks you to move a lumpy corner. Outside, the helpers wait by the sheltered path down to Mira’s warm room. The release catch stays shut while you make the last preparations."
+      },
+      {
+        "id": "feather-option",
+        "when": "item=feather",
+        "text": "You lay Altaria’s warm feather beside the carrier. It is wide enough to line the nest."
+      },
+      {
+        "id": "fire-option",
+        "when": "starter=Charmander",
+        "text": "Charmander measures a safe space beside the carrier with its paws, then looks to Shinx for permission."
+      }
+    ]
   },
   {
     "id": "heart",
     "chapter": 5,
     "title": "The Heart Ring",
     "entry": "plan",
-    "body": "The heart ring does not work because friends stand near it. It works only when someone freely agrees to share a little warmth for a while. Your starter agrees at once. Lumi agrees after a pause. Shinx agrees to receive it. You set the ring to RETURN, but keep the release latch closed until the new warmth source is ready. A faint line of light connects the sphere to the volunteer lanterns; the stars are still held until you finish the transfer. Mira answers your tower signal with three flashes: Willowbrook’s volunteers have lit their festival lanterns and agreed to help if called upon. Their lanterns can take the final portion below; if everyone stays at the tower, a small circle and the prepared shelter can keep Shinx safe until he can travel. No Pokémon is asked to give more than it chooses.",
+    "body": "Lumi sets three covered lanterns around Shinx’s bed. You and your partner each agree to watch one; she takes the third. A thread of gold runs from the heart ring into their glass panes. “Warm enough?” she asks. Shinx holds out his good paw. “A little closer, please.” Far below, Mira signals that the village volunteers are ready too. Lumi leaves the release catch shut until you decide who will take the next watch.",
     "choices": [
       {
         "label": "Link the ring to Mira’s festival lanterns and share the work with the village",
@@ -1257,7 +1799,7 @@
         "id": "heart.1"
       },
       {
-        "label": "Keep a staffed recovery room at the tower while the stars return",
+        "label": "Keep a staffed recovery room at the tower while the light returns",
         "to": "endSanctuary",
         "effect": "endingMethod=sanctuary",
         "condition": "always",
@@ -1269,7 +1811,7 @@
         "to": "endSong",
         "effect": "endingMethod=song",
         "condition": "rhythm=known OR melody=known",
-        "immediateText": "The heart ring pulses to your low–high–low song until it can release the remaining light.",
+        "immediateText": "You begin the familiar melody. Shinx counts with his paw while the lantern keepers check that their little circle is warm.",
         "id": "heart.3"
       },
       {
@@ -1277,41 +1819,54 @@
         "to": "endLantern",
         "effect": "endingMethod=shinx",
         "condition": "always",
-        "immediateText": "Shinx counts each transfer into the chain of willing village lanterns and gives the release signal himself. Lumi waits for his nod, then returns the reflections.",
+        "immediateText": "“Wait,” says Shinx, then checks each lantern. At last he nods. Lumi waits beside the catch for his own count of three.",
         "id": "heart.4"
       }
     ],
-    "variants": {}
+    "variants": {
+      "plan=village": "Mira’s reply names the first village shift. The helpers on the supply porch unpack extra lanterns for the walk down."
+    },
+    "passages": [
+      {
+        "id": "body",
+        "text": "Lumi sets three covered lanterns around Shinx’s bed. You and your partner each agree to watch one; she takes the third. A thread of gold runs from the heart ring into their glass panes. “Warm enough?” she asks. Shinx holds out his good paw. “A little closer, please.” Far below, Mira signals that the village volunteers are ready too. Lumi leaves the release catch shut until you decide who will take the next watch."
+      },
+      {
+        "id": "village-plan",
+        "when": "plan=village",
+        "text": "Mira’s reply names the first village shift. The helpers on the supply porch unpack extra lanterns for the walk down."
+      }
+    ]
   },
   {
     "id": "earth",
     "chapter": 5,
     "title": "A Seed for Tomorrow",
     "entry": "plan",
-    "body": "Lumi guides you onto the garden balcony, safely away from the fragile sphere. Your silver seed opens into a star-shaped leaf. It was never an ordinary plant: the Glass sends one living receiver into the valley whenever it can no longer return light by itself. The silver leaf can hold a safe store of gentle warmth while every reflected star returns to the sky. It can then be carried down to the village garden in a padded pot, or kept in the tower’s recovery room. The leaf needs care, but it will not go cold during the journey. If kept in a tower planter, it can supply a small recovery room while the Glass empties. Before releasing the stars, you and Lumi settle Shinx into a nest beside the receiver. You choose who will tend the plant and where it will live once the Glass is empty. It needs water, sunlight and caretakers. “I like that it cannot grow all by itself,” Shinx says.",
+    "body": "On the sheltered garden balcony, Lumi sets a pot of soil beneath the earth ring. You lower the silver seed into it. A root uncurls, then a star-shaped leaf, soft as a new fern. The leaf glows warm against your palm. “Its other job,” Lumi whispers. “An emergency key that can grow a new source of warmth.” You put the pot beside Shinx’s carrier. He leans toward it. “That one can sit by me.”\n\nThe little plant can keep Shinx warm while the Glass empties, and its pot can travel beside him. Afterward it will need water, sunlight, and people to tend it. Lumi finds a pencil. “Let’s write down who will do what.”",
     "choices": [
       {
-        "label": "Plant the receiver in Willowbrook’s shared garden",
+        "label": "Prepare the plant for Willowbrook’s shared garden",
         "to": "endGarden",
         "effect": "endingMethod=garden",
         "condition": "always",
-        "immediateText": "You set the young receiver in a travel pot. It takes over the necessary warmth, and Lumi releases the reflections. Tomorrow, you will plant it with Mira in Willowbrook.",
+        "immediateText": "You tuck the pot into a padded basket beside Shinx. Mira answers your signal: she will help plant it in the village tomorrow.",
         "id": "earth.1"
       },
       {
-        "label": "Grow the receiver into a vine with Bulbasaur and its roots",
+        "label": "Ask Bulbasaur to make a living basket for the plant",
         "to": "endGarden",
         "effect": "endingMethod=vine",
         "condition": "starter=Bulbasaur",
-        "immediateText": "Bulbasaur shapes a soft vine basket around the living receiver. The plant holds steady warmth while Lumi releases the reflections; you will carry it down to the village garden.",
+        "immediateText": "Bulbasaur guides the young vine around the rim of its travel pot. The pot sits snugly beside Shinx, ready for the journey to Willowbrook.",
         "id": "earth.2"
       },
       {
-        "label": "Use the receiver to open a staffed tower sanctuary",
+        "label": "Keep the warm plant in a staffed tower sanctuary",
         "to": "endSanctuary",
         "effect": "endingMethod=plant_sanctuary",
         "condition": "always",
-        "immediateText": "You place the receiver in a deep pot and make sure a team of helpers will tend it.",
+        "immediateText": "You settle the plant in a deep pot beside Shinx. The helpers agree on watering and night watches before Lumi touches the catch.",
         "id": "earth.3"
       },
       {
@@ -1319,92 +1874,320 @@
         "to": "endGarden",
         "effect": "endingMethod=reeds",
         "condition": "river=lanterns",
-        "immediateText": "You prepare a padded travel pot and send Mira a lantern signal asking her to meet you at Psyduck’s river channel. The receiver takes the warmth, and the stars return overhead.",
+        "immediateText": "You pad the travel pot and signal Mira to meet you at the river garden. Shinx agrees to ride with the warm plant beside him.",
         "id": "earth.4"
       }
     ],
     "variants": {
-      "ordinarySeed=planted": "You remember the ordinary seed left in the forest. Not all things that grow need magic.",
-      "river=lanterns": "Psyduck’s lantern channel offers a safe, watered route for the young receiver; Lumi points it out on the map.",
-      "item=feather": "The feather remains in your bag unless you used it to warm Shinx; neither the seed nor the ring uses it automatically."
-    }
+      "ordinarySeed=planted": "You think of the little maple seed in Moonwood. Two very different seeds will need someone to water them.",
+      "river=lanterns": "On the map, you show Lumi the lantern channel you made with Psyduck. Its bank has room for a garden, close to water and the ferry keepers."
+    },
+    "passages": [
+      {
+        "id": "body",
+        "text": "On the sheltered garden balcony, Lumi sets a pot of soil beneath the earth ring. You lower the silver seed into it. A root uncurls, then a star-shaped leaf, soft as a new fern. The leaf glows warm against your palm. “Its other job,” Lumi whispers. “An emergency key that can grow a new source of warmth.” You put the pot beside Shinx’s carrier. He leans toward it. “That one can sit by me.”"
+      },
+      {
+        "id": "plain-seed",
+        "when": "ordinarySeed=planted",
+        "text": "You think of the little maple seed in Moonwood. Two very different seeds will need someone to water them."
+      },
+      {
+        "id": "river-garden",
+        "when": "river=lanterns",
+        "text": "On the map, you show Lumi the lantern channel you made with Psyduck. Its bank has room for a garden, close to water and the ferry keepers."
+      },
+      {
+        "id": "plant-care",
+        "when": "always",
+        "text": "The little plant can keep Shinx warm while the Glass empties, and its pot can travel beside him. Afterward it will need water, sunlight, and people to tend it. Lumi finds a pencil. “Let’s write down who will do what.”"
+      }
+    ]
   },
   {
     "id": "endDawn",
     "chapter": 5,
     "title": "The Homeward Dawn",
     "entry": "sky, heart or earth as specified",
-    "body": "The Glass opens, and the borrowed stars return to their familiar places above Willowbrook. The warm stone in his padded carrier stays comfortably warm as you descend. On the way down, you and your partner take turns carrying Shinx while Lumi holds the lantern. Mira meets you at the village gate with warm water, clean bandages and a bed beside the fire. Shinx says that he wants to walk the last three steps himself. He manages two, then accepts a hand for the third. Lumi tells Mira what happened and agrees to help repair the old machine after everyone has rested. At the next festival, two lanterns are lit together: one for those at home, one for those finding their way. When the Glass is safe, the seed becomes an ordinary silver-leaved sprout. You plant it in Mira’s window box.",
+    "body": "Lumi opens the catch. Starlight pours across the valley, and the river shines again. Shinx stays warm beside the wrapped stone as you and a helper carry him down; Lumi walks alongside with your lantern. At the village gate, Mira waits with warm water, clean bandages, and a bed by the fire. Shinx asks to walk the last three steps. He manages two, then accepts a hand for the third.\n\nWhen everyone has rested, you plant the quiet silver seed in Mira’s window box. Lumi helps Mira draw a proper tower map, with the safe paths clearly marked. At the next festival, you and your partner light the first lantern together. Across the square, two yellow scarves wave back.",
     "choices": [],
     "variants": {
       "starter=Bulbasaur": "Bulbasaur carries Shinx’s blanket without letting it drag over the stones.",
       "starter=Charmander": "Charmander walks near the carrier, careful not to bring its tail too close.",
       "starter=Squirtle": "Squirtle checks every slippery step on the path down."
-    }
+    },
+    "passages": [
+      {
+        "id": "body",
+        "text": "Lumi opens the catch. Starlight pours across the valley, and the river shines again. Shinx stays warm beside the wrapped stone as you and a helper carry him down; Lumi walks alongside with your lantern. At the village gate, Mira waits with warm water, clean bandages, and a bed by the fire. Shinx asks to walk the last three steps. He manages two, then accepts a hand for the third."
+      },
+      {
+        "id": "variant-0",
+        "text": "Bulbasaur carries Shinx’s blanket without letting it drag over the stones.",
+        "when": "starter=Bulbasaur"
+      },
+      {
+        "id": "variant-1",
+        "text": "Charmander walks near the carrier, careful not to bring its tail too close.",
+        "when": "starter=Charmander"
+      },
+      {
+        "id": "variant-2",
+        "text": "Squirtle checks every slippery step on the path down.",
+        "when": "starter=Squirtle"
+      },
+      {
+        "id": "home",
+        "when": "always",
+        "text": "When everyone has rested, you plant the quiet silver seed in Mira’s window box. Lumi helps Mira draw a proper tower map, with the safe paths clearly marked. At the next festival, you and your partner light the first lantern together. Across the square, two yellow scarves wave back."
+      }
+    ]
   },
   {
     "id": "endAurora",
     "chapter": 5,
     "title": "The Aurora Promise",
     "entry": "sky, heart or earth as specified",
-    "body": "The nest stays warm even as the sphere empties. Lumi turns the sky ring, and every borrowed reflection returns to its own star. For a moment the last stored glow makes curtains of green and gold across the mountain sky—an aurora, not a replacement for the stars. Shinx settles deeper into his nest and smiles at the real constellations overhead. “Look,” he says, “they were waiting.” Altaria checks the shelter each morning while Mira brings bandages and food. Lumi learns to ask for help before she is desperate. Shinx heals slowly, with one magnificent hop to celebrate his first snow-free day. With its alarm finished, the little silver seed rests quietly in Altaria’s mountain planter.",
+    "body": "The nest stays warm as Lumi opens the sky ring. Light spills out across the mountain in green and gold curtains. Behind them, the real stars have been waiting all along. Shinx sinks into his blanket. “Worth staying awake for,” he says, and promptly falls asleep. With the carrier ready, you follow the helpers down to Mira’s warm room.\n\nShinx heals slowly. His first hop earns a cheer; his second earns a firm “Enough for today” from Mira. The silver seed grows quietly in a pot outside her recovery room. One evening, Lumi comes to watch the stars with you and forgets to count them.",
     "choices": [],
     "variants": {
       "starter=Bulbasaur": "Bulbasaur keeps the soft nest steady with its vines.",
       "starter=Charmander": "Charmander watches the sky while keeping its small safe flame in place.",
-      "starter=Squirtle": "Squirtle sets a cup of water beside the warm nest for when Shinx wakes."
-    }
+      "starter=Squirtle": "Squirtle sets a cup of water beside the warm nest for when Shinx wakes.",
+      "endingMethod=feather": "Later, you bring Altaria a basket of berries and tell her how her feather helped. A Swablu burrows into the basket before you can finish."
+    },
+    "passages": [
+      {
+        "id": "body",
+        "text": "The nest stays warm as Lumi opens the sky ring. Light spills out across the mountain in green and gold curtains. Behind them, the real stars have been waiting all along. Shinx sinks into his blanket. “Worth staying awake for,” he says, and promptly falls asleep. With the carrier ready, you follow the helpers down to Mira’s warm room."
+      },
+      {
+        "id": "variant-0",
+        "text": "Bulbasaur keeps the soft nest steady with its vines.",
+        "when": "starter=Bulbasaur"
+      },
+      {
+        "id": "variant-1",
+        "text": "Charmander watches the sky while keeping its small safe flame in place.",
+        "when": "starter=Charmander"
+      },
+      {
+        "id": "variant-2",
+        "text": "Squirtle sets a cup of water beside the warm nest for when Shinx wakes.",
+        "when": "starter=Squirtle"
+      },
+      {
+        "id": "feather-thanks",
+        "when": "endingMethod=feather",
+        "text": "Later, you bring Altaria a basket of berries and tell her how her feather helped. A Swablu burrows into the basket before you can finish."
+      },
+      {
+        "id": "recovery",
+        "when": "always",
+        "text": "Shinx heals slowly. His first hop earns a cheer; his second earns a firm “Enough for today” from Mira. The silver seed grows quietly in a pot outside her recovery room. One evening, Lumi comes to watch the stars with you and forgets to count them."
+      }
+    ]
   },
   {
     "id": "endSong",
     "chapter": 5,
     "title": "The River of Stars",
     "entry": "sky, heart or earth as specified",
-    "body": "The three notes begin softly: low, high, low. Your friends repeat them at their own pace; nobody needs to be a perfect singer. The rhythm tells Shinx when the release begins and gives Lumi the courage to open her hand. The Glass returns all the reflected stars, while its remaining warmth passes into a prepared warmed-stone carrier and the shelter lantern. The song is a guide for the transfer, not a cure by itself. Down the mountain the Lumen River catches the song and carries it back as a cheerful echo. By morning the sky is whole. At the next Starlight Festival the village sings those three notes before lighting its lanterns, and Shinx insists upon leading—even though he is wonderfully off-key. With its work complete, the silver seed is planted beside the river path where the song is remembered.",
+    "body": "Low, high, low. The tune from the hill fills the tower. Shinx taps the last beat with his good paw, and Lumi opens the catch. Light glitters down the mountain and gathers in the river’s ripples. You keep singing until Lumi’s tight shoulders finally settle.\n\nAfter Shinx has rested, you plant the silver seed beside the river path. By the next festival it has a few shining leaves. The village sings your three notes before lighting the lanterns, with Shinx proudly leading. He is spectacularly out of tune. Nobody minds.",
     "choices": [],
     "variants": {
       "starter=Bulbasaur": "Bulbasaur taps the low beat gently against the floor.",
       "starter=Charmander": "Charmander hums a surprisingly squeaky high note.",
-      "starter=Squirtle": "Squirtle insists on conducting with a twig that is much too big."
-    }
+      "starter=Squirtle": "Squirtle insists on conducting with a twig that is much too big.",
+      "plan=sky": "The wrapped warm stone keeps Shinx comfortable in his carrier all the way down to Mira. You hum whenever the path grows bumpy.",
+      "NOT plan=sky": "The volunteer lanterns hold the shared warmth around Shinx’s carrier. Their keepers walk beside you all the way to Mira."
+    },
+    "passages": [
+      {
+        "id": "body",
+        "text": "Low, high, low. The tune from the hill fills the tower. Shinx taps the last beat with his good paw, and Lumi opens the catch. Light glitters down the mountain and gathers in the river’s ripples. You keep singing until Lumi’s tight shoulders finally settle."
+      },
+      {
+        "id": "variant-0",
+        "text": "Bulbasaur taps the low beat gently against the floor.",
+        "when": "starter=Bulbasaur"
+      },
+      {
+        "id": "variant-1",
+        "text": "Charmander hums a surprisingly squeaky high note.",
+        "when": "starter=Charmander"
+      },
+      {
+        "id": "variant-2",
+        "text": "Squirtle insists on conducting with a twig that is much too big.",
+        "when": "starter=Squirtle"
+      },
+      {
+        "id": "sky-warmth",
+        "when": "plan=sky",
+        "text": "The wrapped warm stone keeps Shinx comfortable in his carrier all the way down to Mira. You hum whenever the path grows bumpy."
+      },
+      {
+        "id": "heart-warmth",
+        "when": "NOT plan=sky",
+        "text": "The volunteer lanterns hold the shared warmth around Shinx’s carrier. Their keepers walk beside you all the way to Mira."
+      },
+      {
+        "id": "song-home",
+        "when": "always",
+        "text": "After Shinx has rested, you plant the silver seed beside the river path. By the next festival it has a few shining leaves. The village sings your three notes before lighting the lanterns, with Shinx proudly leading. He is spectacularly out of tune. Nobody minds."
+      }
+    ]
   },
   {
     "id": "endSanctuary",
     "chapter": 5,
     "title": "The Starlight Sanctuary",
     "entry": "sky, heart or earth as specified",
-    "body": "A living earth receiver or a circle of willing helpers—depending on the route you chose—holds a small, temporary warmth inside the tower while the Glass empties and returns every borrowed reflection to the sky. There is no more stolen darkness. With Mira’s help, Lumi makes the old observatory into a real sanctuary: dry beds, a pantry, safe paths and a posted schedule of volunteers. Shinx chooses to recover there before traveling. He greets each visitor from his cushion and occasionally orders everyone to rest. “A very important medical instruction,” he calls it. The silver seed grows in a pot by the window, never locked away and never forced to do the work of a whole village. The seed stays in a tended pot by the tower window, whether or not it served as the living receiver.",
+    "body": "Shinx chooses the window bed. From there he can see the stars without moving his sore paw. Lumi brings the volunteers’ slate, and he studies the names before adding hers to the list marked REST. “Doctor’s orders!” he announces. She laughs, then pulls up a chair.\n\nWith Mira’s help, the observatory becomes a place for tired travelers to rest. Shinx’s paw takes time to heal, but visitors always get a welcome. Above the door, Lumi hangs a new sign: PLEASE KNOCK. WE ARE HERE.",
     "choices": [],
     "variants": {
+      "endingMethod=plant_sanctuary": "You leave the silver plant in its deep pot by the tower window. Its watering chart hangs beside the volunteers’ names.",
+      "NOT endingMethod=plant_sanctuary": "With its alarm over, the silver seed is quiet. You plant it in a pot by the tower window and give the watering chart to the volunteers.",
       "starter=Bulbasaur": "Bulbasaur trains a vine around the new window planter.",
       "starter=Charmander": "Charmander teaches volunteers how to keep a heater safely away from the bedding.",
       "starter=Squirtle": "Squirtle draws a neat watering schedule and signs it with a wet paw."
-    }
+    },
+    "passages": [
+      {
+        "id": "plant-warmth",
+        "when": "endingMethod=plant_sanctuary",
+        "text": "The silver plant holds steady warmth beside Shinx. Lumi opens the Glass, and starlight reaches the valley again."
+      },
+      {
+        "id": "helpers-warmth",
+        "when": "NOT endingMethod=plant_sanctuary",
+        "text": "The willing lantern keepers take their places around Shinx. Once their warmth is steady, Lumi opens the Glass, and starlight reaches the valley again."
+      },
+      {
+        "id": "body",
+        "text": "Shinx chooses the window bed. From there he can see the stars without moving his sore paw. Lumi brings the volunteers’ slate, and he studies the names before adding hers to the list marked REST. “Doctor’s orders!” he announces. She laughs, then pulls up a chair."
+      },
+      {
+        "id": "variant-0",
+        "text": "Bulbasaur trains a vine around the new window planter.",
+        "when": "starter=Bulbasaur"
+      },
+      {
+        "id": "variant-1",
+        "text": "Charmander teaches volunteers how to keep a heater safely away from the bedding.",
+        "when": "starter=Charmander"
+      },
+      {
+        "id": "variant-2",
+        "text": "Squirtle draws a neat watering schedule and signs it with a wet paw.",
+        "when": "starter=Squirtle"
+      },
+      {
+        "id": "plant-location",
+        "when": "endingMethod=plant_sanctuary",
+        "text": "You leave the silver plant in its deep pot by the tower window. Its watering chart hangs beside the volunteers’ names."
+      },
+      {
+        "id": "seed-location",
+        "when": "NOT endingMethod=plant_sanctuary",
+        "text": "With its alarm over, the silver seed is quiet. You plant it in a pot by the tower window and give the watering chart to the volunteers."
+      },
+      {
+        "id": "open-door",
+        "when": "always",
+        "text": "With Mira’s help, the observatory becomes a place for tired travelers to rest. Shinx’s paw takes time to heal, but visitors always get a welcome. Above the door, Lumi hangs a new sign: PLEASE KNOCK. WE ARE HERE."
+      }
+    ]
   },
   {
     "id": "endLantern",
     "chapter": 5,
     "title": "The Lantern League",
     "entry": "sky, heart or earth as specified",
-    "body": "Mira sends a signal from the village gate. One by one, festival lanterns answer, until a chain of light climbs the mountain path. The heart ring draws a little willing warmth from each lantern; no one loses their flame. With the warmth safely shared, Lumi opens the Glass and the stolen reflections fly home to the stars. Shinx is carried down with the others and rests near Mira’s hearth. At the next festival, every lantern carries a painted mark of a helping hand. Lumi speaks first at the celebration. “I thought I had to save my friend all by myself,” she says. Shinx interrupts: “It was exhausting watching her try.” Everyone laughs, including Lumi. Mira plants the quiet silver seed beside the festival lantern stand.",
+    "body": "One by one, the village lanterns answer Mira’s signal. A chain of gold climbs the mountain path. Their keepers share the warmth, and Lumi opens the catch: starlight washes over rooftops, river, and forest. You carry Shinx down among the lanterns to Mira’s hearth. He keeps his good paw on Lumi’s hand.\n\nThe silver seed takes root beside the festival lantern stand. At the next celebration, Lumi speaks beneath its little leaves. “I thought I had to do everything myself.” Shinx clears his throat. “Exhausting to watch.” Even Lumi laughs. You help your partner light the first lantern. This time, a hundred flames answer.",
     "choices": [],
     "variants": {
       "starter=Bulbasaur": "Bulbasaur makes a green vine handle for the first lantern.",
       "starter=Charmander": "Charmander carefully lights the lantern at the front of the procession.",
       "starter=Squirtle": "Squirtle checks each lantern lid for rain leaks before the festival."
-    }
+    },
+    "passages": [
+      {
+        "id": "body",
+        "text": "One by one, the village lanterns answer Mira’s signal. A chain of gold climbs the mountain path. Their keepers share the warmth, and Lumi opens the catch: starlight washes over rooftops, river, and forest. You carry Shinx down among the lanterns to Mira’s hearth. He keeps his good paw on Lumi’s hand."
+      },
+      {
+        "id": "variant-0",
+        "text": "Bulbasaur makes a green vine handle for the first lantern.",
+        "when": "starter=Bulbasaur"
+      },
+      {
+        "id": "variant-1",
+        "text": "Charmander carefully lights the lantern at the front of the procession.",
+        "when": "starter=Charmander"
+      },
+      {
+        "id": "variant-2",
+        "text": "Squirtle checks each lantern lid for rain leaks before the festival.",
+        "when": "starter=Squirtle"
+      },
+      {
+        "id": "festival",
+        "when": "always",
+        "text": "The silver seed takes root beside the festival lantern stand. At the next celebration, Lumi speaks beneath its little leaves. “I thought I had to do everything myself.” Shinx clears his throat. “Exhausting to watch.” Even Lumi laughs. You help your partner light the first lantern. This time, a hundred flames answer."
+      }
+    ]
   },
   {
     "id": "endGarden",
     "chapter": 5,
     "title": "The Living Constellation",
     "entry": "sky, heart or earth as specified",
-    "body": "After Lumi returns every reflected star at the tower, the living receiver safely holds the warmth Shinx needs for his journey. The next morning, you and Mira plant the little silver receiver in Willowbrook, where people and Pokémon can tend it together. Its roots gradually reach toward the Lumen River; its leaves hold only the gentle warmth needed for the village shelter. Then the Glass releases every borrowed reflection back to the real sky. The tree’s shining leaves never pretend to be stars: they make a new pattern here on earth, a promise that help can grow without taking light from someone else. Shinx rests beneath its branches as his paw heals. Lumi keeps a careful garden journal; you and your partner keep forgetting to water exactly the same corner. At the next festival, the tree shines quietly beneath a sky filled with real stars. The seed is rooted in Willowbrook as the living receiver; it is not still sitting in your pouch.",
+    "body": "The silver leaf glows steadily beside Shinx. Lumi checks the warmth one last time, then releases the catch. Starlight reaches the valley again. You carry Shinx and the padded pot down together, with a helper steadying the carrier and Lumi lighting the path.\n\nLumi keeps a garden journal. Shinx adds small, crooked drawings in the margins. At dusk, you sit beside the warm leaves and look up. The little tree has its own light. The sky has all its stars.",
     "choices": [],
     "variants": {
-      "starter=Bulbasaur": "Bulbasaur gently tests the soil without disturbing the young roots.",
-      "starter=Charmander": "Charmander keeps insects warm at the garden edge on a chilly evening.",
-      "starter=Squirtle": "Squirtle takes watering duty much too seriously and soaks your shoes."
-    }
+      "endingMethod=reeds": "Next morning, Mira meets you beside Psyduck’s lantern channel. You plant the silver sapling on the riverbank, above the high-water mark. The ferry keepers agree to tend it; its shallow roots drink from the damp ground. Shinx rests in the nearby shelter as his paw heals.",
+      "NOT endingMethod=reeds": "Next morning, you and Mira plant the silver sapling in Willowbrook’s shared garden. Neighbors bring water in little pails; its roots stay in the soft garden soil. Shinx rests beside the warm leaves during his visits from Mira’s recovery room.",
+      "starter=Bulbasaur": "Bulbasaur loosens the soil around the roots, then gives its work a satisfied pat.",
+      "starter=Charmander": "Charmander makes a ring of stones around the bed. “So nobody steps on it,” you agree.",
+      "starter=Squirtle": "Squirtle waters the plant, your shoes, and quite a lot of Mira. “Very thorough,” she says, wringing out her sleeve."
+    },
+    "passages": [
+      {
+        "id": "body",
+        "text": "The silver leaf glows steadily beside Shinx. Lumi checks the warmth one last time, then releases the catch. Starlight reaches the valley again. You carry Shinx and the padded pot down together, with a helper steadying the carrier and Lumi lighting the path."
+      },
+      {
+        "id": "river-planting",
+        "when": "endingMethod=reeds",
+        "text": "Next morning, Mira meets you beside Psyduck’s lantern channel. You plant the silver sapling on the riverbank, above the high-water mark. The ferry keepers agree to tend it; its shallow roots drink from the damp ground. Shinx rests in the nearby shelter as his paw heals."
+      },
+      {
+        "id": "village-planting",
+        "when": "NOT endingMethod=reeds",
+        "text": "Next morning, you and Mira plant the silver sapling in Willowbrook’s shared garden. Neighbors bring water in little pails; its roots stay in the soft garden soil. Shinx rests beside the warm leaves during his visits from Mira’s recovery room."
+      },
+      {
+        "id": "bulba-gardener",
+        "when": "starter=Bulbasaur",
+        "text": "Bulbasaur loosens the soil around the roots, then gives its work a satisfied pat."
+      },
+      {
+        "id": "charmander-gardener",
+        "when": "starter=Charmander",
+        "text": "Charmander makes a ring of stones around the bed. “So nobody steps on it,” you agree."
+      },
+      {
+        "id": "squirtle-gardener",
+        "when": "starter=Squirtle",
+        "text": "Squirtle waters the plant, your shoes, and quite a lot of Mira. “Very thorough,” she says, wringing out her sleeve."
+      },
+      {
+        "id": "quiet-ending",
+        "when": "always",
+        "text": "Lumi keeps a garden journal. Shinx adds small, crooked drawings in the margins. At dusk, you sit beside the warm leaves and look up. The little tree has its own light. The sky has all its stars."
+      }
+    ]
   }
 ]

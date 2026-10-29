@@ -20,7 +20,7 @@ for(const starter of ['Bulbasaur','Charmander','Squirtle'] as Starter[]){
   const state=stack.pop()!,w=state.world!;
   const signature=JSON.stringify([state.scene,needs(state.scene).map(n=>condition(state,n)),w.items.slice().sort(),w.partyTraveling.slice().sort()]);
   if(seen.has(signature))continue;seen.add(signature);checked++;reached.add(state.scene);
-  const visualKey=JSON.stringify([starter,state.scene,w.arrivalMode,w.flags.endingMethod,Object.keys(rawById[state.scene].variants).map(k=>condition(state,k))]);
+  const visualKey=JSON.stringify([starter,state.scene,w.lastChoiceId,w.arrivalMode,w.flags.endingMethod,rawById[state.scene].passages.map(p=>condition(state,p.when||'always'))]);
   if(!fixtures.has(visualKey))fixtures.set(visualKey,state);
   assert.deepEqual(state.companions,w.partyTraveling);
   assert.ok(!w.partyTraveling.includes('Lapras'));

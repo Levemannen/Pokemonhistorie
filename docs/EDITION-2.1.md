@@ -1,5 +1,7 @@
 # Revidert historie 2.1
 
+**Redaksjonell revisjon 29. oktober 2026:** Se [sluttrapporten](EDITORIAL-REVISION-2026-10-29.md) og [historiens kanon](STORY-CANON.md). Fortellerteksten bruker nå navngitte, betingede avsnitt og ID-baserte norske oversettelser. Den opprinnelige ZIP-utgaven nedenfor er historisk kildemateriale.
+
 Kildemanuset fra den gjennomgåtte ZIP-filen er bevart uendret i `docs/manuscript-v2.1`. Spillets versjon ligger i `src/manuscript-v2.json`, med stabile valg-ID-er. Full norsk tekst ligger i `src/manuscript-nb.json`. Tekst, bilder, oversettelser og lagring fungerer lokalt uten API-er.
 
 ## Historie og tilstand

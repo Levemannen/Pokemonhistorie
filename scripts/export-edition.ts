@@ -6,6 +6,7 @@ import {setLanguage,translate} from '../src/i18n';
 import {getPuzzle,tryPuzzle} from '../src/puzzles';
 import {resolveIllustration} from '../src/illustrations';
 import type {State,Starter} from '../src/story';
+import {localizedManuscript} from '../src/storyLocale';
 const out='exports/storyline-review-v2.1';mkdirSync(out,{recursive:true});
 const proof=JSON.parse(readFileSync('docs/edition-v2-verification.json','utf8'));
 const manifest=JSON.parse(readFileSync('public/images/illustration-manifest.json','utf8'));
@@ -37,6 +38,7 @@ for(const scene of manuscriptScenes){
  html+=`<article id="${scene.id}"><h2>${escape(scene.id)} · ${escape(scene.title)}</h2>`;
  const state=fixtures.find(s=>s.scene===scene.id)!;const image=resolveIllustration(manifest,state).base;assets.add(image);html+=`<img src="${image}" alt="Illustrasjon til scenen">`;
  for(const language of ['en','nb'] as const){setLanguage(language);html+=`<details><summary>${language==='en'?'English':'Norsk'} – eksempel</summary><p>${escape(storyText(state))}</p></details>`;}
+ html+='<details><summary>Alle avsnitt og betingelser på begge språk</summary>'+scene.passages.map(p=>`<h4>${escape(p.id)} · ${escape(p.when||'always')}</h4><p lang="en">${escape(p.text)}</p><p lang="nb">${escape(localizedManuscript[scene.id].passages[p.id])}</p>`).join('')+'</details>';
  html+='<table><thead><tr><th>ID</th><th>Valg</th><th>Til</th><th>Krav</th><th>Konsekvens</th></tr></thead><tbody>'+scene.choices.map(c=>`<tr><td>${c.id}</td><td>${escape(c.label)}</td><td><a href="#${c.to}">${c.to}</a></td><td>${escape(c.condition)}</td><td>${escape(c.effect)}</td></tr>`).join('')+'</tbody></table></article>';
 }
 html+='<h2>Komplette reiser</h2>';
@@ -45,3 +47,10 @@ writeFileSync(out+'/index.html',html+'</html>');
 for(const path of assets){mkdirSync(dirname(out+'/'+path),{recursive:true});copyFileSync('public/'+path,out+'/'+path);}
 copyFileSync('docs/EDITION-2.1.md',out+'/READ-ME.md');setLanguage('en');
 console.log(`Exported ${manuscriptScenes.length} scenes, ${routes.length} bilingual routes and ${assets.size} local illustrations to ${out}.`);
+const rows=manuscriptScenes.flatMap(s=>s.choices.map(c=>{
+ const terms=(c.effect||'').split(';').map(e=>e.split('=')[0]);
+ const callbacks=manuscriptScenes.flatMap(scene=>scene.passages.filter(p=>p.when&&(p.when.includes('choice='+c.id)||terms.some(term=>p.when!.includes(term+'=')))).map(p=>scene.id+'/'+p.id));
+ return {id:c.id,scene:s.id,label:c.label,norwegian:localizedManuscript[s.id].choices[c.id!],destination:c.to,condition:c.condition,effect:c.effect,immediate:c.immediateText,responses:c.responses||[],possibleFollowUps:callbacks,ending:c.to.startsWith('end')?c.to:null};
+}));
+writeFileSync('docs/editorial-choice-matrix.json',JSON.stringify(rows,null,2));
+writeFileSync(out+'/choice-matrix.json',JSON.stringify(rows,null,2));

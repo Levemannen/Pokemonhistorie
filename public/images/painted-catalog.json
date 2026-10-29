@@ -124,10 +124,12 @@
     "transparent": false,
     "sourceId": "scene-brook-squirtle",
     "editPrompt": "Edit this completed storybook scene into a shared illustration for every starter choice. Remove ONLY the starter Pokémon (Bulbasaur or Squirtle) beside the child and naturally restore the scenery where it stood. Preserve the exact child, every other named NPC (including Eevee, Hoothoot or Pikachu if already present), props, location, lighting, painting quality and 2:1 composition. Do NOT remove a story NPC by mistake. Remove any actual stars from the sky, leaving a smooth blue starless night; keep decorative stars on paper maps. No Bulbasaur, Charmander or Squirtle in the result. No text or watermark.",
-    "path": "images/scenes/painted/scene-brook.png",
-    "promptKey": "scene-brook",
+    "path": "images/scenes/painted/scene-brook-v3.png",
+    "promptKey": "scene-brook-v3",
     "generator": "built-in image_gen",
-    "status": "generated"
+    "status": "generated",
+    "revised": "2026-10-29",
+    "previousPath": "images/scenes/painted/scene-brook.png"
   },
   "scene-square": {
     "id": "scene-square",
@@ -220,10 +222,12 @@
     "scene": "hollow",
     "embedded": [],
     "transparent": false,
-    "path": "images/scenes/painted/scene-hollow.png",
-    "promptKey": "scene-hollow",
+    "path": "images/scenes/painted/scene-hollow-v3.png",
+    "promptKey": "scene-hollow-v3",
     "generator": "built-in image_gen",
-    "status": "generated"
+    "status": "generated",
+    "revised": "2026-10-29",
+    "previousPath": "images/scenes/painted/scene-hollow.png"
   },
   "scene-reedWorkshop": {
     "id": "scene-reedWorkshop",
@@ -255,10 +259,12 @@
     "scene": "echoArchive",
     "embedded": [],
     "transparent": false,
-    "path": "images/scenes/painted/scene-echoArchive.png",
-    "promptKey": "scene-echoArchive",
+    "path": "images/scenes/painted/scene-echoArchive-v3.png",
+    "promptKey": "scene-echoArchive-v3",
     "generator": "built-in image_gen",
-    "status": "generated"
+    "status": "generated",
+    "revised": "2026-10-29",
+    "previousPath": "images/scenes/painted/scene-echoArchive.png"
   },
   "scene-cave": {
     "id": "scene-cave",
@@ -266,10 +272,12 @@
     "scene": "cave",
     "embedded": [],
     "transparent": false,
-    "path": "images/scenes/painted/scene-cave.png",
-    "promptKey": "scene-cave",
+    "path": "images/scenes/painted/scene-cave-v3.png",
+    "promptKey": "scene-cave-v3",
     "generator": "built-in image_gen",
-    "status": "generated"
+    "status": "generated",
+    "revised": "2026-10-29",
+    "previousPath": "images/scenes/painted/scene-cave.png"
   },
   "scene-bridge": {
     "id": "scene-bridge",
@@ -332,10 +340,12 @@
     "scene": "stairs",
     "embedded": [],
     "transparent": false,
-    "path": "images/scenes/painted/scene-stairs.png",
-    "promptKey": "scene-stairs",
+    "path": "images/scenes/painted/scene-stairs-v3.png",
+    "promptKey": "scene-stairs-v3",
     "generator": "built-in image_gen",
-    "status": "generated"
+    "status": "generated",
+    "revised": "2026-10-29",
+    "previousPath": "images/scenes/painted/scene-stairs.png"
   },
   "scene-clearing": {
     "id": "scene-clearing",
@@ -366,10 +376,12 @@
     "scene": "tower",
     "embedded": [],
     "transparent": false,
-    "path": "images/scenes/painted/scene-tower.png",
-    "promptKey": "scene-tower",
+    "path": "images/scenes/painted/scene-tower-v3.png",
+    "promptKey": "scene-tower-v3",
     "generator": "built-in image_gen",
-    "status": "generated"
+    "status": "generated",
+    "revised": "2026-10-29",
+    "previousPath": "images/scenes/painted/scene-tower.png"
   },
   "scene-roof": {
     "id": "scene-roof",
@@ -377,10 +389,12 @@
     "scene": "roof",
     "embedded": [],
     "transparent": false,
-    "path": "images/scenes/painted/scene-roof.png",
-    "promptKey": "scene-roof",
+    "path": "images/scenes/painted/scene-roof-v3.png",
+    "promptKey": "scene-roof-v3",
     "generator": "built-in image_gen",
-    "status": "generated"
+    "status": "generated",
+    "revised": "2026-10-29",
+    "previousPath": "images/scenes/painted/scene-roof.png"
   },
   "scene-observatory-bulbasaur": {
     "id": "scene-observatory-bulbasaur",
@@ -610,10 +624,12 @@
     "priority": 10,
     "embedded": [],
     "transparent": false,
-    "path": "images/scenes/painted/roof-flock.png",
-    "promptKey": "roof-flock",
+    "path": "images/scenes/painted/roof-flock-v3.png",
+    "promptKey": "roof-flock-v3",
     "generator": "built-in image_gen",
-    "status": "generated"
+    "status": "generated",
+    "revised": "2026-10-29",
+    "previousPath": "images/scenes/painted/roof-flock.png"
   },
   "endGarden-reeds": {
     "id": "endGarden-reeds",

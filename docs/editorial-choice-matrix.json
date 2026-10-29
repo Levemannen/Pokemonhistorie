@@ -1,0 +1,2264 @@
+[
+  {
+    "id": "lantern.1",
+    "scene": "lantern",
+    "label": "Ask Mira what the bell means",
+    "norwegian": {
+      "label": "Spør Mira hva klokken betyr",
+      "immediateText": "«Det er tårnets nødklokke», sier Mira. «Ingen ringer med den for moro skyld.»"
+    },
+    "destination": "square",
+    "condition": "always",
+    "effect": "approach=questions",
+    "immediate": "“That is the tower’s emergency bell,” Mira says. “No one rings it for fun.”",
+    "responses": [],
+    "possibleFollowUps": [],
+    "ending": null
+  },
+  {
+    "id": "lantern.2",
+    "scene": "lantern",
+    "label": "Show Mira the strange seed",
+    "norwegian": {
+      "label": "Vis Mira det merkelige frøet",
+      "immediateText": "Mira holder hendene rundt frøet. «En nødnøkkel. Jeg håpet at jeg aldri skulle se en slik igjen.»"
+    },
+    "destination": "square",
+    "condition": "always",
+    "effect": "approach=seed",
+    "immediate": "Mira cups her hands around the seed. “An emergency key. I hoped I would never see another.”",
+    "responses": [],
+    "possibleFollowUps": [],
+    "ending": null
+  },
+  {
+    "id": "lantern.3",
+    "scene": "lantern",
+    "label": "Hold your partner close and ask whether it is safe",
+    "norwegian": {
+      "label": "Hold vennen din inntil deg og spør om det er trygt",
+      "immediateText": "Mira kneler ved dere. «Hold sammen. Jeg lar lykten stå der dere kan se den.»"
+    },
+    "destination": "square",
+    "condition": "always",
+    "effect": "approach=care",
+    "immediate": "Mira kneels beside you. “Stay together. I’ll keep my lantern where you can see it.”",
+    "responses": [],
+    "possibleFollowUps": [],
+    "ending": null
+  },
+  {
+    "id": "square.1",
+    "scene": "square",
+    "label": "Ask who lives in the tower",
+    "norwegian": {
+      "label": "Spør hvem som bor i tårnet",
+      "immediateText": "«Clefairyen Lumi», sier Mira, «og ofte vennen hennes, Shinx. De har ikke vært på besøk i dag.»"
+    },
+    "destination": "hill",
+    "condition": "always",
+    "effect": "know=lumi_name",
+    "immediate": "“Lumi the Clefairy,” Mira says, “and often her friend Shinx. They have not visited today.”",
+    "responses": [],
+    "possibleFollowUps": [
+      "brook/variant-0",
+      "island/variant-0"
+    ],
+    "ending": null
+  },
+  {
+    "id": "square.2",
+    "scene": "square",
+    "label": "Ask why the Glass might need help",
+    "norwegian": {
+      "label": "Spør hvorfor Glasset kan trenge hjelp",
+      "immediateText": "«Det skal slippe det lagrede lyset ut hver morgen», sier Mira. «Kanskje noen holder låsen stengt.»"
+    },
+    "destination": "hill",
+    "condition": "always",
+    "effect": "know=glass_rule",
+    "immediate": "“It should release its stored light each morning,” Mira says. “Someone may be keeping the catch shut.”",
+    "responses": [],
+    "possibleFollowUps": [
+      "brook/variant-0",
+      "island/variant-0"
+    ],
+    "ending": null
+  },
+  {
+    "id": "square.3",
+    "scene": "square",
+    "label": "Comfort Eevee and invite it along",
+    "norwegian": {
+      "label": "Trøst Eevee og inviter den med",
+      "immediateText": "Eevee ser på hånden du rekker frem, og hopper så opp i armene dine. Mira pakker et ekstra bær til den nye reisekameraten din."
+    },
+    "destination": "hill",
+    "condition": "always",
+    "effect": "companion+=Eevee",
+    "immediate": "Eevee considers your outstretched hand, then jumps into your arms. Mira packs an extra berry for your new traveling friend.",
+    "responses": [],
+    "possibleFollowUps": [],
+    "ending": null
+  },
+  {
+    "id": "square.4",
+    "scene": "square",
+    "label": "Ask Eevee to stay with Mira and watch the lanterns",
+    "norwegian": {
+      "label": "Be Eevee bli hos Mira og passe på lyktene",
+      "immediateText": "Eevee klatrer opp på Miras bord og begynner den viktige jobben med å undersøke lyktevekene."
+    },
+    "destination": "hill",
+    "condition": "always",
+    "effect": "eevee=home",
+    "immediate": "Eevee climbs onto Mira’s table and begins the important job of inspecting lantern wicks.",
+    "responses": [],
+    "possibleFollowUps": [],
+    "ending": null
+  },
+  {
+    "id": "hill.1",
+    "scene": "hill",
+    "label": "Lift the branch and make the nest safe",
+    "norwegian": {
+      "label": "Løft grenen og gjør reiret trygt",
+      "immediateText": "Du løfter grenen mens vennen din støtter den med en kløftet kvist. Hoothoot sjekker redet, bruser med fjærene og synger de tre tonene igjen."
+    },
+    "destination": "gate",
+    "condition": "always",
+    "effect": "nest=saved;melody=known",
+    "immediate": "You lift the branch while your partner braces it with a forked stick. Hoothoot checks the nest, fluffs its feathers, and sings the three notes again.",
+    "responses": [],
+    "possibleFollowUps": [
+      "ridge/nest-repaired"
+    ],
+    "ending": null
+  },
+  {
+    "id": "hill.2",
+    "scene": "hill",
+    "label": "Mark the branch on Mira’s map so she can repair it",
+    "norwegian": {
+      "label": "Merk grenen på Miras kart så hun kan ordne den",
+      "immediateText": "Du tegner grenen på kartet og blinker til Mira for å vise hvor den er. Lykten hennes svarer to ganger. Hjelp er på vei. Hoothoot blir ved redet til hjelperne kommer."
+    },
+    "destination": "gate",
+    "condition": "always",
+    "effect": "nest=marked;melody=known",
+    "immediate": "You sketch the branch on your map and flash its position to Mira. Her lantern answers twice. Helpers will come; Hoothoot stays beside the nest until they arrive.",
+    "responses": [],
+    "possibleFollowUps": [
+      "ridge/nest-repaired"
+    ],
+    "ending": null
+  },
+  {
+    "id": "hill.3",
+    "scene": "hill",
+    "label": "Secure the nest, then invite Hoothoot along",
+    "norwegian": {
+      "label": "Sikre redet og inviter Hoothoot med",
+      "immediateText": "Du og vennen din støtter grenen med en kløftet kvist fra bakken. Hoothoot sjekker redet, synger de tre tonene igjen og hopper opp på sekken din. Musikklæreren blir med."
+    },
+    "destination": "gate",
+    "condition": "always",
+    "effect": "melody=known;companion+=Hoothoot",
+    "immediate": "You and your partner brace the branch with a fallen fork of wood. Hoothoot checks the nest, sings its three notes again, and hops onto your pack. Your music teacher is coming along.",
+    "responses": [],
+    "possibleFollowUps": [],
+    "ending": null
+  },
+  {
+    "id": "hill.4",
+    "scene": "hill",
+    "label": "Thank Hoothoot and leave quietly",
+    "norwegian": {
+      "label": "Takk Hoothoot og gå stille videre",
+      "immediateText": "Hoothoot bukker, tipper til siden, retter seg opp med stor verdighet og blir igjen for å vokte reiret."
+    },
+    "destination": "gate",
+    "condition": "always",
+    "effect": "melody=known;hoothoot=stays",
+    "immediate": "Hoothoot bows, tips sideways, recovers with great dignity and stays to guard its nest.",
+    "responses": [],
+    "possibleFollowUps": [],
+    "ending": null
+  },
+  {
+    "id": "gate.1",
+    "scene": "gate",
+    "label": "Take the root arch",
+    "norwegian": {
+      "label": "Gå gjennom rotbuen",
+      "immediateText": "Du bøyer deg under rotbuen og følger den lune stien inn i lunden.",
+      "responses": {
+        "vines": "Bulbasaur holder de minste røttene til side til alle har passert, og senker dem forsiktig igjen."
+      }
+    },
+    "destination": "grove",
+    "condition": "always",
+    "effect": "route=roots",
+    "immediate": "You duck beneath the root arch and follow the sheltered path into the grove.",
+    "responses": [
+      {
+        "id": "vines",
+        "when": "starter=Bulbasaur",
+        "text": "Bulbasaur holds the smallest roots aside until the last friend has passed, then lowers them gently."
+      }
+    ],
+    "possibleFollowUps": [],
+    "ending": null
+  },
+  {
+    "id": "gate.2",
+    "scene": "gate",
+    "label": "Climb the ridge",
+    "norwegian": {
+      "label": "Gå opp på fjellryggen",
+      "immediateText": "Dere følger den merkede stien oppover og hører snart vinden over de steinete bakkene."
+    },
+    "destination": "ridge",
+    "condition": "always",
+    "effect": "route=ridge",
+    "immediate": "You take the marked climbing path and soon hear the wind crossing the rocky hillside.",
+    "responses": [],
+    "possibleFollowUps": [],
+    "ending": null
+  },
+  {
+    "id": "gate.3",
+    "scene": "gate",
+    "label": "Follow the brook",
+    "norwegian": {
+      "label": "Følg bekken",
+      "immediateText": "Dere følger bekken og tørker gjørmen av det gamle treskiltet før dere leser det."
+    },
+    "destination": "brook",
+    "condition": "always",
+    "effect": "route=brook",
+    "immediate": "You follow the stream and clear the mud from the old wooden sign before reading it.",
+    "responses": [],
+    "possibleFollowUps": [],
+    "ending": null
+  },
+  {
+    "id": "gate.4",
+    "scene": "gate",
+    "label": "Trust the seed’s narrow trail",
+    "norwegian": {
+      "label": "Stol på frøets smale sti",
+      "immediateText": "Frøet lyser sterkere ved hvert veiskille og leder dere mellom trærne til lunden."
+    },
+    "destination": "grove",
+    "condition": "always",
+    "effect": "route=seed",
+    "immediate": "The seed brightens at every fork and brings you through the quiet understory to the grove.",
+    "responses": [],
+    "possibleFollowUps": [],
+    "ending": null
+  },
+  {
+    "id": "ridge.1",
+    "scene": "ridge",
+    "label": "Secure the fallen branch before leaving",
+    "norwegian": {
+      "label": "Fest den falne grenen før dere går videre",
+      "immediateText": "Dere fester grenen over den smale stien. Den løse fjæren svever fri, og veien er åpen for den neste som kommer."
+    },
+    "destination": "brook",
+    "condition": "always",
+    "effect": "ridge=safe",
+    "immediate": "You secure the branch above the narrow path. The loose feather drifts free, and the way is clear for the next traveler.",
+    "responses": [],
+    "possibleFollowUps": [],
+    "ending": null
+  },
+  {
+    "id": "ridge.2",
+    "scene": "ridge",
+    "label": "Mark the dangerous spot on Mira’s map",
+    "norwegian": {
+      "label": "Merk det farlige stedet på Miras kart",
+      "immediateText": "Du tegner den falne grenen og merker en trygg omvei for den neste som kommer."
+    },
+    "destination": "brook",
+    "condition": "always",
+    "effect": "ridge=marked",
+    "immediate": "You sketch the fallen branch and mark a safer detour for the next traveler.",
+    "responses": [],
+    "possibleFollowUps": [],
+    "ending": null
+  },
+  {
+    "id": "ridge.3",
+    "scene": "ridge",
+    "label": "Follow the high trail straight into the grove",
+    "norwegian": {
+      "label": "Følg den høye stien rett til lunden",
+      "immediateText": "Dere går ned den høye stien gjennom lyngen og kommer inn i lunden ovenfra."
+    },
+    "destination": "grove",
+    "condition": "always",
+    "effect": "ridge=shortcut",
+    "immediate": "You take the high route down through the heather and enter the grove from above.",
+    "responses": [],
+    "possibleFollowUps": [],
+    "ending": null
+  },
+  {
+    "id": "brook.1",
+    "scene": "brook",
+    "label": "Keep the letter to show its writer",
+    "norwegian": {
+      "label": "Ta vare på brevet for å vise det til den som skrev det",
+      "immediateText": "Du bretter lappen forsiktig sammen og legger den i en tørr lomme i sekken."
+    },
+    "destination": "grove",
+    "condition": "always",
+    "effect": "letter=kept",
+    "immediate": "You fold the note carefully and place it in the dry pocket of your pack.",
+    "responses": [],
+    "possibleFollowUps": [
+      "clearing/letter-print",
+      "lumi/kept-letter"
+    ],
+    "ending": null
+  },
+  {
+    "id": "brook.2",
+    "scene": "brook",
+    "label": "Send a reply: “We are coming. You are not alone.”",
+    "norwegian": {
+      "label": "Send et svar: «Vi kommer. Du er ikke alene.»",
+      "immediateText": "Du skriver svaret bak på brevet, legger det i flasken og setter flasken i postkurven. Vannhjulet trekker den oppover til den bare er en prikk mot fjellet.",
+      "responses": {
+        "owl-watches": "Hoothoot følger kabelen med blikket og tuter da kurven kommer forbi et skjevt trinsehjul."
+      }
+    },
+    "destination": "grove",
+    "condition": "always",
+    "effect": "reply=sent",
+    "immediate": "You write your answer on the back of the letter, tuck it into the bottle, and place it in the message basket. The waterwheel carries it uphill until it is a speck against the rocks.",
+    "responses": [
+      {
+        "id": "owl-watches",
+        "when": "companion=Hoothoot",
+        "text": "Hoothoot watches the cable carefully and hoots when the basket clears a crooked pulley."
+      }
+    ],
+    "possibleFollowUps": [
+      "lumi/reply-arrived"
+    ],
+    "ending": null
+  },
+  {
+    "id": "brook.3",
+    "scene": "brook",
+    "label": "Copy the paw print onto Mira’s map",
+    "norwegian": {
+      "label": "Tegn poteavtrykket på Miras kart",
+      "immediateText": "Du tegner det poteformede merket, også den lille skjeve streken, i kanten av kartet."
+    },
+    "destination": "grove",
+    "condition": "always",
+    "effect": "clue=pawprint",
+    "immediate": "You draw the paw-shaped mark, including its small uneven streak, on the map margin.",
+    "responses": [],
+    "possibleFollowUps": [
+      "listen/paw-clue",
+      "listen/pikachu-diagram"
+    ],
+    "ending": null
+  },
+  {
+    "id": "grove.1",
+    "scene": "grove",
+    "label": "Stop and free Pikachu",
+    "norwegian": {
+      "label": "Stopp og befri Pikachu",
+      "immediateText": "Du kneler for å se knuten uten å trekke i den fangede poten. «Vi er her», sier du til Pikachu."
+    },
+    "destination": "rescue",
+    "condition": "always",
+    "effect": "pikachu=freed",
+    "immediate": "You kneel so you can see the knot without pulling the trapped paw. “We’re here,” you tell Pikachu.",
+    "responses": [],
+    "possibleFollowUps": [
+      "clearing/rescue-help",
+      "observatory/guard-visits"
+    ],
+    "ending": null
+  },
+  {
+    "id": "grove.2",
+    "scene": "grove",
+    "label": "Study the mushroom trail first",
+    "norwegian": {
+      "label": "Undersøk soppstien først",
+      "immediateText": "Du henger et hjelpeflagg på lyktestolpen til Miras skogshjelpere og viser nøyaktig hvor Pikachu sitter fast. Så følger du soppene."
+    },
+    "destination": "mushrooms",
+    "condition": "always",
+    "effect": "pikachu=left;route=mushrooms",
+    "immediate": "You hang a help flag at the lantern marker for Mira’s forest helpers, showing exactly where Pikachu is trapped. Then you follow the mushrooms.",
+    "responses": [],
+    "possibleFollowUps": [
+      "clearing/rescue-help",
+      "observatory/guard-visits"
+    ],
+    "ending": null
+  },
+  {
+    "id": "grove.3",
+    "scene": "grove",
+    "label": "Ask the old tree whether there is a safe way through",
+    "norwegian": {
+      "label": "Spør det gamle treet om en trygg vei gjennom skogen",
+      "immediateText": "Du markerer lyktestolpen på kartet og henger et hjelpeflagg på stimerkingen til Miras skogshjelpere. Så følger du røttene bort til det gamle treet."
+    },
+    "destination": "roots",
+    "condition": "always",
+    "effect": "pikachu=left;route=oldtree",
+    "immediate": "You mark the lamp post on your map and hang a help flag at the trail marker for Mira’s forest helpers. Then you follow the roots toward the old tree.",
+    "responses": [],
+    "possibleFollowUps": [
+      "clearing/rescue-help",
+      "observatory/guard-visits"
+    ],
+    "ending": null
+  },
+  {
+    "id": "rescue.1",
+    "scene": "rescue",
+    "label": "Invite Pikachu to join the journey",
+    "norwegian": {
+      "label": "Inviter Pikachu med på reisen",
+      "immediateText": "Pikachu hopper ut på stien ved siden av deg og dytter borti ankelen din som for å si takk."
+    },
+    "destination": "mushrooms",
+    "condition": "always",
+    "effect": "companion+=Pikachu",
+    "immediate": "Pikachu leaps onto the path at your side, then bumps your ankle as if to say thank you.",
+    "responses": [],
+    "possibleFollowUps": [],
+    "ending": null
+  },
+  {
+    "id": "rescue.2",
+    "scene": "rescue",
+    "label": "Ask Pikachu to stay and keep the forest paths safe",
+    "norwegian": {
+      "label": "Be Pikachu bli igjen og holde skogstiene trygge",
+      "immediateText": "Pikachu hilser med en liten gnist og løper nedover skogstien. Dere avtaler å møtes ved observatoriet hvis den kan."
+    },
+    "destination": "roots",
+    "condition": "always",
+    "effect": "pikachu=guard",
+    "immediate": "Pikachu salutes with a small spark and races down the forest trail. You agree it will meet you near the observatory if it can.",
+    "responses": [],
+    "possibleFollowUps": [
+      "clearing/rescue-help",
+      "observatory/guard-visits"
+    ],
+    "ending": null
+  },
+  {
+    "id": "rescue.3",
+    "scene": "rescue",
+    "label": "Share food and ask what Pikachu saw",
+    "norwegian": {
+      "label": "Del mat og spør hva Pikachu så",
+      "immediateText": "Pikachu tegner tre lysende sirkler i jorden og peker mot tårnet. Du tegner av formen på kartet."
+    },
+    "destination": "roots",
+    "condition": "always",
+    "effect": "pikachu=informant;clue=flash",
+    "immediate": "Pikachu draws three bright circles in the soil and points toward the tower. You copy the shape onto your map.",
+    "responses": [],
+    "possibleFollowUps": [
+      "clearing/rescue-help",
+      "observatory/guard-visits",
+      "listen/paw-clue",
+      "listen/pikachu-diagram"
+    ],
+    "ending": null
+  },
+  {
+    "id": "mushrooms.1",
+    "scene": "mushrooms",
+    "label": "Open the cache with the constellation you solved",
+    "norwegian": {
+      "label": "Åpne gjemmestedet med stjernemønsteret du løste",
+      "immediateText": "Steinen glir til side. Du løfter fram en månerune, kjølig og glatt, med tårnets halvmåne risset inn på forsiden."
+    },
+    "destination": "roots",
+    "condition": "puzzle:mushrooms solved",
+    "effect": "rune=earned",
+    "immediate": "The stone slides aside. You lift out a moon-rune, cool and smooth, with the tower’s crescent carved into its face.",
+    "responses": [],
+    "possibleFollowUps": [],
+    "ending": null
+  },
+  {
+    "id": "mushrooms.2",
+    "scene": "mushrooms",
+    "label": "Follow the brightest mushrooms instead",
+    "norwegian": {
+      "label": "Følg de sterkest lysende soppene i stedet",
+      "immediateText": "De lysende hattene leder inn i et hult tre. Noen der inne fniser av det overraskede ansiktet ditt."
+    },
+    "destination": "hollow",
+    "condition": "always",
+    "effect": "detour=gastly",
+    "immediate": "The bright caps lead into a hollow tree. Someone inside giggles at your surprised expression.",
+    "responses": [],
+    "possibleFollowUps": [],
+    "ending": null
+  },
+  {
+    "id": "mushrooms.3",
+    "scene": "mushrooms",
+    "label": "Trace the pattern on Mira’s map and take the root path",
+    "norwegian": {
+      "label": "Tegn mønsteret på Miras kart og ta rotstien",
+      "immediateText": "Du tegner den skrå linjen uten å åpne runegjemmestedet. Tegningen kan likevel hjelpe deg å kjenne igjen tårnsymbolet."
+    },
+    "destination": "roots",
+    "condition": "always",
+    "effect": "clue=constellation",
+    "immediate": "You trace the diagonal without opening the rune cache. Your copy may still help you recognize the tower symbol.",
+    "responses": [],
+    "possibleFollowUps": [
+      "listen/paw-clue",
+      "listen/pikachu-diagram"
+    ],
+    "ending": null
+  },
+  {
+    "id": "mushrooms.4",
+    "scene": "mushrooms",
+    "label": "Follow the lantern trail into the clearing",
+    "norwegian": {
+      "label": "Følg lyktestien inn i lysningen",
+      "immediateText": "Du følger den lune lyktestien mot en ring av trær."
+    },
+    "destination": "clearing",
+    "condition": "always",
+    "effect": "route=lantern",
+    "immediate": "You follow the sheltered lantern track toward a circle of trees.",
+    "responses": [],
+    "possibleFollowUps": [],
+    "ending": null
+  },
+  {
+    "id": "hollow.1",
+    "scene": "hollow",
+    "label": "Tell Gastly something funny your partner did",
+    "norwegian": {
+      "label": "Fortell Gastly noe morsomt vennen din har gjort",
+      "immediateText": "Gastly ler så hardt at den snur seg opp ned to ganger. «Du må komme oftere. Bli med og se arkivet!»"
+    },
+    "destination": "echoArchive",
+    "condition": "always",
+    "effect": "gastly=friend",
+    "immediate": "Gastly laughs so hard it turns upside down twice. “You must visit more often. Come and see the archive!”",
+    "responses": [],
+    "possibleFollowUps": [],
+    "ending": null
+  },
+  {
+    "id": "hollow.2",
+    "scene": "hollow",
+    "label": "Ask Gastly to stop confusing frightened travelers",
+    "norwegian": {
+      "label": "Be Gastly slutte å forvirre redde reisende",
+      "immediateText": "Gastly synker litt sammen, men bytter så ut et falskt skilt med et ekte. «Bare hyggelige overraskelser fra nå av», lover den."
+    },
+    "destination": "roots",
+    "condition": "always",
+    "effect": "gastly=helpful",
+    "immediate": "Gastly droops for a moment, then replaces a false sign with a real one. “Only cheerful surprises from now on,” it promises.",
+    "responses": [],
+    "possibleFollowUps": [],
+    "ending": null
+  },
+  {
+    "id": "hollow.3",
+    "scene": "hollow",
+    "label": "Share why the missing stars matter",
+    "norwegian": {
+      "label": "Fortell hvorfor de savnede stjernene betyr noe",
+      "immediateText": "Gastly lytter uten å avbryte. «Dere bør se de ordentlige opptegnelsene», sier den til slutt."
+    },
+    "destination": "echoArchive",
+    "condition": "always",
+    "effect": "gastly=serious",
+    "immediate": "Gastly listens without interrupting. “You had better see the real records,” it says at last.",
+    "responses": [],
+    "possibleFollowUps": [],
+    "ending": null
+  },
+  {
+    "id": "echoArchive.1",
+    "scene": "echoArchive",
+    "label": "Copy the safe opening instructions",
+    "norwegian": {
+      "label": "Skriv av hvordan Glasset åpnes trygt",
+      "immediateText": "Du skriver: «Gjør klar en ny varmekilde, løsne sperren og åpne veien tilbake.»"
+    },
+    "destination": "clearing",
+    "condition": "always",
+    "effect": "knowledge=sphere",
+    "immediate": "You copy: “Establish a new source of warmth; release the catch; open the return path.”",
+    "responses": [],
+    "possibleFollowUps": [
+      "bridge/copied-route",
+      "tower/kept-map-clue",
+      "plan/knowledge",
+      "plan/demonstration"
+    ],
+    "ending": null
+  },
+  {
+    "id": "echoArchive.2",
+    "scene": "echoArchive",
+    "label": "Copy the secret service stair map",
+    "norwegian": {
+      "label": "Tegn av kartet over den skjulte servicetrappen",
+      "immediateText": "Du tegner trappen som går under observatoriet til den nedre tårndøren."
+    },
+    "destination": "clearing",
+    "condition": "always",
+    "effect": "knowledge=stair",
+    "immediate": "You draw the staircase running beneath the observatory to the tower’s lower door.",
+    "responses": [],
+    "possibleFollowUps": [
+      "bridge/copied-route",
+      "tower/kept-map-clue",
+      "plan/knowledge",
+      "plan/demonstration"
+    ],
+    "ending": null
+  },
+  {
+    "id": "echoArchive.3",
+    "scene": "echoArchive",
+    "label": "Copy the ring diagram and its costs",
+    "norwegian": {
+      "label": "Tegn av ringene og det hver av dem krever",
+      "immediateText": "Du tegner tre sirkler: HIMMEL trenger trygg transport og varme, HJERTE trenger frivillige lyktevakter, og JORD trenger en varm plante og gartnere."
+    },
+    "destination": "clearing",
+    "condition": "always",
+    "effect": "knowledge=rings",
+    "immediate": "You copy three circles: SKY needs safe transport and warmth, HEART needs willing lantern keepers, EARTH needs a warm plant and gardeners.",
+    "responses": [],
+    "possibleFollowUps": [
+      "bridge/copied-route",
+      "tower/kept-map-clue",
+      "plan/knowledge",
+      "plan/demonstration"
+    ],
+    "ending": null
+  },
+  {
+    "id": "roots.1",
+    "scene": "roots",
+    "label": "Answer, “A light passed from one friend to another”",
+    "norwegian": {
+      "label": "Svar: «Et lys som går fra venn til venn»",
+      "immediateText": "«Ja», mumler treet. «Én flamme kan tenne en annen.» Røttene løfter seg og åpner en dør inn til lysningen."
+    },
+    "destination": "clearing",
+    "condition": "always",
+    "effect": "tree=light",
+    "immediate": "“Yes,” murmurs the tree. “One flame can light another.” Its roots lift, opening a doorway into the clearing.",
+    "responses": [],
+    "possibleFollowUps": [],
+    "ending": null
+  },
+  {
+    "id": "roots.2",
+    "scene": "roots",
+    "label": "Answer, “A good idea”",
+    "norwegian": {
+      "label": "Svar: «En god idé»",
+      "immediateText": "Treet humrer. «Særlig når noen stiller et enda bedre spørsmål!» Røttene løfter seg og slipper deg forbi."
+    },
+    "destination": "clearing",
+    "condition": "always",
+    "effect": "tree=idea",
+    "immediate": "The tree chuckles. “Especially when someone asks a better question!” Its roots lift to let you pass.",
+    "responses": [],
+    "possibleFollowUps": [],
+    "ending": null
+  },
+  {
+    "id": "roots.3",
+    "scene": "roots",
+    "label": "Let Bulbasaur communicate with the roots",
+    "norwegian": {
+      "label": "La Bulbasaur snakke med røttene",
+      "immediateText": "Bulbasaur legger en slyngtråd mot barken. Røttene åpner seg, og treet ønsker dere varmt velkommen uten ord."
+    },
+    "destination": "clearing",
+    "condition": "starter=Bulbasaur",
+    "effect": "tree=friend",
+    "immediate": "Bulbasaur rests a vine on the bark. The roots part and the tree offers a warm, wordless welcome.",
+    "responses": [],
+    "possibleFollowUps": [],
+    "ending": null
+  },
+  {
+    "id": "roots.4",
+    "scene": "roots",
+    "label": "Ask the tree for a plain seed as a thank-you gift",
+    "norwegian": {
+      "label": "Be treet om et vanlig frø i gave",
+      "immediateText": "Et vingefrø snurrer ned i håndflaten din. «Plant det på et godt sted», sier lønnen og løfter røttene så du ser lysningen."
+    },
+    "destination": "clearing",
+    "condition": "always",
+    "effect": "ordinarySeed=owned",
+    "immediate": "A winged seed spins into your palm. “Plant it somewhere kind,” says the maple, raising its roots to show the clearing.",
+    "responses": [],
+    "possibleFollowUps": [
+      "earth/plain-seed"
+    ],
+    "ending": null
+  },
+  {
+    "id": "clearing.1",
+    "scene": "clearing",
+    "label": "Take the rope for difficult crossings",
+    "norwegian": {
+      "label": "Ta tauet til vanskelige kryssinger",
+      "immediateText": "Du ruller sammen tauet og fester det til sekken, klart til en glatt elvekryssing."
+    },
+    "destination": "bank",
+    "condition": "always",
+    "effect": "item+=rope",
+    "immediate": "You roll the rope and clip it to your pack, ready for a slippery crossing.",
+    "responses": [],
+    "possibleFollowUps": [],
+    "ending": null
+  },
+  {
+    "id": "clearing.2",
+    "scene": "clearing",
+    "label": "Use the moon-rune to copy the tower’s hidden door mark",
+    "norwegian": {
+      "label": "Bruk månerunen til å kopiere merket for den skjulte tårndøren",
+      "immediateText": "Runen passer. Et lysende symbol viser seg i linsen, og du tegner av merket for den nedre døren."
+    },
+    "destination": "bank",
+    "condition": "rune=earned",
+    "effect": "knowledge=door",
+    "immediate": "The rune fits. A bright symbol appears on the lens; you record the lower-door mark.",
+    "responses": [],
+    "possibleFollowUps": [
+      "bridge/copied-route",
+      "tower/kept-map-clue",
+      "plan/knowledge",
+      "plan/demonstration"
+    ],
+    "ending": null
+  },
+  {
+    "id": "clearing.3",
+    "scene": "clearing",
+    "label": "Plant the ordinary seed near the pedestal",
+    "norwegian": {
+      "label": "Plant det vanlige frøet ved sokkelen",
+      "immediateText": "Du presser det lille brune frøet ned i fuktig jord og vanner det fra drikkeflasken."
+    },
+    "destination": "bank",
+    "condition": "ordinarySeed=owned",
+    "effect": "ordinarySeed=planted",
+    "immediate": "You press the little brown seed into damp soil and water it with your drinking flask.",
+    "responses": [],
+    "possibleFollowUps": [
+      "earth/plain-seed"
+    ],
+    "ending": null
+  },
+  {
+    "id": "clearing.4",
+    "scene": "clearing",
+    "label": "Leave a lantern flame for the forest",
+    "norwegian": {
+      "label": "La en lykt brenne for skogen",
+      "immediateText": "Du tenner en skjermet veke ved sokkelen. Den vil hjelpe andre reisende å finne lysningen."
+    },
+    "destination": "bank",
+    "condition": "always",
+    "effect": "forest=lantern",
+    "immediate": "You light a sheltered wick by the pedestal. It will help other travelers find the clearing.",
+    "responses": [],
+    "possibleFollowUps": [],
+    "ending": null
+  },
+  {
+    "id": "bank.1",
+    "scene": "bank",
+    "label": "Free Lapras from the shallow pool",
+    "norwegian": {
+      "label": "Hjelp Lapras ut av den grunne dammen",
+      "immediateText": "Sammen åpner dere den sperrede kanalen. Lapras glir ut på dypere vann og synger lettet."
+    },
+    "destination": "lapras",
+    "condition": "always",
+    "effect": "lapras=helped",
+    "immediate": "Together you open the blocked channel. Lapras glides into deeper water and sings in relief.",
+    "responses": [],
+    "possibleFollowUps": [],
+    "ending": null
+  },
+  {
+    "id": "bank.2",
+    "scene": "bank",
+    "label": "Repair the ferry to reach the island",
+    "norwegian": {
+      "label": "Reparer fergen for å nå øya",
+      "immediateText": "Du bærer solide bord bort til kaien, der Psyduck sjekker fergedekket."
+    },
+    "destination": "ferry",
+    "condition": "always",
+    "effect": "route=ferry",
+    "immediate": "You bring sound boards to the landing, where Psyduck is checking the ferry deck.",
+    "responses": [],
+    "possibleFollowUps": [],
+    "ending": null
+  },
+  {
+    "id": "bank.3",
+    "scene": "bank",
+    "label": "Follow the waterfall trail",
+    "norwegian": {
+      "label": "Følg stien til fossen",
+      "immediateText": "Dere følger en trygg hylle langs elven mot lyden av klokkene."
+    },
+    "destination": "falls",
+    "condition": "always",
+    "effect": "route=falls",
+    "immediate": "You follow a safe riverside ledge toward the noise of the bells.",
+    "responses": [],
+    "possibleFollowUps": [],
+    "ending": null
+  },
+  {
+    "id": "bank.4",
+    "scene": "bank",
+    "label": "Search for the cave entrance marked on Mira’s map",
+    "norwegian": {
+      "label": "Let etter huleinngangen på Miras kart",
+      "immediateText": "Tårnsymbolene i notatene dine passer med et merke over bekken. Du følger det og finner en tørr sidesti inn til hulen."
+    },
+    "destination": "cave",
+    "condition": "knowledge=stair OR knowledge=sphere OR knowledge=door",
+    "effect": "route=cave",
+    "immediate": "The tower symbols in your notes match a mark above the stream. Following it, you find a dry side path into the cave.",
+    "responses": [],
+    "possibleFollowUps": [],
+    "ending": null
+  },
+  {
+    "id": "lapras.1",
+    "scene": "lapras",
+    "label": "Ask Lapras to carry you to the island",
+    "norwegian": {
+      "label": "Be Lapras ta dere til øya",
+      "immediateText": "Lapras senker halsen så dere kan klatre opp, og frakter dere til øyas rullesteinstrand."
+    },
+    "destination": "island",
+    "condition": "always",
+    "effect": "lapras=ferry",
+    "immediate": "Lapras lowers its neck so you can climb aboard, then carries you to the island’s pebble shore.",
+    "responses": [],
+    "possibleFollowUps": [],
+    "ending": null
+  },
+  {
+    "id": "lapras.2",
+    "scene": "lapras",
+    "label": "Ask Lapras to guide other lost travelers",
+    "norwegian": {
+      "label": "Be Lapras vise vei for andre bortkomne reisende",
+      "immediateText": "Lapras vil gjerne bli ved elven. Sangen følger dere mens dere går mot fergen."
+    },
+    "destination": "ferry",
+    "condition": "always",
+    "effect": "lapras=guard",
+    "immediate": "Lapras agrees to remain at the river. Its song follows you as you walk toward the ferry.",
+    "responses": [],
+    "possibleFollowUps": [],
+    "ending": null
+  },
+  {
+    "id": "lapras.3",
+    "scene": "lapras",
+    "label": "Promise to help both travelers as well as bring back the light",
+    "norwegian": {
+      "label": "Lov å hjelpe begge vennene og hente lyset tilbake",
+      "immediateText": "Lapras svarer med en rolig sang. «Begge», gjentar du mens den bærer dere over."
+    },
+    "destination": "island",
+    "condition": "always",
+    "effect": "promise=both;lapras=ferry",
+    "immediate": "Lapras answers with a steady song. “Both,” you repeat as it brings you across.",
+    "responses": [],
+    "possibleFollowUps": [
+      "lumi/promise-listen",
+      "plan/lapras-promise"
+    ],
+    "ending": null
+  },
+  {
+    "id": "ferry.1",
+    "scene": "ferry",
+    "label": "Cross together slowly, giving Psyduck time",
+    "norwegian": {
+      "label": "Kryss langsomt sammen og gi Psyduck god tid",
+      "immediateText": "Psyduck setter en fot på dekket, skjelver og gjennomfører så turen sammen med dere. Den bestemmer seg for å hjelpe til ved landingsstedet."
+    },
+    "destination": "island",
+    "condition": "always",
+    "effect": "psyduck=helped;route=ferry",
+    "immediate": "Psyduck places a foot on the deck, shivers, then completes the crossing with you. It decides to help manage the landing.",
+    "responses": [],
+    "possibleFollowUps": [],
+    "ending": null
+  },
+  {
+    "id": "ferry.2",
+    "scene": "ferry",
+    "label": "Visit the reed workshop for safer equipment",
+    "norwegian": {
+      "label": "Besøk sivverkstedet for å finne tryggere utstyr",
+      "immediateText": "Psyduck vinker deg inn gjennom den åpne verksteddøren og løfter en lykt ned fra hyllen."
+    },
+    "destination": "reedWorkshop",
+    "condition": "always",
+    "effect": "route=workshop",
+    "immediate": "Psyduck beckons you through the open workshop door and lifts a lantern from its shelf.",
+    "responses": [],
+    "possibleFollowUps": [],
+    "ending": null
+  },
+  {
+    "id": "ferry.3",
+    "scene": "ferry",
+    "label": "Ask Psyduck to remain ferry keeper",
+    "norwegian": {
+      "label": "Be Psyduck bli igjen som fergevokter",
+      "immediateText": "Psyduck viser hvordan du trekker fergen langs ledertauet, og blir på kaien for å hjelpe de neste reisende. Du krysser langsomt og går i land på øya."
+    },
+    "destination": "island",
+    "condition": "always",
+    "effect": "psyduck=ferrykeeper",
+    "immediate": "Psyduck shows you how to pull the ferry along its guide rope, then stays at the landing to help the next travelers. You cross slowly and step onto the island.",
+    "responses": [],
+    "possibleFollowUps": [],
+    "ending": null
+  },
+  {
+    "id": "reedWorkshop.1",
+    "scene": "reedWorkshop",
+    "label": "Build lanterns that can guide travelers after dark",
+    "norwegian": {
+      "label": "Bygg lykter som viser vei etter mørkets frembrudd",
+      "immediateText": "Sammen legger dere ut en rekke flytende lykter og merker dem på elvekartet.",
+      "responses": {
+        "crossing": "Psyduck sjekker fergetauet en gang til og viser deg trygt over til øya."
+      }
+    },
+    "destination": "island",
+    "condition": "always",
+    "effect": "river=lanterns",
+    "immediate": "Together you set out a chain of floating lanterns and mark their positions on the river map.",
+    "responses": [
+      {
+        "id": "crossing",
+        "when": "always",
+        "text": "Psyduck checks the ferry rope once more and guides you across to the island."
+      }
+    ],
+    "possibleFollowUps": [
+      "earth/river-garden"
+    ],
+    "ending": null
+  },
+  {
+    "id": "reedWorkshop.2",
+    "scene": "reedWorkshop",
+    "label": "Learn Psyduck’s slow breathing-and-bell rhythm",
+    "norwegian": {
+      "label": "Lær Psyducks rolige puste- og klokkerytme",
+      "immediateText": "Psyduck lærer dere mønsteret dyp–lys–dyp, med en pustepause etter hver runde.",
+      "responses": {
+        "crossing": "Psyduck sjekker fergetauet en gang til og viser deg trygt over til øya."
+      }
+    },
+    "destination": "island",
+    "condition": "always",
+    "effect": "rhythm=known",
+    "immediate": "Psyduck teaches you a steady low–high–low pattern with a pause to breathe after each set.",
+    "responses": [
+      {
+        "id": "crossing",
+        "when": "always",
+        "text": "Psyduck checks the ferry rope once more and guides you across to the island."
+      }
+    ],
+    "possibleFollowUps": [],
+    "ending": null
+  },
+  {
+    "id": "reedWorkshop.3",
+    "scene": "reedWorkshop",
+    "label": "Copy the drainage tunnel route to the mountain",
+    "norwegian": {
+      "label": "Tegn av vanntunnelen opp mot fjellet",
+      "immediateText": "Du tegner tunnelåpningen under broen og servicetrappen i den andre enden.",
+      "responses": {
+        "crossing": "Psyduck sjekker fergetauet en gang til og viser deg trygt over til øya."
+      }
+    },
+    "destination": "island",
+    "condition": "always",
+    "effect": "knowledge=drain",
+    "immediate": "You draw the tunnel opening beneath the bridge and the service steps at its far end.",
+    "responses": [
+      {
+        "id": "crossing",
+        "when": "always",
+        "text": "Psyduck checks the ferry rope once more and guides you across to the island."
+      }
+    ],
+    "possibleFollowUps": [
+      "bridge/copied-route",
+      "tower/kept-map-clue",
+      "plan/knowledge",
+      "plan/demonstration"
+    ],
+    "ending": null
+  },
+  {
+    "id": "reedWorkshop.4",
+    "scene": "reedWorkshop",
+    "label": "Build lantern markers and invite Psyduck along",
+    "norwegian": {
+      "label": "Lag lyktestaker på vannet og inviter Psyduck med",
+      "immediateText": "Dere gjør ferdig de flytende merkelyktene sammen. Psyduck henger opp et skilt til neste fergevakt, pakker en liten lykt og bestemmer seg for å bli med.",
+      "responses": {
+        "crossing": "Psyduck sjekker fergetauet en gang til og viser deg trygt over til øya."
+      }
+    },
+    "destination": "island",
+    "condition": "always",
+    "effect": "river=lanterns;companion+=Psyduck",
+    "immediate": "You finish the floating markers together. Psyduck hangs up a sign for the next ferry keeper, packs a little lantern, and chooses to come with you.",
+    "responses": [
+      {
+        "id": "crossing",
+        "when": "always",
+        "text": "Psyduck checks the ferry rope once more and guides you across to the island."
+      }
+    ],
+    "possibleFollowUps": [
+      "earth/river-garden"
+    ],
+    "ending": null
+  },
+  {
+    "id": "falls.1",
+    "scene": "falls",
+    "label": "Open the door with the melody you discovered",
+    "norwegian": {
+      "label": "Åpne døren med melodien du fant",
+      "immediateText": "Klokkene klinger sammen. Vannet glir til side og viser tørre trinn inn til hulen."
+    },
+    "destination": "cave",
+    "condition": "puzzle:falls solved",
+    "effect": "puzzle:falls=solved",
+    "immediate": "The bells ring together. Water slides aside, revealing dry steps into the cave.",
+    "responses": [],
+    "possibleFollowUps": [],
+    "ending": null
+  },
+  {
+    "id": "falls.2",
+    "scene": "falls",
+    "label": "Take the safe path around the falls",
+    "norwegian": {
+      "label": "Ta den trygge stien rundt fossen",
+      "immediateText": "Dere lar klokkene være og følger den merkede stien langs bredden til øya."
+    },
+    "destination": "island",
+    "condition": "always",
+    "effect": "route=falls_path",
+    "immediate": "You leave the bells untouched and take the marked path along the bank to the island.",
+    "responses": [],
+    "possibleFollowUps": [],
+    "ending": null
+  },
+  {
+    "id": "falls.3",
+    "scene": "falls",
+    "label": "Trace the waterfall’s rhythm for use later",
+    "norwegian": {
+      "label": "Husk fossens rytme til senere",
+      "immediateText": "Du lytter til ekkoet blir tydelig, og trommer dyp, lys, dyp på sekken. Du holder takten mens du følger gangstien ut på øya."
+    },
+    "destination": "island",
+    "condition": "always",
+    "effect": "rhythm=known",
+    "immediate": "You listen until the echo becomes clear, then tap low, high, low on your pack. Keeping the beat, you follow the footpath onto the island.",
+    "responses": [],
+    "possibleFollowUps": [],
+    "ending": null
+  },
+  {
+    "id": "cave.1",
+    "scene": "cave",
+    "label": "Copy the rule for returning light before touching the rings",
+    "norwegian": {
+      "label": "Skriv av regelen for å gi lyset tilbake før dere rører ringene",
+      "immediateText": "Du skriver advarselen ved siden av ringtegningen på Miras kart."
+    },
+    "destination": "island",
+    "condition": "always",
+    "effect": "knowledge=rings",
+    "immediate": "You write the old warning beside the ring diagram on Mira’s map.",
+    "responses": [],
+    "possibleFollowUps": [
+      "bridge/copied-route",
+      "tower/kept-map-clue",
+      "plan/knowledge",
+      "plan/demonstration"
+    ],
+    "ending": null
+  },
+  {
+    "id": "cave.2",
+    "scene": "cave",
+    "label": "Sketch the three safe ways up the mountain",
+    "norwegian": {
+      "label": "Tegn de tre trygge veiene opp fjellet",
+      "immediateText": "Du tegner broen, omveien via lyet og den gamle servicetrappen som tre ulike linjer."
+    },
+    "destination": "island",
+    "condition": "always",
+    "effect": "knowledge=route",
+    "immediate": "You draw the bridge, shelter detour and old service steps in separate lines.",
+    "responses": [],
+    "possibleFollowUps": [
+      "bridge/copied-route",
+      "tower/kept-map-clue",
+      "plan/knowledge",
+      "plan/demonstration"
+    ],
+    "ending": null
+  },
+  {
+    "id": "cave.3",
+    "scene": "cave",
+    "label": "Look through the lens at the wall’s worn marks",
+    "norwegian": {
+      "label": "Se på de slitte veggmerkene gjennom linsen",
+      "immediateText": "Gjennom linsen blir de bleke strekene tydelige: Alle ringene fører til samme utløser. Du kopierer tegningen og følger den innerste gangen ut på øya."
+    },
+    "destination": "island",
+    "condition": "always",
+    "effect": "knowledge=lens",
+    "immediate": "Through the lens, faded lines become clear: each ring leads to the same release latch. You copy the drawing and follow the cave’s far passage to the island.",
+    "responses": [],
+    "possibleFollowUps": [
+      "bridge/copied-route",
+      "tower/kept-map-clue",
+      "plan/knowledge",
+      "plan/demonstration"
+    ],
+    "ending": null
+  },
+  {
+    "id": "island.1",
+    "scene": "island",
+    "label": "Say aloud what the memory tells you",
+    "norwegian": {
+      "label": "Si høyt hva minnet forteller",
+      "immediateText": "«Lumi prøvde å hjelpe Shinx», sier du. «Men noe mer må ha skjedd i tårnet.»"
+    },
+    "destination": "bridge",
+    "condition": "always",
+    "effect": "inference=lumi_helped",
+    "immediate": "“Lumi was trying to help Shinx,” you say. “But something else must have happened at the tower.”",
+    "responses": [],
+    "possibleFollowUps": [],
+    "ending": null
+  },
+  {
+    "id": "island.2",
+    "scene": "island",
+    "label": "Promise to hear Lumi’s story before judging her",
+    "norwegian": {
+      "label": "Lov å høre Lumis historie før du dømmer henne",
+      "immediateText": "Start-Pokémonen din hører løftet og nikker alvorlig."
+    },
+    "destination": "bridge",
+    "condition": "always",
+    "effect": "promise=listen",
+    "immediate": "Your partner hears your promise and gives a small, serious nod.",
+    "responses": [],
+    "possibleFollowUps": [
+      "lumi/promise-listen"
+    ],
+    "ending": null
+  },
+  {
+    "id": "island.3",
+    "scene": "island",
+    "label": "Use the lens to check whether Shinx could walk",
+    "norwegian": {
+      "label": "Bruk linsen til å se om Shinx kunne gå",
+      "immediateText": "Du ser en gang til. Shinx klarte noen skritt med Lumis hjelp da minnet ble til. Du noterer sporet på kartet og følger fjellstien."
+    },
+    "destination": "bridge",
+    "condition": "always",
+    "effect": "knowledge=shinx_walking",
+    "immediate": "You look again. Shinx took a few steps with Lumi’s help at the time of the memory. You mark that clue on your map and follow the mountain path.",
+    "responses": [],
+    "possibleFollowUps": [
+      "bridge/copied-route",
+      "tower/kept-map-clue",
+      "plan/knowledge",
+      "plan/demonstration"
+    ],
+    "ending": null
+  },
+  {
+    "id": "island.4",
+    "scene": "island",
+    "label": "Keep the memory private until you can ask them",
+    "norwegian": {
+      "label": "Hold minnet privat til dere kan spørre dem",
+      "immediateText": "Du bretter kartet sammen. De bør få fortelle sin egen historie først."
+    },
+    "destination": "bridge",
+    "condition": "always",
+    "effect": "privacy=yes",
+    "immediate": "You fold your map shut. Their story should be theirs to tell first.",
+    "responses": [],
+    "possibleFollowUps": [
+      "lumi/privacy"
+    ],
+    "ending": null
+  },
+  {
+    "id": "bridge.1",
+    "scene": "bridge",
+    "label": "Steady the rope bridge and cross together",
+    "norwegian": {
+      "label": "Hold hengebroen stødig og kryss sammen",
+      "immediateText": "Dere venter til vinden løyer og krysser én om gangen mens dere holder i rekkverket."
+    },
+    "destination": "stairs",
+    "condition": "always",
+    "effect": "bridge=steady",
+    "immediate": "You wait for the wind to ease and cross one at a time, holding the rail.",
+    "responses": [],
+    "possibleFollowUps": [],
+    "ending": null
+  },
+  {
+    "id": "bridge.2",
+    "scene": "bridge",
+    "label": "Take the long path toward Altaria’s lookout",
+    "norwegian": {
+      "label": "Ta den lange stien til Altarias utkikkspunkt",
+      "immediateText": "Dere går oppover langs steinene som skjermer mot vinden, mot utkikkspunktet."
+    },
+    "destination": "windwatch",
+    "condition": "always",
+    "effect": "bridge=detour",
+    "immediate": "You turn uphill and follow the windbreak stones toward the lookout.",
+    "responses": [],
+    "possibleFollowUps": [],
+    "ending": null
+  },
+  {
+    "id": "bridge.3",
+    "scene": "bridge",
+    "label": "Use Bulbasaur’s vines to anchor the bridge",
+    "norwegian": {
+      "label": "La Bulbasaur støtte broen med slyngtrådene",
+      "immediateText": "Bulbasaur legger slyngtrådene rundt de solide stolpene på deres side og støtter rekkverket. Dere går over én om gangen. Så slipper Bulbasaur taket og følger etter."
+    },
+    "destination": "stairs",
+    "condition": "starter=Bulbasaur",
+    "effect": "bridge=vines",
+    "immediate": "Bulbasaur loops its vines around the sturdy posts on your side and braces the handrail. You cross one at a time, then Bulbasaur releases the vines and follows.",
+    "responses": [],
+    "possibleFollowUps": [],
+    "ending": null
+  },
+  {
+    "id": "bridge.4",
+    "scene": "bridge",
+    "label": "Use the old drainage route beneath the bridge",
+    "norwegian": {
+      "label": "Bruk den gamle vanntunnelen under broen",
+      "immediateText": "Dere følger den merkede tunnelen under broen og kommer ut ved de gamle trinnene."
+    },
+    "destination": "stairs",
+    "condition": "knowledge=drain",
+    "effect": "bridge=drain",
+    "immediate": "You follow the marked tunnel beneath the exposed span and emerge by the old steps.",
+    "responses": [],
+    "possibleFollowUps": [],
+    "ending": null
+  },
+  {
+    "id": "windwatch.1",
+    "scene": "windwatch",
+    "label": "Help Altaria gather the little flock",
+    "norwegian": {
+      "label": "Hjelp Altaria med å samle hele flokken",
+      "immediateText": "Du viser den siste ungen rundt steinlykten. Altaria teller alle hodene og leder flokken inn på den lune soveplassen. Når ungene er trygge, bærer hun dere til taket på observatoriet."
+    },
+    "destination": "roof",
+    "condition": "always",
+    "effect": "altaria=flock;arrival=air",
+    "immediate": "You guide the last chick around the stone lantern. Altaria counts every head and leads the flock into its sheltered roost. With the chicks safe, she carries you to the observatory roof.",
+    "responses": [],
+    "possibleFollowUps": [
+      "cave/arrival-falls",
+      "cave/arrival-bank",
+      "shelter/found-chick",
+      "tower/service-arrival",
+      "tower/bell-arrival"
+    ],
+    "ending": null
+  },
+  {
+    "id": "windwatch.2",
+    "scene": "windwatch",
+    "label": "Show Altaria where the missing chick is hiding",
+    "norwegian": {
+      "label": "Vis Altaria hvor den savnede ungen gjemmer seg",
+      "immediateText": "Altaria samler ungen under en vinge og viser dere veien til lyet sitt."
+    },
+    "destination": "shelter",
+    "condition": "always",
+    "effect": "altaria=found",
+    "immediate": "Altaria gathers the chick beneath a wing and guides you toward her shelter.",
+    "responses": [],
+    "possibleFollowUps": [
+      "shelter/found-chick"
+    ],
+    "ending": null
+  },
+  {
+    "id": "windwatch.3",
+    "scene": "windwatch",
+    "label": "Take the marked walking trail",
+    "norwegian": {
+      "label": "Følg den merkede gangstien",
+      "immediateText": "Du følger den merkede stien. Bak deg nyser den skjulte ungen voldsomt. Altaria hører det, henter sistemann og leder flokken mot lyet."
+    },
+    "destination": "shelter",
+    "condition": "always",
+    "effect": "arrival=walk",
+    "immediate": "You take the marked path. Behind you, the hidden chick gives an enormous sneeze. Altaria hears it, gathers the last straggler, and brings the flock toward the shelter.",
+    "responses": [],
+    "possibleFollowUps": [
+      "cave/arrival-falls",
+      "cave/arrival-bank",
+      "tower/service-arrival",
+      "tower/bell-arrival"
+    ],
+    "ending": null
+  },
+  {
+    "id": "shelter.1",
+    "scene": "shelter",
+    "label": "Repair the bowl and ask for a feather",
+    "norwegian": {
+      "label": "Reparer skålen og spør om å få en fjær",
+      "immediateText": "Du binder skålen sammen med snor. Altaria legger en varm fjær i hendene dine."
+    },
+    "destination": "observatory",
+    "condition": "always",
+    "effect": "item+=feather;altaria=bowl",
+    "immediate": "You mend the bowl with cord. Altaria places one warm feather in your hands.",
+    "responses": [],
+    "possibleFollowUps": [
+      "shelter/found-chick"
+    ],
+    "ending": null
+  },
+  {
+    "id": "shelter.2",
+    "scene": "shelter",
+    "label": "Share food and request a warm feather",
+    "norwegian": {
+      "label": "Del mat og spør om en varm fjær",
+      "immediateText": "Altaria takker for maten og gir deg en myk fjær til en kald natt."
+    },
+    "destination": "observatory",
+    "condition": "always",
+    "effect": "item+=feather",
+    "immediate": "Altaria accepts the shared meal and gives you a soft feather for a cold night.",
+    "responses": [],
+    "possibleFollowUps": [],
+    "ending": null
+  },
+  {
+    "id": "shelter.3",
+    "scene": "shelter",
+    "label": "Continue to the observatory without taking anything",
+    "norwegian": {
+      "label": "Gå til observatoriet uten å ta med noe",
+      "immediateText": "Dere takker Altaria og følger den tydelige stien opp til observatoriet."
+    },
+    "destination": "observatory",
+    "condition": "always",
+    "effect": "arrival=shelter",
+    "immediate": "You thank Altaria and follow the clear path up to the observatory.",
+    "responses": [],
+    "possibleFollowUps": [
+      "cave/arrival-falls",
+      "cave/arrival-bank",
+      "tower/service-arrival",
+      "tower/bell-arrival"
+    ],
+    "ending": null
+  },
+  {
+    "id": "shelter.4",
+    "scene": "shelter",
+    "label": "Take the marked service steps toward the tower",
+    "norwegian": {
+      "label": "Ta den merkede servicetrappen mot tårnet",
+      "immediateText": "Dere følger den svingete servicetrappen til den nedre veien inn mot tårnet."
+    },
+    "destination": "stairs",
+    "condition": "always",
+    "effect": "arrival=service",
+    "immediate": "You follow the winding service steps to the lower tower approach.",
+    "responses": [],
+    "possibleFollowUps": [
+      "cave/arrival-falls",
+      "cave/arrival-bank",
+      "tower/service-arrival",
+      "tower/bell-arrival"
+    ],
+    "ending": null
+  },
+  {
+    "id": "stairs.1",
+    "scene": "stairs",
+    "label": "Keep Shinx’s scarf safe and follow the outer steps",
+    "norwegian": {
+      "label": "Ta vare på Shinx sitt skjerf og følg yttertrappen",
+      "immediateText": "Du sjekker at skjerfet ligger trygt i sekken, og går opp mot observatoriet."
+    },
+    "destination": "observatory",
+    "condition": "always",
+    "effect": "item+=shinxScarf;arrival=stairs",
+    "immediate": "You check that the scarf is secure in your pack and climb toward the observatory.",
+    "responses": [],
+    "possibleFollowUps": [
+      "cave/arrival-falls",
+      "cave/arrival-bank",
+      "tower/service-arrival",
+      "tower/bell-arrival"
+    ],
+    "ending": null
+  },
+  {
+    "id": "stairs.2",
+    "scene": "stairs",
+    "label": "Use the marked service passage to reach the tower door",
+    "norwegian": {
+      "label": "Bruk den merkede servicegangen til tårndøren",
+      "immediateText": "Sporene du skrev av, leder dere under plattformen og opp tjenestegangen til tårndøren."
+    },
+    "destination": "tower",
+    "condition": "knowledge=stair OR knowledge=door OR bridge=drain",
+    "effect": "item+=shinxScarf;arrival=service",
+    "immediate": "Your copied clues lead you beneath the platform and up the service passage to the tower door.",
+    "responses": [],
+    "possibleFollowUps": [
+      "cave/arrival-falls",
+      "cave/arrival-bank",
+      "tower/service-arrival",
+      "tower/bell-arrival"
+    ],
+    "ending": null
+  },
+  {
+    "id": "stairs.3",
+    "scene": "stairs",
+    "label": "Take the outside route up to the observatory roof",
+    "norwegian": {
+      "label": "Ta utendørsveien til observatoriets tak",
+      "immediateText": "Du pakker skjerfet trygt bort, og dere går opp den skjermede utetrappen."
+    },
+    "destination": "roof",
+    "condition": "always",
+    "effect": "item+=shinxScarf;arrival=outside",
+    "immediate": "You tuck the scarf safely away and climb the protected outside steps.",
+    "responses": [],
+    "possibleFollowUps": [
+      "cave/arrival-falls",
+      "cave/arrival-bank",
+      "tower/service-arrival",
+      "tower/bell-arrival"
+    ],
+    "ending": null
+  },
+  {
+    "id": "observatory.1",
+    "scene": "observatory",
+    "label": "Solve the observatory mechanism with your partner",
+    "norwegian": {
+      "label": "Løs observatoriets mekanisme sammen med vennen din",
+      "immediateText": "Mekanismen klikker på plass. Vennen din tester låsen to ganger og ser svært fornøyd ut. Plattformen åpner veien til taket."
+    },
+    "destination": "roof",
+    "condition": "puzzle:observatory solved",
+    "effect": "puzzle:observatory=solved",
+    "immediate": "The mechanism clicks into place. Your partner tests the latch twice, looking very pleased, and the platform opens toward the roof.",
+    "responses": [],
+    "possibleFollowUps": [],
+    "ending": null
+  },
+  {
+    "id": "observatory.2",
+    "scene": "observatory",
+    "label": "Use the hand crank and work together",
+    "norwegian": {
+      "label": "Bruk håndsveiven og samarbeid",
+      "immediateText": "Dere bytter på å dra i den trege sveiven. Til slutt løfter låsen seg, og litt rim drysser fra taket."
+    },
+    "destination": "roof",
+    "condition": "always",
+    "effect": "observatory=crank",
+    "immediate": "You take turns at the stiff crank. At last the latch lifts, and a little shower of frost falls from the roof.",
+    "responses": [],
+    "possibleFollowUps": [],
+    "ending": null
+  },
+  {
+    "id": "observatory.3",
+    "scene": "observatory",
+    "label": "Climb the safe outside staircase",
+    "norwegian": {
+      "label": "Gå opp den trygge utetrappen",
+      "immediateText": "Trappen fører til en manuell utløser. Du løfter den og åpner taket."
+    },
+    "destination": "roof",
+    "condition": "always",
+    "effect": "observatory=outside",
+    "immediate": "The staircase leads to a manual release. You lift it and open the roof.",
+    "responses": [],
+    "possibleFollowUps": [],
+    "ending": null
+  },
+  {
+    "id": "roof.1",
+    "scene": "roof",
+    "label": "Cross the covered walkway to the door",
+    "norwegian": {
+      "label": "Kryss den overbygde gangbroen til døren",
+      "immediateText": "Gangbroen skjermer dere mot vinden på veien til tårnet."
+    },
+    "destination": "tower",
+    "condition": "always",
+    "effect": "arrival=walkway",
+    "immediate": "The covered walkway shelters you from the wind as you cross to the tower.",
+    "responses": [],
+    "possibleFollowUps": [
+      "cave/arrival-falls",
+      "cave/arrival-bank",
+      "tower/service-arrival",
+      "tower/bell-arrival"
+    ],
+    "ending": null
+  },
+  {
+    "id": "roof.2",
+    "scene": "roof",
+    "label": "Cross the stepping-stones carefully",
+    "norwegian": {
+      "label": "Kryss forsiktig på tråkkesteinene",
+      "immediateText": "Du prøver hver lysende stein før du legger vekten på den, og når døren trygt."
+    },
+    "destination": "tower",
+    "condition": "always",
+    "effect": "arrival=stones",
+    "immediate": "You test each glowing stone before placing your weight on it and reach the door safely.",
+    "responses": [],
+    "possibleFollowUps": [
+      "cave/arrival-falls",
+      "cave/arrival-bank",
+      "tower/service-arrival",
+      "tower/bell-arrival"
+    ],
+    "ending": null
+  },
+  {
+    "id": "roof.3",
+    "scene": "roof",
+    "label": "Ring the gentle moon-bell before approaching",
+    "norwegian": {
+      "label": "Ring forsiktig med måneklokken før dere går frem",
+      "immediateText": "Klokken svarer med tre myke toner. Dere hører skritt som nærmer seg døren."
+    },
+    "destination": "tower",
+    "condition": "always",
+    "effect": "arrival=bell",
+    "immediate": "The bell answers with three soft notes. You hear footsteps move toward the door.",
+    "responses": [],
+    "possibleFollowUps": [
+      "cave/arrival-falls",
+      "cave/arrival-bank",
+      "tower/service-arrival",
+      "tower/bell-arrival"
+    ],
+    "ending": null
+  },
+  {
+    "id": "roof.4",
+    "scene": "roof",
+    "label": "Take the sheltered stair around the gorge",
+    "norwegian": {
+      "label": "Ta den lune trappen rundt juvet",
+      "immediateText": "Den gamle steintrappen svinger under plattformen og fører til tårnets nedre avsats."
+    },
+    "destination": "tower",
+    "condition": "always",
+    "effect": "arrival=sheltered",
+    "immediate": "The old stone stair curves beneath the platform and arrives at the tower’s lower landing.",
+    "responses": [],
+    "possibleFollowUps": [
+      "cave/arrival-falls",
+      "cave/arrival-bank",
+      "tower/service-arrival",
+      "tower/bell-arrival"
+    ],
+    "ending": null
+  },
+  {
+    "id": "tower.1",
+    "scene": "tower",
+    "label": "Knock and introduce yourself",
+    "norwegian": {
+      "label": "Bank på og presenter deg",
+      "immediateText": "Du sier hva du og vennen din heter, uten å kreve at Lumi åpner med én gang."
+    },
+    "destination": "lumi",
+    "condition": "always",
+    "effect": "contact=knock",
+    "immediate": "You give your name and your partner’s name without demanding that Lumi open at once.",
+    "responses": [],
+    "possibleFollowUps": [
+      "lumi/knock",
+      "lumi/key",
+      "lumi/ask-shinx",
+      "lumi/show-scarf"
+    ],
+    "ending": null
+  },
+  {
+    "id": "tower.2",
+    "scene": "tower",
+    "label": "Call gently that you came because the silver seed asked for help",
+    "norwegian": {
+      "label": "Si rolig at sølvfrøet ba om hjelp og ledet dere hit",
+      "immediateText": "Du viser det varme sølvfrøet gjennom det smale vinduet og forklarer at det ledet dere hit."
+    },
+    "destination": "lumi",
+    "condition": "always",
+    "effect": "contact=seed",
+    "immediate": "You show the warm silver seed through the narrow window and explain that it led you here.",
+    "responses": [],
+    "possibleFollowUps": [
+      "lumi/knock",
+      "lumi/key",
+      "lumi/ask-shinx",
+      "lumi/show-scarf"
+    ],
+    "ending": null
+  },
+  {
+    "id": "tower.3",
+    "scene": "tower",
+    "label": "Hold up Shinx’s lost scarf and ask to return it",
+    "norwegian": {
+      "label": "Hold opp Shinx sitt skjerf og spør om å få levere det tilbake",
+      "immediateText": "Du bretter ut skjerfet og holder det rent og tørt så de der inne kan se navnet."
+    },
+    "destination": "lumi",
+    "condition": "item=shinxScarf",
+    "effect": "contact=scarf",
+    "immediate": "You unfold the scarf, keeping it dry and clean, so the Pokémon inside can see the name.",
+    "responses": [],
+    "possibleFollowUps": [
+      "lumi/knock",
+      "lumi/key",
+      "lumi/ask-shinx",
+      "lumi/show-scarf"
+    ],
+    "ending": null
+  },
+  {
+    "id": "tower.4",
+    "scene": "tower",
+    "label": "Ask whether Shinx is all right before anything else",
+    "norwegian": {
+      "label": "Spør først om det går bra med Shinx",
+      "immediateText": "Du spør om Shinx i stedet for maskinen. Noen der inne kommer nærmere."
+    },
+    "destination": "lumi",
+    "condition": "always",
+    "effect": "contact=shinx",
+    "immediate": "You ask about Shinx instead of the machine. Someone inside moves closer.",
+    "responses": [],
+    "possibleFollowUps": [
+      "lumi/knock",
+      "lumi/key",
+      "lumi/ask-shinx",
+      "lumi/show-scarf"
+    ],
+    "ending": null
+  },
+  {
+    "id": "lumi.1",
+    "scene": "lumi",
+    "label": "Ask Lumi exactly what happened after the accident",
+    "norwegian": {
+      "label": "Spør Lumi nøyaktig hva som skjedde etter ulykken",
+      "immediateText": "«Jeg må forstå når det ble farlig», sier du. Lumi trekker pusten skjelvende og begynner med stormen."
+    },
+    "destination": "listen",
+    "condition": "always",
+    "effect": "talk=history",
+    "immediate": "“I need to know where the danger began,” you say. Lumi takes a shaky breath and starts at the storm.",
+    "responses": [],
+    "possibleFollowUps": [
+      "listen/history",
+      "listen/letter",
+      "listen/returned-scarf"
+    ],
+    "ending": null
+  },
+  {
+    "id": "lumi.2",
+    "scene": "lumi",
+    "label": "Show Lumi the letter you kept",
+    "norwegian": {
+      "label": "Vis Lumi brevet du tok vare på",
+      "immediateText": "Lumi tar brevet og glatter ut det fuktige hjørnet. «Jeg skrev dette før jeg sluttet å åpne døren.»"
+    },
+    "destination": "listen",
+    "condition": "letter=kept",
+    "effect": "talk=letter;item-=letter",
+    "immediate": "Lumi takes the letter and smooths its damp corner. “I wrote this before I stopped answering the door.”",
+    "responses": [],
+    "possibleFollowUps": [
+      "listen/history",
+      "listen/letter",
+      "listen/returned-scarf"
+    ],
+    "ending": null
+  },
+  {
+    "id": "lumi.3",
+    "scene": "lumi",
+    "label": "Tell her you came to listen, not to blame",
+    "norwegian": {
+      "label": "Si at dere kom for å lytte, ikke for å legge skylden på henne",
+      "immediateText": "Du setter deg der Lumi ser deg tydelig, og venter på at hun skal snakke."
+    },
+    "destination": "listen",
+    "condition": "always",
+    "effect": "talk=comfort",
+    "immediate": "You sit where Lumi can see you clearly and wait for her to speak.",
+    "responses": [],
+    "possibleFollowUps": [
+      "listen/history",
+      "listen/letter",
+      "listen/returned-scarf"
+    ],
+    "ending": null
+  },
+  {
+    "id": "lumi.4",
+    "scene": "lumi",
+    "label": "Return Shinx’s scarf and let him speak",
+    "norwegian": {
+      "label": "Gi Shinx skjerfet tilbake og la ham snakke",
+      "immediateText": "Shinx tar imot skjerfet og vikler det rundt halsen før han kremter."
+    },
+    "destination": "listen",
+    "condition": "item=shinxScarf",
+    "effect": "talk=scarf;item-=shinxScarf",
+    "immediate": "Shinx takes back the scarf and wraps it around his neck before clearing his throat.",
+    "responses": [],
+    "possibleFollowUps": [
+      "listen/history",
+      "listen/letter",
+      "listen/returned-scarf"
+    ],
+    "ending": null
+  },
+  {
+    "id": "listen.1",
+    "scene": "listen",
+    "label": "Ask Shinx what kind of help he wants first",
+    "norwegian": {
+      "label": "Spør Shinx hva slags hjelp han ønsker først",
+      "immediateText": "Du gir Shinx tid til å svare. «Varme, hvile og en sjanse til å bestemme hva som skjer videre», sier han."
+    },
+    "destination": "plan",
+    "condition": "always",
+    "effect": "shinxChoice=asked",
+    "immediate": "You give Shinx time to answer. “Warmth, a rest, and a chance to decide what happens next,” he says.",
+    "responses": [],
+    "possibleFollowUps": [
+      "plan/shinx-asked"
+    ],
+    "ending": null
+  },
+  {
+    "id": "listen.2",
+    "scene": "listen",
+    "label": "Promise Lumi that she need not carry the work alone",
+    "norwegian": {
+      "label": "Lov Lumi at hun ikke trenger å gjøre alt alene",
+      "immediateText": "Lumi senker skuldrene. «Jeg skal spørre neste gang», sier hun, «selv om jeg synes det er flaut.»"
+    },
+    "destination": "plan",
+    "condition": "always",
+    "effect": "lumiTrust=promise",
+    "immediate": "Lumi lets her shoulders drop. “I will ask next time,” she says, “even if I am embarrassed.”",
+    "responses": [],
+    "possibleFollowUps": [
+      "plan/trust"
+    ],
+    "ending": null
+  },
+  {
+    "id": "listen.3",
+    "scene": "listen",
+    "label": "Share the old rules you discovered",
+    "norwegian": {
+      "label": "Del de gamle reglene du fant",
+      "immediateText": "Du viser Lumi regelen du skrev av, og hun peker ut den trygge utløseren."
+    },
+    "destination": "plan",
+    "condition": "knowledge=rings OR knowledge=sphere",
+    "effect": "knowledge=shared",
+    "immediate": "You show Lumi the rule you copied, and she points out the safe release latch.",
+    "responses": [],
+    "possibleFollowUps": [
+      "bridge/copied-route",
+      "tower/kept-map-clue",
+      "plan/knowledge",
+      "plan/demonstration"
+    ],
+    "ending": null
+  },
+  {
+    "id": "listen.4",
+    "scene": "listen",
+    "label": "Ask Lumi to show you how the three rings work",
+    "norwegian": {
+      "label": "Be Lumi vise hvordan de tre ringene virker",
+      "immediateText": "Lumi viser hver ring med én liten gnist i stedet for å risikere hele kulen."
+    },
+    "destination": "plan",
+    "condition": "always",
+    "effect": "knowledge=demonstrated",
+    "immediate": "Lumi demonstrates each ring with one small spark rather than risking the whole sphere.",
+    "responses": [],
+    "possibleFollowUps": [
+      "bridge/copied-route",
+      "tower/kept-map-clue",
+      "plan/knowledge",
+      "plan/demonstration"
+    ],
+    "ending": null
+  },
+  {
+    "id": "plan.1",
+    "scene": "plan",
+    "label": "Prepare a safe immediate release with the sky ring",
+    "norwegian": {
+      "label": "Gjør klar en trygg frigjøring med himmelringen",
+      "immediateText": "Dere sjekker teppet, døren og veien ned før dere rører himmelringen."
+    },
+    "destination": "sky",
+    "condition": "always",
+    "effect": "plan=sky",
+    "immediate": "You check the blanket, the door and the way down before touching the sky ring.",
+    "responses": [],
+    "possibleFollowUps": [
+      "heart/village-plan",
+      "endSong/sky-warmth",
+      "endSong/heart-warmth"
+    ],
+    "ending": null
+  },
+  {
+    "id": "plan.2",
+    "scene": "plan",
+    "label": "Ask willing friends to form a shared warmth circle",
+    "norwegian": {
+      "label": "Be villige venner danne en varmekrets",
+      "immediateText": "Du spør alle etter tur, også Shinx, om de ønsker å hjelpe."
+    },
+    "destination": "heart",
+    "condition": "always",
+    "effect": "plan=heart",
+    "immediate": "You ask everyone in turn, including Shinx, whether they want to help.",
+    "responses": [],
+    "possibleFollowUps": [
+      "heart/village-plan",
+      "endSong/sky-warmth",
+      "endSong/heart-warmth"
+    ],
+    "ending": null
+  },
+  {
+    "id": "plan.3",
+    "scene": "plan",
+    "label": "Carry the seed to the garden balcony for the earth ring",
+    "norwegian": {
+      "label": "Ta frøet til hagebalkongen for å bruke jordringen",
+      "immediateText": "Du og Lumi bærer frøet ut i det voksende lyset ved plantekassen på balkongen."
+    },
+    "destination": "earth",
+    "condition": "always",
+    "effect": "plan=earth",
+    "immediate": "You and Lumi carry the seed into the growing light beside the balcony planter.",
+    "responses": [],
+    "possibleFollowUps": [
+      "heart/village-plan",
+      "endSong/sky-warmth",
+      "endSong/heart-warmth"
+    ],
+    "ending": null
+  },
+  {
+    "id": "plan.4",
+    "scene": "plan",
+    "label": "Ask Mira to organize help from Willowbrook before release",
+    "norwegian": {
+      "label": "Be Mira ordne hjelp fra Willowbrook før lyset slippes fri",
+      "immediateText": "Du blinker Miras festsignal fra tårnvinduet. Et klart svar kommer fra landsbyen."
+    },
+    "destination": "heart",
+    "condition": "always",
+    "effect": "plan=village",
+    "immediate": "You flash Mira’s festival signal from the tower window. A bright reply rises from the village.",
+    "responses": [],
+    "possibleFollowUps": [
+      "heart/village-plan",
+      "endSong/sky-warmth",
+      "endSong/heart-warmth"
+    ],
+    "ending": null
+  },
+  {
+    "id": "sky.1",
+    "scene": "sky",
+    "label": "Settle Shinx in the warm carrier, then release the light",
+    "norwegian": {
+      "label": "Legg Shinx i den varme kurven og slipp lyset ut",
+      "immediateText": "Shinx nikker. Du løfter kurven sammen med en hjelper, og Lumi sjekker at den innpakkede steinen fremdeles er varm. Hun stiller seg ved utløseren."
+    },
+    "destination": "endDawn",
+    "condition": "always",
+    "effect": "endingMethod=home",
+    "immediate": "Shinx nods. You lift the carrier with a helper, and Lumi checks that the wrapped stone is still warm. She takes her place at the release catch.",
+    "responses": [],
+    "possibleFollowUps": [
+      "endAurora/feather-thanks",
+      "endSanctuary/plant-warmth",
+      "endSanctuary/helpers-warmth",
+      "endSanctuary/plant-location",
+      "endSanctuary/seed-location",
+      "endGarden/river-planting",
+      "endGarden/village-planting"
+    ],
+    "ending": "endDawn"
+  },
+  {
+    "id": "sky.2",
+    "scene": "sky",
+    "label": "Use Altaria’s feather to make a warm nest, then open the Glass",
+    "norwegian": {
+      "label": "Lag et varmt rede med Altarias fjær før lyset slippes ut",
+      "immediateText": "Altarias fjær brer seg ut som et mykt fôr rundt den innpakkede varme steinen. Shinx legger seg i redet og godkjenner det med et søvnig blunk."
+    },
+    "destination": "endAurora",
+    "condition": "item=feather",
+    "effect": "item-=feather;endingMethod=feather",
+    "immediate": "Altaria’s feather unfolds into a soft lining around the wrapped warm stone. Shinx settles into the nest and approves it with a sleepy blink.",
+    "responses": [],
+    "possibleFollowUps": [
+      "endAurora/feather-thanks",
+      "endSanctuary/plant-warmth",
+      "endSanctuary/helpers-warmth",
+      "endSanctuary/plant-location",
+      "endSanctuary/seed-location",
+      "endGarden/river-planting",
+      "endGarden/village-planting"
+    ],
+    "ending": "endAurora"
+  },
+  {
+    "id": "sky.3",
+    "scene": "sky",
+    "label": "Ask Charmander to maintain safe warmth during the release",
+    "norwegian": {
+      "label": "La Charmander holde Shinx varm mens lyset slippes ut",
+      "immediateText": "Charmander setter seg stødig ved bærekurven, med halen trygt unna teppet. Shinx kjenner på varmen med den friske poten og nikker."
+    },
+    "destination": "endAurora",
+    "condition": "starter=Charmander",
+    "effect": "endingMethod=charmander",
+    "immediate": "Charmander takes a steady place beside the carrier, its tail safely clear of the bedding. Shinx tests the warmth with his good paw and nods.",
+    "responses": [],
+    "possibleFollowUps": [
+      "endAurora/feather-thanks",
+      "endSanctuary/plant-warmth",
+      "endSanctuary/helpers-warmth",
+      "endSanctuary/plant-location",
+      "endSanctuary/seed-location",
+      "endGarden/river-planting",
+      "endGarden/village-planting"
+    ],
+    "ending": "endAurora"
+  },
+  {
+    "id": "sky.4",
+    "scene": "sky",
+    "label": "Use the steady bell rhythm to help Shinx rest while releasing the light",
+    "norwegian": {
+      "label": "Bruk den rolige klokketakten under åpningen",
+      "immediateText": "Du legger Shinx ved den innpakkede varme steinen. Han trommer med den friske poten: klar for de tre tonene og for at Lumi skal åpne låsen."
+    },
+    "destination": "endSong",
+    "condition": "rhythm=known OR melody=known",
+    "effect": "endingMethod=rhythm",
+    "immediate": "You settle Shinx beside the wrapped warm stone. He taps his good paw: ready for the three notes, and for Lumi to open the catch.",
+    "responses": [],
+    "possibleFollowUps": [
+      "endAurora/feather-thanks",
+      "endSanctuary/plant-warmth",
+      "endSanctuary/helpers-warmth",
+      "endSanctuary/plant-location",
+      "endSanctuary/seed-location",
+      "endGarden/river-planting",
+      "endGarden/village-planting"
+    ],
+    "ending": "endSong"
+  },
+  {
+    "id": "heart.1",
+    "scene": "heart",
+    "label": "Link the ring to Mira’s festival lanterns and share the work with the village",
+    "norwegian": {
+      "label": "Koble ringen til Miras festlykter og del arbeidet med landsbyen",
+      "immediateText": "Landsbylyktene svarer på signalet. Hver gir litt lys uten å slukne."
+    },
+    "destination": "endLantern",
+    "condition": "always",
+    "effect": "endingMethod=community",
+    "immediate": "The village lanterns answer your signal, each giving a tiny part of its light without going dark.",
+    "responses": [],
+    "possibleFollowUps": [
+      "endAurora/feather-thanks",
+      "endSanctuary/plant-warmth",
+      "endSanctuary/helpers-warmth",
+      "endSanctuary/plant-location",
+      "endSanctuary/seed-location",
+      "endGarden/river-planting",
+      "endGarden/village-planting"
+    ],
+    "ending": "endLantern"
+  },
+  {
+    "id": "heart.2",
+    "scene": "heart",
+    "label": "Keep a staffed recovery room at the tower while the light returns",
+    "norwegian": {
+      "label": "Lag et hvilerom med hjelpere i tårnet mens lyset vender tilbake",
+      "immediateText": "Lumi skriver navnene på de frivillige på tavlen i observatoriet. Shinx godkjenner vaktplanen."
+    },
+    "destination": "endSanctuary",
+    "condition": "always",
+    "effect": "endingMethod=sanctuary",
+    "immediate": "Lumi writes the names of willing helpers on the observatory slate. Shinx approves the timetable.",
+    "responses": [],
+    "possibleFollowUps": [
+      "endAurora/feather-thanks",
+      "endSanctuary/plant-warmth",
+      "endSanctuary/helpers-warmth",
+      "endSanctuary/plant-location",
+      "endSanctuary/seed-location",
+      "endGarden/river-planting",
+      "endGarden/village-planting"
+    ],
+    "ending": "endSanctuary"
+  },
+  {
+    "id": "heart.3",
+    "scene": "heart",
+    "label": "Use a familiar three-note melody to guide the shared release",
+    "norwegian": {
+      "label": "Syng den kjente melodien mens varmen deles",
+      "immediateText": "Du begynner på den kjente melodien. Shinx teller med poten mens lyktevaktene sjekker at den lille kretsen er varm."
+    },
+    "destination": "endSong",
+    "condition": "rhythm=known OR melody=known",
+    "effect": "endingMethod=song",
+    "immediate": "You begin the familiar melody. Shinx counts with his paw while the lantern keepers check that their little circle is warm.",
+    "responses": [],
+    "possibleFollowUps": [
+      "endAurora/feather-thanks",
+      "endSanctuary/plant-warmth",
+      "endSanctuary/helpers-warmth",
+      "endSanctuary/plant-location",
+      "endSanctuary/seed-location",
+      "endGarden/river-planting",
+      "endGarden/village-planting"
+    ],
+    "ending": "endSong"
+  },
+  {
+    "id": "heart.4",
+    "scene": "heart",
+    "label": "Let Shinx set the pace as the warmth passes between helpers",
+    "norwegian": {
+      "label": "La Shinx bestemme tempoet når varmen går mellom hjelperne",
+      "immediateText": "«Vent», sier Shinx og sjekker hver lykt. Til slutt nikker han. Lumi venter ved utløseren mens han selv teller til tre."
+    },
+    "destination": "endLantern",
+    "condition": "always",
+    "effect": "endingMethod=shinx",
+    "immediate": "“Wait,” says Shinx, then checks each lantern. At last he nods. Lumi waits beside the catch for his own count of three.",
+    "responses": [],
+    "possibleFollowUps": [
+      "endAurora/feather-thanks",
+      "endSanctuary/plant-warmth",
+      "endSanctuary/helpers-warmth",
+      "endSanctuary/plant-location",
+      "endSanctuary/seed-location",
+      "endGarden/river-planting",
+      "endGarden/village-planting"
+    ],
+    "ending": "endLantern"
+  },
+  {
+    "id": "earth.1",
+    "scene": "earth",
+    "label": "Prepare the plant for Willowbrook’s shared garden",
+    "norwegian": {
+      "label": "Gjør planten klar til felleshagen i Willowbrook",
+      "immediateText": "Du legger potten i en polstret kurv ved Shinx. Mira svarer på signalet: Hun hjelper dere med å plante den i landsbyen i morgen."
+    },
+    "destination": "endGarden",
+    "condition": "always",
+    "effect": "endingMethod=garden",
+    "immediate": "You tuck the pot into a padded basket beside Shinx. Mira answers your signal: she will help plant it in the village tomorrow.",
+    "responses": [],
+    "possibleFollowUps": [
+      "endAurora/feather-thanks",
+      "endSanctuary/plant-warmth",
+      "endSanctuary/helpers-warmth",
+      "endSanctuary/plant-location",
+      "endSanctuary/seed-location",
+      "endGarden/river-planting",
+      "endGarden/village-planting"
+    ],
+    "ending": "endGarden"
+  },
+  {
+    "id": "earth.2",
+    "scene": "earth",
+    "label": "Ask Bulbasaur to make a living basket for the plant",
+    "norwegian": {
+      "label": "La Bulbasaur forme en levende kurv rundt planten",
+      "immediateText": "Bulbasaur leder den unge ranken rundt kanten på reisepotten. Potten sitter stødig ved Shinx, klar til turen til Willowbrook."
+    },
+    "destination": "endGarden",
+    "condition": "starter=Bulbasaur",
+    "effect": "endingMethod=vine",
+    "immediate": "Bulbasaur guides the young vine around the rim of its travel pot. The pot sits snugly beside Shinx, ready for the journey to Willowbrook.",
+    "responses": [],
+    "possibleFollowUps": [
+      "endAurora/feather-thanks",
+      "endSanctuary/plant-warmth",
+      "endSanctuary/helpers-warmth",
+      "endSanctuary/plant-location",
+      "endSanctuary/seed-location",
+      "endGarden/river-planting",
+      "endGarden/village-planting"
+    ],
+    "ending": "endGarden"
+  },
+  {
+    "id": "earth.3",
+    "scene": "earth",
+    "label": "Keep the warm plant in a staffed tower sanctuary",
+    "norwegian": {
+      "label": "La den varme planten bli i tårnets hvilested",
+      "immediateText": "Du setter planten i en dyp potte ved Shinx. Hjelperne avtaler vanning og nattevakter før Lumi rører utløseren."
+    },
+    "destination": "endSanctuary",
+    "condition": "always",
+    "effect": "endingMethod=plant_sanctuary",
+    "immediate": "You settle the plant in a deep pot beside Shinx. The helpers agree on watering and night watches before Lumi touches the catch.",
+    "responses": [],
+    "possibleFollowUps": [
+      "endAurora/feather-thanks",
+      "endSanctuary/plant-warmth",
+      "endSanctuary/helpers-warmth",
+      "endSanctuary/plant-location",
+      "endSanctuary/seed-location",
+      "endGarden/river-planting",
+      "endGarden/village-planting"
+    ],
+    "ending": "endSanctuary"
+  },
+  {
+    "id": "earth.4",
+    "scene": "earth",
+    "label": "Plant the receiver beside Psyduck’s floating lantern channel",
+    "norwegian": {
+      "label": "Plant sølvplanten ved Psyducks lyktekanal",
+      "immediateText": "Du polstrer reisepotten og signaliserer til Mira at dere møtes i elvehagen. Shinx sier ja til å reise med den varme planten ved siden av seg."
+    },
+    "destination": "endGarden",
+    "condition": "river=lanterns",
+    "effect": "endingMethod=reeds",
+    "immediate": "You pad the travel pot and signal Mira to meet you at the river garden. Shinx agrees to ride with the warm plant beside him.",
+    "responses": [],
+    "possibleFollowUps": [
+      "endAurora/feather-thanks",
+      "endSanctuary/plant-warmth",
+      "endSanctuary/helpers-warmth",
+      "endSanctuary/plant-location",
+      "endSanctuary/seed-location",
+      "endGarden/river-planting",
+      "endGarden/village-planting"
+    ],
+    "ending": "endGarden"
+  }
+]

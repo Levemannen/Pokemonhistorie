@@ -1,5 +1,6 @@
 import type {State} from './story';
 import type {Fate} from './legacyEpilogues';
+import {seedLocation} from './seedLocation';
 export function friendFates(state:State):Fate[]{
  const w=state.world!;if(!w.flags.endingMethod)return [];
  const result:Fate[]=[];
@@ -13,5 +14,6 @@ export function friendFates(state:State):Fate[]{
  if(w.flags.ordinarySeed==='planted')add('The forest seed','❧','The ordinary brown seed you planted stays in the forest, separate from the silver receiver.');
  add('Lumi','✧','Lumi shares the work with willing helpers and asks for help before fear takes over.');
  add('Shinx','ϟ','Shinx has warmth, care and a say in his recovery. His paw needs time to heal.');
+ const home=seedLocation(state);if(home)add('Silver seed','❧',home[0]);
  return result;
 }

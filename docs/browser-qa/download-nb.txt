@@ -6,7 +6,11 @@ Et eventyr med Bulbasaur
 
 Natten da himmelen ble stille
 
-Den første lykten under Stjernelysfesten er din å tenne. Mira, lyktevokteren i Willowbrook, holder fyrstikken mens din nye Pokémon-venn følger med ved støvlene dine. «Én flamme for dem som er hjemme», sier hun, «og én for dem som leter etter veien.» Vennen din strekker seg mot lykten, og sammen holder dere den stødig. Det er den første lille oppgaven dere har løst sammen, og du klarer ikke å la være å smile. Bulbasaur holder lykten stødig med en forsiktig slyngtråd. Rundt den andre sitter et festbånd som Bulbasaur er svært stolt av. Så forsvinner stjernene. Ikke én etter én. Alle på én gang. Utenfor landsbyen slår tårnklokken tre ganger, selv om ingen har brukt den på flere år. Et sølvfrø faller ned i den åpne hånden din. Det er varmt og pulserer i takt med et svakt rop fra fjellene. Mira blir alvorlig. «Den klokken kjenner jeg.»
+Du får tenne den første lykten under stjernelysfesten. Mira holder fyrstikken mens den nye Pokémon-vennen din venter ved føttene dine. «En flamme for dem som er hjemme», sier hun, «og en for dem som leter etter veien.» Dere holder lykten stødig sammen. Vennen din ser opp på deg, som for å spørre: Klar?
+
+Bulbasaur holder lykten stødig med en forsiktig slyngtråd. Rundt den andre sitter et festbånd som Bulbasaur er svært stolt av.
+
+Så forsvinner alle stjernene over dalen. Den gamle klokken i fjellet slår tre ganger. Noe sølvblankt daler ned i hånden din: et frø, varmt som en stein i solen. Det pulserer i takt med et svakt rop fra fjellet. Mira knuger fyrstikkesken. «Den klokken kjenner jeg.»
 
 Du valgte: Ask Mira what the bell means
 
@@ -16,4 +20,6 @@ Mira og den manglende kartbiten
 
 «Det er tårnets nødklokke», sier Mira. «Ingen ringer med den for moro skyld.»
 
-Mira leder dere inn under festteltet. På det gamle kartet hennes ser du Willowbrook, Moonwood, Lumen-elven, fjellstien i øst og observatoriet over Starfall-tårnet. Akkurat der tårnet skulle ha vært, er en sirkel klippet ut av papiret. «Den biten fjernet jeg selv», sier Mira. «I tårnet står en maskin som heter Stjernelysglasset. Den fanger lyset som når dalen vår, ikke de virkelige stjernene. Noen har vekket den.» Hun peker på frøet. «Det er en nødnøkkel. Glasset sender ut en slik når det trenger hjelp. Det velger noen som er villig til å følge etter. Jeg kan ikke forlate landsbyen, men jeg kan sende signaler fra lyktetårnet, sende forsyninger langs fjellstien og møte dere når dere kommer tilbake. Snu hvis en vei blir utrygg.» En redd Eevee kikker frem under stolen hennes. Mira gir deg et sammenleggbart kart og et tykt reserveskjerf til den kalde fjellryggen. Hun legger sølvfrøet i en sikker pung på beltet ditt. Det må bli hos deg til Glasset er trygt. «Jeg holder en lykt tent her. Ta med dere alle som trenger hjelp, hjem.»
+Under festteltet bretter Mira ut et kart. Moonwood, Lumen-elven, fjellstien – og et pent hull der Starfall-tårnet skulle vært. «Jeg klippet det bort etter at noen skadet seg der oppe», innrømmer hun. «Jeg trodde alle ville være trygge hvis de holdt seg unna.» En Eevee skjelver under stolen hennes. Du setter deg på huk i nærheten mens Mira legger et kart og et ekstra ullskjerf i sekken din.
+
+«Stjernelysglasset samler lys til lyktene og varmeovnene i tårnet», sier Mira. «Stjernene er der ennå. Det er lyset deres som ikke når fram til oss. Frøet ber om hjelp.» Hun tegner inn tårnet på kartet ditt og fester en liten frøpose til beltet ditt. «Følg skinnet. Jeg sender tepper og mat opp forsyningsstien og holder en lykt tent her, så vi kan sende signaler. Snu hvis stien kjennes utrygg.»

@@ -1,5 +1,7 @@
 # Kvalitetskontroll – revidert utgave 2.1
 
+Nyere revisjon og testresultater: [29. oktober 2026](EDITORIAL-REVISION-2026-10-29.md). Tallene nedenfor beskriver tidligere kjøringer.
+
 Dato: 27. oktober 2026. Gjelder det gjennomgåtte nye manuset, ikke tidligere utgaver.
 
 **Oppdatering 28. oktober:** De to fjellryggbildene som er nevnt som gjenstående nedenfor, er nå laget og koblet inn. Alle tre start-Pokémonene har eget maleri på fjellryggen. Presentasjonskontrollen for 293 tilstander på begge språk består nå med krav om maleri i samtlige tilstander. Bygg og Pages-kontroll består med 181 lokale ressurser. De opprinnelige avgrensningene nedenfor er historikken fra 27. oktober.
