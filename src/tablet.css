@@ -74,3 +74,6 @@
 
 .choice-pages { display:flex; align-items:center; justify-content:space-between; gap:12px; margin-top:18px; }
 .choice-pages button { min-height:44px; }
+
+.app-shell footer .book-version { font-size: 14px; color: #465c50; margin: 20px auto 0; letter-spacing: .03em; }
+.app-shell footer .book-version small { display: block; margin-top: 5px; font-size: 11px; overflow-wrap: anywhere; }

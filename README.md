@@ -87,3 +87,7 @@ See [the gameplay update](docs/UPDATES.md) for consequence routes, interactive p
 
 
 See [reading and collections](docs/COMFORT.md) for calm reading mode, adjustable text, whole-adventure books, the adventure bag, uninterrupted chapters and a contextual personal word notebook.
+
+### Synlig versjon
+
+Bunnteksten viser versjonen fra `package.json` og en automatisk bygge-ID (UTC). Begge er bakt inn i appen, så en eldre offlinekopi viser sitt eget nummer. Øk versjonsnummeret ved nye utgivelser; bygge-ID-en endres automatisk for hvert produksjonsbygg.
