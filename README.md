@@ -1,3 +1,7 @@
+## Manus v3 – 31. oktober 2026
+
+Nye eventyr bruker det reviderte tospråklige manuset med 25 hovedscener, egne returoppdrag, seks avslutninger og tre hemmelige bonusruter. Gamle lagringer fortsetter i sin opprinnelige utgave. Se [implementasjonsrapporten](docs/manuscript-v3/IMPLEMENTATION.md) for nødvendige manusrettelser, testresultater og gjenværende illustrasjonsarbeid. `pnpm test` kjører både kompatibilitetsprøvene og v3-motorprøven.
+
 # Pokémon – The Mystery of the Lost Starlight
 
 A complete, free, browser-only choose-your-own-adventure storybook for ages 8–12. React, TypeScript, Tailwind CSS and Vite. No backend, API keys, image services, analytics, web fonts or paid dependencies. All game assets ship locally.

@@ -2,6 +2,8 @@ import {readFileSync,writeFileSync,readdirSync,statSync} from 'node:fs';
 import {createHash} from 'node:crypto';
 const manifest=JSON.parse(readFileSync('dist/images/illustration-manifest.json','utf8'));
 const imageFiles=new Set();
+const v3=JSON.parse(readFileSync('src/v3-art.json','utf8'));
+for(const scene of Object.values(v3))for(const p of [...Object.values(scene.base),...Object.values(scene.fallbackBase)])imageFiles.add(p);
 for(const scene of Object.values(manifest.scenes)){
  for(const path of [...Object.values(scene.base),...Object.values(scene.fallbackBase||{}),...(scene.variants||[]).map(v=>v.path)])imageFiles.add(path);
 }

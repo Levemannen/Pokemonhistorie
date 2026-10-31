@@ -1,0 +1,1645 @@
+[
+  {
+    "scene": "S01",
+    "title": "The Lantern Before the Dark",
+    "norsk": "Lykten før mørket",
+    "choices": [
+      {
+        "id": "S01.1",
+        "en": "Help Eevee down",
+        "nb": "Hjelp Eevee ned fra kassen",
+        "requires": "TRUE",
+        "to": "S02",
+        "flags": [
+          "kindness_eevee"
+        ],
+        "items": []
+      },
+      {
+        "id": "S01.2",
+        "en": "Call the lantern keeper to secure the area, then light it",
+        "nb": "Rop på lyktansvarlig og sikre området, så tenn lykten",
+        "requires": "TRUE",
+        "to": "S02",
+        "flags": [
+          "town_lantern",
+          "leadership"
+        ],
+        "items": []
+      }
+    ]
+  },
+  {
+    "scene": "S02",
+    "title": "When the Stars Vanished",
+    "norsk": "Da stjernene forsvant",
+    "choices": [
+      {
+        "id": "S02.1",
+        "en": "Stay with Pichu and Eevee",
+        "nb": "Bli og sørg for Pichu og Eevee",
+        "requires": "TRUE",
+        "to": "S03",
+        "flags": [
+          "rescue_square",
+          "moon_kindness"
+        ],
+        "items": []
+      },
+      {
+        "id": "S02.2",
+        "en": "Investigate the impact at once",
+        "nb": "Undersøk nedslaget med en gang",
+        "requires": "TRUE",
+        "to": "S03",
+        "flags": [
+          "silver_first"
+        ],
+        "items": []
+      }
+    ]
+  },
+  {
+    "scene": "S03",
+    "title": "The Silver Seed",
+    "norsk": "Frøet av sølv",
+    "choices": [
+      {
+        "id": "S03.1",
+        "en": "Ask Mira what she is hiding",
+        "nb": "Spør Mira rett ut hva hun skjuler",
+        "requires": "TRUE",
+        "to": "S04",
+        "flags": [
+          "question_mira"
+        ],
+        "items": []
+      },
+      {
+        "id": "S03.2",
+        "en": "Study the seed's pattern",
+        "nb": "Undersøk frøets mønster",
+        "requires": "TRUE",
+        "to": "S04",
+        "flags": [
+          "seed_pattern"
+        ],
+        "items": []
+      }
+    ]
+  },
+  {
+    "scene": "S04",
+    "title": "The Hole in the Map",
+    "norsk": "Kartet med hullet",
+    "choices": [
+      {
+        "id": "S04.1",
+        "en": "Accept the apology but ask for the full truth",
+        "nb": "Godta unnskyldningen, men be om hele sannheten",
+        "requires": "TRUE",
+        "to": "S05",
+        "flags": [
+          "mira_trust"
+        ],
+        "items": []
+      },
+      {
+        "id": "S04.2",
+        "en": "Say trust must be earned",
+        "nb": "Si at tillit må fortjenes",
+        "requires": "TRUE",
+        "to": "S05",
+        "flags": [
+          "mira_accountability"
+        ],
+        "items": []
+      }
+    ]
+  },
+  {
+    "scene": "S05",
+    "title": "The Last Lantern",
+    "norsk": "Den siste lykten",
+    "choices": [
+      {
+        "id": "S05.1",
+        "en": "Follow the lantern-lit path",
+        "nb": "Følg stien med lykten",
+        "requires": "TRUE",
+        "to": "S06",
+        "flags": [
+          "safe_entry"
+        ],
+        "items": []
+      },
+      {
+        "id": "S05.2",
+        "en": "Follow the seed's pulse",
+        "nb": "Følg sølvfrøets blinkende retning",
+        "requires": "TRUE",
+        "to": "S06",
+        "flags": [
+          "seed_guided"
+        ],
+        "items": []
+      }
+    ]
+  },
+  {
+    "scene": "S06",
+    "title": "The Forest Holds Its Breath",
+    "norsk": "Skogen holder pusten",
+    "choices": [
+      {
+        "id": "S06.1",
+        "en": "Study and arrange the stones in seasonal order",
+        "nb": "Undersøk steinene og sett symbolene i årstidens rekkefølge",
+        "requires": "solved_S06",
+        "to": "S07",
+        "flags": [
+          "moon_sig_1",
+          "forest_clue"
+        ],
+        "items": []
+      },
+      {
+        "id": "S06.2",
+        "en": "Take the broad path",
+        "nb": "Velg den brede stien",
+        "requires": "TRUE",
+        "to": "S07",
+        "flags": [
+          "fast_forest"
+        ],
+        "items": []
+      }
+    ]
+  },
+  {
+    "scene": "S07",
+    "title": "Pikachu Beneath the Ivy",
+    "norsk": "Pikachu under eføyen",
+    "choices": [
+      {
+        "id": "S07.1",
+        "en": "Free Pikachu and invite it",
+        "nb": "Befri Pikachu og inviter den med",
+        "requires": "TRUE",
+        "to": "S08",
+        "flags": [
+          "rescued_pikachu",
+          "companion_pikachu",
+          "sun_rescue_1"
+        ],
+        "items": []
+      },
+      {
+        "id": "S07.2",
+        "en": "Free Pikachu and ask it to guard the path",
+        "nb": "Befri Pikachu og be den vokte stien",
+        "requires": "TRUE",
+        "to": "S08",
+        "flags": [
+          "rescued_pikachu",
+          "pikachu_guard",
+          "sun_rescue_1"
+        ],
+        "items": []
+      },
+      {
+        "id": "S07.3",
+        "en": "Alert Mira's helpers and mark the spot",
+        "nb": "Varsle Miras hjelpere og merk stedet",
+        "requires": "TRUE",
+        "to": "S08",
+        "flags": [
+          "pikachu_help_sent"
+        ],
+        "items": []
+      }
+    ]
+  },
+  {
+    "scene": "S08",
+    "title": "Hoothoot’s Home",
+    "norsk": "Hoothoots hus",
+    "choices": [
+      {
+        "id": "S08.1",
+        "en": "Secure nest and invite Hoothoot",
+        "nb": "Sikre redet og inviter Hoothoot",
+        "requires": "TRUE",
+        "to": "S09",
+        "flags": [
+          "hoothoot_nest",
+          "companion_hoothoot",
+          "moon_kindness"
+        ],
+        "items": []
+      },
+      {
+        "id": "S08.2",
+        "en": "Secure nest and let Hoothoot guard egg",
+        "nb": "Sikre redet og la Hoothoot vokte egget",
+        "requires": "TRUE",
+        "to": "S09",
+        "flags": [
+          "hoothoot_nest",
+          "moon_kindness"
+        ],
+        "items": []
+      },
+      {
+        "id": "S08.3",
+        "en": "Ask directions without repair",
+        "nb": "Be Hoothoot om veibeskrivelse uten å reparere",
+        "requires": "TRUE",
+        "to": "S09",
+        "flags": [
+          "hoothoot_directions"
+        ],
+        "items": []
+      }
+    ]
+  },
+  {
+    "scene": "S09",
+    "title": "The Tree That Remembers",
+    "norsk": "Treet som husker",
+    "choices": [
+      {
+        "id": "S09.1",
+        "en": "Answer from a rescue",
+        "nb": "Bruk lærdommen fra en redning",
+        "requires": "rescued_pikachu OR hoothoot_nest",
+        "to": "S10",
+        "flags": [],
+        "items": [
+          "crescent_lens"
+        ]
+      },
+      {
+        "id": "S09.2",
+        "en": "Examine all four hollows",
+        "nb": "Studer alle fire fordypningene",
+        "requires": "TRUE",
+        "to": "S10",
+        "flags": [
+          "learned_tree"
+        ],
+        "items": [
+          "crescent_lens"
+        ]
+      },
+      {
+        "id": "S09.3",
+        "en": "Ask for a hint",
+        "nb": "Be om et hint",
+        "requires": "TRUE",
+        "to": "S09",
+        "flags": [
+          "tree_hint"
+        ],
+        "items": []
+      }
+    ]
+  },
+  {
+    "scene": "S10",
+    "title": "The Camp with Two Cups",
+    "norsk": "Leirplassen med to kopper",
+    "choices": [
+      {
+        "id": "S10.1",
+        "en": "Examine cup using lens",
+        "nb": "Undersøk koppen med linsen",
+        "requires": "crescent_lens",
+        "to": "S11",
+        "flags": [
+          "map_fragment_1",
+          "moon_sig_2"
+        ],
+        "items": []
+      },
+      {
+        "id": "S10.2",
+        "en": "Take photo as clue",
+        "nb": "Ta med fotografiet som spor",
+        "requires": "TRUE",
+        "to": "S11",
+        "flags": [],
+        "items": [
+          "photo_lumi_shinx"
+        ]
+      },
+      {
+        "id": "S10.3",
+        "en": "Follow fresh prints",
+        "nb": "Følg de ferske sporene",
+        "requires": "TRUE",
+        "to": "S11",
+        "flags": [
+          "tracks_lumi"
+        ],
+        "items": []
+      }
+    ]
+  },
+  {
+    "scene": "S11",
+    "title": "The Missing Bridge",
+    "norsk": "Broen som mangler",
+    "choices": [
+      {
+        "id": "S11.1",
+        "en": "Help Lapras and accept passage",
+        "nb": "Hjelp Lapras og få skyss",
+        "requires": "TRUE",
+        "to": "S12",
+        "flags": [
+          "rescued_lapras",
+          "sun_rescue_2"
+        ],
+        "items": []
+      },
+      {
+        "id": "S11.2",
+        "en": "Fix Psyduck's wheel and use cable platform",
+        "nb": "Reparer Psyducks hjul og bruk kabelplattformen",
+        "requires": "TRUE",
+        "to": "S12",
+        "flags": [
+          "helped_psyduck",
+          "sun_rescue_2"
+        ],
+        "items": []
+      },
+      {
+        "id": "S11.3",
+        "en": "Secure damaged bridge using toolbox rope",
+        "nb": "Sikre den gjenværende broen med tau fra verktøykassen",
+        "requires": "TRUE",
+        "to": "S12",
+        "flags": [
+          "bridge_repaired"
+        ],
+        "items": []
+      }
+    ]
+  },
+  {
+    "scene": "S12",
+    "title": "The Little Engineer",
+    "norsk": "Den lille ingeniøren",
+    "choices": [
+      {
+        "id": "S12.1",
+        "en": "Help Psyduck master the repair",
+        "nb": "Hjelp Psyduck lære reparasjonen",
+        "requires": "TRUE",
+        "to": "S13",
+        "flags": [
+          "helped_psyduck",
+          "sun_rescue_3"
+        ],
+        "items": []
+      },
+      {
+        "id": "S12.2",
+        "en": "Sketch the cable-basket mechanism",
+        "nb": "Tegn av kabelkurvens mekanisme",
+        "requires": "TRUE",
+        "to": "S13",
+        "flags": [
+          "know_mail_system"
+        ],
+        "items": []
+      }
+    ]
+  },
+  {
+    "scene": "S13",
+    "title": "The Letter That Came Down",
+    "norsk": "Brevet som kom nedover",
+    "choices": [
+      {
+        "id": "S13.1",
+        "en": "Write “We want to help you both”",
+        "nb": "Skriv: «Vi vil hjelpe begge.»",
+        "requires": "TRUE",
+        "to": "S14",
+        "flags": [
+          "compassionate_letter",
+          "moon_kindness"
+        ],
+        "items": []
+      },
+      {
+        "id": "S13.2",
+        "en": "Write “Open the machine at once”",
+        "nb": "Skriv: «Åpne straks maskinen.»",
+        "requires": "TRUE",
+        "to": "S14",
+        "flags": [
+          "urgent_letter"
+        ],
+        "items": []
+      },
+      {
+        "id": "S13.3",
+        "en": "Send a map of the safe route",
+        "nb": "Send bare et kart over trygg vei",
+        "requires": "TRUE",
+        "to": "S14",
+        "flags": [
+          "practical_letter"
+        ],
+        "items": []
+      }
+    ]
+  },
+  {
+    "scene": "S14",
+    "title": "The Island That Shows Yesterday",
+    "norsk": "Øya som viser gårsdagen",
+    "choices": [
+      {
+        "id": "S14.1",
+        "en": "Study memory using lens",
+        "nb": "Studer minnet med linsen",
+        "requires": "crescent_lens",
+        "to": "S15",
+        "flags": [
+          "moon_sig_3",
+          "know_accident"
+        ],
+        "items": [
+          "moon_rune"
+        ]
+      },
+      {
+        "id": "S14.2",
+        "en": "Read memorial plaque",
+        "nb": "Les minneplaten",
+        "requires": "TRUE",
+        "to": "S15",
+        "flags": [
+          "know_accident"
+        ],
+        "items": []
+      },
+      {
+        "id": "S14.3",
+        "en": "Leave a promise of help",
+        "nb": "Legg igjen et løfte om hjelp",
+        "requires": "TRUE",
+        "to": "S15",
+        "flags": [
+          "island_promise"
+        ],
+        "items": []
+      }
+    ]
+  },
+  {
+    "scene": "S15",
+    "title": "Altaria’s Nest",
+    "norsk": "Altarias rede",
+    "choices": [
+      {
+        "id": "S15.1",
+        "en": "Find chick and reunite family",
+        "nb": "Finn ungen og samle flokken",
+        "requires": "TRUE",
+        "to": "S16",
+        "flags": [
+          "helped_altaria",
+          "moon_kindness"
+        ],
+        "items": [
+          "altaria_feather"
+        ]
+      },
+      {
+        "id": "S15.2",
+        "en": "Let Altaria search while you mark safe trail",
+        "nb": "La Altaria lete mens dere merker trygg sti",
+        "requires": "TRUE",
+        "to": "S16",
+        "flags": [
+          "marked_altaria_path"
+        ],
+        "items": []
+      }
+    ]
+  },
+  {
+    "scene": "S16",
+    "title": "The Second Wave of Darkness",
+    "norsk": "Den andre mørkebølgen",
+    "choices": [
+      {
+        "id": "S16.1",
+        "en": "Stay and hear Gastly's story",
+        "nb": "Bli hos Gastly og hør hele historien",
+        "requires": "TRUE",
+        "to": "S17",
+        "flags": [
+          "gastly_friend",
+          "moon_kindness",
+          "know_old_verse"
+        ],
+        "items": []
+      },
+      {
+        "id": "S16.2",
+        "en": "Thank Gastly and continue",
+        "nb": "Takk Gastly og gå videre",
+        "requires": "TRUE",
+        "to": "S17",
+        "flags": [
+          "gastly_met"
+        ],
+        "items": []
+      }
+    ]
+  },
+  {
+    "scene": "S17",
+    "title": "The Gate That Will Not Yield",
+    "norsk": "Porten som ikke gir etter",
+    "choices": [
+      {
+        "id": "S17.1",
+        "en": "Use lens and moon rune",
+        "nb": "Bruk linse og månerune",
+        "requires": "crescent_lens AND moon_rune",
+        "to": "S18",
+        "flags": [
+          "entered_by_moon"
+        ],
+        "items": []
+      },
+      {
+        "id": "S17.2",
+        "en": "Have Pikachu power motor",
+        "nb": "Be Pikachu drive motoren",
+        "requires": "companion_pikachu",
+        "to": "S18",
+        "flags": [
+          "entered_by_sun"
+        ],
+        "items": []
+      },
+      {
+        "id": "S17.3",
+        "en": "Repair crank and gears",
+        "nb": "Reparer sveiv og tannhjul",
+        "requires": "solved_S17",
+        "to": "S18",
+        "flags": [
+          "entered_by_work"
+        ],
+        "items": []
+      }
+    ]
+  },
+  {
+    "scene": "S18",
+    "title": "The Book from a Hundred Years Ago",
+    "norsk": "Boken fra hundre år tilbake",
+    "choices": [
+      {
+        "id": "S18.1",
+        "en": "Copy the three rings' rules",
+        "nb": "Kopier reglene om de tre ringene",
+        "requires": "TRUE",
+        "to": "S19",
+        "flags": [
+          "knows_rings"
+        ],
+        "items": []
+      },
+      {
+        "id": "S18.2",
+        "en": "Search with lens",
+        "nb": "Let etter skjult informasjon med linsen",
+        "requires": "crescent_lens",
+        "to": "S19",
+        "flags": [
+          "map_fragment_2"
+        ],
+        "items": []
+      },
+      {
+        "id": "S18.3",
+        "en": "Read Lumi's temperature log",
+        "nb": "Les Lumis temperaturjournal",
+        "requires": "TRUE",
+        "to": "S19",
+        "flags": [
+          "knows_shinx_care"
+        ],
+        "items": []
+      }
+    ]
+  },
+  {
+    "scene": "S19",
+    "title": "Mira’s Secret, Once More",
+    "norsk": "Miras hemmelighet, én gang til",
+    "choices": [
+      {
+        "id": "S19.1",
+        "en": "Return through valley",
+        "nb": "Utforsk tidligere steder",
+        "requires": "TRUE",
+        "to": "Q_RETURN",
+        "flags": [],
+        "items": []
+      },
+      {
+        "id": "S19.2",
+        "en": "Inspect basket",
+        "nb": "Undersøk kurven",
+        "requires": "TRUE",
+        "to": "S20",
+        "flags": [
+          "inspected_sky"
+        ],
+        "items": []
+      },
+      {
+        "id": "S19.3",
+        "en": "Inspect watch roster",
+        "nb": "Undersøk vaktlisten",
+        "requires": "TRUE",
+        "to": "S20",
+        "flags": [
+          "inspected_heart"
+        ],
+        "items": []
+      },
+      {
+        "id": "S19.4",
+        "en": "Inspect Earth pot",
+        "nb": "Undersøk jordpotten",
+        "requires": "TRUE",
+        "to": "S20",
+        "flags": [
+          "inspected_earth"
+        ],
+        "items": []
+      },
+      {
+        "id": "S19.5",
+        "en": "Prepare the supplies",
+        "nb": "Gjør forsyningene klare",
+        "requires": "TRUE",
+        "to": "Q_PREP",
+        "flags": [],
+        "items": []
+      }
+    ]
+  },
+  {
+    "scene": "S20",
+    "title": "The Final Stair",
+    "norsk": "Den siste trappen",
+    "choices": [
+      {
+        "id": "S20.1",
+        "en": "Show photo or read letter",
+        "nb": "Vis fotografiet eller brevet",
+        "requires": "photo_lumi_shinx OR compassionate_letter",
+        "to": "S21",
+        "flags": [
+          "lumi_open_to_talk"
+        ],
+        "items": []
+      },
+      {
+        "id": "S20.2",
+        "en": "Explain the old book",
+        "nb": "Fortell hva du fant i boken",
+        "requires": "TRUE",
+        "to": "S21",
+        "flags": [
+          "lumi_knows_pressure"
+        ],
+        "items": []
+      },
+      {
+        "id": "S20.3",
+        "en": "Ask Shinx through the door",
+        "nb": "Spør Shinx direkte gjennom døren",
+        "requires": "TRUE",
+        "to": "S21",
+        "flags": [
+          "asked_shinx"
+        ],
+        "items": []
+      }
+    ]
+  },
+  {
+    "scene": "S21",
+    "title": "The One Who Held Back the Light",
+    "norsk": "Den som holdt lyset tilbake",
+    "choices": [
+      {
+        "id": "S21.1",
+        "en": "Listen before proposing plans",
+        "nb": "Lytt før du foreslår løsninger",
+        "requires": "TRUE",
+        "to": "S22",
+        "flags": [
+          "lumi_trust",
+          "moon_kindness"
+        ],
+        "items": []
+      },
+      {
+        "id": "S21.2",
+        "en": "Explain risks without blame",
+        "nb": "Forklar konkrete farer uten å klandre",
+        "requires": "TRUE",
+        "to": "S22",
+        "flags": [
+          "lumi_informed"
+        ],
+        "items": []
+      }
+    ]
+  },
+  {
+    "scene": "S22",
+    "title": "Shinx Gets a Say",
+    "norsk": "Shinx får bestemme",
+    "choices": [
+      {
+        "id": "S22.1",
+        "en": "Explain safe basket",
+        "nb": "Beskriv trygg kurv",
+        "requires": "warmth_sky_ready",
+        "to": "S23",
+        "flags": [
+          "shinx_consents_sky"
+        ],
+        "items": []
+      },
+      {
+        "id": "S22.2",
+        "en": "Explain watch plan",
+        "nb": "Beskriv vaktplanen",
+        "requires": "warmth_heart_ready",
+        "to": "S23",
+        "flags": [
+          "shinx_consents_heart"
+        ],
+        "items": []
+      },
+      {
+        "id": "S22.3",
+        "en": "Explain Earth plan and backup heat",
+        "nb": "Beskriv jordplanen og reservevarmen",
+        "requires": "earth_pot_found AND earth_backup_ready AND silver_seed",
+        "to": "S23",
+        "flags": [
+          "shinx_consents_earth"
+        ],
+        "items": []
+      },
+      {
+        "id": "S22.4",
+        "en": "Gather supplies",
+        "nb": "Skaff nødvendig utstyr",
+        "requires": "NOT valid_consent",
+        "to": "Q_PREP",
+        "flags": [],
+        "items": []
+      },
+      {
+        "id": "S22.5",
+        "en": "Reconsider plans",
+        "nb": "Endre mening",
+        "requires": "valid_consent",
+        "to": "Q_PREP",
+        "flags": [],
+        "items": []
+      }
+    ]
+  },
+  {
+    "scene": "S23",
+    "title": "The Glass Begins to Crack",
+    "norsk": "Glasset begynner å sprekke",
+    "choices": [
+      {
+        "id": "S23.1",
+        "en": "Approach rings",
+        "nb": "Gå til ringene",
+        "requires": "valid_consent",
+        "to": "S24",
+        "flags": [],
+        "items": []
+      },
+      {
+        "id": "S23.2",
+        "en": "Revisit the valley",
+        "nb": "Undersøk dalen igjen",
+        "requires": "NOT release_done",
+        "to": "Q_RETURN",
+        "flags": [],
+        "items": []
+      },
+      {
+        "id": "S23.3",
+        "en": "Check equipment",
+        "nb": "Kontroller utstyret igjen",
+        "requires": "TRUE",
+        "to": "Q_PREP",
+        "flags": [],
+        "items": []
+      }
+    ]
+  },
+  {
+    "scene": "S24",
+    "title": "The Choice That Matters",
+    "norsk": "Det virkelige valget",
+    "choices": [
+      {
+        "id": "S24.1",
+        "en": "Sky",
+        "nb": "Himmelveien",
+        "requires": "warmth_sky_ready AND shinx_consents_sky",
+        "to": "E_DAWN",
+        "alternate": {
+          "when": "helped_altaria AND mira_trust",
+          "to": "E_AURORA"
+        },
+        "flags": [
+          "chosen_route=sky"
+        ],
+        "items": []
+      },
+      {
+        "id": "S24.2",
+        "en": "Heart",
+        "nb": "Hjerteveien",
+        "requires": "warmth_heart_ready AND shinx_consents_heart",
+        "to": "E_LANTERN",
+        "alternate": {
+          "when": "know_old_verse",
+          "to": "E_SONG"
+        },
+        "flags": [
+          "chosen_route=heart"
+        ],
+        "items": []
+      },
+      {
+        "id": "S24.3",
+        "en": "Earth",
+        "nb": "Jordveien",
+        "requires": "earth_pot_found AND earth_backup_ready AND silver_seed AND shinx_consents_earth",
+        "to": "E_GARDEN",
+        "alternate": {
+          "when": "helped_altaria AND knows_shinx_care",
+          "to": "E_SANCTUARY"
+        },
+        "flags": [
+          "chosen_route=earth"
+        ],
+        "items": []
+      },
+      {
+        "id": "S24.4",
+        "en": "Reconsider",
+        "nb": "Prøv en annen løsning",
+        "requires": "TRUE",
+        "to": "Q_PREP",
+        "flags": [],
+        "items": []
+      }
+    ]
+  },
+  {
+    "scene": "S25",
+    "title": "A Sky That Remembers",
+    "norsk": "En himmel som husker",
+    "choices": [
+      {
+        "id": "S25.1",
+        "en": "Complete main story",
+        "nb": "Fullfør hovedhistorien",
+        "requires": "TRUE",
+        "to": "FINISH",
+        "flags": [
+          "main_complete"
+        ],
+        "items": []
+      },
+      {
+        "id": "S25.2",
+        "en": "Examine last glimmer",
+        "nb": "Undersøk det siste glimtet",
+        "requires": "moon_unlock OR sun_unlock",
+        "to": "B_GATE",
+        "flags": [
+          "main_complete"
+        ],
+        "items": []
+      }
+    ]
+  },
+  {
+    "scene": "Q_PREP",
+    "title": "The Supply Porch",
+    "norsk": "Forsyningsverandaen",
+    "choices": [
+      {
+        "id": "Q_PREP.1",
+        "en": "Prepare Sky",
+        "nb": "Klargjør Himmel",
+        "requires": "NOT warmth_sky_ready",
+        "to": "Q_PREP",
+        "flags": [
+          "warmth_sky_ready"
+        ],
+        "items": []
+      },
+      {
+        "id": "Q_PREP.2",
+        "en": "Prepare Heart",
+        "nb": "Klargjør Hjerte",
+        "requires": "NOT warmth_heart_ready",
+        "to": "Q_PREP",
+        "flags": [
+          "warmth_heart_ready"
+        ],
+        "items": []
+      },
+      {
+        "id": "Q_PREP.3",
+        "en": "Prepare Earth",
+        "nb": "Klargjør Jord",
+        "requires": "silver_seed AND NOT earth_pot_found",
+        "to": "Q_PREP",
+        "flags": [
+          "earth_pot_found",
+          "earth_backup_ready"
+        ],
+        "items": []
+      },
+      {
+        "id": "Q_PREP.4",
+        "en": "Test Earth backup",
+        "nb": "Reparer ekstra lys",
+        "requires": "earth_pot_found AND NOT earth_backup_ready",
+        "to": "Q_PREP",
+        "flags": [
+          "earth_backup_ready"
+        ],
+        "items": []
+      },
+      {
+        "id": "Q_PREP.5",
+        "en": "Return to Shinx",
+        "nb": "Gå til Shinx",
+        "requires": "prepared_route",
+        "to": "RETURN_MAIN",
+        "flags": [],
+        "items": []
+      }
+    ]
+  },
+  {
+    "scene": "Q_RETURN",
+    "title": "One Last Journey Through the Valley",
+    "norsk": "Siste runde gjennom dalen",
+    "choices": [
+      {
+        "id": "Q_RETURN.1",
+        "en": "Help in Willowbrook",
+        "nb": "Hjelp i Willowbrook",
+        "requires": "NOT rescue_square",
+        "to": "Q_VILLAGE",
+        "flags": [],
+        "items": []
+      },
+      {
+        "id": "Q_RETURN.2",
+        "en": "Pikachu",
+        "nb": "Pikachu",
+        "requires": "NOT rescued_pikachu",
+        "to": "Q_PIKACHU",
+        "flags": [],
+        "items": []
+      },
+      {
+        "id": "Q_RETURN.3",
+        "en": "Hoothoot",
+        "nb": "Hoothoot",
+        "requires": "NOT hoothoot_nest",
+        "to": "Q_HOOTHOOT",
+        "flags": [],
+        "items": []
+      },
+      {
+        "id": "Q_RETURN.4",
+        "en": "Lapras",
+        "nb": "Lapras",
+        "requires": "NOT rescued_lapras",
+        "to": "Q_LAPRAS",
+        "flags": [],
+        "items": []
+      },
+      {
+        "id": "Q_RETURN.5",
+        "en": "Psyduck",
+        "nb": "Psyduck",
+        "requires": "NOT helped_psyduck",
+        "to": "Q_PSYDUCK",
+        "flags": [],
+        "items": []
+      },
+      {
+        "id": "Q_RETURN.6",
+        "en": "Repair the bridge",
+        "nb": "Reparer broen",
+        "requires": "NOT bridge_repaired",
+        "to": "Q_BRIDGE",
+        "flags": [],
+        "items": []
+      },
+      {
+        "id": "Q_RETURN.7",
+        "en": "Altaria",
+        "nb": "Altaria",
+        "requires": "NOT helped_altaria",
+        "to": "Q_ALTARIA",
+        "flags": [],
+        "items": []
+      },
+      {
+        "id": "Q_RETURN.8",
+        "en": "Gastly",
+        "nb": "Gastly",
+        "requires": "NOT gastly_friend",
+        "to": "Q_GASTLY",
+        "flags": [],
+        "items": []
+      },
+      {
+        "id": "Q_RETURN.9",
+        "en": "Lead a volunteer team",
+        "nb": "Led et lag frivillige",
+        "requires": "NOT leadership",
+        "to": "Q_LEAD",
+        "flags": [],
+        "items": []
+      },
+      {
+        "id": "Q_RETURN.10",
+        "en": "Explore the stone circle",
+        "nb": "Undersøk steinringen",
+        "requires": "NOT moon_sig_1",
+        "to": "Q_MOON1",
+        "flags": [],
+        "items": []
+      },
+      {
+        "id": "Q_RETURN.11",
+        "en": "Examine the marked cup",
+        "nb": "Undersøk koppen med tegn",
+        "requires": "NOT moon_sig_2 AND crescent_lens",
+        "to": "Q_MOON2",
+        "flags": [],
+        "items": []
+      },
+      {
+        "id": "Q_RETURN.12",
+        "en": "Return to the island memory",
+        "nb": "Vend tilbake til øyas minne",
+        "requires": "NOT moon_sig_3 AND crescent_lens",
+        "to": "Q_MOON3",
+        "flags": [],
+        "items": []
+      },
+      {
+        "id": "Q_RETURN.13",
+        "en": "Secret star map",
+        "nb": "Stjernekartet",
+        "requires": "map_fragment_1 AND map_fragment_2 AND moon_sig_3 AND silver_seed AND crescent_lens AND NOT secret_star_map",
+        "to": "Q_STAR",
+        "flags": [],
+        "items": []
+      },
+      {
+        "id": "Q_RETURN.14",
+        "en": "Archive map fragment",
+        "nb": "Arkivets kartdel",
+        "requires": "crescent_lens AND NOT map_fragment_2",
+        "to": "Q_ARCHIVE",
+        "flags": [],
+        "items": []
+      },
+      {
+        "id": "Q_RETURN.15",
+        "en": "Write a letter",
+        "nb": "Skriv brevet",
+        "requires": "NOT compassionate_letter AND NOT (lumi_trust AND island_promise)",
+        "to": "Q_RECONCILE",
+        "flags": [],
+        "items": []
+      },
+      {
+        "id": "Q_RETURN.16",
+        "en": "Return to the tower",
+        "nb": "Tilbake til tårnet",
+        "requires": "TRUE",
+        "to": "RETURN_MAIN",
+        "flags": [],
+        "items": []
+      }
+    ]
+  },
+  {
+    "scene": "Q_RECONCILE",
+    "title": "The Letter You Never Wrote",
+    "norsk": "Brevet du ikke skrev",
+    "choices": [
+      {
+        "id": "Q_RECONCILE.1",
+        "en": "Send the letter",
+        "nb": "Send brevet",
+        "requires": "TRUE",
+        "to": "Q_RETURN",
+        "flags": [
+          "compassionate_letter",
+          "moon_kindness"
+        ],
+        "items": []
+      }
+    ]
+  },
+  {
+    "scene": "Q_ARCHIVE",
+    "title": "The Hidden Archive Page",
+    "norsk": "Arkivets skjulte side",
+    "choices": [
+      {
+        "id": "Q_ARCHIVE.1",
+        "en": "Copy",
+        "nb": "Tegn av",
+        "requires": "TRUE",
+        "to": "Q_RETURN",
+        "flags": [
+          "map_fragment_2"
+        ],
+        "items": []
+      }
+    ]
+  },
+  {
+    "scene": "Q_VILLAGE",
+    "title": "The Lantern Stand",
+    "norsk": "Lyktestativet",
+    "choices": [
+      {
+        "id": "Q_VILLAGE.1",
+        "en": "Help both",
+        "nb": "Hjelp begge",
+        "requires": "TRUE",
+        "to": "Q_RETURN",
+        "flags": [
+          "rescue_square",
+          "moon_kindness"
+        ],
+        "items": []
+      }
+    ]
+  },
+  {
+    "scene": "Q_PIKACHU",
+    "title": "Ivy Again",
+    "norsk": "Eføyen igjen",
+    "choices": [
+      {
+        "id": "Q_PIKACHU.1",
+        "en": "Rescue safely",
+        "nb": "Hjelp trygt",
+        "requires": "TRUE",
+        "to": "Q_RETURN",
+        "flags": [
+          "rescued_pikachu",
+          "sun_rescue_1"
+        ],
+        "items": []
+      }
+    ]
+  },
+  {
+    "scene": "Q_HOOTHOOT",
+    "title": "Nest in the Wind",
+    "norsk": "Redet i vinden",
+    "choices": [
+      {
+        "id": "Q_HOOTHOOT.1",
+        "en": "Secure nest",
+        "nb": "Sikre redet",
+        "requires": "TRUE",
+        "to": "Q_RETURN",
+        "flags": [
+          "hoothoot_nest",
+          "moon_kindness"
+        ],
+        "items": []
+      }
+    ]
+  },
+  {
+    "scene": "Q_LAPRAS",
+    "title": "Cord in the River",
+    "norsk": "Snoren i elven",
+    "choices": [
+      {
+        "id": "Q_LAPRAS.1",
+        "en": "Free the fin",
+        "nb": "Frigjør finnen",
+        "requires": "TRUE",
+        "to": "Q_RETURN",
+        "flags": [
+          "rescued_lapras",
+          "sun_rescue_2"
+        ],
+        "items": []
+      }
+    ]
+  },
+  {
+    "scene": "Q_PSYDUCK",
+    "title": "A Wheel in Place",
+    "norsk": "Et hjul på plass",
+    "choices": [
+      {
+        "id": "Q_PSYDUCK.1",
+        "en": "Help Psyduck",
+        "nb": "Hjelp Psyduck",
+        "requires": "TRUE",
+        "to": "Q_RETURN",
+        "flags": [
+          "helped_psyduck",
+          "sun_rescue_3"
+        ],
+        "items": []
+      }
+    ]
+  },
+  {
+    "scene": "Q_BRIDGE",
+    "title": "Rope Across the Current",
+    "norsk": "Tau over strømmen",
+    "choices": [
+      {
+        "id": "Q_BRIDGE.1",
+        "en": "Secure bridge",
+        "nb": "Sikre broen",
+        "requires": "TRUE",
+        "to": "Q_RETURN",
+        "flags": [
+          "bridge_repaired"
+        ],
+        "items": []
+      }
+    ]
+  },
+  {
+    "scene": "Q_ALTARIA",
+    "title": "The Missing Chick",
+    "norsk": "Den savnede ungen",
+    "choices": [
+      {
+        "id": "Q_ALTARIA.1",
+        "en": "Reunite flock",
+        "nb": "Gjenforen flokken",
+        "requires": "TRUE",
+        "to": "Q_RETURN",
+        "flags": [
+          "helped_altaria",
+          "moon_kindness"
+        ],
+        "items": [
+          "altaria_feather"
+        ]
+      }
+    ]
+  },
+  {
+    "scene": "Q_GASTLY",
+    "title": "One Last Story",
+    "norsk": "Den siste historien",
+    "choices": [
+      {
+        "id": "Q_GASTLY.1",
+        "en": "Listen",
+        "nb": "Lytt",
+        "requires": "TRUE",
+        "to": "Q_RETURN",
+        "flags": [
+          "gastly_friend",
+          "moon_kindness",
+          "know_old_verse"
+        ],
+        "items": []
+      }
+    ]
+  },
+  {
+    "scene": "Q_LEAD",
+    "title": "The Lantern Chain",
+    "norsk": "Lyskjeden",
+    "choices": [
+      {
+        "id": "Q_LEAD.1",
+        "en": "Lead team",
+        "nb": "Led laget",
+        "requires": "TRUE",
+        "to": "Q_RETURN",
+        "flags": [
+          "leadership"
+        ],
+        "items": []
+      }
+    ]
+  },
+  {
+    "scene": "Q_MOON1",
+    "title": "The Stone Circle",
+    "norsk": "Steinringen",
+    "choices": [
+      {
+        "id": "Q_MOON1.1",
+        "en": "Solve pattern",
+        "nb": "Løs mønster",
+        "requires": "solved_Q_MOON1",
+        "to": "Q_RETURN",
+        "flags": [
+          "moon_sig_1",
+          "forest_clue"
+        ],
+        "items": []
+      }
+    ]
+  },
+  {
+    "scene": "Q_MOON2",
+    "title": "The Marked Cup",
+    "norsk": "Koppen med tegn",
+    "choices": [
+      {
+        "id": "Q_MOON2.1",
+        "en": "Examine cup",
+        "nb": "Undersøk koppen",
+        "requires": "TRUE",
+        "to": "Q_RETURN",
+        "flags": [
+          "map_fragment_1",
+          "moon_sig_2"
+        ],
+        "items": []
+      }
+    ]
+  },
+  {
+    "scene": "Q_MOON3",
+    "title": "The Island's Memory",
+    "norsk": "Øyas minne",
+    "choices": [
+      {
+        "id": "Q_MOON3.1",
+        "en": "Study stone",
+        "nb": "Undersøk platen",
+        "requires": "TRUE",
+        "to": "Q_RETURN",
+        "flags": [
+          "moon_sig_3",
+          "know_accident"
+        ],
+        "items": [
+          "moon_rune"
+        ]
+      }
+    ]
+  },
+  {
+    "scene": "Q_STAR",
+    "title": "The Secret Star-Map Puzzle",
+    "norsk": "Den hemmelige kartgåten",
+    "choices": [
+      {
+        "id": "Q_STAR.1",
+        "en": "Solve pattern",
+        "nb": "Løs mønsteret",
+        "requires": "solved_Q_STAR",
+        "to": "Q_RETURN",
+        "flags": [
+          "secret_star_map"
+        ],
+        "items": []
+      }
+    ]
+  },
+  {
+    "scene": "E_DAWN",
+    "title": "The First Morning",
+    "norsk": "Den første morgenen",
+    "choices": [
+      {
+        "id": "E_DAWN.1",
+        "en": "See the valley again",
+        "nb": "Se dalen igjen",
+        "requires": "release_done",
+        "to": "S25",
+        "flags": [],
+        "items": []
+      }
+    ]
+  },
+  {
+    "scene": "E_AURORA",
+    "title": "Aurora Above the Tower",
+    "norsk": "Nordlyset over tårnet",
+    "choices": [
+      {
+        "id": "E_AURORA.1",
+        "en": "See the valley again",
+        "nb": "Se dalen igjen",
+        "requires": "release_done",
+        "to": "S25",
+        "flags": [],
+        "items": []
+      }
+    ]
+  },
+  {
+    "scene": "E_LANTERN",
+    "title": "The Night of Lanterns",
+    "norsk": "Lyktenes natt",
+    "choices": [
+      {
+        "id": "E_LANTERN.1",
+        "en": "See the valley again",
+        "nb": "Se dalen igjen",
+        "requires": "release_done",
+        "to": "S25",
+        "flags": [],
+        "items": []
+      }
+    ]
+  },
+  {
+    "scene": "E_SONG",
+    "title": "The Song That Found Its Way Home",
+    "norsk": "Sangen som fant veien hjem",
+    "choices": [
+      {
+        "id": "E_SONG.1",
+        "en": "See the valley again",
+        "nb": "Se dalen igjen",
+        "requires": "release_done",
+        "to": "S25",
+        "flags": [],
+        "items": []
+      }
+    ]
+  },
+  {
+    "scene": "E_SANCTUARY",
+    "title": "The Small Sun at the Window",
+    "norsk": "Vinduets lille sol",
+    "choices": [
+      {
+        "id": "E_SANCTUARY.1",
+        "en": "See the valley again",
+        "nb": "Se dalen igjen",
+        "requires": "release_done",
+        "to": "S25",
+        "flags": [],
+        "items": []
+      }
+    ]
+  },
+  {
+    "scene": "E_GARDEN",
+    "title": "The Garden of Starlight",
+    "norsk": "Hagen med stjernelys",
+    "choices": [
+      {
+        "id": "E_GARDEN.1",
+        "en": "See the valley again",
+        "nb": "Se dalen igjen",
+        "requires": "release_done",
+        "to": "S25",
+        "flags": [],
+        "items": []
+      }
+    ]
+  },
+  {
+    "scene": "B_GATE",
+    "title": "The Door Beyond the Sky",
+    "norsk": "Døren over himmelen",
+    "choices": [
+      {
+        "id": "B_GATE.1",
+        "en": "Follow moonlight",
+        "nb": "Følg måneskinnet",
+        "requires": "moon_unlock AND NOT both_unlock",
+        "to": "B_LUNALA",
+        "flags": [],
+        "items": []
+      },
+      {
+        "id": "B_GATE.2",
+        "en": "Follow sunlight",
+        "nb": "Følg solglimtet",
+        "requires": "sun_unlock AND NOT both_unlock",
+        "to": "B_SOLGALEO",
+        "flags": [],
+        "items": []
+      },
+      {
+        "id": "B_GATE.3",
+        "en": "Place hands on both symbols",
+        "nb": "Legg hendene på begge tegn",
+        "requires": "both_unlock",
+        "to": "B_BOTH",
+        "flags": [],
+        "items": []
+      }
+    ]
+  },
+  {
+    "scene": "B_LUNALA",
+    "title": "Lunala’s Gift",
+    "norsk": "Nattens gave",
+    "choices": [
+      {
+        "id": "B_LUNALA.1",
+        "en": "Keep this memory in my book",
+        "nb": "Behold dette minnet i boka mi",
+        "requires": "main_complete",
+        "to": "FINISH",
+        "flags": [
+          "met_lunala",
+          "badge_moon_witness"
+        ],
+        "items": []
+      }
+    ]
+  },
+  {
+    "scene": "B_SOLGALEO",
+    "title": "Solgaleo’s Promise",
+    "norsk": "Solens løfte",
+    "choices": [
+      {
+        "id": "B_SOLGALEO.1",
+        "en": "Keep this memory in my book",
+        "nb": "Behold dette minnet i boka mi",
+        "requires": "main_complete",
+        "to": "FINISH",
+        "flags": [
+          "met_solgaleo",
+          "badge_sun_witness"
+        ],
+        "items": []
+      }
+    ]
+  },
+  {
+    "scene": "B_BOTH",
+    "title": "The Secret of the Star Gate",
+    "norsk": "Stjerneportens hemmelighet",
+    "choices": [
+      {
+        "id": "B_BOTH.1",
+        "en": "Keep this memory in my book",
+        "nb": "Behold dette minnet i boka mi",
+        "requires": "main_complete",
+        "to": "FINISH",
+        "flags": [
+          "met_lunala",
+          "met_solgaleo",
+          "badge_star_gate",
+          "ultimate_secret_found"
+        ],
+        "items": []
+      }
+    ]
+  }
+]

@@ -5,7 +5,7 @@ import { translate, setLanguage, type Language } from './i18n';
 import { StoryExtras } from './StoryExtras';
 import { branchAt, downloadJourney } from './journeyReview';
 import { useEffect, useRef, useState } from 'react';
-import { advance, byId, chapters, companionLine, initial, storyText, sceneTitle, visibleCompanions, illustrationScene, type State, type Starter } from './story';
+import { advance, byId, endingKey, chapters, companionLine, initial, storyText, sceneTitle, visibleCompanions, illustrationScene, type State, type Starter } from './story';
 import { ReadableText } from './ReadingTools';
 import { StoryChoices } from './StoryChoices';
 import { sentenceParts } from './words';
@@ -139,12 +139,12 @@ export default function App() {
             persist(keys.game, game);
             if (byId[game.scene].ending) {
                 setBooks(previous => archiveJourney(previous, game, new Date().toISOString()));
-                setCollected(previous => previous.includes(game.scene) ? previous : [...previous, game.scene]);
+                setCollected(previous => previous.includes(endingKey(game)) ? previous : [...previous, endingKey(game)]);
             }
         }
         stopSpeech();
     }, [game]);
-    useEffect(() => { persist(keys.books, books); setCollected(previous => { const next = [...new Set([...previous, ...books.map(book => book.state.scene)])]; return next.length === previous.length ? previous : next; }); }, [books]);
+    useEffect(() => { persist(keys.books, books); setCollected(previous => { const next = [...new Set([...previous, ...books.map(book => endingKey(book.state))])]; return next.length === previous.length ? previous : next; }); }, [books]);
     useEffect(() => persist(keys.words, words), [words]);
     useEffect(() => persist(keys.reader, reader), [reader]);
     useEffect(() => persist(keys.endings, collected), [collected]);
@@ -260,7 +260,7 @@ export default function App() {
     }
     const imageFor = (id: string, who: Starter) => url(resolveIllustration(manifest, { ...initial(who), scene: id }).base);
     const renderArtwork = (snapshot: State, className = '') => <SceneArtwork manifest={manifest} state={snapshot} imageUrl={url} className={className} onError={() => setArtError(true)}/>;
-    const displayScene = scene || byId.lantern;
+    const displayScene = scene || byId.S01;
     const displayStarter = game?.starter || starter;
     const artworkState: State = game ? { ...game, scene: displayScene.id, flags: game.flags, companions: game.companions } : { ...initial(displayStarter), scene: displayScene.id };
     const saveBlocked = Boolean(game && scene?.ending && storageErrors.includes(keys.books));
@@ -278,7 +278,7 @@ export default function App() {
    <ReaderControls preferences={reader} onChange={setReader} openBag={() => openPanel('bag')} openWords={() => openPanel('words')} onRestart={game ? openRestart : undefined}/>
    {t(originalJourney && <p className="branch-notice" role="status">{t("You are exploring another path. Your original adventure is safe. ")}<button className="small-action" onClick={returnToOriginal}>{t("Return to my original adventure")}</button></p>)}
    <div className="book-layout"><div className="book-column">
-    {game&&!game.world&&<p className="branch-notice">{t("You are continuing the previous edition. Your saved choices are preserved.")}</p>}
+    {game&&game.world?.edition!=='3'&&<p className="branch-notice">{t("You are continuing the previous edition. Your saved choices are preserved.")}</p>}
     <div className="chapter-bar"><span className="chapter-dot">{t(game ? scene!.chapter : '✦')}</span><span>{t(game ? `CHAPTER ${scene!.chapter} OF 5` : 'YOUR ADVENTURE AWAITS')}<strong>{t(game ? chapterTitles[scene!.chapter - 1] : 'Every great story begins with a friend.')}</strong></span><span className="page-count">{t(game ? `${game.history.length + 1} pages explored` : '5 chapters · 6 endings')}</span></div>
     <article className="storybook">
      <SceneArtwork manifest={manifest} state={artworkState} imageUrl={url} className="illustration" onError={() => setArtError(true)}><div className="art-badge">{t("\u2727 ")}{t(scene?.ending ? 'A new ending to treasure' : game ? 'The adventure is yours' : 'A world of wonder awaits')}</div></SceneArtwork>

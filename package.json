@@ -10,8 +10,11 @@
     "art": "tsx scripts/art.ts && tsx scripts/sync-painted.ts",
     "build": "tsc -b && vite build && node scripts/build-pwa.mjs",
     "test:full": "pnpm test && pnpm build && node scripts/deployment-test.mjs",
-    "test": "tsx scripts/edition-test.ts && tsx scripts/edition-presentation-test.tsx && tsx scripts/editorial-test.ts",
-    "export:story": "tsx scripts/export-edition.ts"
+    "test": "pnpm test:compat && pnpm test:v3",
+    "export:story": "tsx scripts/export-edition.ts",
+    "test:v3": "tsx scripts/v3-test.ts",
+    "test:compat": "tsx scripts/edition-test.ts && tsx scripts/edition-presentation-test.tsx && tsx scripts/editorial-test.ts",
+    "test:browser:v3": "tsx scripts/browser-v3.ts"
   },
   "dependencies": {
     "react": "^19.0.0",

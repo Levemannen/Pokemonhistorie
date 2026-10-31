@@ -1,3 +1,4 @@
+import v3 from './manuscript-v3.json';
 import norwegian from './nb.json';
 import manuscript from './manuscript-v2.json';
 import {localizedManuscript} from './storyLocale';
@@ -7,6 +8,7 @@ let language:Language='en';
 export const getLanguage=()=>language;
 export function setLanguage(value:Language){language=value;}
 const dictionary:Record<string,string>={...norwegian,...editionUi};
+for(const s of v3){dictionary[s.title]=s.nbTitle;for(const c of s.choices)dictionary[c.label]=c.nb;}
 const revised=localizedManuscript;
 for(const scene of manuscript){
  const nb=revised[scene.id];if(!nb)continue;

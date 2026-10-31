@@ -1,8 +1,10 @@
+import {v3Puzzle} from './v3Puzzles';
 import type {State} from './story';
 export type PuzzleProgress={input:number[];attempts:number;hints:number;solved:boolean};
 export type Puzzle={id:string;title:string;instruction:string;observation:string;kind:'stars'|'melody'|'mechanism';buttons:string[];answer:number[];alternatives?:number[][];hints:string[];success:string};
 export const puzzleIds=['mushrooms','falls','observatory','grove','echoArchive','roots','ferry','windwatch'];
 export function getPuzzle(state:State):Puzzle|null{
+ if(state.world?.edition==='3')return v3Puzzle(state);
  if(state.world&&!['mushrooms','falls','observatory'].includes(state.scene))return null;
  const small:Record<string,Puzzle>={
   grove:{id:'grove',kind:'mechanism',title:`A gentle rescue with ${state.starter}`,instruction:'Pikachu can wiggle free, but you can help without pulling the ivy tight. Try three careful steps.',observation:state.starter==='Bulbasaur'?'A vine can lift the stem; the loop loosens when its weight is supported.':state.starter==='Charmander'?'The dry ivy must stay away from the flame; your hands can hold the stem still.':'A little water softens the earth, letting the stem lift without pulling Pikachu’s ankle.',buttons:['Loosen the loop','Support the stem','Let Pikachu step out'],answer:[1,0,2],hints:['What must stop pulling before the loop can loosen?','Support the stem, loosen the loop, then let Pikachu step out.'],success:'Pikachu is free! It notices how carefully you worked and offers to teach you a steady, gentle spark.'},

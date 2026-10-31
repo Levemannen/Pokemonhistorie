@@ -1,0 +1,422 @@
+[
+  {
+    "scene": "S01",
+    "status": "reused-existing-painting",
+    "path": {
+      "Bulbasaur": "images/scenes/painted/lantern-bulbasaur.png",
+      "Charmander": "images/scenes/painted/lantern-charmander.png",
+      "Squirtle": "images/scenes/painted/lantern-squirtle.png"
+    },
+    "prompt": "Wide 2:1 colorful animated Pokémon adventure storybook illustration, rich painterly detail, warm gold light against blue night, consistent ten-year-old traveler with navy cap, mustard jacket and teal backpack. Scene: The Lantern Before the Dark. Depict this exact situation: Willowbrook smells of fresh buns and rain-soaked wood. Lanterns hang between the houses around the square. You have been trusted with the final lantern, the one to be lit when the first star appears. Beside you stands the Pokémon you have just chosen as your partner.\n\n Bulbasaur brushes a leaf against your wrist, as though checking whether you are shaking.\n\n Charmander tries to warm the cold match and looks extremely pleased with itself.\n\n Squirtle keeps a careful eye on the water bucket beside the stage.\n\n“It isn't a contest to see who lights theirs first,” says Mira. The old mapmaker has ink on her fingers and a rolled-up map under one arm. “It's a contest to see who can wait.”\n\nAn Eevee stands on a crate, struggling to reach a paper lantern hung too high. It lifts its paws, slips, and catches the edge at the last moment. You have just enough time to reach out. Will you help, or call the lantern keeper before lighting yours? Then the first star of the evening appears.\n\nYou lift the match. The point of light above you flickers. Then it goes out.\n\nAnother follows. And another. Nobody. Show the child STANDING or WALKING and actively exploring, not sitting or crouching unless the scene explicitly requires rest. Do not add companions not present in the selected state. Keep one silver seed only before planting; none in hands after planting. No text, labels or UI. Preserve child-friendly atmosphere and safe footing."
+  },
+  {
+    "scene": "S02",
+    "status": "local-svg-fallback",
+    "path": "images/scenes/v3/S02.svg",
+    "prompt": "Wide 2:1 colorful animated Pokémon adventure storybook illustration, rich painterly detail, warm gold light against blue night, consistent ten-year-old traveler with navy cap, mustard jacket and teal backpack. Scene: When the Stars Vanished. Depict this exact situation: For a moment everyone is silent. Then the bell in Starfall Tower begins to ring, high on the mountain. That is impossible. The tower has stood abandoned for years.\n\nThe lanterns in the square shift from gold to a dull blue. A tiny Pichu trips over the ropes around the stage. Eevee curls beneath a bench. On the hill beyond the houses, the night-blooming flowers go dark, one by one.\n\n“The stars!” someone cries. “They're gone!”\n\n“No,” says Mira, so quietly that only you hear. “The stars are still there. Something else is missing.”\n\nBefore you can ask what she means, a silver streak tears across the night. Something lands beyond the square with a sound like breaking glass. Your partner looks at you. Now you have to choose: run toward the sound, or make sure nobody is left alone in the dark.. Show the child STANDING or WALKING and actively exploring, not sitting or crouching unless the scene explicitly requires rest. Do not add companions not present in the selected state. Keep one silver seed only before planting; none in hands after planting. No text, labels or UI. Preserve child-friendly atmosphere and safe footing."
+  },
+  {
+    "scene": "S03",
+    "status": "local-svg-fallback",
+    "path": "images/scenes/v3/S03.svg",
+    "prompt": "Wide 2:1 colorful animated Pokémon adventure storybook illustration, rich painterly detail, warm gold light against blue night, consistent ten-year-old traveler with navy cap, mustard jacket and teal backpack. Scene: The Silver Seed. Depict this exact situation: At the end of the cobbled lane, something has burned a small hollow in the earth. In its center lies an object no larger than an acorn, silver and warm against your fingers. A pattern on its surface resembles an open eye.\n\n“A seed?” you ask.\n\nMira hurries up, unusually out of breath. “Don't plant it. Not yet.”\n\nShe gently closes your hand around the seed. A narrow beam points toward the mountain, vanishes, then returns when you turn. Like an arrow trying to remember where it belongs.\n\n“This is an emergency signal from the Starlight Glass,” Mira says. “It means the machine has stopped releasing the light.”\n\n“Why hasn't anyone told us about it?”\n\nMira looks at the map beneath her arm. “Because I thought it was safer if you didn't know.”. Show the child STANDING or WALKING and actively exploring, not sitting or crouching unless the scene explicitly requires rest. Do not add companions not present in the selected state. Keep one silver seed only before planting; none in hands after planting. No text, labels or UI. Preserve child-friendly atmosphere and safe footing."
+  },
+  {
+    "scene": "S04",
+    "status": "reused-existing-painting",
+    "path": {
+      "Bulbasaur": "images/scenes/painted/scene-square.png",
+      "Charmander": "images/scenes/painted/scene-square.png",
+      "Squirtle": "images/scenes/painted/scene-square.png"
+    },
+    "prompt": "Wide 2:1 colorful animated Pokémon adventure storybook illustration, rich painterly detail, warm gold light against blue night, consistent ten-year-old traveler with navy cap, mustard jacket and teal backpack. Scene: The Hole in the Map. Depict this exact situation: Mira spreads the map across the library table. Where the mountain should be, a square hole has been cut through the paper. She takes a loose section from her coat pocket and fits it back into place. There is Starfall Tower, the observatory, and the route past Moonwood.\n\n“Years ago, there was an accident near the tower,” she says. “A child and a Pokémon were hurt. I cut out the map because I was afraid somebody would go there again.”\n\n“Then nobody could help if something went wrong,” you say.\n\nMira nods without defending herself. “That's what I didn't understand.”\n\nShe draws the path onto your map and points to a small waterwheel by the river. “It drives a cable basket that carries mail up to the tower. If someone is up there, perhaps we can get an answer.”\n\nMira promises to gather lanterns, blankets, warm stones, and helpers. She cannot leave the village while its youngest residents need her. But she will send the supplies after you—not offer a promise of help that never arrives.. Show the child STANDING or WALKING and actively exploring, not sitting or crouching unless the scene explicitly requires rest. Do not add companions not present in the selected state. Keep one silver seed only before planting; none in hands after planting. No text, labels or UI. Preserve child-friendly atmosphere and safe footing."
+  },
+  {
+    "scene": "S05",
+    "status": "reused-existing-painting",
+    "path": {
+      "Bulbasaur": "images/scenes/painted/scene-gate.png",
+      "Charmander": "images/scenes/painted/scene-gate.png",
+      "Squirtle": "images/scenes/painted/scene-gate.png"
+    },
+    "prompt": "Wide 2:1 colorful animated Pokémon adventure storybook illustration, rich painterly detail, warm gold light against blue night, consistent ten-year-old traveler with navy cap, mustard jacket and teal backpack. Scene: The Last Lantern. Depict this exact situation: Before dawn, you stand on the hill above Willowbrook. The lights below are small and unsteady. Your partner walks so close that your shoulder brushes against its side from time to time.\n\n Eevee appears on the path and places a little warm lantern in your hand, disappearing before you can thank it.  You find a lantern Mira has hung on the fence with your name attached.\n\nMoonwood rises before you like a wall of silent trees. The silver seed gives one quick pulse inside your pocket.\n\n“We don't have to be brave all the time,” you tell your partner. “Just long enough for the next step.”\n\nTogether you pass beneath the branches.. Show the child STANDING or WALKING and actively exploring, not sitting or crouching unless the scene explicitly requires rest. Do not add companions not present in the selected state. Keep one silver seed only before planting; none in hands after planting. No text, labels or UI. Preserve child-friendly atmosphere and safe footing."
+  },
+  {
+    "scene": "S06",
+    "status": "local-svg-fallback",
+    "path": "images/scenes/v3/S06.svg",
+    "prompt": "Wide 2:1 colorful animated Pokémon adventure storybook illustration, rich painterly detail, warm gold light against blue night, consistent ten-year-old traveler with navy cap, mustard jacket and teal backpack. Scene: The Forest Holds Its Breath. Depict this exact situation: Moonwood is usually full of sounds. Now it feels as if the forest is holding its breath. Mushrooms that normally glow blue are gray. Wind moves the leaves without making them rustle.\n\nThree stones surround a dried-up pool. Each bears a symbol: leaf, flame, and drop. Your partner touches the symbol that matches it. Light from the silver seed falls onto a fourth stone you hadn't noticed.\n\nA scrap of paper rests by a root: “The right path does not show itself to those who hurry past.”\n\nYou can take time to study the pattern, or follow the obvious path. Both lead onward, but only a careful search reveals one of the hidden signs of the sky.. Show the child STANDING or WALKING and actively exploring, not sitting or crouching unless the scene explicitly requires rest. Do not add companions not present in the selected state. Keep one silver seed only before planting; none in hands after planting. No text, labels or UI. Preserve child-friendly atmosphere and safe footing."
+  },
+  {
+    "scene": "S07",
+    "status": "reused-existing-painting",
+    "path": {
+      "Bulbasaur": "images/scenes/painted/scene-grove.png",
+      "Charmander": "images/scenes/painted/scene-grove.png",
+      "Squirtle": "images/scenes/painted/scene-grove.png"
+    },
+    "prompt": "Wide 2:1 colorful animated Pokémon adventure storybook illustration, rich painterly detail, warm gold light against blue night, consistent ten-year-old traveler with navy cap, mustard jacket and teal backpack. Scene: Pikachu Beneath the Ivy. Depict this exact situation: A sharp crackling sound comes from a clearing. Pikachu is trapped in ivy wound around an old lantern post. Every time it tries an electric jolt, the vines tighten. “Pika!” it cries, furious and frightened at once.\n\n“Don't use any more electricity!” you call. “The plants react to the light.”\n\n Bulbasaur can loosen the roots without hurting them.\n\n Charmander can gently warm the post so it expands and the ivy slips free, but must keep its tail away from the leaves.\n\n Squirtle can soak the ground and free the lowest root.\n\nWhatever you do, you must first cover the flashing lamp.. Show the child STANDING or WALKING and actively exploring, not sitting or crouching unless the scene explicitly requires rest. Do not add companions not present in the selected state. Keep one silver seed only before planting; none in hands after planting. No text, labels or UI. Preserve child-friendly atmosphere and safe footing."
+  },
+  {
+    "scene": "S08",
+    "status": "local-svg-fallback",
+    "path": "images/scenes/v3/S08.svg",
+    "prompt": "Wide 2:1 colorful animated Pokémon adventure storybook illustration, rich painterly detail, warm gold light against blue night, consistent ten-year-old traveler with navy cap, mustard jacket and teal backpack. Scene: Hoothoot’s Home. Depict this exact situation: A Hoothoot nest hangs crooked over a stream. A broken branch support bends whenever the wind rises. Inside are two polished stones and one small egg.\n\nHoothoot sits across the water, watching you with the expression of someone who has already decided you're going to do something foolish.\n\n“We can't just pull it down,” you say. “We need to make it safe first.”. Show the child STANDING or WALKING and actively exploring, not sitting or crouching unless the scene explicitly requires rest. Do not add companions not present in the selected state. Keep one silver seed only before planting; none in hands after planting. No text, labels or UI. Preserve child-friendly atmosphere and safe footing."
+  },
+  {
+    "scene": "S09",
+    "status": "reused-existing-painting",
+    "path": {
+      "Bulbasaur": "images/scenes/painted/scene-roots.png",
+      "Charmander": "images/scenes/painted/scene-roots.png",
+      "Squirtle": "images/scenes/painted/scene-roots.png"
+    },
+    "prompt": "Wide 2:1 colorful animated Pokémon adventure storybook illustration, rich painterly detail, warm gold light against blue night, consistent ten-year-old traveler with navy cap, mustard jacket and teal backpack. Scene: The Tree That Remembers. Depict this exact situation: An oak tree stands in the middle of the path. Its face can be seen only when the lantern is held low. “I remember those who pass through the woods,” it creaks. “But who remembers those who must stay behind?”\n\nAt its roots are four hollows: one filled with moss, one with ash, one with water, and one empty. Your partner sniffs the empty space. You realize this isn't a test of guessing a word. It's a test of remembering what the forest needs.\n\nIf you helped Pikachu or Hoothoot, you can tell the tree what you learned. Otherwise, you can inspect the hollows and discover the same answer: No path is safe if you forget those you leave behind.. Show the child STANDING or WALKING and actively exploring, not sitting or crouching unless the scene explicitly requires rest. Do not add companions not present in the selected state. Keep one silver seed only before planting; none in hands after planting. No text, labels or UI. Preserve child-friendly atmosphere and safe footing."
+  },
+  {
+    "scene": "S10",
+    "status": "local-svg-fallback",
+    "path": "images/scenes/v3/S10.svg",
+    "prompt": "Wide 2:1 colorful animated Pokémon adventure storybook illustration, rich painterly detail, warm gold light against blue night, consistent ten-year-old traveler with navy cap, mustard jacket and teal backpack. Scene: The Camp with Two Cups. Depict this exact situation: Between the firs you find the remains of a fire, two cups, and a blanket folded over a flat stone. One cup is small and bears a mark shaped like a lightning paw. Beside it lies a photograph of a Clefairy and a Shinx. Each wears a separate yellow scarf.\n\nOn the back of the photograph someone has written: “If you get scared, I'll sit with you until you aren't scared anymore. —L.”\n\nThe crescent lens reveals tiny stars scratched into the cup. Without it you can still read the photograph and follow the trail, but you won't realize that the marks form the first part of an ancient star map.\n\nA footstep rustles deeper in the woods. Someone has been here recently. Whoever left the campsite took one cup away and put it back. Why would someone do that if they never meant to return?. Show the child STANDING or WALKING and actively exploring, not sitting or crouching unless the scene explicitly requires rest. Do not add companions not present in the selected state. Keep one silver seed only before planting; none in hands after planting. No text, labels or UI. Preserve child-friendly atmosphere and safe footing."
+  },
+  {
+    "scene": "S11",
+    "status": "reused-existing-painting",
+    "path": {
+      "Bulbasaur": "images/scenes/painted/scene-bank.png",
+      "Charmander": "images/scenes/painted/scene-bank.png",
+      "Squirtle": "images/scenes/painted/scene-bank.png"
+    },
+    "prompt": "Wide 2:1 colorful animated Pokémon adventure storybook illustration, rich painterly detail, warm gold light against blue night, consistent ten-year-old traveler with navy cap, mustard jacket and teal backpack. Scene: The Missing Bridge. Depict this exact situation: The river is higher than it appears on the map. Where the bridge should be, two ropes and half a plank hang above the water. On the far bank, Psyduck stares at a wheel that has slipped off its axle. It raises its paws to its head, lowers them, and starts again.\n\nLapras lies farther downstream in a cove, a length of cord wound around one fin. Each time it tries to move, the cord tightens.\n\n“We can make a way across,” you say. “Or we can help the ones who already know the river.”\n\nNobody can simply teleport you across. Each solution requires work: patching the planks with rope, helping Lapras after freeing its fin, or restoring Psyduck's waterwheel by calmly gathering its pieces.. Show the child STANDING or WALKING and actively exploring, not sitting or crouching unless the scene explicitly requires rest. Do not add companions not present in the selected state. Keep one silver seed only before planting; none in hands after planting. No text, labels or UI. Preserve child-friendly atmosphere and safe footing."
+  },
+  {
+    "scene": "S12",
+    "status": "reused-existing-painting",
+    "path": {
+      "Bulbasaur": "images/scenes/painted/scene-ferry.png",
+      "Charmander": "images/scenes/painted/scene-ferry.png",
+      "Squirtle": "images/scenes/painted/scene-ferry.png"
+    },
+    "prompt": "Wide 2:1 colorful animated Pokémon adventure storybook illustration, rich painterly detail, warm gold light against blue night, consistent ten-year-old traveler with navy cap, mustard jacket and teal backpack. Scene: The Little Engineer. Depict this exact situation: Psyduck tries to hold two bolts, a nut, and a sketch at the same time. Everything falls into the river. It stares at you, utterly discouraged.\n\n“Maybe one thing at a time?” you suggest.. Show the child STANDING or WALKING and actively exploring, not sitting or crouching unless the scene explicitly requires rest. Do not add companions not present in the selected state. Keep one silver seed only before planting; none in hands after planting. No text, labels or UI. Preserve child-friendly atmosphere and safe footing."
+  },
+  {
+    "scene": "S13",
+    "status": "reused-existing-painting",
+    "path": {
+      "Bulbasaur": "images/scenes/painted/scene-brook-v3.png",
+      "Charmander": "images/scenes/painted/scene-brook-v3.png",
+      "Squirtle": "images/scenes/painted/scene-brook-v3.png"
+    },
+    "prompt": "Wide 2:1 colorful animated Pokémon adventure storybook illustration, rich painterly detail, warm gold light against blue night, consistent ten-year-old traveler with navy cap, mustard jacket and teal backpack. Scene: The Letter That Came Down. Depict this exact situation: A white slip of paper floats downstream toward you, folded around a small glass weight. It reads: “The light needs to stay here a little longer. Please. —L.”\n\nOn the back is a hurried drawing of a Shinx beside a stove. Someone has sketched an extra blanket over it, and another, as if they could not stop drawing more.\n\n“Someone is up at the tower,” you say. “And someone is afraid.”\n\nYou can send an answer using the cable basket. It travels uphill as the waterwheel turns. There is no guarantee the writer will answer, but your words may change the way she greets you later.. Show the child STANDING or WALKING and actively exploring, not sitting or crouching unless the scene explicitly requires rest. Do not add companions not present in the selected state. Keep one silver seed only before planting; none in hands after planting. No text, labels or UI. Preserve child-friendly atmosphere and safe footing."
+  },
+  {
+    "scene": "S14",
+    "status": "reused-existing-painting",
+    "path": {
+      "Bulbasaur": "images/scenes/painted/scene-island.png",
+      "Charmander": "images/scenes/painted/scene-island.png",
+      "Squirtle": "images/scenes/painted/scene-island.png"
+    },
+    "prompt": "Wide 2:1 colorful animated Pokémon adventure storybook illustration, rich painterly detail, warm gold light against blue night, consistent ten-year-old traveler with navy cap, mustard jacket and teal backpack. Scene: The Island That Shows Yesterday. Depict this exact situation: On the little island in the middle of the river stands a stone column holding a disk of dark glass. When you raise the crescent lens before it, a stripe of silver light crosses the stone. An image appears: a tower room during a winter storm. Two small figures run between the stoves.\n\nA Shinx slips on a wet stair. A Clefairy reaches for him but cannot catch him. The image flickers and vanishes before you can see what happened next.\n\n“It's a memory,” you whisper. “Not what's happening now.”\n\nWithout the lens, you can read the same essential facts on a weathered plaque, but only the lens reveals a hidden moon rune around the glass. Once again, the old technology distinguishes between passing by and paying attention.. Show the child STANDING or WALKING and actively exploring, not sitting or crouching unless the scene explicitly requires rest. Do not add companions not present in the selected state. Keep one silver seed only before planting; none in hands after planting. No text, labels or UI. Preserve child-friendly atmosphere and safe footing."
+  },
+  {
+    "scene": "S15",
+    "status": "reused-existing-painting",
+    "path": {
+      "Bulbasaur": "images/scenes/painted/scene-windwatch.png",
+      "Charmander": "images/scenes/painted/scene-windwatch.png",
+      "Squirtle": "images/scenes/painted/scene-windwatch.png"
+    },
+    "prompt": "Wide 2:1 colorful animated Pokémon adventure storybook illustration, rich painterly detail, warm gold light against blue night, consistent ten-year-old traveler with navy cap, mustard jacket and teal backpack. Scene: Altaria’s Nest. Depict this exact situation: Altaria's nest rests on a small cliff. Three chicks huddle together, but a fourth is missing. Altaria looks from the clouds to the bushes below. It cannot leave the chicks to search.\n\nYou find the fourth chick trembling beneath a root, frightened but unhurt. You can take time to gather all four, or ask Altaria to show you the mountain path and let it find the chick itself. If you help, Altaria offers a soft feather that holds warmth when wrapped around a heated stone. It cannot create heat from nothing.\n\nYour partner looks toward the path. Along the horizon, a wave of darkness washes across the forest. For one instant the lanterns beside the river go out as well.. Show the child STANDING or WALKING and actively exploring, not sitting or crouching unless the scene explicitly requires rest. Do not add companions not present in the selected state. Keep one silver seed only before planting; none in hands after planting. No text, labels or UI. Preserve child-friendly atmosphere and safe footing."
+  },
+  {
+    "scene": "S16",
+    "status": "reused-existing-painting",
+    "path": {
+      "Bulbasaur": "images/scenes/painted/scene-hollow-v3.png",
+      "Charmander": "images/scenes/painted/scene-hollow-v3.png",
+      "Squirtle": "images/scenes/painted/scene-hollow-v3.png"
+    },
+    "prompt": "Wide 2:1 colorful animated Pokémon adventure storybook illustration, rich painterly detail, warm gold light against blue night, consistent ten-year-old traveler with navy cap, mustard jacket and teal backpack. Scene: The Second Wave of Darkness. Depict this exact situation: The darkness no longer comes only from above. It creeps between the stones like a silent rising sea. Flowers along the mountain path have closed their petals. Your little lantern from Willowbrook begins to fade.\n\n“If the light keeps disappearing, it won't just get dark,” you say. “It'll get cold.”\n\nA Gastly appears before an old cave passage. It isn't frightening; it looks mostly offended that nobody has visited it in so long. “Gas-tly!” it declares, pointing firmly toward a side tunnel.\n\nInside lies a story of the people who built the tower to share warmth during storms. You can listen or continue. Gastly will still show you the safe way out, but an ancient verse may matter later.. Show the child STANDING or WALKING and actively exploring, not sitting or crouching unless the scene explicitly requires rest. Do not add companions not present in the selected state. Keep one silver seed only before planting; none in hands after planting. No text, labels or UI. Preserve child-friendly atmosphere and safe footing."
+  },
+  {
+    "scene": "S17",
+    "status": "local-svg-fallback",
+    "path": "images/scenes/v3/S17.svg",
+    "prompt": "Wide 2:1 colorful animated Pokémon adventure storybook illustration, rich painterly detail, warm gold light against blue night, consistent ten-year-old traveler with navy cap, mustard jacket and teal backpack. Scene: The Gate That Will Not Yield. Depict this exact situation: At the observatory's lower wall, the road ends. An iron gate is locked from within. Above it are three circles: moon, sun, and star. A brass socket matches the crescent lens.\n\nIf you have the moon rune, you can read the hidden lock. If Pikachu travels with you, it can power an old motor after you find its switch. Otherwise, you can fetch a rusted crank from the tool shed outside and take time to repair the gearing. None of these methods works without its particular effort.. Show the child STANDING or WALKING and actively exploring, not sitting or crouching unless the scene explicitly requires rest. Do not add companions not present in the selected state. Keep one silver seed only before planting; none in hands after planting. No text, labels or UI. Preserve child-friendly atmosphere and safe footing."
+  },
+  {
+    "scene": "S18",
+    "status": "local-svg-fallback",
+    "path": "images/scenes/v3/S18.svg",
+    "prompt": "Wide 2:1 colorful animated Pokémon adventure storybook illustration, rich painterly detail, warm gold light against blue night, consistent ten-year-old traveler with navy cap, mustard jacket and teal backpack. Scene: The Book from a Hundred Years Ago. Depict this exact situation: In the observatory archive, books rest beneath dusty glass bells. Gastly floats ahead if you became friends; otherwise your partner finds the door by following a ribbon of warm air. On the table is a booklet a hundred years old. Beside it lies a newer page in shaky handwriting: “One more night. Just one more night.”\n\nThe old booklet explains that Starlight Glass gathers the light that would otherwise reach the valley, providing warmth during storms. Every day its keeper must release the physical lock so the light can return. Left closed too long, pressure rises and more and more light is drawn in.\n\nThe newer page is separate from the booklet. These are Lumi's own notes. Between the lines you find temperature readings and Shinx's rest periods. She has not stopped paying attention. She has become too frightened to stop.\n\nThe booklet describes three ancient rings: Sky, Heart, and Earth. None offers a magical cure. Each requires a safe source of warmth before the lock is opened.. Show the child STANDING or WALKING and actively exploring, not sitting or crouching unless the scene explicitly requires rest. Do not add companions not present in the selected state. Keep one silver seed only before planting; none in hands after planting. No text, labels or UI. Preserve child-friendly atmosphere and safe footing."
+  },
+  {
+    "scene": "S19",
+    "status": "local-svg-fallback",
+    "path": "images/scenes/v3/S19.svg",
+    "prompt": "Wide 2:1 colorful animated Pokémon adventure storybook illustration, rich painterly detail, warm gold light against blue night, consistent ten-year-old traveler with navy cap, mustard jacket and teal backpack. Scene: Mira’s Secret, Once More. Depict this exact situation: Behind glass in the archive lies an old maintenance letter, written by Mira years ago: “Railing loose. Close the stairs before someone gets hurt.” Below it, in another hand: “Repair postponed.” You take note of both lines. Mira had warned someone, but she did not follow up when no one answered.\n\nThe speaking tube crackles. “I thought sending the letter was enough,” Mira says from the supply porch. “After the accident, I cut the tower off the map. That only made help harder to reach.”\n\n“You can't change that,” you say. “But you can help us now.”\n\n“I'm trying.” Through the window, you see volunteers carrying crates under shelter. Supplies are here: stones to heat, blankets, a basket, lanterns, and the names of people willing to help. Mira does not climb the stairs; she coordinates everyone who needs her below.\n\nYou choose which plan to investigate first. Looking at supplies does not mean the plan is ready.. Show the child STANDING or WALKING and actively exploring, not sitting or crouching unless the scene explicitly requires rest. Do not add companions not present in the selected state. Keep one silver seed only before planting; none in hands after planting. No text, labels or UI. Preserve child-friendly atmosphere and safe footing."
+  },
+  {
+    "scene": "S20",
+    "status": "reused-existing-painting",
+    "path": {
+      "Bulbasaur": "images/scenes/painted/scene-stairs-v3.png",
+      "Charmander": "images/scenes/painted/scene-stairs-v3.png",
+      "Squirtle": "images/scenes/painted/scene-stairs-v3.png"
+    },
+    "prompt": "Wide 2:1 colorful animated Pokémon adventure storybook illustration, rich painterly detail, warm gold light against blue night, consistent ten-year-old traveler with navy cap, mustard jacket and teal backpack. Scene: The Final Stair. Depict this exact situation: The upper stair is still damaged. This is where Shinx once fell. Now a stone slips beneath your own foot. Your partner catches you just in time.\n\nOn the wall hangs a yellow scarf with a name tag: SHINX. A little farther along, another knot of yellow thread is wedged in a crack. The photograph from the woods suddenly means something else. They were two friends—not one rescuer and someone who needed rescuing.\n\nBehind the closed door you hear movement. “Who's there?” asks a voice.\n\n“We've come from Willowbrook,” you answer.\n\n“Go back.” The voice is small but firm. “I can't open it. He needs the heat.”\n\nYou sit on the cold stair. “Then we won't take it from him,” you say. “First, we need to hear what he wants.”. Show the child STANDING or WALKING and actively exploring, not sitting or crouching unless the scene explicitly requires rest. Do not add companions not present in the selected state. Keep one silver seed only before planting; none in hands after planting. No text, labels or UI. Preserve child-friendly atmosphere and safe footing."
+  },
+  {
+    "scene": "S21",
+    "status": "reused-existing-painting",
+    "path": {
+      "Bulbasaur": "images/scenes/painted/scene-lumi.png",
+      "Charmander": "images/scenes/painted/scene-lumi.png",
+      "Squirtle": "images/scenes/painted/scene-lumi.png"
+    },
+    "prompt": "Wide 2:1 colorful animated Pokémon adventure storybook illustration, rich painterly detail, warm gold light against blue night, consistent ten-year-old traveler with navy cap, mustard jacket and teal backpack. Scene: The One Who Held Back the Light. Depict this exact situation: The narrow inspection hatch opens. A Clefairy watches you with eyes that have barely slept for days. “My name is Lumi,” she says. “I closed the lock.”\n\nBehind her rises Starlight Glass: a huge dome filled with the valley's captured starlight, a swirling silver-white storm. Beside the stove lies Shinx, awake but tired. He gives you a wink.\n\n“She's very good at arranging blankets,” he says. “Not quite as good at listening when I tell her four is enough.”\n\nLumi smiles, and the smile fades. “I thought we needed only one night. He'd be stronger by morning. But the next night he was still weak, and I couldn't make myself open it.”\n\nYou tell her about the dark flowers, the cooling lanterns, and the silent forest. Lumi looks toward the light trapped in the glass. “I knew it was wrong,” she says. “I just didn't know how to make it right.”. Show the child STANDING or WALKING and actively exploring, not sitting or crouching unless the scene explicitly requires rest. Do not add companions not present in the selected state. Keep one silver seed only before planting; none in hands after planting. No text, labels or UI. Preserve child-friendly atmosphere and safe footing."
+  },
+  {
+    "scene": "S22",
+    "status": "reused-existing-painting",
+    "path": {
+      "Bulbasaur": "images/scenes/painted/scene-listen.png",
+      "Charmander": "images/scenes/painted/scene-listen.png",
+      "Squirtle": "images/scenes/painted/scene-listen.png"
+    },
+    "prompt": "Wide 2:1 colorful animated Pokémon adventure storybook illustration, rich painterly detail, warm gold light against blue night, consistent ten-year-old traveler with navy cap, mustard jacket and teal backpack. Scene: Shinx Gets a Say. Depict this exact situation: “I want to stay warm,” says Shinx. “But I don't want the whole valley to freeze because of me.”\n\nLumi sits beside him. “When I open the lock, the stove could lose its heat.”\n\n“Then we need something that works before you open it,” says Shinx. “And I want to know where I'll be. Don't decide over my head.”\n\nYou show Shinx only the plans you have actually prepared.\n\n For Sky, the basket has been tested and the stones wrapped in layers that cannot burn him.\n\n For Heart, the volunteers Ada and Bo have agreed to take shifts and the lanterns have been tested.\n\n For Earth, you have read the instructions, warmed the soil, and prepared a backup heater while the plant takes time to sprout.\n\n“I can agree to more than one,” says Shinx. “But I want to choose which one we use when we know it works.”. Show the child STANDING or WALKING and actively exploring, not sitting or crouching unless the scene explicitly requires rest. Do not add companions not present in the selected state. Keep one silver seed only before planting; none in hands after planting. No text, labels or UI. Preserve child-friendly atmosphere and safe footing."
+  },
+  {
+    "scene": "S23",
+    "status": "local-svg-fallback",
+    "path": "images/scenes/v3/S23.svg",
+    "prompt": "Wide 2:1 colorful animated Pokémon adventure storybook illustration, rich painterly detail, warm gold light against blue night, consistent ten-year-old traveler with navy cap, mustard jacket and teal backpack. Scene: The Glass Begins to Crack. Depict this exact situation: A white crack of light darts through the dome. The ancient bell tolls once though no one has touched it. On the wall, the red needle sinks toward a section labeled last safe release.\n\n“We don't have much time,” says Lumi.\n\nYou ask her to wait just long enough to check the plan.\n\n Beneath a blanket lie properly wrapped warm stones.\n\n Two volunteers have lit and tested the lanterns.\n\n A warm backup heater stands beside the prepared Earth pot.\n\nShinx feels the warmth himself. He nods if the plan is safe.\n\n“I'm frightened,” Lumi whispers.\n\n“You can be,” says Shinx. “Just listen when I tell you I'm ready.”\n\nTogether you approach the three rings. No lock has opened yet. No seed has been planted yet.. Show the child STANDING or WALKING and actively exploring, not sitting or crouching unless the scene explicitly requires rest. Do not add companions not present in the selected state. Keep one silver seed only before planting; none in hands after planting. No text, labels or UI. Preserve child-friendly atmosphere and safe footing."
+  },
+  {
+    "scene": "S24",
+    "status": "reused-existing-painting",
+    "path": {
+      "Bulbasaur": "images/scenes/painted/scene-plan.png",
+      "Charmander": "images/scenes/painted/scene-plan.png",
+      "Squirtle": "images/scenes/painted/scene-plan.png"
+    },
+    "prompt": "Wide 2:1 colorful animated Pokémon adventure storybook illustration, rich painterly detail, warm gold light against blue night, consistent ten-year-old traveler with navy cap, mustard jacket and teal backpack. Scene: The Choice That Matters. Depict this exact situation: Three rings are carved into the floor. Sky points toward the carrying basket, Heart toward the waiting volunteers, and Earth toward the pot beside the stove. Only the signs you have truly prepared are lit.\n\n“You can't just choose a pretty symbol,” says Shinx. “You have to choose the way that will keep me warm.”\n\nYou look at Lumi. Her hand hovers above the keeper's lock. She waits for your choice and Shinx's confirmation. You must first put the chosen warmth plan into operation. Only then may she release the lock.. Show the child STANDING or WALKING and actively exploring, not sitting or crouching unless the scene explicitly requires rest. Do not add companions not present in the selected state. Keep one silver seed only before planting; none in hands after planting. No text, labels or UI. Preserve child-friendly atmosphere and safe footing."
+  },
+  {
+    "scene": "S25",
+    "status": "local-svg-fallback",
+    "path": "images/scenes/v3/S25.svg",
+    "prompt": "Wide 2:1 colorful animated Pokémon adventure storybook illustration, rich painterly detail, warm gold light against blue night, consistent ten-year-old traveler with navy cap, mustard jacket and teal backpack. Scene: A Sky That Remembers. Depict this exact situation:  From the mountain you watch starlight return to Willowbrook. First a darkened flower becomes silver again. Then window after window shines. The stars were there all along—their light has finally found its way back to the valley.\n\nIn the square, Mira holds a repaired map. “No holes this time,” she says. After a quiet moment she adds, “And no more secrets when safety is at stake.”\n\n Pikachu appears on the trail.  One of Mira's helpers waves. “Pikachu is safe at home!”  The old lantern post stands silent now.\n\n Hoothoot returns to a secure nest.  A helper fastens a new support beneath Hoothoot's branch while you watch.\n\n Altaria circles the tower with her whole flock.  A distant call tells you Altaria is still searching; Mira promises to send a search party.\n\nLumi stays beside Shinx, who still needs rest and care. Your partner leans against you. The adventure is over, but an unusual shimmer dances inside your map if you uncovered the valley's oldest secrets.. Show the child STANDING or WALKING and actively exploring, not sitting or crouching unless the scene explicitly requires rest. Do not add companions not present in the selected state. Keep one silver seed only before planting; none in hands after planting. No text, labels or UI. Preserve child-friendly atmosphere and safe footing."
+  },
+  {
+    "scene": "Q_PREP",
+    "status": "local-svg-fallback",
+    "path": "images/scenes/v3/Q_PREP.svg",
+    "prompt": "Wide 2:1 colorful animated Pokémon adventure storybook illustration, rich painterly detail, warm gold light against blue night, consistent ten-year-old traveler with navy cap, mustard jacket and teal backpack. Scene: The Supply Porch. Depict this exact situation: Mira has marked the supply chest with three signs. “You can prepare more than one option,” she says through the speaking tube. “But test them. Check the heat. And ask Shinx what he wants.”\n\n Sky: You heat four stones, wrap them in cloth, and place them beneath a false bottom in the basket. Your partner tests the distance with a paw. “Not too hot, not too cold.” A helper shows how to carry the basket without jostling Shinx.\n\n Heart: You ask two volunteers whether they can genuinely take a shift each. Both agree. You light the lanterns and check that the room stays warm even when one lantern goes out. “Then I take over,” says the second watcher, showing you the spare oil.\n\n Earth: The archive says the silver seed can retain existing warmth once rooted—but it cannot create warmth from nothing. You warm the soil, fuel a small backup heater, and place a blanket beside the pot. “The seed needs time,” you say. “Shinx mustn't freeze while we're hoping it works.”. Show the child STANDING or WALKING and actively exploring, not sitting or crouching unless the scene explicitly requires rest. Do not add companions not present in the selected state. Keep one silver seed only before planting; none in hands after planting. No text, labels or UI. Preserve child-friendly atmosphere and safe footing."
+  },
+  {
+    "scene": "Q_RETURN",
+    "status": "local-svg-fallback",
+    "path": "images/scenes/v3/Q_RETURN.svg",
+    "prompt": "Wide 2:1 colorful animated Pokémon adventure storybook illustration, rich painterly detail, warm gold light against blue night, consistent ten-year-old traveler with navy cap, mustard jacket and teal backpack. Scene: One Last Journey Through the Valley. Depict this exact situation: Mira has circled places that may still need help. “We can make one more round before opening the Glass,” she says through the speaking tube. “You choose where we go; I'll arrange safe transport.” Volunteers guide you down the marked path to the river and forest. Each trip takes time; you hear the tower bell in the distance, but no player is locked out of the main story.. Show the child STANDING or WALKING and actively exploring, not sitting or crouching unless the scene explicitly requires rest. Do not add companions not present in the selected state. Keep one silver seed only before planting; none in hands after planting. No text, labels or UI. Preserve child-friendly atmosphere and safe footing."
+  },
+  {
+    "scene": "Q_RECONCILE",
+    "status": "local-svg-fallback",
+    "path": "images/scenes/v3/Q_RECONCILE.svg",
+    "prompt": "Wide 2:1 colorful animated Pokémon adventure storybook illustration, rich painterly detail, warm gold light against blue night, consistent ten-year-old traveler with navy cap, mustard jacket and teal backpack. Scene: The Letter You Never Wrote. Depict this exact situation: A blank sheet of paper lies on the supply-room desk. You remember the traces Lumi left: a warm stone, a threadbare blanket, and a small print from Shinx's paw. At first you thought they belonged to a thief. Now you know better. Slowly you write: “I know you were trying to help. We aren't coming to take away Shinx's warmth. We're coming to find a better way together.” Mira reads the letter. “I should have written that long ago,” she says. She sends it through the speaking tube, and you hear Lumi read it softly to Shinx.. Show the child STANDING or WALKING and actively exploring, not sitting or crouching unless the scene explicitly requires rest. Do not add companions not present in the selected state. Keep one silver seed only before planting; none in hands after planting. No text, labels or UI. Preserve child-friendly atmosphere and safe footing."
+  },
+  {
+    "scene": "Q_ARCHIVE",
+    "status": "local-svg-fallback",
+    "path": "images/scenes/v3/Q_ARCHIVE.svg",
+    "prompt": "Wide 2:1 colorful animated Pokémon adventure storybook illustration, rich painterly detail, warm gold light against blue night, consistent ten-year-old traveler with navy cap, mustard jacket and teal backpack. Scene: The Hidden Archive Page. Depict this exact situation: You hold the lens against the spine of the book about the three rings. A constellation appears in the margin; you copy it before returning the book.. Show the child STANDING or WALKING and actively exploring, not sitting or crouching unless the scene explicitly requires rest. Do not add companions not present in the selected state. Keep one silver seed only before planting; none in hands after planting. No text, labels or UI. Preserve child-friendly atmosphere and safe footing."
+  },
+  {
+    "scene": "Q_VILLAGE",
+    "status": "local-svg-fallback",
+    "path": "images/scenes/v3/Q_VILLAGE.svg",
+    "prompt": "Wide 2:1 colorful animated Pokémon adventure storybook illustration, rich painterly detail, warm gold light against blue night, consistent ten-year-old traveler with navy cap, mustard jacket and teal backpack. Scene: The Lantern Stand. Depict this exact situation: Eevee stands beside the lantern stand; Pichu is trying to untangle a cord inside a lantern. You help both down, put the cord away, and show them a safe place if the darkness returns. Eevee nudges a small lantern toward you.. Show the child STANDING or WALKING and actively exploring, not sitting or crouching unless the scene explicitly requires rest. Do not add companions not present in the selected state. Keep one silver seed only before planting; none in hands after planting. No text, labels or UI. Preserve child-friendly atmosphere and safe footing."
+  },
+  {
+    "scene": "Q_PIKACHU",
+    "status": "reused-existing-painting",
+    "path": {
+      "Bulbasaur": "images/scenes/painted/scene-grove.png",
+      "Charmander": "images/scenes/painted/scene-grove.png",
+      "Squirtle": "images/scenes/painted/scene-grove.png"
+    },
+    "prompt": "Wide 2:1 colorful animated Pokémon adventure storybook illustration, rich painterly detail, warm gold light against blue night, consistent ten-year-old traveler with navy cap, mustard jacket and teal backpack. Scene: Ivy Again. Depict this exact situation: Pikachu is still trapped—or Mira's volunteers have just arrived if you sent word. You cover the lamp before loosening the roots. “Pika!” It shakes its paws free and chooses to go with the helpers. Pikachu does not automatically become a companion now.. Show the child STANDING or WALKING and actively exploring, not sitting or crouching unless the scene explicitly requires rest. Do not add companions not present in the selected state. Keep one silver seed only before planting; none in hands after planting. No text, labels or UI. Preserve child-friendly atmosphere and safe footing."
+  },
+  {
+    "scene": "Q_HOOTHOOT",
+    "status": "local-svg-fallback",
+    "path": "images/scenes/v3/Q_HOOTHOOT.svg",
+    "prompt": "Wide 2:1 colorful animated Pokémon adventure storybook illustration, rich painterly detail, warm gold light against blue night, consistent ten-year-old traveler with navy cap, mustard jacket and teal backpack. Scene: Nest in the Wind. Depict this exact situation: Hoothoot's eyes widen as the branch creaks again. You and your partner wedge bark under the support and check the egg. In thanks, Hoothoot places a polished stone at your feet.. Show the child STANDING or WALKING and actively exploring, not sitting or crouching unless the scene explicitly requires rest. Do not add companions not present in the selected state. Keep one silver seed only before planting; none in hands after planting. No text, labels or UI. Preserve child-friendly atmosphere and safe footing."
+  },
+  {
+    "scene": "Q_LAPRAS",
+    "status": "reused-existing-painting",
+    "path": {
+      "Bulbasaur": "images/scenes/painted/scene-lapras.png",
+      "Charmander": "images/scenes/painted/scene-lapras.png",
+      "Squirtle": "images/scenes/painted/scene-lapras.png"
+    },
+    "prompt": "Wide 2:1 colorful animated Pokémon adventure storybook illustration, rich painterly detail, warm gold light against blue night, consistent ten-year-old traveler with navy cap, mustard jacket and teal backpack. Scene: Cord in the River. Depict this exact situation: Lapras holds its fin perfectly still as you loosen the cord with a smooth stick. Once free, it gives you a short, safe ride along the bank.. Show the child STANDING or WALKING and actively exploring, not sitting or crouching unless the scene explicitly requires rest. Do not add companions not present in the selected state. Keep one silver seed only before planting; none in hands after planting. No text, labels or UI. Preserve child-friendly atmosphere and safe footing."
+  },
+  {
+    "scene": "Q_PSYDUCK",
+    "status": "reused-existing-painting",
+    "path": {
+      "Bulbasaur": "images/scenes/painted/scene-reedWorkshop.png",
+      "Charmander": "images/scenes/painted/scene-reedWorkshop.png",
+      "Squirtle": "images/scenes/painted/scene-reedWorkshop.png"
+    },
+    "prompt": "Wide 2:1 colorful animated Pokémon adventure storybook illustration, rich painterly detail, warm gold light against blue night, consistent ten-year-old traveler with navy cap, mustard jacket and teal backpack. Scene: A Wheel in Place. Depict this exact situation: “Not everything at once,” you tell Psyduck. “First the axle. Then the nut.” Psyduck completes the final step itself. The cable basket runs smoothly and Psyduck beams.. Show the child STANDING or WALKING and actively exploring, not sitting or crouching unless the scene explicitly requires rest. Do not add companions not present in the selected state. Keep one silver seed only before planting; none in hands after planting. No text, labels or UI. Preserve child-friendly atmosphere and safe footing."
+  },
+  {
+    "scene": "Q_BRIDGE",
+    "status": "reused-existing-painting",
+    "path": {
+      "Bulbasaur": "images/scenes/painted/scene-bridge.png",
+      "Charmander": "images/scenes/painted/scene-bridge.png",
+      "Squirtle": "images/scenes/painted/scene-bridge.png"
+    },
+    "prompt": "Wide 2:1 colorful animated Pokémon adventure storybook illustration, rich painterly detail, warm gold light against blue night, consistent ten-year-old traveler with navy cap, mustard jacket and teal backpack. Scene: Rope Across the Current. Depict this exact situation: The rope in the bridge toolbox is dry. You fasten it to sound posts, have your partner test the knots, and hang a warning sign for those who follow. The bridge is passable again.. Show the child STANDING or WALKING and actively exploring, not sitting or crouching unless the scene explicitly requires rest. Do not add companions not present in the selected state. Keep one silver seed only before planting; none in hands after planting. No text, labels or UI. Preserve child-friendly atmosphere and safe footing."
+  },
+  {
+    "scene": "Q_ALTARIA",
+    "status": "reused-existing-painting",
+    "path": {
+      "Bulbasaur": "images/scenes/painted/scene-windwatch.png",
+      "Charmander": "images/scenes/painted/scene-windwatch.png",
+      "Squirtle": "images/scenes/painted/scene-windwatch.png"
+    },
+    "prompt": "Wide 2:1 colorful animated Pokémon adventure storybook illustration, rich painterly detail, warm gold light against blue night, consistent ten-year-old traveler with navy cap, mustard jacket and teal backpack. Scene: The Missing Chick. Depict this exact situation: A peep comes from under a root. An Altaria chick is wedged between two stones. You lift carefully as your partner braces the root. Altaria finds its chick and lets a loose feather fall at your feet.. Show the child STANDING or WALKING and actively exploring, not sitting or crouching unless the scene explicitly requires rest. Do not add companions not present in the selected state. Keep one silver seed only before planting; none in hands after planting. No text, labels or UI. Preserve child-friendly atmosphere and safe footing."
+  },
+  {
+    "scene": "Q_GASTLY",
+    "status": "reused-existing-painting",
+    "path": {
+      "Bulbasaur": "images/scenes/painted/scene-hollow-v3.png",
+      "Charmander": "images/scenes/painted/scene-hollow-v3.png",
+      "Squirtle": "images/scenes/painted/scene-hollow-v3.png"
+    },
+    "prompt": "Wide 2:1 colorful animated Pokémon adventure storybook illustration, rich painterly detail, warm gold light against blue night, consistent ten-year-old traveler with navy cap, mustard jacket and teal backpack. Scene: One Last Story. Depict this exact situation: Gastly waits beside the cave. “Most people rush on,” it says. You sit and listen. Before you leave, it teaches you the shift-changing verse: “Low, high, low.”. Show the child STANDING or WALKING and actively exploring, not sitting or crouching unless the scene explicitly requires rest. Do not add companions not present in the selected state. Keep one silver seed only before planting; none in hands after planting. No text, labels or UI. Preserve child-friendly atmosphere and safe footing."
+  },
+  {
+    "scene": "Q_LEAD",
+    "status": "local-svg-fallback",
+    "path": "images/scenes/v3/Q_LEAD.svg",
+    "prompt": "Wide 2:1 colorful animated Pokémon adventure storybook illustration, rich painterly detail, warm gold light against blue night, consistent ten-year-old traveler with navy cap, mustard jacket and teal backpack. Scene: The Lantern Chain. Depict this exact situation: You divide the jobs: one helper lays out rope, another carries blankets, and a third stays in touch with Mira. “Nobody has to do everything,” you say. Together the volunteers complete the return journey.. Show the child STANDING or WALKING and actively exploring, not sitting or crouching unless the scene explicitly requires rest. Do not add companions not present in the selected state. Keep one silver seed only before planting; none in hands after planting. No text, labels or UI. Preserve child-friendly atmosphere and safe footing."
+  },
+  {
+    "scene": "Q_MOON1",
+    "status": "local-svg-fallback",
+    "path": "images/scenes/v3/Q_MOON1.svg",
+    "prompt": "Wide 2:1 colorful animated Pokémon adventure storybook illustration, rich painterly detail, warm gold light against blue night, consistent ten-year-old traveler with navy cap, mustard jacket and teal backpack. Scene: The Stone Circle. Depict this exact situation: Back in Moonwood, you arrange the stones in the correct seasonal order. The fourth stone casts a silver shadow on your map. You copy the sign.. Show the child STANDING or WALKING and actively exploring, not sitting or crouching unless the scene explicitly requires rest. Do not add companions not present in the selected state. Keep one silver seed only before planting; none in hands after planting. No text, labels or UI. Preserve child-friendly atmosphere and safe footing."
+  },
+  {
+    "scene": "Q_MOON2",
+    "status": "local-svg-fallback",
+    "path": "images/scenes/v3/Q_MOON2.svg",
+    "prompt": "Wide 2:1 colorful animated Pokémon adventure storybook illustration, rich painterly detail, warm gold light against blue night, consistent ten-year-old traveler with navy cap, mustard jacket and teal backpack. Scene: The Marked Cup. Depict this exact situation: Through the crescent lens, you see tiny stars scratched into the cup. They form the first part of a pattern as you copy them onto your map.. Show the child STANDING or WALKING and actively exploring, not sitting or crouching unless the scene explicitly requires rest. Do not add companions not present in the selected state. Keep one silver seed only before planting; none in hands after planting. No text, labels or UI. Preserve child-friendly atmosphere and safe footing."
+  },
+  {
+    "scene": "Q_MOON3",
+    "status": "local-svg-fallback",
+    "path": "images/scenes/v3/Q_MOON3.svg",
+    "prompt": "Wide 2:1 colorful animated Pokémon adventure storybook illustration, rich painterly detail, warm gold light against blue night, consistent ten-year-old traveler with navy cap, mustard jacket and teal backpack. Scene: The Island's Memory. Depict this exact situation: Holding the lens above the memory stone reveals a moon sign once hidden by water. You copy it. The moon rune is still where it was found; you take it if you lack it.. Show the child STANDING or WALKING and actively exploring, not sitting or crouching unless the scene explicitly requires rest. Do not add companions not present in the selected state. Keep one silver seed only before planting; none in hands after planting. No text, labels or UI. Preserve child-friendly atmosphere and safe footing."
+  },
+  {
+    "scene": "Q_STAR",
+    "status": "local-svg-fallback",
+    "path": "images/scenes/v3/Q_STAR.svg",
+    "prompt": "Wide 2:1 colorful animated Pokémon adventure storybook illustration, rich painterly detail, warm gold light against blue night, consistent ten-year-old traveler with navy cap, mustard jacket and teal backpack. Scene: The Secret Star-Map Puzzle. Depict this exact situation: When you lay the lens over the drawings from the cup and the archive, you discover that the three pieces do not show places. They show times: the last light before dawn, the first shadow after sunset, and the moment both meet inside the glass. An empty circle is drawn on the back of Mira's map. You hold the silver seed over it without planting it. A new constellation appears: two vast figures facing one another across a door.. Show the child STANDING or WALKING and actively exploring, not sitting or crouching unless the scene explicitly requires rest. Do not add companions not present in the selected state. Keep one silver seed only before planting; none in hands after planting. No text, labels or UI. Preserve child-friendly atmosphere and safe footing."
+  },
+  {
+    "scene": "E_DAWN",
+    "status": "reused-existing-painting",
+    "path": {
+      "Bulbasaur": "images/scenes/painted/scene-endDawn.png",
+      "Charmander": "images/scenes/painted/scene-endDawn.png",
+      "Squirtle": "images/scenes/painted/scene-endDawn.png"
+    },
+    "prompt": "Wide 2:1 colorful animated Pokémon adventure storybook illustration, rich painterly detail, warm gold light against blue night, consistent ten-year-old traveler with navy cap, mustard jacket and teal backpack. Scene: The First Morning. Depict this exact situation: You settle the basket in the sheltered resting room and let Shinx feel the wrapped stones. “Yes,” he says. “This is warm enough.” Only now do you signal Lumi. She releases the keeper’s lock, and the light streams back into the sky. Shinx rests safely in the basket as you keep checking the warmth.\n\nThe basket sways gently as it is lowered into the warm resting room beside the observatory. Mira has lined the rim with a thick scarf. Lumi checks the stones and nods. “The heat is holding.” Shinx tilts his head. “See? A basket is better than a mountain of blankets.”\n\nMorning rises above Willowbrook. You plant the silver seed in Mira's window box—not as a new heat source, but as a reminder of the night you helped one another. Once the crisis is over, it takes root as an ordinary silver-shimmering plant. Shinx rests, and Mira promises never again to hide a dangerous road by cutting it out of a map.. Show the child STANDING or WALKING and actively exploring, not sitting or crouching unless the scene explicitly requires rest. Do not add companions not present in the selected state. Keep one silver seed only before planting; none in hands after planting. No text, labels or UI. Preserve child-friendly atmosphere and safe footing."
+  },
+  {
+    "scene": "E_AURORA",
+    "status": "reused-existing-painting",
+    "path": {
+      "Bulbasaur": "images/scenes/painted/scene-endAurora.png",
+      "Charmander": "images/scenes/painted/scene-endAurora.png",
+      "Squirtle": "images/scenes/painted/scene-endAurora.png"
+    },
+    "prompt": "Wide 2:1 colorful animated Pokémon adventure storybook illustration, rich painterly detail, warm gold light against blue night, consistent ten-year-old traveler with navy cap, mustard jacket and teal backpack. Scene: Aurora Above the Tower. Depict this exact situation: You settle the basket in the sheltered resting room and let Shinx feel the wrapped stones. “Yes,” he says. “This is warm enough.” Only now do you signal Lumi. She releases the keeper’s lock, and the light streams back into the sky. Shinx rests safely in the basket as you keep checking the warmth.\n\nAltaria's feather wraps around the warm stones in the basket. Whenever wind slips through the window, it holds the warmth a little longer. Altaria itself circles the tower calmly, showing Mira's helpers the safest way down.\n\nStarlight streams over the mountain in wide ribbons. “It's like the sky is painting,” Shinx whispers. He stays in the resting room until his strength slowly returns. The silver seed is planted in a pot beside Mira's resting room—a reminder that a good ending can grow from many small, careful choices.. Show the child STANDING or WALKING and actively exploring, not sitting or crouching unless the scene explicitly requires rest. Do not add companions not present in the selected state. Keep one silver seed only before planting; none in hands after planting. No text, labels or UI. Preserve child-friendly atmosphere and safe footing."
+  },
+  {
+    "scene": "E_LANTERN",
+    "status": "reused-existing-painting",
+    "path": {
+      "Bulbasaur": "images/scenes/painted/scene-endLantern.png",
+      "Charmander": "images/scenes/painted/scene-endLantern.png",
+      "Squirtle": "images/scenes/painted/scene-endLantern.png"
+    },
+    "prompt": "Wide 2:1 colorful animated Pokémon adventure storybook illustration, rich painterly detail, warm gold light against blue night, consistent ten-year-old traveler with navy cap, mustard jacket and teal backpack. Scene: The Night of Lanterns. Depict this exact situation: Two volunteers take their places beside the lanterns. The first lights the backup flame; the second demonstrates the heat checks. Shinx tests the room and nods. “You can open it now,” he tells Lumi. She releases the keeper’s lock herself. Starlight breaks free while the watchers keep the room warm.\n\nVolunteers from Willowbrook arrange lanterns in a circle and take shifts in pairs. They keep Shinx's room steadily warm after Starlight Glass has been opened. Lumi makes a schedule so no one has to stay awake alone.\n\nWhen you return home, the very first festival lantern still hangs in the square. You plant the silver seed at the foot of its stand, a promise that no one should carry every responsibility alone. The stars shine again, and this time more people know how to keep them visible.. Show the child STANDING or WALKING and actively exploring, not sitting or crouching unless the scene explicitly requires rest. Do not add companions not present in the selected state. Keep one silver seed only before planting; none in hands after planting. No text, labels or UI. Preserve child-friendly atmosphere and safe footing."
+  },
+  {
+    "scene": "E_SONG",
+    "status": "reused-existing-painting",
+    "path": {
+      "Bulbasaur": "images/scenes/painted/scene-endSong.png",
+      "Charmander": "images/scenes/painted/scene-endSong.png",
+      "Squirtle": "images/scenes/painted/scene-endSong.png"
+    },
+    "prompt": "Wide 2:1 colorful animated Pokémon adventure storybook illustration, rich painterly detail, warm gold light against blue night, consistent ten-year-old traveler with navy cap, mustard jacket and teal backpack. Scene: The Song That Found Its Way Home. Depict this exact situation: Two volunteers take their places beside the lanterns. The first lights the backup flame; the second demonstrates the heat checks. Shinx tests the room and nods. “You can open it now,” he tells Lumi. She releases the keeper’s lock herself. Starlight breaks free while the watchers keep the room warm.\n\nThe watch team follows the old cave tune: low, high, low. Not to heal Shinx, but to remember when to check the heaters and when the next shift begins. Gastly tells a fresh story to everyone who arrives.\n\nYou plant the silver seed beside the riverside path  while Hoothoot watches from the branch overhead . Shinx has time, warmth, and company. In the evening, the simple song travels from house to house. The notes themselves are not magic; they belong to people keeping their promises.. Show the child STANDING or WALKING and actively exploring, not sitting or crouching unless the scene explicitly requires rest. Do not add companions not present in the selected state. Keep one silver seed only before planting; none in hands after planting. No text, labels or UI. Preserve child-friendly atmosphere and safe footing."
+  },
+  {
+    "scene": "E_SANCTUARY",
+    "status": "reused-existing-painting",
+    "path": {
+      "Bulbasaur": "images/scenes/painted/scene-endSanctuary.png",
+      "Charmander": "images/scenes/painted/scene-endSanctuary.png",
+      "Squirtle": "images/scenes/painted/scene-endSanctuary.png"
+    },
+    "prompt": "Wide 2:1 colorful animated Pokémon adventure storybook illustration, rich painterly detail, warm gold light against blue night, consistent ten-year-old traveler with navy cap, mustard jacket and teal backpack. Scene: The Small Sun at the Window. Depict this exact situation: First you light the backup heater. Then you plant the one and only silver seed in the warm pot and water it once. The shoot emerges slowly, not in a burst of magic. Shinx feels the backup heat and says, “I’m ready.” Only then does Lumi release the keeper’s lock. Starlight returns as you make sure the pot and room remain safely warm.\n\nIt is hard to let go of something you've carried throughout the journey. Your partner places a paw beside your hand as you watch the shoot.\n\nA silver plant slowly unfurls, leaf by leaf. It holds warmth from the small heater and Altaria's feather, helping the room stay warm after the keeper's lock has opened. Shinx watches and tells everyone when he is ready. The plan works because you prepared it—not because the seed can do anything at all.\n\nThe new warm place becomes a resting room for others who need quiet. Lumi calls it the Sanctuary. There is only one silver plant, and it stands here.. Show the child STANDING or WALKING and actively exploring, not sitting or crouching unless the scene explicitly requires rest. Do not add companions not present in the selected state. Keep one silver seed only before planting; none in hands after planting. No text, labels or UI. Preserve child-friendly atmosphere and safe footing."
+  },
+  {
+    "scene": "E_GARDEN",
+    "status": "reused-existing-painting",
+    "path": {
+      "Bulbasaur": "images/scenes/painted/scene-endGarden.png",
+      "Charmander": "images/scenes/painted/scene-endGarden.png",
+      "Squirtle": "images/scenes/painted/scene-endGarden.png"
+    },
+    "prompt": "Wide 2:1 colorful animated Pokémon adventure storybook illustration, rich painterly detail, warm gold light against blue night, consistent ten-year-old traveler with navy cap, mustard jacket and teal backpack. Scene: The Garden of Starlight. Depict this exact situation: First you light the backup heater. Then you plant the one and only silver seed in the warm pot and water it once. The shoot emerges slowly, not in a burst of magic. Shinx feels the backup heat and says, “I’m ready.” Only then does Lumi release the keeper’s lock. Starlight returns as you make sure the pot and room remain safely warm.\n\nThe warm pot holds the new shoot, whose first leaves gently retain warmth from the stove. Shinx rests until he can travel safely with help from the village.\n\nLater you move the plant to Willowbrook's community garden.  Psyduck builds a little watering wheel for it.  You water it yourselves and write simple care instructions on a sign.  You move the same plant—not a second seed. It grows slowly through the seasons as Shinx gradually grows stronger. Neither change happens in an instant.. Show the child STANDING or WALKING and actively exploring, not sitting or crouching unless the scene explicitly requires rest. Do not add companions not present in the selected state. Keep one silver seed only before planting; none in hands after planting. No text, labels or UI. Preserve child-friendly atmosphere and safe footing."
+  },
+  {
+    "scene": "B_GATE",
+    "status": "local-svg-fallback",
+    "path": "images/scenes/v3/B_GATE.svg",
+    "prompt": "Wide 2:1 colorful animated Pokémon adventure storybook illustration, rich painterly detail, warm gold light against blue night, consistent ten-year-old traveler with navy cap, mustard jacket and teal backpack. Scene: The Door Beyond the Sky. Depict this exact situation: When you return to the quiet observatory after the stars have come back, a thin line of light crosses the floor. It follows neither sun nor moon. It is the same line you saw in the silver seed, before the seed was planted. Instead of pointing toward the tower, it now points at the sky.\n\nA door without a handle appears in the glass. Beneath it a verse reads: “Those who seek only light may find a lantern. Those who carry light for others may find the path beyond the stars.”. Show the child STANDING or WALKING and actively exploring, not sitting or crouching unless the scene explicitly requires rest. Do not add companions not present in the selected state. Keep one silver seed only before planting; none in hands after planting. No text, labels or UI. Preserve child-friendly atmosphere and safe footing."
+  },
+  {
+    "scene": "B_LUNALA",
+    "status": "local-svg-fallback",
+    "path": "images/scenes/v3/B_LUNALA.svg",
+    "prompt": "Wide 2:1 colorful animated Pokémon adventure storybook illustration, rich painterly detail, warm gold light against blue night, consistent ten-year-old traveler with navy cap, mustard jacket and teal backpack. Scene: Lunala’s Gift. Depict this exact situation: The door does not open outward. It opens upward. The roof becomes a quiet night sky, and among the stars an enormous shape unfolds its wings. Lunala descends without a single wingbeat, moonlight shimmering across its body like light on water.\n\nYou wait for a roar, but no sound comes. Instead you see the forest's memories: Eevee receiving help, Hoothoot's egg made safe, Altaria's little chick beneath the root, and a lonely Gastly finally finding someone to tell stories to. It is as though the night itself noticed all the small things others might have overlooked.\n\nLunala lowers its head. A silver feather of light drifts down, turns into a star-shaped symbol, and settles inside your map. Not a weapon or tool, but a memory belonging only to this journey.\n\n“Is that why you waited for me?” you whisper.\n\nLunala folds its wings. In an instant the night sky is where it belongs. But inside your map, a sign glows that was not there before.. Show the child STANDING or WALKING and actively exploring, not sitting or crouching unless the scene explicitly requires rest. Do not add companions not present in the selected state. Keep one silver seed only before planting; none in hands after planting. No text, labels or UI. Preserve child-friendly atmosphere and safe footing."
+  },
+  {
+    "scene": "B_SOLGALEO",
+    "status": "local-svg-fallback",
+    "path": "images/scenes/v3/B_SOLGALEO.svg",
+    "prompt": "Wide 2:1 colorful animated Pokémon adventure storybook illustration, rich painterly detail, warm gold light against blue night, consistent ten-year-old traveler with navy cap, mustard jacket and teal backpack. Scene: Solgaleo’s Promise. Depict this exact situation: The golden circle beneath your feet grows warm. A roar rolls across the mountains, but you feel no fear. In the light of a sunrise that does not belong to this day, Solgaleo appears. Its great mane glows like an ocean of morning sunlight.\n\nAround you flash images of those you helped: Pikachu under the ivy, Lapras in the river, Psyduck holding the nut, and Altaria's chicks gathered on the cliff. Then the light shows you something new: all the little acts that continued after you had moved on. Pikachu guides another Pokémon to a safe path. Psyduck helps someone repair a lantern. Lapras carries a friend across the river.\n\nSolgaleo bows its head. A golden symbol gently appears on the inside of your map without burning the paper. It doesn't tell you where to go. It reminds you that the help you gave did not end when you stopped watching.. Show the child STANDING or WALKING and actively exploring, not sitting or crouching unless the scene explicitly requires rest. Do not add companions not present in the selected state. Keep one silver seed only before planting; none in hands after planting. No text, labels or UI. Preserve child-friendly atmosphere and safe footing."
+  },
+  {
+    "scene": "B_BOTH",
+    "status": "local-svg-fallback",
+    "path": "images/scenes/v3/B_BOTH.svg",
+    "prompt": "Wide 2:1 colorful animated Pokémon adventure storybook illustration, rich painterly detail, warm gold light against blue night, consistent ten-year-old traveler with navy cap, mustard jacket and teal backpack. Scene: The Secret of the Star Gate. Depict this exact situation: You place the map between the two circles. The moon signs you found in the woods and the traces of sunlight left by everyone you helped meet on the page. The final piece of the star map glows. For one moment, the entire tower goes still.\n\nThen the sky opens in two.\n\nLunala comes from one side, midnight blue and silver, its wings embracing the night. Solgaleo comes from the other, radiant as a new day. They meet above the tower without fighting. Between them forms a third path, neither night nor day, but the moment when both exist together.\n\nThere you see Willowbrook as it was a hundred years ago. The builders of Starlight Glass stood before this same gate. On the wall they had written a sentence that was later lost from the books: “Light kept only for oneself fades. Light shared finds its way home.”\n\nYou understand that this is not another machine to fix. It is a secret thank-you from those who once learned to share warmth. Lunala lowers one wing. Solgaleo rests a paw on the stone. Your map gains a new image: a star between a moon and a sun.\n\nNobody in Willowbrook will entirely belie. Show the child STANDING or WALKING and actively exploring, not sitting or crouching unless the scene explicitly requires rest. Do not add companions not present in the selected state. Keep one silver seed only before planting; none in hands after planting. No text, labels or UI. Preserve child-friendly atmosphere and safe footing."
+  }
+]

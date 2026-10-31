@@ -1,0 +1,18 @@
+{
+  "passed": true,
+  "checkedStates": 15258,
+  "scenes": 58,
+  "choiceCoverage": 117,
+  "totalChoices": 117,
+  "defensiveChoiceTestedWithPartialState": "Q_PREP.4",
+  "missingChoices": [],
+  "starters": 3,
+  "endings": 6,
+  "bonusVariants": 3,
+  "bothWithoutMap": true,
+  "randomJourneys": 120,
+  "languages": [
+    "en",
+    "nb"
+  ]
+}

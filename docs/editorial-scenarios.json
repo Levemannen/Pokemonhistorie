@@ -125,7 +125,7 @@
           "language": "en",
           "scene": "stairs",
           "text": "You wait for the wind to ease and cross one at a time, holding the rail.\n\nStone stairs curve around the observatory wall. A yellow scarf is caught beneath a railing: SHINX, say the crooked stitches. You lift it free, fold it, and put it safely in your pack. In a weatherproof box nearby, a photograph shows Lumi and Shinx wearing matching scarves, each with its owner’s name. A crescent marks the service door. The ordinary steps continue upward beside it.",
-          "image": "images/scenes/painted/scene-stairs.png",
+          "image": "images/scenes/painted/scene-stairs-v3.png",
           "choice": "stairs.1"
         },
         {
@@ -139,14 +139,14 @@
           "language": "en",
           "scene": "roof",
           "text": "The mechanism clicks into place. Your partner tests the latch twice, looking very pleased, and the platform opens toward the roof.\n\nFrom the observatory roof you hear footsteps in the tower room. A covered walkway crosses the gap below; above it, broad glowing stones form a short crossing between sturdy rails. Your lens shows their stone supports beneath the shimmer. A sheltered stair curls around the rock to the same landing. Beside the walkway hangs a bell cord with a moon-shaped handle.",
-          "image": "images/scenes/painted/scene-roof.png",
+          "image": "images/scenes/painted/scene-roof-v3.png",
           "choice": "roof.1"
         },
         {
           "language": "en",
           "scene": "tower",
           "text": "The covered walkway shelters you from the wind as you cross to the tower.\n\n“One, two, three. Please, one more night.” A muffled voice counts behind the closed door. Another voice answers, tired but quite clear: “Lumi, I’m not sleeping.” You breathe out. Shinx is here, and he can speak. Through a narrow window beside the door, you see a yellow scarf on a chair. LUMI is stitched along its edge; she has her own scarf back. The seed warms in your hand.\n\nShinx’s matching scarf is still dry in your pack. You can offer it through the window.",
-          "image": "images/scenes/painted/scene-tower.png",
+          "image": "images/scenes/painted/scene-tower-v3.png",
           "choice": "tower.1"
         },
         {
@@ -279,7 +279,7 @@
           "language": "nb",
           "scene": "stairs",
           "text": "Dere venter til vinden løyer og krysser én om gangen mens dere holder i rekkverket.\n\nSteintrinn svinger rundt observatoriemuren. Et gult skjerf sitter fast under rekkverket. SHINX, står det med skjeve sting. Du løfter det løs, bretter det og legger det trygt i sekken. I en værbestandig eske like ved viser et fotografi Lumi og Shinx med like skjerf, hvert med navnet til eieren. En halvmåne er risset inn på tjenestedøren. De vanlige trinnene fortsetter oppover ved siden av.",
-          "image": "images/scenes/painted/scene-stairs.png",
+          "image": "images/scenes/painted/scene-stairs-v3.png",
           "choice": "stairs.1"
         },
         {
@@ -293,14 +293,14 @@
           "language": "nb",
           "scene": "roof",
           "text": "Mekanismen klikker på plass. Vennen din tester låsen to ganger og ser svært fornøyd ut. Plattformen åpner veien til taket.\n\nFra observatorietaket hører du skritt inne i tårnrommet. En overbygd gangbro krysser åpningen nedenfor. Over den danner brede, lysende steiner en kort vei mellom solide rekkverk. Gjennom linsen ser du steinstøttene under skinnet. En skjermet trapp svinger rundt fjellet til den samme avsatsen. Ved gangbroen henger en klokkesnor med et måneformet håndtak.",
-          "image": "images/scenes/painted/scene-roof.png",
+          "image": "images/scenes/painted/scene-roof-v3.png",
           "choice": "roof.1"
         },
         {
           "language": "nb",
           "scene": "tower",
           "text": "Gangbroen skjermer dere mot vinden på veien til tårnet.\n\n«En, to, tre. Vær så snill, bare én natt til.» En dempet stemme teller bak den lukkede døren. En annen svarer, trøtt, men tydelig: «Lumi, jeg sover ikke.» Du puster ut. Shinx er her, og han kan snakke. Gjennom et smalt vindu ved døren ser du et gult skjerf på en stol. LUMI er sydd langs kanten. Hun har fått sitt eget skjerf tilbake. Frøet varmer hånden din.\n\nDet like skjerfet til Shinx ligger fremdeles tørt i sekken. Du kan vise det fram gjennom vinduet.",
-          "image": "images/scenes/painted/scene-tower.png",
+          "image": "images/scenes/painted/scene-tower-v3.png",
           "choice": "tower.1"
         },
         {
@@ -463,7 +463,7 @@
           "language": "en",
           "scene": "stairs",
           "text": "You wait for the wind to ease and cross one at a time, holding the rail.\n\nStone stairs curve around the observatory wall. A yellow scarf is caught beneath a railing: SHINX, say the crooked stitches. You lift it free, fold it, and put it safely in your pack. In a weatherproof box nearby, a photograph shows Lumi and Shinx wearing matching scarves, each with its owner’s name. A crescent marks the service door. The ordinary steps continue upward beside it.",
-          "image": "images/scenes/painted/scene-stairs.png",
+          "image": "images/scenes/painted/scene-stairs-v3.png",
           "choice": "stairs.1"
         },
         {
@@ -477,14 +477,14 @@
           "language": "en",
           "scene": "roof",
           "text": "The mechanism clicks into place. Your partner tests the latch twice, looking very pleased, and the platform opens toward the roof.\n\nFrom the observatory roof you hear footsteps in the tower room. A covered walkway crosses the gap below; above it, broad glowing stones form a short crossing between sturdy rails. Your lens shows their stone supports beneath the shimmer. A sheltered stair curls around the rock to the same landing. Beside the walkway hangs a bell cord with a moon-shaped handle.",
-          "image": "images/scenes/painted/scene-roof.png",
+          "image": "images/scenes/painted/scene-roof-v3.png",
           "choice": "roof.1"
         },
         {
           "language": "en",
           "scene": "tower",
           "text": "The covered walkway shelters you from the wind as you cross to the tower.\n\n“One, two, three. Please, one more night.” A muffled voice counts behind the closed door. Another voice answers, tired but quite clear: “Lumi, I’m not sleeping.” You breathe out. Shinx is here, and he can speak. Through a narrow window beside the door, you see a yellow scarf on a chair. LUMI is stitched along its edge; she has her own scarf back. The seed warms in your hand.\n\nShinx’s matching scarf is still dry in your pack. You can offer it through the window.",
-          "image": "images/scenes/painted/scene-tower.png",
+          "image": "images/scenes/painted/scene-tower-v3.png",
           "choice": "tower.1"
         },
         {
@@ -617,7 +617,7 @@
           "language": "nb",
           "scene": "stairs",
           "text": "Dere venter til vinden løyer og krysser én om gangen mens dere holder i rekkverket.\n\nSteintrinn svinger rundt observatoriemuren. Et gult skjerf sitter fast under rekkverket. SHINX, står det med skjeve sting. Du løfter det løs, bretter det og legger det trygt i sekken. I en værbestandig eske like ved viser et fotografi Lumi og Shinx med like skjerf, hvert med navnet til eieren. En halvmåne er risset inn på tjenestedøren. De vanlige trinnene fortsetter oppover ved siden av.",
-          "image": "images/scenes/painted/scene-stairs.png",
+          "image": "images/scenes/painted/scene-stairs-v3.png",
           "choice": "stairs.1"
         },
         {
@@ -631,14 +631,14 @@
           "language": "nb",
           "scene": "roof",
           "text": "Mekanismen klikker på plass. Vennen din tester låsen to ganger og ser svært fornøyd ut. Plattformen åpner veien til taket.\n\nFra observatorietaket hører du skritt inne i tårnrommet. En overbygd gangbro krysser åpningen nedenfor. Over den danner brede, lysende steiner en kort vei mellom solide rekkverk. Gjennom linsen ser du steinstøttene under skinnet. En skjermet trapp svinger rundt fjellet til den samme avsatsen. Ved gangbroen henger en klokkesnor med et måneformet håndtak.",
-          "image": "images/scenes/painted/scene-roof.png",
+          "image": "images/scenes/painted/scene-roof-v3.png",
           "choice": "roof.1"
         },
         {
           "language": "nb",
           "scene": "tower",
           "text": "Gangbroen skjermer dere mot vinden på veien til tårnet.\n\n«En, to, tre. Vær så snill, bare én natt til.» En dempet stemme teller bak den lukkede døren. En annen svarer, trøtt, men tydelig: «Lumi, jeg sover ikke.» Du puster ut. Shinx er her, og han kan snakke. Gjennom et smalt vindu ved døren ser du et gult skjerf på en stol. LUMI er sydd langs kanten. Hun har fått sitt eget skjerf tilbake. Frøet varmer hånden din.\n\nDet like skjerfet til Shinx ligger fremdeles tørt i sekken. Du kan vise det fram gjennom vinduet.",
-          "image": "images/scenes/painted/scene-tower.png",
+          "image": "images/scenes/painted/scene-tower-v3.png",
           "choice": "tower.1"
         },
         {
@@ -801,7 +801,7 @@
           "language": "en",
           "scene": "stairs",
           "text": "You wait for the wind to ease and cross one at a time, holding the rail.\n\nStone stairs curve around the observatory wall. A yellow scarf is caught beneath a railing: SHINX, say the crooked stitches. You lift it free, fold it, and put it safely in your pack. In a weatherproof box nearby, a photograph shows Lumi and Shinx wearing matching scarves, each with its owner’s name. A crescent marks the service door. The ordinary steps continue upward beside it.",
-          "image": "images/scenes/painted/scene-stairs.png",
+          "image": "images/scenes/painted/scene-stairs-v3.png",
           "choice": "stairs.1"
         },
         {
@@ -815,14 +815,14 @@
           "language": "en",
           "scene": "roof",
           "text": "The mechanism clicks into place. Your partner tests the latch twice, looking very pleased, and the platform opens toward the roof.\n\nFrom the observatory roof you hear footsteps in the tower room. A covered walkway crosses the gap below; above it, broad glowing stones form a short crossing between sturdy rails. Your lens shows their stone supports beneath the shimmer. A sheltered stair curls around the rock to the same landing. Beside the walkway hangs a bell cord with a moon-shaped handle.",
-          "image": "images/scenes/painted/scene-roof.png",
+          "image": "images/scenes/painted/scene-roof-v3.png",
           "choice": "roof.1"
         },
         {
           "language": "en",
           "scene": "tower",
           "text": "The covered walkway shelters you from the wind as you cross to the tower.\n\n“One, two, three. Please, one more night.” A muffled voice counts behind the closed door. Another voice answers, tired but quite clear: “Lumi, I’m not sleeping.” You breathe out. Shinx is here, and he can speak. Through a narrow window beside the door, you see a yellow scarf on a chair. LUMI is stitched along its edge; she has her own scarf back. The seed warms in your hand.\n\nShinx’s matching scarf is still dry in your pack. You can offer it through the window.",
-          "image": "images/scenes/painted/scene-tower.png",
+          "image": "images/scenes/painted/scene-tower-v3.png",
           "choice": "tower.1"
         },
         {
@@ -955,7 +955,7 @@
           "language": "nb",
           "scene": "stairs",
           "text": "Dere venter til vinden løyer og krysser én om gangen mens dere holder i rekkverket.\n\nSteintrinn svinger rundt observatoriemuren. Et gult skjerf sitter fast under rekkverket. SHINX, står det med skjeve sting. Du løfter det løs, bretter det og legger det trygt i sekken. I en værbestandig eske like ved viser et fotografi Lumi og Shinx med like skjerf, hvert med navnet til eieren. En halvmåne er risset inn på tjenestedøren. De vanlige trinnene fortsetter oppover ved siden av.",
-          "image": "images/scenes/painted/scene-stairs.png",
+          "image": "images/scenes/painted/scene-stairs-v3.png",
           "choice": "stairs.1"
         },
         {
@@ -969,14 +969,14 @@
           "language": "nb",
           "scene": "roof",
           "text": "Mekanismen klikker på plass. Vennen din tester låsen to ganger og ser svært fornøyd ut. Plattformen åpner veien til taket.\n\nFra observatorietaket hører du skritt inne i tårnrommet. En overbygd gangbro krysser åpningen nedenfor. Over den danner brede, lysende steiner en kort vei mellom solide rekkverk. Gjennom linsen ser du steinstøttene under skinnet. En skjermet trapp svinger rundt fjellet til den samme avsatsen. Ved gangbroen henger en klokkesnor med et måneformet håndtak.",
-          "image": "images/scenes/painted/scene-roof.png",
+          "image": "images/scenes/painted/scene-roof-v3.png",
           "choice": "roof.1"
         },
         {
           "language": "nb",
           "scene": "tower",
           "text": "Gangbroen skjermer dere mot vinden på veien til tårnet.\n\n«En, to, tre. Vær så snill, bare én natt til.» En dempet stemme teller bak den lukkede døren. En annen svarer, trøtt, men tydelig: «Lumi, jeg sover ikke.» Du puster ut. Shinx er her, og han kan snakke. Gjennom et smalt vindu ved døren ser du et gult skjerf på en stol. LUMI er sydd langs kanten. Hun har fått sitt eget skjerf tilbake. Frøet varmer hånden din.\n\nDet like skjerfet til Shinx ligger fremdeles tørt i sekken. Du kan vise det fram gjennom vinduet.",
-          "image": "images/scenes/painted/scene-tower.png",
+          "image": "images/scenes/painted/scene-tower-v3.png",
           "choice": "tower.1"
         },
         {
@@ -1131,7 +1131,7 @@
           "language": "en",
           "scene": "stairs",
           "text": "You wait for the wind to ease and cross one at a time, holding the rail.\n\nStone stairs curve around the observatory wall. A yellow scarf is caught beneath a railing: SHINX, say the crooked stitches. You lift it free, fold it, and put it safely in your pack. In a weatherproof box nearby, a photograph shows Lumi and Shinx wearing matching scarves, each with its owner’s name. A crescent marks the service door. The ordinary steps continue upward beside it.",
-          "image": "images/scenes/painted/scene-stairs.png",
+          "image": "images/scenes/painted/scene-stairs-v3.png",
           "choice": "stairs.1"
         },
         {
@@ -1145,14 +1145,14 @@
           "language": "en",
           "scene": "roof",
           "text": "You take turns at the stiff crank. At last the latch lifts, and a little shower of frost falls from the roof.\n\nFrom the observatory roof you hear footsteps in the tower room. A covered walkway crosses the gap below; above it, broad glowing stones form a short crossing between sturdy rails. Your lens shows their stone supports beneath the shimmer. A sheltered stair curls around the rock to the same landing. Beside the walkway hangs a bell cord with a moon-shaped handle.",
-          "image": "images/scenes/painted/scene-roof.png",
+          "image": "images/scenes/painted/scene-roof-v3.png",
           "choice": "roof.1"
         },
         {
           "language": "en",
           "scene": "tower",
           "text": "The covered walkway shelters you from the wind as you cross to the tower.\n\n“One, two, three. Please, one more night.” A muffled voice counts behind the closed door. Another voice answers, tired but quite clear: “Lumi, I’m not sleeping.” You breathe out. Shinx is here, and he can speak. Through a narrow window beside the door, you see a yellow scarf on a chair. LUMI is stitched along its edge; she has her own scarf back. The seed warms in your hand.\n\nShinx’s matching scarf is still dry in your pack. You can offer it through the window.",
-          "image": "images/scenes/painted/scene-tower.png",
+          "image": "images/scenes/painted/scene-tower-v3.png",
           "choice": "tower.1"
         },
         {
@@ -1278,7 +1278,7 @@
           "language": "nb",
           "scene": "stairs",
           "text": "Dere venter til vinden løyer og krysser én om gangen mens dere holder i rekkverket.\n\nSteintrinn svinger rundt observatoriemuren. Et gult skjerf sitter fast under rekkverket. SHINX, står det med skjeve sting. Du løfter det løs, bretter det og legger det trygt i sekken. I en værbestandig eske like ved viser et fotografi Lumi og Shinx med like skjerf, hvert med navnet til eieren. En halvmåne er risset inn på tjenestedøren. De vanlige trinnene fortsetter oppover ved siden av.",
-          "image": "images/scenes/painted/scene-stairs.png",
+          "image": "images/scenes/painted/scene-stairs-v3.png",
           "choice": "stairs.1"
         },
         {
@@ -1292,14 +1292,14 @@
           "language": "nb",
           "scene": "roof",
           "text": "Dere bytter på å dra i den trege sveiven. Til slutt løfter låsen seg, og litt rim drysser fra taket.\n\nFra observatorietaket hører du skritt inne i tårnrommet. En overbygd gangbro krysser åpningen nedenfor. Over den danner brede, lysende steiner en kort vei mellom solide rekkverk. Gjennom linsen ser du steinstøttene under skinnet. En skjermet trapp svinger rundt fjellet til den samme avsatsen. Ved gangbroen henger en klokkesnor med et måneformet håndtak.",
-          "image": "images/scenes/painted/scene-roof.png",
+          "image": "images/scenes/painted/scene-roof-v3.png",
           "choice": "roof.1"
         },
         {
           "language": "nb",
           "scene": "tower",
           "text": "Gangbroen skjermer dere mot vinden på veien til tårnet.\n\n«En, to, tre. Vær så snill, bare én natt til.» En dempet stemme teller bak den lukkede døren. En annen svarer, trøtt, men tydelig: «Lumi, jeg sover ikke.» Du puster ut. Shinx er her, og han kan snakke. Gjennom et smalt vindu ved døren ser du et gult skjerf på en stol. LUMI er sydd langs kanten. Hun har fått sitt eget skjerf tilbake. Frøet varmer hånden din.\n\nDet like skjerfet til Shinx ligger fremdeles tørt i sekken. Du kan vise det fram gjennom vinduet.",
-          "image": "images/scenes/painted/scene-tower.png",
+          "image": "images/scenes/painted/scene-tower-v3.png",
           "choice": "tower.1"
         },
         {
@@ -1454,7 +1454,7 @@
           "language": "en",
           "scene": "stairs",
           "text": "You wait for the wind to ease and cross one at a time, holding the rail.\n\nStone stairs curve around the observatory wall. A yellow scarf is caught beneath a railing: SHINX, say the crooked stitches. You lift it free, fold it, and put it safely in your pack. In a weatherproof box nearby, a photograph shows Lumi and Shinx wearing matching scarves, each with its owner’s name. A crescent marks the service door. The ordinary steps continue upward beside it.",
-          "image": "images/scenes/painted/scene-stairs.png",
+          "image": "images/scenes/painted/scene-stairs-v3.png",
           "choice": "stairs.1"
         },
         {
@@ -1468,14 +1468,14 @@
           "language": "en",
           "scene": "roof",
           "text": "The mechanism clicks into place. Your partner tests the latch twice, looking very pleased, and the platform opens toward the roof.\n\nFrom the observatory roof you hear footsteps in the tower room. A covered walkway crosses the gap below; above it, broad glowing stones form a short crossing between sturdy rails. Your lens shows their stone supports beneath the shimmer. A sheltered stair curls around the rock to the same landing. Beside the walkway hangs a bell cord with a moon-shaped handle.",
-          "image": "images/scenes/painted/scene-roof.png",
+          "image": "images/scenes/painted/scene-roof-v3.png",
           "choice": "roof.1"
         },
         {
           "language": "en",
           "scene": "tower",
           "text": "The covered walkway shelters you from the wind as you cross to the tower.\n\n“One, two, three. Please, one more night.” A muffled voice counts behind the closed door. Another voice answers, tired but quite clear: “Lumi, I’m not sleeping.” You breathe out. Shinx is here, and he can speak. Through a narrow window beside the door, you see a yellow scarf on a chair. LUMI is stitched along its edge; she has her own scarf back. The seed warms in your hand.\n\nShinx’s matching scarf is still dry in your pack. You can offer it through the window.",
-          "image": "images/scenes/painted/scene-tower.png",
+          "image": "images/scenes/painted/scene-tower-v3.png",
           "choice": "tower.1"
         },
         {
@@ -1601,7 +1601,7 @@
           "language": "nb",
           "scene": "stairs",
           "text": "Dere venter til vinden løyer og krysser én om gangen mens dere holder i rekkverket.\n\nSteintrinn svinger rundt observatoriemuren. Et gult skjerf sitter fast under rekkverket. SHINX, står det med skjeve sting. Du løfter det løs, bretter det og legger det trygt i sekken. I en værbestandig eske like ved viser et fotografi Lumi og Shinx med like skjerf, hvert med navnet til eieren. En halvmåne er risset inn på tjenestedøren. De vanlige trinnene fortsetter oppover ved siden av.",
-          "image": "images/scenes/painted/scene-stairs.png",
+          "image": "images/scenes/painted/scene-stairs-v3.png",
           "choice": "stairs.1"
         },
         {
@@ -1615,14 +1615,14 @@
           "language": "nb",
           "scene": "roof",
           "text": "Mekanismen klikker på plass. Vennen din tester låsen to ganger og ser svært fornøyd ut. Plattformen åpner veien til taket.\n\nFra observatorietaket hører du skritt inne i tårnrommet. En overbygd gangbro krysser åpningen nedenfor. Over den danner brede, lysende steiner en kort vei mellom solide rekkverk. Gjennom linsen ser du steinstøttene under skinnet. En skjermet trapp svinger rundt fjellet til den samme avsatsen. Ved gangbroen henger en klokkesnor med et måneformet håndtak.",
-          "image": "images/scenes/painted/scene-roof.png",
+          "image": "images/scenes/painted/scene-roof-v3.png",
           "choice": "roof.1"
         },
         {
           "language": "nb",
           "scene": "tower",
           "text": "Gangbroen skjermer dere mot vinden på veien til tårnet.\n\n«En, to, tre. Vær så snill, bare én natt til.» En dempet stemme teller bak den lukkede døren. En annen svarer, trøtt, men tydelig: «Lumi, jeg sover ikke.» Du puster ut. Shinx er her, og han kan snakke. Gjennom et smalt vindu ved døren ser du et gult skjerf på en stol. LUMI er sydd langs kanten. Hun har fått sitt eget skjerf tilbake. Frøet varmer hånden din.\n\nDet like skjerfet til Shinx ligger fremdeles tørt i sekken. Du kan vise det fram gjennom vinduet.",
-          "image": "images/scenes/painted/scene-tower.png",
+          "image": "images/scenes/painted/scene-tower-v3.png",
           "choice": "tower.1"
         },
         {
@@ -1723,7 +1723,7 @@
           "language": "en",
           "scene": "brook",
           "text": "You follow the stream and clear the mud from the old wooden sign before reading it.\n\nA bottle taps against a stone in the brook. Inside, cramped handwriting fills a scrap of paper: “I was trying to help. I cannot open it again. Please bring the dawn. —L.” Beside the letter is a smudged paw print. Above the bank, an old cable climbs toward the tower. A waterwheel turns beneath it, driving a little message basket uphill; a sign says TOWER POST.\n\nYou wonder whether the initial L means Lumi. You cannot know for sure yet.",
-          "image": "images/scenes/painted/scene-brook.png",
+          "image": "images/scenes/painted/scene-brook-v3.png",
           "choice": "brook.1"
         },
         {
@@ -1793,7 +1793,7 @@
           "language": "en",
           "scene": "stairs",
           "text": "You wait for the wind to ease and cross one at a time, holding the rail.\n\nStone stairs curve around the observatory wall. A yellow scarf is caught beneath a railing: SHINX, say the crooked stitches. You lift it free, fold it, and put it safely in your pack. In a weatherproof box nearby, a photograph shows Lumi and Shinx wearing matching scarves, each with its owner’s name. A crescent marks the service door. The ordinary steps continue upward beside it.",
-          "image": "images/scenes/painted/scene-stairs.png",
+          "image": "images/scenes/painted/scene-stairs-v3.png",
           "choice": "stairs.1"
         },
         {
@@ -1807,14 +1807,14 @@
           "language": "en",
           "scene": "roof",
           "text": "The mechanism clicks into place. Your partner tests the latch twice, looking very pleased, and the platform opens toward the roof.\n\nFrom the observatory roof you hear footsteps in the tower room. A covered walkway crosses the gap below; above it, broad glowing stones form a short crossing between sturdy rails. Your lens shows their stone supports beneath the shimmer. A sheltered stair curls around the rock to the same landing. Beside the walkway hangs a bell cord with a moon-shaped handle.",
-          "image": "images/scenes/painted/scene-roof.png",
+          "image": "images/scenes/painted/scene-roof-v3.png",
           "choice": "roof.1"
         },
         {
           "language": "en",
           "scene": "tower",
           "text": "The covered walkway shelters you from the wind as you cross to the tower.\n\n“One, two, three. Please, one more night.” A muffled voice counts behind the closed door. Another voice answers, tired but quite clear: “Lumi, I’m not sleeping.” You breathe out. Shinx is here, and he can speak. Through a narrow window beside the door, you see a yellow scarf on a chair. LUMI is stitched along its edge; she has her own scarf back. The seed warms in your hand.\n\nShinx’s matching scarf is still dry in your pack. You can offer it through the window.",
-          "image": "images/scenes/painted/scene-tower.png",
+          "image": "images/scenes/painted/scene-tower-v3.png",
           "choice": "tower.1"
         },
         {
@@ -1884,7 +1884,7 @@
           "language": "nb",
           "scene": "brook",
           "text": "Dere følger bekken og tørker gjørmen av det gamle treskiltet før dere leser det.\n\nEn flaske dunker mot en stein i bekken. Inni ligger en papirlapp med tett håndskrift: «Jeg prøvde å hjelpe. Nå får jeg den ikke opp igjen. Vær så snill å hente morgenen. – L.» Ved siden av ordene er et utydelig poteavtrykk. Over bredden går en gammel kabel opp mot tårnet. Et vannhjul driver en liten postkurv oppover langs kabelen. På skiltet står det TÅRNPOST.\n\nDu lurer på om L står for Lumi. Du vet det ikke sikkert ennå.",
-          "image": "images/scenes/painted/scene-brook.png",
+          "image": "images/scenes/painted/scene-brook-v3.png",
           "choice": "brook.1"
         },
         {
@@ -1954,7 +1954,7 @@
           "language": "nb",
           "scene": "stairs",
           "text": "Dere venter til vinden løyer og krysser én om gangen mens dere holder i rekkverket.\n\nSteintrinn svinger rundt observatoriemuren. Et gult skjerf sitter fast under rekkverket. SHINX, står det med skjeve sting. Du løfter det løs, bretter det og legger det trygt i sekken. I en værbestandig eske like ved viser et fotografi Lumi og Shinx med like skjerf, hvert med navnet til eieren. En halvmåne er risset inn på tjenestedøren. De vanlige trinnene fortsetter oppover ved siden av.",
-          "image": "images/scenes/painted/scene-stairs.png",
+          "image": "images/scenes/painted/scene-stairs-v3.png",
           "choice": "stairs.1"
         },
         {
@@ -1968,14 +1968,14 @@
           "language": "nb",
           "scene": "roof",
           "text": "Mekanismen klikker på plass. Vennen din tester låsen to ganger og ser svært fornøyd ut. Plattformen åpner veien til taket.\n\nFra observatorietaket hører du skritt inne i tårnrommet. En overbygd gangbro krysser åpningen nedenfor. Over den danner brede, lysende steiner en kort vei mellom solide rekkverk. Gjennom linsen ser du steinstøttene under skinnet. En skjermet trapp svinger rundt fjellet til den samme avsatsen. Ved gangbroen henger en klokkesnor med et måneformet håndtak.",
-          "image": "images/scenes/painted/scene-roof.png",
+          "image": "images/scenes/painted/scene-roof-v3.png",
           "choice": "roof.1"
         },
         {
           "language": "nb",
           "scene": "tower",
           "text": "Gangbroen skjermer dere mot vinden på veien til tårnet.\n\n«En, to, tre. Vær så snill, bare én natt til.» En dempet stemme teller bak den lukkede døren. En annen svarer, trøtt, men tydelig: «Lumi, jeg sover ikke.» Du puster ut. Shinx er her, og han kan snakke. Gjennom et smalt vindu ved døren ser du et gult skjerf på en stol. LUMI er sydd langs kanten. Hun har fått sitt eget skjerf tilbake. Frøet varmer hånden din.\n\nDet like skjerfet til Shinx ligger fremdeles tørt i sekken. Du kan vise det fram gjennom vinduet.",
-          "image": "images/scenes/painted/scene-tower.png",
+          "image": "images/scenes/painted/scene-tower-v3.png",
           "choice": "tower.1"
         },
         {
@@ -2076,7 +2076,7 @@
           "language": "en",
           "scene": "brook",
           "text": "You follow the stream and clear the mud from the old wooden sign before reading it.\n\nA bottle taps against a stone in the brook. Inside, cramped handwriting fills a scrap of paper: “I was trying to help. I cannot open it again. Please bring the dawn. —L.” Beside the letter is a smudged paw print. Above the bank, an old cable climbs toward the tower. A waterwheel turns beneath it, driving a little message basket uphill; a sign says TOWER POST.\n\nYou wonder whether the initial L means Lumi. You cannot know for sure yet.",
-          "image": "images/scenes/painted/scene-brook.png",
+          "image": "images/scenes/painted/scene-brook-v3.png",
           "choice": "brook.2"
         },
         {
@@ -2146,7 +2146,7 @@
           "language": "en",
           "scene": "stairs",
           "text": "You wait for the wind to ease and cross one at a time, holding the rail.\n\nStone stairs curve around the observatory wall. A yellow scarf is caught beneath a railing: SHINX, say the crooked stitches. You lift it free, fold it, and put it safely in your pack. In a weatherproof box nearby, a photograph shows Lumi and Shinx wearing matching scarves, each with its owner’s name. A crescent marks the service door. The ordinary steps continue upward beside it.",
-          "image": "images/scenes/painted/scene-stairs.png",
+          "image": "images/scenes/painted/scene-stairs-v3.png",
           "choice": "stairs.1"
         },
         {
@@ -2160,14 +2160,14 @@
           "language": "en",
           "scene": "roof",
           "text": "The mechanism clicks into place. Your partner tests the latch twice, looking very pleased, and the platform opens toward the roof.\n\nFrom the observatory roof you hear footsteps in the tower room. A covered walkway crosses the gap below; above it, broad glowing stones form a short crossing between sturdy rails. Your lens shows their stone supports beneath the shimmer. A sheltered stair curls around the rock to the same landing. Beside the walkway hangs a bell cord with a moon-shaped handle.",
-          "image": "images/scenes/painted/scene-roof.png",
+          "image": "images/scenes/painted/scene-roof-v3.png",
           "choice": "roof.1"
         },
         {
           "language": "en",
           "scene": "tower",
           "text": "The covered walkway shelters you from the wind as you cross to the tower.\n\n“One, two, three. Please, one more night.” A muffled voice counts behind the closed door. Another voice answers, tired but quite clear: “Lumi, I’m not sleeping.” You breathe out. Shinx is here, and he can speak. Through a narrow window beside the door, you see a yellow scarf on a chair. LUMI is stitched along its edge; she has her own scarf back. The seed warms in your hand.\n\nShinx’s matching scarf is still dry in your pack. You can offer it through the window.",
-          "image": "images/scenes/painted/scene-tower.png",
+          "image": "images/scenes/painted/scene-tower-v3.png",
           "choice": "tower.1"
         },
         {
@@ -2237,7 +2237,7 @@
           "language": "nb",
           "scene": "brook",
           "text": "Dere følger bekken og tørker gjørmen av det gamle treskiltet før dere leser det.\n\nEn flaske dunker mot en stein i bekken. Inni ligger en papirlapp med tett håndskrift: «Jeg prøvde å hjelpe. Nå får jeg den ikke opp igjen. Vær så snill å hente morgenen. – L.» Ved siden av ordene er et utydelig poteavtrykk. Over bredden går en gammel kabel opp mot tårnet. Et vannhjul driver en liten postkurv oppover langs kabelen. På skiltet står det TÅRNPOST.\n\nDu lurer på om L står for Lumi. Du vet det ikke sikkert ennå.",
-          "image": "images/scenes/painted/scene-brook.png",
+          "image": "images/scenes/painted/scene-brook-v3.png",
           "choice": "brook.2"
         },
         {
@@ -2307,7 +2307,7 @@
           "language": "nb",
           "scene": "stairs",
           "text": "Dere venter til vinden løyer og krysser én om gangen mens dere holder i rekkverket.\n\nSteintrinn svinger rundt observatoriemuren. Et gult skjerf sitter fast under rekkverket. SHINX, står det med skjeve sting. Du løfter det løs, bretter det og legger det trygt i sekken. I en værbestandig eske like ved viser et fotografi Lumi og Shinx med like skjerf, hvert med navnet til eieren. En halvmåne er risset inn på tjenestedøren. De vanlige trinnene fortsetter oppover ved siden av.",
-          "image": "images/scenes/painted/scene-stairs.png",
+          "image": "images/scenes/painted/scene-stairs-v3.png",
           "choice": "stairs.1"
         },
         {
@@ -2321,14 +2321,14 @@
           "language": "nb",
           "scene": "roof",
           "text": "Mekanismen klikker på plass. Vennen din tester låsen to ganger og ser svært fornøyd ut. Plattformen åpner veien til taket.\n\nFra observatorietaket hører du skritt inne i tårnrommet. En overbygd gangbro krysser åpningen nedenfor. Over den danner brede, lysende steiner en kort vei mellom solide rekkverk. Gjennom linsen ser du steinstøttene under skinnet. En skjermet trapp svinger rundt fjellet til den samme avsatsen. Ved gangbroen henger en klokkesnor med et måneformet håndtak.",
-          "image": "images/scenes/painted/scene-roof.png",
+          "image": "images/scenes/painted/scene-roof-v3.png",
           "choice": "roof.1"
         },
         {
           "language": "nb",
           "scene": "tower",
           "text": "Gangbroen skjermer dere mot vinden på veien til tårnet.\n\n«En, to, tre. Vær så snill, bare én natt til.» En dempet stemme teller bak den lukkede døren. En annen svarer, trøtt, men tydelig: «Lumi, jeg sover ikke.» Du puster ut. Shinx er her, og han kan snakke. Gjennom et smalt vindu ved døren ser du et gult skjerf på en stol. LUMI er sydd langs kanten. Hun har fått sitt eget skjerf tilbake. Frøet varmer hånden din.\n\nDet like skjerfet til Shinx ligger fremdeles tørt i sekken. Du kan vise det fram gjennom vinduet.",
-          "image": "images/scenes/painted/scene-tower.png",
+          "image": "images/scenes/painted/scene-tower-v3.png",
           "choice": "tower.1"
         },
         {
@@ -2429,7 +2429,7 @@
           "language": "en",
           "scene": "brook",
           "text": "You follow the stream and clear the mud from the old wooden sign before reading it.\n\nA bottle taps against a stone in the brook. Inside, cramped handwriting fills a scrap of paper: “I was trying to help. I cannot open it again. Please bring the dawn. —L.” Beside the letter is a smudged paw print. Above the bank, an old cable climbs toward the tower. A waterwheel turns beneath it, driving a little message basket uphill; a sign says TOWER POST.\n\nYou wonder whether the initial L means Lumi. You cannot know for sure yet.",
-          "image": "images/scenes/painted/scene-brook.png",
+          "image": "images/scenes/painted/scene-brook-v3.png",
           "choice": "brook.2"
         },
         {
@@ -2499,7 +2499,7 @@
           "language": "en",
           "scene": "stairs",
           "text": "You wait for the wind to ease and cross one at a time, holding the rail.\n\nStone stairs curve around the observatory wall. A yellow scarf is caught beneath a railing: SHINX, say the crooked stitches. You lift it free, fold it, and put it safely in your pack. In a weatherproof box nearby, a photograph shows Lumi and Shinx wearing matching scarves, each with its owner’s name. A crescent marks the service door. The ordinary steps continue upward beside it.",
-          "image": "images/scenes/painted/scene-stairs.png",
+          "image": "images/scenes/painted/scene-stairs-v3.png",
           "choice": "stairs.1"
         },
         {
@@ -2513,14 +2513,14 @@
           "language": "en",
           "scene": "roof",
           "text": "The mechanism clicks into place. Your partner tests the latch twice, looking very pleased, and the platform opens toward the roof.\n\nFrom the observatory roof you hear footsteps in the tower room. A covered walkway crosses the gap below; above it, broad glowing stones form a short crossing between sturdy rails. Your lens shows their stone supports beneath the shimmer. A sheltered stair curls around the rock to the same landing. Beside the walkway hangs a bell cord with a moon-shaped handle.",
-          "image": "images/scenes/painted/scene-roof.png",
+          "image": "images/scenes/painted/scene-roof-v3.png",
           "choice": "roof.1"
         },
         {
           "language": "en",
           "scene": "tower",
           "text": "The covered walkway shelters you from the wind as you cross to the tower.\n\n“One, two, three. Please, one more night.” A muffled voice counts behind the closed door. Another voice answers, tired but quite clear: “Lumi, I’m not sleeping.” You breathe out. Shinx is here, and he can speak. Through a narrow window beside the door, you see a yellow scarf on a chair. LUMI is stitched along its edge; she has her own scarf back. The seed warms in your hand.\n\nShinx’s matching scarf is still dry in your pack. You can offer it through the window.",
-          "image": "images/scenes/painted/scene-tower.png",
+          "image": "images/scenes/painted/scene-tower-v3.png",
           "choice": "tower.1"
         },
         {
@@ -2590,7 +2590,7 @@
           "language": "nb",
           "scene": "brook",
           "text": "Dere følger bekken og tørker gjørmen av det gamle treskiltet før dere leser det.\n\nEn flaske dunker mot en stein i bekken. Inni ligger en papirlapp med tett håndskrift: «Jeg prøvde å hjelpe. Nå får jeg den ikke opp igjen. Vær så snill å hente morgenen. – L.» Ved siden av ordene er et utydelig poteavtrykk. Over bredden går en gammel kabel opp mot tårnet. Et vannhjul driver en liten postkurv oppover langs kabelen. På skiltet står det TÅRNPOST.\n\nDu lurer på om L står for Lumi. Du vet det ikke sikkert ennå.",
-          "image": "images/scenes/painted/scene-brook.png",
+          "image": "images/scenes/painted/scene-brook-v3.png",
           "choice": "brook.2"
         },
         {
@@ -2660,7 +2660,7 @@
           "language": "nb",
           "scene": "stairs",
           "text": "Dere venter til vinden løyer og krysser én om gangen mens dere holder i rekkverket.\n\nSteintrinn svinger rundt observatoriemuren. Et gult skjerf sitter fast under rekkverket. SHINX, står det med skjeve sting. Du løfter det løs, bretter det og legger det trygt i sekken. I en værbestandig eske like ved viser et fotografi Lumi og Shinx med like skjerf, hvert med navnet til eieren. En halvmåne er risset inn på tjenestedøren. De vanlige trinnene fortsetter oppover ved siden av.",
-          "image": "images/scenes/painted/scene-stairs.png",
+          "image": "images/scenes/painted/scene-stairs-v3.png",
           "choice": "stairs.1"
         },
         {
@@ -2674,14 +2674,14 @@
           "language": "nb",
           "scene": "roof",
           "text": "Mekanismen klikker på plass. Vennen din tester låsen to ganger og ser svært fornøyd ut. Plattformen åpner veien til taket.\n\nFra observatorietaket hører du skritt inne i tårnrommet. En overbygd gangbro krysser åpningen nedenfor. Over den danner brede, lysende steiner en kort vei mellom solide rekkverk. Gjennom linsen ser du steinstøttene under skinnet. En skjermet trapp svinger rundt fjellet til den samme avsatsen. Ved gangbroen henger en klokkesnor med et måneformet håndtak.",
-          "image": "images/scenes/painted/scene-roof.png",
+          "image": "images/scenes/painted/scene-roof-v3.png",
           "choice": "roof.1"
         },
         {
           "language": "nb",
           "scene": "tower",
           "text": "Gangbroen skjermer dere mot vinden på veien til tårnet.\n\n«En, to, tre. Vær så snill, bare én natt til.» En dempet stemme teller bak den lukkede døren. En annen svarer, trøtt, men tydelig: «Lumi, jeg sover ikke.» Du puster ut. Shinx er her, og han kan snakke. Gjennom et smalt vindu ved døren ser du et gult skjerf på en stol. LUMI er sydd langs kanten. Hun har fått sitt eget skjerf tilbake. Frøet varmer hånden din.\n\nDet like skjerfet til Shinx ligger fremdeles tørt i sekken. Du kan vise det fram gjennom vinduet.",
-          "image": "images/scenes/painted/scene-tower.png",
+          "image": "images/scenes/painted/scene-tower-v3.png",
           "choice": "tower.1"
         },
         {
@@ -2844,7 +2844,7 @@
           "language": "en",
           "scene": "stairs",
           "text": "You wait for the wind to ease and cross one at a time, holding the rail.\n\nStone stairs curve around the observatory wall. A yellow scarf is caught beneath a railing: SHINX, say the crooked stitches. You lift it free, fold it, and put it safely in your pack. In a weatherproof box nearby, a photograph shows Lumi and Shinx wearing matching scarves, each with its owner’s name. A crescent marks the service door. The ordinary steps continue upward beside it.",
-          "image": "images/scenes/painted/scene-stairs.png",
+          "image": "images/scenes/painted/scene-stairs-v3.png",
           "choice": "stairs.1"
         },
         {
@@ -2858,14 +2858,14 @@
           "language": "en",
           "scene": "roof",
           "text": "The mechanism clicks into place. Your partner tests the latch twice, looking very pleased, and the platform opens toward the roof.\n\nFrom the observatory roof you hear footsteps in the tower room. A covered walkway crosses the gap below; above it, broad glowing stones form a short crossing between sturdy rails. Your lens shows their stone supports beneath the shimmer. A sheltered stair curls around the rock to the same landing. Beside the walkway hangs a bell cord with a moon-shaped handle.",
-          "image": "images/scenes/painted/scene-roof.png",
+          "image": "images/scenes/painted/scene-roof-v3.png",
           "choice": "roof.1"
         },
         {
           "language": "en",
           "scene": "tower",
           "text": "The covered walkway shelters you from the wind as you cross to the tower.\n\n“One, two, three. Please, one more night.” A muffled voice counts behind the closed door. Another voice answers, tired but quite clear: “Lumi, I’m not sleeping.” You breathe out. Shinx is here, and he can speak. Through a narrow window beside the door, you see a yellow scarf on a chair. LUMI is stitched along its edge; she has her own scarf back. The seed warms in your hand.\n\nShinx’s matching scarf is still dry in your pack. You can offer it through the window.",
-          "image": "images/scenes/painted/scene-tower.png",
+          "image": "images/scenes/painted/scene-tower-v3.png",
           "choice": "tower.3"
         },
         {
@@ -2998,7 +2998,7 @@
           "language": "nb",
           "scene": "stairs",
           "text": "Dere venter til vinden løyer og krysser én om gangen mens dere holder i rekkverket.\n\nSteintrinn svinger rundt observatoriemuren. Et gult skjerf sitter fast under rekkverket. SHINX, står det med skjeve sting. Du løfter det løs, bretter det og legger det trygt i sekken. I en værbestandig eske like ved viser et fotografi Lumi og Shinx med like skjerf, hvert med navnet til eieren. En halvmåne er risset inn på tjenestedøren. De vanlige trinnene fortsetter oppover ved siden av.",
-          "image": "images/scenes/painted/scene-stairs.png",
+          "image": "images/scenes/painted/scene-stairs-v3.png",
           "choice": "stairs.1"
         },
         {
@@ -3012,14 +3012,14 @@
           "language": "nb",
           "scene": "roof",
           "text": "Mekanismen klikker på plass. Vennen din tester låsen to ganger og ser svært fornøyd ut. Plattformen åpner veien til taket.\n\nFra observatorietaket hører du skritt inne i tårnrommet. En overbygd gangbro krysser åpningen nedenfor. Over den danner brede, lysende steiner en kort vei mellom solide rekkverk. Gjennom linsen ser du steinstøttene under skinnet. En skjermet trapp svinger rundt fjellet til den samme avsatsen. Ved gangbroen henger en klokkesnor med et måneformet håndtak.",
-          "image": "images/scenes/painted/scene-roof.png",
+          "image": "images/scenes/painted/scene-roof-v3.png",
           "choice": "roof.1"
         },
         {
           "language": "nb",
           "scene": "tower",
           "text": "Gangbroen skjermer dere mot vinden på veien til tårnet.\n\n«En, to, tre. Vær så snill, bare én natt til.» En dempet stemme teller bak den lukkede døren. En annen svarer, trøtt, men tydelig: «Lumi, jeg sover ikke.» Du puster ut. Shinx er her, og han kan snakke. Gjennom et smalt vindu ved døren ser du et gult skjerf på en stol. LUMI er sydd langs kanten. Hun har fått sitt eget skjerf tilbake. Frøet varmer hånden din.\n\nDet like skjerfet til Shinx ligger fremdeles tørt i sekken. Du kan vise det fram gjennom vinduet.",
-          "image": "images/scenes/painted/scene-tower.png",
+          "image": "images/scenes/painted/scene-tower-v3.png",
           "choice": "tower.3"
         },
         {
@@ -3188,14 +3188,14 @@
           "language": "en",
           "scene": "roof",
           "text": "You guide the last chick around the stone lantern. Altaria counts every head and leads the flock into its sheltered roost. With the chicks safe, she carries you to the observatory roof.\n\nFrom the observatory roof you hear footsteps in the tower room. A covered walkway crosses the gap below; above it, broad glowing stones form a short crossing between sturdy rails. Your lens shows their stone supports beneath the shimmer. A sheltered stair curls around the rock to the same landing. Beside the walkway hangs a bell cord with a moon-shaped handle.",
-          "image": "images/scenes/painted/roof-flock.png",
+          "image": "images/scenes/painted/roof-flock-v3.png",
           "choice": "roof.1"
         },
         {
           "language": "en",
           "scene": "tower",
           "text": "The covered walkway shelters you from the wind as you cross to the tower.\n\n“One, two, three. Please, one more night.” A muffled voice counts behind the closed door. Another voice answers, tired but quite clear: “Lumi, I’m not sleeping.” You breathe out. Shinx is here, and he can speak. Through a narrow window beside the door, you see a yellow scarf on a chair. LUMI is stitched along its edge; she has her own scarf back. The seed warms in your hand.",
-          "image": "images/scenes/painted/scene-tower.png",
+          "image": "images/scenes/painted/scene-tower-v3.png",
           "choice": "tower.1"
         },
         {
@@ -3335,14 +3335,14 @@
           "language": "nb",
           "scene": "roof",
           "text": "Du viser den siste ungen rundt steinlykten. Altaria teller alle hodene og leder flokken inn på den lune soveplassen. Når ungene er trygge, bærer hun dere til taket på observatoriet.\n\nFra observatorietaket hører du skritt inne i tårnrommet. En overbygd gangbro krysser åpningen nedenfor. Over den danner brede, lysende steiner en kort vei mellom solide rekkverk. Gjennom linsen ser du steinstøttene under skinnet. En skjermet trapp svinger rundt fjellet til den samme avsatsen. Ved gangbroen henger en klokkesnor med et måneformet håndtak.",
-          "image": "images/scenes/painted/roof-flock.png",
+          "image": "images/scenes/painted/roof-flock-v3.png",
           "choice": "roof.1"
         },
         {
           "language": "nb",
           "scene": "tower",
           "text": "Gangbroen skjermer dere mot vinden på veien til tårnet.\n\n«En, to, tre. Vær så snill, bare én natt til.» En dempet stemme teller bak den lukkede døren. En annen svarer, trøtt, men tydelig: «Lumi, jeg sover ikke.» Du puster ut. Shinx er her, og han kan snakke. Gjennom et smalt vindu ved døren ser du et gult skjerf på en stol. LUMI er sydd langs kanten. Hun har fått sitt eget skjerf tilbake. Frøet varmer hånden din.",
-          "image": "images/scenes/painted/scene-tower.png",
+          "image": "images/scenes/painted/scene-tower-v3.png",
           "choice": "tower.1"
         },
         {
@@ -3511,14 +3511,14 @@
           "language": "en",
           "scene": "roof",
           "text": "You guide the last chick around the stone lantern. Altaria counts every head and leads the flock into its sheltered roost. With the chicks safe, she carries you to the observatory roof.\n\nFrom the observatory roof you hear footsteps in the tower room. A covered walkway crosses the gap below; above it, broad glowing stones form a short crossing between sturdy rails. Your lens shows their stone supports beneath the shimmer. A sheltered stair curls around the rock to the same landing. Beside the walkway hangs a bell cord with a moon-shaped handle.",
-          "image": "images/scenes/painted/roof-flock.png",
+          "image": "images/scenes/painted/roof-flock-v3.png",
           "choice": "roof.1"
         },
         {
           "language": "en",
           "scene": "tower",
           "text": "The covered walkway shelters you from the wind as you cross to the tower.\n\n“One, two, three. Please, one more night.” A muffled voice counts behind the closed door. Another voice answers, tired but quite clear: “Lumi, I’m not sleeping.” You breathe out. Shinx is here, and he can speak. Through a narrow window beside the door, you see a yellow scarf on a chair. LUMI is stitched along its edge; she has her own scarf back. The seed warms in your hand.",
-          "image": "images/scenes/painted/scene-tower.png",
+          "image": "images/scenes/painted/scene-tower-v3.png",
           "choice": "tower.1"
         },
         {
@@ -3658,14 +3658,14 @@
           "language": "nb",
           "scene": "roof",
           "text": "Du viser den siste ungen rundt steinlykten. Altaria teller alle hodene og leder flokken inn på den lune soveplassen. Når ungene er trygge, bærer hun dere til taket på observatoriet.\n\nFra observatorietaket hører du skritt inne i tårnrommet. En overbygd gangbro krysser åpningen nedenfor. Over den danner brede, lysende steiner en kort vei mellom solide rekkverk. Gjennom linsen ser du steinstøttene under skinnet. En skjermet trapp svinger rundt fjellet til den samme avsatsen. Ved gangbroen henger en klokkesnor med et måneformet håndtak.",
-          "image": "images/scenes/painted/roof-flock.png",
+          "image": "images/scenes/painted/roof-flock-v3.png",
           "choice": "roof.1"
         },
         {
           "language": "nb",
           "scene": "tower",
           "text": "Gangbroen skjermer dere mot vinden på veien til tårnet.\n\n«En, to, tre. Vær så snill, bare én natt til.» En dempet stemme teller bak den lukkede døren. En annen svarer, trøtt, men tydelig: «Lumi, jeg sover ikke.» Du puster ut. Shinx er her, og han kan snakke. Gjennom et smalt vindu ved døren ser du et gult skjerf på en stol. LUMI er sydd langs kanten. Hun har fått sitt eget skjerf tilbake. Frøet varmer hånden din.",
-          "image": "images/scenes/painted/scene-tower.png",
+          "image": "images/scenes/painted/scene-tower-v3.png",
           "choice": "tower.1"
         },
         {
@@ -3850,14 +3850,14 @@
           "language": "en",
           "scene": "roof",
           "text": "The mechanism clicks into place. Your partner tests the latch twice, looking very pleased, and the platform opens toward the roof.\n\nFrom the observatory roof you hear footsteps in the tower room. A covered walkway crosses the gap below; above it, broad glowing stones form a short crossing between sturdy rails. Your lens shows their stone supports beneath the shimmer. A sheltered stair curls around the rock to the same landing. Beside the walkway hangs a bell cord with a moon-shaped handle.",
-          "image": "images/scenes/painted/scene-roof.png",
+          "image": "images/scenes/painted/scene-roof-v3.png",
           "choice": "roof.1"
         },
         {
           "language": "en",
           "scene": "tower",
           "text": "The covered walkway shelters you from the wind as you cross to the tower.\n\n“One, two, three. Please, one more night.” A muffled voice counts behind the closed door. Another voice answers, tired but quite clear: “Lumi, I’m not sleeping.” You breathe out. Shinx is here, and he can speak. Through a narrow window beside the door, you see a yellow scarf on a chair. LUMI is stitched along its edge; she has her own scarf back. The seed warms in your hand.",
-          "image": "images/scenes/painted/scene-tower.png",
+          "image": "images/scenes/painted/scene-tower-v3.png",
           "choice": "tower.1"
         },
         {
@@ -4011,14 +4011,14 @@
           "language": "nb",
           "scene": "roof",
           "text": "Mekanismen klikker på plass. Vennen din tester låsen to ganger og ser svært fornøyd ut. Plattformen åpner veien til taket.\n\nFra observatorietaket hører du skritt inne i tårnrommet. En overbygd gangbro krysser åpningen nedenfor. Over den danner brede, lysende steiner en kort vei mellom solide rekkverk. Gjennom linsen ser du steinstøttene under skinnet. En skjermet trapp svinger rundt fjellet til den samme avsatsen. Ved gangbroen henger en klokkesnor med et måneformet håndtak.",
-          "image": "images/scenes/painted/scene-roof.png",
+          "image": "images/scenes/painted/scene-roof-v3.png",
           "choice": "roof.1"
         },
         {
           "language": "nb",
           "scene": "tower",
           "text": "Gangbroen skjermer dere mot vinden på veien til tårnet.\n\n«En, to, tre. Vær så snill, bare én natt til.» En dempet stemme teller bak den lukkede døren. En annen svarer, trøtt, men tydelig: «Lumi, jeg sover ikke.» Du puster ut. Shinx er her, og han kan snakke. Gjennom et smalt vindu ved døren ser du et gult skjerf på en stol. LUMI er sydd langs kanten. Hun har fått sitt eget skjerf tilbake. Frøet varmer hånden din.",
-          "image": "images/scenes/painted/scene-tower.png",
+          "image": "images/scenes/painted/scene-tower-v3.png",
           "choice": "tower.1"
         },
         {
@@ -4181,7 +4181,7 @@
           "language": "en",
           "scene": "stairs",
           "text": "You wait for the wind to ease and cross one at a time, holding the rail.\n\nStone stairs curve around the observatory wall. A yellow scarf is caught beneath a railing: SHINX, say the crooked stitches. You lift it free, fold it, and put it safely in your pack. In a weatherproof box nearby, a photograph shows Lumi and Shinx wearing matching scarves, each with its owner’s name. A crescent marks the service door. The ordinary steps continue upward beside it.",
-          "image": "images/scenes/painted/scene-stairs.png",
+          "image": "images/scenes/painted/scene-stairs-v3.png",
           "choice": "stairs.1"
         },
         {
@@ -4195,14 +4195,14 @@
           "language": "en",
           "scene": "roof",
           "text": "The mechanism clicks into place. Your partner tests the latch twice, looking very pleased, and the platform opens toward the roof.\n\nFrom the observatory roof you hear footsteps in the tower room. A covered walkway crosses the gap below; above it, broad glowing stones form a short crossing between sturdy rails. Your lens shows their stone supports beneath the shimmer. A sheltered stair curls around the rock to the same landing. Beside the walkway hangs a bell cord with a moon-shaped handle.",
-          "image": "images/scenes/painted/scene-roof.png",
+          "image": "images/scenes/painted/scene-roof-v3.png",
           "choice": "roof.1"
         },
         {
           "language": "en",
           "scene": "tower",
           "text": "The covered walkway shelters you from the wind as you cross to the tower.\n\n“One, two, three. Please, one more night.” A muffled voice counts behind the closed door. Another voice answers, tired but quite clear: “Lumi, I’m not sleeping.” You breathe out. Shinx is here, and he can speak. Through a narrow window beside the door, you see a yellow scarf on a chair. LUMI is stitched along its edge; she has her own scarf back. The seed warms in your hand.\n\nShinx’s matching scarf is still dry in your pack. You can offer it through the window.",
-          "image": "images/scenes/painted/scene-tower.png",
+          "image": "images/scenes/painted/scene-tower-v3.png",
           "choice": "tower.1"
         },
         {
@@ -4335,7 +4335,7 @@
           "language": "nb",
           "scene": "stairs",
           "text": "Dere venter til vinden løyer og krysser én om gangen mens dere holder i rekkverket.\n\nSteintrinn svinger rundt observatoriemuren. Et gult skjerf sitter fast under rekkverket. SHINX, står det med skjeve sting. Du løfter det løs, bretter det og legger det trygt i sekken. I en værbestandig eske like ved viser et fotografi Lumi og Shinx med like skjerf, hvert med navnet til eieren. En halvmåne er risset inn på tjenestedøren. De vanlige trinnene fortsetter oppover ved siden av.",
-          "image": "images/scenes/painted/scene-stairs.png",
+          "image": "images/scenes/painted/scene-stairs-v3.png",
           "choice": "stairs.1"
         },
         {
@@ -4349,14 +4349,14 @@
           "language": "nb",
           "scene": "roof",
           "text": "Mekanismen klikker på plass. Vennen din tester låsen to ganger og ser svært fornøyd ut. Plattformen åpner veien til taket.\n\nFra observatorietaket hører du skritt inne i tårnrommet. En overbygd gangbro krysser åpningen nedenfor. Over den danner brede, lysende steiner en kort vei mellom solide rekkverk. Gjennom linsen ser du steinstøttene under skinnet. En skjermet trapp svinger rundt fjellet til den samme avsatsen. Ved gangbroen henger en klokkesnor med et måneformet håndtak.",
-          "image": "images/scenes/painted/scene-roof.png",
+          "image": "images/scenes/painted/scene-roof-v3.png",
           "choice": "roof.1"
         },
         {
           "language": "nb",
           "scene": "tower",
           "text": "Gangbroen skjermer dere mot vinden på veien til tårnet.\n\n«En, to, tre. Vær så snill, bare én natt til.» En dempet stemme teller bak den lukkede døren. En annen svarer, trøtt, men tydelig: «Lumi, jeg sover ikke.» Du puster ut. Shinx er her, og han kan snakke. Gjennom et smalt vindu ved døren ser du et gult skjerf på en stol. LUMI er sydd langs kanten. Hun har fått sitt eget skjerf tilbake. Frøet varmer hånden din.\n\nDet like skjerfet til Shinx ligger fremdeles tørt i sekken. Du kan vise det fram gjennom vinduet.",
-          "image": "images/scenes/painted/scene-tower.png",
+          "image": "images/scenes/painted/scene-tower-v3.png",
           "choice": "tower.1"
         },
         {
@@ -4519,7 +4519,7 @@
           "language": "en",
           "scene": "stairs",
           "text": "You wait for the wind to ease and cross one at a time, holding the rail.\n\nStone stairs curve around the observatory wall. A yellow scarf is caught beneath a railing: SHINX, say the crooked stitches. You lift it free, fold it, and put it safely in your pack. In a weatherproof box nearby, a photograph shows Lumi and Shinx wearing matching scarves, each with its owner’s name. A crescent marks the service door. The ordinary steps continue upward beside it.",
-          "image": "images/scenes/painted/scene-stairs.png",
+          "image": "images/scenes/painted/scene-stairs-v3.png",
           "choice": "stairs.1"
         },
         {
@@ -4533,14 +4533,14 @@
           "language": "en",
           "scene": "roof",
           "text": "The mechanism clicks into place. Your partner tests the latch twice, looking very pleased, and the platform opens toward the roof.\n\nFrom the observatory roof you hear footsteps in the tower room. A covered walkway crosses the gap below; above it, broad glowing stones form a short crossing between sturdy rails. Your lens shows their stone supports beneath the shimmer. A sheltered stair curls around the rock to the same landing. Beside the walkway hangs a bell cord with a moon-shaped handle.",
-          "image": "images/scenes/painted/scene-roof.png",
+          "image": "images/scenes/painted/scene-roof-v3.png",
           "choice": "roof.1"
         },
         {
           "language": "en",
           "scene": "tower",
           "text": "The covered walkway shelters you from the wind as you cross to the tower.\n\n“One, two, three. Please, one more night.” A muffled voice counts behind the closed door. Another voice answers, tired but quite clear: “Lumi, I’m not sleeping.” You breathe out. Shinx is here, and he can speak. Through a narrow window beside the door, you see a yellow scarf on a chair. LUMI is stitched along its edge; she has her own scarf back. The seed warms in your hand.\n\nShinx’s matching scarf is still dry in your pack. You can offer it through the window.",
-          "image": "images/scenes/painted/scene-tower.png",
+          "image": "images/scenes/painted/scene-tower-v3.png",
           "choice": "tower.1"
         },
         {
@@ -4673,7 +4673,7 @@
           "language": "nb",
           "scene": "stairs",
           "text": "Dere venter til vinden løyer og krysser én om gangen mens dere holder i rekkverket.\n\nSteintrinn svinger rundt observatoriemuren. Et gult skjerf sitter fast under rekkverket. SHINX, står det med skjeve sting. Du løfter det løs, bretter det og legger det trygt i sekken. I en værbestandig eske like ved viser et fotografi Lumi og Shinx med like skjerf, hvert med navnet til eieren. En halvmåne er risset inn på tjenestedøren. De vanlige trinnene fortsetter oppover ved siden av.",
-          "image": "images/scenes/painted/scene-stairs.png",
+          "image": "images/scenes/painted/scene-stairs-v3.png",
           "choice": "stairs.1"
         },
         {
@@ -4687,14 +4687,14 @@
           "language": "nb",
           "scene": "roof",
           "text": "Mekanismen klikker på plass. Vennen din tester låsen to ganger og ser svært fornøyd ut. Plattformen åpner veien til taket.\n\nFra observatorietaket hører du skritt inne i tårnrommet. En overbygd gangbro krysser åpningen nedenfor. Over den danner brede, lysende steiner en kort vei mellom solide rekkverk. Gjennom linsen ser du steinstøttene under skinnet. En skjermet trapp svinger rundt fjellet til den samme avsatsen. Ved gangbroen henger en klokkesnor med et måneformet håndtak.",
-          "image": "images/scenes/painted/scene-roof.png",
+          "image": "images/scenes/painted/scene-roof-v3.png",
           "choice": "roof.1"
         },
         {
           "language": "nb",
           "scene": "tower",
           "text": "Gangbroen skjermer dere mot vinden på veien til tårnet.\n\n«En, to, tre. Vær så snill, bare én natt til.» En dempet stemme teller bak den lukkede døren. En annen svarer, trøtt, men tydelig: «Lumi, jeg sover ikke.» Du puster ut. Shinx er her, og han kan snakke. Gjennom et smalt vindu ved døren ser du et gult skjerf på en stol. LUMI er sydd langs kanten. Hun har fått sitt eget skjerf tilbake. Frøet varmer hånden din.\n\nDet like skjerfet til Shinx ligger fremdeles tørt i sekken. Du kan vise det fram gjennom vinduet.",
-          "image": "images/scenes/painted/scene-tower.png",
+          "image": "images/scenes/painted/scene-tower-v3.png",
           "choice": "tower.1"
         },
         {
@@ -4857,7 +4857,7 @@
           "language": "en",
           "scene": "stairs",
           "text": "You wait for the wind to ease and cross one at a time, holding the rail.\n\nStone stairs curve around the observatory wall. A yellow scarf is caught beneath a railing: SHINX, say the crooked stitches. You lift it free, fold it, and put it safely in your pack. In a weatherproof box nearby, a photograph shows Lumi and Shinx wearing matching scarves, each with its owner’s name. A crescent marks the service door. The ordinary steps continue upward beside it.",
-          "image": "images/scenes/painted/scene-stairs.png",
+          "image": "images/scenes/painted/scene-stairs-v3.png",
           "choice": "stairs.1"
         },
         {
@@ -4871,14 +4871,14 @@
           "language": "en",
           "scene": "roof",
           "text": "The mechanism clicks into place. Your partner tests the latch twice, looking very pleased, and the platform opens toward the roof.\n\nFrom the observatory roof you hear footsteps in the tower room. A covered walkway crosses the gap below; above it, broad glowing stones form a short crossing between sturdy rails. Your lens shows their stone supports beneath the shimmer. A sheltered stair curls around the rock to the same landing. Beside the walkway hangs a bell cord with a moon-shaped handle.",
-          "image": "images/scenes/painted/scene-roof.png",
+          "image": "images/scenes/painted/scene-roof-v3.png",
           "choice": "roof.1"
         },
         {
           "language": "en",
           "scene": "tower",
           "text": "The covered walkway shelters you from the wind as you cross to the tower.\n\n“One, two, three. Please, one more night.” A muffled voice counts behind the closed door. Another voice answers, tired but quite clear: “Lumi, I’m not sleeping.” You breathe out. Shinx is here, and he can speak. Through a narrow window beside the door, you see a yellow scarf on a chair. LUMI is stitched along its edge; she has her own scarf back. The seed warms in your hand.\n\nShinx’s matching scarf is still dry in your pack. You can offer it through the window.",
-          "image": "images/scenes/painted/scene-tower.png",
+          "image": "images/scenes/painted/scene-tower-v3.png",
           "choice": "tower.1"
         },
         {
@@ -5011,7 +5011,7 @@
           "language": "nb",
           "scene": "stairs",
           "text": "Dere venter til vinden løyer og krysser én om gangen mens dere holder i rekkverket.\n\nSteintrinn svinger rundt observatoriemuren. Et gult skjerf sitter fast under rekkverket. SHINX, står det med skjeve sting. Du løfter det løs, bretter det og legger det trygt i sekken. I en værbestandig eske like ved viser et fotografi Lumi og Shinx med like skjerf, hvert med navnet til eieren. En halvmåne er risset inn på tjenestedøren. De vanlige trinnene fortsetter oppover ved siden av.",
-          "image": "images/scenes/painted/scene-stairs.png",
+          "image": "images/scenes/painted/scene-stairs-v3.png",
           "choice": "stairs.1"
         },
         {
@@ -5025,14 +5025,14 @@
           "language": "nb",
           "scene": "roof",
           "text": "Mekanismen klikker på plass. Vennen din tester låsen to ganger og ser svært fornøyd ut. Plattformen åpner veien til taket.\n\nFra observatorietaket hører du skritt inne i tårnrommet. En overbygd gangbro krysser åpningen nedenfor. Over den danner brede, lysende steiner en kort vei mellom solide rekkverk. Gjennom linsen ser du steinstøttene under skinnet. En skjermet trapp svinger rundt fjellet til den samme avsatsen. Ved gangbroen henger en klokkesnor med et måneformet håndtak.",
-          "image": "images/scenes/painted/scene-roof.png",
+          "image": "images/scenes/painted/scene-roof-v3.png",
           "choice": "roof.1"
         },
         {
           "language": "nb",
           "scene": "tower",
           "text": "Gangbroen skjermer dere mot vinden på veien til tårnet.\n\n«En, to, tre. Vær så snill, bare én natt til.» En dempet stemme teller bak den lukkede døren. En annen svarer, trøtt, men tydelig: «Lumi, jeg sover ikke.» Du puster ut. Shinx er her, og han kan snakke. Gjennom et smalt vindu ved døren ser du et gult skjerf på en stol. LUMI er sydd langs kanten. Hun har fått sitt eget skjerf tilbake. Frøet varmer hånden din.\n\nDet like skjerfet til Shinx ligger fremdeles tørt i sekken. Du kan vise det fram gjennom vinduet.",
-          "image": "images/scenes/painted/scene-tower.png",
+          "image": "images/scenes/painted/scene-tower-v3.png",
           "choice": "tower.1"
         },
         {
@@ -5195,7 +5195,7 @@
           "language": "en",
           "scene": "stairs",
           "text": "You wait for the wind to ease and cross one at a time, holding the rail.\n\nStone stairs curve around the observatory wall. A yellow scarf is caught beneath a railing: SHINX, say the crooked stitches. You lift it free, fold it, and put it safely in your pack. In a weatherproof box nearby, a photograph shows Lumi and Shinx wearing matching scarves, each with its owner’s name. A crescent marks the service door. The ordinary steps continue upward beside it.",
-          "image": "images/scenes/painted/scene-stairs.png",
+          "image": "images/scenes/painted/scene-stairs-v3.png",
           "choice": "stairs.1"
         },
         {
@@ -5209,14 +5209,14 @@
           "language": "en",
           "scene": "roof",
           "text": "The mechanism clicks into place. Your partner tests the latch twice, looking very pleased, and the platform opens toward the roof.\n\nFrom the observatory roof you hear footsteps in the tower room. A covered walkway crosses the gap below; above it, broad glowing stones form a short crossing between sturdy rails. Your lens shows their stone supports beneath the shimmer. A sheltered stair curls around the rock to the same landing. Beside the walkway hangs a bell cord with a moon-shaped handle.",
-          "image": "images/scenes/painted/scene-roof.png",
+          "image": "images/scenes/painted/scene-roof-v3.png",
           "choice": "roof.1"
         },
         {
           "language": "en",
           "scene": "tower",
           "text": "The covered walkway shelters you from the wind as you cross to the tower.\n\n“One, two, three. Please, one more night.” A muffled voice counts behind the closed door. Another voice answers, tired but quite clear: “Lumi, I’m not sleeping.” You breathe out. Shinx is here, and he can speak. Through a narrow window beside the door, you see a yellow scarf on a chair. LUMI is stitched along its edge; she has her own scarf back. The seed warms in your hand.\n\nShinx’s matching scarf is still dry in your pack. You can offer it through the window.",
-          "image": "images/scenes/painted/scene-tower.png",
+          "image": "images/scenes/painted/scene-tower-v3.png",
           "choice": "tower.1"
         },
         {
@@ -5349,7 +5349,7 @@
           "language": "nb",
           "scene": "stairs",
           "text": "Dere venter til vinden løyer og krysser én om gangen mens dere holder i rekkverket.\n\nSteintrinn svinger rundt observatoriemuren. Et gult skjerf sitter fast under rekkverket. SHINX, står det med skjeve sting. Du løfter det løs, bretter det og legger det trygt i sekken. I en værbestandig eske like ved viser et fotografi Lumi og Shinx med like skjerf, hvert med navnet til eieren. En halvmåne er risset inn på tjenestedøren. De vanlige trinnene fortsetter oppover ved siden av.",
-          "image": "images/scenes/painted/scene-stairs.png",
+          "image": "images/scenes/painted/scene-stairs-v3.png",
           "choice": "stairs.1"
         },
         {
@@ -5363,14 +5363,14 @@
           "language": "nb",
           "scene": "roof",
           "text": "Mekanismen klikker på plass. Vennen din tester låsen to ganger og ser svært fornøyd ut. Plattformen åpner veien til taket.\n\nFra observatorietaket hører du skritt inne i tårnrommet. En overbygd gangbro krysser åpningen nedenfor. Over den danner brede, lysende steiner en kort vei mellom solide rekkverk. Gjennom linsen ser du steinstøttene under skinnet. En skjermet trapp svinger rundt fjellet til den samme avsatsen. Ved gangbroen henger en klokkesnor med et måneformet håndtak.",
-          "image": "images/scenes/painted/scene-roof.png",
+          "image": "images/scenes/painted/scene-roof-v3.png",
           "choice": "roof.1"
         },
         {
           "language": "nb",
           "scene": "tower",
           "text": "Gangbroen skjermer dere mot vinden på veien til tårnet.\n\n«En, to, tre. Vær så snill, bare én natt til.» En dempet stemme teller bak den lukkede døren. En annen svarer, trøtt, men tydelig: «Lumi, jeg sover ikke.» Du puster ut. Shinx er her, og han kan snakke. Gjennom et smalt vindu ved døren ser du et gult skjerf på en stol. LUMI er sydd langs kanten. Hun har fått sitt eget skjerf tilbake. Frøet varmer hånden din.\n\nDet like skjerfet til Shinx ligger fremdeles tørt i sekken. Du kan vise det fram gjennom vinduet.",
-          "image": "images/scenes/painted/scene-tower.png",
+          "image": "images/scenes/painted/scene-tower-v3.png",
           "choice": "tower.1"
         },
         {
@@ -5549,7 +5549,7 @@
           "language": "en",
           "scene": "stairs",
           "text": "You wait for the wind to ease and cross one at a time, holding the rail.\n\nStone stairs curve around the observatory wall. A yellow scarf is caught beneath a railing: SHINX, say the crooked stitches. You lift it free, fold it, and put it safely in your pack. In a weatherproof box nearby, a photograph shows Lumi and Shinx wearing matching scarves, each with its owner’s name. A crescent marks the service door. The ordinary steps continue upward beside it.",
-          "image": "images/scenes/painted/scene-stairs.png",
+          "image": "images/scenes/painted/scene-stairs-v3.png",
           "choice": "stairs.1"
         },
         {
@@ -5563,14 +5563,14 @@
           "language": "en",
           "scene": "roof",
           "text": "The mechanism clicks into place. Your partner tests the latch twice, looking very pleased, and the platform opens toward the roof.\n\nFrom the observatory roof you hear footsteps in the tower room. A covered walkway crosses the gap below; above it, broad glowing stones form a short crossing between sturdy rails. Your lens shows their stone supports beneath the shimmer. A sheltered stair curls around the rock to the same landing. Beside the walkway hangs a bell cord with a moon-shaped handle.",
-          "image": "images/scenes/painted/scene-roof.png",
+          "image": "images/scenes/painted/scene-roof-v3.png",
           "choice": "roof.1"
         },
         {
           "language": "en",
           "scene": "tower",
           "text": "The covered walkway shelters you from the wind as you cross to the tower.\n\n“One, two, three. Please, one more night.” A muffled voice counts behind the closed door. Another voice answers, tired but quite clear: “Lumi, I’m not sleeping.” You breathe out. Shinx is here, and he can speak. Through a narrow window beside the door, you see a yellow scarf on a chair. LUMI is stitched along its edge; she has her own scarf back. The seed warms in your hand.\n\nShinx’s matching scarf is still dry in your pack. You can offer it through the window.",
-          "image": "images/scenes/painted/scene-tower.png",
+          "image": "images/scenes/painted/scene-tower-v3.png",
           "choice": "tower.1"
         },
         {
@@ -5717,7 +5717,7 @@
           "language": "nb",
           "scene": "stairs",
           "text": "Dere venter til vinden løyer og krysser én om gangen mens dere holder i rekkverket.\n\nSteintrinn svinger rundt observatoriemuren. Et gult skjerf sitter fast under rekkverket. SHINX, står det med skjeve sting. Du løfter det løs, bretter det og legger det trygt i sekken. I en værbestandig eske like ved viser et fotografi Lumi og Shinx med like skjerf, hvert med navnet til eieren. En halvmåne er risset inn på tjenestedøren. De vanlige trinnene fortsetter oppover ved siden av.",
-          "image": "images/scenes/painted/scene-stairs.png",
+          "image": "images/scenes/painted/scene-stairs-v3.png",
           "choice": "stairs.1"
         },
         {
@@ -5731,14 +5731,14 @@
           "language": "nb",
           "scene": "roof",
           "text": "Mekanismen klikker på plass. Vennen din tester låsen to ganger og ser svært fornøyd ut. Plattformen åpner veien til taket.\n\nFra observatorietaket hører du skritt inne i tårnrommet. En overbygd gangbro krysser åpningen nedenfor. Over den danner brede, lysende steiner en kort vei mellom solide rekkverk. Gjennom linsen ser du steinstøttene under skinnet. En skjermet trapp svinger rundt fjellet til den samme avsatsen. Ved gangbroen henger en klokkesnor med et måneformet håndtak.",
-          "image": "images/scenes/painted/scene-roof.png",
+          "image": "images/scenes/painted/scene-roof-v3.png",
           "choice": "roof.1"
         },
         {
           "language": "nb",
           "scene": "tower",
           "text": "Gangbroen skjermer dere mot vinden på veien til tårnet.\n\n«En, to, tre. Vær så snill, bare én natt til.» En dempet stemme teller bak den lukkede døren. En annen svarer, trøtt, men tydelig: «Lumi, jeg sover ikke.» Du puster ut. Shinx er her, og han kan snakke. Gjennom et smalt vindu ved døren ser du et gult skjerf på en stol. LUMI er sydd langs kanten. Hun har fått sitt eget skjerf tilbake. Frøet varmer hånden din.\n\nDet like skjerfet til Shinx ligger fremdeles tørt i sekken. Du kan vise det fram gjennom vinduet.",
-          "image": "images/scenes/painted/scene-tower.png",
+          "image": "images/scenes/painted/scene-tower-v3.png",
           "choice": "tower.1"
         },
         {
@@ -5901,7 +5901,7 @@
           "language": "en",
           "scene": "stairs",
           "text": "You wait for the wind to ease and cross one at a time, holding the rail.\n\nStone stairs curve around the observatory wall. A yellow scarf is caught beneath a railing: SHINX, say the crooked stitches. You lift it free, fold it, and put it safely in your pack. In a weatherproof box nearby, a photograph shows Lumi and Shinx wearing matching scarves, each with its owner’s name. A crescent marks the service door. The ordinary steps continue upward beside it.",
-          "image": "images/scenes/painted/scene-stairs.png",
+          "image": "images/scenes/painted/scene-stairs-v3.png",
           "choice": "stairs.1"
         },
         {
@@ -5915,14 +5915,14 @@
           "language": "en",
           "scene": "roof",
           "text": "The mechanism clicks into place. Your partner tests the latch twice, looking very pleased, and the platform opens toward the roof.\n\nFrom the observatory roof you hear footsteps in the tower room. A covered walkway crosses the gap below; above it, broad glowing stones form a short crossing between sturdy rails. Your lens shows their stone supports beneath the shimmer. A sheltered stair curls around the rock to the same landing. Beside the walkway hangs a bell cord with a moon-shaped handle.",
-          "image": "images/scenes/painted/scene-roof.png",
+          "image": "images/scenes/painted/scene-roof-v3.png",
           "choice": "roof.1"
         },
         {
           "language": "en",
           "scene": "tower",
           "text": "The covered walkway shelters you from the wind as you cross to the tower.\n\n“One, two, three. Please, one more night.” A muffled voice counts behind the closed door. Another voice answers, tired but quite clear: “Lumi, I’m not sleeping.” You breathe out. Shinx is here, and he can speak. Through a narrow window beside the door, you see a yellow scarf on a chair. LUMI is stitched along its edge; she has her own scarf back. The seed warms in your hand.\n\nShinx’s matching scarf is still dry in your pack. You can offer it through the window.",
-          "image": "images/scenes/painted/scene-tower.png",
+          "image": "images/scenes/painted/scene-tower-v3.png",
           "choice": "tower.1"
         },
         {
@@ -6055,7 +6055,7 @@
           "language": "nb",
           "scene": "stairs",
           "text": "Dere venter til vinden løyer og krysser én om gangen mens dere holder i rekkverket.\n\nSteintrinn svinger rundt observatoriemuren. Et gult skjerf sitter fast under rekkverket. SHINX, står det med skjeve sting. Du løfter det løs, bretter det og legger det trygt i sekken. I en værbestandig eske like ved viser et fotografi Lumi og Shinx med like skjerf, hvert med navnet til eieren. En halvmåne er risset inn på tjenestedøren. De vanlige trinnene fortsetter oppover ved siden av.",
-          "image": "images/scenes/painted/scene-stairs.png",
+          "image": "images/scenes/painted/scene-stairs-v3.png",
           "choice": "stairs.1"
         },
         {
@@ -6069,14 +6069,14 @@
           "language": "nb",
           "scene": "roof",
           "text": "Mekanismen klikker på plass. Vennen din tester låsen to ganger og ser svært fornøyd ut. Plattformen åpner veien til taket.\n\nFra observatorietaket hører du skritt inne i tårnrommet. En overbygd gangbro krysser åpningen nedenfor. Over den danner brede, lysende steiner en kort vei mellom solide rekkverk. Gjennom linsen ser du steinstøttene under skinnet. En skjermet trapp svinger rundt fjellet til den samme avsatsen. Ved gangbroen henger en klokkesnor med et måneformet håndtak.",
-          "image": "images/scenes/painted/scene-roof.png",
+          "image": "images/scenes/painted/scene-roof-v3.png",
           "choice": "roof.1"
         },
         {
           "language": "nb",
           "scene": "tower",
           "text": "Gangbroen skjermer dere mot vinden på veien til tårnet.\n\n«En, to, tre. Vær så snill, bare én natt til.» En dempet stemme teller bak den lukkede døren. En annen svarer, trøtt, men tydelig: «Lumi, jeg sover ikke.» Du puster ut. Shinx er her, og han kan snakke. Gjennom et smalt vindu ved døren ser du et gult skjerf på en stol. LUMI er sydd langs kanten. Hun har fått sitt eget skjerf tilbake. Frøet varmer hånden din.\n\nDet like skjerfet til Shinx ligger fremdeles tørt i sekken. Du kan vise det fram gjennom vinduet.",
-          "image": "images/scenes/painted/scene-tower.png",
+          "image": "images/scenes/painted/scene-tower-v3.png",
           "choice": "tower.1"
         },
         {
@@ -6239,7 +6239,7 @@
           "language": "en",
           "scene": "stairs",
           "text": "You wait for the wind to ease and cross one at a time, holding the rail.\n\nStone stairs curve around the observatory wall. A yellow scarf is caught beneath a railing: SHINX, say the crooked stitches. You lift it free, fold it, and put it safely in your pack. In a weatherproof box nearby, a photograph shows Lumi and Shinx wearing matching scarves, each with its owner’s name. A crescent marks the service door. The ordinary steps continue upward beside it.",
-          "image": "images/scenes/painted/scene-stairs.png",
+          "image": "images/scenes/painted/scene-stairs-v3.png",
           "choice": "stairs.1"
         },
         {
@@ -6253,14 +6253,14 @@
           "language": "en",
           "scene": "roof",
           "text": "The mechanism clicks into place. Your partner tests the latch twice, looking very pleased, and the platform opens toward the roof.\n\nFrom the observatory roof you hear footsteps in the tower room. A covered walkway crosses the gap below; above it, broad glowing stones form a short crossing between sturdy rails. Your lens shows their stone supports beneath the shimmer. A sheltered stair curls around the rock to the same landing. Beside the walkway hangs a bell cord with a moon-shaped handle.",
-          "image": "images/scenes/painted/scene-roof.png",
+          "image": "images/scenes/painted/scene-roof-v3.png",
           "choice": "roof.1"
         },
         {
           "language": "en",
           "scene": "tower",
           "text": "The covered walkway shelters you from the wind as you cross to the tower.\n\n“One, two, three. Please, one more night.” A muffled voice counts behind the closed door. Another voice answers, tired but quite clear: “Lumi, I’m not sleeping.” You breathe out. Shinx is here, and he can speak. Through a narrow window beside the door, you see a yellow scarf on a chair. LUMI is stitched along its edge; she has her own scarf back. The seed warms in your hand.\n\nShinx’s matching scarf is still dry in your pack. You can offer it through the window.",
-          "image": "images/scenes/painted/scene-tower.png",
+          "image": "images/scenes/painted/scene-tower-v3.png",
           "choice": "tower.1"
         },
         {
@@ -6393,7 +6393,7 @@
           "language": "nb",
           "scene": "stairs",
           "text": "Dere venter til vinden løyer og krysser én om gangen mens dere holder i rekkverket.\n\nSteintrinn svinger rundt observatoriemuren. Et gult skjerf sitter fast under rekkverket. SHINX, står det med skjeve sting. Du løfter det løs, bretter det og legger det trygt i sekken. I en værbestandig eske like ved viser et fotografi Lumi og Shinx med like skjerf, hvert med navnet til eieren. En halvmåne er risset inn på tjenestedøren. De vanlige trinnene fortsetter oppover ved siden av.",
-          "image": "images/scenes/painted/scene-stairs.png",
+          "image": "images/scenes/painted/scene-stairs-v3.png",
           "choice": "stairs.1"
         },
         {
@@ -6407,14 +6407,14 @@
           "language": "nb",
           "scene": "roof",
           "text": "Mekanismen klikker på plass. Vennen din tester låsen to ganger og ser svært fornøyd ut. Plattformen åpner veien til taket.\n\nFra observatorietaket hører du skritt inne i tårnrommet. En overbygd gangbro krysser åpningen nedenfor. Over den danner brede, lysende steiner en kort vei mellom solide rekkverk. Gjennom linsen ser du steinstøttene under skinnet. En skjermet trapp svinger rundt fjellet til den samme avsatsen. Ved gangbroen henger en klokkesnor med et måneformet håndtak.",
-          "image": "images/scenes/painted/scene-roof.png",
+          "image": "images/scenes/painted/scene-roof-v3.png",
           "choice": "roof.1"
         },
         {
           "language": "nb",
           "scene": "tower",
           "text": "Gangbroen skjermer dere mot vinden på veien til tårnet.\n\n«En, to, tre. Vær så snill, bare én natt til.» En dempet stemme teller bak den lukkede døren. En annen svarer, trøtt, men tydelig: «Lumi, jeg sover ikke.» Du puster ut. Shinx er her, og han kan snakke. Gjennom et smalt vindu ved døren ser du et gult skjerf på en stol. LUMI er sydd langs kanten. Hun har fått sitt eget skjerf tilbake. Frøet varmer hånden din.\n\nDet like skjerfet til Shinx ligger fremdeles tørt i sekken. Du kan vise det fram gjennom vinduet.",
-          "image": "images/scenes/painted/scene-tower.png",
+          "image": "images/scenes/painted/scene-tower-v3.png",
           "choice": "tower.1"
         },
         {
@@ -6577,7 +6577,7 @@
           "language": "en",
           "scene": "stairs",
           "text": "You wait for the wind to ease and cross one at a time, holding the rail.\n\nStone stairs curve around the observatory wall. A yellow scarf is caught beneath a railing: SHINX, say the crooked stitches. You lift it free, fold it, and put it safely in your pack. In a weatherproof box nearby, a photograph shows Lumi and Shinx wearing matching scarves, each with its owner’s name. A crescent marks the service door. The ordinary steps continue upward beside it.",
-          "image": "images/scenes/painted/scene-stairs.png",
+          "image": "images/scenes/painted/scene-stairs-v3.png",
           "choice": "stairs.1"
         },
         {
@@ -6591,14 +6591,14 @@
           "language": "en",
           "scene": "roof",
           "text": "The mechanism clicks into place. Your partner tests the latch twice, looking very pleased, and the platform opens toward the roof.\n\nFrom the observatory roof you hear footsteps in the tower room. A covered walkway crosses the gap below; above it, broad glowing stones form a short crossing between sturdy rails. Your lens shows their stone supports beneath the shimmer. A sheltered stair curls around the rock to the same landing. Beside the walkway hangs a bell cord with a moon-shaped handle.",
-          "image": "images/scenes/painted/scene-roof.png",
+          "image": "images/scenes/painted/scene-roof-v3.png",
           "choice": "roof.1"
         },
         {
           "language": "en",
           "scene": "tower",
           "text": "The covered walkway shelters you from the wind as you cross to the tower.\n\n“One, two, three. Please, one more night.” A muffled voice counts behind the closed door. Another voice answers, tired but quite clear: “Lumi, I’m not sleeping.” You breathe out. Shinx is here, and he can speak. Through a narrow window beside the door, you see a yellow scarf on a chair. LUMI is stitched along its edge; she has her own scarf back. The seed warms in your hand.\n\nShinx’s matching scarf is still dry in your pack. You can offer it through the window.",
-          "image": "images/scenes/painted/scene-tower.png",
+          "image": "images/scenes/painted/scene-tower-v3.png",
           "choice": "tower.1"
         },
         {
@@ -6731,7 +6731,7 @@
           "language": "nb",
           "scene": "stairs",
           "text": "Dere venter til vinden løyer og krysser én om gangen mens dere holder i rekkverket.\n\nSteintrinn svinger rundt observatoriemuren. Et gult skjerf sitter fast under rekkverket. SHINX, står det med skjeve sting. Du løfter det løs, bretter det og legger det trygt i sekken. I en værbestandig eske like ved viser et fotografi Lumi og Shinx med like skjerf, hvert med navnet til eieren. En halvmåne er risset inn på tjenestedøren. De vanlige trinnene fortsetter oppover ved siden av.",
-          "image": "images/scenes/painted/scene-stairs.png",
+          "image": "images/scenes/painted/scene-stairs-v3.png",
           "choice": "stairs.1"
         },
         {
@@ -6745,14 +6745,14 @@
           "language": "nb",
           "scene": "roof",
           "text": "Mekanismen klikker på plass. Vennen din tester låsen to ganger og ser svært fornøyd ut. Plattformen åpner veien til taket.\n\nFra observatorietaket hører du skritt inne i tårnrommet. En overbygd gangbro krysser åpningen nedenfor. Over den danner brede, lysende steiner en kort vei mellom solide rekkverk. Gjennom linsen ser du steinstøttene under skinnet. En skjermet trapp svinger rundt fjellet til den samme avsatsen. Ved gangbroen henger en klokkesnor med et måneformet håndtak.",
-          "image": "images/scenes/painted/scene-roof.png",
+          "image": "images/scenes/painted/scene-roof-v3.png",
           "choice": "roof.1"
         },
         {
           "language": "nb",
           "scene": "tower",
           "text": "Gangbroen skjermer dere mot vinden på veien til tårnet.\n\n«En, to, tre. Vær så snill, bare én natt til.» En dempet stemme teller bak den lukkede døren. En annen svarer, trøtt, men tydelig: «Lumi, jeg sover ikke.» Du puster ut. Shinx er her, og han kan snakke. Gjennom et smalt vindu ved døren ser du et gult skjerf på en stol. LUMI er sydd langs kanten. Hun har fått sitt eget skjerf tilbake. Frøet varmer hånden din.\n\nDet like skjerfet til Shinx ligger fremdeles tørt i sekken. Du kan vise det fram gjennom vinduet.",
-          "image": "images/scenes/painted/scene-tower.png",
+          "image": "images/scenes/painted/scene-tower-v3.png",
           "choice": "tower.1"
         },
         {
@@ -6915,7 +6915,7 @@
           "language": "en",
           "scene": "stairs",
           "text": "You wait for the wind to ease and cross one at a time, holding the rail.\n\nStone stairs curve around the observatory wall. A yellow scarf is caught beneath a railing: SHINX, say the crooked stitches. You lift it free, fold it, and put it safely in your pack. In a weatherproof box nearby, a photograph shows Lumi and Shinx wearing matching scarves, each with its owner’s name. A crescent marks the service door. The ordinary steps continue upward beside it.",
-          "image": "images/scenes/painted/scene-stairs.png",
+          "image": "images/scenes/painted/scene-stairs-v3.png",
           "choice": "stairs.1"
         },
         {
@@ -6929,14 +6929,14 @@
           "language": "en",
           "scene": "roof",
           "text": "The mechanism clicks into place. Your partner tests the latch twice, looking very pleased, and the platform opens toward the roof.\n\nFrom the observatory roof you hear footsteps in the tower room. A covered walkway crosses the gap below; above it, broad glowing stones form a short crossing between sturdy rails. Your lens shows their stone supports beneath the shimmer. A sheltered stair curls around the rock to the same landing. Beside the walkway hangs a bell cord with a moon-shaped handle.",
-          "image": "images/scenes/painted/scene-roof.png",
+          "image": "images/scenes/painted/scene-roof-v3.png",
           "choice": "roof.1"
         },
         {
           "language": "en",
           "scene": "tower",
           "text": "The covered walkway shelters you from the wind as you cross to the tower.\n\n“One, two, three. Please, one more night.” A muffled voice counts behind the closed door. Another voice answers, tired but quite clear: “Lumi, I’m not sleeping.” You breathe out. Shinx is here, and he can speak. Through a narrow window beside the door, you see a yellow scarf on a chair. LUMI is stitched along its edge; she has her own scarf back. The seed warms in your hand.\n\nShinx’s matching scarf is still dry in your pack. You can offer it through the window.",
-          "image": "images/scenes/painted/scene-tower.png",
+          "image": "images/scenes/painted/scene-tower-v3.png",
           "choice": "tower.1"
         },
         {
@@ -7069,7 +7069,7 @@
           "language": "nb",
           "scene": "stairs",
           "text": "Dere venter til vinden løyer og krysser én om gangen mens dere holder i rekkverket.\n\nSteintrinn svinger rundt observatoriemuren. Et gult skjerf sitter fast under rekkverket. SHINX, står det med skjeve sting. Du løfter det løs, bretter det og legger det trygt i sekken. I en værbestandig eske like ved viser et fotografi Lumi og Shinx med like skjerf, hvert med navnet til eieren. En halvmåne er risset inn på tjenestedøren. De vanlige trinnene fortsetter oppover ved siden av.",
-          "image": "images/scenes/painted/scene-stairs.png",
+          "image": "images/scenes/painted/scene-stairs-v3.png",
           "choice": "stairs.1"
         },
         {
@@ -7083,14 +7083,14 @@
           "language": "nb",
           "scene": "roof",
           "text": "Mekanismen klikker på plass. Vennen din tester låsen to ganger og ser svært fornøyd ut. Plattformen åpner veien til taket.\n\nFra observatorietaket hører du skritt inne i tårnrommet. En overbygd gangbro krysser åpningen nedenfor. Over den danner brede, lysende steiner en kort vei mellom solide rekkverk. Gjennom linsen ser du steinstøttene under skinnet. En skjermet trapp svinger rundt fjellet til den samme avsatsen. Ved gangbroen henger en klokkesnor med et måneformet håndtak.",
-          "image": "images/scenes/painted/scene-roof.png",
+          "image": "images/scenes/painted/scene-roof-v3.png",
           "choice": "roof.1"
         },
         {
           "language": "nb",
           "scene": "tower",
           "text": "Gangbroen skjermer dere mot vinden på veien til tårnet.\n\n«En, to, tre. Vær så snill, bare én natt til.» En dempet stemme teller bak den lukkede døren. En annen svarer, trøtt, men tydelig: «Lumi, jeg sover ikke.» Du puster ut. Shinx er her, og han kan snakke. Gjennom et smalt vindu ved døren ser du et gult skjerf på en stol. LUMI er sydd langs kanten. Hun har fått sitt eget skjerf tilbake. Frøet varmer hånden din.\n\nDet like skjerfet til Shinx ligger fremdeles tørt i sekken. Du kan vise det fram gjennom vinduet.",
-          "image": "images/scenes/painted/scene-tower.png",
+          "image": "images/scenes/painted/scene-tower-v3.png",
           "choice": "tower.1"
         },
         {
@@ -7253,7 +7253,7 @@
           "language": "en",
           "scene": "stairs",
           "text": "You wait for the wind to ease and cross one at a time, holding the rail.\n\nStone stairs curve around the observatory wall. A yellow scarf is caught beneath a railing: SHINX, say the crooked stitches. You lift it free, fold it, and put it safely in your pack. In a weatherproof box nearby, a photograph shows Lumi and Shinx wearing matching scarves, each with its owner’s name. A crescent marks the service door. The ordinary steps continue upward beside it.",
-          "image": "images/scenes/painted/scene-stairs.png",
+          "image": "images/scenes/painted/scene-stairs-v3.png",
           "choice": "stairs.1"
         },
         {
@@ -7267,14 +7267,14 @@
           "language": "en",
           "scene": "roof",
           "text": "The mechanism clicks into place. Your partner tests the latch twice, looking very pleased, and the platform opens toward the roof.\n\nFrom the observatory roof you hear footsteps in the tower room. A covered walkway crosses the gap below; above it, broad glowing stones form a short crossing between sturdy rails. Your lens shows their stone supports beneath the shimmer. A sheltered stair curls around the rock to the same landing. Beside the walkway hangs a bell cord with a moon-shaped handle.",
-          "image": "images/scenes/painted/scene-roof.png",
+          "image": "images/scenes/painted/scene-roof-v3.png",
           "choice": "roof.1"
         },
         {
           "language": "en",
           "scene": "tower",
           "text": "The covered walkway shelters you from the wind as you cross to the tower.\n\n“One, two, three. Please, one more night.” A muffled voice counts behind the closed door. Another voice answers, tired but quite clear: “Lumi, I’m not sleeping.” You breathe out. Shinx is here, and he can speak. Through a narrow window beside the door, you see a yellow scarf on a chair. LUMI is stitched along its edge; she has her own scarf back. The seed warms in your hand.\n\nShinx’s matching scarf is still dry in your pack. You can offer it through the window.",
-          "image": "images/scenes/painted/scene-tower.png",
+          "image": "images/scenes/painted/scene-tower-v3.png",
           "choice": "tower.1"
         },
         {
@@ -7407,7 +7407,7 @@
           "language": "nb",
           "scene": "stairs",
           "text": "Dere venter til vinden løyer og krysser én om gangen mens dere holder i rekkverket.\n\nSteintrinn svinger rundt observatoriemuren. Et gult skjerf sitter fast under rekkverket. SHINX, står det med skjeve sting. Du løfter det løs, bretter det og legger det trygt i sekken. I en værbestandig eske like ved viser et fotografi Lumi og Shinx med like skjerf, hvert med navnet til eieren. En halvmåne er risset inn på tjenestedøren. De vanlige trinnene fortsetter oppover ved siden av.",
-          "image": "images/scenes/painted/scene-stairs.png",
+          "image": "images/scenes/painted/scene-stairs-v3.png",
           "choice": "stairs.1"
         },
         {
@@ -7421,14 +7421,14 @@
           "language": "nb",
           "scene": "roof",
           "text": "Mekanismen klikker på plass. Vennen din tester låsen to ganger og ser svært fornøyd ut. Plattformen åpner veien til taket.\n\nFra observatorietaket hører du skritt inne i tårnrommet. En overbygd gangbro krysser åpningen nedenfor. Over den danner brede, lysende steiner en kort vei mellom solide rekkverk. Gjennom linsen ser du steinstøttene under skinnet. En skjermet trapp svinger rundt fjellet til den samme avsatsen. Ved gangbroen henger en klokkesnor med et måneformet håndtak.",
-          "image": "images/scenes/painted/scene-roof.png",
+          "image": "images/scenes/painted/scene-roof-v3.png",
           "choice": "roof.1"
         },
         {
           "language": "nb",
           "scene": "tower",
           "text": "Gangbroen skjermer dere mot vinden på veien til tårnet.\n\n«En, to, tre. Vær så snill, bare én natt til.» En dempet stemme teller bak den lukkede døren. En annen svarer, trøtt, men tydelig: «Lumi, jeg sover ikke.» Du puster ut. Shinx er her, og han kan snakke. Gjennom et smalt vindu ved døren ser du et gult skjerf på en stol. LUMI er sydd langs kanten. Hun har fått sitt eget skjerf tilbake. Frøet varmer hånden din.\n\nDet like skjerfet til Shinx ligger fremdeles tørt i sekken. Du kan vise det fram gjennom vinduet.",
-          "image": "images/scenes/painted/scene-tower.png",
+          "image": "images/scenes/painted/scene-tower-v3.png",
           "choice": "tower.1"
         },
         {
@@ -7613,14 +7613,14 @@
           "language": "en",
           "scene": "roof",
           "text": "The mechanism clicks into place. Your partner tests the latch twice, looking very pleased, and the platform opens toward the roof.\n\nFrom the observatory roof you hear footsteps in the tower room. A covered walkway crosses the gap below; above it, broad glowing stones form a short crossing between sturdy rails. Your lens shows their stone supports beneath the shimmer. A sheltered stair curls around the rock to the same landing. Beside the walkway hangs a bell cord with a moon-shaped handle.",
-          "image": "images/scenes/painted/scene-roof.png",
+          "image": "images/scenes/painted/scene-roof-v3.png",
           "choice": "roof.1"
         },
         {
           "language": "en",
           "scene": "tower",
           "text": "The covered walkway shelters you from the wind as you cross to the tower.\n\n“One, two, three. Please, one more night.” A muffled voice counts behind the closed door. Another voice answers, tired but quite clear: “Lumi, I’m not sleeping.” You breathe out. Shinx is here, and he can speak. Through a narrow window beside the door, you see a yellow scarf on a chair. LUMI is stitched along its edge; she has her own scarf back. The seed warms in your hand.",
-          "image": "images/scenes/painted/scene-tower.png",
+          "image": "images/scenes/painted/scene-tower-v3.png",
           "choice": "tower.1"
         },
         {
@@ -7774,14 +7774,14 @@
           "language": "nb",
           "scene": "roof",
           "text": "Mekanismen klikker på plass. Vennen din tester låsen to ganger og ser svært fornøyd ut. Plattformen åpner veien til taket.\n\nFra observatorietaket hører du skritt inne i tårnrommet. En overbygd gangbro krysser åpningen nedenfor. Over den danner brede, lysende steiner en kort vei mellom solide rekkverk. Gjennom linsen ser du steinstøttene under skinnet. En skjermet trapp svinger rundt fjellet til den samme avsatsen. Ved gangbroen henger en klokkesnor med et måneformet håndtak.",
-          "image": "images/scenes/painted/scene-roof.png",
+          "image": "images/scenes/painted/scene-roof-v3.png",
           "choice": "roof.1"
         },
         {
           "language": "nb",
           "scene": "tower",
           "text": "Gangbroen skjermer dere mot vinden på veien til tårnet.\n\n«En, to, tre. Vær så snill, bare én natt til.» En dempet stemme teller bak den lukkede døren. En annen svarer, trøtt, men tydelig: «Lumi, jeg sover ikke.» Du puster ut. Shinx er her, og han kan snakke. Gjennom et smalt vindu ved døren ser du et gult skjerf på en stol. LUMI er sydd langs kanten. Hun har fått sitt eget skjerf tilbake. Frøet varmer hånden din.",
-          "image": "images/scenes/painted/scene-tower.png",
+          "image": "images/scenes/painted/scene-tower-v3.png",
           "choice": "tower.1"
         },
         {
@@ -7927,21 +7927,21 @@
           "language": "en",
           "scene": "stairs",
           "text": "You wait for the wind to ease and cross one at a time, holding the rail.\n\nStone stairs curve around the observatory wall. A yellow scarf is caught beneath a railing: SHINX, say the crooked stitches. You lift it free, fold it, and put it safely in your pack. In a weatherproof box nearby, a photograph shows Lumi and Shinx wearing matching scarves, each with its owner’s name. A crescent marks the service door. The ordinary steps continue upward beside it.",
-          "image": "images/scenes/painted/scene-stairs.png",
+          "image": "images/scenes/painted/scene-stairs-v3.png",
           "choice": "stairs.3"
         },
         {
           "language": "en",
           "scene": "roof",
           "text": "You tuck the scarf safely away and climb the protected outside steps.\n\nFrom the observatory roof you hear footsteps in the tower room. A covered walkway crosses the gap below; above it, broad glowing stones form a short crossing between sturdy rails. Your lens shows their stone supports beneath the shimmer. A sheltered stair curls around the rock to the same landing. Beside the walkway hangs a bell cord with a moon-shaped handle.",
-          "image": "images/scenes/painted/scene-roof.png",
+          "image": "images/scenes/painted/scene-roof-v3.png",
           "choice": "roof.1"
         },
         {
           "language": "en",
           "scene": "tower",
           "text": "The covered walkway shelters you from the wind as you cross to the tower.\n\n“One, two, three. Please, one more night.” A muffled voice counts behind the closed door. Another voice answers, tired but quite clear: “Lumi, I’m not sleeping.” You breathe out. Shinx is here, and he can speak. Through a narrow window beside the door, you see a yellow scarf on a chair. LUMI is stitched along its edge; she has her own scarf back. The seed warms in your hand.\n\nShinx’s matching scarf is still dry in your pack. You can offer it through the window.",
-          "image": "images/scenes/painted/scene-tower.png",
+          "image": "images/scenes/painted/scene-tower-v3.png",
           "choice": "tower.1"
         },
         {
@@ -8060,21 +8060,21 @@
           "language": "nb",
           "scene": "stairs",
           "text": "Dere venter til vinden løyer og krysser én om gangen mens dere holder i rekkverket.\n\nSteintrinn svinger rundt observatoriemuren. Et gult skjerf sitter fast under rekkverket. SHINX, står det med skjeve sting. Du løfter det løs, bretter det og legger det trygt i sekken. I en værbestandig eske like ved viser et fotografi Lumi og Shinx med like skjerf, hvert med navnet til eieren. En halvmåne er risset inn på tjenestedøren. De vanlige trinnene fortsetter oppover ved siden av.",
-          "image": "images/scenes/painted/scene-stairs.png",
+          "image": "images/scenes/painted/scene-stairs-v3.png",
           "choice": "stairs.3"
         },
         {
           "language": "nb",
           "scene": "roof",
           "text": "Du pakker skjerfet trygt bort, og dere går opp den skjermede utetrappen.\n\nFra observatorietaket hører du skritt inne i tårnrommet. En overbygd gangbro krysser åpningen nedenfor. Over den danner brede, lysende steiner en kort vei mellom solide rekkverk. Gjennom linsen ser du steinstøttene under skinnet. En skjermet trapp svinger rundt fjellet til den samme avsatsen. Ved gangbroen henger en klokkesnor med et måneformet håndtak.",
-          "image": "images/scenes/painted/scene-roof.png",
+          "image": "images/scenes/painted/scene-roof-v3.png",
           "choice": "roof.1"
         },
         {
           "language": "nb",
           "scene": "tower",
           "text": "Gangbroen skjermer dere mot vinden på veien til tårnet.\n\n«En, to, tre. Vær så snill, bare én natt til.» En dempet stemme teller bak den lukkede døren. En annen svarer, trøtt, men tydelig: «Lumi, jeg sover ikke.» Du puster ut. Shinx er her, og han kan snakke. Gjennom et smalt vindu ved døren ser du et gult skjerf på en stol. LUMI er sydd langs kanten. Hun har fått sitt eget skjerf tilbake. Frøet varmer hånden din.\n\nDet like skjerfet til Shinx ligger fremdeles tørt i sekken. Du kan vise det fram gjennom vinduet.",
-          "image": "images/scenes/painted/scene-tower.png",
+          "image": "images/scenes/painted/scene-tower-v3.png",
           "choice": "tower.1"
         },
         {
@@ -8187,7 +8187,7 @@
           "language": "en",
           "scene": "brook",
           "text": "You secure the branch above the narrow path. The loose feather drifts free, and the way is clear for the next traveler.\n\nA bottle taps against a stone in the brook. Inside, cramped handwriting fills a scrap of paper: “I was trying to help. I cannot open it again. Please bring the dawn. —L.” Beside the letter is a smudged paw print. Above the bank, an old cable climbs toward the tower. A waterwheel turns beneath it, driving a little message basket uphill; a sign says TOWER POST.",
-          "image": "images/scenes/painted/scene-brook.png",
+          "image": "images/scenes/painted/scene-brook-v3.png",
           "choice": "brook.2"
         },
         {
@@ -8215,14 +8215,14 @@
           "language": "en",
           "scene": "hollow",
           "text": "The bright caps lead into a hollow tree. Someone inside giggles at your surprised expression.\n\n“Boo!” says the tree. “Oh. Too much?” A Gastly floats upside down between shelves of lost gloves, buttons, and travel journals. “People used to stop and tell me things,” it says, righting itself. “Now they hurry past. I may have moved a sign.” It offers to show you its best discovery in exchange for a story. “Preferably one with an embarrassing bit.”",
-          "image": "images/scenes/painted/scene-hollow.png",
+          "image": "images/scenes/painted/scene-hollow-v3.png",
           "choice": "hollow.1"
         },
         {
           "language": "en",
           "scene": "echoArchive",
           "text": "Gastly laughs so hard it turns upside down twice. “You must visit more often. Come and see the archive!”\n\nGastly floats ahead into a dry reading room. An astronomer’s notebook, dated a hundred years ago, shows the Glass feeding lamps and heaters during mountain storms. Three rings return its stored light safely. Beside it lies a much newer sheet: Lumi’s careful copies, with questions in the margins. “How long can it warm an injured friend?” she has written. The answer is underlined: UNTIL OTHER WARMTH IS READY. Gastly finds paper for one page of notes.",
-          "image": "images/scenes/painted/scene-echoArchive.png",
+          "image": "images/scenes/painted/scene-echoArchive-v3.png",
           "choice": "echoArchive.2"
         },
         {
@@ -8299,14 +8299,14 @@
           "language": "en",
           "scene": "roof",
           "text": "The mechanism clicks into place. Your partner tests the latch twice, looking very pleased, and the platform opens toward the roof.\n\nFrom the observatory roof you hear footsteps in the tower room. A covered walkway crosses the gap below; above it, broad glowing stones form a short crossing between sturdy rails. Your lens shows their stone supports beneath the shimmer. A sheltered stair curls around the rock to the same landing. Beside the walkway hangs a bell cord with a moon-shaped handle.",
-          "image": "images/scenes/painted/scene-roof.png",
+          "image": "images/scenes/painted/scene-roof-v3.png",
           "choice": "roof.3"
         },
         {
           "language": "en",
           "scene": "tower",
           "text": "The bell answers with three soft notes. You hear footsteps move toward the door.\n\n“One, two, three. Please, one more night.” A muffled voice counts behind the closed door. Another voice answers, tired but quite clear: “Lumi, I’m not sleeping.” You breathe out. Shinx is here, and he can speak. Through a narrow window beside the door, you see a yellow scarf on a chair. LUMI is stitched along its edge; she has her own scarf back. The seed warms in your hand.\n\nThe counting stops. Your three soft bell notes have been heard.\n\nThe mark beside the door matches the one you copied. Your notes have brought you right to the landing.",
-          "image": "images/scenes/painted/scene-tower.png",
+          "image": "images/scenes/painted/scene-tower-v3.png",
           "choice": "tower.4"
         },
         {
@@ -8383,7 +8383,7 @@
           "language": "nb",
           "scene": "brook",
           "text": "Dere fester grenen over den smale stien. Den løse fjæren svever fri, og veien er åpen for den neste som kommer.\n\nEn flaske dunker mot en stein i bekken. Inni ligger en papirlapp med tett håndskrift: «Jeg prøvde å hjelpe. Nå får jeg den ikke opp igjen. Vær så snill å hente morgenen. – L.» Ved siden av ordene er et utydelig poteavtrykk. Over bredden går en gammel kabel opp mot tårnet. Et vannhjul driver en liten postkurv oppover langs kabelen. På skiltet står det TÅRNPOST.",
-          "image": "images/scenes/painted/scene-brook.png",
+          "image": "images/scenes/painted/scene-brook-v3.png",
           "choice": "brook.2"
         },
         {
@@ -8411,14 +8411,14 @@
           "language": "nb",
           "scene": "hollow",
           "text": "De lysende hattene leder inn i et hult tre. Noen der inne fniser av det overraskede ansiktet ditt.\n\n«Bø!» sier treet. «Oi. Ble det for mye?» En Gastly svever opp ned mellom hyller med bortkomne votter, knapper og reisedagbøker. «Før stoppet folk og fortalte meg ting», sier den og snur seg riktig vei. «Nå skynder de seg forbi. Jeg kan ha flyttet et skilt.» Den vil vise deg sitt beste funn i bytte mot en historie. «Helst en med noe pinlig i.»",
-          "image": "images/scenes/painted/scene-hollow.png",
+          "image": "images/scenes/painted/scene-hollow-v3.png",
           "choice": "hollow.1"
         },
         {
           "language": "nb",
           "scene": "echoArchive",
           "text": "Gastly ler så hardt at den snur seg opp ned to ganger. «Du må komme oftere. Bli med og se arkivet!»\n\nGastly svever foran deg inn i et tørt leserom. En astronomibok som er hundre år gammel, viser hvordan Glasset gir lys og varme under fjellstormer. Tre ringer slipper det lagrede lyset trygt ut igjen. Ved siden av ligger et langt nyere ark: Lumis omhyggelige avskrift, med spørsmål i margen. «Hvor lenge kan det varme en skadet venn?» har hun skrevet. Svaret er understreket: TIL ANNEN VARME ER KLAR. Gastly finner papir til én side med notater.",
-          "image": "images/scenes/painted/scene-echoArchive.png",
+          "image": "images/scenes/painted/scene-echoArchive-v3.png",
           "choice": "echoArchive.2"
         },
         {
@@ -8495,14 +8495,14 @@
           "language": "nb",
           "scene": "roof",
           "text": "Mekanismen klikker på plass. Vennen din tester låsen to ganger og ser svært fornøyd ut. Plattformen åpner veien til taket.\n\nFra observatorietaket hører du skritt inne i tårnrommet. En overbygd gangbro krysser åpningen nedenfor. Over den danner brede, lysende steiner en kort vei mellom solide rekkverk. Gjennom linsen ser du steinstøttene under skinnet. En skjermet trapp svinger rundt fjellet til den samme avsatsen. Ved gangbroen henger en klokkesnor med et måneformet håndtak.",
-          "image": "images/scenes/painted/scene-roof.png",
+          "image": "images/scenes/painted/scene-roof-v3.png",
           "choice": "roof.3"
         },
         {
           "language": "nb",
           "scene": "tower",
           "text": "Klokken svarer med tre myke toner. Dere hører skritt som nærmer seg døren.\n\n«En, to, tre. Vær så snill, bare én natt til.» En dempet stemme teller bak den lukkede døren. En annen svarer, trøtt, men tydelig: «Lumi, jeg sover ikke.» Du puster ut. Shinx er her, og han kan snakke. Gjennom et smalt vindu ved døren ser du et gult skjerf på en stol. LUMI er sydd langs kanten. Hun har fått sitt eget skjerf tilbake. Frøet varmer hånden din.\n\nTellingen stopper. De tre myke klokketonene dine er blitt hørt.\n\nMerket ved døren passer med det du skrev av. Notatene dine har ført deg helt fram til avsatsen.",
-          "image": "images/scenes/painted/scene-tower.png",
+          "image": "images/scenes/painted/scene-tower-v3.png",
           "choice": "tower.4"
         },
         {
@@ -8665,7 +8665,7 @@
           "language": "en",
           "scene": "stairs",
           "text": "You wait for the wind to ease and cross one at a time, holding the rail.\n\nStone stairs curve around the observatory wall. A yellow scarf is caught beneath a railing: SHINX, say the crooked stitches. You lift it free, fold it, and put it safely in your pack. In a weatherproof box nearby, a photograph shows Lumi and Shinx wearing matching scarves, each with its owner’s name. A crescent marks the service door. The ordinary steps continue upward beside it.",
-          "image": "images/scenes/painted/scene-stairs.png",
+          "image": "images/scenes/painted/scene-stairs-v3.png",
           "choice": "stairs.1"
         },
         {
@@ -8679,14 +8679,14 @@
           "language": "en",
           "scene": "roof",
           "text": "The mechanism clicks into place. Your partner tests the latch twice, looking very pleased, and the platform opens toward the roof.\n\nFrom the observatory roof you hear footsteps in the tower room. A covered walkway crosses the gap below; above it, broad glowing stones form a short crossing between sturdy rails. Your lens shows their stone supports beneath the shimmer. A sheltered stair curls around the rock to the same landing. Beside the walkway hangs a bell cord with a moon-shaped handle.",
-          "image": "images/scenes/painted/scene-roof.png",
+          "image": "images/scenes/painted/scene-roof-v3.png",
           "choice": "roof.1"
         },
         {
           "language": "en",
           "scene": "tower",
           "text": "The covered walkway shelters you from the wind as you cross to the tower.\n\n“One, two, three. Please, one more night.” A muffled voice counts behind the closed door. Another voice answers, tired but quite clear: “Lumi, I’m not sleeping.” You breathe out. Shinx is here, and he can speak. Through a narrow window beside the door, you see a yellow scarf on a chair. LUMI is stitched along its edge; she has her own scarf back. The seed warms in your hand.\n\nShinx’s matching scarf is still dry in your pack. You can offer it through the window.",
-          "image": "images/scenes/painted/scene-tower.png",
+          "image": "images/scenes/painted/scene-tower-v3.png",
           "choice": "tower.1"
         },
         {
@@ -8819,7 +8819,7 @@
           "language": "nb",
           "scene": "stairs",
           "text": "Dere venter til vinden løyer og krysser én om gangen mens dere holder i rekkverket.\n\nSteintrinn svinger rundt observatoriemuren. Et gult skjerf sitter fast under rekkverket. SHINX, står det med skjeve sting. Du løfter det løs, bretter det og legger det trygt i sekken. I en værbestandig eske like ved viser et fotografi Lumi og Shinx med like skjerf, hvert med navnet til eieren. En halvmåne er risset inn på tjenestedøren. De vanlige trinnene fortsetter oppover ved siden av.",
-          "image": "images/scenes/painted/scene-stairs.png",
+          "image": "images/scenes/painted/scene-stairs-v3.png",
           "choice": "stairs.1"
         },
         {
@@ -8833,14 +8833,14 @@
           "language": "nb",
           "scene": "roof",
           "text": "Mekanismen klikker på plass. Vennen din tester låsen to ganger og ser svært fornøyd ut. Plattformen åpner veien til taket.\n\nFra observatorietaket hører du skritt inne i tårnrommet. En overbygd gangbro krysser åpningen nedenfor. Over den danner brede, lysende steiner en kort vei mellom solide rekkverk. Gjennom linsen ser du steinstøttene under skinnet. En skjermet trapp svinger rundt fjellet til den samme avsatsen. Ved gangbroen henger en klokkesnor med et måneformet håndtak.",
-          "image": "images/scenes/painted/scene-roof.png",
+          "image": "images/scenes/painted/scene-roof-v3.png",
           "choice": "roof.1"
         },
         {
           "language": "nb",
           "scene": "tower",
           "text": "Gangbroen skjermer dere mot vinden på veien til tårnet.\n\n«En, to, tre. Vær så snill, bare én natt til.» En dempet stemme teller bak den lukkede døren. En annen svarer, trøtt, men tydelig: «Lumi, jeg sover ikke.» Du puster ut. Shinx er her, og han kan snakke. Gjennom et smalt vindu ved døren ser du et gult skjerf på en stol. LUMI er sydd langs kanten. Hun har fått sitt eget skjerf tilbake. Frøet varmer hånden din.\n\nDet like skjerfet til Shinx ligger fremdeles tørt i sekken. Du kan vise det fram gjennom vinduet.",
-          "image": "images/scenes/painted/scene-tower.png",
+          "image": "images/scenes/painted/scene-tower-v3.png",
           "choice": "tower.1"
         },
         {

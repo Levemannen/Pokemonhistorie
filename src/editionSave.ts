@@ -1,3 +1,4 @@
+import {restore as restoreV3} from './edition3';
 import {restoreSave as restoreLegacy} from './legacySave';
 import {byId,choicesById} from './edition';
 import type {State} from './story';
@@ -25,6 +26,7 @@ function editorialWorld(source:WorldState,choices:string[]):WorldState{
 export function restoreSave(raw:string|null):State|null{
  try{
   const value=JSON.parse(raw||'null');
+  if(value?.world?.edition==='3')return restoreV3(value);
   if(!value||value.world===undefined)return restoreLegacy(raw);
   if(!validWorld(value.world))return null;
   const base=restoreLegacy(raw);if(!base)return null;

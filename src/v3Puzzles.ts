@@ -1,0 +1,13 @@
+import type {State} from './legacyStory';
+import type {Puzzle} from './puzzles';
+import {authoredText,getLanguage} from './i18n';
+export function v3Puzzle(s:State):Puzzle|null{
+ const nb=getLanguage()==='nb',pick=(en:string,no:string)=>authoredText(nb?no:en);
+ const common={id:s.scene,kind:'mechanism' as const,success:pick('The pattern settles into place. You can use what you discovered.','Mønsteret faller på plass. Nå kan du bruke det du oppdaget.')};
+ if(s.scene==='S06'||s.scene==='Q_MOON1')return {...common,title:pick('The seasons in stone','Årstidene i stein'),instruction:pick('Touch the signs from spring through summer to autumn.','Trykk på tegnene fra vår gjennom sommer til høst.'),observation:pick('Water feeds spring shoots. Summer brings heat. Leaves fall in autumn.','Vann gir næring til vårens spirer. Sommeren gir varme. Bladene faller om høsten.'),buttons:[pick('Leaf','Blad'),pick('Flame','Flamme'),pick('Drop','Dråpe')],answer:[2,1,0],hints:[pick('Start with what the new shoots drink.','Begynn med det de nye spirene drikker.'),pick('Drop, flame, leaf.','Dråpe, flamme, blad.')]};
+ if(s.scene==='Q_STAR')return {...common,title:pick('Three moments of light','Tre øyeblikk av lys'),instruction:pick('Trace the pattern: first dawn, then dusk, then their meeting in glass.','Følg mønsteret: først daggry, så skumring, så møtet i glasset.'),observation:pick('The cup marks dawn; the archive marks dusk; the island joins the two.','Koppen viser daggry; arkivet viser skumring; øya forener dem.'),buttons:[pick('Meeting','Møtet'),pick('Dusk','Skumring'),pick('Dawn','Daggry')],answer:[2,1,0],hints:[pick('Start with the drawing from the cup.','Start med tegningen fra koppen.'),pick('Dawn, dusk, meeting.','Daggry, skumring, møtet.')]};
+ if(s.scene==='S17'){
+ const brace=s.starter==='Bulbasaur'?pick('Brace with vines','Støtt med ranker'):s.starter==='Charmander'?pick('Light the housing safely','Lys opp huset forsiktig'):pick('Wash the grit away','Skyll bort grusen');
+ return {...common,title:pick('Repair the gate with '+s.starter,'Reparer porten med '+s.starter),instruction:pick('Help your partner make the crank safe before turning it.','Hjelp partneren din å gjøre sveiven trygg før dere dreier den.'),observation:pick('First prepare the housing, then fit the gear. Only then can you test the crank.','Gjør først huset klart, og sett deretter inn tannhjulet. Først da kan dere prøve sveiven.'),buttons:[pick('Turn the crank','Drei sveiven'),brace,pick('Fit the gear','Sett inn tannhjulet')],answer:[1,2,0],hints:[pick('The gear needs a clear, steady housing.','Tannhjulet trenger et rent og stødig hus.'),pick('Prepare, fit, turn.','Gjør klart, sett inn, drei.')]};
+ }return null;
+}

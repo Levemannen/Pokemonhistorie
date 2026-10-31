@@ -71,3 +71,6 @@
 .app-shell .reader-controls > .reader-restart:hover { background: #f2e8d1; }
 .app-shell .reader-controls > .reader-restart:focus-visible { outline: 3px solid #665333; outline-offset: 3px; }
 
+
+.choice-pages { display:flex; align-items:center; justify-content:space-between; gap:12px; margin-top:18px; }
+.choice-pages button { min-height:44px; }
