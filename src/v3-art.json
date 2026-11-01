@@ -14,27 +14,29 @@
   },
   "S02": {
     "base": {
-      "Bulbasaur": "images/scenes/v3/S02.svg",
-      "Charmander": "images/scenes/v3/S02.svg",
-      "Squirtle": "images/scenes/v3/S02.svg"
+      "Bulbasaur": "images/scenes/painted/v3-S02.jpg",
+      "Charmander": "images/scenes/painted/v3-S02.jpg",
+      "Squirtle": "images/scenes/painted/v3-S02.jpg"
     },
     "fallbackBase": {
       "Bulbasaur": "images/scenes/v3/S02.svg",
       "Charmander": "images/scenes/v3/S02.svg",
       "Squirtle": "images/scenes/v3/S02.svg"
-    }
+    },
+    "render": "painted-baked"
   },
   "S03": {
     "base": {
-      "Bulbasaur": "images/scenes/v3/S03.svg",
-      "Charmander": "images/scenes/v3/S03.svg",
-      "Squirtle": "images/scenes/v3/S03.svg"
+      "Bulbasaur": "images/scenes/painted/v3-S03.jpg",
+      "Charmander": "images/scenes/painted/v3-S03.jpg",
+      "Squirtle": "images/scenes/painted/v3-S03.jpg"
     },
     "fallbackBase": {
       "Bulbasaur": "images/scenes/v3/S03.svg",
       "Charmander": "images/scenes/v3/S03.svg",
       "Squirtle": "images/scenes/v3/S03.svg"
-    }
+    },
+    "render": "painted-baked"
   },
   "S04": {
     "base": {
@@ -64,15 +66,16 @@
   },
   "S06": {
     "base": {
-      "Bulbasaur": "images/scenes/v3/S06.svg",
-      "Charmander": "images/scenes/v3/S06.svg",
-      "Squirtle": "images/scenes/v3/S06.svg"
+      "Bulbasaur": "images/scenes/painted/v3-S06.jpg",
+      "Charmander": "images/scenes/painted/v3-S06.jpg",
+      "Squirtle": "images/scenes/painted/v3-S06.jpg"
     },
     "fallbackBase": {
       "Bulbasaur": "images/scenes/v3/S06.svg",
       "Charmander": "images/scenes/v3/S06.svg",
       "Squirtle": "images/scenes/v3/S06.svg"
-    }
+    },
+    "render": "painted-baked"
   },
   "S07": {
     "base": {
@@ -89,15 +92,16 @@
   },
   "S08": {
     "base": {
-      "Bulbasaur": "images/scenes/v3/S08.svg",
-      "Charmander": "images/scenes/v3/S08.svg",
-      "Squirtle": "images/scenes/v3/S08.svg"
+      "Bulbasaur": "images/scenes/painted/v3-S08.jpg",
+      "Charmander": "images/scenes/painted/v3-S08.jpg",
+      "Squirtle": "images/scenes/painted/v3-S08.jpg"
     },
     "fallbackBase": {
       "Bulbasaur": "images/scenes/v3/S08.svg",
       "Charmander": "images/scenes/v3/S08.svg",
       "Squirtle": "images/scenes/v3/S08.svg"
-    }
+    },
+    "render": "painted-baked"
   },
   "S09": {
     "base": {
@@ -114,15 +118,16 @@
   },
   "S10": {
     "base": {
-      "Bulbasaur": "images/scenes/v3/S10.svg",
-      "Charmander": "images/scenes/v3/S10.svg",
-      "Squirtle": "images/scenes/v3/S10.svg"
+      "Bulbasaur": "images/scenes/painted/v3-S10.jpg",
+      "Charmander": "images/scenes/painted/v3-S10.jpg",
+      "Squirtle": "images/scenes/painted/v3-S10.jpg"
     },
     "fallbackBase": {
       "Bulbasaur": "images/scenes/v3/S10.svg",
       "Charmander": "images/scenes/v3/S10.svg",
       "Squirtle": "images/scenes/v3/S10.svg"
-    }
+    },
+    "render": "painted-baked"
   },
   "S11": {
     "base": {
@@ -204,39 +209,42 @@
   },
   "S17": {
     "base": {
-      "Bulbasaur": "images/scenes/v3/S17.svg",
-      "Charmander": "images/scenes/v3/S17.svg",
-      "Squirtle": "images/scenes/v3/S17.svg"
+      "Bulbasaur": "images/scenes/painted/v3-S17.jpg",
+      "Charmander": "images/scenes/painted/v3-S17.jpg",
+      "Squirtle": "images/scenes/painted/v3-S17.jpg"
     },
     "fallbackBase": {
       "Bulbasaur": "images/scenes/v3/S17.svg",
       "Charmander": "images/scenes/v3/S17.svg",
       "Squirtle": "images/scenes/v3/S17.svg"
-    }
+    },
+    "render": "painted-baked"
   },
   "S18": {
     "base": {
-      "Bulbasaur": "images/scenes/v3/S18.svg",
-      "Charmander": "images/scenes/v3/S18.svg",
-      "Squirtle": "images/scenes/v3/S18.svg"
+      "Bulbasaur": "images/scenes/painted/v3-S18.jpg",
+      "Charmander": "images/scenes/painted/v3-S18.jpg",
+      "Squirtle": "images/scenes/painted/v3-S18.jpg"
     },
     "fallbackBase": {
       "Bulbasaur": "images/scenes/v3/S18.svg",
       "Charmander": "images/scenes/v3/S18.svg",
       "Squirtle": "images/scenes/v3/S18.svg"
-    }
+    },
+    "render": "painted-baked"
   },
   "S19": {
     "base": {
-      "Bulbasaur": "images/scenes/v3/S19.svg",
-      "Charmander": "images/scenes/v3/S19.svg",
-      "Squirtle": "images/scenes/v3/S19.svg"
+      "Bulbasaur": "images/scenes/painted/v3-S19.jpg",
+      "Charmander": "images/scenes/painted/v3-S19.jpg",
+      "Squirtle": "images/scenes/painted/v3-S19.jpg"
     },
     "fallbackBase": {
       "Bulbasaur": "images/scenes/v3/S19.svg",
       "Charmander": "images/scenes/v3/S19.svg",
       "Squirtle": "images/scenes/v3/S19.svg"
-    }
+    },
+    "render": "painted-baked"
   },
   "S20": {
     "base": {
@@ -279,15 +287,16 @@
   },
   "S23": {
     "base": {
-      "Bulbasaur": "images/scenes/v3/S23.svg",
-      "Charmander": "images/scenes/v3/S23.svg",
-      "Squirtle": "images/scenes/v3/S23.svg"
+      "Bulbasaur": "images/scenes/painted/v3-S23.jpg",
+      "Charmander": "images/scenes/painted/v3-S23.jpg",
+      "Squirtle": "images/scenes/painted/v3-S23.jpg"
     },
     "fallbackBase": {
       "Bulbasaur": "images/scenes/v3/S23.svg",
       "Charmander": "images/scenes/v3/S23.svg",
       "Squirtle": "images/scenes/v3/S23.svg"
-    }
+    },
+    "render": "painted-baked"
   },
   "S24": {
     "base": {
@@ -304,75 +313,81 @@
   },
   "S25": {
     "base": {
-      "Bulbasaur": "images/scenes/v3/S25.svg",
-      "Charmander": "images/scenes/v3/S25.svg",
-      "Squirtle": "images/scenes/v3/S25.svg"
+      "Bulbasaur": "images/scenes/painted/v3-S25.jpg",
+      "Charmander": "images/scenes/painted/v3-S25.jpg",
+      "Squirtle": "images/scenes/painted/v3-S25.jpg"
     },
     "fallbackBase": {
       "Bulbasaur": "images/scenes/v3/S25.svg",
       "Charmander": "images/scenes/v3/S25.svg",
       "Squirtle": "images/scenes/v3/S25.svg"
-    }
+    },
+    "render": "painted-baked"
   },
   "Q_PREP": {
     "base": {
-      "Bulbasaur": "images/scenes/v3/Q_PREP.svg",
-      "Charmander": "images/scenes/v3/Q_PREP.svg",
-      "Squirtle": "images/scenes/v3/Q_PREP.svg"
+      "Bulbasaur": "images/scenes/painted/v3-Q_PREP.jpg",
+      "Charmander": "images/scenes/painted/v3-Q_PREP.jpg",
+      "Squirtle": "images/scenes/painted/v3-Q_PREP.jpg"
     },
     "fallbackBase": {
       "Bulbasaur": "images/scenes/v3/Q_PREP.svg",
       "Charmander": "images/scenes/v3/Q_PREP.svg",
       "Squirtle": "images/scenes/v3/Q_PREP.svg"
-    }
+    },
+    "render": "painted-baked"
   },
   "Q_RETURN": {
     "base": {
-      "Bulbasaur": "images/scenes/v3/Q_RETURN.svg",
-      "Charmander": "images/scenes/v3/Q_RETURN.svg",
-      "Squirtle": "images/scenes/v3/Q_RETURN.svg"
+      "Bulbasaur": "images/scenes/painted/v3-Q_RETURN.jpg",
+      "Charmander": "images/scenes/painted/v3-Q_RETURN.jpg",
+      "Squirtle": "images/scenes/painted/v3-Q_RETURN.jpg"
     },
     "fallbackBase": {
       "Bulbasaur": "images/scenes/v3/Q_RETURN.svg",
       "Charmander": "images/scenes/v3/Q_RETURN.svg",
       "Squirtle": "images/scenes/v3/Q_RETURN.svg"
-    }
+    },
+    "render": "painted-baked"
   },
   "Q_RECONCILE": {
     "base": {
-      "Bulbasaur": "images/scenes/v3/Q_RECONCILE.svg",
-      "Charmander": "images/scenes/v3/Q_RECONCILE.svg",
-      "Squirtle": "images/scenes/v3/Q_RECONCILE.svg"
+      "Bulbasaur": "images/scenes/painted/v3-Q_RECONCILE.jpg",
+      "Charmander": "images/scenes/painted/v3-Q_RECONCILE.jpg",
+      "Squirtle": "images/scenes/painted/v3-Q_RECONCILE.jpg"
     },
     "fallbackBase": {
       "Bulbasaur": "images/scenes/v3/Q_RECONCILE.svg",
       "Charmander": "images/scenes/v3/Q_RECONCILE.svg",
       "Squirtle": "images/scenes/v3/Q_RECONCILE.svg"
-    }
+    },
+    "render": "painted-baked"
   },
   "Q_ARCHIVE": {
     "base": {
-      "Bulbasaur": "images/scenes/v3/Q_ARCHIVE.svg",
-      "Charmander": "images/scenes/v3/Q_ARCHIVE.svg",
-      "Squirtle": "images/scenes/v3/Q_ARCHIVE.svg"
+      "Bulbasaur": "images/scenes/painted/v3-Q_ARCHIVE.jpg",
+      "Charmander": "images/scenes/painted/v3-Q_ARCHIVE.jpg",
+      "Squirtle": "images/scenes/painted/v3-Q_ARCHIVE.jpg"
     },
     "fallbackBase": {
       "Bulbasaur": "images/scenes/v3/Q_ARCHIVE.svg",
       "Charmander": "images/scenes/v3/Q_ARCHIVE.svg",
       "Squirtle": "images/scenes/v3/Q_ARCHIVE.svg"
-    }
+    },
+    "render": "painted-baked"
   },
   "Q_VILLAGE": {
     "base": {
-      "Bulbasaur": "images/scenes/v3/Q_VILLAGE.svg",
-      "Charmander": "images/scenes/v3/Q_VILLAGE.svg",
-      "Squirtle": "images/scenes/v3/Q_VILLAGE.svg"
+      "Bulbasaur": "images/scenes/painted/v3-Q_VILLAGE.jpg",
+      "Charmander": "images/scenes/painted/v3-Q_VILLAGE.jpg",
+      "Squirtle": "images/scenes/painted/v3-Q_VILLAGE.jpg"
     },
     "fallbackBase": {
       "Bulbasaur": "images/scenes/v3/Q_VILLAGE.svg",
       "Charmander": "images/scenes/v3/Q_VILLAGE.svg",
       "Squirtle": "images/scenes/v3/Q_VILLAGE.svg"
-    }
+    },
+    "render": "painted-baked"
   },
   "Q_PIKACHU": {
     "base": {
@@ -389,15 +404,16 @@
   },
   "Q_HOOTHOOT": {
     "base": {
-      "Bulbasaur": "images/scenes/v3/Q_HOOTHOOT.svg",
-      "Charmander": "images/scenes/v3/Q_HOOTHOOT.svg",
-      "Squirtle": "images/scenes/v3/Q_HOOTHOOT.svg"
+      "Bulbasaur": "images/scenes/painted/v3-Q_HOOTHOOT.jpg",
+      "Charmander": "images/scenes/painted/v3-Q_HOOTHOOT.jpg",
+      "Squirtle": "images/scenes/painted/v3-Q_HOOTHOOT.jpg"
     },
     "fallbackBase": {
       "Bulbasaur": "images/scenes/v3/Q_HOOTHOOT.svg",
       "Charmander": "images/scenes/v3/Q_HOOTHOOT.svg",
       "Squirtle": "images/scenes/v3/Q_HOOTHOOT.svg"
-    }
+    },
+    "render": "painted-baked"
   },
   "Q_LAPRAS": {
     "base": {
@@ -466,63 +482,68 @@
   },
   "Q_LEAD": {
     "base": {
-      "Bulbasaur": "images/scenes/v3/Q_LEAD.svg",
-      "Charmander": "images/scenes/v3/Q_LEAD.svg",
-      "Squirtle": "images/scenes/v3/Q_LEAD.svg"
+      "Bulbasaur": "images/scenes/painted/v3-Q_LEAD.jpg",
+      "Charmander": "images/scenes/painted/v3-Q_LEAD.jpg",
+      "Squirtle": "images/scenes/painted/v3-Q_LEAD.jpg"
     },
     "fallbackBase": {
       "Bulbasaur": "images/scenes/v3/Q_LEAD.svg",
       "Charmander": "images/scenes/v3/Q_LEAD.svg",
       "Squirtle": "images/scenes/v3/Q_LEAD.svg"
-    }
+    },
+    "render": "painted-baked"
   },
   "Q_MOON1": {
     "base": {
-      "Bulbasaur": "images/scenes/v3/Q_MOON1.svg",
-      "Charmander": "images/scenes/v3/Q_MOON1.svg",
-      "Squirtle": "images/scenes/v3/Q_MOON1.svg"
+      "Bulbasaur": "images/scenes/painted/v3-Q_MOON1.jpg",
+      "Charmander": "images/scenes/painted/v3-Q_MOON1.jpg",
+      "Squirtle": "images/scenes/painted/v3-Q_MOON1.jpg"
     },
     "fallbackBase": {
       "Bulbasaur": "images/scenes/v3/Q_MOON1.svg",
       "Charmander": "images/scenes/v3/Q_MOON1.svg",
       "Squirtle": "images/scenes/v3/Q_MOON1.svg"
-    }
+    },
+    "render": "painted-baked"
   },
   "Q_MOON2": {
     "base": {
-      "Bulbasaur": "images/scenes/v3/Q_MOON2.svg",
-      "Charmander": "images/scenes/v3/Q_MOON2.svg",
-      "Squirtle": "images/scenes/v3/Q_MOON2.svg"
+      "Bulbasaur": "images/scenes/painted/v3-Q_MOON2.jpg",
+      "Charmander": "images/scenes/painted/v3-Q_MOON2.jpg",
+      "Squirtle": "images/scenes/painted/v3-Q_MOON2.jpg"
     },
     "fallbackBase": {
       "Bulbasaur": "images/scenes/v3/Q_MOON2.svg",
       "Charmander": "images/scenes/v3/Q_MOON2.svg",
       "Squirtle": "images/scenes/v3/Q_MOON2.svg"
-    }
+    },
+    "render": "painted-baked"
   },
   "Q_MOON3": {
     "base": {
-      "Bulbasaur": "images/scenes/v3/Q_MOON3.svg",
-      "Charmander": "images/scenes/v3/Q_MOON3.svg",
-      "Squirtle": "images/scenes/v3/Q_MOON3.svg"
+      "Bulbasaur": "images/scenes/painted/v3-Q_MOON3.jpg",
+      "Charmander": "images/scenes/painted/v3-Q_MOON3.jpg",
+      "Squirtle": "images/scenes/painted/v3-Q_MOON3.jpg"
     },
     "fallbackBase": {
       "Bulbasaur": "images/scenes/v3/Q_MOON3.svg",
       "Charmander": "images/scenes/v3/Q_MOON3.svg",
       "Squirtle": "images/scenes/v3/Q_MOON3.svg"
-    }
+    },
+    "render": "painted-baked"
   },
   "Q_STAR": {
     "base": {
-      "Bulbasaur": "images/scenes/v3/Q_STAR.svg",
-      "Charmander": "images/scenes/v3/Q_STAR.svg",
-      "Squirtle": "images/scenes/v3/Q_STAR.svg"
+      "Bulbasaur": "images/scenes/painted/v3-Q_STAR.jpg",
+      "Charmander": "images/scenes/painted/v3-Q_STAR.jpg",
+      "Squirtle": "images/scenes/painted/v3-Q_STAR.jpg"
     },
     "fallbackBase": {
       "Bulbasaur": "images/scenes/v3/Q_STAR.svg",
       "Charmander": "images/scenes/v3/Q_STAR.svg",
       "Squirtle": "images/scenes/v3/Q_STAR.svg"
-    }
+    },
+    "render": "painted-baked"
   },
   "E_DAWN": {
     "base": {
@@ -604,51 +625,55 @@
   },
   "B_GATE": {
     "base": {
-      "Bulbasaur": "images/scenes/v3/B_GATE.svg",
-      "Charmander": "images/scenes/v3/B_GATE.svg",
-      "Squirtle": "images/scenes/v3/B_GATE.svg"
+      "Bulbasaur": "images/scenes/painted/v3-B_GATE.jpg",
+      "Charmander": "images/scenes/painted/v3-B_GATE.jpg",
+      "Squirtle": "images/scenes/painted/v3-B_GATE.jpg"
     },
     "fallbackBase": {
       "Bulbasaur": "images/scenes/v3/B_GATE.svg",
       "Charmander": "images/scenes/v3/B_GATE.svg",
       "Squirtle": "images/scenes/v3/B_GATE.svg"
-    }
+    },
+    "render": "painted-baked"
   },
   "B_LUNALA": {
     "base": {
-      "Bulbasaur": "images/scenes/v3/B_LUNALA.svg",
-      "Charmander": "images/scenes/v3/B_LUNALA.svg",
-      "Squirtle": "images/scenes/v3/B_LUNALA.svg"
+      "Bulbasaur": "images/scenes/painted/v3-B_LUNALA.jpg",
+      "Charmander": "images/scenes/painted/v3-B_LUNALA.jpg",
+      "Squirtle": "images/scenes/painted/v3-B_LUNALA.jpg"
     },
     "fallbackBase": {
       "Bulbasaur": "images/scenes/v3/B_LUNALA.svg",
       "Charmander": "images/scenes/v3/B_LUNALA.svg",
       "Squirtle": "images/scenes/v3/B_LUNALA.svg"
-    }
+    },
+    "render": "painted-baked"
   },
   "B_SOLGALEO": {
     "base": {
-      "Bulbasaur": "images/scenes/v3/B_SOLGALEO.svg",
-      "Charmander": "images/scenes/v3/B_SOLGALEO.svg",
-      "Squirtle": "images/scenes/v3/B_SOLGALEO.svg"
+      "Bulbasaur": "images/scenes/painted/v3-B_SOLGALEO.jpg",
+      "Charmander": "images/scenes/painted/v3-B_SOLGALEO.jpg",
+      "Squirtle": "images/scenes/painted/v3-B_SOLGALEO.jpg"
     },
     "fallbackBase": {
       "Bulbasaur": "images/scenes/v3/B_SOLGALEO.svg",
       "Charmander": "images/scenes/v3/B_SOLGALEO.svg",
       "Squirtle": "images/scenes/v3/B_SOLGALEO.svg"
-    }
+    },
+    "render": "painted-baked"
   },
   "B_BOTH": {
     "base": {
-      "Bulbasaur": "images/scenes/v3/B_BOTH.svg",
-      "Charmander": "images/scenes/v3/B_BOTH.svg",
-      "Squirtle": "images/scenes/v3/B_BOTH.svg"
+      "Bulbasaur": "images/scenes/painted/v3-B_BOTH.jpg",
+      "Charmander": "images/scenes/painted/v3-B_BOTH.jpg",
+      "Squirtle": "images/scenes/painted/v3-B_BOTH.jpg"
     },
     "fallbackBase": {
       "Bulbasaur": "images/scenes/v3/B_BOTH.svg",
       "Charmander": "images/scenes/v3/B_BOTH.svg",
       "Squirtle": "images/scenes/v3/B_BOTH.svg"
-    }
+    },
+    "render": "painted-baked"
   },
   "F_DAWN": {
     "base": {

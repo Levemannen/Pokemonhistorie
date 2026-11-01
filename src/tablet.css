@@ -77,3 +77,16 @@
 
 .app-shell footer .book-version { font-size: 14px; color: #465c50; margin: 20px auto 0; letter-spacing: .03em; }
 .app-shell footer .book-version small { display: block; margin-top: 5px; font-size: 11px; overflow-wrap: anywhere; }
+.starter .starter-portrait {
+  display: block;
+  width: clamp(58px, 12vw, 88px);
+  height: auto;
+  aspect-ratio: 1;
+  border-radius: 50%;
+  margin: 0 auto 10px;
+  border: 2px solid #fffae9;
+  box-shadow: 0 0 0 1px #b9a77c;
+}
+.starter.selected .starter-portrait {
+  box-shadow: 0 0 0 2px #627955;
+}

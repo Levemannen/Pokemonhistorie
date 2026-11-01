@@ -16,8 +16,12 @@ for(const [index,s] of data.entries()){
  const alias=aliases[s.id];let base=alias?old.scenes[alias].base:null;
  // Nest artwork baked with Charmander is not appropriate for the other starters.
  if(alias==='ridge')base=null;
+ const painting='images/scenes/painted/v3-'+s.id+'.jpg';
+ const hasPainting=fs.existsSync('public/'+painting);
+ if(hasPainting)base=Object.fromEntries(['Bulbasaur','Charmander','Squirtle'].map(n=>[n,painting]));
  scenes[s.id]={base:base||Object.fromEntries(['Bulbasaur','Charmander','Squirtle'].map(n=>[n,path])),fallbackBase:Object.fromEntries(['Bulbasaur','Charmander','Squirtle'].map(n=>[n,path])),render:base?'painted-baked':undefined};
  prompts.push({scene:s.id,status:base?'reused-existing-painting':'local-svg-fallback',path:base||path,prompt:`Wide 2:1 colorful animated Pokémon adventure storybook illustration, rich painterly detail, warm gold light against blue night, consistent ten-year-old traveler with navy cap, mustard jacket and teal backpack. Scene: ${s.title}. Depict this exact situation: ${s.en.replace(/\[[^\]]+\]/g,'').slice(0,1100)}. Show the child STANDING or WALKING and actively exploring, not sitting or crouching unless the scene explicitly requires rest. Do not add companions not present in the selected state. Keep one silver seed only before planting; none in hands after planting. No text, labels or UI. Preserve child-friendly atmosphere and safe footing.`});
+ if(hasPainting)prompts.at(-1).status='new-v3-painting';
 }
 for(const id of ['DAWN','AURORA','SONG','LANTERN','SANCTUARY','GARDEN'])scenes['F_'+id]=scenes['E_'+id];
 fs.writeFileSync('src/v3-art.json',JSON.stringify(scenes,null,2));
