@@ -88,7 +88,7 @@ export function storyText(s:State):string{
  const previous=s.world!.lastChoiceId?choicesById[s.world!.lastChoiceId]:null;
  const response=previous?.[getLanguage()==='nb'?'nbResponse':'response'];
  if(response)text=response+'\n\n'+text;
- text=conditionalText(s,text).replace(/\{starter\}/g,s.starter);
+ text=conditionalText(s,text).replace(/\{starter\}/g,s.starter).replace(/\*\*([^*]+)\*\*/g,'$1');
  const isNb=getLanguage()==='nb';
  if(s.scene==='Q_RETURN')text+='\n\n'+(Number(s.world!.flags.return_visits||0)>2?(isNb?'Flere frivillige bærer nå lykter langs stien. Tårnklokken slår igjen.':'More volunteers now carry lanterns along the path. The tower bell rings again.'):(isNb?'Blomstenes lys er svakere nå. Dere følger de trygge merkene sammen.':'The flowers glow more faintly now. Together you follow the safe trail markers.'));
  if(s.scene==='S09'&&has(s,'tree_hint'))text+='\n\n'+(isNb?'Partneren din peker mot stien bak dere. «Tenk på dem som ikke kunne følge oss.»':'Your partner points toward the path behind you. “Think of those who could not come with us.”');

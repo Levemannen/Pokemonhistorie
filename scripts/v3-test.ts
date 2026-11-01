@@ -5,10 +5,11 @@ import {getPuzzle,tryPuzzle} from '../src/puzzles';
 import {setLanguage} from '../src/i18n';
 import type {State,Starter} from '../src/story';
 const routes:State[]=[];
+const responseArrivals=new Map<string,State>();
 const fixtures=new Map<string,State>(),coverage=new Set<string>();let checks=0;
 function record(s:State){fixtures.set(s.scene,structuredClone(s));for(const language of ['en','nb'] as const){setLanguage(language);const text=v3.storyText(s);assert(text.length>30,s.scene);assert(!/\[(?:IF|ELSE|END)|\b(?:GOTO|RETURN|SET)\b|Only what you actually prepared|Bare det som virkelig/.test(text),s.scene+' exposes notation');}checks++;}
 function solve(s:State){const p=getPuzzle(s);return p?p.answer.reduce(tryPuzzle,s):s;}
-function step(s:State,id:string){s=solve(s);record(s);const c=v3.available(s).find(c=>c.id===id);assert(c,'Unavailable '+id+' at '+s.scene);coverage.add(id);const n=v3.advance(s,c!);assert.equal(n.world!.usedItems.filter(x=>x==='silver_seed').length,n.world!.flags.release_done==='true'?1:0);assert(!(n.world!.items.includes('silver_seed')&&n.world!.usedItems.includes('silver_seed')));assert(v3.restore(n),'Restore '+n.scene);record(n);return n;}
+function step(s:State,id:string){s=solve(s);record(s);const c=v3.available(s).find(c=>c.id===id);assert(c,'Unavailable '+id+' at '+s.scene);coverage.add(id);const n=v3.advance(s,c!);if(c.response||c.nbResponse)responseArrivals.set(c.id,n);assert.equal(n.world!.usedItems.filter(x=>x==='silver_seed').length,n.world!.flags.release_done==='true'?1:0);assert(!(n.world!.items.includes('silver_seed')&&n.world!.usedItems.includes('silver_seed')));assert(v3.restore(n),'Restore '+n.scene);record(n);return n;}
 function route(starter:Starter,ending:string,bonus?:'moon'|'sun'|'both'|'both-no-map'){
  let s=v3.initial(starter);const special=ending==='AURORA'||ending==='SANCTUARY';
  const picks=[1,2,1,ending==='AURORA'?1:2,1,2,3,3,2,3,3,2,2,2,special?1:2,ending==='SONG'?1:2,3,ending==='SANCTUARY'?3:1,2,2,2];
@@ -47,6 +48,16 @@ for(let seed=1;seed<=120;seed++){
 const partial=structuredClone(fixtures.get('Q_PREP')!);partial.world!.flags.earth_pot_found='true';delete partial.world!.flags.earth_backup_ready;
 const repair=v3.available(partial).find(c=>c.id==='Q_PREP.4');assert(repair);assert.equal(v3.advance(partial,repair).world!.flags.earth_backup_ready,'true');coverage.add('Q_PREP.4');
 fs.writeFileSync('docs/v3-routes.json',JSON.stringify(routes,null,2));
+for(const scene of v3.raw)for(const choice of scene.choices){
+ if(!choice.response&&!choice.nbResponse)continue;
+ const arrived=responseArrivals.get(choice.id);
+ assert(arrived,'Missing response fixture '+choice.id);
+ for(const language of ['en','nb'] as const){
+  setLanguage(language);
+  const expected=language==='nb'?choice.nbResponse:choice.response;
+  assert(expected&&v3.storyText(arrived).includes(expected.replace(/\{starter\}/g,arrived.starter)),choice.id+' response '+language);
+ }
+}
 fs.writeFileSync('docs/v3-fixtures.json',JSON.stringify([...fixtures.values()],null,2));
 fs.writeFileSync('docs/v3-test-report.json',JSON.stringify({passed:true,checkedStates:checks,scenes:fixtures.size,choiceCoverage:coverage.size,totalChoices:Object.keys(v3.choicesById).length,defensiveChoiceTestedWithPartialState:"Q_PREP.4",missingChoices:Object.keys(v3.choicesById).filter(id=>!coverage.has(id)),starters:3,endings:6,bonusVariants:3,bothWithoutMap:true,randomJourneys:120,languages:['en','nb']},null,2));
 console.log(`PASS: ${checks} state checks, ${fixtures.size} scenes, ${coverage.size} choices; 18 starter/endings, 12 bonus routes, 120 random journeys; both languages.`);
