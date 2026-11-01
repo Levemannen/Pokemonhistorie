@@ -1,0 +1,59 @@
+[
+  {
+    "flags": [
+      "pikachu_help_sent"
+    ],
+    "nb": "Her varslet du Miras hjelpere om Pikachu.",
+    "en": "You marked this spot for Mira's helpers to find Pikachu."
+  },
+  {
+    "flags": [
+      "marked_altaria_path"
+    ],
+    "nb": "Du merket en trygg sti til Altarias rede.",
+    "en": "You marked a safe path to Altaria's nest."
+  },
+  {
+    "flags": [
+      "practical_letter"
+    ],
+    "nb": "Du sendte et kart over en trygg rute.",
+    "en": "You sent a map of a safe route."
+  },
+  {
+    "flags": [
+      "map_fragment_1"
+    ],
+    "nb": "Du oppdaget en del av det gamle stjernekartet.",
+    "en": "You discovered part of the ancient star map."
+  },
+  {
+    "flags": [
+      "map_fragment_2"
+    ],
+    "nb": "Du tegnet av den skjulte kartdelen.",
+    "en": "You copied the hidden map fragment."
+  },
+  {
+    "flags": [
+      "secret_star_map"
+    ],
+    "nb": "Du løste mønsteret i stjernekartet.",
+    "en": "You solved the pattern in the star map."
+  },
+  {
+    "flags": [
+      "moon_rune",
+      "moon_sig_3"
+    ],
+    "nb": "Du fant månerunen.",
+    "en": "You found the moon rune."
+  },
+  {
+    "flags": [
+      "bridge_repaired"
+    ],
+    "nb": "Du sikret broen.",
+    "en": "You secured the bridge."
+  }
+]

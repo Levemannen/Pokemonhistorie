@@ -1,0 +1,242 @@
+[
+  {
+    "scene": "S08",
+    "flag": "puzzle_hoothoot_solved",
+    "nb": {
+      "button": "Undersøk hvordan redet kan støttes",
+      "opening": "Et vindkast får greinen til å knake. Under redet ligger tre ting: en rett, glatt pinne, en flat stein og en tykk, bøyd gren med en kløft i enden. Jorden på bekke­kanten er løs, men mellom røttene til det store treet er den fast.\n\nHoothoot peker på redet, så på bakken. «Hoo?»\n\nDu trenger en støtte som ikke sklir, og som ikke presser egget ut av redet. Hva vil du prøve?",
+      "answers": [
+        {
+          "label": "Sett den glatte pinnen i den løse jorden.",
+          "correct": false,
+          "response": "Pinnen glir sideveis så snart du setter litt vekt på den. Hoothoot slår bekymret med vingene. Heldigvis rakk du å prøve uten å berøre redet."
+        },
+        {
+          "label": "Legg den flate steinen oppå redet.",
+          "correct": false,
+          "response": "Steinen er tung og stødig, men den ville tynget selve redet. Hoothoot rister bestemt på hodet. Kanskje støtten må holde noe *nedenfra*?"
+        },
+        {
+          "label": "Sett den bøyde grenen fast mellom røttene, med kløften under redegreinen.",
+          "correct": true,
+          "response": "Du kiler den bøyde grenen mellom røttene og løfter kløften forsiktig inn under redegreinen. Det knaker én gang – så står alt stille. Hoothoot blunker. Først med det ene øyet, så med det andre. Deretter nikker den alvorlig, som om den nettopp har godkjent en svært viktig oppfinnelse.\n\nDu tegner en liten støtteform på Miras kart og skriver: *Et trygt sted begynner nedenfra.* Redet er ennå ikke reparert; nå vet du hvordan dere kan gjøre det."
+        }
+      ],
+      "hints": [
+        "Se etter et sted der støtten kan stå fast, selv når vinden blåser.",
+        "En kløft kan holde en grein på plass. Og røtter holder bedre enn løs jord."
+      ],
+      "success": "Du kiler den bøyde grenen mellom røttene og løfter kløften forsiktig inn under redegreinen. Det knaker én gang – så står alt stille. Hoothoot blunker. Først med det ene øyet, så med det andre. Deretter nikker den alvorlig, som om den nettopp har godkjent en svært viktig oppfinnelse.\n\nDu tegner en liten støtteform på Miras kart og skriver: *Et trygt sted begynner nedenfra.* Redet er ennå ikke reparert; nå vet du hvordan dere kan gjøre det.",
+      "leave": "Du lar delene ligge og vender tilbake til stien. Redet trenger fremdeles hjelp; du kan velge hva du gjør videre.",
+      "note": "Hoothoots rede: støttepunkt funnet."
+    },
+    "en": {
+      "button": "Find a way to support the nest",
+      "opening": "A gust makes the branch creak. Below the nest are three things: a straight, smooth stick; a flat stone; and a thick, forked branch. The soil by the stream is loose, but the ground between the great tree's roots is firm.\n\nHoothoot points at the nest, then at the ground. “Hoo?”\n\nYou need a support that will not slip or push the egg out of the nest. What will you try?",
+      "answers": [
+        {
+          "label": "Push the smooth stick into the loose soil.",
+          "correct": false,
+          "response": "The stick slides sideways as soon as you put a little weight on it. Hoothoot flaps anxiously. Luckily, you tested it without touching the nest."
+        },
+        {
+          "label": "Put the flat stone on top of the nest.",
+          "correct": false,
+          "response": "The stone is solid, but it would weigh the nest down. Hoothoot shakes its head firmly. Perhaps the support needs to hold something *from below*?"
+        },
+        {
+          "label": "Wedge the forked branch between the roots, with its fork beneath the nest branch.",
+          "correct": true,
+          "response": "You wedge the forked branch between the roots and gently slide its fork beneath the nest branch. There is one creak – and then everything holds still. Hoothoot blinks one eye, then the other. Finally it nods gravely, as if approving a very important invention.\n\nYou sketch the support on Mira's map and write: *A safe place starts with a strong foundation.* The nest is not repaired yet; now you know how to do it."
+        }
+      ],
+      "hints": [
+        "Look for a place where the support will stay firm even when the wind blows.",
+        "A fork can hold a branch in place. Roots grip better than loose soil."
+      ],
+      "success": "You wedge the forked branch between the roots and gently slide its fork beneath the nest branch. There is one creak – and then everything holds still. Hoothoot blinks one eye, then the other. Finally it nods gravely, as if approving a very important invention.\n\nYou sketch the support on Mira's map and write: *A safe place starts with a strong foundation.* The nest is not repaired yet; now you know how to do it.",
+      "leave": "You leave the pieces where they are and return to the path. The nest still needs help; you can decide what to do next.",
+      "note": "Hoothoot's nest: support point discovered."
+    }
+  },
+  {
+    "scene": "S12",
+    "flag": "puzzle_psyduck_solved",
+    "nb": {
+      "button": "Prøv Psyducks tannhjulgåte",
+      "opening": "Ved siden av Psyducks tegning ligger en liten modell med tre tannhjul på rad. Det første er merket 1, det neste 2 og det siste 3. Hvert hjul griper inn i det neste.\n\nPsyduck dreier hjul 1 **med klokken**. Hjul 2 begynner å gå **mot klokken**. Hjul 3 er skjult bak en pappskive.\n\n«Psy?» spør Psyduck og peker på skiven. Hvilken vei må hjul 3 dreie?",
+      "answers": [
+        {
+          "label": "Med klokken.",
+          "correct": true,
+          "response": "Du tar bort pappskiven. Hjul 3 dreier med klokken! Psyduck prøver modellen en gang til – sakte, deretter fortere. «Psy! Psyduck!» Den ler så høyt at du nesten mister skruen du holder.\n\nPå Miras kart tegner du tre små tannhjul med piler mellom dem. *To vendinger fører tilbake til startretningen*, skriver du. Nå vet Psyduck hvordan modellen fungerer, men den egentlige vedlikeholdsoppgaven venter fortsatt på deres valg."
+        },
+        {
+          "label": "Mot klokken.",
+          "correct": false,
+          "response": "Psyduck prøver hjulene langsomt. Når to tannhjul griper inn i hverandre, snur retningen. Men hva skjer når det skjer *to ganger*?"
+        },
+        {
+          "label": "Det står stille.",
+          "correct": false,
+          "response": "Modellen rister svakt. Det tredje hjulet må også bevege seg, siden tennene griper inn i hverandre. Prøv å følge bevegelsen fra hjul til hjul."
+        }
+      ],
+      "hints": [
+        "Hjul som ligger inntil hverandre, snurrer motsatt vei.",
+        "Hjul 1 går med klokken. Hjul 2 går mot klokken. Hjul 3 må derfor snu én gang til."
+      ],
+      "success": "Du tar bort pappskiven. Hjul 3 dreier med klokken! Psyduck prøver modellen en gang til – sakte, deretter fortere. «Psy! Psyduck!» Den ler så høyt at du nesten mister skruen du holder.\n\nPå Miras kart tegner du tre små tannhjul med piler mellom dem. *To vendinger fører tilbake til startretningen*, skriver du. Nå vet Psyduck hvordan modellen fungerer, men den egentlige vedlikeholdsoppgaven venter fortsatt på deres valg.",
+      "leave": "Psyduck legger pappskiven tilbake. «Psy!» sier den, som om den lover å prøve igjen senere.",
+      "note": "Psyducks verksted: tannhjulgåten løst."
+    },
+    "en": {
+      "button": "Try Psyduck's gear puzzle",
+      "opening": "Beside Psyduck's drawing is a small model with three gears in a row. The first is labelled 1, the next 2, and the last 3. Each gear meshes with the one beside it.\n\nPsyduck turns gear 1 **clockwise**. Gear 2 begins to turn **counterclockwise**. Gear 3 is hidden behind a piece of card.\n\n“Psy?” asks Psyduck, pointing at the card. Which way must gear 3 turn?",
+      "answers": [
+        {
+          "label": "Clockwise.",
+          "correct": true,
+          "response": "You lift away the card. Gear 3 is turning clockwise! Psyduck tries the model again – slowly at first, then faster. “Psy! Psyduck!” It laughs so hard that you nearly drop the screw in your hand.\n\nOn Mira's map, you draw three little gears with arrows between them. *Two reversals bring you back to the first direction*, you write. Now Psyduck understands the model, though the actual maintenance task still depends on what you choose to do next."
+        },
+        {
+          "label": "Counterclockwise.",
+          "correct": false,
+          "response": "Psyduck turns the gears slowly. Two meshing gears turn in opposite directions. But what happens when that change happens *twice*?"
+        },
+        {
+          "label": "It stays still.",
+          "correct": false,
+          "response": "The little model trembles. The third gear must move too, because its teeth mesh with the next gear. Try following the motion from one gear to the next."
+        }
+      ],
+      "hints": [
+        "Gears touching each other turn in opposite directions.",
+        "Gear 1 turns clockwise. Gear 2 turns counterclockwise. Gear 3 must reverse direction once more."
+      ],
+      "success": "You lift away the card. Gear 3 is turning clockwise! Psyduck tries the model again – slowly at first, then faster. “Psy! Psyduck!” It laughs so hard that you nearly drop the screw in your hand.\n\nOn Mira's map, you draw three little gears with arrows between them. *Two reversals bring you back to the first direction*, you write. Now Psyduck understands the model, though the actual maintenance task still depends on what you choose to do next.",
+      "leave": "Psyduck puts the card back. “Psy!” it says, as if promising to try again later.",
+      "note": "Psyduck's workshop: gear puzzle solved."
+    }
+  },
+  {
+    "scene": "S16",
+    "flag": "puzzle_gastly_solved",
+    "nb": {
+      "button": "Undersøk de tre lyktene",
+      "opening": "Gastly fører deg til en hylle i hulen. Der står tre gamle lykter med hvert sitt glass: blått, rødt og gyllent. Bak hyllen rasler tørre røtter i trekken.\n\nPå veggen står det:\n\n*Blått lys danser når vinden går.*\n\n*Rødt lys varmer – men svir det det når.*\n\n*Gyllent lys hviler bak glass så klart.*\n\n*Velg det som lyser og lar røttene være spart.*\n\nGastly peker mot den mørke passasjen. Hvilken lykt vil du bruke for å undersøke den uten å skade røttene?",
+      "answers": [
+        {
+          "label": "Den blå lykten.",
+          "correct": false,
+          "response": "Den blå lykten blafrer straks trekken treffer den. Skyggene hopper så fort at du ikke kan se hvor du setter føttene."
+        },
+        {
+          "label": "Den røde lykten.",
+          "correct": false,
+          "response": "Varmen fra den røde lykten får en tørr rot til å krølle seg. Du trekker lykten tilbake før noe tar skade. Gastly gjør et svært alvorlig ansikt."
+        },
+        {
+          "label": "Den gylne lykten.",
+          "correct": true,
+          "response": "Du løfter den gylne lykten. Lyset er rolig bak glasset, og røttene rører seg ikke. For første gang ser du små bilder risset inn i huleveggen: folk som deler tepper og varme under en vinterstorm.\n\nGastly nikker så høytidelig at den nesten velter bakover i luften. «Gas-tly!» På Miras kart skriver du: *Gastlys hule – det rolige lyset viste veien.*"
+        }
+      ],
+      "hints": [
+        "Du trenger et lys som holder seg rolig i trekk, og som ikke skader de tørre røttene.",
+        "Det blå lyset danser. Det røde er for varmt. Hvilket står stødig bak beskyttende glass?"
+      ],
+      "success": "Du løfter den gylne lykten. Lyset er rolig bak glasset, og røttene rører seg ikke. For første gang ser du små bilder risset inn i huleveggen: folk som deler tepper og varme under en vinterstorm.\n\nGastly nikker så høytidelig at den nesten velter bakover i luften. «Gas-tly!» På Miras kart skriver du: *Gastlys hule – det rolige lyset viste veien.*",
+      "leave": "Gastly gir deg god plass til å gå tilbake. «Gas», sier den vennlig. Gåten kan vente.",
+      "note": "Gastlys hule: den trygge lykten funnet."
+    },
+    "en": {
+      "button": "Examine the three lanterns",
+      "opening": "Gastly leads you to a shelf in the cave. Three old lanterns sit there, with blue, red, and golden glass. Behind the shelf, dry roots rustle in the draught.\n\nWords on the wall read:\n\n*Blue light dances when the wild winds blow.*\n\n*Red light burns the roots that grow.*\n\n*Gold shines steady, safe behind glass.*\n\n*Choose the light that lets you pass.*\n\nGastly points into the dark passage. Which lantern will let you explore without harming the roots?",
+      "answers": [
+        {
+          "label": "The blue lantern.",
+          "correct": false,
+          "response": "The blue light flickers as soon as the draught touches it. The shadows jump so quickly that you cannot see where to put your feet."
+        },
+        {
+          "label": "The red lantern.",
+          "correct": false,
+          "response": "The red lantern's heat makes a dry root curl. You pull it back before any damage is done. Gastly puts on a very serious face."
+        },
+        {
+          "label": "The golden lantern.",
+          "correct": true,
+          "response": "You raise the golden lantern. Its light stays steady behind the glass, and the roots do not move. For the first time you can make out tiny carvings on the cave wall: people sharing blankets and warmth in a winter storm.\n\nGastly nods so solemnly that it almost tumbles backwards in mid-air. “Gas-tly!” On Mira's map, you write: *Gastly's cave – the steady light showed the way.*"
+        }
+      ],
+      "hints": [
+        "You need a light that stays steady in a draught and does not harm dry roots.",
+        "Blue flickers. Red is too hot. Which one shines steadily behind protective glass?"
+      ],
+      "success": "You raise the golden lantern. Its light stays steady behind the glass, and the roots do not move. For the first time you can make out tiny carvings on the cave wall: people sharing blankets and warmth in a winter storm.\n\nGastly nods so solemnly that it almost tumbles backwards in mid-air. “Gas-tly!” On Mira's map, you write: *Gastly's cave – the steady light showed the way.*",
+      "leave": "Gastly gives you room to walk back. “Gas,” it says kindly. The puzzle can wait.",
+      "note": "Gastly's cave: safe lantern discovered."
+    }
+  },
+  {
+    "scene": "S18",
+    "flag": "puzzle_starwheel_solved",
+    "nb": {
+      "button": "Undersøk det lille stjernehjulet",
+      "opening": "Under en glassklokke ligger et lite hjul av messing. Det har tre skyvbare symboler: sol, stjerne og måne. Ved siden av ligger en lapp med en håndskrevet gåte:\n\n*Først den som vekker den sovende dag.*\n\n*Så de små gnistene, langt der bak.*\n\n*Til sist den som vokter den mørke natt.*\n\n*Sett dem i orden, så åpnes min skatt.*\n\nDet er tre mulige rekkefølger. Hvilken passer med gåten?",
+      "answers": [
+        {
+          "label": "Sol – stjerne – måne.",
+          "correct": true,
+          "response": "Messinghjulet klikker mykt. En bitte liten skuff glir ut, og inni ligger en stjerneformet papirbit. På den står det: *Selv et lite lys kan vise veien, hvis noen tar seg tid til å se.*\n\nDu legger ikke biten i lommen som en nødvendig nøkkel. I stedet tegner du mønsteret på Miras kart: en sol, en stjerne og en måne rundt en liten sirkel. Et nytt notat lyser opp: *Observatoriet – stjernehjulets hemmelighet.*"
+        },
+        {
+          "label": "Måne – sol – stjerne.",
+          "correct": false,
+          "response": "Hjulet klikker, men åpner seg ikke. Du leser første linje igjen: Hvem vekker dagen?"
+        },
+        {
+          "label": "Stjerne – måne – sol.",
+          "correct": false,
+          "response": "Symbolene glir på plass, men låsen sitter fast. Kanskje det hjelper å lese gåten som tre små ledetråder – én for hvert symbol."
+        }
+      ],
+      "hints": [
+        "Det første symbolet forbindes med dagen. Det siste vokter natten.",
+        "Solen først, månen sist. Hva skal stå imellom?"
+      ],
+      "success": "Messinghjulet klikker mykt. En bitte liten skuff glir ut, og inni ligger en stjerneformet papirbit. På den står det: *Selv et lite lys kan vise veien, hvis noen tar seg tid til å se.*\n\nDu legger ikke biten i lommen som en nødvendig nøkkel. I stedet tegner du mønsteret på Miras kart: en sol, en stjerne og en måne rundt en liten sirkel. Et nytt notat lyser opp: *Observatoriet – stjernehjulets hemmelighet.*",
+      "leave": "Du lar glassklokken stå. Den lille gåten kan vente mens dere undersøker det som virkelig haster i tårnet.",
+      "note": "Observatoriet: stjernehjulets hemmelighet oppdaget."
+    },
+    "en": {
+      "button": "Examine the little star wheel",
+      "opening": "Under a glass dome lies a little brass wheel. It has three sliding symbols: sun, star, and moon. Beside it is a handwritten riddle:\n\n*First comes the one that wakes the day.*\n\n*Next, distant sparks that shine far away.*\n\n*Last comes the guardian of the night.*\n\n*Set them in order to find what is right.*\n\nThree orders are possible. Which one fits the riddle?",
+      "answers": [
+        {
+          "label": "Sun – star – moon.",
+          "correct": true,
+          "response": "The brass wheel clicks softly. A tiny drawer slides open. Inside lies a star-shaped scrap of paper. It reads: *Even a little light can show the way, if someone takes the time to look.*\n\nYou do not pocket it as an essential key. Instead, you copy the design onto Mira's map: a sun, a star, and a moon around a small circle. A new note glows into view: *Observatory – secret of the star wheel.*"
+        },
+        {
+          "label": "Moon – sun – star.",
+          "correct": false,
+          "response": "The wheel clicks but does not open. You read the first line again: What wakes the day?"
+        },
+        {
+          "label": "Star – moon – sun.",
+          "correct": false,
+          "response": "The symbols slide into place, but the lock holds firm. Perhaps each line offers a separate clue – one for each symbol."
+        }
+      ],
+      "hints": [
+        "The first symbol belongs to the day. The last guards the night.",
+        "Sun first, moon last. What belongs in the middle?"
+      ],
+      "success": "The brass wheel clicks softly. A tiny drawer slides open. Inside lies a star-shaped scrap of paper. It reads: *Even a little light can show the way, if someone takes the time to look.*\n\nYou do not pocket it as an essential key. Instead, you copy the design onto Mira's map: a sun, a star, and a moon around a small circle. A new note glows into view: *Observatory – secret of the star wheel.*",
+      "leave": "You leave the glass dome where it stands. The little riddle can wait while you investigate what matters most in the tower.",
+      "note": "Observatory: star-wheel secret discovered."
+    }
+  }
+]

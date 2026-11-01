@@ -396,7 +396,7 @@
       {
         "id": "S12.1",
         "en": "Help Psyduck master the repair",
-        "nb": "Hjelp Psyduck lære reparasjonen",
+        "nb": "Lær Psyduck å vedlikeholde vannhjulet",
         "requires": "TRUE",
         "to": "S13",
         "flags": [
@@ -984,13 +984,12 @@
       },
       {
         "id": "Q_PREP.3",
-        "en": "Prepare Earth",
-        "nb": "Klargjør Jord",
+        "en": "Find the Earth pot",
+        "nb": "Finn jordpotten",
         "requires": "silver_seed AND NOT earth_pot_found",
         "to": "Q_PREP",
         "flags": [
-          "earth_pot_found",
-          "earth_backup_ready"
+          "earth_pot_found"
         ],
         "items": []
       },

@@ -1,0 +1,22 @@
+{
+  "passed": true,
+  "answers": 24,
+  "hints": 16,
+  "languages": [
+    "en",
+    "nb"
+  ],
+  "errors": [],
+  "checks": [
+    "wrong answers",
+    "both hints",
+    "leave and reopen",
+    "correct answer once",
+    "save and reload",
+    "language switch",
+    "S04 map purity",
+    "Escape and focus return",
+    "marker presence and absence",
+    "portrait and landscape"
+  ]
+}

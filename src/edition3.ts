@@ -1,4 +1,5 @@
 import data from './manuscript-v3.json';
+import {restoreOptionalDiscoveries} from './optionalPuzzles';
 import type {State,Scene,Choice,Starter} from './legacyStory';
 import type {WorldState} from './world';
 import {authoredText,getLanguage} from './i18n';
@@ -59,6 +60,7 @@ function release(s:State,id:string){
 export function advance(s:State,requested:Choice):State{
  const c=available(s).find(c=>c.id===requested.id&&c.to===requested.to);if(!c)throw Error('Unavailable v3 choice');
  const w=structuredClone(s.world!);const next:State={...s,world:w,scene:c.to,history:[...s.history,{scene:s.scene,choice:c.label,choiceId:c.id,world:structuredClone(s.world!),flags:[...s.flags],companions:[...s.companions]}]};
+ if(c.id==='Q_PREP.3')next.history[next.history.length-1].earthPrepVersion=2;
  if((c.to==='Q_RETURN'||c.to==='Q_PREP')&&!s.scene.startsWith('Q_'))w.flags.return_main=s.world!.visited.includes('S21')?'S22':'S20';
  for(const flag of c.set){const [k,v]=flag.split('=');w.flags[k]=v||'true';}
  grant(w,...c.get);w.arrivalMode=s.scene;w.lastChoiceId=c.id;w.visited=[...new Set([...w.visited,c.to])];
@@ -91,22 +93,30 @@ export function storyText(s:State):string{
  text=conditionalText(s,text).replace(/\{starter\}/g,s.starter).replace(/\*\*([^*]+)\*\*/g,'$1');
  const isNb=getLanguage()==='nb';
  if(s.scene==='Q_RETURN')text+='\n\n'+(Number(s.world!.flags.return_visits||0)>2?(isNb?'Flere frivillige bærer nå lykter langs stien. Tårnklokken slår igjen.':'More volunteers now carry lanterns along the path. The tower bell rings again.'):(isNb?'Blomstenes lys er svakere nå. Dere følger de trygge merkene sammen.':'The flowers glow more faintly now. Together you follow the safe trail markers.'));
- if(s.world!.lastChoiceId?.startsWith('Q_PREP.')){const choice=s.world!.lastChoiceId!;const index=Number(choice.split('.')[1]);if(index<=4)text=(isNb?'Dere har prøvd løsningen. Den er klar til å vises til Shinx.':'You have tested the plan. It is ready to show Shinx.')+'\n\n'+text;}
+ if(s.world!.lastChoiceId?.startsWith('Q_PREP.')){const choice=s.world!.lastChoiceId!;const index=Number(choice.split('.')[1]);if([1,2,4].includes(index))text=(isNb?'Dere har prøvd løsningen. Den er klar til å vises til Shinx.':'You have tested the plan. It is ready to show Shinx.')+'\n\n'+text;}
  return authoredText(text);
 }
 /** Replay every recorded choice: saved booleans cannot bypass equipment or consent. */
 export function restore(value:unknown):State|null{
  try{const v=value as State;if(!v||v.world?.edition!=='3'||!['Bulbasaur','Charmander','Squirtle'].includes(v.starter)||!Array.isArray(v.history)||v.history.length>10000)return null;
+ const legacyHeat=v.world.flags.earth_backup_ready==='true'&&!v.history.some(h=>h.choiceId==='Q_PREP.4');
  let s=initial(v.starter);
  for(const h of v.history){if(h.scene!==s.scene)return null;
+  restoreOptionalDiscoveries(s,h.world?.flags);
   // Only validated puzzle solutions from the snapshot may enable a puzzle-gated choice.
   const flags=(h.flags||[]).filter(f=>/^puzzle:(S06|S07|S17|Q_MOON1|Q_STAR)$/.test(f));
   s={...s,flags:[...new Set([...s.flags,...flags])]};
   const c=available(s).find(c=>c.id===h.choiceId);if(!c)return null;s=advance(s,c);
+  if(c.id==='Q_PREP.3'&&legacyHeat&&h.earthPrepVersion===undefined){
+   s.world!.flags.earth_backup_ready='true';
+   // Keep the original single-step receipt across subsequent saves and replays.
+   delete s.history[s.history.length-1].earthPrepVersion;
+  }
  }
  if(s.scene!==v.scene)return null;
+ restoreOptionalDiscoveries(s,v.world.flags);
  const current=(v.flags||[]).filter(f=>/^puzzle:(S06|S07|S17|Q_MOON1|Q_STAR)$/.test(f));
- const inspections=(v.flags||[]).filter(f=>f.startsWith('inspected:')&&[...s.world!.items,...s.world!.usedItems].includes(f.slice(10)));
+ const inspections=(v.flags||[]).filter(f=>(f.startsWith('inspected:')&&[...s.world!.items,...s.world!.usedItems].includes(f.slice(10)))||/^map-seen:[a-z0-9_]+$/.test(f));
  const puzzles:NonNullable<State['puzzles']>={};
  for(const id of ['S06','S17','Q_MOON1','Q_STAR']){
   const p=v.puzzles?.[id];if(!p||!Array.isArray(p.input)||p.input.length>3||!p.input.every(n=>Number.isInteger(n)&&n>=0&&n<3))continue;

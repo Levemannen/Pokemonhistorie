@@ -2,7 +2,7 @@ import {narrativeText} from './narrative';
 export type Starter = 'Bulbasaur' | 'Charmander' | 'Squirtle';
 import type {PuzzleProgress} from './puzzles';
 import type {WorldState} from './world';
-export type HistoryEntry={scene:string;choice:string;choiceId?:string;world?:WorldState;flags?:string[];companions?:string[]};
+export type HistoryEntry={earthPrepVersion?:2;scene:string;choice:string;choiceId?:string;world?:WorldState;flags?:string[];companions?:string[]};
 export type State = {world?:WorldState;language?:'en'|'nb';scene:string; starter:Starter; flags:string[]; companions:string[]; history:HistoryEntry[];puzzles?:Record<string,PuzzleProgress>;journeyId?:string;acknowledgedChapters?:number[]};
 export type Choice = {id?:string;effect?:string;immediateText?:string;condition?:string;label:string;to:string; flag?:string; companion?:string; needs?:string; starter?:Starter};
 export type Scene = {id:string;chapter:number;title:string;text:string;setting:string;detail:string;choices:Choice[];ending?:string};

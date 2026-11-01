@@ -232,8 +232,8 @@
           "sun_rescue_1"
         ],
         "get": [],
-        "response": "Pikachu sits breathing hard. Then it extends a paw.\n\n“You don't have to come with us,” you say. “But you can, if you want to.”",
-        "nbResponse": "Pikachu blir sittende og puste tungt. Så strekker den ut en pote.\n\n«Du trenger ikke bli med oss,» sier du. «Men du kan, hvis du vil.»"
+        "response": "You pull a spare cloth from your bag and cover the flashing lamp. The ivy stops twisting, but Pikachu is still caught.\n\n[IF starter_Bulbasaur] Bulbasaur slides its vines beneath the ivy and gently eases the roots apart. One by one, the tight loops loosen. [END]\n\n[IF starter_Charmander] Keeping its tail well clear of the leaves, Charmander warms the metal post just enough for you to slip the ivy from its hooks. [END]\n\n[IF starter_Squirtle] Squirtle dampens the soil around the lowest root, well away from Pikachu. You loosen the root by hand and lift the last vine free. [END]\n\nPikachu tumbles onto the soft grass, breathing hard. It looks at you, then offers a paw.\n\n“You don't have to come,” you tell it. “But we'd be glad to have you.” Pikachu glances toward the dark mountain and steps to your side.",
+        "nbResponse": "Du finner et tøystykke i sekken og dekker den blinkende lykten. Eføyen slutter å vri seg, men Pikachu sitter fortsatt fast.\n\n[IF starter_Bulbasaur] Bulbasaur smyger rankene sine inn under eføyen og lirker røttene forsiktig fra hverandre. Løkke etter løkke løsner. [END]\n\n[IF starter_Charmander] Charmander holder halen godt unna bladene og varmer metallstolpen akkurat nok til at du kan løsne eføyen fra krokene. [END]\n\n[IF starter_Squirtle] Squirtle fukter jorden rundt den nederste roten, et godt stykke unna Pikachu. Du løsner roten med hendene og trekker bort den siste ranken. [END]\n\nPikachu tumler ned i det myke gresset og hiver etter pusten. Så ser den på deg og strekker frem en pote.\n\n«Du trenger ikke bli med», sier du. «Men vi vil gjerne ha deg med oss.» Pikachu ser mot det mørke fjellet og stiller seg ved siden av deg."
       },
       {
         "id": "S07.2",
@@ -247,8 +247,8 @@
           "sun_rescue_1"
         ],
         "get": [],
-        "response": "Pikachu sits breathing hard. Then it extends a paw.",
-        "nbResponse": "Pikachu blir sittende og puste tungt. Så strekker den ut en pote."
+        "response": "You pull a spare cloth from your bag and cover the flashing lamp. The ivy stops twisting, but Pikachu is still caught.\n\n[IF starter_Bulbasaur] Bulbasaur slides its vines beneath the ivy and gently eases the roots apart. One by one, the tight loops loosen. [END]\n\n[IF starter_Charmander] Keeping its tail well clear of the leaves, Charmander warms the metal post just enough for you to slip the ivy from its hooks. [END]\n\n[IF starter_Squirtle] Squirtle dampens the soil around the lowest root, well away from Pikachu. You loosen the root by hand and lift the last vine free. [END]\n\nPikachu tumbles onto the soft grass, breathing hard. It looks back along the path, where other travelers may soon arrive.\n\n“Could you stay here and warn them about the vines?” you ask. Pikachu gives a sharp, determined “Pika!” and climbs onto a safe stone beside the trail. You wave goodbye before moving on.",
+        "nbResponse": "Du finner et tøystykke i sekken og dekker den blinkende lykten. Eføyen slutter å vri seg, men Pikachu sitter fortsatt fast.\n\n[IF starter_Bulbasaur] Bulbasaur smyger rankene sine inn under eføyen og lirker røttene forsiktig fra hverandre. Løkke etter løkke løsner. [END]\n\n[IF starter_Charmander] Charmander holder halen godt unna bladene og varmer metallstolpen akkurat nok til at du kan løsne eføyen fra krokene. [END]\n\n[IF starter_Squirtle] Squirtle fukter jorden rundt den nederste roten, et godt stykke unna Pikachu. Du løsner roten med hendene og trekker bort den siste ranken. [END]\n\nPikachu tumler ned i det myke gresset og hiver etter pusten. Den ser tilbake mot stien, der flere snart kan komme gående.\n\n«Kan du bli her og advare dem mot rankene?» spør du. Pikachu svarer med et bestemt «Pika!» og klatrer opp på en trygg stein ved stien. Du vinker før dere går videre."
       },
       {
         "id": "S07.3",
@@ -472,13 +472,13 @@
     "title": "The Little Engineer",
     "nbTitle": "Den lille ingeniøren",
     "chapter": 3,
-    "en": "On the far bank, Psyduck has collected the wheel's remaining bolts, a nut and a drawing of the cable mechanism. It tries to hold everything at once. The bolts scatter over the stones.\n\n[IF helped_psyduck] Psyduck recognizes you from the crossing and proudly points to the turning waterwheel. Then it looks at the scattered bolts and droops. Getting the wheel moving was only the first step.\n\n[ELSE] The waterwheel is turning again, thanks to a passing helper. But Psyduck still doesn't understand how to keep the mechanism working.\n\n“Maybe one thing at a time?” you suggest. Psyduck looks at you, then at its own paws.",
-    "nb": "På den andre elvebredden har Psyduck samlet de siste boltene til hjulet, en mutter og en tegning av kabelmekanismen. Den prøver å holde alt samtidig. Boltene triller utover steinene.\n\n[IF helped_psyduck] Psyduck kjenner deg igjen fra elvekryssingen og peker stolt på vannhjulet som snurrer. Så ser den på boltene som ligger strødd, og henger med hodet. Å få hjulet i gang var bare første steg.\n\n[ELSE] En forbipasserende hjelper har fått vannhjulet i gang igjen. Men Psyduck forstår fortsatt ikke hvordan den skal holde mekanismen i orden.\n\n«Kanskje én ting om gangen?» foreslår du. Psyduck ser på deg, så på sine egne poter.",
+    "en": "On the far bank, Psyduck has gathered the wheel's remaining bolts, a nut, and a drawing of the cable mechanism. It tries to hold everything at once. The bolts scatter across the stones.\n\n[IF helped_psyduck] Psyduck recognizes you from the crossing and points proudly to the turning waterwheel. Then it looks at the scattered bolts and lowers its head. Getting the wheel moving was only the first step. [ELSE] A helper has got the waterwheel turning again, but Psyduck still doesn't know how to maintain the mechanism. It looks at the scattered bolts and lowers its head. [END]\n\n“Maybe one thing at a time?” you suggest. Psyduck picks up a single bolt and waits for you.",
+    "nb": "På den andre elvebredden har Psyduck samlet de siste boltene til vannhjulet, en mutter og en tegning av kabelmekanismen. Den prøver å holde alt på én gang. Boltene triller utover steinene.\n\n[IF helped_psyduck] Psyduck kjenner deg igjen fra elvekryssingen og peker stolt på vannhjulet som snurrer. Så ser den på boltene som ligger strødd, og senker hodet. Å få hjulet i gang var bare første steg. [ELSE] En hjelper har fått vannhjulet i gang igjen, men Psyduck vet ennå ikke hvordan mekanismen skal holdes i orden. Den ser på boltene som ligger strødd, og senker hodet. [END]\n\n«Kanskje vi skal ta én ting om gangen?» foreslår du. Psyduck plukker opp én bolt og venter på deg.",
     "choices": [
       {
         "id": "S12.1",
         "label": "Help Psyduck master the repair",
-        "nb": "Hjelp Psyduck lære reparasjonen",
+        "nb": "Lær Psyduck å vedlikeholde vannhjulet",
         "to": "S13",
         "when": "TRUE",
         "set": [
@@ -925,7 +925,9 @@
         "set": [
           "shinx_consents_sky"
         ],
-        "get": []
+        "get": [],
+        "response": "You show Shinx how the basket stays steady and let him feel the cloth around the warm stones. He checks it with one paw, then the other.\n\n“This one feels safe,” he says. “Yes. I want to use the basket.” Lumi takes his paw, but waits for him to nod before moving it.",
+        "nbResponse": "Du viser Shinx hvordan kurven holdes stødig, og lar ham kjenne på stoffet rundt de varme steinene. Han prøver først med den ene poten, så med den andre.\n\n«Dette kjennes trygt», sier han. «Ja. Jeg vil bruke kurven.» Lumi tar poten hans, men venter på nikket hans før hun gjør noe mer."
       },
       {
         "id": "S22.2",
@@ -936,7 +938,9 @@
         "set": [
           "shinx_consents_heart"
         ],
-        "get": []
+        "get": [],
+        "response": "You explain who will keep the lanterns burning and who takes over when the first watch ends. Shinx asks one more question about the spare fuel. Ada and Bo answer together.\n\n“Then yes,” Shinx says. “I want the watch plan. And please tell me if anything changes.”",
+        "nbResponse": "Du forklarer hvem som skal passe lyktene, og hvem som tar over når den første vakten er ferdig. Shinx spør en gang til om reserveoljen. Ada og Bo svarer sammen.\n\n«Da sier jeg ja», sier Shinx. «Jeg vil bruke vaktplanen. Men lov å si fra hvis noe endrer seg.»"
       },
       {
         "id": "S22.3",
@@ -947,7 +951,9 @@
         "set": [
           "shinx_consents_earth"
         ],
-        "get": []
+        "get": [],
+        "response": "You let Shinx feel the warmth from the backup stove before showing him the soil and the silver seed. You explain that the seed cannot make heat on its own. Shinx watches the steady flame.\n\n“Then I won't be left waiting in the cold,” he says. “Yes. I choose the Earth plan.”",
+        "nbResponse": "Du lar Shinx kjenne varmen fra reserveovnen før du viser ham jorden og sølvfrøet. Du forklarer at frøet ikke kan lage varme av seg selv. Shinx ser på den jevne flammen.\n\n«Da blir jeg ikke sittende og vente i kulden», sier han. «Ja. Jeg velger jordplanen.»"
       },
       {
         "id": "S22.4",
@@ -1107,8 +1113,8 @@
     "title": "The Supply Porch",
     "nbTitle": "Forsyningsverandaen",
     "chapter": 4,
-    "en": "Through the speaking tube you hear Mira calling to the helpers. Crates scrape across the floor. Someone laughs nervously. Nobody has forgotten that the valley grows colder with every toll of the bell.\n\n“You can prepare more than one plan,” Mira says. “But Shinx needs to feel the warmth for himself. It is his safety we're talking about.”\n\n[IF warmth_sky_ready] **Sky:** Four warmed stones rest beneath a false bottom in the basket, wrapped so they cannot burn anyone. A helper demonstrates how to carry it without jolting Shinx. Your partner tests the covering with a paw and nods. [END]\n\n[IF warmth_heart_ready] **Heart:** Two volunteers have each agreed to a watch. One puts out a test lantern. The other is already waiting with the spare flame. “We look after each other, too,” she says. [END]\n\n[IF earth_backup_ready] **Earth:** The little backup stove heats the soil in the pot. The silver seed can preserve warmth, not make it. You check that the stove is still working. “Nobody should have to freeze while we wait for a miracle,” you say. [END]\n\nYou look at the last crate. A blanket is easier to carry than responsibility for someone else. But now there are many hands to share the weight.",
-    "nb": "Gjennom talerøret hører du Mira rope til hjelperne. Kasser skraper over gulvet. Noen ler nervøst. Ingen i rommet har glemt at dalen blir kaldere for hvert klokkeslag.\n\n«Dere kan klargjøre mer enn én løsning», sier Mira. «Men Shinx skal kjenne varmen selv. Det er hans trygghet det gjelder.»\n\n[IF warmth_sky_ready] **Himmel:** Fire varme steiner ligger under en falsk bunn i kurven, pakket inn så ingen kan brenne seg. En hjelper viser hvordan de bærer den uten å riste Shinx. Partneren din legger poten mot trekket og nikker. [END]\n\n[IF warmth_heart_ready] **Hjerte:** To frivillige har valgt hver sin vakt. Den ene slukker en prøvelykt. Den andre er straks klar med reserveflammen. «Vi passer på hverandre også», sier hun. [END]\n\n[IF earth_backup_ready] **Jord:** Den lille reserveovnen varmer jorden i potten. Sølvfrøet kan bevare varme, men ikke skape den. Du kjenner nøye etter at ovnen fortsatt virker. «Ingen skal måtte fryse mens vi håper på et mirakel», sier du. [END]\n\nDu ser på den siste forsyningskassen. Det er lettere å bære et teppe enn ansvaret for noen andre. Men nå er dere flere som bærer.",
+    "en": "Through the speaking tube you hear Mira calling to the helpers. Crates scrape across the floor. Somewhere, a nervous volunteer laughs. The valley grows colder with every toll of the bell.\n\n“You can prepare more than one plan,” Mira says. “But Shinx must be able to feel that each one is safe. We won't decide for him.”\n\n[IF warmth_sky_ready] **Sky:** Four warmed stones lie beneath the basket's false bottom, wrapped so they cannot burn anyone. A helper demonstrates how to carry the basket without jolting Shinx. [END]\n\n[IF warmth_heart_ready] **Heart:** Ada and Bo have each agreed to a watch. They test the lanterns and set aside spare fuel before writing down who takes over next. [END]\n\n[IF earth_pot_found AND NOT earth_backup_ready] **Earth:** The pot is ready, with soil for the silver seed. But the backup stove has not yet been tested. You cannot offer Shinx this plan until you know it will keep him warm. [END]\n\n[IF earth_backup_ready] **Earth:** The backup stove is keeping the soil warm. The silver seed may preserve some of that warmth later, but Shinx will not have to wait for it in the cold. [END]\n\nYou look at the remaining supplies. A blanket is light enough for one person to carry. The responsibility for keeping someone safe is easier when everyone does their part.",
+    "nb": "Gjennom talerøret hører du Mira rope til hjelperne. Kasser skraper over gulvet. Et sted ler en frivillig nervøst. Dalen blir kaldere for hvert klokkeslag.\n\n«Dere kan gjøre klar mer enn én plan», sier Mira. «Men Shinx må selv få kjenne at hver løsning er trygg. Vi skal ikke bestemme for ham.»\n\n[IF warmth_sky_ready] **Himmel:** Fire varme steiner ligger under den falske bunnen i kurven, pakket inn så ingen kan brenne seg. En hjelper viser hvordan kurven kan bæres uten at Shinx blir ristet. [END]\n\n[IF warmth_heart_ready] **Hjerte:** Ada og Bo har avtalt hver sin vakt. De prøver lyktene og setter frem reserveolje før de skriver ned hvem som skal overta etterpå. [END]\n\n[IF earth_pot_found AND NOT earth_backup_ready] **Jord:** Potten er klar, med jord til sølvfrøet. Men reserveovnen er ennå ikke testet. Du kan ikke tilby Shinx denne løsningen før du vet at han vil holde seg varm. [END]\n\n[IF earth_backup_ready] **Jord:** Reserveovnen holder jorden varm. Sølvfrøet kan kanskje bevare noe av varmen senere, men Shinx skal slippe å vente i kulden mens det spirer. [END]\n\nDu ser på forsyningene som står igjen. Et teppe er lett nok for én person å bære. Ansvaret for å holde noen trygg blir lettere når alle gjør sin del.",
     "choices": [
       {
         "id": "Q_PREP.1",
@@ -1134,15 +1140,16 @@
       },
       {
         "id": "Q_PREP.3",
-        "label": "Prepare Earth",
-        "nb": "Klargjør Jord",
+        "label": "Find the Earth pot",
+        "nb": "Finn jordpotten",
         "to": "Q_PREP",
         "when": "silver_seed AND NOT earth_pot_found",
         "set": [
-          "earth_pot_found",
-          "earth_backup_ready"
+          "earth_pot_found"
         ],
-        "get": []
+        "get": [],
+        "response": "You find a sturdy pot and fill it with soil. The silver seed gives a small pulse nearby. But when you reach for the backup stove, its flame sputters. The pot is ready; the heat still needs testing.",
+        "nbResponse": "Du finner en solid potte og fyller den med jord. Sølvfrøet gir et lite blink like ved. Men når du prøver reserveovnen, blafrer flammen ujevnt. Potten er klar. Varmen må fortsatt testes."
       },
       {
         "id": "Q_PREP.4",
@@ -1153,7 +1160,9 @@
         "set": [
           "earth_backup_ready"
         ],
-        "get": []
+        "get": [],
+        "response": "You check the stove's fuel, clear its air vent, and light it again. This time the flame burns steadily. You wait, then carefully test the warmth of the soil. The backup is ready before anyone needs to rely on it.",
+        "nbResponse": "Du sjekker brenselet, renser luftåpningen og tenner reserveovnen på nytt. Denne gangen brenner flammen jevnt. Du venter litt og kjenner forsiktig på jorden. Reservevarmen er klar før noen trenger å stole på den."
       },
       {
         "id": "Q_PREP.5",
@@ -1325,8 +1334,8 @@
     "title": "The Letter You Never Wrote",
     "nbTitle": "Brevet du ikke skrev",
     "chapter": 4,
-    "en": "A blank sheet lies on the worktable. You think of the letter you found, the blankets around Shinx, and Lumi's frightened voice behind the door.\n\nYou begin to write, then stop. What you first want to say is that she took the light from the whole valley. That is true. But it is not the whole truth.\n\nYou write: “We know you were trying to help Shinx. We have not come to take away his warmth. We want to find a safer answer together.”\n\nMira reads over your shoulder. “I should have written something like that long ago,” she says.\n\nWhen the letter goes up, there is silence in the speaking tube. Then a small voice: “Thank you for asking first.”",
-    "nb": "På arbeidsbordet ligger et blankt ark. Du tenker på brevet du fant, på teppene rundt Shinx og på Lumis redde stemme gjennom døren.\n\nDu begynner å skrive, men stopper. Det første du har lyst til å si, er at hun tok lyset fra hele dalen. Det er sant. Likevel er det ikke hele sannheten.\n\nDu skriver: «Vi vet at du prøvde å hjelpe Shinx. Vi kommer ikke for å ta fra ham varmen. Vi vil finne en tryggere løsning sammen.»\n\nMira leser over skulderen din. «Jeg skulle ha skrevet noe slikt for lenge siden», sier hun.\n\nNår brevet blir sendt opp, hører du stillhet i talerøret. Så en lav stemme: «Takk for at dere spør først.»",
+    "en": "A blank sheet lies on the supply table. You think of the letter from the tower: “The light needs to stay here a little longer. Please.” You remember the drawing of Shinx with another blanket, and then another.\n\nYour first thought is to tell Lumi that she has taken the light from the whole valley. It would be true. But it would not tell her what you intend to do now.\n\nYou write: “We know you were trying to protect Shinx. We haven't come to take away his warmth. We want to find a safer answer together, and we want to hear what he wants.”\n\nMira reads the letter over your shoulder. “I wish I'd asked for help sooner,” she says.\n\nYou fold the paper. The little mail basket waits beside the waterwheel. You don't know whether Lumi will answer.",
+    "nb": "På forsyningsbordet ligger et blankt ark. Du tenker på brevet fra tårnet: «Lyset må bli her litt til. Vær så snill.» Du husker tegningen av Shinx med enda et teppe rundt seg. Og så enda et.\n\nFørst har du lyst til å skrive at Lumi har tatt lyset fra hele dalen. Det er sant. Men det sier ingenting om hva dere vil gjøre nå.\n\nDu skriver: «Vi vet at du prøvde å beskytte Shinx. Vi kommer ikke for å ta fra ham varmen. Vi vil finne en tryggere løsning sammen, og vi vil høre hva han selv ønsker.»\n\nMira leser brevet over skulderen din. «Jeg skulle ønske jeg hadde bedt om hjelp tidligere», sier hun.\n\nDu bretter sammen arket. Den lille postkurven venter ved vannhjulet. Du vet ikke om Lumi vil svare.",
     "choices": [
       {
         "id": "Q_RECONCILE.1",
@@ -1338,7 +1347,9 @@
           "compassionate_letter",
           "moon_kindness"
         ],
-        "get": []
+        "get": [],
+        "response": "You place the letter in the basket. The wheel turns, the cable tightens, and the basket disappears toward the tower. For a while, the speaking tube is silent. Then Lumi's voice comes through, barely louder than a whisper.\n\n“Thank you for asking first. I ... I want to listen.”",
+        "nbResponse": "Du legger brevet i kurven. Hjulet dreier, vaieren strammes, og kurven forsvinner opp mot tårnet. En stund er talerøret stille. Så høres Lumis stemme, nesten bare som en hvisking.\n\n«Takk for at dere spør først. Jeg ... jeg vil gjerne høre.»"
       }
     ]
   },
@@ -1347,8 +1358,8 @@
     "title": "The Hidden Archive Page",
     "nbTitle": "Arkivets skjulte side",
     "chapter": 4,
-    "en": "You hold the crescent lens over the old booklet. At first you see only dust and cracked leather. Then thin silver lines appear between the letters.\n\n“So that's why the map didn't fit,” you whisper. The lines show no new route through the mountain, but a piece of the sky as it looked a hundred years ago.\n\nYou copy the pattern carefully. When you lift the lens, it vanishes again. Only your map remembers.",
-    "nb": "Du holder halvmånelinsen over det gamle heftet. Først ser du bare støv og sprukket skinn. Så trer tynne sølvstreker frem mellom bokstavene.\n\n«Det var derfor kartet ikke stemte», hvisker du. Strekene viser ikke en ny vei gjennom fjellet, men et stykke av himmelen slik den var for hundre år siden.\n\nDu tegner mønsteret nøye av. Når du løfter linsen, forsvinner det igjen. Nå er det bare kartet ditt som husker.",
+    "en": "You hold the crescent lens above the old booklet. At first you see only dust and cracked leather. Then fine silver lines emerge between the letters.\n\nThey do not look like a route across the mountain. They resemble a piece of the night sky as it appeared a hundred years ago. The marks grow faint whenever you move the lens.\n\nYour map is open beside the booklet. You have one chance to copy the lines before the light changes.",
+    "nb": "Du holder halvmånelinsen over det gamle heftet. Først ser du bare støv og sprukket skinn. Så kommer tynne sølvstreker til syne mellom bokstavene.\n\nDe ligner ikke en sti over fjellet. De ser ut som en liten bit av nattehimmelen slik den var for hundre år siden. Strekene blekner hver gang du flytter linsen.\n\nKartet ditt ligger åpent ved siden av heftet. Du har sjansen til å tegne av strekene før lyset forandrer seg.",
     "choices": [
       {
         "id": "Q_ARCHIVE.1",
@@ -1359,7 +1370,9 @@
         "set": [
           "map_fragment_2"
         ],
-        "get": []
+        "get": [],
+        "response": "You steady the lens with one hand and copy every silver line with the other. The last mark fades just as your pencil leaves the paper. You compare the two drawings: nothing is missing. You have kept the second piece of the star map.",
+        "nbResponse": "Du holder linsen stødig med den ene hånden og tegner av hver sølvstrek med den andre. Det siste merket blekner idet du løfter blyanten. Du sammenligner tegningene: Ingenting mangler. Du har bevart den andre delen av stjernekartet."
       }
     ]
   },
@@ -1635,8 +1648,8 @@
     "title": "The Secret Star-Map Puzzle",
     "nbTitle": "Den hemmelige kartgåten",
     "chapter": 4,
-    "en": "You place the drawings from the cup and archive beside the moon mark from the island. At first nothing fits. Then your partner nudges the map upside down with a paw.\n\n“Wait ...” You move the lens across the paper. The pieces show not three places but three moments: the last light before morning, the first shadow after evening, and the rare instant when they meet.\n\nThe silver seed answers with a faint pulse above the blank circle on Mira's map. Two great figures appear on opposite sides of a door. You remember the verse about light being shared. Perhaps this is a door that cannot be forced open.",
-    "nb": "Du legger tegningene fra koppen og arkivet ved siden av månetegnet fra øya. Først passer ingenting. Så snur partneren din kartet opp ned med poten.\n\n«Vent ...» Du trekker linsen over papiret. Delene viser ikke tre steder, men tre øyeblikk: det siste lyset før morgen, den første skyggen etter kveld og det sjeldne øyeblikket da de møtes.\n\nSølvfrøet svarer med et svakt blink over den tomme sirkelen på Miras kart. To store skikkelser blir synlige på hver sin side av en dør. Du husker verset om lys som blir delt. Kanskje dette er en dør som ikke åpnes med makt.",
+    "en": "You spread the drawing from the cup, the lines copied from the archive, and the moon mark from the island across Mira's map. Each piece has a different arrangement of stars. None fits where you first place it.\n\nYour partner nudges the edge of the map. The drawings slide, and for a moment two silver lines meet. Then they separate again.\n\nYou hold the crescent lens above the pieces. A pale circle appears in the empty space between them, but it fades before you can see what belongs there. The silver seed gives a single, quiet pulse.\n\nPerhaps the answer is not where the pieces were found, but how their patterns belong together. You still have to work out the order.",
+    "nb": "Du brer tegningen fra koppen, strekene fra arkivet og månetegnet fra øya utover Miras kart. Hver del viser stjerner i et eget mønster. Ingen av delene passer der du først legger dem.\n\nPartneren din dytter borti kartkanten. Tegningene sklir, og et øyeblikk møtes to sølvstreker. Så glir de fra hverandre igjen.\n\nDu holder halvmånelinsen over delene. En blek sirkel kommer til syne i det tomme feltet mellom dem, men forsvinner før du ser hva som hører hjemme der. Sølvfrøet gir ett stille blink.\n\nKanskje svaret ikke handler om hvor delene ble funnet, men hvordan mønstrene hører sammen. Rekkefølgen må du fortsatt finne ut selv.",
     "choices": [
       {
         "id": "Q_STAR.1",
@@ -1647,7 +1660,9 @@
         "set": [
           "secret_star_map"
         ],
-        "get": []
+        "get": [],
+        "response": "You turn the last piece until the silver lines meet. The drawings do not show three places after all, but three moments: the final light before morning, the first shadow of evening, and the rare instant when they overlap.\n\nThe crescent lens flashes. Above the empty circle, two enormous figures appear on opposite sides of a closed door. They do not push against it. They wait.\n\nYou remember the old verse about sharing light. You copy the completed pattern onto your map. Whatever this door guards, you now know how to recognize its sign.",
+        "nbResponse": "Du snur den siste delen til sølvstrekene møtes. Tegningene viser likevel ikke tre steder, men tre øyeblikk: det siste lyset før morgen, den første skyggen om kvelden og det sjeldne øyeblikket da de møtes.\n\nHalvmånelinsen blinker. Over den tomme sirkelen dukker to enorme skikkelser opp på hver sin side av en lukket dør. De presser ikke mot den. De venter.\n\nDu husker det gamle verset om å dele lyset. Så tegner du det fullførte mønsteret inn på kartet ditt. Uansett hva døren vokter, vet du nå hvordan du skal kjenne igjen tegnet."
       }
     ]
   },
