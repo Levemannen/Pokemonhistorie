@@ -91,7 +91,6 @@ export function storyText(s:State):string{
  text=conditionalText(s,text).replace(/\{starter\}/g,s.starter).replace(/\*\*([^*]+)\*\*/g,'$1');
  const isNb=getLanguage()==='nb';
  if(s.scene==='Q_RETURN')text+='\n\n'+(Number(s.world!.flags.return_visits||0)>2?(isNb?'Flere frivillige bærer nå lykter langs stien. Tårnklokken slår igjen.':'More volunteers now carry lanterns along the path. The tower bell rings again.'):(isNb?'Blomstenes lys er svakere nå. Dere følger de trygge merkene sammen.':'The flowers glow more faintly now. Together you follow the safe trail markers.'));
- if(s.scene==='S09'&&has(s,'tree_hint'))text+='\n\n'+(isNb?'Partneren din peker mot stien bak dere. «Tenk på dem som ikke kunne følge oss.»':'Your partner points toward the path behind you. “Think of those who could not come with us.”');
  if(s.world!.lastChoiceId?.startsWith('Q_PREP.')){const choice=s.world!.lastChoiceId!;const index=Number(choice.split('.')[1]);if(index<=4)text=(isNb?'Dere har prøvd løsningen. Den er klar til å vises til Shinx.':'You have tested the plan. It is ready to show Shinx.')+'\n\n'+text;}
  return authoredText(text);
 }
