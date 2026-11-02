@@ -39,6 +39,7 @@ try{
     assert.equal((await target.innerText()).trim(),language==='nb'?v3.choicesById[h.choiceId!].nb:v3.choicesById[h.choiceId!].label);
     const next=v3.advance(s,v3.available(s).find(c=>c.id===h.choiceId)!);await target.click();await page.waitForFunction((id:string)=>JSON.parse(localStorage.getItem('starlight-story-v1')||'{}').world?.lastChoiceId===id,h.choiceId);
     assert.equal((await stateOf(page)).scene,next.scene);pages++;
+    if(v3.resultText(next)){assert.equal(norm(await page.locator(".choice-result .story-text").innerText()),norm(v3.resultText(next)));await page.locator(".continue-story").click();}
     if(h.scene==='S12'){const before=await stateOf(page);await page.reload();await page.locator('.story-text').waitFor();assert.deepEqual((await stateOf(page)).world,before.world);}
    }
    await page.locator('.ending-card').waitFor();assert.equal((await stateOf(page)).scene,route.scene);
@@ -49,7 +50,7 @@ try{
  }
  // Every authored scene at the narrowest supported width, independently in both languages.
  for(const language of ['en','nb'] as const){const ctx=await browser.newContext({viewport:{width:320,height:900},serviceWorkers:'block'});const page=await ctx.newPage();page.on('pageerror',(e:Error)=>errors.push(e.message));await page.goto('http://127.0.0.1:4173/');
- for(const s of fixtures){await page.evaluate((v:State)=>{localStorage.setItem('starlight-story-v1',JSON.stringify(v));localStorage.setItem('starlight-language',v.language!);}, {...s,language,journeyId:'fixture'});await page.reload();await page.locator('.page-body h2').waitFor();assert(await page.evaluate(()=>document.documentElement.scrollWidth<=innerWidth+1),s.scene);await page.locator('.illustration .scene-art-base').evaluate((i:HTMLImageElement)=>i.decode());pages++;}
+ for(const s of fixtures){await page.evaluate((v:State)=>{localStorage.setItem('starlight-story-v1',JSON.stringify(v));localStorage.setItem('starlight-language',v.language!);}, {...s,language,journeyId:'fixture'});await page.reload();await page.locator('.page-body h2').waitFor();if(language==='nb')assert(!/Willowbrook|Moonwood|Starfall/i.test(await page.locator('.story-text').first().innerText()),s.scene);assert(await page.evaluate(()=>document.documentElement.scrollWidth<=innerWidth+1),s.scene);await page.locator('.illustration .scene-art-base').evaluate((i:HTMLImageElement)=>i.decode());pages++;}
  await ctx.close();}
 }finally{await browser.close();writeFileSync('docs/browser-qa/v3/report.json',JSON.stringify({journeys,pages,errors,failures,languages:['en','nb'],widths:[320,375,820,1280]},null,2));}
 assert.deepEqual(errors,[]);assert.deepEqual(failures,[]);assert.equal(journeys,44);console.log(`PASS: ${journeys} browser journeys, ${pages} pages, both languages.`);

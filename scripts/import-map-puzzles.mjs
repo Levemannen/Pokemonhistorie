@@ -41,6 +41,7 @@ const markers=source.split('\n').filter(line=>line.startsWith('| ')&&line.includ
  return {flags:[...cells[1].matchAll(/`([^\x60]+)`/g)].map(m=>m[1]),nb:pair[1],en:pair[2]};
 });
 assert.equal(markers.length,8);
+assert(!fs.existsSync('src/tree-hints.json'),'Historical importer only supports the unpatched 3.0.6 manuscript.');
 fs.writeFileSync('src/optional-puzzles.json',JSON.stringify(puzzles,null,2)+'\n');
 fs.writeFileSync('src/map-markers.json',JSON.stringify(markers,null,2)+'\n');
 console.log('Verified existing 3.0.6 patch. Extracted four bilingual puzzles and eight marker descriptions verbatim.');

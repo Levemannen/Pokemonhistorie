@@ -15,7 +15,7 @@ const variants:Record<string,string>={
  'earth-lanterns':'The traveler holds the seed above a balcony overlooking floating river lanterns','earth-garden':'A green thread of light connects the balcony planter to the forest','endGarden-reeds':'The traveler plants star reeds beside Lumi and Shinx on Psyduck’s lantern-lit riverbank'
 };
 export function illustrationAlt(state:State,path:string):string{
- const scene=v3.find(x=>x.id===state.scene);
+ const scene=v3.find(x=>x.id===state.scene.replace(/^F_/,'E_'));
  if(scene)return authoredText(getLanguage()==='nb'?'Illustrasjon: '+scene.nbTitle:'Illustration: '+scene.title);
  const key=path.split('/').at(-1)!.replace(/\.\w+$/,'');
  if(state.scene==='ridge'&&path.endsWith('.svg'))return `A rocky ridge above the forest, with ${state.starter}.`;

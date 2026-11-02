@@ -124,7 +124,7 @@
     "flag": "puzzle_gastly_solved",
     "nb": {
       "button": "Undersøk de tre lyktene",
-      "opening": "Gastly fører deg til en hylle i hulen. Der står tre gamle lykter med hvert sitt glass: blått, rødt og gyllent. Bak hyllen rasler tørre røtter i trekken.\n\nPå veggen står det:\n\n*Blått lys danser når vinden går.*\n\n*Rødt lys varmer – men svir det det når.*\n\n*Gyllent lys hviler bak glass så klart.*\n\n*Velg det som lyser og lar røttene være spart.*\n\nGastly peker mot den mørke passasjen. Hvilken lykt vil du bruke for å undersøke den uten å skade røttene?",
+      "opening": "Gastly viser deg tre lykter på en steinhylle. Den blå har små åpninger rundt flammen. Den røde står uten beskyttende glass, og en tørr rot har fått et svidd merke like ved. Den gylne er lukket inne bak tykt, klart glass. Fra tunnelen blåser det en kald trekk.\n\nPå veggen står et vers:\n\n*Én danser når det blåser.*\n*Én etterlater spor.*\n*Én lar det gamle hvile,*\n*og viser hvor du bor.*\n\n«Gas?» spør Gastly. Hvilken lykt vil hjelpe dere å se uten å skade røttene?",
       "answers": [
         {
           "label": "Den blå lykten.",
@@ -143,8 +143,8 @@
         }
       ],
       "hints": [
-        "Du trenger et lys som holder seg rolig i trekk, og som ikke skader de tørre røttene.",
-        "Det blå lyset danser. Det røde er for varmt. Hvilket står stødig bak beskyttende glass?"
+        "Se både på trekken i tunnelen og de tørre røttene. En lykt må tåle begge deler.",
+        "Den røde har allerede svidd noe. Den blå får trekken rett inn på flammen. Hvilken skjermes av glass?"
       ],
       "success": "Du løfter den gylne lykten. Lyset er rolig bak glasset, og røttene rører seg ikke. For første gang ser du små bilder risset inn i huleveggen: folk som deler tepper og varme under en vinterstorm.\n\nGastly nikker så høytidelig at den nesten velter bakover i luften. «Gas-tly!» På Miras kart skriver du: *Gastlys hule – det rolige lyset viste veien.*",
       "leave": "Gastly gir deg god plass til å gå tilbake. «Gas», sier den vennlig. Gåten kan vente.",
@@ -152,7 +152,7 @@
     },
     "en": {
       "button": "Examine the three lanterns",
-      "opening": "Gastly leads you to a shelf in the cave. Three old lanterns sit there, with blue, red, and golden glass. Behind the shelf, dry roots rustle in the draught.\n\nWords on the wall read:\n\n*Blue light dances when the wild winds blow.*\n\n*Red light burns the roots that grow.*\n\n*Gold shines steady, safe behind glass.*\n\n*Choose the light that lets you pass.*\n\nGastly points into the dark passage. Which lantern will let you explore without harming the roots?",
+      "opening": "Gastly shows you three lanterns on a stone shelf. The blue one has little openings around its flame. The red one has no protective glass, and a dry root nearby bears a scorch mark. The golden lantern has thick, clear glass around its light. A cold draught blows through the tunnel.\n\nA verse is carved into the wall:\n\n*One dances when winds blow.*\n*One leaves a mark behind.*\n*One lets old roots lie sleeping,*\n*and lights the path you find.*\n\n“Gas?” asks Gastly. Which lantern will help you see without harming the roots?",
       "answers": [
         {
           "label": "The blue lantern.",
@@ -171,8 +171,8 @@
         }
       ],
       "hints": [
-        "You need a light that stays steady in a draught and does not harm dry roots.",
-        "Blue flickers. Red is too hot. Which one shines steadily behind protective glass?"
+        "Think about both the draught and the dry roots. Your lantern must be safe for both.",
+        "The red lantern has already scorched something. The blue flame is exposed to the wind. Which lantern is protected by glass?"
       ],
       "success": "You raise the golden lantern. Its light stays steady behind the glass, and the roots do not move. For the first time you can make out tiny carvings on the cave wall: people sharing blankets and warmth in a winter storm.\n\nGastly nods so solemnly that it almost tumbles backwards in mid-air. “Gas-tly!” On Mira's map, you write: *Gastly's cave – the steady light showed the way.*",
       "leave": "Gastly gives you room to walk back. “Gas,” it says kindly. The puzzle can wait.",
@@ -184,7 +184,7 @@
     "flag": "puzzle_starwheel_solved",
     "nb": {
       "button": "Undersøk det lille stjernehjulet",
-      "opening": "Under en glassklokke ligger et lite hjul av messing. Det har tre skyvbare symboler: sol, stjerne og måne. Ved siden av ligger en lapp med en håndskrevet gåte:\n\n*Først den som vekker den sovende dag.*\n\n*Så de små gnistene, langt der bak.*\n\n*Til sist den som vokter den mørke natt.*\n\n*Sett dem i orden, så åpnes min skatt.*\n\nDet er tre mulige rekkefølger. Hvilken passer med gåten?",
+      "opening": "Under en glassklokke ligger tre små messingskiver som kan skyves inn i en rad. De viser en sol, en stjerne og en måne. Ved siden av ligger en tegning av en vandrer som går hjemmefra ved soloppgang og kommer tilbake når månen har steget. Mellom de to bildene er det risset inn en mørk himmel med én lys prikk.\n\nPå baksiden av tegningen står det:\n\n*Jeg begynner når dagen våkner.*\n*Jeg stanser ved lyset langt borte.*\n*Jeg vender hjem når natten vokter.*\n\nI hvilken rekkefølge skal symbolene ligge for å følge vandrerens tur?",
       "answers": [
         {
           "label": "Sol – stjerne – måne.",
@@ -203,8 +203,8 @@
         }
       ],
       "hints": [
-        "Det første symbolet forbindes med dagen. Det siste vokter natten.",
-        "Solen først, månen sist. Hva skal stå imellom?"
+        "Tenk på reisen som begynnelse, et stopp underveis og hjemkomst.",
+        "Den første skiven viser soloppgangen. Den siste viser månen. Hva så vandreren imellom?"
       ],
       "success": "Messinghjulet klikker mykt. En bitte liten skuff glir ut, og inni ligger en stjerneformet papirbit. På den står det: *Selv et lite lys kan vise veien, hvis noen tar seg tid til å se.*\n\nDu legger ikke biten i lommen som en nødvendig nøkkel. I stedet tegner du mønsteret på Miras kart: en sol, en stjerne og en måne rundt en liten sirkel. Et nytt notat lyser opp: *Observatoriet – stjernehjulets hemmelighet.*",
       "leave": "Du lar glassklokken stå. Den lille gåten kan vente mens dere undersøker det som virkelig haster i tårnet.",
@@ -212,7 +212,7 @@
     },
     "en": {
       "button": "Examine the little star wheel",
-      "opening": "Under a glass dome lies a little brass wheel. It has three sliding symbols: sun, star, and moon. Beside it is a handwritten riddle:\n\n*First comes the one that wakes the day.*\n\n*Next, distant sparks that shine far away.*\n\n*Last comes the guardian of the night.*\n\n*Set them in order to find what is right.*\n\nThree orders are possible. Which one fits the riddle?",
+      "opening": "Beneath a glass dome lie three little brass discs that slide into a row: a sun, a star and a moon. Beside them is a drawing of a traveller leaving home at sunrise and returning when the moon has risen. Between the two pictures is a dark sky with a single bright point.\n\nOn the back of the drawing someone has written:\n\n*I begin when day awakens.*\n*I stop beside a distant light.*\n*I come back when the moon is watching.*\n\nIn what order should the symbols go to follow the traveller’s journey?",
       "answers": [
         {
           "label": "Sun – star – moon.",
@@ -231,8 +231,8 @@
         }
       ],
       "hints": [
-        "The first symbol belongs to the day. The last guards the night.",
-        "Sun first, moon last. What belongs in the middle?"
+        "Think of the journey as a beginning, a stop along the way and a return.",
+        "The first disc is sunrise. The last is the moon. What did the traveller see between them?"
       ],
       "success": "The brass wheel clicks softly. A tiny drawer slides open. Inside lies a star-shaped scrap of paper. It reads: *Even a little light can show the way, if someone takes the time to look.*\n\nYou do not pocket it as an essential key. Instead, you copy the design onto Mira's map: a sun, a star, and a moon around a small circle. A new note glows into view: *Observatory – secret of the star wheel.*",
       "leave": "You leave the glass dome where it stands. The little riddle can wait while you investigate what matters most in the tower.",

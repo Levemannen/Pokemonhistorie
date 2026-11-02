@@ -21,6 +21,27 @@ try{
    await page.reload();await page.locator('.story-text').first().waitFor();
   }
   const saved=()=>page.evaluate(()=>JSON.parse(localStorage.getItem('starlight-story-v1')!) as State);
+  for(const id of ['S08.1','S08.2','S08.3']){
+   await load('S08');const initial=await saved();
+   await page.locator('[data-choice-id="'+id+'"]').tap();
+   const result=page.locator('.choice-result');await result.waitFor();
+   assert.equal((await saved()).history.length,initial.history.length+1);
+   await page.reload();await result.waitFor();
+   const original=await result.innerText();const other=language==='nb'?'en':'nb';
+   await page.locator('.language-picker [lang="'+other+'"]').tap();assert.notEqual(await result.innerText(),original);
+   await page.locator('.language-picker [lang="'+language+'"]').tap();
+   assert.equal(await result.innerText(),original);await result.locator('.continue-story').tap();
+   const body=page.locator('.story-text').first(),question=await body.innerText(),hint=page.locator('[data-choice-id="S09.3"]');
+   for(const index of [1,2]){
+    await page.waitForFunction(()=>document.fonts.status==='loaded' && Array.from(document.querySelectorAll('.illustration img')).every(i=>(i as HTMLImageElement).complete));await page.waitForTimeout(120);await hint.scrollIntoViewIfNeeded();const top=await page.evaluate(()=>scrollY);await hint.tap();
+    assert.equal((await saved()).scene,'S09');assert.equal(await body.innerText(),question);
+    assert.equal((await saved()).history.length,initial.history.length+1);
+    await page.waitForFunction((n:number)=>JSON.parse(localStorage.getItem('starlight-story-v1')!).flags.includes('tree-hint:'+n),index,{timeout:3000});
+    assert(Math.abs(await page.evaluate(()=>scrollY)-top)<4,'Hint scrolled the page');
+    await page.reload();await hint.waitFor();
+   }
+   assert(await hint.isDisabled());
+  }
   await load('S04');
   const before=await saved();
   const mapButton=page.getByRole('button',{name:mapCopy.open[language],exact:true}).first();

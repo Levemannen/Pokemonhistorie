@@ -1,3 +1,5 @@
+import {choicesById,selectStoryChoice,resultText} from './edition3';
+import treeHints from './tree-hints.json';
 import { t } from './i18n';
 import {AppInstall} from './AppInstall';
 import {chapters as legacyChapters} from './legacyStory';
@@ -69,8 +71,8 @@ export default function App() {
     const heading = useRef<HTMLHeadingElement>(null), returnFocus = useRef<HTMLElement | null>(null), utterance = useRef<SpeechSynthesisUtterance | null>(null);
     const mapLabel=game?.world?.edition==='3'?authoredText(mapCopy.title[language]):t(titles.map);
     const chapterTitles=game&&!game.world?legacyChapters:chapters;
-    const scene = game ? byId[game.scene] : null;
-    const text = scene && game ? game.world?storyText(scene,game):translate(storyText(scene, game), language) : '';
+    const scene = game ? byId[(game.pendingResult && game.history[game.history.length-1]?.scene) || game.scene] : null;
+    const text = scene && game ? game.pendingResult?resultText(game):game.world?storyText(scene,game):translate(storyText(scene, game), language) : '';
     function changeLanguage(next: Language) { stopSpeech(); setLanguage(next); setLocale(next); try {
         localStorage.setItem('starlight-language', next);
     }
@@ -143,7 +145,7 @@ export default function App() {
     useEffect(() => {
         if (game) {
             persist(keys.game, game);
-            if (byId[game.scene].ending) {
+            if (!game.pendingResult && byId[game.scene].ending) {
                 setBooks(previous => archiveJourney(previous, game, new Date().toISOString()));
                 setCollected(previous => previous.includes(endingKey(game)) ? previous : [...previous, endingKey(game)]);
             }
@@ -203,6 +205,15 @@ export default function App() {
         document.addEventListener('keydown', trap);
         return () => document.removeEventListener('keydown', trap);
     }, [panel, restart]);
+    function chooseStory(choice: Parameters<typeof advance>[1]) {
+        if (!game || game.pendingResult) return;
+        if (game.world?.edition !== '3') return move(advance(game, choice));
+        if (choice.id === 'S09.3') {
+            setGame(previous => previous === game ? selectStoryChoice(game, choice) : previous);
+            return;
+        }
+        move(selectStoryChoice(game, choice));
+    }
     function move(next: State) { setGame({...next,language}); setTimeout(() => { heading.current?.focus(); heading.current?.scrollIntoView({ behavior: window.matchMedia('(prefers-reduced-motion: reduce)').matches ? 'instant' : 'smooth', block: 'center' }); }, 30); }
     function forkJourney(index: number) {
         if (!game || originalJourney)
@@ -293,16 +304,25 @@ export default function App() {
        <div className="page-label">{t("PROLOGUE \u00B7 WILLOWBROOK")}</div><h2 ref={heading} tabIndex={-1}>{t("The stars have gone missing.")}</h2><p className="story-text">{t("The festival lanterns are glowing. The sky is strangely quiet. Somewhere beyond the forest, a secret is waiting \u2014 and you don\u2019t have to find it alone.")}</p>
        <div className="choose-label">{t("Choose your first companion")}<span>{t("Who will walk beside you?")}</span></div><div className="starter-grid">{t((['Bulbasaur', 'Charmander', 'Squirtle'] as Starter[]).map(name => <button key={name} aria-pressed={starter === name} className={`starter ${name.toLowerCase()} ${starter === name ? 'selected' : ''}`} onClick={() => setStarter(name)}><img className="starter-portrait" src={url(`images/starters/${name.toLowerCase()}.jpg`)} alt="" width={88} height={88} /><strong>{t(name)}</strong><small>{t(name === 'Bulbasaur' ? 'Gentle & resourceful' : name === 'Charmander' ? 'Warm & courageous' : 'Curious & dependable')}</small><span className="starter-type">{t(name === 'Bulbasaur' ? 'GRASS · POISON' : name === 'Charmander' ? 'FIRE' : 'WATER')}</span></button>))}</div>
        <button className="begin" onClick={() => move({ ...initial(starter), language, journeyId: journeyId(), acknowledgedChapters: [1] })}>{t("Begin with ")}{t(starter)}<span>{t("\u2192")}</span></button><p className="local-note">{t("No sign-up. No cost. Just you, your friend, and a little starlight.")}</p>
-      </> : <>
+      </> : game.pendingResult ? (
+       <section className="choice-result">
+        <div className="page-label">{language==="nb"?"Dette skjedde":"What happened"}</div>
+        <h2 ref={heading} tabIndex={-1}>{sceneTitle({...game,scene:scene!.id})}</h2>
+        <ReadableText knownWords={words.map(w => w.word)} text={text} activeSentence={activeSentence} speak={word => speak(word, .65)} speechAvailable={'speechSynthesis' in window} onExplore={word => setWords(previous => learnWord(previous, word, game, new Date().toISOString()))}/>
+        <button className="small-action" disabled={!('speechSynthesis' in window)} onClick={()=>narrating?stopSpeech():speak(text,pace,true)}>{t(narrating?"◼ Stop reading":"▷ Read to me")}</button>
+        <button className="begin continue-story" onClick={()=>move({...game,pendingResult:undefined})}>{language==="nb"?"Fortsett":"Continue"}</button>
+       </section>
+      ) : <>
        <div className="reading-toolbar"><span className="page-label">{t(scene!.ending ? 'YOUR STORY’S ENDING' : `CHAPTER ${scene!.chapter} · ${scene!.setting.toUpperCase()}`)}</span><label className="pace-control">{t("Reading pace")}<select aria-label={t("Reading pace")} value={pace} onChange={event => { setPace(Number(event.target.value)); stopSpeech(); }}><option value={1}>{t("Normal")}</option><option value={.8}>{t("Gentle")}</option><option value={.65}>{t("Extra slow")}</option></select></label><button disabled={!('speechSynthesis' in window)} aria-pressed={narrating} onClick={() => narrating ? stopSpeech() : speak(text, pace, true)}>{t(narrating ? '◼ Stop reading' : '▷ Read to me')}</button></div>
        <h2 ref={heading} tabIndex={-1}>{t(sceneTitle(game))}</h2>{t(speechMessage && <p className="speech-message" role="status">{t(speechMessage)}</p>)}
        <ReadableText knownWords={words.map(w => w.word)} text={text} activeSentence={activeSentence} speak={word => speak(word, .65)} speechAvailable={'speechSynthesis' in window} onExplore={word => setWords(previous => learnWord(previous, word, game, new Date().toISOString()))}/>
+       {game.scene==="S09" && <div aria-live="polite">{game.flags.includes("tree-hint:1") && <p>{choicesById["S09.3"][language==="nb"?"nbResponse":"response"]}</p>}{treeHints[language].map((hint,i)=>game.flags.includes("tree-hint:"+(i+1)) && <p className="choice-translation" key={i}>{hint}</p>)}</div>}
        <MapDiscoveryNotice game={game} onChange={setGame}/>
        {hasMiraMap(game)&&<button className="small-action" onClick={()=>openPanel('map')}>{authoredText(mapCopy.open[language])}</button>}
        <OptionalPuzzle key={game.journeyId+game.scene} game={game} onChange={setGame}/>
        <StoryExtras key={`extras-${game.scene}`} game={game} text={text} speak={speak}/>
        {t(!scene!.ending && <PuzzleCard key={`puzzle-${game.scene}`} game={game} onChange={setGame}/>)}
-       {t(scene!.ending ? <div className="ending-card"><span>{t("\u2726 ENDING DISCOVERED")}</span><h3>{t(scene!.ending)}</h3><p>{t(companionLine(game))}</p><EndingMemories game={game} imageFor={imageFor} renderArtwork={renderArtwork}/><FriendEpilogues game={game}/><button className="small-action" onClick={() => downloadJourney(game)}>{t("Download my finished story")}</button><p>{t("Your journey: ")}{t(game.companions.length)}{t(" new ")}{t(game.companions.length === 1 ? 'friend' : 'friends')}{t(" \u00B7 ")}{t(game.history.length)}{t(" decisions")}</p><button className="small-action" onClick={() => openPanel('library')}>{t("\u25A4 Read your finished books")}</button><button className="begin" onClick={openRestart}>{t("Discover another story")}<span>{t("\u21BB")}</span></button><button className="text-button" onClick={() => openPanel('history')}>{t("Read your journey again")}</button></div> : <><div className="choice-heading"><span>{t("What will you do?")}</span><small>{t("Every choice leaves a little light.")}</small></div><StoryChoices key={game.scene} game={game} onChoose={choice => move(advance(game, choice))} speak={content => speak(content, .8)} speechAvailable={'speechSynthesis' in window}/></>)}
+       {t(scene!.ending ? <div className="ending-card"><span>{t("\u2726 ENDING DISCOVERED")}</span><h3>{t(scene!.ending)}</h3><p>{t(companionLine(game))}</p><EndingMemories game={game} imageFor={imageFor} renderArtwork={renderArtwork}/><FriendEpilogues game={game}/><button className="small-action" onClick={() => downloadJourney(game)}>{t("Download my finished story")}</button><p>{t("Your journey: ")}{t(game.companions.length)}{t(" new ")}{t(game.companions.length === 1 ? 'friend' : 'friends')}{t(" \u00B7 ")}{t(game.history.length)}{t(" decisions")}</p><button className="small-action" onClick={() => openPanel('library')}>{t("\u25A4 Read your finished books")}</button><button className="begin" onClick={openRestart}>{t("Discover another story")}<span>{t("\u21BB")}</span></button><button className="text-button" onClick={() => openPanel('history')}>{t("Read your journey again")}</button></div> : <><div className="choice-heading"><span>{t("What will you do?")}</span><small>{t("Every choice leaves a little light.")}</small></div><StoryChoices key={game.scene} game={game} onChoose={chooseStory} speak={content => speak(content, .8)} speechAvailable={'speechSynthesis' in window}/></>)}
       </>)}
      </div>
     </article>

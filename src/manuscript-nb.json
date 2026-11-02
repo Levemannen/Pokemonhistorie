@@ -26,7 +26,7 @@
   },
   "square": {
     "title": "Mira og den manglende kartbiten",
-    "body": "Under festteltet bretter Mira ut et kart. Moonwood, Lumen-elven, fjellstien – og et pent hull der Starfall-tårnet skulle vært. «Jeg klippet det bort etter at noen skadet seg der oppe», innrømmer hun. «Jeg trodde alle ville være trygge hvis de holdt seg unna.» En Eevee skjelver under stolen hennes. Du setter deg på huk i nærheten mens Mira legger et kart og et ekstra ullskjerf i sekken din.\n\n«Stjernelysglasset samler lys til lyktene og varmeovnene i tårnet», sier Mira. «Stjernene er der ennå. Det er lyset deres som ikke når fram til oss. Frøet ber om hjelp.» Hun tegner inn tårnet på kartet ditt og fester en liten frøpose til beltet ditt. «Følg skinnet. Jeg sender tepper og mat opp forsyningsstien og holder en lykt tent her, så vi kan sende signaler. Snu hvis stien kjennes utrygg.»",
+    "body": "Under festteltet bretter Mira ut et kart. Måneskogen, Lumen-elven, fjellstien – og et pent hull der Stjernefallstårnet skulle vært. «Jeg klippet det bort etter at noen skadet seg der oppe», innrømmer hun. «Jeg trodde alle ville være trygge hvis de holdt seg unna.» En Eevee skjelver under stolen hennes. Du setter deg på huk i nærheten mens Mira legger et kart og et ekstra ullskjerf i sekken din.\n\n«Stjernelysglasset samler lys til lyktene og varmeovnene i tårnet», sier Mira. «Stjernene er der ennå. Det er lyset deres som ikke når fram til oss. Frøet ber om hjelp.» Hun tegner inn tårnet på kartet ditt og fester en liten frøpose til beltet ditt. «Følg skinnet. Jeg sender tepper og mat opp forsyningsstien og holder en lykt tent her, så vi kan sende signaler. Snu hvis stien kjennes utrygg.»",
     "choices": {
       "square.1": {
         "label": "Spør hvem som bor i tårnet",
@@ -46,7 +46,7 @@
       }
     },
     "passages": {
-      "body": "Under festteltet bretter Mira ut et kart. Moonwood, Lumen-elven, fjellstien – og et pent hull der Starfall-tårnet skulle vært. «Jeg klippet det bort etter at noen skadet seg der oppe», innrømmer hun. «Jeg trodde alle ville være trygge hvis de holdt seg unna.» En Eevee skjelver under stolen hennes. Du setter deg på huk i nærheten mens Mira legger et kart og et ekstra ullskjerf i sekken din.",
+      "body": "Under festteltet bretter Mira ut et kart. Måneskogen, Lumen-elven, fjellstien – og et pent hull der Stjernefallstårnet skulle vært. «Jeg klippet det bort etter at noen skadet seg der oppe», innrømmer hun. «Jeg trodde alle ville være trygge hvis de holdt seg unna.» En Eevee skjelver under stolen hennes. Du setter deg på huk i nærheten mens Mira legger et kart og et ekstra ullskjerf i sekken din.",
       "mission": "«Stjernelysglasset samler lys til lyktene og varmeovnene i tårnet», sier Mira. «Stjernene er der ennå. Det er lyset deres som ikke når fram til oss. Frøet ber om hjelp.» Hun tegner inn tårnet på kartet ditt og fester en liten frøpose til beltet ditt. «Følg skinnet. Jeg sender tepper og mat opp forsyningsstien og holder en lykt tent her, så vi kan sende signaler. Snu hvis stien kjennes utrygg.»"
     }
   },
@@ -77,8 +77,8 @@
     }
   },
   "gate": {
-    "title": "Fire veier inn i Moonwood",
-    "body": "Fire stier går fra landsbyporten. Røtter danner en bue over veien til lunden. Til høyre stiger en åsrygg, og til venstre snor en bekk seg av sted. Mellom dem lyser frøet opp en smal sti under trærne. Du børster gjørme av skiltet og sammenligner det med kartet. Et sted inne i Moonwood knekker en kvist.",
+    "title": "Fire veier inn i Måneskogen",
+    "body": "Fire stier går fra landsbyporten. Røtter danner en bue over veien til lunden. Til høyre stiger en åsrygg, og til venstre snor en bekk seg av sted. Mellom dem lyser frøet opp en smal sti under trærne. Du børster gjørme av skiltet og sammenligner det med kartet. Et sted inne i Måneskogen knekker en kvist.",
     "choices": {
       "gate.1": {
         "label": "Gå gjennom rotbuen",
@@ -104,7 +104,7 @@
       "variant-0": "Bulbasaur tilbyr å skyve røttene varsomt til side i stedet for å rive dem løs.",
       "variant-1": "Charmander ser etter tørre blader på stien før den lyser opp veien.",
       "variant-2": "Squirtle peker ut hvor bekken er grunn nok til å krysse.",
-      "body": "Fire stier går fra landsbyporten. Røtter danner en bue over veien til lunden. Til høyre stiger en åsrygg, og til venstre snor en bekk seg av sted. Mellom dem lyser frøet opp en smal sti under trærne. Du børster gjørme av skiltet og sammenligner det med kartet. Et sted inne i Moonwood knekker en kvist."
+      "body": "Fire stier går fra landsbyporten. Røtter danner en bue over veien til lunden. Til høyre stiger en åsrygg, og til venstre snor en bekk seg av sted. Mellom dem lyser frøet opp en smal sti under trærne. Du børster gjørme av skiltet og sammenligner det med kartet. Et sted inne i Måneskogen knekker en kvist."
     }
   },
   "ridge": {
@@ -155,7 +155,7 @@
     }
   },
   "grove": {
-    "title": "Moonwood holder pusten",
+    "title": "Måneskogen holder pusten",
     "body": "Sølvblank eføy knirker rundt en gammel lyktestolpe. Mellom stenglene strever en Pikachu med å få løs den ene poten. Når lykten din svinger nærmere, strammer eføyen seg. Du stopper med en gang. Bortenfor stolpen lyser sopper langs én sti, mens et digert tre brer røttene sine over en annen. Pikachu piper skarpt. Den prøver veldig hardt å ikke høres redd ut.",
     "choices": {
       "grove.1": {
@@ -498,7 +498,7 @@
   },
   "bridge": {
     "title": "Broen i vinden",
-    "body": "Stien fra øya stiger i nesten en time før du når en hengebro. På den andre siden av juvet ligger observatoriet inntil den nedre muren på Starfall-tårnet. Tårnrommet lyser over det. Broplankene er hele, men vinden får dem til å svaie. En annen sti slynger seg mot utkikkspunktet til Altaria. Langt under broen går en smal avløpstunnel gjennom fjellet.",
+    "body": "Stien fra øya stiger i nesten en time før du når en hengebro. På den andre siden av juvet ligger observatoriet inntil den nedre muren på Stjernefallstårnet. Tårnrommet lyser over det. Broplankene er hele, men vinden får dem til å svaie. En annen sti slynger seg mot utkikkspunktet til Altaria. Langt under broen går en smal avløpstunnel gjennom fjellet.",
     "choices": {
       "bridge.1": {
         "label": "Hold hengebroen stødig og kryss sammen",
@@ -518,7 +518,7 @@
       }
     },
     "passages": {
-      "body": "Stien fra øya stiger i nesten en time før du når en hengebro. På den andre siden av juvet ligger observatoriet inntil den nedre muren på Starfall-tårnet. Tårnrommet lyser over det. Broplankene er hele, men vinden får dem til å svaie. En annen sti slynger seg mot utkikkspunktet til Altaria. Langt under broen går en smal avløpstunnel gjennom fjellet.",
+      "body": "Stien fra øya stiger i nesten en time før du når en hengebro. På den andre siden av juvet ligger observatoriet inntil den nedre muren på Stjernefallstårnet. Tårnrommet lyser over det. Broplankene er hele, men vinden får dem til å svaie. En annen sti slynger seg mot utkikkspunktet til Altaria. Langt under broen går en smal avløpstunnel gjennom fjellet.",
       "copied-route": "De tre veiene stemmer med skissen fra hulen. Du snur kartet slik at juvet ligger riktig vei.",
       "spare-scarf": "Du tar Miras tykke reserveskjerf rundt halsen før du går ut i vinden."
     }
@@ -750,7 +750,7 @@
         "immediateText": "Du og Lumi bærer frøet ut i det voksende lyset ved plantekassen på balkongen."
       },
       "plan.4": {
-        "label": "Be Mira ordne hjelp fra Willowbrook før lyset slippes fri",
+        "label": "Be Mira ordne hjelp fra Pilebekk før lyset slippes fri",
         "immediateText": "Du blinker Miras festsignal fra tårnvinduet. Et klart svar kommer fra landsbyen."
       }
     },
@@ -826,12 +826,12 @@
     "body": "På den skjermede hagebalkongen setter Lumi en potte med jord under jordringen. Du senker sølvfrøet ned i den. En rot folder seg ut, så et stjerneformet blad, mykt som en ny bregne. Bladet varmer håndflaten din. «Den andre oppgaven», hvisker Lumi. «En nødnøkkel som kan vokse til en ny varmekilde.» Du setter potten ved bærekurven til Shinx. Han lener seg mot den. «Den kan få sitte ved meg.»\n\nDen lille planten kan holde Shinx varm mens Glasset tømmes. Potten kan reise ved siden av ham. Etterpå trenger den vann, sollys og noen som steller den. Lumi finner en blyant. «La oss skrive ned hvem som gjør hva.»",
     "choices": {
       "earth.1": {
-        "label": "Gjør planten klar til felleshagen i Willowbrook",
+        "label": "Gjør planten klar til felleshagen i Pilebekk",
         "immediateText": "Du legger potten i en polstret kurv ved Shinx. Mira svarer på signalet: Hun hjelper dere med å plante den i landsbyen i morgen."
       },
       "earth.2": {
         "label": "La Bulbasaur forme en levende kurv rundt planten",
-        "immediateText": "Bulbasaur leder den unge ranken rundt kanten på reisepotten. Potten sitter stødig ved Shinx, klar til turen til Willowbrook."
+        "immediateText": "Bulbasaur leder den unge ranken rundt kanten på reisepotten. Potten sitter stødig ved Shinx, klar til turen til Pilebekk."
       },
       "earth.3": {
         "label": "La den varme planten bli i tårnets hvilested",
@@ -844,7 +844,7 @@
     },
     "passages": {
       "body": "På den skjermede hagebalkongen setter Lumi en potte med jord under jordringen. Du senker sølvfrøet ned i den. En rot folder seg ut, så et stjerneformet blad, mykt som en ny bregne. Bladet varmer håndflaten din. «Den andre oppgaven», hvisker Lumi. «En nødnøkkel som kan vokse til en ny varmekilde.» Du setter potten ved bærekurven til Shinx. Han lener seg mot den. «Den kan få sitte ved meg.»",
-      "plain-seed": "Du tenker på det lille lønnefrøet i Moonwood. To svært forskjellige frø vil trenge noen som vanner dem.",
+      "plain-seed": "Du tenker på det lille lønnefrøet i Måneskogen. To svært forskjellige frø vil trenge noen som vanner dem.",
       "river-garden": "På kartet viser du Lumi lyktekanalen du laget med Psyduck. På bredden er det plass til en hage, nær vannet og fergevaktene.",
       "plant-care": "Den lille planten kan holde Shinx varm mens Glasset tømmes. Potten kan reise ved siden av ham. Etterpå trenger den vann, sollys og noen som steller den. Lumi finner en blyant. «La oss skrive ned hvem som gjør hva.»"
     }
@@ -923,7 +923,7 @@
     "passages": {
       "body": "Sølvbladet lyser jevnt ved Shinx. Lumi sjekker varmen en siste gang og åpner låsen. Stjernelyset når dalen igjen. Dere bærer Shinx og den polstrede potten ned sammen. En hjelper støtter bærekurven, og Lumi lyser opp stien.",
       "river-planting": "Neste morgen møter Mira dere ved Psyducks lyktekanal. Dere planter den lille sølvplanten på elvebredden, ovenfor flommerket. Fergevaktene sier ja til å stelle den. De grunne røttene drikker fra den fuktige jorden. Shinx hviler i lyet like ved mens poten gror.",
-      "village-planting": "Neste morgen planter du og Mira den lille sølvplanten i felleshagen i Willowbrook. Naboene bærer vann i små bøtter. Røttene blir i den myke hagejorden. Shinx hviler ved de varme bladene når han besøker hagen fra rommet sitt hos Mira.",
+      "village-planting": "Neste morgen planter du og Mira den lille sølvplanten i felleshagen i Pilebekk. Naboene bærer vann i små bøtter. Røttene blir i den myke hagejorden. Shinx hviler ved de varme bladene når han besøker hagen fra rommet sitt hos Mira.",
       "bulba-gardener": "Bulbasaur løsner jorden rundt røttene og klapper fornøyd på arbeidet sitt.",
       "charmander-gardener": "Charmander legger en ring av steiner rundt bedet. «Så ingen tråkker på planten», sier du.",
       "squirtle-gardener": "Squirtle vanner planten, skoene dine og ganske mye av Mira. «Grundig arbeid», sier hun og vrir opp ermet.",

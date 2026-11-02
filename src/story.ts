@@ -55,7 +55,11 @@ export function endingMemories(state:State){
  return important.map(h=>{const index=state.history.indexOf(h);const after=index+1<state.history.length?historicalState(state,index+1):state;return {scene:h.scene,title:byId[h.scene].title,choice:historyChoiceText(h.scene,h.choice,state.starter,h.choiceId),effect:edition.choiceResponse(after,h.choiceId||'')||h.choice};});
 }
 export const replayInvitation=(state:State)=>state.world?'Try a different starter: vines, careful warmth, and water each solve the observatory in a different way.':legacy.replayInvitation(state);
+export function historyResult(game:State,index:number):string{
+ if(!v3.isV3(game))return '';
+ return v3.resultText(index+1<game.history.length?historicalState(game,index+1):game);
+}
 export function historicalState(game:State,index:number):State{
  const h=game.history[index];if(!h)return game;
- return {...game,scene:h.scene,world:h.world?structuredClone(h.world):undefined,flags:[...h.flags||[]],companions:[...h.companions||[]],puzzles:{},history:game.history.slice(0,index)};
+ return {...game,pendingResult:undefined,scene:h.scene,world:h.world?structuredClone(h.world):undefined,flags:[...h.flags||[]],companions:[...h.companions||[]],puzzles:{},history:game.history.slice(0,index)};
 }

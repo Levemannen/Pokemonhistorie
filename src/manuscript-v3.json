@@ -5,7 +5,7 @@
     "nbTitle": "Lykten før mørket",
     "chapter": 1,
     "en": "Willowbrook smells of fresh buns and rain-soaked wood. Lanterns hang across the square, waiting for the first star. You have been trusted with the last lantern. Your new Pokémon partner stands close beside you.\n\n[IF starter_Bulbasaur] Bulbasaur brushes a leaf against your wrist. Perhaps it can tell that you are nervous.\n\n[IF starter_Charmander] Charmander tries to warm your match, nearly singeing its own nose, and looks very proud.\n\n[IF starter_Squirtle] Squirtle keeps watch over the water bucket beside the stage, ready for anything.\n\n“Remember,” says Mira, the old mapmaker, tucking a rolled map under her arm. “The first star is our signal. No racing ahead.”\n\nA small Eevee has climbed onto a crate beneath a paper lantern. It reaches up, stretches too far, and slips. One paw catches the edge of the crate. The lantern keeper is on the other side of the square. Eevee's paws are shaking.\n\nAbove the rooftops, the first star appears.\n\nYou have only a moment to decide what to do.",
-    "nb": "Willowbrook lukter nybakte boller og regnvått tre. Lykter henger over torget og venter på kveldens første stjerne. Du har fått ansvaret for å tenne den siste. Ved siden av deg står Pokémonen du nettopp har valgt som reisefølge.\n\n[IF starter_Bulbasaur] Bulbasaur stryker et blad mot håndleddet ditt. Kanskje den merker at du er spent.\n\n[IF starter_Charmander] Charmander prøver å varme fyrstikken din, er nær ved å svi seg på nesen og ser svært fornøyd ut.\n\n[IF starter_Squirtle] Squirtle holder øye med vannbøtten ved scenen, klar for alt.\n\n«Husk,» sier Mira, den gamle karttegneren, og stikker et sammenrullet kart under armen. «Den første stjernen er signalet. Ingen tjuvstarter.»\n\nEn liten Eevee har klatret opp på en kasse under en papirlykt. Den strekker seg for langt og sklir. Den ene poten får så vidt tak i kanten. Lyktansvarlig er på den andre siden av torget. Potene til Eevee skjelver.\n\nOver hustakene tennes kveldens første stjerne.\n\nDu har bare et øyeblikk på deg til å bestemme hva du skal gjøre.",
+    "nb": "Pilebekk lukter nybakte boller og regnvått tre. Lykter henger over torget og venter på kveldens første stjerne. Du har fått ansvaret for å tenne den siste. Ved siden av deg står Pokémonen du nettopp har valgt som reisefølge.\n\n[IF starter_Bulbasaur] Bulbasaur stryker et blad mot håndleddet ditt. Kanskje den merker at du er spent.\n\n[IF starter_Charmander] Charmander prøver å varme fyrstikken din, er nær ved å svi seg på nesen og ser svært fornøyd ut.\n\n[IF starter_Squirtle] Squirtle holder øye med vannbøtten ved scenen, klar for alt.\n\n«Husk,» sier Mira, den gamle karttegneren, og stikker et sammenrullet kart under armen. «Den første stjernen er signalet. Ingen tjuvstarter.»\n\nEn liten Eevee har klatret opp på en kasse under en papirlykt. Den strekker seg for langt og sklir. Den ene poten får så vidt tak i kanten. Lyktansvarlig er på den andre siden av torget. Potene til Eevee skjelver.\n\nOver hustakene tennes kveldens første stjerne.\n\nDu har bare et øyeblikk på deg til å bestemme hva du skal gjøre.",
     "choices": [
       {
         "id": "S01.1",
@@ -42,7 +42,7 @@
     "nbTitle": "Da stjernene forsvant",
     "chapter": 1,
     "en": "For one heartbeat, the square holds its breath. Then the bell in Starfall Tower rings, far up the mountain. It hasn't rung in years.\n\nThe lanterns turn a sickly blue. A tiny Pichu tangles itself in the stage ropes, and Eevee hides beneath a bench. On the hill, the night-blooming flowers close one by one.\n\n[IF kindness_eevee] Eevee spots you and creeps out from the bench. It remembers your hands.\n\n[IF town_lantern] The lantern keeper calls for everyone to move away from the ropes. The clear space you helped make is already useful.\n\n“The stars are gone!” cries someone.\n\n“No,” whispers Mira. She grips her rolled map so tightly that it bends. “They're still there. Their light isn't reaching us.”\n\nA silver streak splits the darkness and falls beyond the cobbled lane. It strikes the earth with a noise like breaking glass. Pichu cries out. Your partner turns its head toward the impact, then back toward the frightened Pokémon.\n\nThere isn't time to do both first.",
-    "nb": "I ett hjerteslag holder hele torget pusten. Så ringer klokken i Starfall-tårnet høyt oppe på fjellet. Den har ikke ringt på årevis.\n\nLyktene blir sykelig blå. En liten Pichu vikler seg inn i tauene ved scenen, og Eevee gjemmer seg under en benk. På høyden lukker de nattlysende blomstene seg, én etter én.\n\n[IF kindness_eevee] Eevee får øye på deg og våger seg frem fra benken. Den kjenner igjen hendene dine.\n\n[IF town_lantern] Lyktansvarlig roper at alle må holde seg unna tauene. Den åpne plassen du hjalp til med å lage, kommer allerede til nytte.\n\n«Stjernene er borte!» roper noen.\n\n«Nei,» hvisker Mira. Hun klemmer så hardt om kartet at papiret bøyer seg. «De er der fortsatt. Det er lyset deres som ikke når frem.»\n\nEn sølvstripe skjærer gjennom mørket og faller bak brosteinsgaten. Noe treffer bakken med et smell som knust glass. Pichu piper. Partneren din ser mot nedslaget, så tilbake på de redde Pokémonene.\n\nDu rekker ikke å gjøre begge deler først.",
+    "nb": "I ett hjerteslag holder hele torget pusten. Så ringer klokken i Stjernefallstårnet høyt oppe på fjellet. Den har ikke ringt på årevis.\n\nLyktene blir sykelig blå. En liten Pichu vikler seg inn i tauene ved scenen, og Eevee gjemmer seg under en benk. På høyden lukker de nattlysende blomstene seg, én etter én.\n\n[IF kindness_eevee] Eevee får øye på deg og våger seg frem fra benken. Den kjenner igjen hendene dine.\n\n[IF town_lantern] Lyktansvarlig roper at alle må holde seg unna tauene. Den åpne plassen du hjalp til med å lage, kommer allerede til nytte.\n\n«Stjernene er borte!» roper noen.\n\n«Nei,» hvisker Mira. Hun klemmer så hardt om kartet at papiret bøyer seg. «De er der fortsatt. Det er lyset deres som ikke når frem.»\n\nEn sølvstripe skjærer gjennom mørket og faller bak brosteinsgaten. Noe treffer bakken med et smell som knust glass. Pichu piper. Partneren din ser mot nedslaget, så tilbake på de redde Pokémonene.\n\nDu rekker ikke å gjøre begge deler først.",
     "choices": [
       {
         "id": "S02.1",
@@ -114,8 +114,8 @@
     "title": "The Hole in the Map",
     "nbTitle": "Kartet med hullet",
     "chapter": 1,
-    "en": "In the library, Mira unrolls her map across the table. There is a square hole where the mountain should be. Without a word, she takes a folded piece from her pocket and fits it into place. Starfall Tower appears. So does a path through Moonwood.\n\n[IF question_mira] “You promised to show me what you hid,” you remind her. Mira keeps her eyes on the map. “Yes. I did.”\n\n[IF seed_pattern] You point to the three circles you found on the seed. The same symbols are drawn in the map's corner. Mira touches them, then pulls her hand away.\n\n“Years ago, a child and a Pokémon were hurt on the tower stairs,” she says. “I warned people that the railing was loose. They postponed the repair. After the accident, I cut the route out of the map. I told myself I was keeping everyone safe.”\n\n“But then no one knew how to get help there,” you say.\n\n“No.” Mira smooths the torn edge. “I made the road disappear on paper. I couldn't make the danger disappear.”\n\nShe draws the missing route onto your map. By the river, a waterwheel powers a small mail basket that can reach the tower. Mira promises blankets, lanterns, warm stones and helpers. She will stay with the younger villagers and send the supplies after you.\n\n“Why should I trust you now?” you ask.\n\n“Don't decide because I said sorry,” Mira answers. “Decide by what I do next.”",
-    "nb": "På biblioteket ruller Mira ut kartet over bordet. Der fjellet skulle vært, er det et firkantet hull. Uten et ord trekker hun en brettet papirbit opp av lommen og legger den på plass. Starfall-tårnet kommer til syne. Det gjør også stien gjennom Moonwood.\n\n[IF question_mira] «Du lovet å vise meg hva du skjulte,» minner du henne på. Mira holder blikket festet på kartet. «Ja. Det gjorde jeg.»\n\n[IF seed_pattern] Du peker på de tre sirklene du fant på frøet. De samme tegnene er tegnet i hjørnet av kartet. Mira berører dem, men trekker hånden til seg igjen.\n\n«For flere år siden ble et barn og en Pokémon skadet i tårntrappen,» sier hun. «Jeg varslet om et løst rekkverk. Reparasjonen ble utsatt. Etter ulykken klippet jeg stien ut av kartet. Jeg sa til meg selv at det var for å beskytte alle.»\n\n«Men da visste ingen hvordan de skulle få hjelp der oppe,» sier du.\n\n«Nei.» Mira glatter ut den revne kanten. «Jeg fikk veien til å forsvinne fra papiret. Faren forsvant ikke.»\n\nHun tegner inn den manglende stien på kartet ditt. Ved elven driver et vannhjul en liten postkurv som kan nå tårnet. Mira lover tepper, lykter, varme steiner og hjelpere. Selv blir hun igjen hos de yngste i landsbyen, men sender forsyningene etter deg.\n\n«Hvorfor skal jeg stole på deg nå?» spør du.\n\n«Ikke bestem deg fordi jeg sa unnskyld,» svarer Mira. «Se heller på hva jeg gjør videre.»",
+    "en": "In the library, Mira unrolls the old map. A square has been cut from the place where the mountain should be. She takes a folded piece from her coat pocket and fits it into the gap. Starfall Tower appears, along with a narrow trail through Moonwood.\n\n[IF question_mira] “You promised to tell me what you were hiding,” you say. Mira smooths the paper with a hand that trembles a little. “Yes. I did.” [END]\n\n[IF seed_pattern] You show Mira the three marks on the silver seed. The same marks appear at the foot of the map. “Then we know the seed came from the tower,” she says. [END]\n\n“A few years ago, Shinx fell on the stairs up there,” Mira tells you. “Lumi tried to save him. I had warned people about a loose railing, but the repairs were delayed. After the accident, I cut the path from the map. I thought nobody could get hurt there if nobody could find the way.”\n\n“But that also made it harder to bring help,” you say.\n\nMira nods. “Yes. I was afraid someone else would fall. Instead, I made it harder to reach those who were already there.”\n\nShe marks the damaged stairs and the old cable basket by the river. “I will stay behind and gather helpers, lanterns and warm blankets. Do not assume a path is safe simply because it appears on a map.”\n\nShe lays down her pencil. “You can decide whether you trust me. But I will stop hiding the things you need to know.”",
+    "nb": "I biblioteket ruller Mira ut det gamle kartet. Der fjellet skulle vært, er det et firkantet hull. Hun tar en brettet kartbit opp av frakkelommen og legger den på plass. Stjernefallstårnet viser seg, med en smal sti gjennom Måneskogen.\n\n[IF question_mira] «Du lovet å fortelle hva du skjulte», sier du. Mira glatter ut kartbiten med en hånd som skjelver litt. «Ja. Det gjorde jeg.» [END]\n\n[IF seed_pattern] Du viser Mira de tre tegnene på sølvfrøet. De samme tegnene står nederst på kartet. «Da vet vi at frøet kommer fra tårnet», sier hun. [END]\n\n«For noen år siden falt Shinx i trappen der oppe», forteller Mira. «Lumi prøvde å redde ham. Jeg hadde varslet om et løst rekkverk, men reparasjonen ble utsatt. Etter ulykken klippet jeg stien ut av kartet. Jeg trodde ingen ville komme til skade hvis ingen fant veien.»\n\n«Men da ble det også vanskeligere å komme opp med hjelp», sier du.\n\nMira nikker. «Ja. Jeg var redd for at noen skulle gå i den samme fellen. I stedet gjorde jeg det vanskeligere å hjelpe dem som allerede var der.»\n\nHun tegner inn trappen som er ødelagt, og merker av den gamle kabelkurven ved elven. «Jeg blir igjen og samler hjelpere, lykter og varme tepper. Dere må ikke stole på at alt er trygt bare fordi det står på et kart.»\n\nHun legger blyanten fra seg. «Du bestemmer selv om du vil stole på meg. Men jeg skal slutte å skjule det du trenger å vite.»",
     "choices": [
       {
         "id": "S04.1",
@@ -151,29 +151,33 @@
     "nbTitle": "Den siste lykten",
     "chapter": 1,
     "en": "Before dawn, you stand on the hill above Willowbrook. The lights below are small and unsteady. Your partner walks so close that your shoulder brushes against its side from time to time.\n\n[IF kindness_eevee] Eevee appears on the path and places a little warm lantern in your hand, disappearing before you can thank it. [ELSE] You find a lantern Mira has hung on the fence with your name attached.\n\nMoonwood rises before you like a wall of silent trees. The silver seed gives one quick pulse inside your pocket.\n\n“We don't have to be brave all the time,” you tell your partner. “Just long enough for the next step.”\n\nTogether you pass beneath the branches.\n\n[IF mira_trust] You check the warning Mira drew on your map. She did not leave out the dangerous stairs this time.\n\n[IF mira_accountability] Beside the lantern is a note in Mira’s handwriting: “The upper stairs are unsafe. I have told the helpers too.” You fold it into your map.",
-    "nb": "Før daggry står du på høyden over Willowbrook. Lysene nedenfor er små og ustø. Partneren din går så tett ved siden av deg at skulderen din av og til treffer dens.\n\n [IF kindness_eevee] Eevee dukker opp ved stien. Den legger en varm, liten lykt i hånden din og forsvinner igjen før du får takket. [ELSE] Du finner en lykt Mira har hengt på gjerdet med navnet ditt på.\n\nI mørket foran dere stiger Moonwood som en vegg av stille trær. Sølvfrøet gir et kort pulsslag gjennom lommen.\n\n«Vi trenger ikke å være modige hele tiden,» sier du til partneren din. «Bare lenge nok til neste skritt.»\n\nDere går inn under greinene.\n\n[IF mira_trust] Du ser på advarselen Mira tegnet inn på kartet. Denne gangen har hun ikke utelatt den farlige trappen.\n\n[IF mira_accountability] Ved siden av lykten ligger en lapp fra Mira: «Den øverste trappen er farlig. Hjelperne har fått beskjed.» Du bretter lappen inn i kartet.",
+    "nb": "Før daggry står du på høyden over Pilebekk. Lysene nedenfor er små og ustø. Partneren din går så tett ved siden av deg at skulderen din av og til treffer dens.\n\n [IF kindness_eevee] Eevee dukker opp ved stien. Den legger en varm, liten lykt i hånden din og forsvinner igjen før du får takket. [ELSE] Du finner en lykt Mira har hengt på gjerdet med navnet ditt på.\n\nI mørket foran dere stiger Måneskogen som en vegg av stille trær. Sølvfrøet gir et kort pulsslag gjennom lommen.\n\n«Vi trenger ikke å være modige hele tiden,» sier du til partneren din. «Bare lenge nok til neste skritt.»\n\nDere går inn under greinene.\n\n[IF mira_trust] Du ser på advarselen Mira tegnet inn på kartet. Denne gangen har hun ikke utelatt den farlige trappen.\n\n[IF mira_accountability] Ved siden av lykten ligger en lapp fra Mira: «Den øverste trappen er farlig. Hjelperne har fått beskjed.» Du bretter lappen inn i kartet.",
     "choices": [
       {
         "id": "S05.1",
-        "label": "Follow the lantern-lit path",
-        "nb": "Følg stien med lykten",
+        "label": "Follow the lit path — safer but slower",
+        "nb": "Følg den opplyste stien – tryggere, men langsommere",
         "to": "S06",
         "when": "TRUE",
         "set": [
           "safe_entry"
         ],
-        "get": []
+        "get": [],
+        "nbResponse": "Du hever lykten. Stien kommer til syne ett steg av gangen. På en våt stein finner du et gammelt fotavtrykk som viser at noen har gått denne veien før dere. «Vi er ikke de første», hvisker du. Partneren din går nærmere deg.",
+        "response": "You raise the lantern. The path appears one step at a time. On a wet stone you notice an old footprint: someone has come this way before. “We aren’t the first,” you whisper. Your partner moves closer."
       },
       {
         "id": "S05.2",
-        "label": "Follow the seed's pulse",
-        "nb": "Følg sølvfrøets blinkende retning",
+        "label": "Follow the seed’s pulse — find the unknown shortcut",
+        "nb": "Følg sølvfrøets blink – finn den ukjente snarveien",
         "to": "S06",
         "when": "TRUE",
         "set": [
           "seed_guided"
         ],
-        "get": []
+        "get": [],
+        "nbResponse": "Sølvfrøet blinker mot en smal åpning mellom trærne. Dere følger det og finner et avrevet kartbånd i en busk. Stien er brattere enn lyktestien, men frøet trekker dere mot noe som venter lenger inne.",
+        "response": "The silver seed pulses toward a narrow gap in the trees. You follow it and find a torn strip of map caught in a bush. This trail is steeper than the lantern path, but the seed is pointing toward something deeper in the forest."
       }
     ]
   },
@@ -182,25 +186,27 @@
     "title": "The Forest Holds Its Breath",
     "nbTitle": "Skogen holder pusten",
     "chapter": 2,
-    "en": "Moonwood is usually full of sounds. Now it feels as if the forest is holding its breath. Mushrooms that normally glow blue are gray. Wind moves the leaves without making them rustle.\n\nThree stones surround a dried-up pool. Each bears a symbol: leaf, flame, and drop. Your partner touches the symbol that matches it. Light from the silver seed falls onto a fourth stone you hadn't noticed.\n\nA scrap of paper rests by a root: “The right path does not show itself to those who hurry past.”\n\nYou can take time to study the pattern, or follow the obvious path. Both lead onward, but only a careful search reveals one of the hidden signs of the sky.\n\nThe stones do not move on their own. Your partner waits beside you, ready to help, but leaves the decision to you.",
-    "nb": "Moonwood pleier å være full av lyder. Nå er det som om skogen holder pusten. Sopp som vanligvis gløder blått, er grå. Vinden beveger bladene uten å få dem til å rasle.\n\nTre steiner ligger rundt en uttørket dam. På hver stein er et symbol: blad, flamme og dråpe. Partneren din berører sitt eget symbol. Lyset fra sølvfrøet faller på en fjerde stein du ikke hadde sett.\n\nVed en rot ligger en liten papirbit: «Den rette veien vises ikke for den som løper forbi.»\n\nDu kan bruke tid på å undersøke mønsteret, eller følge den tydelige stien. Begge veiene fører videre, men bare den grundige undersøkelsen avslører et av de skjulte himmeltegnene.\n\nSteinene flytter seg ikke av seg selv. Partneren din venter ved siden av deg, klar til å hjelpe, men lar deg bestemme.",
+    "en": "Moonwood is usually full of sounds. Now it feels as if the forest is holding its breath. Mushrooms that normally glow blue are gray. Wind moves the leaves without making them rustle.\n\nThree stones surround a dried-up pool. Each bears a symbol: leaf, flame, and drop. Your partner touches the symbol that matches it. Light from the silver seed falls onto a fourth stone you hadn't noticed.\n\nA scrap of paper rests by a root: “The right path does not show itself to those who hurry past.”\n\nYou can take time to study the pattern, or follow the obvious path. Both lead onward, but only a careful search reveals one of the hidden signs of the sky.\n\n[IF safe_entry] You find an old lantern mark on a post. The lit path brought you safely to the stone circle, though it was not the shortest route. [END]\n\n[IF seed_guided] You arrive by a steep shortcut. The silver seed pulses quickly beside the stone circle, as though it recognises the place. [END]\n\nThe stones do not move on their own. Your partner waits beside you, ready to help, but leaves the decision to you.",
+    "nb": "Måneskogen pleier å være full av lyder. Nå er det som om skogen holder pusten. Sopp som vanligvis gløder blått, er grå. Vinden beveger bladene uten å få dem til å rasle.\n\nTre steiner ligger rundt en uttørket dam. På hver stein er et symbol: blad, flamme og dråpe. Partneren din berører sitt eget symbol. Lyset fra sølvfrøet faller på en fjerde stein du ikke hadde sett.\n\nVed en rot ligger en liten papirbit: «Den rette veien vises ikke for den som løper forbi.»\n\nDu kan bruke tid på å undersøke mønsteret, eller følge den tydelige stien. Begge veiene fører videre, men bare den grundige undersøkelsen avslører et av de skjulte himmeltegnene.\n\n[IF safe_entry] Du finner et gammelt lyktemerke på en stolpe. Den opplyste stien har ført dere trygt til steinringen, men den var ikke den korteste veien. [END]\n\n[IF seed_guided] Dere kommer inn fra en bratt snarvei. Sølvfrøet blinker raskt ved steinringen, som om det kjenner igjen stedet. [END]\n\nSteinene flytter seg ikke av seg selv. Partneren din venter ved siden av deg, klar til å hjelpe, men lar deg bestemme.",
     "choices": [
       {
         "id": "S06.1",
-        "label": "Study and arrange the stones in seasonal order",
-        "nb": "Undersøk steinene og sett symbolene i årstidens rekkefølge",
+        "label": "Solve the stone pattern and search for a hidden mark",
+        "nb": "Løs steinmønsteret og se etter et skjult tegn",
         "to": "S07",
         "when": "solved_S06",
         "set": [
           "moon_sig_1",
           "forest_clue"
         ],
-        "get": []
+        "get": [],
+        "nbResponse": "Du flytter steinene forsiktig, én om gangen. Når den siste legges på plass, glimter et lite månetegn i bunnen av dammen. Du tegner det på Miras kart. Partneren din lener hodet på skakke, som om den også vil huske mønsteret.",
+        "response": "You move the stones carefully, one by one. When the last one settles, a tiny moon mark gleams at the bottom of the pool. You copy it onto Mira’s map. Your partner tilts its head, as if trying to remember the pattern too."
       },
       {
         "id": "S06.2",
-        "label": "Take the broad path",
-        "nb": "Velg den brede stien",
+        "label": "Keep moving along the broad path",
+        "nb": "Fortsett raskt langs den brede stien",
         "to": "S07",
         "when": "TRUE",
         "set": [
@@ -270,13 +276,13 @@
     "title": "Hoothoot’s Home",
     "nbTitle": "Hoothoots hus",
     "chapter": 2,
-    "en": "A Hoothoot nest hangs crooked over a stream. A broken branch support bends whenever the wind rises. Inside are two polished stones and one small egg.\n\nHoothoot sits across the water, watching you with the expression of someone who has already decided you're going to do something foolish.\n\n“We can't just pull it down,” you say. “We need to make it safe first.”\n\nA gust lifts the nest. Hoothoot launches itself toward the egg, then stops: its weight could bring the whole branch down. It looks at you, no longer quite so certain you will do something foolish.",
-    "nb": "Et Hoothoot-rede henger skjevt over en bekk. Et knekt greinfeste gir etter hver gang vinden kommer. Inne i redet ligger to blanke steiner og et lite egg.\n\nHoothoot sitter på den andre siden og ser på deg med et ansikt som om det allerede har bestemt seg for at du kommer til å gjøre noe dumt.\n\n«Vi kan ikke bare dra det ned,» sier du. «Først må vi sikre det.»\n\nEt vindkast løfter redet. Hoothoot gjør seg klar til å kaste seg mot egget, men stanser: Vekten kan få hele greinen til å knekke. Den ser på deg, ikke fullt så sikker lenger på at du kommer til å gjøre noe dumt.",
+    "en": "A nest hangs crooked above the stream. Whenever the wind rises, the branch beneath it gives way. A small egg lies inside beside two polished stones. Hoothoot stands on the far bank, watching your every move.\n\nYour partner finds a forked branch among the roots. It might support the nest, but fixing it will take time. Farther up the forest path, you hear a hollow knock, as though someone is tapping on a tree trunk.\n\nHoothoot flies toward the nest but stops short of landing. Its weight could break the branch. It looks from the egg to you.\n\nYou can secure the nest and invite Hoothoot along, secure it and leave Hoothoot to guard the egg, or ask for directions and leave the nest for now. What will you do?",
+    "nb": "Et rede henger skjevt over bekken. Når vinden tar tak, gir greinen under redet etter. Inne i redet ligger et lite egg ved siden av to blanke steiner. Hoothoot står på den andre bredden og følger hver bevegelse du gjør.\n\nPartneren din finner en bøyd grein mellom røttene. Den kan kanskje brukes som støtte, men det tar tid å sette den fast. Lenger opp i skogen høres et hult dunk, som fra noen som banker mot en trestamme.\n\nHoothoot flyr mot redet, men stanser før den lander. Vekten kunne få greinen til å knekke. Den ser fra egget til deg.\n\nDu kan sikre redet og spørre om Hoothoot vil bli med, sikre redet og la den bli hos egget, eller be den vise vei uten å reparere redet. Hva vil du gjøre?",
     "choices": [
       {
         "id": "S08.1",
-        "label": "Secure nest and invite Hoothoot",
-        "nb": "Sikre redet og inviter Hoothoot",
+        "label": "Secure the nest and invite Hoothoot along",
+        "nb": "Sikre redet og spør Hoothoot om å følge dere",
         "to": "S09",
         "when": "TRUE",
         "set": [
@@ -285,13 +291,13 @@
           "moon_kindness"
         ],
         "get": [],
-        "response": "Using a flexible branch, some bark, and your partner's help, you build a fresh support. Hoothoot inspects the work with a solemn “Hoo.” Only when the egg is safe does it lower its wings.\n\n“You know these woods better than we do,” you say. “Would you like to come with us for a while?” Hoothoot blinks one eye, then the other.",
-        "nbResponse": "Med en myk gren, litt bark og partnerens hjelp lager dere et nytt feste. Hoothoot kontrollerer arbeidet med et alvorlig «Hoo». Først når egget er trygt, senker den vingene.\n\n«Du kjenner skogen bedre enn oss,» sier du. «Vil du følge oss et stykke?» Hoothoot blunker først med det ene øyet, så det andre."
+        "response": "You wedge a forked branch between firm roots and lift it beneath the nest. The egg stays still. Hoothoot inspects your work from every side before giving a satisfied “Hoo!” When you ask if it wants to come along, it lands beside you. It has made its choice.",
+        "nbResponse": "Dere kiler en bøyd grein mellom faste røtter og løfter den opp under redegreinen. Egget ligger stille. Hoothoot undersøker arbeidet fra alle kanter før den gir fra seg et fornøyd «Hoo!» Da du spør om den vil bli med, lander den ved siden av deg. Den har tatt sitt valg."
       },
       {
         "id": "S08.2",
-        "label": "Secure nest and let Hoothoot guard egg",
-        "nb": "Sikre redet og la Hoothoot vokte egget",
+        "label": "Secure the nest and let Hoothoot guard the egg",
+        "nb": "Sikre redet og la Hoothoot bli hos egget",
         "to": "S09",
         "when": "TRUE",
         "set": [
@@ -299,19 +305,21 @@
           "moon_kindness"
         ],
         "get": [],
-        "response": "Using a flexible branch, some bark, and your partner's help, you build a fresh support. Hoothoot inspects the work with a solemn “Hoo.” Only when the egg is safe does it lower its wings.",
-        "nbResponse": "Med en myk gren, litt bark og partnerens hjelp lager dere et nytt feste. Hoothoot kontrollerer arbeidet med et alvorlig «Hoo». Først når egget er trygt, senker den vingene."
+        "response": "You build a brace beneath the nest branch. Hoothoot hops onto it to test the repair. The egg does not move. As you say goodbye, Hoothoot stretches one wing over the nest and gives a short “Hoo.” It is staying where it is needed.",
+        "nbResponse": "Dere bygger en støtte under redegreinen. Hoothoot hopper forsiktig opp for å prøve den. Egget rører seg ikke. Da du tar farvel, strekker den en vinge over redet og svarer med et kort «Hoo.» Den blir her, der den trengs."
       },
       {
         "id": "S08.3",
-        "label": "Ask directions without repair",
-        "nb": "Be Hoothoot om veibeskrivelse uten å reparere",
+        "label": "Ask Hoothoot for directions — leave the nest for now",
+        "nb": "Be Hoothoot vise vei – la redet vente",
         "to": "S09",
         "when": "TRUE",
         "set": [
           "hoothoot_directions"
         ],
-        "get": []
+        "get": [],
+        "nbResponse": "Du peker mot fjellet og spør etter raskeste vei. Hoothoot flyr til en stein med en hvit stripe og banker nebbet mot den. Der begynner stien til det gamle eiketreet. Du merker steinen på kartet. Idet du snur deg, knaker redegreinen igjen. Hoothoot blir tilbake ved egget, mens dere fortsetter. Du vet at redet ennå trenger hjelp.",
+        "response": "You point toward the mountain and ask for the quickest route. Hoothoot flies to a stone marked with a white stripe and taps it with its beak. The path to the old oak begins there. You mark the stone on the map. As you turn away, the nest branch creaks again. Hoothoot stays with the egg while you go on. You know the nest still needs help."
       }
     ]
   },
@@ -320,13 +328,13 @@
     "title": "The Tree That Remembers",
     "nbTitle": "Treet som husker",
     "chapter": 2,
-    "en": "An oak blocks the path. When you lower your lantern, two eyes open in the bark. “I remember everyone who passes through,” it creaks. “But who remembers those who stay behind?”\n\nAt its roots are four hollows: one holds moss, another ash, another water. The last is empty. Your partner sniffs it, then looks back along the trail.\n\n[IF rescued_pikachu] You remember Pikachu's trembling paw after you freed it from the ivy.\n\n[IF hoothoot_nest] You remember Hoothoot watching over the egg in its repaired nest.\n\nThe tree waits. It doesn't seem interested in a clever guess. It wants to know what you noticed on your way here. A branch bends toward you, but stops just out of reach.",
-    "nb": "En eik sperrer stien. Når du senker lykten, åpner to øyne seg i barken. «Jeg husker alle som går gjennom skogen», knaker treet. «Men hvem husker dem som blir igjen?»\n\nMellom røttene er det fire fordypninger. Én rommer mose, en annen aske og en tredje vann. Den siste er tom. Partneren din snuser på den og ser tilbake langs stien.\n\n[IF rescued_pikachu] Du husker den skjelvende poten til Pikachu da dere fikk den løs fra eføyen.\n\n[IF hoothoot_nest] Du husker hvordan Hoothoot voktet egget i det reparerte redet.\n\nTreet venter. Det virker ikke interessert i at du skal gjette riktig. Det vil vite hva du har lagt merke til på reisen. En grein bøyer seg mot deg, men stopper akkurat utenfor rekkevidde.",
+    "en": "The path ends at an oak so large that its roots lie across the ground like benches. When you lower the lantern, two eyes open in the bark. “I remember everyone who passes through the forest,” the tree creaks. “But who remembers those who have to stay behind?”\n\nFour hollows lie among its roots. One holds moss, another ash, a third water. The fourth is empty, its edge shaped like a little bowl.\n\n[IF hoothoot_directions] A nearby stone bears the same white stripe Hoothoot showed you. It led you here, just as it promised. [END]\n\n[IF companion_hoothoot] Hoothoot lands on a low branch and looks into the empty hollow. “Hoo?” it asks softly. [END]\n\n[IF hoothoot_nest] You remember the nest you secured by the stream. [END]\n\n[IF rescued_pikachu] You remember how Pikachu stopped trembling when the ivy came loose. [END]\n\nA branch reaches toward you but stops just out of reach. “An answer can come from what you have done,” says the tree. “Or from what you notice here.”",
+    "nb": "Stien ender ved en eik så stor at røttene ligger som benker over bakken. Når du senker lykten, åpner to øyne seg i barken. «Jeg husker alle som går gjennom skogen», knaker treet. «Men hvem husker dem som må bli igjen?»\n\nVed røttene er fire fordypninger. Den ene er full av mose, den andre av aske, den tredje av vann. Den fjerde er tom, og kanten ligner en liten skål.\n\n[IF hoothoot_directions] På steinen ved siden av ligger en hvit stripe, akkurat som den Hoothoot viste deg. Den ledet dere hit, slik den lovet. [END]\n\n[IF companion_hoothoot] Hoothoot lander på en lav grein og ser ned på den tomme fordypningen. «Hoo?» sier den stille. [END]\n\n[IF hoothoot_nest] Du tenker på redet dere sikret ved bekken. [END]\n\n[IF rescued_pikachu] Du husker hvordan Pikachu sluttet å skjelve da rankene løsnet. [END]\n\nEn grein strekker seg mot deg, men stanser før du kan ta på den. «Et svar kan komme fra det du har gjort», sier treet. «Eller fra det du legger merke til her.»",
     "choices": [
       {
         "id": "S09.1",
-        "label": "Answer from a rescue",
-        "nb": "Bruk lærdommen fra en redning",
+        "label": "Tell the tree how you helped someone",
+        "nb": "Fortell hvordan du hjalp noen i skogen",
         "to": "S10",
         "when": "rescued_pikachu OR hoothoot_nest",
         "set": [],
@@ -338,8 +346,8 @@
       },
       {
         "id": "S09.2",
-        "label": "Examine all four hollows",
-        "nb": "Studer alle fire fordypningene",
+        "label": "Examine what the empty hollow is missing",
+        "nb": "Undersøk hva den tomme fordypningen mangler",
         "to": "S10",
         "when": "TRUE",
         "set": [
@@ -353,16 +361,16 @@
       },
       {
         "id": "S09.3",
-        "label": "Ask for a hint",
-        "nb": "Be om et hint",
+        "label": "Ask the tree for a hint — stay here",
+        "nb": "Be treet om et hint – bli på samme sted",
         "to": "S09",
         "when": "TRUE",
         "set": [
           "tree_hint"
         ],
         "get": [],
-        "response": "The tree taps the empty hollow. “What might have belonged here? And who could need it now?” Its roots go still, giving you time to think.",
-        "nbResponse": "Treet peker mot den tomme fordypningen. «Hva kan ha ligget her? Og hvem kan trenge det nå?» Røttene blir stille mens du tenker."
+        "response": "The tree touches the empty hollow with a root. “What belongs here?” it asks. “Don’t answer too quickly. Think about those you met along the path.” You have time to consider without leaving the clearing.",
+        "nbResponse": "Treet berører den tomme fordypningen med en rot. «Hva mangler her?» spør det. «Ikke svar for fort. Tenk på dem du møtte på veien.» Du får tenke videre uten å forlate lysningen."
       }
     ]
   },
@@ -371,13 +379,13 @@
     "title": "The Camp with Two Cups",
     "nbTitle": "Leirplassen med to kopper",
     "chapter": 2,
-    "en": "Between the firs you find the remains of a fire, two cups and a blanket folded over a stone. One cup bears a lightning-shaped paw mark. Beside it lies a photograph of a Clefairy and a Shinx, each wearing a yellow scarf.\n\nOn the back someone has written: “If you get scared, I'll sit with you until you aren't scared anymore. —L.”\n\nThe smaller cup has faint scratches around its rim. They might be accidental. You could examine them with the crescent lens, take the photograph or follow the fresh prints leading away from the camp.\n\nYour partner touches the blanket. One corner is damp, as though someone came back through the rain. A branch cracks nearby. The place isn't as abandoned as it looks.",
-    "nb": "Mellom granene finner dere restene av et bål, to kopper og et teppe brettet over en stein. Den ene koppen har et merke som ligner en lynformet pote. Ved siden av ligger et fotografi av en Clefairy og en Shinx, begge med gule skjerf.\n\nPå baksiden står det: «Hvis du blir redd, sitter jeg hos deg til du ikke er redd lenger. – L.»\n\nRundt kanten på den minste koppen er det svake riper. Kanskje de bare er tilfeldige. Du kan undersøke dem med halvmånelinsen, ta med fotografiet eller følge de ferske fotsporene bort fra leirplassen.\n\nPartneren din berører teppet. Det ene hjørnet er fuktig, som om noen har kommet tilbake i regnet. En grein knekker like ved. Leirplassen er kanskje ikke så forlatt som den ser ut.",
+    "en": "Between the firs you find the remains of a fire, two cups and a blanket folded over a stone. One cup bears a lightning-shaped paw mark. Beside it lies a photograph of a Clefairy and a Shinx, each wearing a yellow scarf.\n\nOn the back someone has written: “If you get scared, I'll sit with you until you aren't scared anymore. —L.”\n\nThe smaller cup has faint scratches around its rim. They might be accidental. You could examine them with the crescent lens, take the photograph or follow the fresh prints leading away from the camp.\n\n[IF hoothoot_directions] The stone with the white stripe Hoothoot showed you stands beside the trail to the camp. It really did lead you here. [END]\n\nYour partner touches the blanket. One corner is damp, as though someone came back through the rain. A branch cracks nearby. The place isn't as abandoned as it looks.",
+    "nb": "Mellom granene finner dere restene av et bål, to kopper og et teppe brettet over en stein. Den ene koppen har et merke som ligner en lynformet pote. Ved siden av ligger et fotografi av en Clefairy og en Shinx, begge med gule skjerf.\n\nPå baksiden står det: «Hvis du blir redd, sitter jeg hos deg til du ikke er redd lenger. – L.»\n\nRundt kanten på den minste koppen er det svake riper. Kanskje de bare er tilfeldige. Du kan undersøke dem med halvmånelinsen, ta med fotografiet eller følge de ferske fotsporene bort fra leirplassen.\n\n[IF hoothoot_directions] Den hvitmerkede steinen Hoothoot viste deg, står ved stien inn til leirplassen. Den fant faktisk veien for dere. [END]\n\nPartneren din berører teppet. Det ene hjørnet er fuktig, som om noen har kommet tilbake i regnet. En grein knekker like ved. Leirplassen er kanskje ikke så forlatt som den ser ut.",
     "choices": [
       {
         "id": "S10.1",
-        "label": "Examine cup using lens",
-        "nb": "Undersøk koppen med linsen",
+        "label": "Study the mysterious scratches with the lens",
+        "nb": "Undersøk de mystiske ripene med linsen",
         "to": "S11",
         "when": "crescent_lens",
         "set": [
@@ -390,8 +398,8 @@
       },
       {
         "id": "S10.2",
-        "label": "Take photo as clue",
-        "nb": "Ta med fotografiet som spor",
+        "label": "Keep the photograph as a clue to the friends",
+        "nb": "Ta med fotografiet som spor etter vennene",
         "to": "S11",
         "when": "TRUE",
         "set": [],
@@ -403,8 +411,8 @@
       },
       {
         "id": "S10.3",
-        "label": "Follow fresh prints",
-        "nb": "Følg de ferske sporene",
+        "label": "Follow the fresh tracks before they fade",
+        "nb": "Følg de ferske sporene før de forsvinner",
         "to": "S11",
         "when": "TRUE",
         "set": [
@@ -426,8 +434,8 @@
     "choices": [
       {
         "id": "S11.1",
-        "label": "Help Lapras and accept passage",
-        "nb": "Hjelp Lapras og få skyss",
+        "label": "Free Lapras and cross on its back",
+        "nb": "Frigjør Lapras og kryss på ryggen dens",
         "to": "S12",
         "when": "TRUE",
         "set": [
@@ -440,8 +448,8 @@
       },
       {
         "id": "S11.2",
-        "label": "Fix Psyduck's wheel and use cable platform",
-        "nb": "Reparer Psyducks hjul og bruk kabelplattformen",
+        "label": "Help Psyduck and use the maintenance platform",
+        "nb": "Hjelp Psyduck og bruk vedlikeholdsplattformen",
         "to": "S12",
         "when": "TRUE",
         "set": [
@@ -454,8 +462,8 @@
       },
       {
         "id": "S11.3",
-        "label": "Secure damaged bridge using toolbox rope",
-        "nb": "Sikre den gjenværende broen med tau fra verktøykassen",
+        "label": "Secure the bridge yourself and cross carefully",
+        "nb": "Sikre broen selv og kryss forsiktig",
         "to": "S12",
         "when": "TRUE",
         "set": [
@@ -472,8 +480,8 @@
     "title": "The Little Engineer",
     "nbTitle": "Den lille ingeniøren",
     "chapter": 3,
-    "en": "On the far bank, Psyduck has gathered the wheel's remaining bolts, a nut, and a drawing of the cable mechanism. It tries to hold everything at once. The bolts scatter across the stones.\n\n[IF helped_psyduck] Psyduck recognizes you from the crossing and points proudly to the turning waterwheel. Then it looks at the scattered bolts and lowers its head. Getting the wheel moving was only the first step. [ELSE] A helper has got the waterwheel turning again, but Psyduck still doesn't know how to maintain the mechanism. It looks at the scattered bolts and lowers its head. [END]\n\n“Maybe one thing at a time?” you suggest. Psyduck picks up a single bolt and waits for you.",
-    "nb": "På den andre elvebredden har Psyduck samlet de siste boltene til vannhjulet, en mutter og en tegning av kabelmekanismen. Den prøver å holde alt på én gang. Boltene triller utover steinene.\n\n[IF helped_psyduck] Psyduck kjenner deg igjen fra elvekryssingen og peker stolt på vannhjulet som snurrer. Så ser den på boltene som ligger strødd, og senker hodet. Å få hjulet i gang var bare første steg. [ELSE] En hjelper har fått vannhjulet i gang igjen, men Psyduck vet ennå ikke hvordan mekanismen skal holdes i orden. Den ser på boltene som ligger strødd, og senker hodet. [END]\n\n«Kanskje vi skal ta én ting om gangen?» foreslår du. Psyduck plukker opp én bolt og venter på deg.",
+    "en": "On the far bank, Psyduck has gathered the wheel's remaining bolts, a nut, and a drawing of the cable mechanism. It tries to hold everything at once. The bolts scatter across the stones.\n\n[IF helped_psyduck] Psyduck recognizes you from the crossing and points proudly to the turning waterwheel. Then it looks at the scattered bolts and lowers its head. Getting the wheel moving was only the first step. [ELSE] A helper has got the waterwheel turning again, but Psyduck still doesn't know how to maintain the mechanism. It looks at the scattered bolts and lowers its head. [END]\n\n[IF rescued_lapras] Your hair is still damp from crossing the river on Lapras. Psyduck shows you a nut that went missing during the repairs. [END]\n\n[IF bridge_repaired] You brush dirt from your hands after fixing the bridge. On the far bank, Psyduck is trying to sort the remaining equipment. [END]\n\n“Maybe one thing at a time?” you suggest. Psyduck picks up a single bolt and waits for you.",
+    "nb": "På den andre elvebredden har Psyduck samlet de siste boltene til vannhjulet, en mutter og en tegning av kabelmekanismen. Den prøver å holde alt på én gang. Boltene triller utover steinene.\n\n[IF helped_psyduck] Psyduck kjenner deg igjen fra elvekryssingen og peker stolt på vannhjulet som snurrer. Så ser den på boltene som ligger strødd, og senker hodet. Å få hjulet i gang var bare første steg. [ELSE] En hjelper har fått vannhjulet i gang igjen, men Psyduck vet ennå ikke hvordan mekanismen skal holdes i orden. Den ser på boltene som ligger strødd, og senker hodet. [END]\n\n[IF rescued_lapras] Du er fremdeles fuktig i håret etter turen over elven på Lapras. Psyduck viser deg en mutter som er blitt borte under arbeidet. [END]\n\n[IF bridge_repaired] Du tørker jord av hendene etter broarbeidet. På den andre bredden forsøker Psyduck å sortere resten av utstyret. [END]\n\n«Kanskje vi skal ta én ting om gangen?» foreslår du. Psyduck plukker opp én bolt og venter på deg.",
     "choices": [
       {
         "id": "S12.1",
@@ -509,8 +517,8 @@
     "title": "The Letter That Came Down",
     "nbTitle": "Brevet som kom nedover",
     "chapter": 3,
-    "en": "A white slip of paper floats downstream toward you, folded around a small glass weight. It reads: “The light needs to stay here a little longer. Please. —L.”\n\nOn the back is a hurried drawing of a Shinx beside a stove. Someone has sketched an extra blanket over it, and another, as if they could not stop drawing more.\n\n“Someone is up at the tower,” you say. “And someone is afraid.”\n\nYou can send an answer using the cable basket. It travels uphill as the waterwheel turns. There is no guarantee the writer will answer, but your words may change the way she greets you later.\n\nThe paper smells faintly of smoke. Your partner nudges the drawing of Shinx. It would be easy to shout an order at whoever sent it. Much harder to write something they might actually listen to.",
-    "nb": "En hvit papirlapp driver med strømmen mot dere. Den er foldet rundt et lite glasslodd. På papiret står det: «Lyset må bli her litt til. Vær så snill. – L.»\n\nPå baksiden er en hastig tegning av en Shinx som ligger ved en ovn. Du ser at noen har tegnet en ekstra dyne rundt den, og enda en, som om tegneren ikke klarte å stoppe.\n\n«Noen er oppe ved tårnet,» sier du. «Og noen er redde.»\n\nDere kan sende et svar med kabelkurven. Den går oppover når vannhjulet snurrer. Det er ingen garanti for at avsenderen vil svare, men ordene dine kan endre hvordan hun møter deg senere.\n\nPapiret lukter svakt av røyk. Partneren din dytter forsiktig borti tegningen av Shinx. Det ville vært enkelt å rope en ordre til den som sendte brevet. Det er vanskeligere å skrive noe avsenderen faktisk vil høre på.",
+    "en": "Just as you are about to leave the waterwheel, the mail basket begins to move. It creeps slowly down the cable from the mountain. Inside is a folded note held in place by a small glass weight.\n\n“The light needs to stay here a little longer. Please. —L.”\n\nOn the back is a drawing of Shinx beside a stove. Someone has drawn one blanket over him, then another, until there is hardly any room left on the page.\n\n“Someone is in the tower,” you say. “And whoever wrote this is afraid.”\n\nYour partner looks toward the mountain. The mail basket can carry your reply back, but nobody knows whether the writer will listen. You could promise to help them both, demand that the machine be opened, or send a practical route for the helpers.",
+    "nb": "Akkurat idet dere skal gå fra vannhjulet, begynner postkurven å røre på seg. Den kommer langsomt ned fra fjellet. Inne i kurven ligger en sammenbrettet lapp, holdt på plass av en liten glassvekt.\n\n«Lyset må bli her litt til. Vær så snill. – L.»\n\nPå baksiden er det tegnet en Shinx som ligger ved en ovn. Noen har tegnet ett teppe over ham, så ett til, helt til det nesten ikke er plass til flere på papiret.\n\n«Noen er i tårnet», sier du. «Og den som skrev dette, er redd.»\n\nPartneren din ser opp mot fjellet. Postkurven kan frakte svaret ditt tilbake, men ingen vet om avsenderen vil lytte. Du kan skrive at dere vil hjelpe begge, kreve at maskinen åpnes, eller sende en praktisk rute for hjelpen.",
     "choices": [
       {
         "id": "S13.1",
@@ -559,8 +567,8 @@
     "title": "The Island That Shows Yesterday",
     "nbTitle": "Øya som viser gårsdagen",
     "chapter": 3,
-    "en": "On a little island in the river stands a stone column holding a disk of dark glass. Its surface is cold and almost black. A worn plaque lies at its foot, half covered in moss.\n\nYour partner notices a narrow crescent-shaped groove around the disk. It might fit the lens you found in the forest. The stone is strangely warm beneath your hand.\n\nSomewhere on this island is the story of the accident at the tower. You can try to see it through the glass, read the plaque or leave a promise for whoever once stood here. The water rushes around the island as though urging you onward.",
-    "nb": "På en liten øy i elven står en steinsøyle med en skive av mørkt glass. Overflaten er kald og nesten svart. Ved foten ligger en slitt minneplate, halvveis skjult av mose.\n\nPartneren din oppdager et smalt, halvmåneformet spor rundt glasset. Kanskje linsen fra skogen passer der. Steinen kjennes merkelig varm under hånden din.\n\nEt sted på denne øya finnes historien om ulykken ved tårnet. Du kan prøve å se den gjennom glasset, lese minneplaten eller legge igjen et løfte til den som en gang sto her. Vannet fosser rundt øya som om det vil jage dere videre.",
+    "en": "On a little island in the river stands a stone column holding a disk of dark glass. Its surface is cold and almost black. A worn plaque lies at its foot, half covered in moss.\n\nYour partner notices a narrow crescent-shaped groove around the disk. It might fit the lens you found in the forest. The stone is strangely warm beneath your hand.\n\n[IF compassionate_letter] You look up at the cable. Your letter is on its way to someone who may need to hear that help is coming. [END]\n\n[IF urgent_letter] You remember the stern message you sent uphill. Now you wonder whether it helped or made the writer even more afraid. [END]\n\n[IF practical_letter] You sent a safe route for the helpers. By the river, you can already see a lantern following that way. [END]\n\nSomewhere on this island is the story of the accident at the tower. You can try to see it through the glass, read the plaque or leave a promise for whoever once stood here. The water rushes around the island as though urging you onward.",
+    "nb": "På en liten øy i elven står en steinsøyle med en skive av mørkt glass. Overflaten er kald og nesten svart. Ved foten ligger en slitt minneplate, halvveis skjult av mose.\n\nPartneren din oppdager et smalt, halvmåneformet spor rundt glasset. Kanskje linsen fra skogen passer der. Steinen kjennes merkelig varm under hånden din.\n\n[IF compassionate_letter] Du ser opp mot kabelen. Brevet ditt er på vei til en som kanskje trenger å høre at hjelpen kommer. [END]\n\n[IF urgent_letter] Du tenker på den bestemte beskjeden du sendte oppover. Nå lurer du på om ordene hjalp eller gjorde avsenderen enda reddere. [END]\n\n[IF practical_letter] Du har sendt en rute for hjelperne. Ved elven ser du allerede en lykt som følger samme vei. [END]\n\nEt sted på denne øya finnes historien om ulykken ved tårnet. Du kan prøve å se den gjennom glasset, lese minneplaten eller legge igjen et løfte til den som en gang sto her. Vannet fosser rundt øya som om det vil jage dere videre.",
     "choices": [
       {
         "id": "S14.1",
@@ -650,13 +658,13 @@
     "title": "The Second Wave of Darkness",
     "nbTitle": "Den andre mørkebølgen",
     "chapter": 4,
-    "en": "The darkness no longer comes only from above. It creeps between the stones like a silent rising sea. Flowers along the mountain path have closed their petals. Your little lantern from Willowbrook begins to fade.\n\n“If the light keeps disappearing, it won't just get dark,” you say. “It'll get cold.”\n\nA Gastly appears before an old cave passage. It isn't frightening; it looks mostly offended that nobody has visited it in so long. “Gas-tly!” it declares, pointing firmly toward a side tunnel.\n\nInside lies a story of the people who built the tower to share warmth during storms. You can listen or continue. Gastly will still show you the safe way out, but an ancient verse may matter later.\n\nThe cold reaches your fingers even through your gloves. Far below, one of the last lights in the valley goes out. You can no longer pretend that the darkness is only strange; it is dangerous.",
-    "nb": "Mørket kommer ikke lenger bare ovenfra. Det kryper mellom steinene, som et hav som stiger uten lyd. Langs fjellstien står blomster med kronbladene lukket. Den lille lykten fra Willowbrook begynner å falme.\n\n«Hvis lyset fortsetter å forsvinne, blir det ikke bare mørkt,» sier du. «Det blir kaldt.»\n\nEn Gastly dukker opp foran en gammel hulestrekning. Den er ikke skremmende; den virker mest fornærmet over at ingen har besøkt den på lenge. «Gas-tly!» sier den og peker insisterende mot en sidegang.\n\nDer inne finnes en historie om da folk bygget tårnet for å dele varme i stormene. Du kan lytte, eller gå rett videre. Gastly viser likevel trygg utgang, men et gammelt vers kan senere vise seg avgjørende.\n\nKulden trenger helt inn til fingrene, selv gjennom hanskene. Langt nede i dalen slukner et av de siste lysene. Mørket er ikke lenger bare merkelig. Det er farlig.",
+    "en": "The darkness no longer comes only from above. It creeps between the stones like a silent rising sea. Flowers along the mountain path have closed their petals. Your little lantern from Willowbrook begins to fade.\n\n“If the light keeps disappearing, it won't just get dark,” you say. “It'll get cold.”\n\nA Gastly appears before an old cave passage. It isn't frightening; it looks mostly offended that nobody has visited it in so long. “Gas-tly!” it declares, pointing firmly toward a side tunnel.\n\nInside lies a story of the people who built the tower to share warmth during storms. You can listen or continue. Gastly will still show you the safe way out, but an ancient verse may matter later.\n\n[IF helped_altaria] Altaria’s feather rests safely in your bag. You touch it for a moment as the mountain air grows colder. [END]\n\n[IF marked_altaria_path] A dotted line on Mira’s map leads back to Altaria’s nest. The helpers will be able to find it if the search must continue. [END]\n\nThe cold reaches your fingers even through your gloves. Far below, one of the last lights in the valley goes out. You can no longer pretend that the darkness is only strange; it is dangerous.",
+    "nb": "Mørket kommer ikke lenger bare ovenfra. Det kryper mellom steinene, som et hav som stiger uten lyd. Langs fjellstien står blomster med kronbladene lukket. Den lille lykten fra Pilebekk begynner å falme.\n\n«Hvis lyset fortsetter å forsvinne, blir det ikke bare mørkt,» sier du. «Det blir kaldt.»\n\nEn Gastly dukker opp foran en gammel hulestrekning. Den er ikke skremmende; den virker mest fornærmet over at ingen har besøkt den på lenge. «Gas-tly!» sier den og peker insisterende mot en sidegang.\n\nDer inne finnes en historie om da folk bygget tårnet for å dele varme i stormene. Du kan lytte, eller gå rett videre. Gastly viser likevel trygg utgang, men et gammelt vers kan senere vise seg avgjørende.\n\n[IF helped_altaria] En fjær fra Altaria ligger trygt i sekken. Du kjenner på den et øyeblikk da kulden fra fjellet blir skarpere. [END]\n\n[IF marked_altaria_path] På Miras kart går en stiplet linje tilbake til Altarias rede. Hjelperne vil kunne finne frem dersom de må lete videre. [END]\n\nKulden trenger helt inn til fingrene, selv gjennom hanskene. Langt nede i dalen slukner et av de siste lysene. Mørket er ikke lenger bare merkelig. Det er farlig.",
     "choices": [
       {
         "id": "S16.1",
-        "label": "Stay and hear Gastly's story",
-        "nb": "Bli hos Gastly og hør hele historien",
+        "label": "Stay and hear the story Gastly wants to tell",
+        "nb": "Bli og hør historien Gastly vil fortelle",
         "to": "S17",
         "when": "TRUE",
         "set": [
@@ -664,18 +672,22 @@
           "moon_kindness",
           "know_old_verse"
         ],
-        "get": []
+        "get": [],
+        "nbResponse": "Gastly svever foran dere til en vegg dekket av små riss. Den forteller om en storm da hele landsbyen delte på ved, lykter og tepper. «Ingen lykt kunne varme alle alene», sier du. Gastly blunker fornøyd. Før dere går, lærer den dere et kort vers som hjalp vaktene å huske turordningen.",
+        "response": "Gastly floats ahead to a wall covered in tiny carvings. It tells of a storm when the whole village shared wood, lanterns and blankets. “No single lantern could warm everyone,” you say. Gastly gives an approving blink. Before you go, it teaches you a short verse the old watchers used to remember their turns."
       },
       {
         "id": "S16.2",
-        "label": "Thank Gastly and continue",
-        "nb": "Takk Gastly og gå videre",
+        "label": "Thank Gastly and continue toward the tower",
+        "nb": "Takk Gastly og fortsett mot tårnet",
         "to": "S17",
         "when": "TRUE",
         "set": [
           "gastly_met"
         ],
-        "get": []
+        "get": [],
+        "nbResponse": "«Takk for veien», sier du. Gastly trekker seg til side med et høytidelig bukk. Bak dere fortsetter den å fortelle historien sin til steinene, som om de var et svært tålmodig publikum. Dere finner utgangen, men går glipp av resten av verset.",
+        "response": "“Thank you for showing us the way,” you say. Gastly bows solemnly and drifts aside. Behind you it continues telling its story to the stones, as if they were a very patient audience. You find the exit, but miss the rest of the verse."
       }
     ]
   },
@@ -689,8 +701,8 @@
     "choices": [
       {
         "id": "S17.1",
-        "label": "Use lens and moon rune",
-        "nb": "Bruk linse og månerune",
+        "label": "Open the gate with the moon rune and lens",
+        "nb": "Åpne porten med månerunen og linsen",
         "to": "S18",
         "when": "crescent_lens AND moon_rune",
         "set": [
@@ -702,8 +714,8 @@
       },
       {
         "id": "S17.2",
-        "label": "Have Pikachu power motor",
-        "nb": "Be Pikachu drive motoren",
+        "label": "Ask Pikachu to try powering the motor",
+        "nb": "La Pikachu prøve å starte motoren",
         "to": "S18",
         "when": "companion_pikachu",
         "set": [
@@ -715,8 +727,8 @@
       },
       {
         "id": "S17.3",
-        "label": "Repair crank and gears",
-        "nb": "Reparer sveiv og tannhjul",
+        "label": "Repair the crank and open the gate by hand",
+        "nb": "Reparer sveiven og åpne porten for hånd",
         "to": "S18",
         "when": "solved_S17",
         "set": [
@@ -733,41 +745,47 @@
     "title": "The Book from a Hundred Years Ago",
     "nbTitle": "Boken fra hundre år tilbake",
     "chapter": 4,
-    "en": "In the observatory archive, books rest beneath dusty glass bells. Gastly floats ahead if you became friends; otherwise your partner finds the door by following a ribbon of warm air. On the table is a booklet a hundred years old. Beside it lies a newer page in shaky handwriting: “One more night. Just one more night.”\n\nThe old booklet explains that Starlight Glass gathers the light that would otherwise reach the valley, providing warmth during storms. Every day its keeper must release the physical lock so the light can return. Left closed too long, pressure rises and more and more light is drawn in.\n\nThe newer page is separate from the booklet. These are Lumi's own notes. Between the lines you find temperature readings and Shinx's rest periods. She has not stopped paying attention. She has become too frightened to stop.\n\nThe booklet describes three ancient rings: Sky, Heart, and Earth. None offers a magical cure. Each requires a safe source of warmth before the lock is opened.\n\nIn the margin of the old booklet, someone has written: “A shelter stops being a shelter when everyone outside must pay for it.” The ink has faded, but the warning has not.",
-    "nb": "I observatoriets arkiv står bøker under støvete glassklokker. Gastly svever foran deg hvis dere ble venner; ellers finner partneren din døren ved å følge en stripe varm luft. På bordet ligger et hundre år gammelt hefte. På et nyere ark ved siden av står skjelvende håndskrift: «En natt til. Bare én natt til.»\n\nDet gamle heftet forklarer at Stjernelysglasset samler lyset som ellers skulle nå dalen, og gir varme i stormene. Hver dag må vokterlåsen slippes, slik at lyset strømmer tilbake. Hvis den holdes lukket for lenge, øker trykket og stadig mer lys trekkes inn.\n\nDet nyere arket er ikke en del av heftet. Det er Lumis egne notater. Mellom linjene finner du beregninger av ovnens temperatur og Shinx' hvileperioder. Hun har ikke sluttet å følge med. Hun har blitt for redd til å stoppe.\n\nI margen på heftet står tre gamle ringer beskrevet: Himmel, Hjerte og Jord. Ingen av dem er en tryllekur. Alle krever at varme er ordnet før låsen åpnes.\n\nI margen på det gamle heftet har noen skrevet: «Et tilfluktssted slutter å være trygt når alle utenfor må betale prisen.» Blekket har falmet, men advarselen har ikke det.",
+    "en": "In the observatory archive, books rest beneath dusty glass bells. Gastly floats ahead if you became friends; otherwise your partner finds the door by following a ribbon of warm air. On the table is a booklet a hundred years old. Beside it lies a newer page in shaky handwriting: “One more night. Just one more night.”\n\nThe old booklet explains that Starlight Glass gathers the light that would otherwise reach the valley, providing warmth during storms. Every day its keeper must release the physical lock so the light can return. Left closed too long, pressure rises and more and more light is drawn in.\n\nThe newer page is separate from the booklet. These are Lumi's own notes. Between the lines you find temperature readings and Shinx's rest periods. She has not stopped paying attention. She has become too frightened to stop.\n\nThe booklet describes three ancient rings: Sky, Heart, and Earth. None offers a magical cure. Each requires a safe source of warmth before the lock is opened.\n\n[IF entered_by_moon] The crescent lens is still warm from opening the hidden lock. [END]\n\n[IF entered_by_sun] Pikachu shakes a final spark from its cheek before you enter the archive. [END]\n\n[IF entered_by_work] Your palm aches from the rusty crank. The gate was hard to open, but you managed it without magic. [END]\n\nIn the margin of the old booklet, someone has written: “A shelter stops being a shelter when everyone outside must pay for it.” The ink has faded, but the warning has not.",
+    "nb": "I observatoriets arkiv står bøker under støvete glassklokker. Gastly svever foran deg hvis dere ble venner; ellers finner partneren din døren ved å følge en stripe varm luft. På bordet ligger et hundre år gammelt hefte. På et nyere ark ved siden av står skjelvende håndskrift: «En natt til. Bare én natt til.»\n\nDet gamle heftet forklarer at Stjernelysglasset samler lyset som ellers skulle nå dalen, og gir varme i stormene. Hver dag må vokterlåsen slippes, slik at lyset strømmer tilbake. Hvis den holdes lukket for lenge, øker trykket og stadig mer lys trekkes inn.\n\nDet nyere arket er ikke en del av heftet. Det er Lumis egne notater. Mellom linjene finner du beregninger av ovnens temperatur og Shinx' hvileperioder. Hun har ikke sluttet å følge med. Hun har blitt for redd til å stoppe.\n\nI margen på heftet står tre gamle ringer beskrevet: Himmel, Hjerte og Jord. Ingen av dem er en tryllekur. Alle krever at varme er ordnet før låsen åpnes.\n\n[IF entered_by_moon] Halvmånelinsen er fortsatt varm etter at dere åpnet den skjulte låsen. [END]\n\n[IF entered_by_sun] Pikachu rister løs et siste gnistglimt fra kinnet før dere går inn i arkivet. [END]\n\n[IF entered_by_work] Du har vondt i håndflaten etter den rustne sveiven. Porten var tung å åpne, men dere klarte det uten hjelp fra magi. [END]\n\nI margen på det gamle heftet har noen skrevet: «Et tilfluktssted slutter å være trygt når alle utenfor må betale prisen.» Blekket har falmet, men advarselen har ikke det.",
     "choices": [
       {
         "id": "S18.1",
-        "label": "Copy the three rings' rules",
-        "nb": "Kopier reglene om de tre ringene",
+        "label": "Learn how the three rescue plans work",
+        "nb": "Lær hvordan de tre redningsplanene virker",
         "to": "S19",
         "when": "TRUE",
         "set": [
           "knows_rings"
         ],
-        "get": []
+        "get": [],
+        "nbResponse": "Du kopierer det viktigste om de tre ringene på baksiden av kartet: Himmel flytter Shinx til et varmt rom. Hjerte trenger vakter som holder lyktene brennende. Jord trenger varm jord og en testet reserveovn. Ingen av løsningene kan velges for Shinx uten at han selv sier ja.",
+        "response": "You copy the three rules onto the back of the map. Sky moves Shinx to a warm room. Heart needs watchers to keep the lanterns burning. Earth needs warm soil and a tested backup stove. None of the plans can be chosen for Shinx without his agreement."
       },
       {
         "id": "S18.2",
-        "label": "Search with lens",
-        "nb": "Let etter skjult informasjon med linsen",
+        "label": "Search for hidden map marks with the lens",
+        "nb": "Let etter hemmelige karttegn med linsen",
         "to": "S19",
         "when": "crescent_lens",
         "set": [
           "map_fragment_2"
         ],
-        "get": []
+        "get": [],
+        "nbResponse": "Du holder halvmånelinsen over den støvete bokkanten. Mellom to sider lyser et mønster som ikke var synlig med øynene alene. Du tegner strekene på kartet før skinnet svinner. Det ligner en del av et større stjernekart.",
+        "response": "You hold the crescent lens above the dusty edge of the book. A pattern glows between two pages, invisible to the naked eye. You copy the lines onto the map before the light fades. They look like part of a larger star chart."
       },
       {
         "id": "S18.3",
-        "label": "Read Lumi's temperature log",
-        "nb": "Les Lumis temperaturjournal",
+        "label": "Find out how Lumi has cared for Shinx",
+        "nb": "Finn ut hvordan Lumi har passet Shinx",
         "to": "S19",
         "when": "TRUE",
         "set": [
           "knows_shinx_care"
         ],
-        "get": []
+        "get": [],
+        "nbResponse": "På Lumis ark ser du at hun har målt varmen hver natt. Den har sunket litt etter litt, selv mens låsen har vært stengt. «Hun prøver», sier du. «Men det hun gjør, virker ikke lenger.» Du legger arket tilbake der hun kan finne det.",
+        "response": "Lumi’s notes show that she measured the heat every night. It has fallen little by little, even with the lock closed. “She’s trying,” you say. “But what she’s doing isn’t working anymore.” You leave the page where she can find it."
       }
     ]
   },
@@ -786,40 +804,48 @@
         "to": "Q_RETURN",
         "when": "TRUE",
         "set": [],
-        "get": []
+        "get": [],
+        "nbResponse": "Du ber Mira holde forbindelsen åpen mens du undersøker dalen en siste gang. «Jeg sender hjelperne til stedene du merker», sier hun. Du folder ut kartet og velger hvor du vil begynne.",
+        "response": "You ask Mira to keep the speaking tube open while you check the valley once more. “I’ll send the helpers wherever you leave a mark,” she says. You unfold the map and choose where to begin."
       },
       {
         "id": "S19.2",
-        "label": "Inspect basket",
-        "nb": "Undersøk kurven",
+        "label": "Check whether the basket can carry Shinx safely",
+        "nb": "Undersøk om kurven kan bære Shinx trygt",
         "to": "S20",
         "when": "TRUE",
         "set": [
           "inspected_sky"
         ],
-        "get": []
+        "get": [],
+        "nbResponse": "Du undersøker bærehåndtakene og bunnen av kurven. Den kan kanskje frakte Shinx, men bare hvis steinene pakkes inn og noen prøver hvordan den beveger seg. Du setter et spørsmålstegn ved Himmel på kartet. Undersøkt er ikke det samme som klar.",
+        "response": "You check the basket’s handles and base. It may be able to carry Shinx, but only if the stones are wrapped and someone tests how it moves. You put a question mark beside Sky on the map. Inspected does not mean ready."
       },
       {
         "id": "S19.3",
-        "label": "Inspect watch roster",
-        "nb": "Undersøk vaktlisten",
+        "label": "Check whether the lantern watches are fully covered",
+        "nb": "Sjekk om lyktevaktene har en fullstendig plan",
         "to": "S20",
         "when": "TRUE",
         "set": [
           "inspected_heart"
         ],
-        "get": []
+        "get": [],
+        "nbResponse": "På vaktlisten står Ada alene ved den siste timen. «Da må vi finne noen som kan avløse henne», sier du. Mira nikker gjennom talerøret. Du har funnet svakheten i Hjerteplanen, ikke løst den ennå.",
+        "response": "Ada is listed alone for the final watch. “Then we need someone to take over,” you say. Mira agrees over the speaking tube. You have found a weakness in the Heart plan, not fixed it yet."
       },
       {
         "id": "S19.4",
-        "label": "Inspect Earth pot",
-        "nb": "Undersøk jordpotten",
+        "label": "Inspect the soil pot and backup stove",
+        "nb": "Undersøk jordpotten og reserveovnen",
         "to": "S20",
         "when": "TRUE",
         "set": [
           "inspected_earth"
         ],
-        "get": []
+        "get": [],
+        "nbResponse": "Jordpotten er stor nok til sølvfrøet, men metallet rundt reserveovnen er kaldt. «Hva skjer hvis flammen slukner?» spør du. Ingen svarer med én gang. Jordplanen trenger en virkelig test før den kan tilbys Shinx.",
+        "response": "The pot is large enough for the silver seed, but the metal around the backup stove is cold. “What if the flame goes out?” you ask. Nobody answers at once. The Earth plan needs a real test before anyone offers it to Shinx."
       },
       {
         "id": "S19.5",
@@ -828,7 +854,9 @@
         "to": "Q_PREP",
         "when": "TRUE",
         "set": [],
-        "get": []
+        "get": [],
+        "nbResponse": "«Da begynner vi med det vi vet», sier du. Mira ber hjelperne løfte kassene nærmere, slik at dere kan prøve løsningene én etter én. Her er det arbeidet begynner, ikke slutter.",
+        "response": "“Then let’s start with what we know,” you say. Mira asks the helpers to bring the crates closer so you can test the plans one by one. This is where the work begins, not where it ends."
       }
     ]
   },
@@ -837,41 +865,47 @@
     "title": "The Final Stair",
     "nbTitle": "Den siste trappen",
     "chapter": 4,
-    "en": "The upper stair is still damaged. This is where Shinx once fell. Now a stone slips beneath your own foot. Your partner catches you just in time.\n\nOn the wall hangs a yellow scarf with a name tag: SHINX. A little farther along, another knot of yellow thread is wedged in a crack. The photograph from the woods suddenly means something else. They were two friends—not one rescuer and someone who needed rescuing.\n\nBehind the closed door you hear movement. “Who's there?” asks a voice.\n\n“We've come from Willowbrook,” you answer.\n\n“Go back.” The voice is small but firm. “I can't open it. He needs the heat.”\n\nYou sit on the cold stair. “Then we won't take it from him,” you say. “First, we need to hear what he wants.”\n\n[IF compassionate_letter] From behind the door comes the rustle of paper. “Was it you who wrote that we could both be helped?” the voice asks.\n\n[IF urgent_letter] “I read your letter,” the voice says. “I know the valley needs the light. But I need you to understand why I am afraid.”\n\n[IF practical_letter] A sheet of paper slides beneath the door: your own map, now marked with a small cross beside the stove. Someone inside has studied it.",
-    "nb": "Den øverste trappen er fremdeles skadet. Her falt Shinx en gang. Nå løsner en stein under din egen fot. Partneren din griper deg akkurat tidsnok.\n\nPå veggen henger et gult skjerf med navnemerke: SHINX. Litt lenger fremme ligger en annen knute av gul tråd i en sprekk. Bildet fra skogen får plutselig en annen betydning. De var to venner, ikke én redningsmann og én som måtte reddes.\n\nBak den lukkede døren hører du bevegelse. «Hvem er der?» spør en stemme.\n\n«Vi kommer fra Willowbrook,» svarer du.\n\n«Gå tilbake.» Stemmen er liten, men bestemt. «Jeg kan ikke åpne. Han trenger varmen.»\n\nDu setter deg ned på den kalde trappen. «Da skal vi ikke ta den fra ham,» sier du. «Først skal vi høre hva han selv vil.»\n\n[IF compassionate_letter] Bak døren rasler det i papir. «Var det du som skrev at vi begge kunne få hjelp?» spør stemmen.\n\n[IF urgent_letter] «Jeg leste brevet ditt,» sier stemmen. «Jeg vet at dalen trenger lyset. Men du må forstå hvorfor jeg er redd.»\n\n[IF practical_letter] Et papirark skyves under døren. Det er ditt eget kart, men noen har tegnet et lite kryss ved ovnen. Noen der inne har studert det.",
+    "en": "The upper stair is still damaged. This is where Shinx once fell. Now a stone slips beneath your own foot. Your partner catches you just in time.\n\nOn the wall hangs a yellow scarf with a name tag: SHINX. A little farther along, another knot of yellow thread is wedged in a crack. The photograph from the woods suddenly means something else. They were two friends—not one rescuer and someone who needed rescuing.\n\nBehind the closed door you hear movement. “Who's there?” asks a voice.\n\n“We've come from Willowbrook,” you answer.\n\n“Go back.” The voice is small but firm. “I can't open it. He needs the heat.”\n\nYou sit on the cold stair. “Then we won't take it from him,” you say. “First, we need to hear what he wants.”\n\n[IF compassionate_letter] From behind the door comes the rustle of paper. “Was it you who wrote that we could both be helped?” the voice asks.\n\n[IF urgent_letter] “I read your letter,” the voice says. “I know the valley needs the light. But I need you to understand why I am afraid.”\n\n[IF practical_letter] A sheet of paper slides beneath the door: your own map, now marked with a small cross beside the stove. Someone inside has studied it.\n\n[IF inspected_sky] You remember the loose handles on the basket. If you choose Sky, they will need a proper test first. [END]\n\n[IF inspected_heart] You remember the empty slot on the watch roster. Someone must take over when Ada is done. [END]\n\n[IF inspected_earth] You remember the backup stove beside the soil pot. It must hold its heat before anyone can trust the Earth plan. [END]",
+    "nb": "Den øverste trappen er fremdeles skadet. Her falt Shinx en gang. Nå løsner en stein under din egen fot. Partneren din griper deg akkurat tidsnok.\n\nPå veggen henger et gult skjerf med navnemerke: SHINX. Litt lenger fremme ligger en annen knute av gul tråd i en sprekk. Bildet fra skogen får plutselig en annen betydning. De var to venner, ikke én redningsmann og én som måtte reddes.\n\nBak den lukkede døren hører du bevegelse. «Hvem er der?» spør en stemme.\n\n«Vi kommer fra Pilebekk,» svarer du.\n\n«Gå tilbake.» Stemmen er liten, men bestemt. «Jeg kan ikke åpne. Han trenger varmen.»\n\nDu setter deg ned på den kalde trappen. «Da skal vi ikke ta den fra ham,» sier du. «Først skal vi høre hva han selv vil.»\n\n[IF compassionate_letter] Bak døren rasler det i papir. «Var det du som skrev at vi begge kunne få hjelp?» spør stemmen.\n\n[IF urgent_letter] «Jeg leste brevet ditt,» sier stemmen. «Jeg vet at dalen trenger lyset. Men du må forstå hvorfor jeg er redd.»\n\n[IF practical_letter] Et papirark skyves under døren. Det er ditt eget kart, men noen har tegnet et lite kryss ved ovnen. Noen der inne har studert det.\n\n[IF inspected_sky] Du husker de løse bærehåndtakene på kurven. Dersom dere velger Himmel, må de prøves ordentlig først. [END]\n\n[IF inspected_heart] Du husker det tomme feltet på vaktlisten. Noen må ta over når Ada er ferdig. [END]\n\n[IF inspected_earth] Du husker reserveovnen ved jordpotten. Den må holde varmen før noen får stole på Jord-planen. [END]",
     "choices": [
       {
         "id": "S20.1",
-        "label": "Show photo or read letter",
-        "nb": "Vis fotografiet eller brevet",
+        "label": "Show the photo or letter to build trust",
+        "nb": "Vis fotografiet eller brevet for å bygge tillit",
         "to": "S21",
         "when": "photo_lumi_shinx OR compassionate_letter",
         "set": [
           "lumi_open_to_talk"
         ],
-        "get": []
+        "get": [],
+        "nbResponse": "Du holder fotografiet frem mot sprekken under døren og forteller om brevet. På den andre siden blir det helt stille. Så hører du papir som blir brettet ut. «Dere fant oss», sier stemmen, langt mindre hardt enn før.",
+        "response": "You hold the photograph near the gap under the door and mention the letter. Everything goes quiet on the other side. Then you hear paper unfolding. “You found us,” says the voice, much less sharply than before."
       },
       {
         "id": "S20.2",
-        "label": "Explain the old book",
-        "nb": "Fortell hva du fant i boken",
+        "label": "Explain the danger of leaving the glass closed",
+        "nb": "Forklar faren ved å vente med å åpne glasset",
         "to": "S21",
         "when": "TRUE",
         "set": [
           "lumi_knows_pressure"
         ],
-        "get": []
+        "get": [],
+        "nbResponse": "«Vi vet hvorfor lyset ikke kommer ut», sier du og forklarer trykket i glasset. Noe skraper mot døren. «Så det blir verre hvis jeg bare venter?» spør stemmen. «Ja», svarer du. «Men vi kan hjelpe uten å ta varmen fra Shinx.»",
+        "response": "“We know why the light cannot get out,” you say, explaining the pressure inside the glass. Something scrapes against the door. “So waiting will make it worse?” the voice asks. “Yes,” you say. “But we can help without taking Shinx’s warmth away.”"
       },
       {
         "id": "S20.3",
-        "label": "Ask Shinx through the door",
-        "nb": "Spør Shinx direkte gjennom døren",
+        "label": "Ask Shinx what he needs before anyone decides",
+        "nb": "Spør Shinx hva han trenger, før noen bestemmer",
         "to": "S21",
         "when": "TRUE",
         "set": [
           "asked_shinx"
         ],
-        "get": []
+        "get": [],
+        "nbResponse": "Du setter deg ned så Shinx kan høre deg gjennom dørsprekken. «Hva trenger du akkurat nå?» spør du. Det blir stille. Så svarer en svak stemme: «At noen spør meg før de bestemmer.» Du blir sittende til han er ferdig med å snakke.",
+        "response": "You sit so Shinx can hear you through the gap. “What do you need right now?” you ask. There is a pause. Then a tired voice answers, “For someone to ask me before deciding.” You stay until he has finished speaking."
       }
     ]
   },
@@ -885,26 +919,30 @@
     "choices": [
       {
         "id": "S21.1",
-        "label": "Listen before proposing plans",
-        "nb": "Lytt før du foreslår løsninger",
+        "label": "Let Lumi finish speaking before making a plan",
+        "nb": "La Lumi fortelle ferdig før dere planlegger",
         "to": "S22",
         "when": "TRUE",
         "set": [
           "lumi_trust",
           "moon_kindness"
         ],
-        "get": []
+        "get": [],
+        "nbResponse": "Du lar Lumi fortelle ferdig. Hun knuger kanten av teppet før hun endelig slipper det. «Jeg trodde det bare fantes to valg», sier hun. «Holde lyset her eller miste Shinx.» Shinx rister på hodet. «Kanskje vi finner et tredje.»",
+        "response": "You let Lumi finish. She grips the edge of the blanket, then finally lets it go. “I thought there were only two choices,” she says. “Keep the light here or lose Shinx.” Shinx shakes his head. “Maybe there’s another way.”"
       },
       {
         "id": "S21.2",
-        "label": "Explain risks without blame",
-        "nb": "Forklar konkrete farer uten å klandre",
+        "label": "Explain what the darkness is doing to the valley",
+        "nb": "Forklar hva mørket gjør med dalen",
         "to": "S22",
         "when": "TRUE",
         "set": [
           "lumi_informed"
         ],
-        "get": []
+        "get": [],
+        "nbResponse": "Du peker på sprekken i kuppelen og forteller hva som skjer i dalen. Lumi trekker etter pusten, men du fortsetter rolig: «Vi trenger en plan som hjelper Shinx og slipper lyset ut.» Shinx ser på henne. «Det er det jeg også ønsker.»",
+        "response": "You point to the crack in the dome and explain what is happening in the valley. Lumi catches her breath, but you continue calmly. “We need a plan that keeps Shinx safe and lets the light out.” Shinx looks at her. “That’s what I want too.”"
       }
     ]
   },
@@ -918,8 +956,8 @@
     "choices": [
       {
         "id": "S22.1",
-        "label": "Explain safe basket",
-        "nb": "Beskriv trygg kurv",
+        "label": "Let Shinx try the warm carrying basket",
+        "nb": "La Shinx prøve den varme bærekurven",
         "to": "S23",
         "when": "warmth_sky_ready",
         "set": [
@@ -931,8 +969,8 @@
       },
       {
         "id": "S22.2",
-        "label": "Explain watch plan",
-        "nb": "Beskriv vaktplanen",
+        "label": "Let Shinx consider the watch plan",
+        "nb": "La Shinx vurdere vaktordningen",
         "to": "S23",
         "when": "warmth_heart_ready",
         "set": [
@@ -944,8 +982,8 @@
       },
       {
         "id": "S22.3",
-        "label": "Explain Earth plan and backup heat",
-        "nb": "Beskriv jordplanen og reservevarmen",
+        "label": "Let Shinx test the Earth plan’s backup heat",
+        "nb": "La Shinx prøve jordplanens reservevarme",
         "to": "S23",
         "when": "earth_pot_found AND earth_backup_ready AND silver_seed",
         "set": [
@@ -957,12 +995,14 @@
       },
       {
         "id": "S22.4",
-        "label": "Gather supplies",
-        "nb": "Skaff nødvendig utstyr",
+        "label": "Fetch and test the missing equipment",
+        "nb": "Hent og test utstyret som mangler",
         "to": "Q_PREP",
         "when": "NOT valid_consent",
         "set": [],
-        "get": []
+        "get": [],
+        "nbResponse": "Du ser gjennom utstyret en gang til. En av planene mangler noe viktig. «Vi skal ikke gjette oss frem», sier du til Shinx. Han nikker. «Kom tilbake når dere har prøvd den ordentlig.»",
+        "response": "You check the equipment again. Something important is missing from the plans. “We won’t guess,” you tell Shinx. He nods. “Come back when you’ve really tested it.”"
       },
       {
         "id": "S22.5",
@@ -971,7 +1011,9 @@
         "to": "Q_PREP",
         "when": "valid_consent",
         "set": [],
-        "get": []
+        "get": [],
+        "nbResponse": "Du stanser før dere bestemmer dere. «Jeg vil se på mulighetene en gang til», sier du. Shinx virker lettet. «Det går bra. Bare ikke bestem over hodet på meg.»",
+        "response": "You stop before making a decision. “I want to check the options again,” you say. Shinx looks relieved. “That’s fine. Just don’t decide without me.”"
       }
     ]
   },
@@ -990,25 +1032,31 @@
         "to": "S24",
         "when": "valid_consent",
         "set": [],
-        "get": []
+        "get": [],
+        "nbResponse": "Du stiller deg ved de tre ringene. Lyset i taksprekken pulserer, og støvet på gulvet løfter seg. Bak deg hører du Shinx trekke pusten. Planene som faktisk er klare, begynner å lyse.",
+        "response": "You step toward the three rings. Light pulses in the crack overhead, lifting dust from the floor. Behind you, Shinx takes a breath. Only the plans you truly prepared begin to glow."
       },
       {
         "id": "S23.2",
-        "label": "Revisit the valley",
-        "nb": "Undersøk dalen igjen",
+        "label": "Check which places in the valley need help",
+        "nb": "Se hvilke steder i dalen som trenger hjelp",
         "to": "Q_RETURN",
         "when": "NOT release_done",
         "set": [],
-        "get": []
+        "get": [],
+        "nbResponse": "Du ser ut over dalen for å forsikre deg om at hjelpen er kommet frem. Langt nede svarer noen med en lykt. «Vi har ikke glemt dem», sier du. Tårnklokken slår igjen mens du åpner kartet.",
+        "response": "You look toward the valley to make sure the helpers arrived. Far below, someone answers with a lantern. “We haven’t forgotten them,” you say. The tower bell rings again as you open the map."
       },
       {
         "id": "S23.3",
-        "label": "Check equipment",
-        "nb": "Kontroller utstyret igjen",
+        "label": "Go back and test the plans before choosing",
+        "nb": "Gå tilbake og test planene før dere velger",
         "to": "Q_PREP",
         "when": "TRUE",
         "set": [],
-        "get": []
+        "get": [],
+        "nbResponse": "Du prøver å huske hva dere faktisk har testet, og hva dere bare har snakket om. «Vi går tilbake og sjekker», sier du. Lumi slipper pusten hun har holdt. «Takk.»",
+        "response": "You try to separate what you tested from what you merely discussed. “We’ll go back and check,” you say. Lumi releases the breath she has been holding. “Thank you.”"
       }
     ]
   },
@@ -1033,7 +1081,9 @@
         "alternate": {
           "when": "helped_altaria AND mira_trust",
           "to": "E_AURORA"
-        }
+        },
+        "nbResponse": "Du velger Himmel. Hjelperne setter kurven ved siden av Shinx og viser hvor de innpakkede steinene skal ligge. «Jeg vil prøve puten først», sier han. Lumi nikker. Ingen rører låsen før Shinx har kjent etter selv.",
+        "response": "You choose Sky. The helpers place the basket beside Shinx and show him where the wrapped stones will go. “I want to try the cushion first,” he says. Lumi nods. Nobody touches the lock until Shinx has tested it himself."
       },
       {
         "id": "S24.2",
@@ -1048,7 +1098,9 @@
         "alternate": {
           "when": "know_old_verse",
           "to": "E_SONG"
-        }
+        },
+        "nbResponse": "Du velger Hjerte. Ada stiller den første lykten ved ovnen, mens Bo viser hvor reserveoljen står. «Dere blir her når den første vakten er over?» spør Shinx. «Ja», svarer de sammen. Han nikker til Lumi. «Da kan dere tenne.»",
+        "response": "You choose Heart. Ada places the first lantern beside the stove while Bo shows Shinx the spare oil. “You’ll still be here after the first watch?” he asks. “Yes,” they answer together. He nods to Lumi. “Then you can light it.”"
       },
       {
         "id": "S24.3",
@@ -1063,16 +1115,20 @@
         "alternate": {
           "when": "helped_altaria AND knows_shinx_care",
           "to": "E_SANCTUARY"
-        }
+        },
+        "nbResponse": "Du velger Jord. Reserveovnen brenner jevnt, og Shinx prøver varmen ved den tomme potten. «Det er varmt nok», sier han. «Nå kan dere plante frøet.» Lumi løfter blikket mot låsen.",
+        "response": "You choose Earth. The backup stove burns steadily, and Shinx tests the warmth beside the empty pot. “It’s warm enough,” he says. “You can plant the seed now.” Lumi looks up at the lock."
       },
       {
         "id": "S24.4",
-        "label": "Reconsider",
-        "nb": "Prøv en annen løsning",
+        "label": "Don’t choose yet — check the equipment",
+        "nb": "Ikke velg ennå – se over utstyret",
         "to": "Q_PREP",
         "when": "TRUE",
         "set": [],
-        "get": []
+        "get": [],
+        "nbResponse": "Du ser på ringene en gang til. «Vi er ikke nødt til å velge bare fordi vi har hastverk», sier du. Shinx svarer: «Da gjør vi det vi mangler, og kommer tilbake.»",
+        "response": "You look at the rings once more. “We don’t have to choose just because we’re in a hurry,” you say. Shinx replies, “Then let’s finish what’s missing and come back.”"
       }
     ]
   },
@@ -1081,8 +1137,8 @@
     "title": "A Sky That Remembers",
     "nbTitle": "En himmel som husker",
     "chapter": 5,
-    "en": "[IF release_done] From the mountain you watch starlight return to Willowbrook. First a darkened flower becomes silver again. Then window after window shines. The stars were there all along—their light has finally found its way back to the valley.\n\nIn the square, Mira holds a repaired map. “No holes this time,” she says. After a quiet moment she adds, “And no more secrets when safety is at stake.”\n\n[IF rescued_pikachu] Pikachu appears on the trail. [ELSE IF pikachu_help_sent] One of Mira's helpers waves. “Pikachu is safe at home!” [ELSE] The old lantern post stands silent now.\n\n[IF hoothoot_nest] Hoothoot returns to a secure nest. [ELSE] A helper fastens a new support beneath Hoothoot's branch while you watch.\n\n[IF helped_altaria] Altaria circles the tower with her whole flock. [ELSE] A distant call tells you Altaria is still searching; Mira promises to send a search party.\n\nLumi stays beside Shinx, who still needs rest and care. Your partner leans against you. The adventure is over, but an unusual shimmer dances inside your map if you uncovered the valley's oldest secrets.\n\n[IF compassionate_letter] Lumi unfolds your letter beside Shinx. “You meant it,” she says. “You really did help us both.”\n\n[IF mira_accountability] Mira shows the repaired warning sign beside the trail. She has not asked anyone to forget the accident; she has made sure they can see what must change.",
-    "nb": "[IF release_done] Fra fjellet ser du at stjernelyset vender tilbake til Willowbrook. Først blir én mørklagt blomst sølvfarget. Så tennes vindu etter vindu. Stjernene har hele tiden vært der – det er lyset deres som igjen finner frem til dalen.\n\nPå torget står Mira med et reparert kart i hendene. «Ingen hull denne gangen», sier hun. Et øyeblikk er hun stille før hun legger til: «Og ingen hemmeligheter når det gjelder sikkerheten.»\n\n[IF rescued_pikachu] Pikachu kommer til syne ved stien. [ELSE IF pikachu_help_sent] En av Miras hjelpere vinker: «Pikachu er trygt hjemme!» [ELSE] Den gamle lyktestolpen er nå stille.\n\n[IF hoothoot_nest] Hoothoot vender tilbake til et trygt rede. [ELSE] En vakt legger et nytt feste under Hoothoots grein mens dere ser på.\n\n[IF helped_altaria] Altaria kretser over tårnet sammen med hele flokken. [ELSE] Et fjernt rop forteller at Altaria fortsatt leter; Mira lover å sende et letemannskap.\n\nLumi blir ved Shinx, som ennå trenger ro og oppfølging. Partneren din lener seg mot deg. Eventyret er over, men et uvanlig skinn danser på innsiden av kartet ditt dersom du oppdaget dalens aller eldste hemmeligheter.\n\n[IF compassionate_letter] Lumi bretter ut brevet ditt ved siden av Shinx. «Du mente det,» sier hun. «Du hjalp oss faktisk begge.»\n\n[IF mira_accountability] Mira viser deg det reparerte varselskiltet ved stien. Hun har ikke bedt noen glemme ulykken. Hun har sørget for at alle kan se hva som må endres.",
+    "en": "[IF release_done] From the mountain you watch starlight return to Willowbrook. First a darkened flower becomes silver again. Then window after window shines. The stars were there all along—their light has finally found its way back to the valley.\n\nIn the square, Mira holds a repaired map. “No holes this time,” she says. After a quiet moment she adds, “And no more secrets when safety is at stake.”\n\n[IF rescued_pikachu] Pikachu appears on the trail. [ELSE IF pikachu_help_sent] One of Mira's helpers waves. “Pikachu is safe at home!” [ELSE] The old lantern post stands silent now.\n\n[IF hoothoot_nest] Hoothoot returns to a secure nest. [ELSE] A helper fastens a new support beneath Hoothoot's branch while you watch.\n\n[IF helped_altaria] Altaria circles the tower with her whole flock. [ELSE] A distant call tells you Altaria is still searching; Mira promises to send a search party.\n\nLumi stays beside Shinx, who still needs rest and care. Your partner leans against you. The adventure is over, but an unusual shimmer dances inside your map if you uncovered the valley's oldest secrets.\n\n[IF compassionate_letter] Lumi unfolds your letter beside Shinx. “You meant it,” she says. “You really did help us both.”\n\n[IF mira_accountability] Mira shows the repaired warning sign beside the trail. She has not asked anyone to forget the accident; she has made sure they can see what must change.\n\n[IF puzzle_hoothoot_solved] On the map you see the little brace you drew beside Hoothoot’s nest. It was one of the first things you worked out for yourself. [END]\n\n[IF puzzle_psyduck_solved] Three gears are drawn beside the river. Psyduck used the solution to understand why the wheel turns. [END]\n\n[IF puzzle_gastly_solved] A small golden lantern mark reminds you that Gastly let you find the way without harming the roots. [END]\n\n[IF puzzle_starwheel_solved] By the observatory, the sun, star and moon shine in the order you discovered for yourself. [END]",
+    "nb": "[IF release_done] Fra fjellet ser du at stjernelyset vender tilbake til Pilebekk. Først blir én mørklagt blomst sølvfarget. Så tennes vindu etter vindu. Stjernene har hele tiden vært der – det er lyset deres som igjen finner frem til dalen.\n\nPå torget står Mira med et reparert kart i hendene. «Ingen hull denne gangen», sier hun. Et øyeblikk er hun stille før hun legger til: «Og ingen hemmeligheter når det gjelder sikkerheten.»\n\n[IF rescued_pikachu] Pikachu kommer til syne ved stien. [ELSE IF pikachu_help_sent] En av Miras hjelpere vinker: «Pikachu er trygt hjemme!» [ELSE] Den gamle lyktestolpen er nå stille.\n\n[IF hoothoot_nest] Hoothoot vender tilbake til et trygt rede. [ELSE] En vakt legger et nytt feste under Hoothoots grein mens dere ser på.\n\n[IF helped_altaria] Altaria kretser over tårnet sammen med hele flokken. [ELSE] Et fjernt rop forteller at Altaria fortsatt leter; Mira lover å sende et letemannskap.\n\nLumi blir ved Shinx, som ennå trenger ro og oppfølging. Partneren din lener seg mot deg. Eventyret er over, men et uvanlig skinn danser på innsiden av kartet ditt dersom du oppdaget dalens aller eldste hemmeligheter.\n\n[IF compassionate_letter] Lumi bretter ut brevet ditt ved siden av Shinx. «Du mente det,» sier hun. «Du hjalp oss faktisk begge.»\n\n[IF mira_accountability] Mira viser deg det reparerte varselskiltet ved stien. Hun har ikke bedt noen glemme ulykken. Hun har sørget for at alle kan se hva som må endres.\n\n[IF puzzle_hoothoot_solved] På kartet ser du den lille støtteformen du tegnet ved Hoothoots rede. Det var en av de første tingene du fant ut selv. [END]\n\n[IF puzzle_psyduck_solved] Ved elven er det tegnet tre tannhjul. Psyduck brukte løsningen til å forstå hvorfor hjulet dreier. [END]\n\n[IF puzzle_gastly_solved] Et lite gyllent lyktesymbol minner deg om at Gastly lot deg finne veien uten å skade røttene. [END]\n\n[IF puzzle_starwheel_solved] Ved observatoriet lyser sol, stjerne og måne i den rekkefølgen du fant selv. [END]",
     "choices": [
       {
         "id": "S25.1",
@@ -1093,7 +1149,9 @@
         "set": [
           "main_complete"
         ],
-        "get": []
+        "get": [],
+        "nbResponse": "Du bretter sammen Miras kart. Noen av merkene er små, andre har forandret hvordan dalen ser ut. Partneren din dytter hånden din med snuten. Eventyret er ferdig, men det dere gjorde, blir igjen.",
+        "response": "You fold Mira’s map. Some of the marks are small; others changed the valley itself. Your partner nudges your hand. The adventure is over, but what you did will remain."
       },
       {
         "id": "S25.2",
@@ -1104,7 +1162,9 @@
         "set": [
           "main_complete"
         ],
-        "get": []
+        "get": [],
+        "nbResponse": "I kartets kant skimrer et tegn du ikke la merke til tidligere. Det lyser bare der dine egne spor møtes. Du holder kartet opp mot stjernene. Noe der oppe ser tilbake.",
+        "response": "A mark glimmers at the edge of the map, one you did not notice before. It shines only where the traces of your own journey meet. You hold the map up to the stars. Something up there seems to look back."
       }
     ]
   },
@@ -1125,7 +1185,9 @@
         "set": [
           "warmth_sky_ready"
         ],
-        "get": []
+        "get": [],
+        "nbResponse": "Du og hjelperne pakker varme steiner inn i tykke tøystykker. Kurven løftes et lite stykke og settes ned igjen uten at noe velter. Du setter et hakekryss ved Himmel på kartet. Nå kan Shinx prøve den selv.",
+        "response": "You and the helpers wrap warmed stones in thick cloth. The basket is lifted a short distance and lowered without anything tipping over. You tick Sky on the map. Now Shinx can try it for himself."
       },
       {
         "id": "Q_PREP.2",
@@ -1136,7 +1198,9 @@
         "set": [
           "warmth_heart_ready"
         ],
-        "get": []
+        "get": [],
+        "nbResponse": "Ada tenner en lykt. Bo overtar og viser hvor reserveoljen står. Deretter bytter de tilbake uten at flammen slukner. «Da vet vi hvem som gjør hva», sier Mira. Du setter et hakekryss ved Hjerte på kartet.",
+        "response": "Ada lights a lantern. Bo takes over and shows you the spare oil. Then they switch back without letting the flame go out. “Now everyone knows their part,” Mira says. You tick Heart on the map."
       },
       {
         "id": "Q_PREP.3",
@@ -1148,8 +1212,8 @@
           "earth_pot_found"
         ],
         "get": [],
-        "response": "You find a sturdy pot and fill it with soil. The silver seed gives a small pulse nearby. But when you reach for the backup stove, its flame sputters. The pot is ready; the heat still needs testing.",
-        "nbResponse": "Du finner en solid potte og fyller den med jord. Sølvfrøet gir et lite blink like ved. Men når du prøver reserveovnen, blafrer flammen ujevnt. Potten er klar. Varmen må fortsatt testes."
+        "response": "You find a sturdy pot and fill it with soil. The silver seed gives a faint pulse in your pocket. But the backup stove coughs and goes out when you try it. You draw a pot on the map, leaving the backup-heat box empty.",
+        "nbResponse": "Du finner en stødig potte og fyller den med jord. Sølvfrøet blinker svakt i lommen. Men reserveovnen hoster og slukner når du prøver den. Du tegner en potte på kartet, men lar feltet for reservevarme stå tomt."
       },
       {
         "id": "Q_PREP.4",
@@ -1161,8 +1225,8 @@
           "earth_backup_ready"
         ],
         "get": [],
-        "response": "You check the stove's fuel, clear its air vent, and light it again. This time the flame burns steadily. You wait, then carefully test the warmth of the soil. The backup is ready before anyone needs to rely on it.",
-        "nbResponse": "Du sjekker brenselet, renser luftåpningen og tenner reserveovnen på nytt. Denne gangen brenner flammen jevnt. Du venter litt og kjenner forsiktig på jorden. Reservevarmen er klar før noen trenger å stole på den."
+        "response": "You clear the air vent, add fuel and light the stove again. This time the flame burns steadily. You wait until the soil is warm and check that the heat lasts. Earth gets its final tick on the map.",
+        "nbResponse": "Du renser luftåpningen, fyller på brensel og tenner ovnen igjen. Denne gangen står flammen jevnt. Dere venter til jorden er varm og prøver at varmen holder. Nå får Jord-planen sitt siste hakekryss."
       },
       {
         "id": "Q_PREP.5",
@@ -1171,7 +1235,9 @@
         "to": "RETURN_MAIN",
         "when": "prepared_route",
         "set": [],
-        "get": []
+        "get": [],
+        "nbResponse": "Du legger fra deg listen over utstyret. «Nå skal Shinx få se hva som er klart», sier du. Mira følger deg til trappen og blir igjen hos hjelperne. Det er Shinx, ikke listen, som skal avgjøre hvilken løsning han ønsker.",
+        "response": "You put down the equipment list. “Now Shinx should see what is ready,” you say. Mira accompanies you to the stairs and stays with the helpers. Shinx, not the checklist, will decide which plan he wants."
       }
     ]
   },
@@ -1185,8 +1251,8 @@
     "choices": [
       {
         "id": "Q_RETURN.1",
-        "label": "Help in Willowbrook",
-        "nb": "Hjelp i Willowbrook",
+        "label": "Return to Eevee and Pichu in the square",
+        "nb": "Tilbake til Eevee og Pichu på torget",
         "to": "Q_VILLAGE",
         "when": "NOT rescue_square",
         "set": [],
@@ -1194,8 +1260,8 @@
       },
       {
         "id": "Q_RETURN.2",
-        "label": "Pikachu",
-        "nb": "Pikachu",
+        "label": "Return to Pikachu in the ivy",
+        "nb": "Tilbake til Pikachu i eføyen",
         "to": "Q_PIKACHU",
         "when": "NOT rescued_pikachu",
         "set": [],
@@ -1203,8 +1269,8 @@
       },
       {
         "id": "Q_RETURN.3",
-        "label": "Hoothoot",
-        "nb": "Hoothoot",
+        "label": "Return to Hoothoot’s unsafe nest",
+        "nb": "Tilbake til Hoothoots utrygge rede",
         "to": "Q_HOOTHOOT",
         "when": "NOT hoothoot_nest",
         "set": [],
@@ -1212,8 +1278,8 @@
       },
       {
         "id": "Q_RETURN.4",
-        "label": "Lapras",
-        "nb": "Lapras",
+        "label": "Return to Lapras at the river",
+        "nb": "Tilbake til Lapras ved elven",
         "to": "Q_LAPRAS",
         "when": "NOT rescued_lapras",
         "set": [],
@@ -1221,8 +1287,8 @@
       },
       {
         "id": "Q_RETURN.5",
-        "label": "Psyduck",
-        "nb": "Psyduck",
+        "label": "Return to Psyduck’s waterwheel",
+        "nb": "Tilbake til Psyducks vannhjul",
         "to": "Q_PSYDUCK",
         "when": "NOT helped_psyduck",
         "set": [],
@@ -1230,8 +1296,8 @@
       },
       {
         "id": "Q_RETURN.6",
-        "label": "Repair the bridge",
-        "nb": "Reparer broen",
+        "label": "Return to secure the damaged bridge",
+        "nb": "Tilbake for å sikre den ødelagte broen",
         "to": "Q_BRIDGE",
         "when": "NOT bridge_repaired",
         "set": [],
@@ -1239,8 +1305,8 @@
       },
       {
         "id": "Q_RETURN.7",
-        "label": "Altaria",
-        "nb": "Altaria",
+        "label": "Return to search for Altaria’s chick",
+        "nb": "Tilbake for å lete etter Altarias unge",
         "to": "Q_ALTARIA",
         "when": "NOT helped_altaria",
         "set": [],
@@ -1248,8 +1314,8 @@
       },
       {
         "id": "Q_RETURN.8",
-        "label": "Gastly",
-        "nb": "Gastly",
+        "label": "Return to hear Gastly’s story",
+        "nb": "Tilbake for å høre Gastlys fortelling",
         "to": "Q_GASTLY",
         "when": "NOT gastly_friend",
         "set": [],
@@ -1334,8 +1400,8 @@
     "title": "The Letter You Never Wrote",
     "nbTitle": "Brevet du ikke skrev",
     "chapter": 4,
-    "en": "A blank sheet lies on the supply table. You think of the letter from the tower: “The light needs to stay here a little longer. Please.” You remember the drawing of Shinx with another blanket, and then another.\n\nYour first thought is to tell Lumi that she has taken the light from the whole valley. It would be true. But it would not tell her what you intend to do now.\n\nYou write: “We know you were trying to protect Shinx. We haven't come to take away his warmth. We want to find a safer answer together, and we want to hear what he wants.”\n\nMira reads the letter over your shoulder. “I wish I'd asked for help sooner,” she says.\n\nYou fold the paper. The little mail basket waits beside the waterwheel. You don't know whether Lumi will answer.",
-    "nb": "På forsyningsbordet ligger et blankt ark. Du tenker på brevet fra tårnet: «Lyset må bli her litt til. Vær så snill.» Du husker tegningen av Shinx med enda et teppe rundt seg. Og så enda et.\n\nFørst har du lyst til å skrive at Lumi har tatt lyset fra hele dalen. Det er sant. Men det sier ingenting om hva dere vil gjøre nå.\n\nDu skriver: «Vi vet at du prøvde å beskytte Shinx. Vi kommer ikke for å ta fra ham varmen. Vi vil finne en tryggere løsning sammen, og vi vil høre hva han selv ønsker.»\n\nMira leser brevet over skulderen din. «Jeg skulle ønske jeg hadde bedt om hjelp tidligere», sier hun.\n\nDu bretter sammen arket. Den lille postkurven venter ved vannhjulet. Du vet ikke om Lumi vil svare.",
+    "en": "Back at the river, you find the little mail basket beside the waterwheel. Paper, a pencil and an empty envelope lie on a shelf. You remember the drawing of Shinx beneath all those blankets.\n\n“We should have written more,” you tell your partner. “Not just what we want them to do, but why we want to help.”\n\nThe basket is empty and ready. You can write the letter now and send it up to the tower.",
+    "nb": "Tilbake ved elven finner du den lille postkurven hengende ved vannhjulet. På en hylle ligger papir, blyant og en tom konvolutt. Du tenker på tegningen av Shinx under alle teppene.\n\n«Vi burde ha skrevet mer», sier du til partneren din. «Ikke bare hva vi vil at de skal gjøre, men hvorfor vi vil hjelpe.»\n\nKurven er tom og klar. Du kan skrive brevet nå og sende det opp til tårnet.",
     "choices": [
       {
         "id": "Q_RECONCILE.1",
@@ -1348,8 +1414,8 @@
           "moon_kindness"
         ],
         "get": [],
-        "response": "You place the letter in the basket. The wheel turns, the cable tightens, and the basket disappears toward the tower. For a while, the speaking tube is silent. Then Lumi's voice comes through, barely louder than a whisper.\n\n“Thank you for asking first. I ... I want to listen.”",
-        "nbResponse": "Du legger brevet i kurven. Hjulet dreier, vaieren strammes, og kurven forsvinner opp mot tårnet. En stund er talerøret stille. Så høres Lumis stemme, nesten bare som en hvisking.\n\n«Takk for at dere spør først. Jeg ... jeg vil gjerne høre.»"
+        "response": "You write: “I know you are afraid. We will not take Shinx’s warmth away. We are working on another plan, and we want to hear what he thinks.” You place the letter in the basket. The wheel turns, carrying it toward the tower. A little later, a note returns: “Come and talk to us. —Lumi.”",
+        "nbResponse": "Du skriver: «Jeg vet at du er redd. Vi vil ikke ta fra Shinx varmen. Vi arbeider med en annen løsning, og vi vil høre hva han selv mener.» Du legger brevet i kurven. Hjulet snurrer, og brevet forsvinner opp mot tårnet. En stund senere kommer en liten lapp tilbake: «Kom og snakk med oss. – Lumi.»"
       }
     ]
   },
@@ -1358,8 +1424,8 @@
     "title": "The Hidden Archive Page",
     "nbTitle": "Arkivets skjulte side",
     "chapter": 4,
-    "en": "You hold the crescent lens above the old booklet. At first you see only dust and cracked leather. Then fine silver lines emerge between the letters.\n\nThey do not look like a route across the mountain. They resemble a piece of the night sky as it appeared a hundred years ago. The marks grow faint whenever you move the lens.\n\nYour map is open beside the booklet. You have one chance to copy the lines before the light changes.",
-    "nb": "Du holder halvmånelinsen over det gamle heftet. Først ser du bare støv og sprukket skinn. Så kommer tynne sølvstreker til syne mellom bokstavene.\n\nDe ligner ikke en sti over fjellet. De ser ut som en liten bit av nattehimmelen slik den var for hundre år siden. Strekene blekner hver gang du flytter linsen.\n\nKartet ditt ligger åpent ved siden av heftet. Du har sjansen til å tegne av strekene før lyset forandrer seg.",
+    "en": "In the archive, you find the page with the nearly invisible lines. They lie like fine scratches along the edge of the paper. You hold the crescent lens over them and catch a faint silver glimmer, but no clear picture yet.\n\nYou lay out paper and pencil. If you work slowly enough, you may be able to preserve what would otherwise disappear.",
+    "nb": "I arkivet finner du igjen siden med de nesten usynlige strekene. De ligger som fine riper langs papirkanten. Du holder halvmånelinsen over den og ser et svakt sølvglimt, men ingen tydelig tegning ennå.\n\nDu legger frem papir og blyant. Hvis du arbeider langsomt nok, kan du kanskje bevare det som ellers ville forsvunnet.",
     "choices": [
       {
         "id": "Q_ARCHIVE.1",
@@ -1371,8 +1437,8 @@
           "map_fragment_2"
         ],
         "get": [],
-        "response": "You steady the lens with one hand and copy every silver line with the other. The last mark fades just as your pencil leaves the paper. You compare the two drawings: nothing is missing. You have kept the second piece of the star map.",
-        "nbResponse": "Du holder linsen stødig med den ene hånden og tegner av hver sølvstrek med den andre. Det siste merket blekner idet du løfter blyanten. Du sammenligner tegningene: Ingenting mangler. Du har bevart den andre delen av stjernekartet."
+        "response": "You hold the lens over the edge of the page. One silver line appears, then another. You trace them with your pencil until the whole pattern is copied. As you lift your hand, the light vanishes. The drawing on your map is all that remains.",
+        "nbResponse": "Du løfter linsen over kanten av arket. En sølvstrek kommer til syne, så en til. Du følger dem med blyanten til hele mønsteret er tegnet av. Idet du løfter hånden, forsvinner lyset. Tegningen på kartet ditt er det eneste som står igjen."
       }
     ]
   },
@@ -1381,8 +1447,8 @@
     "title": "The Lantern Stand",
     "nbTitle": "Lyktestativet",
     "chapter": 4,
-    "en": "Eevee waits beneath the same lantern stand as on festival night. Pichu is tangled in a cord. When it sees you, it tries to smile and only tangles itself further.\n\n“One knot at a time,” you say. Your partner steadies the lantern as you undo the cord. Eevee hops down and nudges a little lantern toward you. Before leaving, you show them where to find the helpers if the darkness returns.",
-    "nb": "Eevee sitter under det samme lyktestativet som på festkvelden. Pichu har viklet seg inn i en snor. Da den ser deg, forsøker den å smile, men blir bare mer sammenfiltret.\n\n«Vi tar én knute om gangen», sier du. Partneren din holder lykten stødig mens du løsner snoren. Eevee hopper ned og dytter en liten lykt mot deg. Før du går, viser du dem hvor hjelperne holder til dersom mørket kommer tilbake.",
+    "en": "The lantern stand is still crooked in the square. Eevee sits beneath the bench, and Pichu has caught one paw in a cord. Every time it pulls, the cord tightens a little more.\n\nEevee looks up as you approach. Your partner moves beside the stand to keep it steady. Pichu waits for you to decide what to do.",
+    "nb": "På torget står lyktestativet fortsatt skjevt. Eevee sitter under benken, og Pichu har fått den ene poten viklet inn i en snor. Hver gang den trekker til, strammes snoren litt mer.\n\nEevee ser opp da dere kommer. Partneren din stiller seg ved stativet for å holde det stødig. Pichu venter på at du skal bestemme hva dere gjør.",
     "choices": [
       {
         "id": "Q_VILLAGE.1",
@@ -1394,7 +1460,9 @@
           "rescue_square",
           "moon_kindness"
         ],
-        "get": []
+        "get": [],
+        "nbResponse": "Du får Pichu forsiktig løs fra snoren mens partneren din holder stativet stødig. Eevee dytter en lykt bort til dere. Før du går, viser du begge hvor de kan finne hjelperne. To små skikkelser står tryggere igjen på torget.",
+        "response": "You gently free Pichu from the cord while your partner steadies the stand. Eevee pushes a lantern toward you. Before leaving, you show them where to find the helpers. Two small figures are safer in the square than when you arrived."
       }
     ]
   },
@@ -1403,8 +1471,8 @@
     "title": "Ivy Again",
     "nbTitle": "Eføyen igjen",
     "chapter": 4,
-    "en": "The old lantern is still flashing. Pikachu struggles in the ivy, or waits for the helpers you alerted. “Wait!” you shout as sparks gather in its cheeks.\n\nYou cover the light. Your partner holds back the leaves while you loosen the roots. Pikachu lands on both feet, shakes itself, and looks down the forest path. Then it chooses to follow the helpers. You wave goodbye. It need not join you for the rescue to matter.",
-    "nb": "Den gamle lykten blinker fortsatt. Pikachu kjemper mot eføyen, eller venter på hjelperne du varslet. «Vent litt!» roper du idet det samler strøm i kinnene.\n\nDu dekker lyset. Partneren din holder bladene til side mens dere løsner røttene. Pikachu lander på begge føttene, rister seg og ser mot skogsstien. Så velger det å følge hjelperne videre. Du vinker farvel. Det behøver ikke bli med deg for at redningen skal telle.",
+    "en": "The lantern post is still flashing in the clearing. Ivy has wound itself around both the post and Pikachu. It lifts its head when you arrive but does not dare use more electricity.\n\n[IF pikachu_help_sent] The bright strip of cloth still hangs where you marked the place for the helpers. They are on their way, but Pikachu is not free yet. [END]\n\nYour partner looks at the lamp. You know what must happen first: stop the flashing before you try to loosen the ivy.",
+    "nb": "Lyktestolpen blinker fortsatt i lysningen. Eføyen har snodd seg rundt både stolpen og Pikachu. Den løfter hodet når du kommer, men våger ikke bruke mer strøm.\n\n[IF pikachu_help_sent] Et fargerikt tøystykke henger fortsatt der du merket stedet for hjelperne. De er på vei, men Pikachu er ikke løs ennå. [END]\n\nPartneren din ser på lykten. Du vet hva som må gjøres først: stoppe blinkingen før dere forsøker å løsne rankene.",
     "choices": [
       {
         "id": "Q_PIKACHU.1",
@@ -1416,7 +1484,9 @@
           "rescued_pikachu",
           "sun_rescue_1"
         ],
-        "get": []
+        "get": [],
+        "nbResponse": "Du dekker den blinkende lykten. Partneren din holder eføyen til side mens du løsner røttene. Pikachu lander på gresset og rister seg. «Pika!» Den ser mot stien, der hjelperne snart kommer, og velger å følge dem videre. Du tegner et lite lyn ved lysningen.",
+        "response": "You cover the flashing lamp. Your partner holds back the ivy while you loosen the roots. Pikachu drops onto the grass and shakes itself. “Pika!” It looks toward the trail, where the helpers will soon arrive, and chooses to follow them. You draw a little lightning mark by the clearing."
       }
     ]
   },
@@ -1425,8 +1495,8 @@
     "title": "Nest in the Wind",
     "nbTitle": "Redet i vinden",
     "chapter": 4,
-    "en": "A gust makes the broken branch creak. Hoothoot spreads its wings over the egg, but the nest tilts even further.\n\nYou brace the branch with bark while your partner holds it steady and you tighten the knot. At last the egg is safe. Hoothoot inspects your work, first with one eye, then the other. It places a polished stone by your shoe. Perhaps that's as close as a solemn owl gets to saying thank you.",
-    "nb": "Et kraftig vindkast får den knekte greinen til å knake. Hoothoot brer vingene over egget, men redet heller enda mer.\n\nDere fester bark under greinen og lar partneren holde mens du strammer knuten. Til slutt ligger egget trygt. Hoothoot inspiserer arbeidet, først med ett øye, så med det andre. Den legger en blank stein ved skoen din. Det er kanskje det nærmeste en høytidelig ugle kommer et takk.",
+    "en": "You recognise the stream before you see the nest. The cracked branch creaks above the water, and Hoothoot sits close beside the egg. A gust makes the whole nest tilt.\n\nYour partner finds a forked branch among the roots. If you brace the nest from below, perhaps Hoothoot can finally rest.",
+    "nb": "Du kjenner igjen bekken før du ser redet. Den knekte greinen knaker over vannet, og Hoothoot sitter tett ved egget. Et vindkast får hele redet til å vippe.\n\nPartneren din finner en bøyd grein mellom røttene. Hvis dere støtter redet nedenfra, kan kanskje Hoothoot endelig få hvile.",
     "choices": [
       {
         "id": "Q_HOOTHOOT.1",
@@ -1438,7 +1508,9 @@
           "hoothoot_nest",
           "moon_kindness"
         ],
-        "get": []
+        "get": [],
+        "nbResponse": "Dere fester den bøyde grenen mellom røttene og løfter den opp under redet. Hoothoot venter helt stille mens du prøver om støtten holder. Så setter den seg ved egget. «Hoo», sier den, mykere enn før. Du markerer det trygge redet på kartet.",
+        "response": "You wedge the forked branch between the roots and raise it beneath the nest. Hoothoot waits perfectly still while you test the support. Then it settles beside the egg. “Hoo,” it says, more softly than before. You mark the safe nest on the map."
       }
     ]
   },
@@ -1447,8 +1519,8 @@
     "title": "Cord in the River",
     "nbTitle": "Snoren i elven",
     "chapter": 4,
-    "en": "The cord tightens around Lapras's fin whenever the current pulls. You kneel by the bank. “We'll be careful.”\n\nYour partner slips a smooth stick beneath the loop while you ease it loose. Lapras frees its fin and splashes an entire wave over you in relief. Afterwards it offers a short ride along the calm shore. The water is dark, but no longer frightening.",
-    "nb": "Snoren strammer seg rundt Lapras' finne hver gang strømmen tar tak. Du setter deg på kne ved vannkanten. «Vi skal være forsiktige.»\n\nPartneren din skyver en glatt pinne under løkken mens du løsner den. Lapras trekker finnen fri og spruter en hel bølge over dere i ren lettelse. Etterpå lar den dere ta en kort tur langs den rolige bredden. Vannet er mørkt, men ikke lenger skremmende.",
+    "en": "Lapras rests in the quiet cove, but a cord tightens around one fin whenever the current pulls. It tries to move and stops with a low groan.\n\nYou find a smooth stick that could lift the cord without hurting the fin. Lapras watches your hand.",
+    "nb": "Lapras ligger ved den rolige bukten, men en snor strammer rundt den ene finnen hver gang strømmen tar tak. Den prøver å bevege seg og stopper med et lavt stønn.\n\nDu finner en glatt pinne som kan løfte snoren uten å skade finnen. Lapras følger hånden din med blikket.",
     "choices": [
       {
         "id": "Q_LAPRAS.1",
@@ -1460,7 +1532,9 @@
           "rescued_lapras",
           "sun_rescue_2"
         ],
-        "get": []
+        "get": [],
+        "nbResponse": "Du får løs den siste løkken uten å dra i finnen. Lapras strekker den forsiktig ut og spruter en bølge over deg av lettelse. Du ler, våt fra topp til tå. Den følger deg et stykke langs elven før den dykker ned i det mørke vannet.",
+        "response": "You ease off the final loop without pulling the fin. Lapras stretches it carefully and splashes you with a wave of relief. You laugh, soaked from head to toe. It accompanies you a short way along the river before slipping beneath the dark water."
       }
     ]
   },
@@ -1469,8 +1543,8 @@
     "title": "A Wheel in Place",
     "nbTitle": "Et hjul på plass",
     "chapter": 4,
-    "en": "Psyduck stares at a nut that has rolled beneath the waterwheel. “Psy ...”\n\n“Axle first,” you say. “Then the nut.” It takes a long breath and follows your instructions. The wheel coughs into motion, stops, then begins to turn steadily. Psyduck throws both paws into the air. This time it isn't holding anything it can drop.",
-    "nb": "Psyduck stirrer på en mutter som har rullet bort under vannhjulet. «Psy ...»\n\n«Først akslingen», sier du. «Så mutteren.» Den tar et langt pust og følger instruksjonen. Hjulet hoster i gang, stopper, og begynner så å snurre jevnt. Psyduck løfter begge potene i været. Denne gangen holder det ingenting som kan falle ned.",
+    "en": "Psyduck sits beside the waterwheel with a nut in its lap. When it tries to lift both the nut and its drawing, they tumble into the grass. It sighs so deeply that you almost laugh.\n\n“One thing at a time,” you say. Psyduck picks up the nut and waits to see what you will show it.",
+    "nb": "Psyduck sitter ved vannhjulet med en mutter i fanget. Når den prøver å løfte både mutteren og tegningen samtidig, faller begge ned i gresset. Den sukker så dypt at du nesten begynner å le.\n\n«Vi kan prøve én ting om gangen», sier du. Psyduck plukker opp mutteren og venter på hva du vil vise.",
     "choices": [
       {
         "id": "Q_PSYDUCK.1",
@@ -1482,7 +1556,9 @@
           "helped_psyduck",
           "sun_rescue_3"
         ],
-        "get": []
+        "get": [],
+        "nbResponse": "Du peker på akslingen, så på mutteren. Psyduck prøver selv. Først sklir mutteren ut av poten, men den plukker den opp og begynner igjen. Når hjulet snurrer, roper Psyduck så høyt at en fugl flyr opp fra sivet. Nå vet den hvordan det virker.",
+        "response": "You point to the axle, then the nut. Psyduck tries it alone. The nut slips from its paw at first, but it picks it up and starts again. When the wheel turns, Psyduck cheers so loudly that a bird bursts out of the reeds. Now it knows how the mechanism works."
       }
     ]
   },
@@ -1491,8 +1567,8 @@
     "title": "Rope Across the Current",
     "nbTitle": "Tau over strømmen",
     "chapter": 4,
-    "en": "The river rushes beneath the planks. You test the old posts one by one. Only the solid ones will do.\n\nYour partner holds the rope taut as you tie and check each fastening. Only when the bridge can bear weight do you hang a sign showing where to step. A volunteer on the far bank waves. The path is safer for those who come after you, too.",
-    "nb": "Under plankene bruser elven. Du tester de gamle stolpene én etter én. Bare de faste kan brukes.\n\nPartneren din holder tauet stramt mens du knyter og prøver hver forbindelse. Først når broen tåler vekten, henger du opp et skilt som viser hvor man skal trå. En frivillig på den andre siden vinker. Nå er veien trygg også for dem som kommer etter.",
+    "en": "The remains of the bridge sway above the fast river. Several planks hang loose, and the rope lies in a tangle on the bank. A helper waits on the far side, unwilling to risk crossing.\n\nYour partner pulls out the end of the rope. You test the posts to find which ones still hold firm.",
+    "nb": "Restene av broen svinger over den raske elven. Noen planker henger løst, og tauet ligger i en floke på bredden. På den andre siden venter en frivillig som ikke tør krysse.\n\nPartneren din trekker ut tauenden. Du undersøker stolpene for å finne dem som fortsatt sitter fast.",
     "choices": [
       {
         "id": "Q_BRIDGE.1",
@@ -1503,7 +1579,9 @@
         "set": [
           "bridge_repaired"
         ],
-        "get": []
+        "get": [],
+        "nbResponse": "Dere strammer tauet rundt de solide stolpene og prøver planken med én fot om gangen. Den holder. På den andre siden henger du et tydelig merke der neste reisende skal trå. En frivillig løfter tommelen mot deg fra bredden.",
+        "response": "You tighten the rope around the sound posts and test the plank one foot at a time. It holds. On the far side, you leave a clear mark showing the next traveller where to step. A helper on the bank gives you a thumbs-up."
       }
     ]
   },
@@ -1512,8 +1590,8 @@
     "title": "The Missing Chick",
     "nbTitle": "Den savnede ungen",
     "chapter": 4,
-    "en": "A thin peep comes from the roots below the cliff. The missing chick is trapped, one downy wing pressed against a stone.\n\nYou lift the stone just enough while your partner supports the root. The chick wriggles free and hurries to Altaria. She wraps her wings around all four before letting a soft feather drift down to you. It feels warmer than the air, as though it has kept a little memory of the nest.",
-    "nb": "Et tynt pip kommer fra røttene under klippen. Den savnede ungen sitter fast, med én dunete vinge presset mot en stein.\n\nDu løfter steinen akkurat nok mens partneren støtter rota. Ungen krabber ut og skynder seg mot Altaria. Moren legger vingene omkring alle fire før hun slipper en myk fjær ned til deg. Den kjennes varmere enn luften omkring, som om den har beholdt et lite minne om reiret.",
+    "en": "Three chicks huddle together on the ledge. The fourth is still missing. Altaria looks down toward the roots and gives an anxious call.\n\nWhen the wind drops for a moment, you hear a faint chirp from below. Your partner turns toward it. You may have found where to search.",
+    "nb": "Tre unger kryper tett sammen på fjellhyllen. Den fjerde er fremdeles borte. Altaria ser ned mot røttene og gir fra seg et urolig rop.\n\nDa vinden stilner et øyeblikk, hører du et svakt pip nedenfra. Partneren din snur seg mot lyden. Dere har kanskje funnet stedet å lete.",
     "choices": [
       {
         "id": "Q_ALTARIA.1",
@@ -1527,7 +1605,9 @@
         ],
         "get": [
           "altaria_feather"
-        ]
+        ],
+        "nbResponse": "Dere følger de små pipene til en rot under fjellhyllen. Ungen er redd, men uskadd. Når dere løfter den opp, brer Altaria vingene rundt alle fire. Den gir deg en myk fjær som takk. Du tegner en liten fjær ved redet på kartet.",
+        "response": "You follow the faint chirps to a root beneath the ledge. The chick is frightened but unhurt. When you lift it back, Altaria wraps her wings around all four chicks. She gives you a soft feather in thanks. You draw a little feather beside the nest on the map."
       }
     ]
   },
@@ -1536,8 +1616,8 @@
     "title": "One Last Story",
     "nbTitle": "Den siste historien",
     "chapter": 4,
-    "en": "Gastly waits at the cave entrance, clearly offended that you have taken so long to return.\n\n“I have a story,” it says. “A short one. Probably.” You sit on a rock. The tale is about watchers who kept the stoves warm by passing the duty along: low, bright, low. When you repeat the words, Gastly nods solemnly. Then it adds, “And don't forget supper.”",
-    "nb": "Gastly venter ved hulemunningen, tydelig fornærmet over at du har brukt så lang tid på å komme tilbake.\n\n«Jeg har en historie», sier den. «En kort en. Kanskje.» Du setter deg på steinen. Fortellingen handler om vakter som holdt ovnene varme ved å gi turen videre: dyp, lys, dyp. Når du prøver å gjenta ordene, nikker Gastly alvorlig. Så legger den til: «Og ikke glem å spise kveldsmat.»",
+    "en": "Gastly circles in front of the old cave wall. “Gas! Gastly!” it cries, pointing proudly at the carvings. It has clearly been waiting for an audience.\n\n“We have a little time,” you say. Gastly stops in mid-air, surprised that someone actually wants to hear the whole story.",
+    "nb": "Gastly driver i sirkler foran den gamle huleveggen. «Gas! Gastly!» sier den og peker stolt på ristningene. Den har tydeligvis ventet på et publikum.\n\n«Vi har litt tid», sier du. Gastly stanser midt i luften, overrasket over at noen faktisk vil høre hele fortellingen.",
     "choices": [
       {
         "id": "Q_GASTLY.1",
@@ -1550,7 +1630,9 @@
           "moon_kindness",
           "know_old_verse"
         ],
-        "get": []
+        "get": [],
+        "nbResponse": "Du blir og hører Gastlys fortelling helt til den siste strofen. Den får stemmen til å skjelve med vilje på de skumle stedene, og ler når du skvetter. Før du går, gjentar du vaktverset én gang. Gastly nikker fornøyd: Nå er det noen andre som husker det.",
+        "response": "You stay for Gastly’s story right to the final verse. It makes its voice tremble deliberately at the frightening parts, then laughs when you jump. Before leaving, you repeat the watch verse once. Gastly nods with satisfaction. Someone else remembers it now."
       }
     ]
   },
@@ -1559,8 +1641,8 @@
     "title": "The Lantern Chain",
     "nbTitle": "Lyskjeden",
     "chapter": 4,
-    "en": "Three volunteers stand with a crate each, looking from one to another. Nobody knows where to begin.\n\nYou ask one to mark the safe path, another to carry blankets, and the third to keep in touch with Mira. “And what will you do?” the last one asks.\n\n“I'll walk at the back and make sure nobody is left behind.” Only then does the group set off. By the time you arrive, nobody is carrying all the crates alone.",
-    "nb": "Tre frivillige står med hver sin forsyningskasse og ser på hverandre. Ingen vet hvem som skal begynne.\n\nDu ber én merke den trygge stien, én bære teppene og én holde forbindelse med Mira. «Hva gjør du selv?» spør den siste.\n\n«Jeg går bakerst og passer på at ingen blir glemt.» Først da begynner gruppen å gå. Når dere kommer frem, bærer ingen alle kassene alene.",
+    "en": "The helpers gather around a table covered in lanterns and blankets. Some want to carry everything at once. Others do not know which way to go. Mira spreads the map across the table.\n\n“You know the trails better than I do now,” she tells you. “Can you help us divide the work?”",
+    "nb": "Frivillige står samlet rundt et bord fullt av lykter og tepper. Noen vil bære alt på én gang. Andre vet ikke hvilken vei de skal gå. Mira legger kartet flatt på bordet.\n\n«Dere kjenner stiene bedre enn meg nå», sier hun til deg. «Kan du hjelpe oss å fordele oppgavene?»",
     "choices": [
       {
         "id": "Q_LEAD.1",
@@ -1571,7 +1653,9 @@
         "set": [
           "leadership"
         ],
-        "get": []
+        "get": [],
+        "nbResponse": "Du fordeler lykter og tepper mellom hjelperne. En går først og merker stien, en annen passer på dem som trenger pause. Mira setter seg ved kartet og følger med på signalene. Da det første laget kommer frem, svarer de med tre korte lysglimt. Planen virker.",
+        "response": "You divide the lanterns and blankets among the helpers. One walks ahead to mark the route; another stays with anyone who needs a rest. Mira sits beside the map and watches for signals. When the first group arrives, they answer with three short flashes. The plan is working."
       }
     ]
   },
@@ -1580,8 +1664,8 @@
     "title": "The Stone Circle",
     "nbTitle": "Steinringen",
     "chapter": 4,
-    "en": "The stone circle lies quiet beneath the dark trees. This time you stop long enough to see that the pattern is not about who is strongest, but about what comes next.\n\nYou arrange the symbols in the order of the seasons. The fourth stone answers with a silver line across your map. Your partner looks up as though a star has woken beneath the ground.",
-    "nb": "Steinringen ligger stille under de mørke trærne. Denne gangen stanser du lenge nok til å se at mønsteret ikke handler om hvem som er sterkest, men om rekkefølge.\n\nDu legger symbolene slik årstidene følger hverandre. Den fjerde steinen svarer med en sølvstripe på kartet. Partneren din ser opp, som om en stjerne akkurat har våknet under bakken.",
+    "en": "Back at the dry pool, the stones lie as you remember them. One shows a leaf, another a flame, and a third a drop. The fourth is still almost hidden beneath leaves.\n\nYou kneel and brush it clear. Perhaps the pattern was a message for anyone willing to look closely. The stones wait for you to try again.",
+    "nb": "Tilbake ved den uttørkede dammen ligger steinene slik du husker dem. Ett symbol viser et blad, ett en flamme og ett en dråpe. Den fjerde steinen er fortsatt nesten skjult av løv.\n\nDu kneler og børster den fri. Kanskje mønsteret var en beskjed til den som tok seg tid til å undersøke det. Steinene venter på at du prøver igjen.",
     "choices": [
       {
         "id": "Q_MOON1.1",
@@ -1593,7 +1677,9 @@
           "moon_sig_1",
           "forest_clue"
         ],
-        "get": []
+        "get": [],
+        "nbResponse": "Du ordner steinene i riktig rekkefølge. Under den siste skimter du et tegn som ligner en tynn månesigd. Du tegner det varsomt inn på kartet. Partneren din legger en pote ved siden av streken og lar den ligge til du er ferdig.",
+        "response": "You arrange the stones in the right order. Beneath the last one you see a mark shaped like a slender crescent. You copy it carefully onto the map. Your partner rests a paw beside the line and waits until you finish."
       }
     ]
   },
@@ -1602,8 +1688,8 @@
     "title": "The Marked Cup",
     "nbTitle": "Koppen med tegn",
     "chapter": 4,
-    "en": "The cup is where you found it, a faint pawprint in the dust. When you hold the crescent lens over the rim, the scratches become points of starlight.\n\nYou copy them, but leave the cup where it belongs. It belongs to someone. Perhaps they will come back for it.",
-    "nb": "Koppen står der du fant den, med et svakt poteavtrykk i støvet. Når du holder halvmånelinsen over kanten, blir ripene til stjernepunkter.\n\nDu tegner dem av, men lar koppen stå igjen. Den tilhører noen. Og kanskje kommer de tilbake etter den.",
+    "en": "The small cup still stands at the camp. It bears a lightning-shaped paw mark and faint scratches along the rim. You now suspect they hide something more.\n\nYou take out the crescent lens. Your partner sits beside you so you can keep your hand steady.",
+    "nb": "Den lille koppen står fortsatt på leirplassen. Den har et merke formet som en lynpote, og svake riper langs kanten. Du vet nå at de kanskje skjuler noe mer.\n\nDu tar frem halvmånelinsen. Partneren din setter seg ved siden av deg så du får holde hånden stødig.",
     "choices": [
       {
         "id": "Q_MOON2.1",
@@ -1615,7 +1701,9 @@
           "map_fragment_1",
           "moon_sig_2"
         ],
-        "get": []
+        "get": [],
+        "nbResponse": "Du løfter linsen over koppens kant. Små prikker lyser mellom ripene, som en bit av nattehimmelen. Du tegner mønsteret uten å flytte koppen. Den tilhører noen, og du håper de kommer tilbake etter den.",
+        "response": "You raise the lens above the cup’s rim. Tiny points glow among the scratches, like a fragment of night sky. You copy the pattern without moving the cup. It belongs to someone, and you hope they will come back for it."
       }
     ]
   },
@@ -1624,8 +1712,8 @@
     "title": "The Island's Memory",
     "nbTitle": "Øyas minne",
     "chapter": 4,
-    "en": "The water has risen around the island. You have to wait for the waves to retreat before holding the lens above the plaque.\n\nA moon mark appears between the bands of light. You copy it and collect the rune if you do not have it yet. In the memory you can still see Shinx falling, but now you know what came afterwards: someone tried to help him, and someone was terrified of losing him.",
-    "nb": "På øya er vannet blitt høyere. Du må vente til bølgene trekker seg tilbake før du kan holde linsen over platen.\n\nEt månetegn trer frem mellom lysstripene. Du tegner det av og tar med runen dersom du ennå mangler den. I minnet ser du fortsatt Shinx som faller, men nå vet du også hva som skjedde etterpå: Noen prøvde å hjelpe ham, og noen var redde for å miste ham.",
+    "en": "The water around the island has risen almost to the dark glass. You can only reach it with the crescent lens when the waves retreat.\n\nYou wait for a calm moment. The outline of an old staircase flickers in the glass, but the image is still unclear.",
+    "nb": "På øya har vannet steget nesten helt opp til den mørke glassplaten. Først når bølgene trekker seg tilbake, kan du komme nær nok med halvmånelinsen.\n\nDu venter på et rolig øyeblikk. I glasset skimter du konturene av en gammel trapp, men bildet er ennå uklart.",
     "choices": [
       {
         "id": "Q_MOON3.1",
@@ -1639,7 +1727,9 @@
         ],
         "get": [
           "moon_rune"
-        ]
+        ],
+        "nbResponse": "Du venter til vannet trekker seg tilbake og holder linsen over steinen. Et månetegn trer frem i glasset. Du tegner det av, og et glimt viser igjen Shinx og Clefairy i stormen. Denne gangen holder du blikket fast lenge nok til å forstå hvor redde de må ha vært.",
+        "response": "You wait for the water to recede and hold the lens above the stone. A moon mark appears in the glass. You copy it, and a flash shows Shinx and Clefairy in the storm again. This time you keep watching long enough to understand how frightened they must have been."
       }
     ]
   },
@@ -1648,8 +1738,8 @@
     "title": "The Secret Star-Map Puzzle",
     "nbTitle": "Den hemmelige kartgåten",
     "chapter": 4,
-    "en": "You spread the drawing from the cup, the lines copied from the archive, and the moon mark from the island across Mira's map. Each piece has a different arrangement of stars. None fits where you first place it.\n\nYour partner nudges the edge of the map. The drawings slide, and for a moment two silver lines meet. Then they separate again.\n\nYou hold the crescent lens above the pieces. A pale circle appears in the empty space between them, but it fades before you can see what belongs there. The silver seed gives a single, quiet pulse.\n\nPerhaps the answer is not where the pieces were found, but how their patterns belong together. You still have to work out the order.",
-    "nb": "Du brer tegningen fra koppen, strekene fra arkivet og månetegnet fra øya utover Miras kart. Hver del viser stjerner i et eget mønster. Ingen av delene passer der du først legger dem.\n\nPartneren din dytter borti kartkanten. Tegningene sklir, og et øyeblikk møtes to sølvstreker. Så glir de fra hverandre igjen.\n\nDu holder halvmånelinsen over delene. En blek sirkel kommer til syne i det tomme feltet mellom dem, men forsvinner før du ser hva som hører hjemme der. Sølvfrøet gir ett stille blink.\n\nKanskje svaret ikke handler om hvor delene ble funnet, men hvordan mønstrene hører sammen. Rekkefølgen må du fortsatt finne ut selv.",
+    "en": "You spread the three pieces across Mira’s map: the stars from the cup, the silver lines from the archive and the moon mark from the island. It is not obvious how they fit together.\n\nWhen your partner nudges the edge of a page, two lines meet for an instant before sliding apart. Perhaps the pieces need turning rather than stacking.\n\nYou have the clues. Now you can try to fit them together.",
+    "nb": "Du legger de tre kartbitene utover Miras kart: stjerneprikkene fra koppen, sølvstrekene fra arkivet og månetegnet fra øya. Det er ikke åpenbart hvordan de passer sammen.\n\nNår partneren din flytter på papirkanten, møtes to streker et øyeblikk før de glir fra hverandre. Kanskje bitene må dreies, ikke legges oppå hverandre.\n\nDu har alle sporene. Nå kan du prøve å sette dem sammen.",
     "choices": [
       {
         "id": "Q_STAR.1",
@@ -1661,8 +1751,8 @@
           "secret_star_map"
         ],
         "get": [],
-        "response": "You turn the last piece until the silver lines meet. The drawings do not show three places after all, but three moments: the final light before morning, the first shadow of evening, and the rare instant when they overlap.\n\nThe crescent lens flashes. Above the empty circle, two enormous figures appear on opposite sides of a closed door. They do not push against it. They wait.\n\nYou remember the old verse about sharing light. You copy the completed pattern onto your map. Whatever this door guards, you now know how to recognize its sign.",
-        "nbResponse": "Du snur den siste delen til sølvstrekene møtes. Tegningene viser likevel ikke tre steder, men tre øyeblikk: det siste lyset før morgen, den første skyggen om kvelden og det sjeldne øyeblikket da de møtes.\n\nHalvmånelinsen blinker. Over den tomme sirkelen dukker to enorme skikkelser opp på hver sin side av en lukket dør. De presser ikke mot den. De venter.\n\nDu husker det gamle verset om å dele lyset. Så tegner du det fullførte mønsteret inn på kartet ditt. Uansett hva døren vokter, vet du nå hvordan du skal kjenne igjen tegnet."
+        "response": "You turn the map pieces until the silver lines meet. Three points form a circle around an empty centre. The crescent lens flashes, revealing a sign of both sun and moon. You copy it onto Mira’s map. You do not yet know what it opens. You only know you discovered it yourself.",
+        "nbResponse": "Du vrir kartbitene til sølvlinjene møtes. Tre prikker tegner en sirkel rundt et tomt midtpunkt. Halvmånelinsen glimter, og et tegn med både sol og måne viser seg. Du tegner det inn på Miras kart. Du vet ennå ikke hva det åpner, bare at du fant det selv."
       }
     ]
   },
@@ -1672,7 +1762,7 @@
     "nbTitle": "Den første morgenen",
     "chapter": 5,
     "en": "You let Shinx test the wrapped stones in the basket. He shifts his paws. “Warm. But not too warm.” Only then does he nod to Lumi.\n\nShe places her hand on the lock. For a moment the metal ring refuses to move and the whole room holds its breath. Then it gives. Starlight pours from the dome, across the forest and river, until the first lanterns of Willowbrook glow gold again.\n\nShinx laughs softly from the basket. “Look. The sky found its way home.”\n\nMira meets you in the resting room. She puts the old map on the table, its missing square carefully fitted back. “No one should have to search for a road I have hidden,” she says.\n\nLater you plant the silver seed in her window box. It grows slowly, like an ordinary plant. Each morning, as Shinx gains a little strength, another tiny shoot catches the light.",
-    "nb": "Du lar Shinx kjenne på kurvens innpakkede steiner. Han flytter litt på potene. «Varmt. Og ikke altfor varmt.» Først da nikker han til Lumi.\n\nHun legger hånden på låsen. Metallringen sitter fast et øyeblikk, og hele rommet holder pusten. Så gir den etter. Stjernelyset velter ut av kuppelen, over skogen og elven, helt til de første lyktene i Willowbrook gløder gyllent igjen.\n\nShinx ler svakt fra kurven. «Se. Himmelen fant veien hjem.»\n\nMira møter dere i hvilerommet. Hun legger det gamle kartet på bordet, med den utskårne biten festet på plass. «Denne gangen skal ingen måtte lete etter en vei jeg har gjemt», sier hun.\n\nSenere planter dere sølvfrøet i vinduskassen hennes. Det vokser sakte, som en vanlig plante. Og hver morgen, når Shinx blir litt sterkere, står en ny liten spire i lyset.",
+    "nb": "Du lar Shinx kjenne på kurvens innpakkede steiner. Han flytter litt på potene. «Varmt. Og ikke altfor varmt.» Først da nikker han til Lumi.\n\nHun legger hånden på låsen. Metallringen sitter fast et øyeblikk, og hele rommet holder pusten. Så gir den etter. Stjernelyset velter ut av kuppelen, over skogen og elven, helt til de første lyktene i Pilebekk gløder gyllent igjen.\n\nShinx ler svakt fra kurven. «Se. Himmelen fant veien hjem.»\n\nMira møter dere i hvilerommet. Hun legger det gamle kartet på bordet, med den utskårne biten festet på plass. «Denne gangen skal ingen måtte lete etter en vei jeg har gjemt», sier hun.\n\nSenere planter dere sølvfrøet i vinduskassen hennes. Det vokser sakte, som en vanlig plante. Og hver morgen, når Shinx blir litt sterkere, står en ny liten spire i lyset.",
     "choices": [
       {
         "id": "E_DAWN.1",
@@ -1710,7 +1800,7 @@
     "nbTitle": "Lyktenes natt",
     "chapter": 5,
     "en": "The first watcher lights the lantern. The second stands ready with spare oil. Shinx feels the air, listens to the flame crackle, and nods to Lumi. “I'm ready now.”\n\nThe lock opens. Light rises like a thousand birds, and far below in Willowbrook, windows brighten one after another.\n\nThat night, no lantern stands alone. Volunteers work in pairs, share the watches, and wake the next helper before resting. At first Lumi tries to stay awake all night, but Shinx firmly nudges her toward a chair. “Your turn to rest.”\n\nIn the square you find the very first festival lantern. You plant the silver seed beside its stand. When morning catches the little pot, it shines without needing to keep the light to itself.",
-    "nb": "Den første vakten tenner lykten. Den andre står klar med reserveoljen. Shinx kjenner på luften, lytter til knitringen fra flammen og nikker til Lumi. «Nå er jeg klar.»\n\nLåsen åpnes. Lyset stiger opp som tusen fugler, og langt nede i Willowbrook tennes vindu etter vindu.\n\nDen natten henger ingen lykt alene. Frivillige går to og to, deler på vaktene og vekker den neste før de selv sovner. Lumi prøver først å bli sittende oppe hele natten, men Shinx dytter henne bestemt mot en stol. «Din tur til å hvile.»\n\nPå torget finner dere den første festivallykten. Ved foten av stativet planter dere sølvfrøet. Når morgenlyset treffer den lille potten, skinner den uten å måtte holde på lyset for seg selv.",
+    "nb": "Den første vakten tenner lykten. Den andre står klar med reserveoljen. Shinx kjenner på luften, lytter til knitringen fra flammen og nikker til Lumi. «Nå er jeg klar.»\n\nLåsen åpnes. Lyset stiger opp som tusen fugler, og langt nede i Pilebekk tennes vindu etter vindu.\n\nDen natten henger ingen lykt alene. Frivillige går to og to, deler på vaktene og vekker den neste før de selv sovner. Lumi prøver først å bli sittende oppe hele natten, men Shinx dytter henne bestemt mot en stol. «Din tur til å hvile.»\n\nPå torget finner dere den første festivallykten. Ved foten av stativet planter dere sølvfrøet. Når morgenlyset treffer den lille potten, skinner den uten å måtte holde på lyset for seg selv.",
     "choices": [
       {
         "id": "E_LANTERN.1",
@@ -1729,7 +1819,7 @@
     "nbTitle": "Sangen som fant veien hjem",
     "chapter": 5,
     "en": "Two volunteers practise the watch change. One checks the stove; the other takes over. Shinx lifts his nose. “I can breathe easily here.”\n\nLumi opens the lock, and light pours home across the valley. But it is not the stars that make Gastly dance in the cave. It is the sound of voices repeating the old verse: “Low, bright, low.”\n\nSoon every watcher knows the rhythm. It is not a magic spell; it simply helps them remember when to check the stove and when someone else needs a rest. Gastly solemnly tells the story of the first night watch to anyone willing to listen.\n\n[IF companion_hoothoot] Hoothoot perches above you as you plant the silver seed beside the river path, blinking its eyes in time. [ELSE] You and your partner plant the silver seed beside the river path and listen to singing from the nearest houses. [END]\n\nShinx grows stronger at his own pace. And each evening the tune reminds Willowbrook that a promise is easier to keep when people share the work.",
-    "nb": "To frivillige prøver vaktskiftet. Den ene kontrollerer ovnen, den andre tar over. Shinx løfter snuten. «Jeg kan puste lett her.»\n\nLumi åpner låsen, og lyset velter hjem over dalen. Men det er ikke stjernene som får Gastly til å danse i hulen. Det er lyden av stemmer som følger det gamle verset: «Dyp, lys, dyp.»\n\nSnart lærer alle vaktene rytmen. Det er ingen trylleformular; den hjelper dem bare å huske når ovnen skal sjekkes og når noen andre må få hvile. Gastly forteller høytidelig historien om den første nattevakten til alle som vil høre.\n\n[IF companion_hoothoot] Hoothoot sitter over dere mens sølvfrøet plantes ved elvestien. Den blunker takten med øynene. [ELSE] Du og partneren din planter sølvfrøet ved elvestien, og lytter til sangen fra de nærmeste husene. [END]\n\nShinx blir sterkere i sitt eget tempo. Og hver kveld minner melodien Willowbrook om at et løfte blir lettere å holde når flere hjelper til.",
+    "nb": "To frivillige prøver vaktskiftet. Den ene kontrollerer ovnen, den andre tar over. Shinx løfter snuten. «Jeg kan puste lett her.»\n\nLumi åpner låsen, og lyset velter hjem over dalen. Men det er ikke stjernene som får Gastly til å danse i hulen. Det er lyden av stemmer som følger det gamle verset: «Dyp, lys, dyp.»\n\nSnart lærer alle vaktene rytmen. Det er ingen trylleformular; den hjelper dem bare å huske når ovnen skal sjekkes og når noen andre må få hvile. Gastly forteller høytidelig historien om den første nattevakten til alle som vil høre.\n\n[IF companion_hoothoot] Hoothoot sitter over dere mens sølvfrøet plantes ved elvestien. Den blunker takten med øynene. [ELSE] Du og partneren din planter sølvfrøet ved elvestien, og lytter til sangen fra de nærmeste husene. [END]\n\nShinx blir sterkere i sitt eget tempo. Og hver kveld minner melodien Pilebekk om at et løfte blir lettere å holde når flere hjelper til.",
     "choices": [
       {
         "id": "E_SONG.1",
@@ -1748,7 +1838,7 @@
     "nbTitle": "Vinduets lille sol",
     "chapter": 5,
     "en": "The hardest part is letting go of the silver seed. You have carried it all the way from Willowbrook, and now you must place it in the warm soil.\n\nYour partner rests a paw beside your hand. You light the backup stove, test the warmth, and plant the one seed. Nothing happens. Then a small silver leaf slowly unfolds.\n\nShinx settles beside the stove and checks how he feels. “Yes,” he says. “I'd like to rest here.” Only now does Lumi open the lock.\n\nThe stars return one after another until the valley glows. The shoot keeps warmth from the stove, but makes none of its own. Lumi and the helpers look after it, and Shinx, in the days that follow.\n\nIn time the little space becomes a resting place for others who need quiet. Lumi calls it the Sanctuary. When you visit Shinx again, the plant has grown two new leaves. “We're getting better together,” he says. “Just not as fast as you walk.”",
-    "nb": "Det vanskeligste er å slippe taket i sølvfrøet. Du har båret det helt fra Willowbrook, og nå må du legge det i den varme jorden.\n\nPartneren din legger en pote ved siden av hånden din. Dere tenner reserveovnen, prøver varmen og planter det ene frøet. Ingenting skjer. Så åpner et lite sølvblad seg langsomt.\n\nShinx legger seg ved siden av ovnen og kjenner etter. «Ja», sier han. «Her vil jeg hvile.» Først nå åpner Lumi låsen.\n\nStjernene kommer tilbake én etter én, helt til hele dalen lyser. Spiren holder på varmen fra ovnen, men lager ingen varme selv. Lumi og hjelperne passer på den og på Shinx i dagene som følger.\n\nEtter hvert blir den lille plassen et hvilested for flere som trenger ro. Lumi kaller den Fristedet. Da du besøker Shinx igjen, har planten fått to nye blader. «Vi blir bedre sammen», sier han. «Bare ikke like fort som du går.»",
+    "nb": "Det vanskeligste er å slippe taket i sølvfrøet. Du har båret det helt fra Pilebekk, og nå må du legge det i den varme jorden.\n\nPartneren din legger en pote ved siden av hånden din. Dere tenner reserveovnen, prøver varmen og planter det ene frøet. Ingenting skjer. Så åpner et lite sølvblad seg langsomt.\n\nShinx legger seg ved siden av ovnen og kjenner etter. «Ja», sier han. «Her vil jeg hvile.» Først nå åpner Lumi låsen.\n\nStjernene kommer tilbake én etter én, helt til hele dalen lyser. Spiren holder på varmen fra ovnen, men lager ingen varme selv. Lumi og hjelperne passer på den og på Shinx i dagene som følger.\n\nEtter hvert blir den lille plassen et hvilested for flere som trenger ro. Lumi kaller den Fristedet. Da du besøker Shinx igjen, har planten fått to nye blader. «Vi blir bedre sammen», sier han. «Bare ikke like fort som du går.»",
     "choices": [
       {
         "id": "E_SANCTUARY.1",
@@ -1767,7 +1857,7 @@
     "nbTitle": "Hagen med stjernelys",
     "chapter": 5,
     "en": "You place the one silver seed in the soil by the backup stove. A small shoot unfolds. Shinx tests the warmth and gives Lumi a firm nod.\n\nThe lock opens. Starlight races home over the mountains, and cheers rise from the valley beyond the window. Lumi finally dares to look away from the stove for a moment.\n\nShinx stays in the warm room until he is strong enough to travel. Only then do you move the plant to Willowbrook's community garden. It has grown a little, but not by magic, and the roots need gentle handling.\n\n[IF helped_psyduck] Psyduck builds a small watering wheel and drops only one nut this time. [ELSE] You and your partner make a sign with watering instructions and agree to share the work. [END]\n\nWhen Shinx comes to visit, he looks at the new leaves. “It grew while we were away.”\n\n“So did you,” Lumi says. And for the first time, they both laugh.",
-    "nb": "Du setter det eneste sølvfrøet i jorden ved reserveovnen. En liten spire folder seg ut. Shinx kjenner på varmen og gir Lumi et bestemt nikk.\n\nLåsen åpnes. Stjernelyset farer hjem over fjellene, og utenfor vinduet høres jubel nede fra dalen. Lumi tør endelig se bort fra ovnen et øyeblikk.\n\nShinx blir værende i det lune rommet til han er sterk nok til å reise. Først da flytter dere planten til felleshagen i Willowbrook. Den har vokst litt, men ikke på magisk vis, og røttene må behandles forsiktig.\n\n[IF helped_psyduck] Psyduck bygger et lite vanningshjul og mister bare én mutter denne gangen. [ELSE] Du og partneren din lager et skilt med vanningsråd og blir enige om å skifte på ansvaret. [END]\n\nNår Shinx kommer på besøk, ser han på de nye bladene. «Den vokste mens vi var borte.»\n\n«Det gjorde du også», sier Lumi. Og for første gang ler de begge av det.",
+    "nb": "Du setter det eneste sølvfrøet i jorden ved reserveovnen. En liten spire folder seg ut. Shinx kjenner på varmen og gir Lumi et bestemt nikk.\n\nLåsen åpnes. Stjernelyset farer hjem over fjellene, og utenfor vinduet høres jubel nede fra dalen. Lumi tør endelig se bort fra ovnen et øyeblikk.\n\nShinx blir værende i det lune rommet til han er sterk nok til å reise. Først da flytter dere planten til felleshagen i Pilebekk. Den har vokst litt, men ikke på magisk vis, og røttene må behandles forsiktig.\n\n[IF helped_psyduck] Psyduck bygger et lite vanningshjul og mister bare én mutter denne gangen. [ELSE] Du og partneren din lager et skilt med vanningsråd og blir enige om å skifte på ansvaret. [END]\n\nNår Shinx kommer på besøk, ser han på de nye bladene. «Den vokste mens vi var borte.»\n\n«Det gjorde du også», sier Lumi. Og for første gang ler de begge av det.",
     "choices": [
       {
         "id": "E_GARDEN.1",
@@ -1795,7 +1885,9 @@
         "to": "B_LUNALA",
         "when": "moon_unlock AND NOT both_unlock",
         "set": [],
-        "get": []
+        "get": [],
+        "nbResponse": "Du følger det kjølige måneskinnet. Stjernene rundt deg blir stille, og en skygge med enorme vinger løfter seg over veien. Du stanser. Skyggen stanser også, som om den vil se hvem som har kommet.",
+        "response": "You follow the cool moonlight. The stars around you fall silent, and a shadow with enormous wings rises over the path. You stop. So does the shadow, as if it wants to see who has come."
       },
       {
         "id": "B_GATE.2",
@@ -1804,7 +1896,9 @@
         "to": "B_SOLGALEO",
         "when": "sun_unlock AND NOT both_unlock",
         "set": [],
-        "get": []
+        "get": [],
+        "nbResponse": "Du følger det varme solglimtet. Steinene under føttene får gyldne kanter, og en løvelignende skikkelse trer frem gjennom lyset. Den lar deg komme nærmere før den løfter blikket mot stjernene.",
+        "response": "You follow the warm glimmer of sunlight. The stones beneath your feet glow at the edges, and a lion-like figure steps out of the light. It lets you approach before raising its gaze toward the stars."
       },
       {
         "id": "B_GATE.3",
@@ -1813,7 +1907,9 @@
         "to": "B_BOTH",
         "when": "both_unlock",
         "set": [],
-        "get": []
+        "get": [],
+        "nbResponse": "Du legger en hånd over hvert tegn. Kartet blir varmt og kjølig på samme tid. Over deg åpner stjernehimmelen seg som en dør, og to enorme skikkelser viser seg på hver sin side. De venter på at du skal ta det siste skrittet.",
+        "response": "You place one hand over each mark. The map feels warm and cool at once. Above you, the sky opens like a door, and two enormous figures appear on either side. They wait for you to take the final step."
       }
     ]
   },
@@ -1835,7 +1931,9 @@
           "met_lunala",
           "badge_moon_witness"
         ],
-        "get": []
+        "get": [],
+        "nbResponse": "Du lukker kartet forsiktig. Månetegnet er fortsatt der, selv om himmelen over deg ser vanlig ut igjen. Partneren din ser opp, som for å være sikker på at det ikke bare var en drøm. Du smiler. Dette skal dere huske.",
+        "response": "You close the map carefully. The moon mark remains, though the sky above you looks ordinary again. Your partner glances upward, as if checking whether it was all a dream. You smile. You will remember this."
       }
     ]
   },
@@ -1857,7 +1955,9 @@
           "met_solgaleo",
           "badge_sun_witness"
         ],
-        "get": []
+        "get": [],
+        "nbResponse": "Du lar fingeren hvile på soltegnet før du bretter kartet sammen. Det er ikke varmt lenger, men det er virkelig. Partneren din dytter deg forsiktig i siden, klar til å gå hjem. Dere tar med dere minnet.",
+        "response": "You rest a finger on the sun mark before folding the map. It is no longer warm, but it is real. Your partner nudges your side, ready to head home. You take the memory with you."
       }
     ]
   },
@@ -1867,7 +1967,7 @@
     "nbTitle": "Stjerneportens hemmelighet",
     "chapter": 5,
     "en": "You place the map between the two shining circles. The moon marks, sun traces, and secret star map begin to glow. The final piece falls into place without a sound.\n\nThe sky opens in two.\n\nFrom the night comes Lunala, its wings embracing a thousand stars. From the day comes Solgaleo, radiant as a new sunrise. For a moment you expect them to collide in a terrible crash. Instead, they stop on either side of you.\n\nA narrow path of light forms between them. It leads not to another country but into a memory: Willowbrook a hundred years ago. You see the builders of Starlight Glass. One lights a stove. Another opens a door for a freezing stranger. A third writes words on the wall, words that nobody later found in the books:\n\n“Light kept only for oneself will fade. Light shared will find its way home.”\n\nYou think of Lumi holding the light because she was afraid, of Mira hiding the map, and of everyone who dared to help without knowing how it would turn out. This is not another machine that needs saving. It is a memory that has waited for someone able to understand it.\n\nLunala lowers a wing. Solgaleo rests a paw against the stone. On your map, a single star now shines between a sun and a moon.\n\nWhen you return to Willowbrook, not everyone believes your story. But your partner was there. And whenever you open the map beneath the stars, you can see the three symbols shining together.",
-    "nb": "Du legger kartet mellom de to lysende sirklene. Månetegnene, solsporene og det hemmelige stjernekartet begynner å gløde. Den siste brikken faller på plass uten lyd.\n\nHimmelen åpner seg i to.\n\nFra natten kommer Lunala, med vinger som favner tusen stjerner. Fra dagen kommer Solgaleo, lysende som en ny soloppgang. Du venter et øyeblikk at de skal møtes i et fryktelig sammenstøt. I stedet stanser de på hver sin side av deg.\n\nMellom dem oppstår en smal sti av lys. Den fører ikke til et annet land, men til et minne: Willowbrook for hundre år siden. Du ser dem som bygde Stjernelysglasset. En av dem tenner en ovn. En annen åpner en dør for en fremmed som fryser. En tredje skriver ord på veggen, ord ingen senere fant i bøkene:\n\n«Lys som holdes for seg selv, slukner. Lys som deles, finner veien hjem.»\n\nDu tenker på Lumi som holdt lyset fast fordi hun var redd, på Mira som gjemte kartet, og på alle som våget å hjelpe selv om de ikke visste hvordan det ville gå. Dette er ikke en ny maskin som må reddes. Det er et minne som har ventet på noen som kunne forstå det.\n\nLunala senker vingen. Solgaleo legger poten mot steinen. På kartet lyser nå én stjerne mellom en sol og en måne.\n\nNår du kommer tilbake til Willowbrook, tror ikke alle på fortellingen. Men partneren din var der. Og hver gang du åpner kartet under stjernehimmelen, kan du se de tre tegnene skinne sammen.",
+    "nb": "Du legger kartet mellom de to lysende sirklene. Månetegnene, solsporene og det hemmelige stjernekartet begynner å gløde. Den siste brikken faller på plass uten lyd.\n\nHimmelen åpner seg i to.\n\nFra natten kommer Lunala, med vinger som favner tusen stjerner. Fra dagen kommer Solgaleo, lysende som en ny soloppgang. Du venter et øyeblikk at de skal møtes i et fryktelig sammenstøt. I stedet stanser de på hver sin side av deg.\n\nMellom dem oppstår en smal sti av lys. Den fører ikke til et annet land, men til et minne: Pilebekk for hundre år siden. Du ser dem som bygde Stjernelysglasset. En av dem tenner en ovn. En annen åpner en dør for en fremmed som fryser. En tredje skriver ord på veggen, ord ingen senere fant i bøkene:\n\n«Lys som holdes for seg selv, slukner. Lys som deles, finner veien hjem.»\n\nDu tenker på Lumi som holdt lyset fast fordi hun var redd, på Mira som gjemte kartet, og på alle som våget å hjelpe selv om de ikke visste hvordan det ville gå. Dette er ikke en ny maskin som må reddes. Det er et minne som har ventet på noen som kunne forstå det.\n\nLunala senker vingen. Solgaleo legger poten mot steinen. På kartet lyser nå én stjerne mellom en sol og en måne.\n\nNår du kommer tilbake til Pilebekk, tror ikke alle på fortellingen. Men partneren din var der. Og hver gang du åpner kartet under stjernehimmelen, kan du se de tre tegnene skinne sammen.",
     "choices": [
       {
         "id": "B_BOTH.1",
@@ -1881,7 +1981,9 @@
           "badge_star_gate",
           "ultimate_secret_found"
         ],
-        "get": []
+        "get": [],
+        "nbResponse": "Du ser på de tre tegnene: sol, måne og stjerne. De lyser ikke sterkt, bare nok til at du vet at de er der. «Noen hemmeligheter er verdt å dele», sier du til partneren din. Så lukker du kartet og går hjem.",
+        "response": "You look at the three marks: sun, moon and star. They do not shine brightly, only enough for you to know they are there. “Some secrets are worth sharing,” you tell your partner. Then you close the map and head home."
       }
     ]
   }

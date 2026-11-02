@@ -126,7 +126,7 @@
       },
       {
         "scene": "S05",
-        "choice": "Follow the lantern-lit path",
+        "choice": "Follow the lit path — safer but slower",
         "choiceId": "S05.1",
         "world": {
           "edition": "3",
@@ -164,7 +164,7 @@
       },
       {
         "scene": "S06",
-        "choice": "Take the broad path",
+        "choice": "Keep moving along the broad path",
         "choiceId": "S06.2",
         "world": {
           "edition": "3",
@@ -250,7 +250,7 @@
       },
       {
         "scene": "S08",
-        "choice": "Ask directions without repair",
+        "choice": "Ask Hoothoot for directions — leave the nest for now",
         "choiceId": "S08.3",
         "world": {
           "edition": "3",
@@ -296,7 +296,7 @@
       },
       {
         "scene": "S09",
-        "choice": "Examine all four hollows",
+        "choice": "Examine what the empty hollow is missing",
         "choiceId": "S09.2",
         "world": {
           "edition": "3",
@@ -344,7 +344,7 @@
       },
       {
         "scene": "S10",
-        "choice": "Follow fresh prints",
+        "choice": "Follow the fresh tracks before they fade",
         "choiceId": "S10.3",
         "world": {
           "edition": "3",
@@ -395,7 +395,7 @@
       },
       {
         "scene": "S11",
-        "choice": "Secure damaged bridge using toolbox rope",
+        "choice": "Secure the bridge yourself and cross carefully",
         "choiceId": "S11.3",
         "world": {
           "edition": "3",
@@ -683,7 +683,7 @@
       },
       {
         "scene": "S16",
-        "choice": "Thank Gastly and continue",
+        "choice": "Thank Gastly and continue toward the tower",
         "choiceId": "S16.2",
         "world": {
           "edition": "3",
@@ -747,7 +747,7 @@
       },
       {
         "scene": "S17",
-        "choice": "Repair crank and gears",
+        "choice": "Repair the crank and open the gate by hand",
         "choiceId": "S17.3",
         "world": {
           "edition": "3",
@@ -814,7 +814,7 @@
       },
       {
         "scene": "S18",
-        "choice": "Copy the three rings' rules",
+        "choice": "Learn how the three rescue plans work",
         "choiceId": "S18.1",
         "world": {
           "edition": "3",
@@ -883,7 +883,7 @@
       },
       {
         "scene": "S19",
-        "choice": "Inspect basket",
+        "choice": "Check whether the basket can carry Shinx safely",
         "choiceId": "S19.2",
         "world": {
           "edition": "3",
@@ -955,7 +955,7 @@
       },
       {
         "scene": "S20",
-        "choice": "Explain the old book",
+        "choice": "Explain the danger of leaving the glass closed",
         "choiceId": "S20.2",
         "world": {
           "edition": "3",
@@ -1029,7 +1029,7 @@
       },
       {
         "scene": "S21",
-        "choice": "Explain risks without blame",
+        "choice": "Explain what the darkness is doing to the valley",
         "choiceId": "S21.2",
         "world": {
           "edition": "3",
@@ -1105,7 +1105,7 @@
       },
       {
         "scene": "S22",
-        "choice": "Gather supplies",
+        "choice": "Fetch and test the missing equipment",
         "choiceId": "S22.4",
         "world": {
           "edition": "3",
@@ -1344,7 +1344,7 @@
       },
       {
         "scene": "S22",
-        "choice": "Explain safe basket",
+        "choice": "Let Shinx try the warm carrying basket",
         "choiceId": "S22.1",
         "world": {
           "edition": "3",
@@ -2008,7 +2008,7 @@
       },
       {
         "scene": "S05",
-        "choice": "Follow the lantern-lit path",
+        "choice": "Follow the lit path — safer but slower",
         "choiceId": "S05.1",
         "world": {
           "edition": "3",
@@ -2046,7 +2046,7 @@
       },
       {
         "scene": "S06",
-        "choice": "Take the broad path",
+        "choice": "Keep moving along the broad path",
         "choiceId": "S06.2",
         "world": {
           "edition": "3",
@@ -2132,7 +2132,7 @@
       },
       {
         "scene": "S08",
-        "choice": "Ask directions without repair",
+        "choice": "Ask Hoothoot for directions — leave the nest for now",
         "choiceId": "S08.3",
         "world": {
           "edition": "3",
@@ -2178,7 +2178,7 @@
       },
       {
         "scene": "S09",
-        "choice": "Examine all four hollows",
+        "choice": "Examine what the empty hollow is missing",
         "choiceId": "S09.2",
         "world": {
           "edition": "3",
@@ -2226,7 +2226,7 @@
       },
       {
         "scene": "S10",
-        "choice": "Follow fresh prints",
+        "choice": "Follow the fresh tracks before they fade",
         "choiceId": "S10.3",
         "world": {
           "edition": "3",
@@ -2277,7 +2277,7 @@
       },
       {
         "scene": "S11",
-        "choice": "Secure damaged bridge using toolbox rope",
+        "choice": "Secure the bridge yourself and cross carefully",
         "choiceId": "S11.3",
         "world": {
           "edition": "3",
@@ -2565,7 +2565,7 @@
       },
       {
         "scene": "S16",
-        "choice": "Thank Gastly and continue",
+        "choice": "Thank Gastly and continue toward the tower",
         "choiceId": "S16.2",
         "world": {
           "edition": "3",
@@ -2632,7 +2632,7 @@
       },
       {
         "scene": "S17",
-        "choice": "Repair crank and gears",
+        "choice": "Repair the crank and open the gate by hand",
         "choiceId": "S17.3",
         "world": {
           "edition": "3",
@@ -2702,7 +2702,7 @@
       },
       {
         "scene": "S18",
-        "choice": "Copy the three rings' rules",
+        "choice": "Learn how the three rescue plans work",
         "choiceId": "S18.1",
         "world": {
           "edition": "3",
@@ -2774,7 +2774,7 @@
       },
       {
         "scene": "S19",
-        "choice": "Inspect basket",
+        "choice": "Check whether the basket can carry Shinx safely",
         "choiceId": "S19.2",
         "world": {
           "edition": "3",
@@ -2849,7 +2849,7 @@
       },
       {
         "scene": "S20",
-        "choice": "Explain the old book",
+        "choice": "Explain the danger of leaving the glass closed",
         "choiceId": "S20.2",
         "world": {
           "edition": "3",
@@ -2926,7 +2926,7 @@
       },
       {
         "scene": "S21",
-        "choice": "Explain risks without blame",
+        "choice": "Explain what the darkness is doing to the valley",
         "choiceId": "S21.2",
         "world": {
           "edition": "3",
@@ -3005,7 +3005,7 @@
       },
       {
         "scene": "S22",
-        "choice": "Gather supplies",
+        "choice": "Fetch and test the missing equipment",
         "choiceId": "S22.4",
         "world": {
           "edition": "3",
@@ -3253,7 +3253,7 @@
       },
       {
         "scene": "S22",
-        "choice": "Explain safe basket",
+        "choice": "Let Shinx try the warm carrying basket",
         "choiceId": "S22.1",
         "world": {
           "edition": "3",
@@ -3935,7 +3935,7 @@
       },
       {
         "scene": "S05",
-        "choice": "Follow the lantern-lit path",
+        "choice": "Follow the lit path — safer but slower",
         "choiceId": "S05.1",
         "world": {
           "edition": "3",
@@ -3973,7 +3973,7 @@
       },
       {
         "scene": "S06",
-        "choice": "Take the broad path",
+        "choice": "Keep moving along the broad path",
         "choiceId": "S06.2",
         "world": {
           "edition": "3",
@@ -4059,7 +4059,7 @@
       },
       {
         "scene": "S08",
-        "choice": "Ask directions without repair",
+        "choice": "Ask Hoothoot for directions — leave the nest for now",
         "choiceId": "S08.3",
         "world": {
           "edition": "3",
@@ -4105,7 +4105,7 @@
       },
       {
         "scene": "S09",
-        "choice": "Examine all four hollows",
+        "choice": "Examine what the empty hollow is missing",
         "choiceId": "S09.2",
         "world": {
           "edition": "3",
@@ -4153,7 +4153,7 @@
       },
       {
         "scene": "S10",
-        "choice": "Follow fresh prints",
+        "choice": "Follow the fresh tracks before they fade",
         "choiceId": "S10.3",
         "world": {
           "edition": "3",
@@ -4204,7 +4204,7 @@
       },
       {
         "scene": "S11",
-        "choice": "Secure damaged bridge using toolbox rope",
+        "choice": "Secure the bridge yourself and cross carefully",
         "choiceId": "S11.3",
         "world": {
           "edition": "3",
@@ -4492,7 +4492,7 @@
       },
       {
         "scene": "S16",
-        "choice": "Thank Gastly and continue",
+        "choice": "Thank Gastly and continue toward the tower",
         "choiceId": "S16.2",
         "world": {
           "edition": "3",
@@ -4556,7 +4556,7 @@
       },
       {
         "scene": "S17",
-        "choice": "Repair crank and gears",
+        "choice": "Repair the crank and open the gate by hand",
         "choiceId": "S17.3",
         "world": {
           "edition": "3",
@@ -4623,7 +4623,7 @@
       },
       {
         "scene": "S18",
-        "choice": "Copy the three rings' rules",
+        "choice": "Learn how the three rescue plans work",
         "choiceId": "S18.1",
         "world": {
           "edition": "3",
@@ -4692,7 +4692,7 @@
       },
       {
         "scene": "S19",
-        "choice": "Inspect basket",
+        "choice": "Check whether the basket can carry Shinx safely",
         "choiceId": "S19.2",
         "world": {
           "edition": "3",
@@ -4764,7 +4764,7 @@
       },
       {
         "scene": "S20",
-        "choice": "Explain the old book",
+        "choice": "Explain the danger of leaving the glass closed",
         "choiceId": "S20.2",
         "world": {
           "edition": "3",
@@ -4838,7 +4838,7 @@
       },
       {
         "scene": "S21",
-        "choice": "Explain risks without blame",
+        "choice": "Explain what the darkness is doing to the valley",
         "choiceId": "S21.2",
         "world": {
           "edition": "3",
@@ -4914,7 +4914,7 @@
       },
       {
         "scene": "S22",
-        "choice": "Gather supplies",
+        "choice": "Fetch and test the missing equipment",
         "choiceId": "S22.4",
         "world": {
           "edition": "3",
@@ -5153,7 +5153,7 @@
       },
       {
         "scene": "S22",
-        "choice": "Explain watch plan",
+        "choice": "Let Shinx consider the watch plan",
         "choiceId": "S22.2",
         "world": {
           "edition": "3",
@@ -5817,7 +5817,7 @@
       },
       {
         "scene": "S05",
-        "choice": "Follow the lantern-lit path",
+        "choice": "Follow the lit path — safer but slower",
         "choiceId": "S05.1",
         "world": {
           "edition": "3",
@@ -5855,7 +5855,7 @@
       },
       {
         "scene": "S06",
-        "choice": "Take the broad path",
+        "choice": "Keep moving along the broad path",
         "choiceId": "S06.2",
         "world": {
           "edition": "3",
@@ -5941,7 +5941,7 @@
       },
       {
         "scene": "S08",
-        "choice": "Ask directions without repair",
+        "choice": "Ask Hoothoot for directions — leave the nest for now",
         "choiceId": "S08.3",
         "world": {
           "edition": "3",
@@ -5987,7 +5987,7 @@
       },
       {
         "scene": "S09",
-        "choice": "Examine all four hollows",
+        "choice": "Examine what the empty hollow is missing",
         "choiceId": "S09.2",
         "world": {
           "edition": "3",
@@ -6035,7 +6035,7 @@
       },
       {
         "scene": "S10",
-        "choice": "Follow fresh prints",
+        "choice": "Follow the fresh tracks before they fade",
         "choiceId": "S10.3",
         "world": {
           "edition": "3",
@@ -6086,7 +6086,7 @@
       },
       {
         "scene": "S11",
-        "choice": "Secure damaged bridge using toolbox rope",
+        "choice": "Secure the bridge yourself and cross carefully",
         "choiceId": "S11.3",
         "world": {
           "edition": "3",
@@ -6374,7 +6374,7 @@
       },
       {
         "scene": "S16",
-        "choice": "Stay and hear Gastly's story",
+        "choice": "Stay and hear the story Gastly wants to tell",
         "choiceId": "S16.1",
         "world": {
           "edition": "3",
@@ -6438,7 +6438,7 @@
       },
       {
         "scene": "S17",
-        "choice": "Repair crank and gears",
+        "choice": "Repair the crank and open the gate by hand",
         "choiceId": "S17.3",
         "world": {
           "edition": "3",
@@ -6507,7 +6507,7 @@
       },
       {
         "scene": "S18",
-        "choice": "Copy the three rings' rules",
+        "choice": "Learn how the three rescue plans work",
         "choiceId": "S18.1",
         "world": {
           "edition": "3",
@@ -6578,7 +6578,7 @@
       },
       {
         "scene": "S19",
-        "choice": "Inspect basket",
+        "choice": "Check whether the basket can carry Shinx safely",
         "choiceId": "S19.2",
         "world": {
           "edition": "3",
@@ -6652,7 +6652,7 @@
       },
       {
         "scene": "S20",
-        "choice": "Explain the old book",
+        "choice": "Explain the danger of leaving the glass closed",
         "choiceId": "S20.2",
         "world": {
           "edition": "3",
@@ -6728,7 +6728,7 @@
       },
       {
         "scene": "S21",
-        "choice": "Explain risks without blame",
+        "choice": "Explain what the darkness is doing to the valley",
         "choiceId": "S21.2",
         "world": {
           "edition": "3",
@@ -6806,7 +6806,7 @@
       },
       {
         "scene": "S22",
-        "choice": "Gather supplies",
+        "choice": "Fetch and test the missing equipment",
         "choiceId": "S22.4",
         "world": {
           "edition": "3",
@@ -7051,7 +7051,7 @@
       },
       {
         "scene": "S22",
-        "choice": "Explain watch plan",
+        "choice": "Let Shinx consider the watch plan",
         "choiceId": "S22.2",
         "world": {
           "edition": "3",
@@ -7727,7 +7727,7 @@
       },
       {
         "scene": "S05",
-        "choice": "Follow the lantern-lit path",
+        "choice": "Follow the lit path — safer but slower",
         "choiceId": "S05.1",
         "world": {
           "edition": "3",
@@ -7765,7 +7765,7 @@
       },
       {
         "scene": "S06",
-        "choice": "Take the broad path",
+        "choice": "Keep moving along the broad path",
         "choiceId": "S06.2",
         "world": {
           "edition": "3",
@@ -7851,7 +7851,7 @@
       },
       {
         "scene": "S08",
-        "choice": "Ask directions without repair",
+        "choice": "Ask Hoothoot for directions — leave the nest for now",
         "choiceId": "S08.3",
         "world": {
           "edition": "3",
@@ -7897,7 +7897,7 @@
       },
       {
         "scene": "S09",
-        "choice": "Examine all four hollows",
+        "choice": "Examine what the empty hollow is missing",
         "choiceId": "S09.2",
         "world": {
           "edition": "3",
@@ -7945,7 +7945,7 @@
       },
       {
         "scene": "S10",
-        "choice": "Follow fresh prints",
+        "choice": "Follow the fresh tracks before they fade",
         "choiceId": "S10.3",
         "world": {
           "edition": "3",
@@ -7996,7 +7996,7 @@
       },
       {
         "scene": "S11",
-        "choice": "Secure damaged bridge using toolbox rope",
+        "choice": "Secure the bridge yourself and cross carefully",
         "choiceId": "S11.3",
         "world": {
           "edition": "3",
@@ -8284,7 +8284,7 @@
       },
       {
         "scene": "S16",
-        "choice": "Thank Gastly and continue",
+        "choice": "Thank Gastly and continue toward the tower",
         "choiceId": "S16.2",
         "world": {
           "edition": "3",
@@ -8351,7 +8351,7 @@
       },
       {
         "scene": "S17",
-        "choice": "Repair crank and gears",
+        "choice": "Repair the crank and open the gate by hand",
         "choiceId": "S17.3",
         "world": {
           "edition": "3",
@@ -8421,7 +8421,7 @@
       },
       {
         "scene": "S18",
-        "choice": "Read Lumi's temperature log",
+        "choice": "Find out how Lumi has cared for Shinx",
         "choiceId": "S18.3",
         "world": {
           "edition": "3",
@@ -8493,7 +8493,7 @@
       },
       {
         "scene": "S19",
-        "choice": "Inspect basket",
+        "choice": "Check whether the basket can carry Shinx safely",
         "choiceId": "S19.2",
         "world": {
           "edition": "3",
@@ -8568,7 +8568,7 @@
       },
       {
         "scene": "S20",
-        "choice": "Explain the old book",
+        "choice": "Explain the danger of leaving the glass closed",
         "choiceId": "S20.2",
         "world": {
           "edition": "3",
@@ -8645,7 +8645,7 @@
       },
       {
         "scene": "S21",
-        "choice": "Explain risks without blame",
+        "choice": "Explain what the darkness is doing to the valley",
         "choiceId": "S21.2",
         "world": {
           "edition": "3",
@@ -8724,7 +8724,7 @@
       },
       {
         "scene": "S22",
-        "choice": "Gather supplies",
+        "choice": "Fetch and test the missing equipment",
         "choiceId": "S22.4",
         "world": {
           "edition": "3",
@@ -9058,7 +9058,7 @@
       },
       {
         "scene": "S22",
-        "choice": "Explain Earth plan and backup heat",
+        "choice": "Let Shinx test the Earth plan’s backup heat",
         "choiceId": "S22.3",
         "world": {
           "edition": "3",
@@ -9746,7 +9746,7 @@
       },
       {
         "scene": "S05",
-        "choice": "Follow the lantern-lit path",
+        "choice": "Follow the lit path — safer but slower",
         "choiceId": "S05.1",
         "world": {
           "edition": "3",
@@ -9784,7 +9784,7 @@
       },
       {
         "scene": "S06",
-        "choice": "Take the broad path",
+        "choice": "Keep moving along the broad path",
         "choiceId": "S06.2",
         "world": {
           "edition": "3",
@@ -9870,7 +9870,7 @@
       },
       {
         "scene": "S08",
-        "choice": "Ask directions without repair",
+        "choice": "Ask Hoothoot for directions — leave the nest for now",
         "choiceId": "S08.3",
         "world": {
           "edition": "3",
@@ -9916,7 +9916,7 @@
       },
       {
         "scene": "S09",
-        "choice": "Examine all four hollows",
+        "choice": "Examine what the empty hollow is missing",
         "choiceId": "S09.2",
         "world": {
           "edition": "3",
@@ -9964,7 +9964,7 @@
       },
       {
         "scene": "S10",
-        "choice": "Follow fresh prints",
+        "choice": "Follow the fresh tracks before they fade",
         "choiceId": "S10.3",
         "world": {
           "edition": "3",
@@ -10015,7 +10015,7 @@
       },
       {
         "scene": "S11",
-        "choice": "Secure damaged bridge using toolbox rope",
+        "choice": "Secure the bridge yourself and cross carefully",
         "choiceId": "S11.3",
         "world": {
           "edition": "3",
@@ -10303,7 +10303,7 @@
       },
       {
         "scene": "S16",
-        "choice": "Thank Gastly and continue",
+        "choice": "Thank Gastly and continue toward the tower",
         "choiceId": "S16.2",
         "world": {
           "edition": "3",
@@ -10367,7 +10367,7 @@
       },
       {
         "scene": "S17",
-        "choice": "Repair crank and gears",
+        "choice": "Repair the crank and open the gate by hand",
         "choiceId": "S17.3",
         "world": {
           "edition": "3",
@@ -10434,7 +10434,7 @@
       },
       {
         "scene": "S18",
-        "choice": "Copy the three rings' rules",
+        "choice": "Learn how the three rescue plans work",
         "choiceId": "S18.1",
         "world": {
           "edition": "3",
@@ -10503,7 +10503,7 @@
       },
       {
         "scene": "S19",
-        "choice": "Inspect basket",
+        "choice": "Check whether the basket can carry Shinx safely",
         "choiceId": "S19.2",
         "world": {
           "edition": "3",
@@ -10575,7 +10575,7 @@
       },
       {
         "scene": "S20",
-        "choice": "Explain the old book",
+        "choice": "Explain the danger of leaving the glass closed",
         "choiceId": "S20.2",
         "world": {
           "edition": "3",
@@ -10649,7 +10649,7 @@
       },
       {
         "scene": "S21",
-        "choice": "Explain risks without blame",
+        "choice": "Explain what the darkness is doing to the valley",
         "choiceId": "S21.2",
         "world": {
           "edition": "3",
@@ -10725,7 +10725,7 @@
       },
       {
         "scene": "S22",
-        "choice": "Gather supplies",
+        "choice": "Fetch and test the missing equipment",
         "choiceId": "S22.4",
         "world": {
           "edition": "3",
@@ -11047,7 +11047,7 @@
       },
       {
         "scene": "S22",
-        "choice": "Explain Earth plan and backup heat",
+        "choice": "Let Shinx test the Earth plan’s backup heat",
         "choiceId": "S22.3",
         "world": {
           "edition": "3",
@@ -11717,7 +11717,7 @@
       },
       {
         "scene": "S05",
-        "choice": "Follow the lantern-lit path",
+        "choice": "Follow the lit path — safer but slower",
         "choiceId": "S05.1",
         "world": {
           "edition": "3",
@@ -11755,7 +11755,7 @@
       },
       {
         "scene": "S06",
-        "choice": "Take the broad path",
+        "choice": "Keep moving along the broad path",
         "choiceId": "S06.2",
         "world": {
           "edition": "3",
@@ -11841,7 +11841,7 @@
       },
       {
         "scene": "S08",
-        "choice": "Ask directions without repair",
+        "choice": "Ask Hoothoot for directions — leave the nest for now",
         "choiceId": "S08.3",
         "world": {
           "edition": "3",
@@ -11887,7 +11887,7 @@
       },
       {
         "scene": "S09",
-        "choice": "Examine all four hollows",
+        "choice": "Examine what the empty hollow is missing",
         "choiceId": "S09.2",
         "world": {
           "edition": "3",
@@ -11935,7 +11935,7 @@
       },
       {
         "scene": "S10",
-        "choice": "Follow fresh prints",
+        "choice": "Follow the fresh tracks before they fade",
         "choiceId": "S10.3",
         "world": {
           "edition": "3",
@@ -11986,7 +11986,7 @@
       },
       {
         "scene": "S11",
-        "choice": "Secure damaged bridge using toolbox rope",
+        "choice": "Secure the bridge yourself and cross carefully",
         "choiceId": "S11.3",
         "world": {
           "edition": "3",
@@ -12274,7 +12274,7 @@
       },
       {
         "scene": "S16",
-        "choice": "Thank Gastly and continue",
+        "choice": "Thank Gastly and continue toward the tower",
         "choiceId": "S16.2",
         "world": {
           "edition": "3",
@@ -12338,7 +12338,7 @@
       },
       {
         "scene": "S17",
-        "choice": "Repair crank and gears",
+        "choice": "Repair the crank and open the gate by hand",
         "choiceId": "S17.3",
         "world": {
           "edition": "3",
@@ -12405,7 +12405,7 @@
       },
       {
         "scene": "S18",
-        "choice": "Copy the three rings' rules",
+        "choice": "Learn how the three rescue plans work",
         "choiceId": "S18.1",
         "world": {
           "edition": "3",
@@ -12474,7 +12474,7 @@
       },
       {
         "scene": "S19",
-        "choice": "Inspect basket",
+        "choice": "Check whether the basket can carry Shinx safely",
         "choiceId": "S19.2",
         "world": {
           "edition": "3",
@@ -12546,7 +12546,7 @@
       },
       {
         "scene": "S20",
-        "choice": "Explain the old book",
+        "choice": "Explain the danger of leaving the glass closed",
         "choiceId": "S20.2",
         "world": {
           "edition": "3",
@@ -12620,7 +12620,7 @@
       },
       {
         "scene": "S21",
-        "choice": "Explain risks without blame",
+        "choice": "Explain what the darkness is doing to the valley",
         "choiceId": "S21.2",
         "world": {
           "edition": "3",
@@ -12696,7 +12696,7 @@
       },
       {
         "scene": "S22",
-        "choice": "Gather supplies",
+        "choice": "Fetch and test the missing equipment",
         "choiceId": "S22.4",
         "world": {
           "edition": "3",
@@ -12935,7 +12935,7 @@
       },
       {
         "scene": "S22",
-        "choice": "Explain safe basket",
+        "choice": "Let Shinx try the warm carrying basket",
         "choiceId": "S22.1",
         "world": {
           "edition": "3",
@@ -13599,7 +13599,7 @@
       },
       {
         "scene": "S05",
-        "choice": "Follow the lantern-lit path",
+        "choice": "Follow the lit path — safer but slower",
         "choiceId": "S05.1",
         "world": {
           "edition": "3",
@@ -13637,7 +13637,7 @@
       },
       {
         "scene": "S06",
-        "choice": "Take the broad path",
+        "choice": "Keep moving along the broad path",
         "choiceId": "S06.2",
         "world": {
           "edition": "3",
@@ -13723,7 +13723,7 @@
       },
       {
         "scene": "S08",
-        "choice": "Ask directions without repair",
+        "choice": "Ask Hoothoot for directions — leave the nest for now",
         "choiceId": "S08.3",
         "world": {
           "edition": "3",
@@ -13769,7 +13769,7 @@
       },
       {
         "scene": "S09",
-        "choice": "Examine all four hollows",
+        "choice": "Examine what the empty hollow is missing",
         "choiceId": "S09.2",
         "world": {
           "edition": "3",
@@ -13817,7 +13817,7 @@
       },
       {
         "scene": "S10",
-        "choice": "Follow fresh prints",
+        "choice": "Follow the fresh tracks before they fade",
         "choiceId": "S10.3",
         "world": {
           "edition": "3",
@@ -13868,7 +13868,7 @@
       },
       {
         "scene": "S11",
-        "choice": "Secure damaged bridge using toolbox rope",
+        "choice": "Secure the bridge yourself and cross carefully",
         "choiceId": "S11.3",
         "world": {
           "edition": "3",
@@ -14156,7 +14156,7 @@
       },
       {
         "scene": "S16",
-        "choice": "Thank Gastly and continue",
+        "choice": "Thank Gastly and continue toward the tower",
         "choiceId": "S16.2",
         "world": {
           "edition": "3",
@@ -14223,7 +14223,7 @@
       },
       {
         "scene": "S17",
-        "choice": "Repair crank and gears",
+        "choice": "Repair the crank and open the gate by hand",
         "choiceId": "S17.3",
         "world": {
           "edition": "3",
@@ -14293,7 +14293,7 @@
       },
       {
         "scene": "S18",
-        "choice": "Copy the three rings' rules",
+        "choice": "Learn how the three rescue plans work",
         "choiceId": "S18.1",
         "world": {
           "edition": "3",
@@ -14365,7 +14365,7 @@
       },
       {
         "scene": "S19",
-        "choice": "Inspect basket",
+        "choice": "Check whether the basket can carry Shinx safely",
         "choiceId": "S19.2",
         "world": {
           "edition": "3",
@@ -14440,7 +14440,7 @@
       },
       {
         "scene": "S20",
-        "choice": "Explain the old book",
+        "choice": "Explain the danger of leaving the glass closed",
         "choiceId": "S20.2",
         "world": {
           "edition": "3",
@@ -14517,7 +14517,7 @@
       },
       {
         "scene": "S21",
-        "choice": "Explain risks without blame",
+        "choice": "Explain what the darkness is doing to the valley",
         "choiceId": "S21.2",
         "world": {
           "edition": "3",
@@ -14596,7 +14596,7 @@
       },
       {
         "scene": "S22",
-        "choice": "Gather supplies",
+        "choice": "Fetch and test the missing equipment",
         "choiceId": "S22.4",
         "world": {
           "edition": "3",
@@ -14844,7 +14844,7 @@
       },
       {
         "scene": "S22",
-        "choice": "Explain safe basket",
+        "choice": "Let Shinx try the warm carrying basket",
         "choiceId": "S22.1",
         "world": {
           "edition": "3",
@@ -15526,7 +15526,7 @@
       },
       {
         "scene": "S05",
-        "choice": "Follow the lantern-lit path",
+        "choice": "Follow the lit path — safer but slower",
         "choiceId": "S05.1",
         "world": {
           "edition": "3",
@@ -15564,7 +15564,7 @@
       },
       {
         "scene": "S06",
-        "choice": "Take the broad path",
+        "choice": "Keep moving along the broad path",
         "choiceId": "S06.2",
         "world": {
           "edition": "3",
@@ -15650,7 +15650,7 @@
       },
       {
         "scene": "S08",
-        "choice": "Ask directions without repair",
+        "choice": "Ask Hoothoot for directions — leave the nest for now",
         "choiceId": "S08.3",
         "world": {
           "edition": "3",
@@ -15696,7 +15696,7 @@
       },
       {
         "scene": "S09",
-        "choice": "Examine all four hollows",
+        "choice": "Examine what the empty hollow is missing",
         "choiceId": "S09.2",
         "world": {
           "edition": "3",
@@ -15744,7 +15744,7 @@
       },
       {
         "scene": "S10",
-        "choice": "Follow fresh prints",
+        "choice": "Follow the fresh tracks before they fade",
         "choiceId": "S10.3",
         "world": {
           "edition": "3",
@@ -15795,7 +15795,7 @@
       },
       {
         "scene": "S11",
-        "choice": "Secure damaged bridge using toolbox rope",
+        "choice": "Secure the bridge yourself and cross carefully",
         "choiceId": "S11.3",
         "world": {
           "edition": "3",
@@ -16083,7 +16083,7 @@
       },
       {
         "scene": "S16",
-        "choice": "Thank Gastly and continue",
+        "choice": "Thank Gastly and continue toward the tower",
         "choiceId": "S16.2",
         "world": {
           "edition": "3",
@@ -16147,7 +16147,7 @@
       },
       {
         "scene": "S17",
-        "choice": "Repair crank and gears",
+        "choice": "Repair the crank and open the gate by hand",
         "choiceId": "S17.3",
         "world": {
           "edition": "3",
@@ -16214,7 +16214,7 @@
       },
       {
         "scene": "S18",
-        "choice": "Copy the three rings' rules",
+        "choice": "Learn how the three rescue plans work",
         "choiceId": "S18.1",
         "world": {
           "edition": "3",
@@ -16283,7 +16283,7 @@
       },
       {
         "scene": "S19",
-        "choice": "Inspect basket",
+        "choice": "Check whether the basket can carry Shinx safely",
         "choiceId": "S19.2",
         "world": {
           "edition": "3",
@@ -16355,7 +16355,7 @@
       },
       {
         "scene": "S20",
-        "choice": "Explain the old book",
+        "choice": "Explain the danger of leaving the glass closed",
         "choiceId": "S20.2",
         "world": {
           "edition": "3",
@@ -16429,7 +16429,7 @@
       },
       {
         "scene": "S21",
-        "choice": "Explain risks without blame",
+        "choice": "Explain what the darkness is doing to the valley",
         "choiceId": "S21.2",
         "world": {
           "edition": "3",
@@ -16505,7 +16505,7 @@
       },
       {
         "scene": "S22",
-        "choice": "Gather supplies",
+        "choice": "Fetch and test the missing equipment",
         "choiceId": "S22.4",
         "world": {
           "edition": "3",
@@ -16744,7 +16744,7 @@
       },
       {
         "scene": "S22",
-        "choice": "Explain watch plan",
+        "choice": "Let Shinx consider the watch plan",
         "choiceId": "S22.2",
         "world": {
           "edition": "3",
@@ -17408,7 +17408,7 @@
       },
       {
         "scene": "S05",
-        "choice": "Follow the lantern-lit path",
+        "choice": "Follow the lit path — safer but slower",
         "choiceId": "S05.1",
         "world": {
           "edition": "3",
@@ -17446,7 +17446,7 @@
       },
       {
         "scene": "S06",
-        "choice": "Take the broad path",
+        "choice": "Keep moving along the broad path",
         "choiceId": "S06.2",
         "world": {
           "edition": "3",
@@ -17532,7 +17532,7 @@
       },
       {
         "scene": "S08",
-        "choice": "Ask directions without repair",
+        "choice": "Ask Hoothoot for directions — leave the nest for now",
         "choiceId": "S08.3",
         "world": {
           "edition": "3",
@@ -17578,7 +17578,7 @@
       },
       {
         "scene": "S09",
-        "choice": "Examine all four hollows",
+        "choice": "Examine what the empty hollow is missing",
         "choiceId": "S09.2",
         "world": {
           "edition": "3",
@@ -17626,7 +17626,7 @@
       },
       {
         "scene": "S10",
-        "choice": "Follow fresh prints",
+        "choice": "Follow the fresh tracks before they fade",
         "choiceId": "S10.3",
         "world": {
           "edition": "3",
@@ -17677,7 +17677,7 @@
       },
       {
         "scene": "S11",
-        "choice": "Secure damaged bridge using toolbox rope",
+        "choice": "Secure the bridge yourself and cross carefully",
         "choiceId": "S11.3",
         "world": {
           "edition": "3",
@@ -17965,7 +17965,7 @@
       },
       {
         "scene": "S16",
-        "choice": "Stay and hear Gastly's story",
+        "choice": "Stay and hear the story Gastly wants to tell",
         "choiceId": "S16.1",
         "world": {
           "edition": "3",
@@ -18029,7 +18029,7 @@
       },
       {
         "scene": "S17",
-        "choice": "Repair crank and gears",
+        "choice": "Repair the crank and open the gate by hand",
         "choiceId": "S17.3",
         "world": {
           "edition": "3",
@@ -18098,7 +18098,7 @@
       },
       {
         "scene": "S18",
-        "choice": "Copy the three rings' rules",
+        "choice": "Learn how the three rescue plans work",
         "choiceId": "S18.1",
         "world": {
           "edition": "3",
@@ -18169,7 +18169,7 @@
       },
       {
         "scene": "S19",
-        "choice": "Inspect basket",
+        "choice": "Check whether the basket can carry Shinx safely",
         "choiceId": "S19.2",
         "world": {
           "edition": "3",
@@ -18243,7 +18243,7 @@
       },
       {
         "scene": "S20",
-        "choice": "Explain the old book",
+        "choice": "Explain the danger of leaving the glass closed",
         "choiceId": "S20.2",
         "world": {
           "edition": "3",
@@ -18319,7 +18319,7 @@
       },
       {
         "scene": "S21",
-        "choice": "Explain risks without blame",
+        "choice": "Explain what the darkness is doing to the valley",
         "choiceId": "S21.2",
         "world": {
           "edition": "3",
@@ -18397,7 +18397,7 @@
       },
       {
         "scene": "S22",
-        "choice": "Gather supplies",
+        "choice": "Fetch and test the missing equipment",
         "choiceId": "S22.4",
         "world": {
           "edition": "3",
@@ -18642,7 +18642,7 @@
       },
       {
         "scene": "S22",
-        "choice": "Explain watch plan",
+        "choice": "Let Shinx consider the watch plan",
         "choiceId": "S22.2",
         "world": {
           "edition": "3",
@@ -19318,7 +19318,7 @@
       },
       {
         "scene": "S05",
-        "choice": "Follow the lantern-lit path",
+        "choice": "Follow the lit path — safer but slower",
         "choiceId": "S05.1",
         "world": {
           "edition": "3",
@@ -19356,7 +19356,7 @@
       },
       {
         "scene": "S06",
-        "choice": "Take the broad path",
+        "choice": "Keep moving along the broad path",
         "choiceId": "S06.2",
         "world": {
           "edition": "3",
@@ -19442,7 +19442,7 @@
       },
       {
         "scene": "S08",
-        "choice": "Ask directions without repair",
+        "choice": "Ask Hoothoot for directions — leave the nest for now",
         "choiceId": "S08.3",
         "world": {
           "edition": "3",
@@ -19488,7 +19488,7 @@
       },
       {
         "scene": "S09",
-        "choice": "Examine all four hollows",
+        "choice": "Examine what the empty hollow is missing",
         "choiceId": "S09.2",
         "world": {
           "edition": "3",
@@ -19536,7 +19536,7 @@
       },
       {
         "scene": "S10",
-        "choice": "Follow fresh prints",
+        "choice": "Follow the fresh tracks before they fade",
         "choiceId": "S10.3",
         "world": {
           "edition": "3",
@@ -19587,7 +19587,7 @@
       },
       {
         "scene": "S11",
-        "choice": "Secure damaged bridge using toolbox rope",
+        "choice": "Secure the bridge yourself and cross carefully",
         "choiceId": "S11.3",
         "world": {
           "edition": "3",
@@ -19875,7 +19875,7 @@
       },
       {
         "scene": "S16",
-        "choice": "Thank Gastly and continue",
+        "choice": "Thank Gastly and continue toward the tower",
         "choiceId": "S16.2",
         "world": {
           "edition": "3",
@@ -19942,7 +19942,7 @@
       },
       {
         "scene": "S17",
-        "choice": "Repair crank and gears",
+        "choice": "Repair the crank and open the gate by hand",
         "choiceId": "S17.3",
         "world": {
           "edition": "3",
@@ -20012,7 +20012,7 @@
       },
       {
         "scene": "S18",
-        "choice": "Read Lumi's temperature log",
+        "choice": "Find out how Lumi has cared for Shinx",
         "choiceId": "S18.3",
         "world": {
           "edition": "3",
@@ -20084,7 +20084,7 @@
       },
       {
         "scene": "S19",
-        "choice": "Inspect basket",
+        "choice": "Check whether the basket can carry Shinx safely",
         "choiceId": "S19.2",
         "world": {
           "edition": "3",
@@ -20159,7 +20159,7 @@
       },
       {
         "scene": "S20",
-        "choice": "Explain the old book",
+        "choice": "Explain the danger of leaving the glass closed",
         "choiceId": "S20.2",
         "world": {
           "edition": "3",
@@ -20236,7 +20236,7 @@
       },
       {
         "scene": "S21",
-        "choice": "Explain risks without blame",
+        "choice": "Explain what the darkness is doing to the valley",
         "choiceId": "S21.2",
         "world": {
           "edition": "3",
@@ -20315,7 +20315,7 @@
       },
       {
         "scene": "S22",
-        "choice": "Gather supplies",
+        "choice": "Fetch and test the missing equipment",
         "choiceId": "S22.4",
         "world": {
           "edition": "3",
@@ -20649,7 +20649,7 @@
       },
       {
         "scene": "S22",
-        "choice": "Explain Earth plan and backup heat",
+        "choice": "Let Shinx test the Earth plan’s backup heat",
         "choiceId": "S22.3",
         "world": {
           "edition": "3",
@@ -21337,7 +21337,7 @@
       },
       {
         "scene": "S05",
-        "choice": "Follow the lantern-lit path",
+        "choice": "Follow the lit path — safer but slower",
         "choiceId": "S05.1",
         "world": {
           "edition": "3",
@@ -21375,7 +21375,7 @@
       },
       {
         "scene": "S06",
-        "choice": "Take the broad path",
+        "choice": "Keep moving along the broad path",
         "choiceId": "S06.2",
         "world": {
           "edition": "3",
@@ -21461,7 +21461,7 @@
       },
       {
         "scene": "S08",
-        "choice": "Ask directions without repair",
+        "choice": "Ask Hoothoot for directions — leave the nest for now",
         "choiceId": "S08.3",
         "world": {
           "edition": "3",
@@ -21507,7 +21507,7 @@
       },
       {
         "scene": "S09",
-        "choice": "Examine all four hollows",
+        "choice": "Examine what the empty hollow is missing",
         "choiceId": "S09.2",
         "world": {
           "edition": "3",
@@ -21555,7 +21555,7 @@
       },
       {
         "scene": "S10",
-        "choice": "Follow fresh prints",
+        "choice": "Follow the fresh tracks before they fade",
         "choiceId": "S10.3",
         "world": {
           "edition": "3",
@@ -21606,7 +21606,7 @@
       },
       {
         "scene": "S11",
-        "choice": "Secure damaged bridge using toolbox rope",
+        "choice": "Secure the bridge yourself and cross carefully",
         "choiceId": "S11.3",
         "world": {
           "edition": "3",
@@ -21894,7 +21894,7 @@
       },
       {
         "scene": "S16",
-        "choice": "Thank Gastly and continue",
+        "choice": "Thank Gastly and continue toward the tower",
         "choiceId": "S16.2",
         "world": {
           "edition": "3",
@@ -21958,7 +21958,7 @@
       },
       {
         "scene": "S17",
-        "choice": "Repair crank and gears",
+        "choice": "Repair the crank and open the gate by hand",
         "choiceId": "S17.3",
         "world": {
           "edition": "3",
@@ -22025,7 +22025,7 @@
       },
       {
         "scene": "S18",
-        "choice": "Copy the three rings' rules",
+        "choice": "Learn how the three rescue plans work",
         "choiceId": "S18.1",
         "world": {
           "edition": "3",
@@ -22094,7 +22094,7 @@
       },
       {
         "scene": "S19",
-        "choice": "Inspect basket",
+        "choice": "Check whether the basket can carry Shinx safely",
         "choiceId": "S19.2",
         "world": {
           "edition": "3",
@@ -22166,7 +22166,7 @@
       },
       {
         "scene": "S20",
-        "choice": "Explain the old book",
+        "choice": "Explain the danger of leaving the glass closed",
         "choiceId": "S20.2",
         "world": {
           "edition": "3",
@@ -22240,7 +22240,7 @@
       },
       {
         "scene": "S21",
-        "choice": "Explain risks without blame",
+        "choice": "Explain what the darkness is doing to the valley",
         "choiceId": "S21.2",
         "world": {
           "edition": "3",
@@ -22316,7 +22316,7 @@
       },
       {
         "scene": "S22",
-        "choice": "Gather supplies",
+        "choice": "Fetch and test the missing equipment",
         "choiceId": "S22.4",
         "world": {
           "edition": "3",
@@ -22638,7 +22638,7 @@
       },
       {
         "scene": "S22",
-        "choice": "Explain Earth plan and backup heat",
+        "choice": "Let Shinx test the Earth plan’s backup heat",
         "choiceId": "S22.3",
         "world": {
           "edition": "3",
@@ -23308,7 +23308,7 @@
       },
       {
         "scene": "S05",
-        "choice": "Follow the lantern-lit path",
+        "choice": "Follow the lit path — safer but slower",
         "choiceId": "S05.1",
         "world": {
           "edition": "3",
@@ -23346,7 +23346,7 @@
       },
       {
         "scene": "S06",
-        "choice": "Take the broad path",
+        "choice": "Keep moving along the broad path",
         "choiceId": "S06.2",
         "world": {
           "edition": "3",
@@ -23432,7 +23432,7 @@
       },
       {
         "scene": "S08",
-        "choice": "Ask directions without repair",
+        "choice": "Ask Hoothoot for directions — leave the nest for now",
         "choiceId": "S08.3",
         "world": {
           "edition": "3",
@@ -23478,7 +23478,7 @@
       },
       {
         "scene": "S09",
-        "choice": "Examine all four hollows",
+        "choice": "Examine what the empty hollow is missing",
         "choiceId": "S09.2",
         "world": {
           "edition": "3",
@@ -23526,7 +23526,7 @@
       },
       {
         "scene": "S10",
-        "choice": "Follow fresh prints",
+        "choice": "Follow the fresh tracks before they fade",
         "choiceId": "S10.3",
         "world": {
           "edition": "3",
@@ -23577,7 +23577,7 @@
       },
       {
         "scene": "S11",
-        "choice": "Secure damaged bridge using toolbox rope",
+        "choice": "Secure the bridge yourself and cross carefully",
         "choiceId": "S11.3",
         "world": {
           "edition": "3",
@@ -23865,7 +23865,7 @@
       },
       {
         "scene": "S16",
-        "choice": "Thank Gastly and continue",
+        "choice": "Thank Gastly and continue toward the tower",
         "choiceId": "S16.2",
         "world": {
           "edition": "3",
@@ -23929,7 +23929,7 @@
       },
       {
         "scene": "S17",
-        "choice": "Repair crank and gears",
+        "choice": "Repair the crank and open the gate by hand",
         "choiceId": "S17.3",
         "world": {
           "edition": "3",
@@ -23996,7 +23996,7 @@
       },
       {
         "scene": "S18",
-        "choice": "Copy the three rings' rules",
+        "choice": "Learn how the three rescue plans work",
         "choiceId": "S18.1",
         "world": {
           "edition": "3",
@@ -24065,7 +24065,7 @@
       },
       {
         "scene": "S19",
-        "choice": "Inspect basket",
+        "choice": "Check whether the basket can carry Shinx safely",
         "choiceId": "S19.2",
         "world": {
           "edition": "3",
@@ -24137,7 +24137,7 @@
       },
       {
         "scene": "S20",
-        "choice": "Explain the old book",
+        "choice": "Explain the danger of leaving the glass closed",
         "choiceId": "S20.2",
         "world": {
           "edition": "3",
@@ -24211,7 +24211,7 @@
       },
       {
         "scene": "S21",
-        "choice": "Explain risks without blame",
+        "choice": "Explain what the darkness is doing to the valley",
         "choiceId": "S21.2",
         "world": {
           "edition": "3",
@@ -24287,7 +24287,7 @@
       },
       {
         "scene": "S22",
-        "choice": "Gather supplies",
+        "choice": "Fetch and test the missing equipment",
         "choiceId": "S22.4",
         "world": {
           "edition": "3",
@@ -24526,7 +24526,7 @@
       },
       {
         "scene": "S22",
-        "choice": "Explain safe basket",
+        "choice": "Let Shinx try the warm carrying basket",
         "choiceId": "S22.1",
         "world": {
           "edition": "3",
@@ -25190,7 +25190,7 @@
       },
       {
         "scene": "S05",
-        "choice": "Follow the lantern-lit path",
+        "choice": "Follow the lit path — safer but slower",
         "choiceId": "S05.1",
         "world": {
           "edition": "3",
@@ -25228,7 +25228,7 @@
       },
       {
         "scene": "S06",
-        "choice": "Take the broad path",
+        "choice": "Keep moving along the broad path",
         "choiceId": "S06.2",
         "world": {
           "edition": "3",
@@ -25314,7 +25314,7 @@
       },
       {
         "scene": "S08",
-        "choice": "Ask directions without repair",
+        "choice": "Ask Hoothoot for directions — leave the nest for now",
         "choiceId": "S08.3",
         "world": {
           "edition": "3",
@@ -25360,7 +25360,7 @@
       },
       {
         "scene": "S09",
-        "choice": "Examine all four hollows",
+        "choice": "Examine what the empty hollow is missing",
         "choiceId": "S09.2",
         "world": {
           "edition": "3",
@@ -25408,7 +25408,7 @@
       },
       {
         "scene": "S10",
-        "choice": "Follow fresh prints",
+        "choice": "Follow the fresh tracks before they fade",
         "choiceId": "S10.3",
         "world": {
           "edition": "3",
@@ -25459,7 +25459,7 @@
       },
       {
         "scene": "S11",
-        "choice": "Secure damaged bridge using toolbox rope",
+        "choice": "Secure the bridge yourself and cross carefully",
         "choiceId": "S11.3",
         "world": {
           "edition": "3",
@@ -25747,7 +25747,7 @@
       },
       {
         "scene": "S16",
-        "choice": "Thank Gastly and continue",
+        "choice": "Thank Gastly and continue toward the tower",
         "choiceId": "S16.2",
         "world": {
           "edition": "3",
@@ -25814,7 +25814,7 @@
       },
       {
         "scene": "S17",
-        "choice": "Repair crank and gears",
+        "choice": "Repair the crank and open the gate by hand",
         "choiceId": "S17.3",
         "world": {
           "edition": "3",
@@ -25884,7 +25884,7 @@
       },
       {
         "scene": "S18",
-        "choice": "Copy the three rings' rules",
+        "choice": "Learn how the three rescue plans work",
         "choiceId": "S18.1",
         "world": {
           "edition": "3",
@@ -25956,7 +25956,7 @@
       },
       {
         "scene": "S19",
-        "choice": "Inspect basket",
+        "choice": "Check whether the basket can carry Shinx safely",
         "choiceId": "S19.2",
         "world": {
           "edition": "3",
@@ -26031,7 +26031,7 @@
       },
       {
         "scene": "S20",
-        "choice": "Explain the old book",
+        "choice": "Explain the danger of leaving the glass closed",
         "choiceId": "S20.2",
         "world": {
           "edition": "3",
@@ -26108,7 +26108,7 @@
       },
       {
         "scene": "S21",
-        "choice": "Explain risks without blame",
+        "choice": "Explain what the darkness is doing to the valley",
         "choiceId": "S21.2",
         "world": {
           "edition": "3",
@@ -26187,7 +26187,7 @@
       },
       {
         "scene": "S22",
-        "choice": "Gather supplies",
+        "choice": "Fetch and test the missing equipment",
         "choiceId": "S22.4",
         "world": {
           "edition": "3",
@@ -26435,7 +26435,7 @@
       },
       {
         "scene": "S22",
-        "choice": "Explain safe basket",
+        "choice": "Let Shinx try the warm carrying basket",
         "choiceId": "S22.1",
         "world": {
           "edition": "3",
@@ -27117,7 +27117,7 @@
       },
       {
         "scene": "S05",
-        "choice": "Follow the lantern-lit path",
+        "choice": "Follow the lit path — safer but slower",
         "choiceId": "S05.1",
         "world": {
           "edition": "3",
@@ -27155,7 +27155,7 @@
       },
       {
         "scene": "S06",
-        "choice": "Take the broad path",
+        "choice": "Keep moving along the broad path",
         "choiceId": "S06.2",
         "world": {
           "edition": "3",
@@ -27241,7 +27241,7 @@
       },
       {
         "scene": "S08",
-        "choice": "Ask directions without repair",
+        "choice": "Ask Hoothoot for directions — leave the nest for now",
         "choiceId": "S08.3",
         "world": {
           "edition": "3",
@@ -27287,7 +27287,7 @@
       },
       {
         "scene": "S09",
-        "choice": "Examine all four hollows",
+        "choice": "Examine what the empty hollow is missing",
         "choiceId": "S09.2",
         "world": {
           "edition": "3",
@@ -27335,7 +27335,7 @@
       },
       {
         "scene": "S10",
-        "choice": "Follow fresh prints",
+        "choice": "Follow the fresh tracks before they fade",
         "choiceId": "S10.3",
         "world": {
           "edition": "3",
@@ -27386,7 +27386,7 @@
       },
       {
         "scene": "S11",
-        "choice": "Secure damaged bridge using toolbox rope",
+        "choice": "Secure the bridge yourself and cross carefully",
         "choiceId": "S11.3",
         "world": {
           "edition": "3",
@@ -27674,7 +27674,7 @@
       },
       {
         "scene": "S16",
-        "choice": "Thank Gastly and continue",
+        "choice": "Thank Gastly and continue toward the tower",
         "choiceId": "S16.2",
         "world": {
           "edition": "3",
@@ -27738,7 +27738,7 @@
       },
       {
         "scene": "S17",
-        "choice": "Repair crank and gears",
+        "choice": "Repair the crank and open the gate by hand",
         "choiceId": "S17.3",
         "world": {
           "edition": "3",
@@ -27805,7 +27805,7 @@
       },
       {
         "scene": "S18",
-        "choice": "Copy the three rings' rules",
+        "choice": "Learn how the three rescue plans work",
         "choiceId": "S18.1",
         "world": {
           "edition": "3",
@@ -27874,7 +27874,7 @@
       },
       {
         "scene": "S19",
-        "choice": "Inspect basket",
+        "choice": "Check whether the basket can carry Shinx safely",
         "choiceId": "S19.2",
         "world": {
           "edition": "3",
@@ -27946,7 +27946,7 @@
       },
       {
         "scene": "S20",
-        "choice": "Explain the old book",
+        "choice": "Explain the danger of leaving the glass closed",
         "choiceId": "S20.2",
         "world": {
           "edition": "3",
@@ -28020,7 +28020,7 @@
       },
       {
         "scene": "S21",
-        "choice": "Explain risks without blame",
+        "choice": "Explain what the darkness is doing to the valley",
         "choiceId": "S21.2",
         "world": {
           "edition": "3",
@@ -28096,7 +28096,7 @@
       },
       {
         "scene": "S22",
-        "choice": "Gather supplies",
+        "choice": "Fetch and test the missing equipment",
         "choiceId": "S22.4",
         "world": {
           "edition": "3",
@@ -28335,7 +28335,7 @@
       },
       {
         "scene": "S22",
-        "choice": "Explain watch plan",
+        "choice": "Let Shinx consider the watch plan",
         "choiceId": "S22.2",
         "world": {
           "edition": "3",
@@ -28999,7 +28999,7 @@
       },
       {
         "scene": "S05",
-        "choice": "Follow the lantern-lit path",
+        "choice": "Follow the lit path — safer but slower",
         "choiceId": "S05.1",
         "world": {
           "edition": "3",
@@ -29037,7 +29037,7 @@
       },
       {
         "scene": "S06",
-        "choice": "Take the broad path",
+        "choice": "Keep moving along the broad path",
         "choiceId": "S06.2",
         "world": {
           "edition": "3",
@@ -29123,7 +29123,7 @@
       },
       {
         "scene": "S08",
-        "choice": "Ask directions without repair",
+        "choice": "Ask Hoothoot for directions — leave the nest for now",
         "choiceId": "S08.3",
         "world": {
           "edition": "3",
@@ -29169,7 +29169,7 @@
       },
       {
         "scene": "S09",
-        "choice": "Examine all four hollows",
+        "choice": "Examine what the empty hollow is missing",
         "choiceId": "S09.2",
         "world": {
           "edition": "3",
@@ -29217,7 +29217,7 @@
       },
       {
         "scene": "S10",
-        "choice": "Follow fresh prints",
+        "choice": "Follow the fresh tracks before they fade",
         "choiceId": "S10.3",
         "world": {
           "edition": "3",
@@ -29268,7 +29268,7 @@
       },
       {
         "scene": "S11",
-        "choice": "Secure damaged bridge using toolbox rope",
+        "choice": "Secure the bridge yourself and cross carefully",
         "choiceId": "S11.3",
         "world": {
           "edition": "3",
@@ -29556,7 +29556,7 @@
       },
       {
         "scene": "S16",
-        "choice": "Stay and hear Gastly's story",
+        "choice": "Stay and hear the story Gastly wants to tell",
         "choiceId": "S16.1",
         "world": {
           "edition": "3",
@@ -29620,7 +29620,7 @@
       },
       {
         "scene": "S17",
-        "choice": "Repair crank and gears",
+        "choice": "Repair the crank and open the gate by hand",
         "choiceId": "S17.3",
         "world": {
           "edition": "3",
@@ -29689,7 +29689,7 @@
       },
       {
         "scene": "S18",
-        "choice": "Copy the three rings' rules",
+        "choice": "Learn how the three rescue plans work",
         "choiceId": "S18.1",
         "world": {
           "edition": "3",
@@ -29760,7 +29760,7 @@
       },
       {
         "scene": "S19",
-        "choice": "Inspect basket",
+        "choice": "Check whether the basket can carry Shinx safely",
         "choiceId": "S19.2",
         "world": {
           "edition": "3",
@@ -29834,7 +29834,7 @@
       },
       {
         "scene": "S20",
-        "choice": "Explain the old book",
+        "choice": "Explain the danger of leaving the glass closed",
         "choiceId": "S20.2",
         "world": {
           "edition": "3",
@@ -29910,7 +29910,7 @@
       },
       {
         "scene": "S21",
-        "choice": "Explain risks without blame",
+        "choice": "Explain what the darkness is doing to the valley",
         "choiceId": "S21.2",
         "world": {
           "edition": "3",
@@ -29988,7 +29988,7 @@
       },
       {
         "scene": "S22",
-        "choice": "Gather supplies",
+        "choice": "Fetch and test the missing equipment",
         "choiceId": "S22.4",
         "world": {
           "edition": "3",
@@ -30233,7 +30233,7 @@
       },
       {
         "scene": "S22",
-        "choice": "Explain watch plan",
+        "choice": "Let Shinx consider the watch plan",
         "choiceId": "S22.2",
         "world": {
           "edition": "3",
@@ -30909,7 +30909,7 @@
       },
       {
         "scene": "S05",
-        "choice": "Follow the lantern-lit path",
+        "choice": "Follow the lit path — safer but slower",
         "choiceId": "S05.1",
         "world": {
           "edition": "3",
@@ -30947,7 +30947,7 @@
       },
       {
         "scene": "S06",
-        "choice": "Take the broad path",
+        "choice": "Keep moving along the broad path",
         "choiceId": "S06.2",
         "world": {
           "edition": "3",
@@ -31033,7 +31033,7 @@
       },
       {
         "scene": "S08",
-        "choice": "Ask directions without repair",
+        "choice": "Ask Hoothoot for directions — leave the nest for now",
         "choiceId": "S08.3",
         "world": {
           "edition": "3",
@@ -31079,7 +31079,7 @@
       },
       {
         "scene": "S09",
-        "choice": "Examine all four hollows",
+        "choice": "Examine what the empty hollow is missing",
         "choiceId": "S09.2",
         "world": {
           "edition": "3",
@@ -31127,7 +31127,7 @@
       },
       {
         "scene": "S10",
-        "choice": "Follow fresh prints",
+        "choice": "Follow the fresh tracks before they fade",
         "choiceId": "S10.3",
         "world": {
           "edition": "3",
@@ -31178,7 +31178,7 @@
       },
       {
         "scene": "S11",
-        "choice": "Secure damaged bridge using toolbox rope",
+        "choice": "Secure the bridge yourself and cross carefully",
         "choiceId": "S11.3",
         "world": {
           "edition": "3",
@@ -31466,7 +31466,7 @@
       },
       {
         "scene": "S16",
-        "choice": "Thank Gastly and continue",
+        "choice": "Thank Gastly and continue toward the tower",
         "choiceId": "S16.2",
         "world": {
           "edition": "3",
@@ -31533,7 +31533,7 @@
       },
       {
         "scene": "S17",
-        "choice": "Repair crank and gears",
+        "choice": "Repair the crank and open the gate by hand",
         "choiceId": "S17.3",
         "world": {
           "edition": "3",
@@ -31603,7 +31603,7 @@
       },
       {
         "scene": "S18",
-        "choice": "Read Lumi's temperature log",
+        "choice": "Find out how Lumi has cared for Shinx",
         "choiceId": "S18.3",
         "world": {
           "edition": "3",
@@ -31675,7 +31675,7 @@
       },
       {
         "scene": "S19",
-        "choice": "Inspect basket",
+        "choice": "Check whether the basket can carry Shinx safely",
         "choiceId": "S19.2",
         "world": {
           "edition": "3",
@@ -31750,7 +31750,7 @@
       },
       {
         "scene": "S20",
-        "choice": "Explain the old book",
+        "choice": "Explain the danger of leaving the glass closed",
         "choiceId": "S20.2",
         "world": {
           "edition": "3",
@@ -31827,7 +31827,7 @@
       },
       {
         "scene": "S21",
-        "choice": "Explain risks without blame",
+        "choice": "Explain what the darkness is doing to the valley",
         "choiceId": "S21.2",
         "world": {
           "edition": "3",
@@ -31906,7 +31906,7 @@
       },
       {
         "scene": "S22",
-        "choice": "Gather supplies",
+        "choice": "Fetch and test the missing equipment",
         "choiceId": "S22.4",
         "world": {
           "edition": "3",
@@ -32240,7 +32240,7 @@
       },
       {
         "scene": "S22",
-        "choice": "Explain Earth plan and backup heat",
+        "choice": "Let Shinx test the Earth plan’s backup heat",
         "choiceId": "S22.3",
         "world": {
           "edition": "3",
@@ -32928,7 +32928,7 @@
       },
       {
         "scene": "S05",
-        "choice": "Follow the lantern-lit path",
+        "choice": "Follow the lit path — safer but slower",
         "choiceId": "S05.1",
         "world": {
           "edition": "3",
@@ -32966,7 +32966,7 @@
       },
       {
         "scene": "S06",
-        "choice": "Take the broad path",
+        "choice": "Keep moving along the broad path",
         "choiceId": "S06.2",
         "world": {
           "edition": "3",
@@ -33052,7 +33052,7 @@
       },
       {
         "scene": "S08",
-        "choice": "Ask directions without repair",
+        "choice": "Ask Hoothoot for directions — leave the nest for now",
         "choiceId": "S08.3",
         "world": {
           "edition": "3",
@@ -33098,7 +33098,7 @@
       },
       {
         "scene": "S09",
-        "choice": "Examine all four hollows",
+        "choice": "Examine what the empty hollow is missing",
         "choiceId": "S09.2",
         "world": {
           "edition": "3",
@@ -33146,7 +33146,7 @@
       },
       {
         "scene": "S10",
-        "choice": "Follow fresh prints",
+        "choice": "Follow the fresh tracks before they fade",
         "choiceId": "S10.3",
         "world": {
           "edition": "3",
@@ -33197,7 +33197,7 @@
       },
       {
         "scene": "S11",
-        "choice": "Secure damaged bridge using toolbox rope",
+        "choice": "Secure the bridge yourself and cross carefully",
         "choiceId": "S11.3",
         "world": {
           "edition": "3",
@@ -33485,7 +33485,7 @@
       },
       {
         "scene": "S16",
-        "choice": "Thank Gastly and continue",
+        "choice": "Thank Gastly and continue toward the tower",
         "choiceId": "S16.2",
         "world": {
           "edition": "3",
@@ -33549,7 +33549,7 @@
       },
       {
         "scene": "S17",
-        "choice": "Repair crank and gears",
+        "choice": "Repair the crank and open the gate by hand",
         "choiceId": "S17.3",
         "world": {
           "edition": "3",
@@ -33616,7 +33616,7 @@
       },
       {
         "scene": "S18",
-        "choice": "Copy the three rings' rules",
+        "choice": "Learn how the three rescue plans work",
         "choiceId": "S18.1",
         "world": {
           "edition": "3",
@@ -33685,7 +33685,7 @@
       },
       {
         "scene": "S19",
-        "choice": "Inspect basket",
+        "choice": "Check whether the basket can carry Shinx safely",
         "choiceId": "S19.2",
         "world": {
           "edition": "3",
@@ -33757,7 +33757,7 @@
       },
       {
         "scene": "S20",
-        "choice": "Explain the old book",
+        "choice": "Explain the danger of leaving the glass closed",
         "choiceId": "S20.2",
         "world": {
           "edition": "3",
@@ -33831,7 +33831,7 @@
       },
       {
         "scene": "S21",
-        "choice": "Explain risks without blame",
+        "choice": "Explain what the darkness is doing to the valley",
         "choiceId": "S21.2",
         "world": {
           "edition": "3",
@@ -33907,7 +33907,7 @@
       },
       {
         "scene": "S22",
-        "choice": "Gather supplies",
+        "choice": "Fetch and test the missing equipment",
         "choiceId": "S22.4",
         "world": {
           "edition": "3",
@@ -34229,7 +34229,7 @@
       },
       {
         "scene": "S22",
-        "choice": "Explain Earth plan and backup heat",
+        "choice": "Let Shinx test the Earth plan’s backup heat",
         "choiceId": "S22.3",
         "world": {
           "edition": "3",
@@ -34900,7 +34900,7 @@
       },
       {
         "scene": "S05",
-        "choice": "Follow the lantern-lit path",
+        "choice": "Follow the lit path — safer but slower",
         "choiceId": "S05.1",
         "world": {
           "edition": "3",
@@ -34938,7 +34938,7 @@
       },
       {
         "scene": "S06",
-        "choice": "Take the broad path",
+        "choice": "Keep moving along the broad path",
         "choiceId": "S06.2",
         "world": {
           "edition": "3",
@@ -35024,7 +35024,7 @@
       },
       {
         "scene": "S08",
-        "choice": "Ask directions without repair",
+        "choice": "Ask Hoothoot for directions — leave the nest for now",
         "choiceId": "S08.3",
         "world": {
           "edition": "3",
@@ -35070,7 +35070,7 @@
       },
       {
         "scene": "S09",
-        "choice": "Examine all four hollows",
+        "choice": "Examine what the empty hollow is missing",
         "choiceId": "S09.2",
         "world": {
           "edition": "3",
@@ -35118,7 +35118,7 @@
       },
       {
         "scene": "S10",
-        "choice": "Follow fresh prints",
+        "choice": "Follow the fresh tracks before they fade",
         "choiceId": "S10.3",
         "world": {
           "edition": "3",
@@ -35169,7 +35169,7 @@
       },
       {
         "scene": "S11",
-        "choice": "Secure damaged bridge using toolbox rope",
+        "choice": "Secure the bridge yourself and cross carefully",
         "choiceId": "S11.3",
         "world": {
           "edition": "3",
@@ -35457,7 +35457,7 @@
       },
       {
         "scene": "S16",
-        "choice": "Thank Gastly and continue",
+        "choice": "Thank Gastly and continue toward the tower",
         "choiceId": "S16.2",
         "world": {
           "edition": "3",
@@ -35521,7 +35521,7 @@
       },
       {
         "scene": "S17",
-        "choice": "Repair crank and gears",
+        "choice": "Repair the crank and open the gate by hand",
         "choiceId": "S17.3",
         "world": {
           "edition": "3",
@@ -35588,7 +35588,7 @@
       },
       {
         "scene": "S18",
-        "choice": "Copy the three rings' rules",
+        "choice": "Learn how the three rescue plans work",
         "choiceId": "S18.1",
         "world": {
           "edition": "3",
@@ -35657,7 +35657,7 @@
       },
       {
         "scene": "S19",
-        "choice": "Inspect basket",
+        "choice": "Check whether the basket can carry Shinx safely",
         "choiceId": "S19.2",
         "world": {
           "edition": "3",
@@ -35729,7 +35729,7 @@
       },
       {
         "scene": "S20",
-        "choice": "Explain the old book",
+        "choice": "Explain the danger of leaving the glass closed",
         "choiceId": "S20.2",
         "world": {
           "edition": "3",
@@ -35803,7 +35803,7 @@
       },
       {
         "scene": "S21",
-        "choice": "Explain risks without blame",
+        "choice": "Explain what the darkness is doing to the valley",
         "choiceId": "S21.2",
         "world": {
           "edition": "3",
@@ -35879,7 +35879,7 @@
       },
       {
         "scene": "S22",
-        "choice": "Gather supplies",
+        "choice": "Fetch and test the missing equipment",
         "choiceId": "S22.4",
         "world": {
           "edition": "3",
@@ -36118,7 +36118,7 @@
       },
       {
         "scene": "S22",
-        "choice": "Explain safe basket",
+        "choice": "Let Shinx try the warm carrying basket",
         "choiceId": "S22.1",
         "world": {
           "edition": "3",
@@ -36199,7 +36199,7 @@
       },
       {
         "scene": "S23",
-        "choice": "Revisit the valley",
+        "choice": "Check which places in the valley need help",
         "choiceId": "S23.2",
         "world": {
           "edition": "3",
@@ -36282,7 +36282,7 @@
       },
       {
         "scene": "Q_RETURN",
-        "choice": "Help in Willowbrook",
+        "choice": "Return to Eevee and Pichu in the square",
         "choiceId": "Q_RETURN.1",
         "world": {
           "edition": "3",
@@ -36453,7 +36453,7 @@
       },
       {
         "scene": "Q_RETURN",
-        "choice": "Hoothoot",
+        "choice": "Return to Hoothoot’s unsafe nest",
         "choiceId": "Q_RETURN.3",
         "world": {
           "edition": "3",
@@ -36632,7 +36632,7 @@
       },
       {
         "scene": "Q_RETURN",
-        "choice": "Altaria",
+        "choice": "Return to search for Altaria’s chick",
         "choiceId": "Q_RETURN.7",
         "world": {
           "edition": "3",
@@ -36817,7 +36817,7 @@
       },
       {
         "scene": "Q_RETURN",
-        "choice": "Gastly",
+        "choice": "Return to hear Gastly’s story",
         "choiceId": "Q_RETURN.8",
         "world": {
           "edition": "3",
@@ -37960,7 +37960,7 @@
       },
       {
         "scene": "S22",
-        "choice": "Explain safe basket",
+        "choice": "Let Shinx try the warm carrying basket",
         "choiceId": "S22.1",
         "world": {
           "edition": "3",
@@ -39053,7 +39053,7 @@
       },
       {
         "scene": "S05",
-        "choice": "Follow the lantern-lit path",
+        "choice": "Follow the lit path — safer but slower",
         "choiceId": "S05.1",
         "world": {
           "edition": "3",
@@ -39091,7 +39091,7 @@
       },
       {
         "scene": "S06",
-        "choice": "Take the broad path",
+        "choice": "Keep moving along the broad path",
         "choiceId": "S06.2",
         "world": {
           "edition": "3",
@@ -39177,7 +39177,7 @@
       },
       {
         "scene": "S08",
-        "choice": "Ask directions without repair",
+        "choice": "Ask Hoothoot for directions — leave the nest for now",
         "choiceId": "S08.3",
         "world": {
           "edition": "3",
@@ -39223,7 +39223,7 @@
       },
       {
         "scene": "S09",
-        "choice": "Examine all four hollows",
+        "choice": "Examine what the empty hollow is missing",
         "choiceId": "S09.2",
         "world": {
           "edition": "3",
@@ -39271,7 +39271,7 @@
       },
       {
         "scene": "S10",
-        "choice": "Follow fresh prints",
+        "choice": "Follow the fresh tracks before they fade",
         "choiceId": "S10.3",
         "world": {
           "edition": "3",
@@ -39322,7 +39322,7 @@
       },
       {
         "scene": "S11",
-        "choice": "Secure damaged bridge using toolbox rope",
+        "choice": "Secure the bridge yourself and cross carefully",
         "choiceId": "S11.3",
         "world": {
           "edition": "3",
@@ -39610,7 +39610,7 @@
       },
       {
         "scene": "S16",
-        "choice": "Thank Gastly and continue",
+        "choice": "Thank Gastly and continue toward the tower",
         "choiceId": "S16.2",
         "world": {
           "edition": "3",
@@ -39674,7 +39674,7 @@
       },
       {
         "scene": "S17",
-        "choice": "Repair crank and gears",
+        "choice": "Repair the crank and open the gate by hand",
         "choiceId": "S17.3",
         "world": {
           "edition": "3",
@@ -39741,7 +39741,7 @@
       },
       {
         "scene": "S18",
-        "choice": "Copy the three rings' rules",
+        "choice": "Learn how the three rescue plans work",
         "choiceId": "S18.1",
         "world": {
           "edition": "3",
@@ -39810,7 +39810,7 @@
       },
       {
         "scene": "S19",
-        "choice": "Inspect basket",
+        "choice": "Check whether the basket can carry Shinx safely",
         "choiceId": "S19.2",
         "world": {
           "edition": "3",
@@ -39882,7 +39882,7 @@
       },
       {
         "scene": "S20",
-        "choice": "Explain the old book",
+        "choice": "Explain the danger of leaving the glass closed",
         "choiceId": "S20.2",
         "world": {
           "edition": "3",
@@ -39956,7 +39956,7 @@
       },
       {
         "scene": "S21",
-        "choice": "Explain risks without blame",
+        "choice": "Explain what the darkness is doing to the valley",
         "choiceId": "S21.2",
         "world": {
           "edition": "3",
@@ -40032,7 +40032,7 @@
       },
       {
         "scene": "S22",
-        "choice": "Gather supplies",
+        "choice": "Fetch and test the missing equipment",
         "choiceId": "S22.4",
         "world": {
           "edition": "3",
@@ -40271,7 +40271,7 @@
       },
       {
         "scene": "S22",
-        "choice": "Explain safe basket",
+        "choice": "Let Shinx try the warm carrying basket",
         "choiceId": "S22.1",
         "world": {
           "edition": "3",
@@ -40352,7 +40352,7 @@
       },
       {
         "scene": "S23",
-        "choice": "Revisit the valley",
+        "choice": "Check which places in the valley need help",
         "choiceId": "S23.2",
         "world": {
           "edition": "3",
@@ -40435,7 +40435,7 @@
       },
       {
         "scene": "Q_RETURN",
-        "choice": "Help in Willowbrook",
+        "choice": "Return to Eevee and Pichu in the square",
         "choiceId": "Q_RETURN.1",
         "world": {
           "edition": "3",
@@ -40606,7 +40606,7 @@
       },
       {
         "scene": "Q_RETURN",
-        "choice": "Hoothoot",
+        "choice": "Return to Hoothoot’s unsafe nest",
         "choiceId": "Q_RETURN.3",
         "world": {
           "edition": "3",
@@ -40785,7 +40785,7 @@
       },
       {
         "scene": "Q_RETURN",
-        "choice": "Altaria",
+        "choice": "Return to search for Altaria’s chick",
         "choiceId": "Q_RETURN.7",
         "world": {
           "edition": "3",
@@ -40970,7 +40970,7 @@
       },
       {
         "scene": "Q_RETURN",
-        "choice": "Gastly",
+        "choice": "Return to hear Gastly’s story",
         "choiceId": "Q_RETURN.8",
         "world": {
           "edition": "3",
@@ -42113,7 +42113,7 @@
       },
       {
         "scene": "S22",
-        "choice": "Explain safe basket",
+        "choice": "Let Shinx try the warm carrying basket",
         "choiceId": "S22.1",
         "world": {
           "edition": "3",
@@ -43206,7 +43206,7 @@
       },
       {
         "scene": "S05",
-        "choice": "Follow the lantern-lit path",
+        "choice": "Follow the lit path — safer but slower",
         "choiceId": "S05.1",
         "world": {
           "edition": "3",
@@ -43244,7 +43244,7 @@
       },
       {
         "scene": "S06",
-        "choice": "Take the broad path",
+        "choice": "Keep moving along the broad path",
         "choiceId": "S06.2",
         "world": {
           "edition": "3",
@@ -43330,7 +43330,7 @@
       },
       {
         "scene": "S08",
-        "choice": "Ask directions without repair",
+        "choice": "Ask Hoothoot for directions — leave the nest for now",
         "choiceId": "S08.3",
         "world": {
           "edition": "3",
@@ -43376,7 +43376,7 @@
       },
       {
         "scene": "S09",
-        "choice": "Examine all four hollows",
+        "choice": "Examine what the empty hollow is missing",
         "choiceId": "S09.2",
         "world": {
           "edition": "3",
@@ -43424,7 +43424,7 @@
       },
       {
         "scene": "S10",
-        "choice": "Follow fresh prints",
+        "choice": "Follow the fresh tracks before they fade",
         "choiceId": "S10.3",
         "world": {
           "edition": "3",
@@ -43475,7 +43475,7 @@
       },
       {
         "scene": "S11",
-        "choice": "Secure damaged bridge using toolbox rope",
+        "choice": "Secure the bridge yourself and cross carefully",
         "choiceId": "S11.3",
         "world": {
           "edition": "3",
@@ -43763,7 +43763,7 @@
       },
       {
         "scene": "S16",
-        "choice": "Thank Gastly and continue",
+        "choice": "Thank Gastly and continue toward the tower",
         "choiceId": "S16.2",
         "world": {
           "edition": "3",
@@ -43827,7 +43827,7 @@
       },
       {
         "scene": "S17",
-        "choice": "Repair crank and gears",
+        "choice": "Repair the crank and open the gate by hand",
         "choiceId": "S17.3",
         "world": {
           "edition": "3",
@@ -43894,7 +43894,7 @@
       },
       {
         "scene": "S18",
-        "choice": "Copy the three rings' rules",
+        "choice": "Learn how the three rescue plans work",
         "choiceId": "S18.1",
         "world": {
           "edition": "3",
@@ -43963,7 +43963,7 @@
       },
       {
         "scene": "S19",
-        "choice": "Inspect basket",
+        "choice": "Check whether the basket can carry Shinx safely",
         "choiceId": "S19.2",
         "world": {
           "edition": "3",
@@ -44035,7 +44035,7 @@
       },
       {
         "scene": "S20",
-        "choice": "Explain the old book",
+        "choice": "Explain the danger of leaving the glass closed",
         "choiceId": "S20.2",
         "world": {
           "edition": "3",
@@ -44109,7 +44109,7 @@
       },
       {
         "scene": "S21",
-        "choice": "Explain risks without blame",
+        "choice": "Explain what the darkness is doing to the valley",
         "choiceId": "S21.2",
         "world": {
           "edition": "3",
@@ -44185,7 +44185,7 @@
       },
       {
         "scene": "S22",
-        "choice": "Gather supplies",
+        "choice": "Fetch and test the missing equipment",
         "choiceId": "S22.4",
         "world": {
           "edition": "3",
@@ -44424,7 +44424,7 @@
       },
       {
         "scene": "S22",
-        "choice": "Explain safe basket",
+        "choice": "Let Shinx try the warm carrying basket",
         "choiceId": "S22.1",
         "world": {
           "edition": "3",
@@ -44505,7 +44505,7 @@
       },
       {
         "scene": "S23",
-        "choice": "Revisit the valley",
+        "choice": "Check which places in the valley need help",
         "choiceId": "S23.2",
         "world": {
           "edition": "3",
@@ -44588,7 +44588,7 @@
       },
       {
         "scene": "Q_RETURN",
-        "choice": "Help in Willowbrook",
+        "choice": "Return to Eevee and Pichu in the square",
         "choiceId": "Q_RETURN.1",
         "world": {
           "edition": "3",
@@ -44759,7 +44759,7 @@
       },
       {
         "scene": "Q_RETURN",
-        "choice": "Hoothoot",
+        "choice": "Return to Hoothoot’s unsafe nest",
         "choiceId": "Q_RETURN.3",
         "world": {
           "edition": "3",
@@ -44938,7 +44938,7 @@
       },
       {
         "scene": "Q_RETURN",
-        "choice": "Altaria",
+        "choice": "Return to search for Altaria’s chick",
         "choiceId": "Q_RETURN.7",
         "world": {
           "edition": "3",
@@ -45123,7 +45123,7 @@
       },
       {
         "scene": "Q_RETURN",
-        "choice": "Gastly",
+        "choice": "Return to hear Gastly’s story",
         "choiceId": "Q_RETURN.8",
         "world": {
           "edition": "3",
@@ -46266,7 +46266,7 @@
       },
       {
         "scene": "S22",
-        "choice": "Explain safe basket",
+        "choice": "Let Shinx try the warm carrying basket",
         "choiceId": "S22.1",
         "world": {
           "edition": "3",
@@ -47358,7 +47358,7 @@
       },
       {
         "scene": "S05",
-        "choice": "Follow the lantern-lit path",
+        "choice": "Follow the lit path — safer but slower",
         "choiceId": "S05.1",
         "world": {
           "edition": "3",
@@ -47396,7 +47396,7 @@
       },
       {
         "scene": "S06",
-        "choice": "Take the broad path",
+        "choice": "Keep moving along the broad path",
         "choiceId": "S06.2",
         "world": {
           "edition": "3",
@@ -47482,7 +47482,7 @@
       },
       {
         "scene": "S08",
-        "choice": "Ask directions without repair",
+        "choice": "Ask Hoothoot for directions — leave the nest for now",
         "choiceId": "S08.3",
         "world": {
           "edition": "3",
@@ -47528,7 +47528,7 @@
       },
       {
         "scene": "S09",
-        "choice": "Examine all four hollows",
+        "choice": "Examine what the empty hollow is missing",
         "choiceId": "S09.2",
         "world": {
           "edition": "3",
@@ -47576,7 +47576,7 @@
       },
       {
         "scene": "S10",
-        "choice": "Follow fresh prints",
+        "choice": "Follow the fresh tracks before they fade",
         "choiceId": "S10.3",
         "world": {
           "edition": "3",
@@ -47627,7 +47627,7 @@
       },
       {
         "scene": "S11",
-        "choice": "Secure damaged bridge using toolbox rope",
+        "choice": "Secure the bridge yourself and cross carefully",
         "choiceId": "S11.3",
         "world": {
           "edition": "3",
@@ -47915,7 +47915,7 @@
       },
       {
         "scene": "S16",
-        "choice": "Thank Gastly and continue",
+        "choice": "Thank Gastly and continue toward the tower",
         "choiceId": "S16.2",
         "world": {
           "edition": "3",
@@ -47979,7 +47979,7 @@
       },
       {
         "scene": "S17",
-        "choice": "Repair crank and gears",
+        "choice": "Repair the crank and open the gate by hand",
         "choiceId": "S17.3",
         "world": {
           "edition": "3",
@@ -48046,7 +48046,7 @@
       },
       {
         "scene": "S18",
-        "choice": "Copy the three rings' rules",
+        "choice": "Learn how the three rescue plans work",
         "choiceId": "S18.1",
         "world": {
           "edition": "3",
@@ -48115,7 +48115,7 @@
       },
       {
         "scene": "S19",
-        "choice": "Inspect basket",
+        "choice": "Check whether the basket can carry Shinx safely",
         "choiceId": "S19.2",
         "world": {
           "edition": "3",
@@ -48187,7 +48187,7 @@
       },
       {
         "scene": "S20",
-        "choice": "Explain the old book",
+        "choice": "Explain the danger of leaving the glass closed",
         "choiceId": "S20.2",
         "world": {
           "edition": "3",
@@ -48261,7 +48261,7 @@
       },
       {
         "scene": "S21",
-        "choice": "Explain risks without blame",
+        "choice": "Explain what the darkness is doing to the valley",
         "choiceId": "S21.2",
         "world": {
           "edition": "3",
@@ -48337,7 +48337,7 @@
       },
       {
         "scene": "S22",
-        "choice": "Gather supplies",
+        "choice": "Fetch and test the missing equipment",
         "choiceId": "S22.4",
         "world": {
           "edition": "3",
@@ -48576,7 +48576,7 @@
       },
       {
         "scene": "S22",
-        "choice": "Explain safe basket",
+        "choice": "Let Shinx try the warm carrying basket",
         "choiceId": "S22.1",
         "world": {
           "edition": "3",
@@ -48657,7 +48657,7 @@
       },
       {
         "scene": "S23",
-        "choice": "Revisit the valley",
+        "choice": "Check which places in the valley need help",
         "choiceId": "S23.2",
         "world": {
           "edition": "3",
@@ -48740,7 +48740,7 @@
       },
       {
         "scene": "Q_RETURN",
-        "choice": "Pikachu",
+        "choice": "Return to Pikachu in the ivy",
         "choiceId": "Q_RETURN.2",
         "world": {
           "edition": "3",
@@ -48911,7 +48911,7 @@
       },
       {
         "scene": "Q_RETURN",
-        "choice": "Lapras",
+        "choice": "Return to Lapras at the river",
         "choiceId": "Q_RETURN.4",
         "world": {
           "edition": "3",
@@ -49090,7 +49090,7 @@
       },
       {
         "scene": "Q_RETURN",
-        "choice": "Psyduck",
+        "choice": "Return to Psyduck’s waterwheel",
         "choiceId": "Q_RETURN.5",
         "world": {
           "edition": "3",
@@ -49277,7 +49277,7 @@
       },
       {
         "scene": "Q_RETURN",
-        "choice": "Altaria",
+        "choice": "Return to search for Altaria’s chick",
         "choiceId": "Q_RETURN.7",
         "world": {
           "edition": "3",
@@ -49781,7 +49781,7 @@
       },
       {
         "scene": "S22",
-        "choice": "Explain safe basket",
+        "choice": "Let Shinx try the warm carrying basket",
         "choiceId": "S22.1",
         "world": {
           "edition": "3",
@@ -50808,7 +50808,7 @@
       },
       {
         "scene": "S05",
-        "choice": "Follow the lantern-lit path",
+        "choice": "Follow the lit path — safer but slower",
         "choiceId": "S05.1",
         "world": {
           "edition": "3",
@@ -50846,7 +50846,7 @@
       },
       {
         "scene": "S06",
-        "choice": "Take the broad path",
+        "choice": "Keep moving along the broad path",
         "choiceId": "S06.2",
         "world": {
           "edition": "3",
@@ -50932,7 +50932,7 @@
       },
       {
         "scene": "S08",
-        "choice": "Ask directions without repair",
+        "choice": "Ask Hoothoot for directions — leave the nest for now",
         "choiceId": "S08.3",
         "world": {
           "edition": "3",
@@ -50978,7 +50978,7 @@
       },
       {
         "scene": "S09",
-        "choice": "Examine all four hollows",
+        "choice": "Examine what the empty hollow is missing",
         "choiceId": "S09.2",
         "world": {
           "edition": "3",
@@ -51026,7 +51026,7 @@
       },
       {
         "scene": "S10",
-        "choice": "Follow fresh prints",
+        "choice": "Follow the fresh tracks before they fade",
         "choiceId": "S10.3",
         "world": {
           "edition": "3",
@@ -51077,7 +51077,7 @@
       },
       {
         "scene": "S11",
-        "choice": "Secure damaged bridge using toolbox rope",
+        "choice": "Secure the bridge yourself and cross carefully",
         "choiceId": "S11.3",
         "world": {
           "edition": "3",
@@ -51365,7 +51365,7 @@
       },
       {
         "scene": "S16",
-        "choice": "Thank Gastly and continue",
+        "choice": "Thank Gastly and continue toward the tower",
         "choiceId": "S16.2",
         "world": {
           "edition": "3",
@@ -51429,7 +51429,7 @@
       },
       {
         "scene": "S17",
-        "choice": "Repair crank and gears",
+        "choice": "Repair the crank and open the gate by hand",
         "choiceId": "S17.3",
         "world": {
           "edition": "3",
@@ -51496,7 +51496,7 @@
       },
       {
         "scene": "S18",
-        "choice": "Copy the three rings' rules",
+        "choice": "Learn how the three rescue plans work",
         "choiceId": "S18.1",
         "world": {
           "edition": "3",
@@ -51565,7 +51565,7 @@
       },
       {
         "scene": "S19",
-        "choice": "Inspect basket",
+        "choice": "Check whether the basket can carry Shinx safely",
         "choiceId": "S19.2",
         "world": {
           "edition": "3",
@@ -51637,7 +51637,7 @@
       },
       {
         "scene": "S20",
-        "choice": "Explain the old book",
+        "choice": "Explain the danger of leaving the glass closed",
         "choiceId": "S20.2",
         "world": {
           "edition": "3",
@@ -51711,7 +51711,7 @@
       },
       {
         "scene": "S21",
-        "choice": "Explain risks without blame",
+        "choice": "Explain what the darkness is doing to the valley",
         "choiceId": "S21.2",
         "world": {
           "edition": "3",
@@ -51787,7 +51787,7 @@
       },
       {
         "scene": "S22",
-        "choice": "Gather supplies",
+        "choice": "Fetch and test the missing equipment",
         "choiceId": "S22.4",
         "world": {
           "edition": "3",
@@ -52026,7 +52026,7 @@
       },
       {
         "scene": "S22",
-        "choice": "Explain safe basket",
+        "choice": "Let Shinx try the warm carrying basket",
         "choiceId": "S22.1",
         "world": {
           "edition": "3",
@@ -52107,7 +52107,7 @@
       },
       {
         "scene": "S23",
-        "choice": "Revisit the valley",
+        "choice": "Check which places in the valley need help",
         "choiceId": "S23.2",
         "world": {
           "edition": "3",
@@ -52190,7 +52190,7 @@
       },
       {
         "scene": "Q_RETURN",
-        "choice": "Pikachu",
+        "choice": "Return to Pikachu in the ivy",
         "choiceId": "Q_RETURN.2",
         "world": {
           "edition": "3",
@@ -52361,7 +52361,7 @@
       },
       {
         "scene": "Q_RETURN",
-        "choice": "Lapras",
+        "choice": "Return to Lapras at the river",
         "choiceId": "Q_RETURN.4",
         "world": {
           "edition": "3",
@@ -52540,7 +52540,7 @@
       },
       {
         "scene": "Q_RETURN",
-        "choice": "Psyduck",
+        "choice": "Return to Psyduck’s waterwheel",
         "choiceId": "Q_RETURN.5",
         "world": {
           "edition": "3",
@@ -52727,7 +52727,7 @@
       },
       {
         "scene": "Q_RETURN",
-        "choice": "Altaria",
+        "choice": "Return to search for Altaria’s chick",
         "choiceId": "Q_RETURN.7",
         "world": {
           "edition": "3",
@@ -53231,7 +53231,7 @@
       },
       {
         "scene": "S22",
-        "choice": "Explain safe basket",
+        "choice": "Let Shinx try the warm carrying basket",
         "choiceId": "S22.1",
         "world": {
           "edition": "3",
@@ -54258,7 +54258,7 @@
       },
       {
         "scene": "S05",
-        "choice": "Follow the lantern-lit path",
+        "choice": "Follow the lit path — safer but slower",
         "choiceId": "S05.1",
         "world": {
           "edition": "3",
@@ -54296,7 +54296,7 @@
       },
       {
         "scene": "S06",
-        "choice": "Take the broad path",
+        "choice": "Keep moving along the broad path",
         "choiceId": "S06.2",
         "world": {
           "edition": "3",
@@ -54382,7 +54382,7 @@
       },
       {
         "scene": "S08",
-        "choice": "Ask directions without repair",
+        "choice": "Ask Hoothoot for directions — leave the nest for now",
         "choiceId": "S08.3",
         "world": {
           "edition": "3",
@@ -54428,7 +54428,7 @@
       },
       {
         "scene": "S09",
-        "choice": "Examine all four hollows",
+        "choice": "Examine what the empty hollow is missing",
         "choiceId": "S09.2",
         "world": {
           "edition": "3",
@@ -54476,7 +54476,7 @@
       },
       {
         "scene": "S10",
-        "choice": "Follow fresh prints",
+        "choice": "Follow the fresh tracks before they fade",
         "choiceId": "S10.3",
         "world": {
           "edition": "3",
@@ -54527,7 +54527,7 @@
       },
       {
         "scene": "S11",
-        "choice": "Secure damaged bridge using toolbox rope",
+        "choice": "Secure the bridge yourself and cross carefully",
         "choiceId": "S11.3",
         "world": {
           "edition": "3",
@@ -54815,7 +54815,7 @@
       },
       {
         "scene": "S16",
-        "choice": "Thank Gastly and continue",
+        "choice": "Thank Gastly and continue toward the tower",
         "choiceId": "S16.2",
         "world": {
           "edition": "3",
@@ -54879,7 +54879,7 @@
       },
       {
         "scene": "S17",
-        "choice": "Repair crank and gears",
+        "choice": "Repair the crank and open the gate by hand",
         "choiceId": "S17.3",
         "world": {
           "edition": "3",
@@ -54946,7 +54946,7 @@
       },
       {
         "scene": "S18",
-        "choice": "Copy the three rings' rules",
+        "choice": "Learn how the three rescue plans work",
         "choiceId": "S18.1",
         "world": {
           "edition": "3",
@@ -55015,7 +55015,7 @@
       },
       {
         "scene": "S19",
-        "choice": "Inspect basket",
+        "choice": "Check whether the basket can carry Shinx safely",
         "choiceId": "S19.2",
         "world": {
           "edition": "3",
@@ -55087,7 +55087,7 @@
       },
       {
         "scene": "S20",
-        "choice": "Explain the old book",
+        "choice": "Explain the danger of leaving the glass closed",
         "choiceId": "S20.2",
         "world": {
           "edition": "3",
@@ -55161,7 +55161,7 @@
       },
       {
         "scene": "S21",
-        "choice": "Explain risks without blame",
+        "choice": "Explain what the darkness is doing to the valley",
         "choiceId": "S21.2",
         "world": {
           "edition": "3",
@@ -55237,7 +55237,7 @@
       },
       {
         "scene": "S22",
-        "choice": "Gather supplies",
+        "choice": "Fetch and test the missing equipment",
         "choiceId": "S22.4",
         "world": {
           "edition": "3",
@@ -55476,7 +55476,7 @@
       },
       {
         "scene": "S22",
-        "choice": "Explain safe basket",
+        "choice": "Let Shinx try the warm carrying basket",
         "choiceId": "S22.1",
         "world": {
           "edition": "3",
@@ -55557,7 +55557,7 @@
       },
       {
         "scene": "S23",
-        "choice": "Revisit the valley",
+        "choice": "Check which places in the valley need help",
         "choiceId": "S23.2",
         "world": {
           "edition": "3",
@@ -55640,7 +55640,7 @@
       },
       {
         "scene": "Q_RETURN",
-        "choice": "Pikachu",
+        "choice": "Return to Pikachu in the ivy",
         "choiceId": "Q_RETURN.2",
         "world": {
           "edition": "3",
@@ -55811,7 +55811,7 @@
       },
       {
         "scene": "Q_RETURN",
-        "choice": "Lapras",
+        "choice": "Return to Lapras at the river",
         "choiceId": "Q_RETURN.4",
         "world": {
           "edition": "3",
@@ -55990,7 +55990,7 @@
       },
       {
         "scene": "Q_RETURN",
-        "choice": "Psyduck",
+        "choice": "Return to Psyduck’s waterwheel",
         "choiceId": "Q_RETURN.5",
         "world": {
           "edition": "3",
@@ -56177,7 +56177,7 @@
       },
       {
         "scene": "Q_RETURN",
-        "choice": "Altaria",
+        "choice": "Return to search for Altaria’s chick",
         "choiceId": "Q_RETURN.7",
         "world": {
           "edition": "3",
@@ -56681,7 +56681,7 @@
       },
       {
         "scene": "S22",
-        "choice": "Explain safe basket",
+        "choice": "Let Shinx try the warm carrying basket",
         "choiceId": "S22.1",
         "world": {
           "edition": "3",
@@ -57710,7 +57710,7 @@
       },
       {
         "scene": "S05",
-        "choice": "Follow the lantern-lit path",
+        "choice": "Follow the lit path — safer but slower",
         "choiceId": "S05.1",
         "world": {
           "edition": "3",
@@ -57748,7 +57748,7 @@
       },
       {
         "scene": "S06",
-        "choice": "Take the broad path",
+        "choice": "Keep moving along the broad path",
         "choiceId": "S06.2",
         "world": {
           "edition": "3",
@@ -57834,7 +57834,7 @@
       },
       {
         "scene": "S08",
-        "choice": "Ask directions without repair",
+        "choice": "Ask Hoothoot for directions — leave the nest for now",
         "choiceId": "S08.3",
         "world": {
           "edition": "3",
@@ -57880,7 +57880,7 @@
       },
       {
         "scene": "S09",
-        "choice": "Examine all four hollows",
+        "choice": "Examine what the empty hollow is missing",
         "choiceId": "S09.2",
         "world": {
           "edition": "3",
@@ -57928,7 +57928,7 @@
       },
       {
         "scene": "S10",
-        "choice": "Follow fresh prints",
+        "choice": "Follow the fresh tracks before they fade",
         "choiceId": "S10.3",
         "world": {
           "edition": "3",
@@ -57979,7 +57979,7 @@
       },
       {
         "scene": "S11",
-        "choice": "Secure damaged bridge using toolbox rope",
+        "choice": "Secure the bridge yourself and cross carefully",
         "choiceId": "S11.3",
         "world": {
           "edition": "3",
@@ -58267,7 +58267,7 @@
       },
       {
         "scene": "S16",
-        "choice": "Thank Gastly and continue",
+        "choice": "Thank Gastly and continue toward the tower",
         "choiceId": "S16.2",
         "world": {
           "edition": "3",
@@ -58331,7 +58331,7 @@
       },
       {
         "scene": "S17",
-        "choice": "Repair crank and gears",
+        "choice": "Repair the crank and open the gate by hand",
         "choiceId": "S17.3",
         "world": {
           "edition": "3",
@@ -58398,7 +58398,7 @@
       },
       {
         "scene": "S18",
-        "choice": "Copy the three rings' rules",
+        "choice": "Learn how the three rescue plans work",
         "choiceId": "S18.1",
         "world": {
           "edition": "3",
@@ -58467,7 +58467,7 @@
       },
       {
         "scene": "S19",
-        "choice": "Inspect basket",
+        "choice": "Check whether the basket can carry Shinx safely",
         "choiceId": "S19.2",
         "world": {
           "edition": "3",
@@ -58539,7 +58539,7 @@
       },
       {
         "scene": "S20",
-        "choice": "Explain the old book",
+        "choice": "Explain the danger of leaving the glass closed",
         "choiceId": "S20.2",
         "world": {
           "edition": "3",
@@ -58613,7 +58613,7 @@
       },
       {
         "scene": "S21",
-        "choice": "Explain risks without blame",
+        "choice": "Explain what the darkness is doing to the valley",
         "choiceId": "S21.2",
         "world": {
           "edition": "3",
@@ -58689,7 +58689,7 @@
       },
       {
         "scene": "S22",
-        "choice": "Gather supplies",
+        "choice": "Fetch and test the missing equipment",
         "choiceId": "S22.4",
         "world": {
           "edition": "3",
@@ -58928,7 +58928,7 @@
       },
       {
         "scene": "S22",
-        "choice": "Explain safe basket",
+        "choice": "Let Shinx try the warm carrying basket",
         "choiceId": "S22.1",
         "world": {
           "edition": "3",
@@ -59009,7 +59009,7 @@
       },
       {
         "scene": "S23",
-        "choice": "Revisit the valley",
+        "choice": "Check which places in the valley need help",
         "choiceId": "S23.2",
         "world": {
           "edition": "3",
@@ -59092,7 +59092,7 @@
       },
       {
         "scene": "Q_RETURN",
-        "choice": "Help in Willowbrook",
+        "choice": "Return to Eevee and Pichu in the square",
         "choiceId": "Q_RETURN.1",
         "world": {
           "edition": "3",
@@ -59263,7 +59263,7 @@
       },
       {
         "scene": "Q_RETURN",
-        "choice": "Pikachu",
+        "choice": "Return to Pikachu in the ivy",
         "choiceId": "Q_RETURN.2",
         "world": {
           "edition": "3",
@@ -59442,7 +59442,7 @@
       },
       {
         "scene": "Q_RETURN",
-        "choice": "Hoothoot",
+        "choice": "Return to Hoothoot’s unsafe nest",
         "choiceId": "Q_RETURN.3",
         "world": {
           "edition": "3",
@@ -59629,7 +59629,7 @@
       },
       {
         "scene": "Q_RETURN",
-        "choice": "Lapras",
+        "choice": "Return to Lapras at the river",
         "choiceId": "Q_RETURN.4",
         "world": {
           "edition": "3",
@@ -59822,7 +59822,7 @@
       },
       {
         "scene": "Q_RETURN",
-        "choice": "Psyduck",
+        "choice": "Return to Psyduck’s waterwheel",
         "choiceId": "Q_RETURN.5",
         "world": {
           "edition": "3",
@@ -60023,7 +60023,7 @@
       },
       {
         "scene": "Q_RETURN",
-        "choice": "Altaria",
+        "choice": "Return to search for Altaria’s chick",
         "choiceId": "Q_RETURN.7",
         "world": {
           "edition": "3",
@@ -60232,7 +60232,7 @@
       },
       {
         "scene": "Q_RETURN",
-        "choice": "Gastly",
+        "choice": "Return to hear Gastly’s story",
         "choiceId": "Q_RETURN.8",
         "world": {
           "edition": "3",
@@ -62260,7 +62260,7 @@
       },
       {
         "scene": "S22",
-        "choice": "Explain safe basket",
+        "choice": "Let Shinx try the warm carrying basket",
         "choiceId": "S22.1",
         "world": {
           "edition": "3",
@@ -63517,7 +63517,7 @@
       },
       {
         "scene": "S05",
-        "choice": "Follow the lantern-lit path",
+        "choice": "Follow the lit path — safer but slower",
         "choiceId": "S05.1",
         "world": {
           "edition": "3",
@@ -63555,7 +63555,7 @@
       },
       {
         "scene": "S06",
-        "choice": "Take the broad path",
+        "choice": "Keep moving along the broad path",
         "choiceId": "S06.2",
         "world": {
           "edition": "3",
@@ -63641,7 +63641,7 @@
       },
       {
         "scene": "S08",
-        "choice": "Ask directions without repair",
+        "choice": "Ask Hoothoot for directions — leave the nest for now",
         "choiceId": "S08.3",
         "world": {
           "edition": "3",
@@ -63687,7 +63687,7 @@
       },
       {
         "scene": "S09",
-        "choice": "Examine all four hollows",
+        "choice": "Examine what the empty hollow is missing",
         "choiceId": "S09.2",
         "world": {
           "edition": "3",
@@ -63735,7 +63735,7 @@
       },
       {
         "scene": "S10",
-        "choice": "Follow fresh prints",
+        "choice": "Follow the fresh tracks before they fade",
         "choiceId": "S10.3",
         "world": {
           "edition": "3",
@@ -63786,7 +63786,7 @@
       },
       {
         "scene": "S11",
-        "choice": "Secure damaged bridge using toolbox rope",
+        "choice": "Secure the bridge yourself and cross carefully",
         "choiceId": "S11.3",
         "world": {
           "edition": "3",
@@ -64074,7 +64074,7 @@
       },
       {
         "scene": "S16",
-        "choice": "Thank Gastly and continue",
+        "choice": "Thank Gastly and continue toward the tower",
         "choiceId": "S16.2",
         "world": {
           "edition": "3",
@@ -64138,7 +64138,7 @@
       },
       {
         "scene": "S17",
-        "choice": "Repair crank and gears",
+        "choice": "Repair the crank and open the gate by hand",
         "choiceId": "S17.3",
         "world": {
           "edition": "3",
@@ -64205,7 +64205,7 @@
       },
       {
         "scene": "S18",
-        "choice": "Copy the three rings' rules",
+        "choice": "Learn how the three rescue plans work",
         "choiceId": "S18.1",
         "world": {
           "edition": "3",
@@ -64274,7 +64274,7 @@
       },
       {
         "scene": "S19",
-        "choice": "Inspect basket",
+        "choice": "Check whether the basket can carry Shinx safely",
         "choiceId": "S19.2",
         "world": {
           "edition": "3",
@@ -64346,7 +64346,7 @@
       },
       {
         "scene": "S20",
-        "choice": "Explain the old book",
+        "choice": "Explain the danger of leaving the glass closed",
         "choiceId": "S20.2",
         "world": {
           "edition": "3",
@@ -64420,7 +64420,7 @@
       },
       {
         "scene": "S21",
-        "choice": "Explain risks without blame",
+        "choice": "Explain what the darkness is doing to the valley",
         "choiceId": "S21.2",
         "world": {
           "edition": "3",
@@ -64496,7 +64496,7 @@
       },
       {
         "scene": "S22",
-        "choice": "Gather supplies",
+        "choice": "Fetch and test the missing equipment",
         "choiceId": "S22.4",
         "world": {
           "edition": "3",
@@ -64735,7 +64735,7 @@
       },
       {
         "scene": "S22",
-        "choice": "Explain safe basket",
+        "choice": "Let Shinx try the warm carrying basket",
         "choiceId": "S22.1",
         "world": {
           "edition": "3",
@@ -64816,7 +64816,7 @@
       },
       {
         "scene": "S23",
-        "choice": "Revisit the valley",
+        "choice": "Check which places in the valley need help",
         "choiceId": "S23.2",
         "world": {
           "edition": "3",
@@ -64899,7 +64899,7 @@
       },
       {
         "scene": "Q_RETURN",
-        "choice": "Help in Willowbrook",
+        "choice": "Return to Eevee and Pichu in the square",
         "choiceId": "Q_RETURN.1",
         "world": {
           "edition": "3",
@@ -65070,7 +65070,7 @@
       },
       {
         "scene": "Q_RETURN",
-        "choice": "Pikachu",
+        "choice": "Return to Pikachu in the ivy",
         "choiceId": "Q_RETURN.2",
         "world": {
           "edition": "3",
@@ -65249,7 +65249,7 @@
       },
       {
         "scene": "Q_RETURN",
-        "choice": "Hoothoot",
+        "choice": "Return to Hoothoot’s unsafe nest",
         "choiceId": "Q_RETURN.3",
         "world": {
           "edition": "3",
@@ -65436,7 +65436,7 @@
       },
       {
         "scene": "Q_RETURN",
-        "choice": "Lapras",
+        "choice": "Return to Lapras at the river",
         "choiceId": "Q_RETURN.4",
         "world": {
           "edition": "3",
@@ -65629,7 +65629,7 @@
       },
       {
         "scene": "Q_RETURN",
-        "choice": "Psyduck",
+        "choice": "Return to Psyduck’s waterwheel",
         "choiceId": "Q_RETURN.5",
         "world": {
           "edition": "3",
@@ -65830,7 +65830,7 @@
       },
       {
         "scene": "Q_RETURN",
-        "choice": "Altaria",
+        "choice": "Return to search for Altaria’s chick",
         "choiceId": "Q_RETURN.7",
         "world": {
           "edition": "3",
@@ -66039,7 +66039,7 @@
       },
       {
         "scene": "Q_RETURN",
-        "choice": "Gastly",
+        "choice": "Return to hear Gastly’s story",
         "choiceId": "Q_RETURN.8",
         "world": {
           "edition": "3",
@@ -68067,7 +68067,7 @@
       },
       {
         "scene": "S22",
-        "choice": "Explain safe basket",
+        "choice": "Let Shinx try the warm carrying basket",
         "choiceId": "S22.1",
         "world": {
           "edition": "3",
@@ -69324,7 +69324,7 @@
       },
       {
         "scene": "S05",
-        "choice": "Follow the lantern-lit path",
+        "choice": "Follow the lit path — safer but slower",
         "choiceId": "S05.1",
         "world": {
           "edition": "3",
@@ -69362,7 +69362,7 @@
       },
       {
         "scene": "S06",
-        "choice": "Take the broad path",
+        "choice": "Keep moving along the broad path",
         "choiceId": "S06.2",
         "world": {
           "edition": "3",
@@ -69448,7 +69448,7 @@
       },
       {
         "scene": "S08",
-        "choice": "Ask directions without repair",
+        "choice": "Ask Hoothoot for directions — leave the nest for now",
         "choiceId": "S08.3",
         "world": {
           "edition": "3",
@@ -69494,7 +69494,7 @@
       },
       {
         "scene": "S09",
-        "choice": "Examine all four hollows",
+        "choice": "Examine what the empty hollow is missing",
         "choiceId": "S09.2",
         "world": {
           "edition": "3",
@@ -69542,7 +69542,7 @@
       },
       {
         "scene": "S10",
-        "choice": "Follow fresh prints",
+        "choice": "Follow the fresh tracks before they fade",
         "choiceId": "S10.3",
         "world": {
           "edition": "3",
@@ -69593,7 +69593,7 @@
       },
       {
         "scene": "S11",
-        "choice": "Secure damaged bridge using toolbox rope",
+        "choice": "Secure the bridge yourself and cross carefully",
         "choiceId": "S11.3",
         "world": {
           "edition": "3",
@@ -69881,7 +69881,7 @@
       },
       {
         "scene": "S16",
-        "choice": "Thank Gastly and continue",
+        "choice": "Thank Gastly and continue toward the tower",
         "choiceId": "S16.2",
         "world": {
           "edition": "3",
@@ -69945,7 +69945,7 @@
       },
       {
         "scene": "S17",
-        "choice": "Repair crank and gears",
+        "choice": "Repair the crank and open the gate by hand",
         "choiceId": "S17.3",
         "world": {
           "edition": "3",
@@ -70012,7 +70012,7 @@
       },
       {
         "scene": "S18",
-        "choice": "Copy the three rings' rules",
+        "choice": "Learn how the three rescue plans work",
         "choiceId": "S18.1",
         "world": {
           "edition": "3",
@@ -70081,7 +70081,7 @@
       },
       {
         "scene": "S19",
-        "choice": "Inspect basket",
+        "choice": "Check whether the basket can carry Shinx safely",
         "choiceId": "S19.2",
         "world": {
           "edition": "3",
@@ -70153,7 +70153,7 @@
       },
       {
         "scene": "S20",
-        "choice": "Explain the old book",
+        "choice": "Explain the danger of leaving the glass closed",
         "choiceId": "S20.2",
         "world": {
           "edition": "3",
@@ -70227,7 +70227,7 @@
       },
       {
         "scene": "S21",
-        "choice": "Explain risks without blame",
+        "choice": "Explain what the darkness is doing to the valley",
         "choiceId": "S21.2",
         "world": {
           "edition": "3",
@@ -70303,7 +70303,7 @@
       },
       {
         "scene": "S22",
-        "choice": "Gather supplies",
+        "choice": "Fetch and test the missing equipment",
         "choiceId": "S22.4",
         "world": {
           "edition": "3",
@@ -70542,7 +70542,7 @@
       },
       {
         "scene": "S22",
-        "choice": "Explain safe basket",
+        "choice": "Let Shinx try the warm carrying basket",
         "choiceId": "S22.1",
         "world": {
           "edition": "3",
@@ -70623,7 +70623,7 @@
       },
       {
         "scene": "S23",
-        "choice": "Revisit the valley",
+        "choice": "Check which places in the valley need help",
         "choiceId": "S23.2",
         "world": {
           "edition": "3",
@@ -70706,7 +70706,7 @@
       },
       {
         "scene": "Q_RETURN",
-        "choice": "Help in Willowbrook",
+        "choice": "Return to Eevee and Pichu in the square",
         "choiceId": "Q_RETURN.1",
         "world": {
           "edition": "3",
@@ -70877,7 +70877,7 @@
       },
       {
         "scene": "Q_RETURN",
-        "choice": "Pikachu",
+        "choice": "Return to Pikachu in the ivy",
         "choiceId": "Q_RETURN.2",
         "world": {
           "edition": "3",
@@ -71056,7 +71056,7 @@
       },
       {
         "scene": "Q_RETURN",
-        "choice": "Hoothoot",
+        "choice": "Return to Hoothoot’s unsafe nest",
         "choiceId": "Q_RETURN.3",
         "world": {
           "edition": "3",
@@ -71243,7 +71243,7 @@
       },
       {
         "scene": "Q_RETURN",
-        "choice": "Lapras",
+        "choice": "Return to Lapras at the river",
         "choiceId": "Q_RETURN.4",
         "world": {
           "edition": "3",
@@ -71436,7 +71436,7 @@
       },
       {
         "scene": "Q_RETURN",
-        "choice": "Psyduck",
+        "choice": "Return to Psyduck’s waterwheel",
         "choiceId": "Q_RETURN.5",
         "world": {
           "edition": "3",
@@ -71637,7 +71637,7 @@
       },
       {
         "scene": "Q_RETURN",
-        "choice": "Altaria",
+        "choice": "Return to search for Altaria’s chick",
         "choiceId": "Q_RETURN.7",
         "world": {
           "edition": "3",
@@ -71846,7 +71846,7 @@
       },
       {
         "scene": "Q_RETURN",
-        "choice": "Gastly",
+        "choice": "Return to hear Gastly’s story",
         "choiceId": "Q_RETURN.8",
         "world": {
           "edition": "3",
@@ -73874,7 +73874,7 @@
       },
       {
         "scene": "S22",
-        "choice": "Explain safe basket",
+        "choice": "Let Shinx try the warm carrying basket",
         "choiceId": "S22.1",
         "world": {
           "edition": "3",
@@ -75130,7 +75130,7 @@
       },
       {
         "scene": "S05",
-        "choice": "Follow the lantern-lit path",
+        "choice": "Follow the lit path — safer but slower",
         "choiceId": "S05.1",
         "world": {
           "edition": "3",
@@ -75168,7 +75168,7 @@
       },
       {
         "scene": "S06",
-        "choice": "Take the broad path",
+        "choice": "Keep moving along the broad path",
         "choiceId": "S06.2",
         "world": {
           "edition": "3",
@@ -75254,7 +75254,7 @@
       },
       {
         "scene": "S08",
-        "choice": "Ask directions without repair",
+        "choice": "Ask Hoothoot for directions — leave the nest for now",
         "choiceId": "S08.3",
         "world": {
           "edition": "3",
@@ -75300,7 +75300,7 @@
       },
       {
         "scene": "S09",
-        "choice": "Examine all four hollows",
+        "choice": "Examine what the empty hollow is missing",
         "choiceId": "S09.2",
         "world": {
           "edition": "3",
@@ -75348,7 +75348,7 @@
       },
       {
         "scene": "S10",
-        "choice": "Follow fresh prints",
+        "choice": "Follow the fresh tracks before they fade",
         "choiceId": "S10.3",
         "world": {
           "edition": "3",
@@ -75399,7 +75399,7 @@
       },
       {
         "scene": "S11",
-        "choice": "Secure damaged bridge using toolbox rope",
+        "choice": "Secure the bridge yourself and cross carefully",
         "choiceId": "S11.3",
         "world": {
           "edition": "3",
@@ -75687,7 +75687,7 @@
       },
       {
         "scene": "S16",
-        "choice": "Thank Gastly and continue",
+        "choice": "Thank Gastly and continue toward the tower",
         "choiceId": "S16.2",
         "world": {
           "edition": "3",
@@ -75751,7 +75751,7 @@
       },
       {
         "scene": "S17",
-        "choice": "Repair crank and gears",
+        "choice": "Repair the crank and open the gate by hand",
         "choiceId": "S17.3",
         "world": {
           "edition": "3",
@@ -75818,7 +75818,7 @@
       },
       {
         "scene": "S18",
-        "choice": "Copy the three rings' rules",
+        "choice": "Learn how the three rescue plans work",
         "choiceId": "S18.1",
         "world": {
           "edition": "3",
@@ -75887,7 +75887,7 @@
       },
       {
         "scene": "S19",
-        "choice": "Inspect basket",
+        "choice": "Check whether the basket can carry Shinx safely",
         "choiceId": "S19.2",
         "world": {
           "edition": "3",
@@ -75959,7 +75959,7 @@
       },
       {
         "scene": "S20",
-        "choice": "Explain the old book",
+        "choice": "Explain the danger of leaving the glass closed",
         "choiceId": "S20.2",
         "world": {
           "edition": "3",
@@ -76033,7 +76033,7 @@
       },
       {
         "scene": "S21",
-        "choice": "Explain risks without blame",
+        "choice": "Explain what the darkness is doing to the valley",
         "choiceId": "S21.2",
         "world": {
           "edition": "3",
@@ -76109,7 +76109,7 @@
       },
       {
         "scene": "S22",
-        "choice": "Gather supplies",
+        "choice": "Fetch and test the missing equipment",
         "choiceId": "S22.4",
         "world": {
           "edition": "3",
@@ -76348,7 +76348,7 @@
       },
       {
         "scene": "S22",
-        "choice": "Explain safe basket",
+        "choice": "Let Shinx try the warm carrying basket",
         "choiceId": "S22.1",
         "world": {
           "edition": "3",
@@ -76429,7 +76429,7 @@
       },
       {
         "scene": "S23",
-        "choice": "Revisit the valley",
+        "choice": "Check which places in the valley need help",
         "choiceId": "S23.2",
         "world": {
           "edition": "3",
@@ -76512,7 +76512,7 @@
       },
       {
         "scene": "Q_RETURN",
-        "choice": "Help in Willowbrook",
+        "choice": "Return to Eevee and Pichu in the square",
         "choiceId": "Q_RETURN.1",
         "world": {
           "edition": "3",
@@ -76683,7 +76683,7 @@
       },
       {
         "scene": "Q_RETURN",
-        "choice": "Pikachu",
+        "choice": "Return to Pikachu in the ivy",
         "choiceId": "Q_RETURN.2",
         "world": {
           "edition": "3",
@@ -76862,7 +76862,7 @@
       },
       {
         "scene": "Q_RETURN",
-        "choice": "Hoothoot",
+        "choice": "Return to Hoothoot’s unsafe nest",
         "choiceId": "Q_RETURN.3",
         "world": {
           "edition": "3",
@@ -77049,7 +77049,7 @@
       },
       {
         "scene": "Q_RETURN",
-        "choice": "Lapras",
+        "choice": "Return to Lapras at the river",
         "choiceId": "Q_RETURN.4",
         "world": {
           "edition": "3",
@@ -77242,7 +77242,7 @@
       },
       {
         "scene": "Q_RETURN",
-        "choice": "Psyduck",
+        "choice": "Return to Psyduck’s waterwheel",
         "choiceId": "Q_RETURN.5",
         "world": {
           "edition": "3",
@@ -77443,7 +77443,7 @@
       },
       {
         "scene": "Q_RETURN",
-        "choice": "Altaria",
+        "choice": "Return to search for Altaria’s chick",
         "choiceId": "Q_RETURN.7",
         "world": {
           "edition": "3",
@@ -77652,7 +77652,7 @@
       },
       {
         "scene": "Q_RETURN",
-        "choice": "Gastly",
+        "choice": "Return to hear Gastly’s story",
         "choiceId": "Q_RETURN.8",
         "world": {
           "edition": "3",
@@ -79421,7 +79421,7 @@
       },
       {
         "scene": "S22",
-        "choice": "Explain safe basket",
+        "choice": "Let Shinx try the warm carrying basket",
         "choiceId": "S22.1",
         "world": {
           "edition": "3",
@@ -80642,7 +80642,7 @@
       },
       {
         "scene": "S05",
-        "choice": "Follow the lantern-lit path",
+        "choice": "Follow the lit path — safer but slower",
         "choiceId": "S05.1",
         "world": {
           "edition": "3",
@@ -80680,7 +80680,7 @@
       },
       {
         "scene": "S06",
-        "choice": "Take the broad path",
+        "choice": "Keep moving along the broad path",
         "choiceId": "S06.2",
         "world": {
           "edition": "3",
@@ -80766,7 +80766,7 @@
       },
       {
         "scene": "S08",
-        "choice": "Ask directions without repair",
+        "choice": "Ask Hoothoot for directions — leave the nest for now",
         "choiceId": "S08.3",
         "world": {
           "edition": "3",
@@ -80812,7 +80812,7 @@
       },
       {
         "scene": "S09",
-        "choice": "Examine all four hollows",
+        "choice": "Examine what the empty hollow is missing",
         "choiceId": "S09.2",
         "world": {
           "edition": "3",
@@ -80860,7 +80860,7 @@
       },
       {
         "scene": "S10",
-        "choice": "Follow fresh prints",
+        "choice": "Follow the fresh tracks before they fade",
         "choiceId": "S10.3",
         "world": {
           "edition": "3",
@@ -80911,7 +80911,7 @@
       },
       {
         "scene": "S11",
-        "choice": "Secure damaged bridge using toolbox rope",
+        "choice": "Secure the bridge yourself and cross carefully",
         "choiceId": "S11.3",
         "world": {
           "edition": "3",
@@ -81199,7 +81199,7 @@
       },
       {
         "scene": "S16",
-        "choice": "Thank Gastly and continue",
+        "choice": "Thank Gastly and continue toward the tower",
         "choiceId": "S16.2",
         "world": {
           "edition": "3",
@@ -81263,7 +81263,7 @@
       },
       {
         "scene": "S17",
-        "choice": "Repair crank and gears",
+        "choice": "Repair the crank and open the gate by hand",
         "choiceId": "S17.3",
         "world": {
           "edition": "3",
@@ -81330,7 +81330,7 @@
       },
       {
         "scene": "S18",
-        "choice": "Copy the three rings' rules",
+        "choice": "Learn how the three rescue plans work",
         "choiceId": "S18.1",
         "world": {
           "edition": "3",
@@ -81399,7 +81399,7 @@
       },
       {
         "scene": "S19",
-        "choice": "Inspect basket",
+        "choice": "Check whether the basket can carry Shinx safely",
         "choiceId": "S19.2",
         "world": {
           "edition": "3",
@@ -81471,7 +81471,7 @@
       },
       {
         "scene": "S20",
-        "choice": "Explain the old book",
+        "choice": "Explain the danger of leaving the glass closed",
         "choiceId": "S20.2",
         "world": {
           "edition": "3",
@@ -81545,7 +81545,7 @@
       },
       {
         "scene": "S21",
-        "choice": "Explain risks without blame",
+        "choice": "Explain what the darkness is doing to the valley",
         "choiceId": "S21.2",
         "world": {
           "edition": "3",
@@ -81621,7 +81621,7 @@
       },
       {
         "scene": "S22",
-        "choice": "Gather supplies",
+        "choice": "Fetch and test the missing equipment",
         "choiceId": "S22.4",
         "world": {
           "edition": "3",
@@ -81860,7 +81860,7 @@
       },
       {
         "scene": "S22",
-        "choice": "Explain safe basket",
+        "choice": "Let Shinx try the warm carrying basket",
         "choiceId": "S22.1",
         "world": {
           "edition": "3",
@@ -81941,7 +81941,7 @@
       },
       {
         "scene": "S23",
-        "choice": "Revisit the valley",
+        "choice": "Check which places in the valley need help",
         "choiceId": "S23.2",
         "world": {
           "edition": "3",
@@ -82024,7 +82024,7 @@
       },
       {
         "scene": "Q_RETURN",
-        "choice": "Help in Willowbrook",
+        "choice": "Return to Eevee and Pichu in the square",
         "choiceId": "Q_RETURN.1",
         "world": {
           "edition": "3",
@@ -82195,7 +82195,7 @@
       },
       {
         "scene": "Q_RETURN",
-        "choice": "Pikachu",
+        "choice": "Return to Pikachu in the ivy",
         "choiceId": "Q_RETURN.2",
         "world": {
           "edition": "3",
@@ -82374,7 +82374,7 @@
       },
       {
         "scene": "Q_RETURN",
-        "choice": "Hoothoot",
+        "choice": "Return to Hoothoot’s unsafe nest",
         "choiceId": "Q_RETURN.3",
         "world": {
           "edition": "3",
@@ -82561,7 +82561,7 @@
       },
       {
         "scene": "Q_RETURN",
-        "choice": "Lapras",
+        "choice": "Return to Lapras at the river",
         "choiceId": "Q_RETURN.4",
         "world": {
           "edition": "3",
@@ -82754,7 +82754,7 @@
       },
       {
         "scene": "Q_RETURN",
-        "choice": "Psyduck",
+        "choice": "Return to Psyduck’s waterwheel",
         "choiceId": "Q_RETURN.5",
         "world": {
           "edition": "3",
@@ -82955,7 +82955,7 @@
       },
       {
         "scene": "Q_RETURN",
-        "choice": "Altaria",
+        "choice": "Return to search for Altaria’s chick",
         "choiceId": "Q_RETURN.7",
         "world": {
           "edition": "3",
@@ -83164,7 +83164,7 @@
       },
       {
         "scene": "Q_RETURN",
-        "choice": "Gastly",
+        "choice": "Return to hear Gastly’s story",
         "choiceId": "Q_RETURN.8",
         "world": {
           "edition": "3",
@@ -84933,7 +84933,7 @@
       },
       {
         "scene": "S22",
-        "choice": "Explain safe basket",
+        "choice": "Let Shinx try the warm carrying basket",
         "choiceId": "S22.1",
         "world": {
           "edition": "3",
@@ -86154,7 +86154,7 @@
       },
       {
         "scene": "S05",
-        "choice": "Follow the lantern-lit path",
+        "choice": "Follow the lit path — safer but slower",
         "choiceId": "S05.1",
         "world": {
           "edition": "3",
@@ -86192,7 +86192,7 @@
       },
       {
         "scene": "S06",
-        "choice": "Take the broad path",
+        "choice": "Keep moving along the broad path",
         "choiceId": "S06.2",
         "world": {
           "edition": "3",
@@ -86278,7 +86278,7 @@
       },
       {
         "scene": "S08",
-        "choice": "Ask directions without repair",
+        "choice": "Ask Hoothoot for directions — leave the nest for now",
         "choiceId": "S08.3",
         "world": {
           "edition": "3",
@@ -86324,7 +86324,7 @@
       },
       {
         "scene": "S09",
-        "choice": "Examine all four hollows",
+        "choice": "Examine what the empty hollow is missing",
         "choiceId": "S09.2",
         "world": {
           "edition": "3",
@@ -86372,7 +86372,7 @@
       },
       {
         "scene": "S10",
-        "choice": "Follow fresh prints",
+        "choice": "Follow the fresh tracks before they fade",
         "choiceId": "S10.3",
         "world": {
           "edition": "3",
@@ -86423,7 +86423,7 @@
       },
       {
         "scene": "S11",
-        "choice": "Secure damaged bridge using toolbox rope",
+        "choice": "Secure the bridge yourself and cross carefully",
         "choiceId": "S11.3",
         "world": {
           "edition": "3",
@@ -86711,7 +86711,7 @@
       },
       {
         "scene": "S16",
-        "choice": "Thank Gastly and continue",
+        "choice": "Thank Gastly and continue toward the tower",
         "choiceId": "S16.2",
         "world": {
           "edition": "3",
@@ -86775,7 +86775,7 @@
       },
       {
         "scene": "S17",
-        "choice": "Repair crank and gears",
+        "choice": "Repair the crank and open the gate by hand",
         "choiceId": "S17.3",
         "world": {
           "edition": "3",
@@ -86842,7 +86842,7 @@
       },
       {
         "scene": "S18",
-        "choice": "Copy the three rings' rules",
+        "choice": "Learn how the three rescue plans work",
         "choiceId": "S18.1",
         "world": {
           "edition": "3",
@@ -86911,7 +86911,7 @@
       },
       {
         "scene": "S19",
-        "choice": "Inspect basket",
+        "choice": "Check whether the basket can carry Shinx safely",
         "choiceId": "S19.2",
         "world": {
           "edition": "3",
@@ -86983,7 +86983,7 @@
       },
       {
         "scene": "S20",
-        "choice": "Explain the old book",
+        "choice": "Explain the danger of leaving the glass closed",
         "choiceId": "S20.2",
         "world": {
           "edition": "3",
@@ -87057,7 +87057,7 @@
       },
       {
         "scene": "S21",
-        "choice": "Explain risks without blame",
+        "choice": "Explain what the darkness is doing to the valley",
         "choiceId": "S21.2",
         "world": {
           "edition": "3",
@@ -87133,7 +87133,7 @@
       },
       {
         "scene": "S22",
-        "choice": "Gather supplies",
+        "choice": "Fetch and test the missing equipment",
         "choiceId": "S22.4",
         "world": {
           "edition": "3",
@@ -87372,7 +87372,7 @@
       },
       {
         "scene": "S22",
-        "choice": "Explain safe basket",
+        "choice": "Let Shinx try the warm carrying basket",
         "choiceId": "S22.1",
         "world": {
           "edition": "3",
@@ -87453,7 +87453,7 @@
       },
       {
         "scene": "S23",
-        "choice": "Revisit the valley",
+        "choice": "Check which places in the valley need help",
         "choiceId": "S23.2",
         "world": {
           "edition": "3",
@@ -87536,7 +87536,7 @@
       },
       {
         "scene": "Q_RETURN",
-        "choice": "Help in Willowbrook",
+        "choice": "Return to Eevee and Pichu in the square",
         "choiceId": "Q_RETURN.1",
         "world": {
           "edition": "3",
@@ -87707,7 +87707,7 @@
       },
       {
         "scene": "Q_RETURN",
-        "choice": "Pikachu",
+        "choice": "Return to Pikachu in the ivy",
         "choiceId": "Q_RETURN.2",
         "world": {
           "edition": "3",
@@ -87886,7 +87886,7 @@
       },
       {
         "scene": "Q_RETURN",
-        "choice": "Hoothoot",
+        "choice": "Return to Hoothoot’s unsafe nest",
         "choiceId": "Q_RETURN.3",
         "world": {
           "edition": "3",
@@ -88073,7 +88073,7 @@
       },
       {
         "scene": "Q_RETURN",
-        "choice": "Lapras",
+        "choice": "Return to Lapras at the river",
         "choiceId": "Q_RETURN.4",
         "world": {
           "edition": "3",
@@ -88266,7 +88266,7 @@
       },
       {
         "scene": "Q_RETURN",
-        "choice": "Psyduck",
+        "choice": "Return to Psyduck’s waterwheel",
         "choiceId": "Q_RETURN.5",
         "world": {
           "edition": "3",
@@ -88467,7 +88467,7 @@
       },
       {
         "scene": "Q_RETURN",
-        "choice": "Altaria",
+        "choice": "Return to search for Altaria’s chick",
         "choiceId": "Q_RETURN.7",
         "world": {
           "edition": "3",
@@ -88676,7 +88676,7 @@
       },
       {
         "scene": "Q_RETURN",
-        "choice": "Gastly",
+        "choice": "Return to hear Gastly’s story",
         "choiceId": "Q_RETURN.8",
         "world": {
           "edition": "3",
@@ -90445,7 +90445,7 @@
       },
       {
         "scene": "S22",
-        "choice": "Explain safe basket",
+        "choice": "Let Shinx try the warm carrying basket",
         "choiceId": "S22.1",
         "world": {
           "edition": "3",
