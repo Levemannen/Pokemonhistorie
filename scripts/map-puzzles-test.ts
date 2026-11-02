@@ -44,6 +44,9 @@ for(const marker of mapMarkers){
  assert(mapState(state).markers.some(m=>m.id===marker.id));
  checks++;
 }
+for(const {id} of (await import('../src/edition3')).raw){
+ assert.equal(mapPlaces.filter(p=>p.scenes.includes(id)).length,1,id+' must have exactly one map entry');
+}
 const start=initial('Bulbasaur');
 assert(!hasMiraMap(start));
 assert.deepEqual(mapState(start).places.map(p=>p.id),['village']);
