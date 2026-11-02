@@ -9,7 +9,19 @@ const responseArrivals=new Map<string,State>();
 const fixtures=new Map<string,State>(),coverage=new Set<string>();let checks=0;
 function record(s:State){fixtures.set(s.scene,structuredClone(s));for(const language of ['en','nb'] as const){setLanguage(language);const text=v3.storyText(s);assert(text.length>30,s.scene);assert(!/\[(?:IF|ELSE|END)|\b(?:GOTO|RETURN|SET)\b|Only what you actually prepared|Bare det som virkelig/.test(text),s.scene+' exposes notation');}checks++;}
 function solve(s:State){const p=getPuzzle(s);return p?p.answer.reduce(tryPuzzle,s):s;}
-function step(s:State,id:string){s=solve(s);record(s);const c=v3.available(s).find(c=>c.id===id);assert(c,'Unavailable '+id+' at '+s.scene);coverage.add(id);const n=v3.advance(s,c!);if(c.response||c.nbResponse||s.scene==='Q_PREP')responseArrivals.set(c.id,n);assert.equal(n.world!.usedItems.filter(x=>x==='silver_seed').length,n.world!.flags.release_done==='true'?1:0);assert(!(n.world!.items.includes('silver_seed')&&n.world!.usedItems.includes('silver_seed')));assert(v3.restore(n),'Restore '+n.scene);record(n);return n;}
+function step(s:State,id:string){s=solve(s);record(s);const c=v3.available(s).find(c=>c.id===id);assert(c,'Unavailable '+id+' at '+s.scene);coverage.add(id);const n=v3.advance(s,c!);
+ const selected=v3.selectStoryChoice(s,c);
+ if(id==='S09.3')assert.equal(selected.history.length,s.history.length);
+ else{
+  assert.deepEqual(selected.world,n.world);
+  assert.equal(selected.history.length,n.history.length);
+  assert.equal(!!selected.pendingResult,!!v3.resultText(n));
+  if(selected.pendingResult){
+   assert.equal(v3.selectStoryChoice(selected,c),selected);
+   assert(!v3.storyText(n).includes(v3.resultText(n)),id+' duplicated on arrival');
+  }
+ }
+ if(c.response||c.nbResponse||s.scene==='Q_PREP')responseArrivals.set(c.id,n);assert.equal(n.world!.usedItems.filter(x=>x==='silver_seed').length,n.world!.flags.release_done==='true'?1:0);assert(!(n.world!.items.includes('silver_seed')&&n.world!.usedItems.includes('silver_seed')));assert(v3.restore(n),'Restore '+n.scene);record(n);return n;}
 function route(starter:Starter,ending:string,bonus?:'moon'|'sun'|'both'|'both-no-map'){
  let s=v3.initial(starter);const special=ending==='AURORA'||ending==='SANCTUARY';
  const picks=[1,2,1,ending==='AURORA'?1:2,1,2,3,3,2,3,3,2,2,2,special?1:2,ending==='SONG'?1:2,3,ending==='SANCTUARY'?3:1,2,2,2];
@@ -61,7 +73,7 @@ for(const language of ['en','nb'] as const){
    const arrived=v3.advance(source,choice);
    if(choice.id==='S07.3'){assert(v3.fact(arrived,'pikachu_help_sent'));continue;}
    const response=choice[language==='en'?'response':'nbResponse']!;
-   const text=v3.storyText(arrived);
+   const text=v3.resultText(arrived);
    assert(text.startsWith(response.split('\n\n')[0]));
    for(const match of response.matchAll(/\[IF starter_(\w+)\] (.*?) \[END\]/g))
     assert.equal(text.includes(match[2]),match[1]===starter);
@@ -75,10 +87,43 @@ for(const language of ['en','nb'] as const){
  for(const id of ['Q_STAR.1','Q_ARCHIVE.1','Q_RECONCILE.1','S22.1','S22.2','S22.3']){
   const arrived=responseArrivals.get(id)!,source=fixtures.get(id.split('.')[0])!;
   const reply=v3.choicesById[id][language==='en'?'response':'nbResponse']!;
-  assert(!v3.storyText(source).includes(reply)&&v3.storyText(arrived).includes(reply));
+  assert(!v3.storyText(source).includes(reply)&&v3.resultText(arrived).includes(reply));
  }
- const readyText=language==='en'?'You have tested the plan.':'Dere har prøvd løsningen.';
- for(const index of [1,2,3,4])assert.equal(v3.storyText(responseArrivals.get('Q_PREP.'+index)!).includes(readyText),index!==3);
+}
+for(const language of ['en','nb'] as const){
+ setLanguage(language);
+ const source=fixtures.get('S08')!;
+ for(const choice of v3.available(source)){
+  const result=v3.selectStoryChoice(source,choice);
+  assert.equal(result.scene,'S09');assert(result.pendingResult);
+  assert.equal(result.history.length,source.history.length+1);
+  assert.equal(v3.selectStoryChoice(result,choice),result);
+  assert.equal(v3.resultText(result),language==='nb'?choice.nbResponse:choice.response);
+  assert.equal(v3.restore(result)?.pendingResult,true);
+  assert(!v3.storyText(result).includes(v3.resultText(result)));
+  assert.equal(v3.fact(result,'hoothoot_directions'),choice.id==='S08.3');
+  const tree={...result,pendingResult:undefined},question=v3.storyText(tree);
+  const first=v3.selectStoryChoice(tree,v3.choicesById['S09.3']);
+  const second=v3.selectStoryChoice(first,v3.choicesById['S09.3']);
+  assert.deepEqual(second.history,tree.history);assert.equal(v3.storyText(second),question);
+  assert.deepEqual(v3.restore(second)?.flags.filter(x=>x.startsWith('tree-hint:')),['tree-hint:1','tree-hint:2']);
+  assert.equal(v3.selectStoryChoice(second,v3.choicesById['S09.3']),second);
+  assert(v3.available(second).some(x=>x.id!=='S09.3'));
+ }
+}
+for(const scene of v3.raw.filter(scene=>scene.id.startsWith('Q_') && scene.choices.length===1)){
+ const source=solve(fixtures.get(scene.id)!);
+ const [choice]=v3.available(source);
+ const reward=choice.set[0];
+ assert(!v3.fact(source,reward),scene.id+' already completed');
+ const result=v3.selectStoryChoice(source,choice);
+ assert(result.pendingResult && v3.fact(result,reward),scene.id+' reward');
+ assert.equal(v3.selectStoryChoice(result,choice),result);
+ for(const language of ['nb','en'] as const){
+  setLanguage(language);
+  assert(v3.resultText(result).length>0);
+  assert(!v3.storyText(result).includes(v3.resultText(result)));
+ }
 }
 const star=fixtures.get('Q_STAR')!;
 assert(!v3.available({...star,flags:star.flags.filter(f=>f!=='puzzle:Q_STAR')}).some(c=>c.id==='Q_STAR.1'));
@@ -113,7 +158,7 @@ for(const scene of v3.raw)for(const choice of scene.choices){
   setLanguage(language);
   const expected=language==='nb'?choice.nbResponse:choice.response;
   const visible=expected?.split('\n\n').filter(p=>!p.startsWith('[IF ')||p.startsWith('[IF starter_'+arrived.starter+']')).map(p=>p.replace(/\[IF starter_\w+\]|\[END\]/g,'').trim()).join('\n\n');
-  assert(visible&&v3.storyText(arrived).includes(visible.replace(/\{starter\}/g,arrived.starter)),choice.id+' response '+language);
+  assert(visible&&v3.resultText(arrived).includes(visible.replace(/\{starter\}/g,arrived.starter)),choice.id+' response '+language);
  }
 }
 fs.writeFileSync('docs/v3-fixtures.json',JSON.stringify([...fixtures.values()],null,2));

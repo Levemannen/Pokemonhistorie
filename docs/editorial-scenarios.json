@@ -194,7 +194,7 @@
         {
           "language": "nb",
           "scene": "square",
-          "text": "«Det er tårnets nødklokke», sier Mira. «Ingen ringer med den for moro skyld.»\n\nUnder festteltet bretter Mira ut et kart. Moonwood, Lumen-elven, fjellstien – og et pent hull der Starfall-tårnet skulle vært. «Jeg klippet det bort etter at noen skadet seg der oppe», innrømmer hun. «Jeg trodde alle ville være trygge hvis de holdt seg unna.» En Eevee skjelver under stolen hennes. Du setter deg på huk i nærheten mens Mira legger et kart og et ekstra ullskjerf i sekken din.\n\n«Stjernelysglasset samler lys til lyktene og varmeovnene i tårnet», sier Mira. «Stjernene er der ennå. Det er lyset deres som ikke når fram til oss. Frøet ber om hjelp.» Hun tegner inn tårnet på kartet ditt og fester en liten frøpose til beltet ditt. «Følg skinnet. Jeg sender tepper og mat opp forsyningsstien og holder en lykt tent her, så vi kan sende signaler. Snu hvis stien kjennes utrygg.»",
+          "text": "«Det er tårnets nødklokke», sier Mira. «Ingen ringer med den for moro skyld.»\n\nUnder festteltet bretter Mira ut et kart. Måneskogen, Lumen-elven, fjellstien – og et pent hull der Stjernefallstårnet skulle vært. «Jeg klippet det bort etter at noen skadet seg der oppe», innrømmer hun. «Jeg trodde alle ville være trygge hvis de holdt seg unna.» En Eevee skjelver under stolen hennes. Du setter deg på huk i nærheten mens Mira legger et kart og et ekstra ullskjerf i sekken din.\n\n«Stjernelysglasset samler lys til lyktene og varmeovnene i tårnet», sier Mira. «Stjernene er der ennå. Det er lyset deres som ikke når fram til oss. Frøet ber om hjelp.» Hun tegner inn tårnet på kartet ditt og fester en liten frøpose til beltet ditt. «Følg skinnet. Jeg sender tepper og mat opp forsyningsstien og holder en lykt tent her, så vi kan sende signaler. Snu hvis stien kjennes utrygg.»",
           "image": "images/scenes/painted/scene-square.png",
           "choice": "square.1"
         },
@@ -208,7 +208,7 @@
         {
           "language": "nb",
           "scene": "gate",
-          "text": "Du og vennen din støtter grenen med en kløftet kvist fra bakken. Hoothoot sjekker redet, synger de tre tonene igjen og hopper opp på sekken din. Musikklæreren blir med.\n\nFire stier går fra landsbyporten. Røtter danner en bue over veien til lunden. Til høyre stiger en åsrygg, og til venstre snor en bekk seg av sted. Mellom dem lyser frøet opp en smal sti under trærne. Du børster gjørme av skiltet og sammenligner det med kartet. Et sted inne i Moonwood knekker en kvist.\n\nBulbasaur tilbyr å skyve røttene varsomt til side i stedet for å rive dem løs.",
+          "text": "Du og vennen din støtter grenen med en kløftet kvist fra bakken. Hoothoot sjekker redet, synger de tre tonene igjen og hopper opp på sekken din. Musikklæreren blir med.\n\nFire stier går fra landsbyporten. Røtter danner en bue over veien til lunden. Til høyre stiger en åsrygg, og til venstre snor en bekk seg av sted. Mellom dem lyser frøet opp en smal sti under trærne. Du børster gjørme av skiltet og sammenligner det med kartet. Et sted inne i Måneskogen knekker en kvist.\n\nBulbasaur tilbyr å skyve røttene varsomt til side i stedet for å rive dem løs.",
           "image": "images/scenes/painted/gate-hoothoot-v2.png",
           "choice": "gate.1"
         },
@@ -271,7 +271,7 @@
         {
           "language": "nb",
           "scene": "bridge",
-          "text": "«Lumi prøvde å hjelpe Shinx», sier du. «Men noe mer må ha skjedd i tårnet.»\n\nStien fra øya stiger i nesten en time før du når en hengebro. På den andre siden av juvet ligger observatoriet inntil den nedre muren på Starfall-tårnet. Tårnrommet lyser over det. Broplankene er hele, men vinden får dem til å svaie. En annen sti slynger seg mot utkikkspunktet til Altaria. Langt under broen går en smal avløpstunnel gjennom fjellet.\n\nDu tar Miras tykke reserveskjerf rundt halsen før du går ut i vinden.",
+          "text": "«Lumi prøvde å hjelpe Shinx», sier du. «Men noe mer må ha skjedd i tårnet.»\n\nStien fra øya stiger i nesten en time før du når en hengebro. På den andre siden av juvet ligger observatoriet inntil den nedre muren på Stjernefallstårnet. Tårnrommet lyser over det. Broplankene er hele, men vinden får dem til å svaie. En annen sti slynger seg mot utkikkspunktet til Altaria. Langt under broen går en smal avløpstunnel gjennom fjellet.\n\nDu tar Miras tykke reserveskjerf rundt halsen før du går ut i vinden.",
           "image": "images/scenes/painted/scene-bridge.png",
           "choice": "bridge.1"
         },
@@ -532,7 +532,7 @@
         {
           "language": "nb",
           "scene": "square",
-          "text": "«Det er tårnets nødklokke», sier Mira. «Ingen ringer med den for moro skyld.»\n\nUnder festteltet bretter Mira ut et kart. Moonwood, Lumen-elven, fjellstien – og et pent hull der Starfall-tårnet skulle vært. «Jeg klippet det bort etter at noen skadet seg der oppe», innrømmer hun. «Jeg trodde alle ville være trygge hvis de holdt seg unna.» En Eevee skjelver under stolen hennes. Du setter deg på huk i nærheten mens Mira legger et kart og et ekstra ullskjerf i sekken din.\n\n«Stjernelysglasset samler lys til lyktene og varmeovnene i tårnet», sier Mira. «Stjernene er der ennå. Det er lyset deres som ikke når fram til oss. Frøet ber om hjelp.» Hun tegner inn tårnet på kartet ditt og fester en liten frøpose til beltet ditt. «Følg skinnet. Jeg sender tepper og mat opp forsyningsstien og holder en lykt tent her, så vi kan sende signaler. Snu hvis stien kjennes utrygg.»",
+          "text": "«Det er tårnets nødklokke», sier Mira. «Ingen ringer med den for moro skyld.»\n\nUnder festteltet bretter Mira ut et kart. Måneskogen, Lumen-elven, fjellstien – og et pent hull der Stjernefallstårnet skulle vært. «Jeg klippet det bort etter at noen skadet seg der oppe», innrømmer hun. «Jeg trodde alle ville være trygge hvis de holdt seg unna.» En Eevee skjelver under stolen hennes. Du setter deg på huk i nærheten mens Mira legger et kart og et ekstra ullskjerf i sekken din.\n\n«Stjernelysglasset samler lys til lyktene og varmeovnene i tårnet», sier Mira. «Stjernene er der ennå. Det er lyset deres som ikke når fram til oss. Frøet ber om hjelp.» Hun tegner inn tårnet på kartet ditt og fester en liten frøpose til beltet ditt. «Følg skinnet. Jeg sender tepper og mat opp forsyningsstien og holder en lykt tent her, så vi kan sende signaler. Snu hvis stien kjennes utrygg.»",
           "image": "images/scenes/painted/scene-square.png",
           "choice": "square.1"
         },
@@ -546,7 +546,7 @@
         {
           "language": "nb",
           "scene": "gate",
-          "text": "Du løfter grenen mens vennen din støtter den med en kløftet kvist. Hoothoot sjekker redet, bruser med fjærene og synger de tre tonene igjen.\n\nFire stier går fra landsbyporten. Røtter danner en bue over veien til lunden. Til høyre stiger en åsrygg, og til venstre snor en bekk seg av sted. Mellom dem lyser frøet opp en smal sti under trærne. Du børster gjørme av skiltet og sammenligner det med kartet. Et sted inne i Moonwood knekker en kvist.\n\nSquirtle peker ut hvor bekken er grunn nok til å krysse.",
+          "text": "Du løfter grenen mens vennen din støtter den med en kløftet kvist. Hoothoot sjekker redet, bruser med fjærene og synger de tre tonene igjen.\n\nFire stier går fra landsbyporten. Røtter danner en bue over veien til lunden. Til høyre stiger en åsrygg, og til venstre snor en bekk seg av sted. Mellom dem lyser frøet opp en smal sti under trærne. Du børster gjørme av skiltet og sammenligner det med kartet. Et sted inne i Måneskogen knekker en kvist.\n\nSquirtle peker ut hvor bekken er grunn nok til å krysse.",
           "image": "images/scenes/painted/scene-gate.png",
           "choice": "gate.1"
         },
@@ -609,7 +609,7 @@
         {
           "language": "nb",
           "scene": "bridge",
-          "text": "«Lumi prøvde å hjelpe Shinx», sier du. «Men noe mer må ha skjedd i tårnet.»\n\nStien fra øya stiger i nesten en time før du når en hengebro. På den andre siden av juvet ligger observatoriet inntil den nedre muren på Starfall-tårnet. Tårnrommet lyser over det. Broplankene er hele, men vinden får dem til å svaie. En annen sti slynger seg mot utkikkspunktet til Altaria. Langt under broen går en smal avløpstunnel gjennom fjellet.\n\nDu tar Miras tykke reserveskjerf rundt halsen før du går ut i vinden.",
+          "text": "«Lumi prøvde å hjelpe Shinx», sier du. «Men noe mer må ha skjedd i tårnet.»\n\nStien fra øya stiger i nesten en time før du når en hengebro. På den andre siden av juvet ligger observatoriet inntil den nedre muren på Stjernefallstårnet. Tårnrommet lyser over det. Broplankene er hele, men vinden får dem til å svaie. En annen sti slynger seg mot utkikkspunktet til Altaria. Langt under broen går en smal avløpstunnel gjennom fjellet.\n\nDu tar Miras tykke reserveskjerf rundt halsen før du går ut i vinden.",
           "image": "images/scenes/painted/scene-bridge.png",
           "choice": "bridge.1"
         },
@@ -870,7 +870,7 @@
         {
           "language": "nb",
           "scene": "square",
-          "text": "«Det er tårnets nødklokke», sier Mira. «Ingen ringer med den for moro skyld.»\n\nUnder festteltet bretter Mira ut et kart. Moonwood, Lumen-elven, fjellstien – og et pent hull der Starfall-tårnet skulle vært. «Jeg klippet det bort etter at noen skadet seg der oppe», innrømmer hun. «Jeg trodde alle ville være trygge hvis de holdt seg unna.» En Eevee skjelver under stolen hennes. Du setter deg på huk i nærheten mens Mira legger et kart og et ekstra ullskjerf i sekken din.\n\n«Stjernelysglasset samler lys til lyktene og varmeovnene i tårnet», sier Mira. «Stjernene er der ennå. Det er lyset deres som ikke når fram til oss. Frøet ber om hjelp.» Hun tegner inn tårnet på kartet ditt og fester en liten frøpose til beltet ditt. «Følg skinnet. Jeg sender tepper og mat opp forsyningsstien og holder en lykt tent her, så vi kan sende signaler. Snu hvis stien kjennes utrygg.»",
+          "text": "«Det er tårnets nødklokke», sier Mira. «Ingen ringer med den for moro skyld.»\n\nUnder festteltet bretter Mira ut et kart. Måneskogen, Lumen-elven, fjellstien – og et pent hull der Stjernefallstårnet skulle vært. «Jeg klippet det bort etter at noen skadet seg der oppe», innrømmer hun. «Jeg trodde alle ville være trygge hvis de holdt seg unna.» En Eevee skjelver under stolen hennes. Du setter deg på huk i nærheten mens Mira legger et kart og et ekstra ullskjerf i sekken din.\n\n«Stjernelysglasset samler lys til lyktene og varmeovnene i tårnet», sier Mira. «Stjernene er der ennå. Det er lyset deres som ikke når fram til oss. Frøet ber om hjelp.» Hun tegner inn tårnet på kartet ditt og fester en liten frøpose til beltet ditt. «Følg skinnet. Jeg sender tepper og mat opp forsyningsstien og holder en lykt tent her, så vi kan sende signaler. Snu hvis stien kjennes utrygg.»",
           "image": "images/scenes/painted/scene-square.png",
           "choice": "square.1"
         },
@@ -884,7 +884,7 @@
         {
           "language": "nb",
           "scene": "gate",
-          "text": "Du løfter grenen mens vennen din støtter den med en kløftet kvist. Hoothoot sjekker redet, bruser med fjærene og synger de tre tonene igjen.\n\nFire stier går fra landsbyporten. Røtter danner en bue over veien til lunden. Til høyre stiger en åsrygg, og til venstre snor en bekk seg av sted. Mellom dem lyser frøet opp en smal sti under trærne. Du børster gjørme av skiltet og sammenligner det med kartet. Et sted inne i Moonwood knekker en kvist.\n\nCharmander ser etter tørre blader på stien før den lyser opp veien.",
+          "text": "Du løfter grenen mens vennen din støtter den med en kløftet kvist. Hoothoot sjekker redet, bruser med fjærene og synger de tre tonene igjen.\n\nFire stier går fra landsbyporten. Røtter danner en bue over veien til lunden. Til høyre stiger en åsrygg, og til venstre snor en bekk seg av sted. Mellom dem lyser frøet opp en smal sti under trærne. Du børster gjørme av skiltet og sammenligner det med kartet. Et sted inne i Måneskogen knekker en kvist.\n\nCharmander ser etter tørre blader på stien før den lyser opp veien.",
           "image": "images/scenes/painted/scene-gate.png",
           "choice": "gate.1"
         },
@@ -947,7 +947,7 @@
         {
           "language": "nb",
           "scene": "bridge",
-          "text": "«Lumi prøvde å hjelpe Shinx», sier du. «Men noe mer må ha skjedd i tårnet.»\n\nStien fra øya stiger i nesten en time før du når en hengebro. På den andre siden av juvet ligger observatoriet inntil den nedre muren på Starfall-tårnet. Tårnrommet lyser over det. Broplankene er hele, men vinden får dem til å svaie. En annen sti slynger seg mot utkikkspunktet til Altaria. Langt under broen går en smal avløpstunnel gjennom fjellet.\n\nDu tar Miras tykke reserveskjerf rundt halsen før du går ut i vinden.",
+          "text": "«Lumi prøvde å hjelpe Shinx», sier du. «Men noe mer må ha skjedd i tårnet.»\n\nStien fra øya stiger i nesten en time før du når en hengebro. På den andre siden av juvet ligger observatoriet inntil den nedre muren på Stjernefallstårnet. Tårnrommet lyser over det. Broplankene er hele, men vinden får dem til å svaie. En annen sti slynger seg mot utkikkspunktet til Altaria. Langt under broen går en smal avløpstunnel gjennom fjellet.\n\nDu tar Miras tykke reserveskjerf rundt halsen før du går ut i vinden.",
           "image": "images/scenes/painted/scene-bridge.png",
           "choice": "bridge.1"
         },
@@ -1200,7 +1200,7 @@
         {
           "language": "nb",
           "scene": "square",
-          "text": "«Det er tårnets nødklokke», sier Mira. «Ingen ringer med den for moro skyld.»\n\nUnder festteltet bretter Mira ut et kart. Moonwood, Lumen-elven, fjellstien – og et pent hull der Starfall-tårnet skulle vært. «Jeg klippet det bort etter at noen skadet seg der oppe», innrømmer hun. «Jeg trodde alle ville være trygge hvis de holdt seg unna.» En Eevee skjelver under stolen hennes. Du setter deg på huk i nærheten mens Mira legger et kart og et ekstra ullskjerf i sekken din.\n\n«Stjernelysglasset samler lys til lyktene og varmeovnene i tårnet», sier Mira. «Stjernene er der ennå. Det er lyset deres som ikke når fram til oss. Frøet ber om hjelp.» Hun tegner inn tårnet på kartet ditt og fester en liten frøpose til beltet ditt. «Følg skinnet. Jeg sender tepper og mat opp forsyningsstien og holder en lykt tent her, så vi kan sende signaler. Snu hvis stien kjennes utrygg.»",
+          "text": "«Det er tårnets nødklokke», sier Mira. «Ingen ringer med den for moro skyld.»\n\nUnder festteltet bretter Mira ut et kart. Måneskogen, Lumen-elven, fjellstien – og et pent hull der Stjernefallstårnet skulle vært. «Jeg klippet det bort etter at noen skadet seg der oppe», innrømmer hun. «Jeg trodde alle ville være trygge hvis de holdt seg unna.» En Eevee skjelver under stolen hennes. Du setter deg på huk i nærheten mens Mira legger et kart og et ekstra ullskjerf i sekken din.\n\n«Stjernelysglasset samler lys til lyktene og varmeovnene i tårnet», sier Mira. «Stjernene er der ennå. Det er lyset deres som ikke når fram til oss. Frøet ber om hjelp.» Hun tegner inn tårnet på kartet ditt og fester en liten frøpose til beltet ditt. «Følg skinnet. Jeg sender tepper og mat opp forsyningsstien og holder en lykt tent her, så vi kan sende signaler. Snu hvis stien kjennes utrygg.»",
           "image": "images/scenes/painted/scene-square.png",
           "choice": "square.1"
         },
@@ -1214,7 +1214,7 @@
         {
           "language": "nb",
           "scene": "gate",
-          "text": "Du løfter grenen mens vennen din støtter den med en kløftet kvist. Hoothoot sjekker redet, bruser med fjærene og synger de tre tonene igjen.\n\nFire stier går fra landsbyporten. Røtter danner en bue over veien til lunden. Til høyre stiger en åsrygg, og til venstre snor en bekk seg av sted. Mellom dem lyser frøet opp en smal sti under trærne. Du børster gjørme av skiltet og sammenligner det med kartet. Et sted inne i Moonwood knekker en kvist.\n\nBulbasaur tilbyr å skyve røttene varsomt til side i stedet for å rive dem løs.",
+          "text": "Du løfter grenen mens vennen din støtter den med en kløftet kvist. Hoothoot sjekker redet, bruser med fjærene og synger de tre tonene igjen.\n\nFire stier går fra landsbyporten. Røtter danner en bue over veien til lunden. Til høyre stiger en åsrygg, og til venstre snor en bekk seg av sted. Mellom dem lyser frøet opp en smal sti under trærne. Du børster gjørme av skiltet og sammenligner det med kartet. Et sted inne i Måneskogen knekker en kvist.\n\nBulbasaur tilbyr å skyve røttene varsomt til side i stedet for å rive dem løs.",
           "image": "images/scenes/painted/scene-gate.png",
           "choice": "gate.1"
         },
@@ -1270,7 +1270,7 @@
         {
           "language": "nb",
           "scene": "bridge",
-          "text": "«Lumi prøvde å hjelpe Shinx», sier du. «Men noe mer må ha skjedd i tårnet.»\n\nStien fra øya stiger i nesten en time før du når en hengebro. På den andre siden av juvet ligger observatoriet inntil den nedre muren på Starfall-tårnet. Tårnrommet lyser over det. Broplankene er hele, men vinden får dem til å svaie. En annen sti slynger seg mot utkikkspunktet til Altaria. Langt under broen går en smal avløpstunnel gjennom fjellet.\n\nDu tar Miras tykke reserveskjerf rundt halsen før du går ut i vinden.",
+          "text": "«Lumi prøvde å hjelpe Shinx», sier du. «Men noe mer må ha skjedd i tårnet.»\n\nStien fra øya stiger i nesten en time før du når en hengebro. På den andre siden av juvet ligger observatoriet inntil den nedre muren på Stjernefallstårnet. Tårnrommet lyser over det. Broplankene er hele, men vinden får dem til å svaie. En annen sti slynger seg mot utkikkspunktet til Altaria. Langt under broen går en smal avløpstunnel gjennom fjellet.\n\nDu tar Miras tykke reserveskjerf rundt halsen før du går ut i vinden.",
           "image": "images/scenes/painted/scene-bridge.png",
           "choice": "bridge.1"
         },
@@ -1523,7 +1523,7 @@
         {
           "language": "nb",
           "scene": "square",
-          "text": "«Det er tårnets nødklokke», sier Mira. «Ingen ringer med den for moro skyld.»\n\nUnder festteltet bretter Mira ut et kart. Moonwood, Lumen-elven, fjellstien – og et pent hull der Starfall-tårnet skulle vært. «Jeg klippet det bort etter at noen skadet seg der oppe», innrømmer hun. «Jeg trodde alle ville være trygge hvis de holdt seg unna.» En Eevee skjelver under stolen hennes. Du setter deg på huk i nærheten mens Mira legger et kart og et ekstra ullskjerf i sekken din.\n\n«Stjernelysglasset samler lys til lyktene og varmeovnene i tårnet», sier Mira. «Stjernene er der ennå. Det er lyset deres som ikke når fram til oss. Frøet ber om hjelp.» Hun tegner inn tårnet på kartet ditt og fester en liten frøpose til beltet ditt. «Følg skinnet. Jeg sender tepper og mat opp forsyningsstien og holder en lykt tent her, så vi kan sende signaler. Snu hvis stien kjennes utrygg.»",
+          "text": "«Det er tårnets nødklokke», sier Mira. «Ingen ringer med den for moro skyld.»\n\nUnder festteltet bretter Mira ut et kart. Måneskogen, Lumen-elven, fjellstien – og et pent hull der Stjernefallstårnet skulle vært. «Jeg klippet det bort etter at noen skadet seg der oppe», innrømmer hun. «Jeg trodde alle ville være trygge hvis de holdt seg unna.» En Eevee skjelver under stolen hennes. Du setter deg på huk i nærheten mens Mira legger et kart og et ekstra ullskjerf i sekken din.\n\n«Stjernelysglasset samler lys til lyktene og varmeovnene i tårnet», sier Mira. «Stjernene er der ennå. Det er lyset deres som ikke når fram til oss. Frøet ber om hjelp.» Hun tegner inn tårnet på kartet ditt og fester en liten frøpose til beltet ditt. «Følg skinnet. Jeg sender tepper og mat opp forsyningsstien og holder en lykt tent her, så vi kan sende signaler. Snu hvis stien kjennes utrygg.»",
           "image": "images/scenes/painted/scene-square.png",
           "choice": "square.1"
         },
@@ -1537,7 +1537,7 @@
         {
           "language": "nb",
           "scene": "gate",
-          "text": "Du løfter grenen mens vennen din støtter den med en kløftet kvist. Hoothoot sjekker redet, bruser med fjærene og synger de tre tonene igjen.\n\nFire stier går fra landsbyporten. Røtter danner en bue over veien til lunden. Til høyre stiger en åsrygg, og til venstre snor en bekk seg av sted. Mellom dem lyser frøet opp en smal sti under trærne. Du børster gjørme av skiltet og sammenligner det med kartet. Et sted inne i Moonwood knekker en kvist.\n\nSquirtle peker ut hvor bekken er grunn nok til å krysse.",
+          "text": "Du løfter grenen mens vennen din støtter den med en kløftet kvist. Hoothoot sjekker redet, bruser med fjærene og synger de tre tonene igjen.\n\nFire stier går fra landsbyporten. Røtter danner en bue over veien til lunden. Til høyre stiger en åsrygg, og til venstre snor en bekk seg av sted. Mellom dem lyser frøet opp en smal sti under trærne. Du børster gjørme av skiltet og sammenligner det med kartet. Et sted inne i Måneskogen knekker en kvist.\n\nSquirtle peker ut hvor bekken er grunn nok til å krysse.",
           "image": "images/scenes/painted/scene-gate.png",
           "choice": "gate.1"
         },
@@ -1593,7 +1593,7 @@
         {
           "language": "nb",
           "scene": "bridge",
-          "text": "«Lumi prøvde å hjelpe Shinx», sier du. «Men noe mer må ha skjedd i tårnet.»\n\nStien fra øya stiger i nesten en time før du når en hengebro. På den andre siden av juvet ligger observatoriet inntil den nedre muren på Starfall-tårnet. Tårnrommet lyser over det. Broplankene er hele, men vinden får dem til å svaie. En annen sti slynger seg mot utkikkspunktet til Altaria. Langt under broen går en smal avløpstunnel gjennom fjellet.\n\nDu tar Miras tykke reserveskjerf rundt halsen før du går ut i vinden.",
+          "text": "«Lumi prøvde å hjelpe Shinx», sier du. «Men noe mer må ha skjedd i tårnet.»\n\nStien fra øya stiger i nesten en time før du når en hengebro. På den andre siden av juvet ligger observatoriet inntil den nedre muren på Stjernefallstårnet. Tårnrommet lyser over det. Broplankene er hele, men vinden får dem til å svaie. En annen sti slynger seg mot utkikkspunktet til Altaria. Langt under broen går en smal avløpstunnel gjennom fjellet.\n\nDu tar Miras tykke reserveskjerf rundt halsen før du går ut i vinden.",
           "image": "images/scenes/painted/scene-bridge.png",
           "choice": "bridge.1"
         },
@@ -1862,7 +1862,7 @@
         {
           "language": "nb",
           "scene": "square",
-          "text": "«Det er tårnets nødklokke», sier Mira. «Ingen ringer med den for moro skyld.»\n\nUnder festteltet bretter Mira ut et kart. Moonwood, Lumen-elven, fjellstien – og et pent hull der Starfall-tårnet skulle vært. «Jeg klippet det bort etter at noen skadet seg der oppe», innrømmer hun. «Jeg trodde alle ville være trygge hvis de holdt seg unna.» En Eevee skjelver under stolen hennes. Du setter deg på huk i nærheten mens Mira legger et kart og et ekstra ullskjerf i sekken din.\n\n«Stjernelysglasset samler lys til lyktene og varmeovnene i tårnet», sier Mira. «Stjernene er der ennå. Det er lyset deres som ikke når fram til oss. Frøet ber om hjelp.» Hun tegner inn tårnet på kartet ditt og fester en liten frøpose til beltet ditt. «Følg skinnet. Jeg sender tepper og mat opp forsyningsstien og holder en lykt tent her, så vi kan sende signaler. Snu hvis stien kjennes utrygg.»",
+          "text": "«Det er tårnets nødklokke», sier Mira. «Ingen ringer med den for moro skyld.»\n\nUnder festteltet bretter Mira ut et kart. Måneskogen, Lumen-elven, fjellstien – og et pent hull der Stjernefallstårnet skulle vært. «Jeg klippet det bort etter at noen skadet seg der oppe», innrømmer hun. «Jeg trodde alle ville være trygge hvis de holdt seg unna.» En Eevee skjelver under stolen hennes. Du setter deg på huk i nærheten mens Mira legger et kart og et ekstra ullskjerf i sekken din.\n\n«Stjernelysglasset samler lys til lyktene og varmeovnene i tårnet», sier Mira. «Stjernene er der ennå. Det er lyset deres som ikke når fram til oss. Frøet ber om hjelp.» Hun tegner inn tårnet på kartet ditt og fester en liten frøpose til beltet ditt. «Følg skinnet. Jeg sender tepper og mat opp forsyningsstien og holder en lykt tent her, så vi kan sende signaler. Snu hvis stien kjennes utrygg.»",
           "image": "images/scenes/painted/scene-square.png",
           "choice": "square.1"
         },
@@ -1876,7 +1876,7 @@
         {
           "language": "nb",
           "scene": "gate",
-          "text": "Du løfter grenen mens vennen din støtter den med en kløftet kvist. Hoothoot sjekker redet, bruser med fjærene og synger de tre tonene igjen.\n\nFire stier går fra landsbyporten. Røtter danner en bue over veien til lunden. Til høyre stiger en åsrygg, og til venstre snor en bekk seg av sted. Mellom dem lyser frøet opp en smal sti under trærne. Du børster gjørme av skiltet og sammenligner det med kartet. Et sted inne i Moonwood knekker en kvist.\n\nBulbasaur tilbyr å skyve røttene varsomt til side i stedet for å rive dem løs.",
+          "text": "Du løfter grenen mens vennen din støtter den med en kløftet kvist. Hoothoot sjekker redet, bruser med fjærene og synger de tre tonene igjen.\n\nFire stier går fra landsbyporten. Røtter danner en bue over veien til lunden. Til høyre stiger en åsrygg, og til venstre snor en bekk seg av sted. Mellom dem lyser frøet opp en smal sti under trærne. Du børster gjørme av skiltet og sammenligner det med kartet. Et sted inne i Måneskogen knekker en kvist.\n\nBulbasaur tilbyr å skyve røttene varsomt til side i stedet for å rive dem løs.",
           "image": "images/scenes/painted/scene-gate.png",
           "choice": "gate.3"
         },
@@ -1946,7 +1946,7 @@
         {
           "language": "nb",
           "scene": "bridge",
-          "text": "«Lumi prøvde å hjelpe Shinx», sier du. «Men noe mer må ha skjedd i tårnet.»\n\nStien fra øya stiger i nesten en time før du når en hengebro. På den andre siden av juvet ligger observatoriet inntil den nedre muren på Starfall-tårnet. Tårnrommet lyser over det. Broplankene er hele, men vinden får dem til å svaie. En annen sti slynger seg mot utkikkspunktet til Altaria. Langt under broen går en smal avløpstunnel gjennom fjellet.\n\nDu tar Miras tykke reserveskjerf rundt halsen før du går ut i vinden.",
+          "text": "«Lumi prøvde å hjelpe Shinx», sier du. «Men noe mer må ha skjedd i tårnet.»\n\nStien fra øya stiger i nesten en time før du når en hengebro. På den andre siden av juvet ligger observatoriet inntil den nedre muren på Stjernefallstårnet. Tårnrommet lyser over det. Broplankene er hele, men vinden får dem til å svaie. En annen sti slynger seg mot utkikkspunktet til Altaria. Langt under broen går en smal avløpstunnel gjennom fjellet.\n\nDu tar Miras tykke reserveskjerf rundt halsen før du går ut i vinden.",
           "image": "images/scenes/painted/scene-bridge.png",
           "choice": "bridge.1"
         },
@@ -2215,7 +2215,7 @@
         {
           "language": "nb",
           "scene": "square",
-          "text": "«Det er tårnets nødklokke», sier Mira. «Ingen ringer med den for moro skyld.»\n\nUnder festteltet bretter Mira ut et kart. Moonwood, Lumen-elven, fjellstien – og et pent hull der Starfall-tårnet skulle vært. «Jeg klippet det bort etter at noen skadet seg der oppe», innrømmer hun. «Jeg trodde alle ville være trygge hvis de holdt seg unna.» En Eevee skjelver under stolen hennes. Du setter deg på huk i nærheten mens Mira legger et kart og et ekstra ullskjerf i sekken din.\n\n«Stjernelysglasset samler lys til lyktene og varmeovnene i tårnet», sier Mira. «Stjernene er der ennå. Det er lyset deres som ikke når fram til oss. Frøet ber om hjelp.» Hun tegner inn tårnet på kartet ditt og fester en liten frøpose til beltet ditt. «Følg skinnet. Jeg sender tepper og mat opp forsyningsstien og holder en lykt tent her, så vi kan sende signaler. Snu hvis stien kjennes utrygg.»",
+          "text": "«Det er tårnets nødklokke», sier Mira. «Ingen ringer med den for moro skyld.»\n\nUnder festteltet bretter Mira ut et kart. Måneskogen, Lumen-elven, fjellstien – og et pent hull der Stjernefallstårnet skulle vært. «Jeg klippet det bort etter at noen skadet seg der oppe», innrømmer hun. «Jeg trodde alle ville være trygge hvis de holdt seg unna.» En Eevee skjelver under stolen hennes. Du setter deg på huk i nærheten mens Mira legger et kart og et ekstra ullskjerf i sekken din.\n\n«Stjernelysglasset samler lys til lyktene og varmeovnene i tårnet», sier Mira. «Stjernene er der ennå. Det er lyset deres som ikke når fram til oss. Frøet ber om hjelp.» Hun tegner inn tårnet på kartet ditt og fester en liten frøpose til beltet ditt. «Følg skinnet. Jeg sender tepper og mat opp forsyningsstien og holder en lykt tent her, så vi kan sende signaler. Snu hvis stien kjennes utrygg.»",
           "image": "images/scenes/painted/scene-square.png",
           "choice": "square.1"
         },
@@ -2229,7 +2229,7 @@
         {
           "language": "nb",
           "scene": "gate",
-          "text": "Du løfter grenen mens vennen din støtter den med en kløftet kvist. Hoothoot sjekker redet, bruser med fjærene og synger de tre tonene igjen.\n\nFire stier går fra landsbyporten. Røtter danner en bue over veien til lunden. Til høyre stiger en åsrygg, og til venstre snor en bekk seg av sted. Mellom dem lyser frøet opp en smal sti under trærne. Du børster gjørme av skiltet og sammenligner det med kartet. Et sted inne i Moonwood knekker en kvist.\n\nSquirtle peker ut hvor bekken er grunn nok til å krysse.",
+          "text": "Du løfter grenen mens vennen din støtter den med en kløftet kvist. Hoothoot sjekker redet, bruser med fjærene og synger de tre tonene igjen.\n\nFire stier går fra landsbyporten. Røtter danner en bue over veien til lunden. Til høyre stiger en åsrygg, og til venstre snor en bekk seg av sted. Mellom dem lyser frøet opp en smal sti under trærne. Du børster gjørme av skiltet og sammenligner det med kartet. Et sted inne i Måneskogen knekker en kvist.\n\nSquirtle peker ut hvor bekken er grunn nok til å krysse.",
           "image": "images/scenes/painted/scene-gate.png",
           "choice": "gate.3"
         },
@@ -2299,7 +2299,7 @@
         {
           "language": "nb",
           "scene": "bridge",
-          "text": "«Lumi prøvde å hjelpe Shinx», sier du. «Men noe mer må ha skjedd i tårnet.»\n\nStien fra øya stiger i nesten en time før du når en hengebro. På den andre siden av juvet ligger observatoriet inntil den nedre muren på Starfall-tårnet. Tårnrommet lyser over det. Broplankene er hele, men vinden får dem til å svaie. En annen sti slynger seg mot utkikkspunktet til Altaria. Langt under broen går en smal avløpstunnel gjennom fjellet.\n\nDu tar Miras tykke reserveskjerf rundt halsen før du går ut i vinden.",
+          "text": "«Lumi prøvde å hjelpe Shinx», sier du. «Men noe mer må ha skjedd i tårnet.»\n\nStien fra øya stiger i nesten en time før du når en hengebro. På den andre siden av juvet ligger observatoriet inntil den nedre muren på Stjernefallstårnet. Tårnrommet lyser over det. Broplankene er hele, men vinden får dem til å svaie. En annen sti slynger seg mot utkikkspunktet til Altaria. Langt under broen går en smal avløpstunnel gjennom fjellet.\n\nDu tar Miras tykke reserveskjerf rundt halsen før du går ut i vinden.",
           "image": "images/scenes/painted/scene-bridge.png",
           "choice": "bridge.1"
         },
@@ -2568,7 +2568,7 @@
         {
           "language": "nb",
           "scene": "square",
-          "text": "«Det er tårnets nødklokke», sier Mira. «Ingen ringer med den for moro skyld.»\n\nUnder festteltet bretter Mira ut et kart. Moonwood, Lumen-elven, fjellstien – og et pent hull der Starfall-tårnet skulle vært. «Jeg klippet det bort etter at noen skadet seg der oppe», innrømmer hun. «Jeg trodde alle ville være trygge hvis de holdt seg unna.» En Eevee skjelver under stolen hennes. Du setter deg på huk i nærheten mens Mira legger et kart og et ekstra ullskjerf i sekken din.\n\n«Stjernelysglasset samler lys til lyktene og varmeovnene i tårnet», sier Mira. «Stjernene er der ennå. Det er lyset deres som ikke når fram til oss. Frøet ber om hjelp.» Hun tegner inn tårnet på kartet ditt og fester en liten frøpose til beltet ditt. «Følg skinnet. Jeg sender tepper og mat opp forsyningsstien og holder en lykt tent her, så vi kan sende signaler. Snu hvis stien kjennes utrygg.»",
+          "text": "«Det er tårnets nødklokke», sier Mira. «Ingen ringer med den for moro skyld.»\n\nUnder festteltet bretter Mira ut et kart. Måneskogen, Lumen-elven, fjellstien – og et pent hull der Stjernefallstårnet skulle vært. «Jeg klippet det bort etter at noen skadet seg der oppe», innrømmer hun. «Jeg trodde alle ville være trygge hvis de holdt seg unna.» En Eevee skjelver under stolen hennes. Du setter deg på huk i nærheten mens Mira legger et kart og et ekstra ullskjerf i sekken din.\n\n«Stjernelysglasset samler lys til lyktene og varmeovnene i tårnet», sier Mira. «Stjernene er der ennå. Det er lyset deres som ikke når fram til oss. Frøet ber om hjelp.» Hun tegner inn tårnet på kartet ditt og fester en liten frøpose til beltet ditt. «Følg skinnet. Jeg sender tepper og mat opp forsyningsstien og holder en lykt tent her, så vi kan sende signaler. Snu hvis stien kjennes utrygg.»",
           "image": "images/scenes/painted/scene-square.png",
           "choice": "square.1"
         },
@@ -2582,7 +2582,7 @@
         {
           "language": "nb",
           "scene": "gate",
-          "text": "Du og vennen din støtter grenen med en kløftet kvist fra bakken. Hoothoot sjekker redet, synger de tre tonene igjen og hopper opp på sekken din. Musikklæreren blir med.\n\nFire stier går fra landsbyporten. Røtter danner en bue over veien til lunden. Til høyre stiger en åsrygg, og til venstre snor en bekk seg av sted. Mellom dem lyser frøet opp en smal sti under trærne. Du børster gjørme av skiltet og sammenligner det med kartet. Et sted inne i Moonwood knekker en kvist.\n\nCharmander ser etter tørre blader på stien før den lyser opp veien.",
+          "text": "Du og vennen din støtter grenen med en kløftet kvist fra bakken. Hoothoot sjekker redet, synger de tre tonene igjen og hopper opp på sekken din. Musikklæreren blir med.\n\nFire stier går fra landsbyporten. Røtter danner en bue over veien til lunden. Til høyre stiger en åsrygg, og til venstre snor en bekk seg av sted. Mellom dem lyser frøet opp en smal sti under trærne. Du børster gjørme av skiltet og sammenligner det med kartet. Et sted inne i Måneskogen knekker en kvist.\n\nCharmander ser etter tørre blader på stien før den lyser opp veien.",
           "image": "images/scenes/painted/gate-hoothoot-v2.png",
           "choice": "gate.3"
         },
@@ -2652,7 +2652,7 @@
         {
           "language": "nb",
           "scene": "bridge",
-          "text": "«Lumi prøvde å hjelpe Shinx», sier du. «Men noe mer må ha skjedd i tårnet.»\n\nStien fra øya stiger i nesten en time før du når en hengebro. På den andre siden av juvet ligger observatoriet inntil den nedre muren på Starfall-tårnet. Tårnrommet lyser over det. Broplankene er hele, men vinden får dem til å svaie. En annen sti slynger seg mot utkikkspunktet til Altaria. Langt under broen går en smal avløpstunnel gjennom fjellet.\n\nDu tar Miras tykke reserveskjerf rundt halsen før du går ut i vinden.",
+          "text": "«Lumi prøvde å hjelpe Shinx», sier du. «Men noe mer må ha skjedd i tårnet.»\n\nStien fra øya stiger i nesten en time før du når en hengebro. På den andre siden av juvet ligger observatoriet inntil den nedre muren på Stjernefallstårnet. Tårnrommet lyser over det. Broplankene er hele, men vinden får dem til å svaie. En annen sti slynger seg mot utkikkspunktet til Altaria. Langt under broen går en smal avløpstunnel gjennom fjellet.\n\nDu tar Miras tykke reserveskjerf rundt halsen før du går ut i vinden.",
           "image": "images/scenes/painted/scene-bridge.png",
           "choice": "bridge.1"
         },
@@ -2913,7 +2913,7 @@
         {
           "language": "nb",
           "scene": "square",
-          "text": "«Det er tårnets nødklokke», sier Mira. «Ingen ringer med den for moro skyld.»\n\nUnder festteltet bretter Mira ut et kart. Moonwood, Lumen-elven, fjellstien – og et pent hull der Starfall-tårnet skulle vært. «Jeg klippet det bort etter at noen skadet seg der oppe», innrømmer hun. «Jeg trodde alle ville være trygge hvis de holdt seg unna.» En Eevee skjelver under stolen hennes. Du setter deg på huk i nærheten mens Mira legger et kart og et ekstra ullskjerf i sekken din.\n\n«Stjernelysglasset samler lys til lyktene og varmeovnene i tårnet», sier Mira. «Stjernene er der ennå. Det er lyset deres som ikke når fram til oss. Frøet ber om hjelp.» Hun tegner inn tårnet på kartet ditt og fester en liten frøpose til beltet ditt. «Følg skinnet. Jeg sender tepper og mat opp forsyningsstien og holder en lykt tent her, så vi kan sende signaler. Snu hvis stien kjennes utrygg.»",
+          "text": "«Det er tårnets nødklokke», sier Mira. «Ingen ringer med den for moro skyld.»\n\nUnder festteltet bretter Mira ut et kart. Måneskogen, Lumen-elven, fjellstien – og et pent hull der Stjernefallstårnet skulle vært. «Jeg klippet det bort etter at noen skadet seg der oppe», innrømmer hun. «Jeg trodde alle ville være trygge hvis de holdt seg unna.» En Eevee skjelver under stolen hennes. Du setter deg på huk i nærheten mens Mira legger et kart og et ekstra ullskjerf i sekken din.\n\n«Stjernelysglasset samler lys til lyktene og varmeovnene i tårnet», sier Mira. «Stjernene er der ennå. Det er lyset deres som ikke når fram til oss. Frøet ber om hjelp.» Hun tegner inn tårnet på kartet ditt og fester en liten frøpose til beltet ditt. «Følg skinnet. Jeg sender tepper og mat opp forsyningsstien og holder en lykt tent her, så vi kan sende signaler. Snu hvis stien kjennes utrygg.»",
           "image": "images/scenes/painted/scene-square.png",
           "choice": "square.1"
         },
@@ -2927,7 +2927,7 @@
         {
           "language": "nb",
           "scene": "gate",
-          "text": "Du løfter grenen mens vennen din støtter den med en kløftet kvist. Hoothoot sjekker redet, bruser med fjærene og synger de tre tonene igjen.\n\nFire stier går fra landsbyporten. Røtter danner en bue over veien til lunden. Til høyre stiger en åsrygg, og til venstre snor en bekk seg av sted. Mellom dem lyser frøet opp en smal sti under trærne. Du børster gjørme av skiltet og sammenligner det med kartet. Et sted inne i Moonwood knekker en kvist.\n\nBulbasaur tilbyr å skyve røttene varsomt til side i stedet for å rive dem løs.",
+          "text": "Du løfter grenen mens vennen din støtter den med en kløftet kvist. Hoothoot sjekker redet, bruser med fjærene og synger de tre tonene igjen.\n\nFire stier går fra landsbyporten. Røtter danner en bue over veien til lunden. Til høyre stiger en åsrygg, og til venstre snor en bekk seg av sted. Mellom dem lyser frøet opp en smal sti under trærne. Du børster gjørme av skiltet og sammenligner det med kartet. Et sted inne i Måneskogen knekker en kvist.\n\nBulbasaur tilbyr å skyve røttene varsomt til side i stedet for å rive dem løs.",
           "image": "images/scenes/painted/scene-gate.png",
           "choice": "gate.1"
         },
@@ -2990,7 +2990,7 @@
         {
           "language": "nb",
           "scene": "bridge",
-          "text": "«Lumi prøvde å hjelpe Shinx», sier du. «Men noe mer må ha skjedd i tårnet.»\n\nStien fra øya stiger i nesten en time før du når en hengebro. På den andre siden av juvet ligger observatoriet inntil den nedre muren på Starfall-tårnet. Tårnrommet lyser over det. Broplankene er hele, men vinden får dem til å svaie. En annen sti slynger seg mot utkikkspunktet til Altaria. Langt under broen går en smal avløpstunnel gjennom fjellet.\n\nDu tar Miras tykke reserveskjerf rundt halsen før du går ut i vinden.",
+          "text": "«Lumi prøvde å hjelpe Shinx», sier du. «Men noe mer må ha skjedd i tårnet.»\n\nStien fra øya stiger i nesten en time før du når en hengebro. På den andre siden av juvet ligger observatoriet inntil den nedre muren på Stjernefallstårnet. Tårnrommet lyser over det. Broplankene er hele, men vinden får dem til å svaie. En annen sti slynger seg mot utkikkspunktet til Altaria. Langt under broen går en smal avløpstunnel gjennom fjellet.\n\nDu tar Miras tykke reserveskjerf rundt halsen før du går ut i vinden.",
           "image": "images/scenes/painted/scene-bridge.png",
           "choice": "bridge.1"
         },
@@ -3243,7 +3243,7 @@
         {
           "language": "nb",
           "scene": "square",
-          "text": "«Det er tårnets nødklokke», sier Mira. «Ingen ringer med den for moro skyld.»\n\nUnder festteltet bretter Mira ut et kart. Moonwood, Lumen-elven, fjellstien – og et pent hull der Starfall-tårnet skulle vært. «Jeg klippet det bort etter at noen skadet seg der oppe», innrømmer hun. «Jeg trodde alle ville være trygge hvis de holdt seg unna.» En Eevee skjelver under stolen hennes. Du setter deg på huk i nærheten mens Mira legger et kart og et ekstra ullskjerf i sekken din.\n\n«Stjernelysglasset samler lys til lyktene og varmeovnene i tårnet», sier Mira. «Stjernene er der ennå. Det er lyset deres som ikke når fram til oss. Frøet ber om hjelp.» Hun tegner inn tårnet på kartet ditt og fester en liten frøpose til beltet ditt. «Følg skinnet. Jeg sender tepper og mat opp forsyningsstien og holder en lykt tent her, så vi kan sende signaler. Snu hvis stien kjennes utrygg.»",
+          "text": "«Det er tårnets nødklokke», sier Mira. «Ingen ringer med den for moro skyld.»\n\nUnder festteltet bretter Mira ut et kart. Måneskogen, Lumen-elven, fjellstien – og et pent hull der Stjernefallstårnet skulle vært. «Jeg klippet det bort etter at noen skadet seg der oppe», innrømmer hun. «Jeg trodde alle ville være trygge hvis de holdt seg unna.» En Eevee skjelver under stolen hennes. Du setter deg på huk i nærheten mens Mira legger et kart og et ekstra ullskjerf i sekken din.\n\n«Stjernelysglasset samler lys til lyktene og varmeovnene i tårnet», sier Mira. «Stjernene er der ennå. Det er lyset deres som ikke når fram til oss. Frøet ber om hjelp.» Hun tegner inn tårnet på kartet ditt og fester en liten frøpose til beltet ditt. «Følg skinnet. Jeg sender tepper og mat opp forsyningsstien og holder en lykt tent her, så vi kan sende signaler. Snu hvis stien kjennes utrygg.»",
           "image": "images/scenes/painted/scene-square.png",
           "choice": "square.1"
         },
@@ -3257,7 +3257,7 @@
         {
           "language": "nb",
           "scene": "gate",
-          "text": "Du løfter grenen mens vennen din støtter den med en kløftet kvist. Hoothoot sjekker redet, bruser med fjærene og synger de tre tonene igjen.\n\nFire stier går fra landsbyporten. Røtter danner en bue over veien til lunden. Til høyre stiger en åsrygg, og til venstre snor en bekk seg av sted. Mellom dem lyser frøet opp en smal sti under trærne. Du børster gjørme av skiltet og sammenligner det med kartet. Et sted inne i Moonwood knekker en kvist.\n\nSquirtle peker ut hvor bekken er grunn nok til å krysse.",
+          "text": "Du løfter grenen mens vennen din støtter den med en kløftet kvist. Hoothoot sjekker redet, bruser med fjærene og synger de tre tonene igjen.\n\nFire stier går fra landsbyporten. Røtter danner en bue over veien til lunden. Til høyre stiger en åsrygg, og til venstre snor en bekk seg av sted. Mellom dem lyser frøet opp en smal sti under trærne. Du børster gjørme av skiltet og sammenligner det med kartet. Et sted inne i Måneskogen knekker en kvist.\n\nSquirtle peker ut hvor bekken er grunn nok til å krysse.",
           "image": "images/scenes/painted/scene-gate.png",
           "choice": "gate.1"
         },
@@ -3320,7 +3320,7 @@
         {
           "language": "nb",
           "scene": "bridge",
-          "text": "«Lumi prøvde å hjelpe Shinx», sier du. «Men noe mer må ha skjedd i tårnet.»\n\nStien fra øya stiger i nesten en time før du når en hengebro. På den andre siden av juvet ligger observatoriet inntil den nedre muren på Starfall-tårnet. Tårnrommet lyser over det. Broplankene er hele, men vinden får dem til å svaie. En annen sti slynger seg mot utkikkspunktet til Altaria. Langt under broen går en smal avløpstunnel gjennom fjellet.\n\nDu tar Miras tykke reserveskjerf rundt halsen før du går ut i vinden.",
+          "text": "«Lumi prøvde å hjelpe Shinx», sier du. «Men noe mer må ha skjedd i tårnet.»\n\nStien fra øya stiger i nesten en time før du når en hengebro. På den andre siden av juvet ligger observatoriet inntil den nedre muren på Stjernefallstårnet. Tårnrommet lyser over det. Broplankene er hele, men vinden får dem til å svaie. En annen sti slynger seg mot utkikkspunktet til Altaria. Langt under broen går en smal avløpstunnel gjennom fjellet.\n\nDu tar Miras tykke reserveskjerf rundt halsen før du går ut i vinden.",
           "image": "images/scenes/painted/scene-bridge.png",
           "choice": "bridge.2"
         },
@@ -3566,7 +3566,7 @@
         {
           "language": "nb",
           "scene": "square",
-          "text": "«Det er tårnets nødklokke», sier Mira. «Ingen ringer med den for moro skyld.»\n\nUnder festteltet bretter Mira ut et kart. Moonwood, Lumen-elven, fjellstien – og et pent hull der Starfall-tårnet skulle vært. «Jeg klippet det bort etter at noen skadet seg der oppe», innrømmer hun. «Jeg trodde alle ville være trygge hvis de holdt seg unna.» En Eevee skjelver under stolen hennes. Du setter deg på huk i nærheten mens Mira legger et kart og et ekstra ullskjerf i sekken din.\n\n«Stjernelysglasset samler lys til lyktene og varmeovnene i tårnet», sier Mira. «Stjernene er der ennå. Det er lyset deres som ikke når fram til oss. Frøet ber om hjelp.» Hun tegner inn tårnet på kartet ditt og fester en liten frøpose til beltet ditt. «Følg skinnet. Jeg sender tepper og mat opp forsyningsstien og holder en lykt tent her, så vi kan sende signaler. Snu hvis stien kjennes utrygg.»",
+          "text": "«Det er tårnets nødklokke», sier Mira. «Ingen ringer med den for moro skyld.»\n\nUnder festteltet bretter Mira ut et kart. Måneskogen, Lumen-elven, fjellstien – og et pent hull der Stjernefallstårnet skulle vært. «Jeg klippet det bort etter at noen skadet seg der oppe», innrømmer hun. «Jeg trodde alle ville være trygge hvis de holdt seg unna.» En Eevee skjelver under stolen hennes. Du setter deg på huk i nærheten mens Mira legger et kart og et ekstra ullskjerf i sekken din.\n\n«Stjernelysglasset samler lys til lyktene og varmeovnene i tårnet», sier Mira. «Stjernene er der ennå. Det er lyset deres som ikke når fram til oss. Frøet ber om hjelp.» Hun tegner inn tårnet på kartet ditt og fester en liten frøpose til beltet ditt. «Følg skinnet. Jeg sender tepper og mat opp forsyningsstien og holder en lykt tent her, så vi kan sende signaler. Snu hvis stien kjennes utrygg.»",
           "image": "images/scenes/painted/scene-square.png",
           "choice": "square.1"
         },
@@ -3580,7 +3580,7 @@
         {
           "language": "nb",
           "scene": "gate",
-          "text": "Du løfter grenen mens vennen din støtter den med en kløftet kvist. Hoothoot sjekker redet, bruser med fjærene og synger de tre tonene igjen.\n\nFire stier går fra landsbyporten. Røtter danner en bue over veien til lunden. Til høyre stiger en åsrygg, og til venstre snor en bekk seg av sted. Mellom dem lyser frøet opp en smal sti under trærne. Du børster gjørme av skiltet og sammenligner det med kartet. Et sted inne i Moonwood knekker en kvist.\n\nBulbasaur tilbyr å skyve røttene varsomt til side i stedet for å rive dem løs.",
+          "text": "Du løfter grenen mens vennen din støtter den med en kløftet kvist. Hoothoot sjekker redet, bruser med fjærene og synger de tre tonene igjen.\n\nFire stier går fra landsbyporten. Røtter danner en bue over veien til lunden. Til høyre stiger en åsrygg, og til venstre snor en bekk seg av sted. Mellom dem lyser frøet opp en smal sti under trærne. Du børster gjørme av skiltet og sammenligner det med kartet. Et sted inne i Måneskogen knekker en kvist.\n\nBulbasaur tilbyr å skyve røttene varsomt til side i stedet for å rive dem løs.",
           "image": "images/scenes/painted/scene-gate.png",
           "choice": "gate.1"
         },
@@ -3643,7 +3643,7 @@
         {
           "language": "nb",
           "scene": "bridge",
-          "text": "«Lumi prøvde å hjelpe Shinx», sier du. «Men noe mer må ha skjedd i tårnet.»\n\nStien fra øya stiger i nesten en time før du når en hengebro. På den andre siden av juvet ligger observatoriet inntil den nedre muren på Starfall-tårnet. Tårnrommet lyser over det. Broplankene er hele, men vinden får dem til å svaie. En annen sti slynger seg mot utkikkspunktet til Altaria. Langt under broen går en smal avløpstunnel gjennom fjellet.\n\nDu tar Miras tykke reserveskjerf rundt halsen før du går ut i vinden.",
+          "text": "«Lumi prøvde å hjelpe Shinx», sier du. «Men noe mer må ha skjedd i tårnet.»\n\nStien fra øya stiger i nesten en time før du når en hengebro. På den andre siden av juvet ligger observatoriet inntil den nedre muren på Stjernefallstårnet. Tårnrommet lyser over det. Broplankene er hele, men vinden får dem til å svaie. En annen sti slynger seg mot utkikkspunktet til Altaria. Langt under broen går en smal avløpstunnel gjennom fjellet.\n\nDu tar Miras tykke reserveskjerf rundt halsen før du går ut i vinden.",
           "image": "images/scenes/painted/scene-bridge.png",
           "choice": "bridge.2"
         },
@@ -3905,7 +3905,7 @@
         {
           "language": "nb",
           "scene": "square",
-          "text": "«Det er tårnets nødklokke», sier Mira. «Ingen ringer med den for moro skyld.»\n\nUnder festteltet bretter Mira ut et kart. Moonwood, Lumen-elven, fjellstien – og et pent hull der Starfall-tårnet skulle vært. «Jeg klippet det bort etter at noen skadet seg der oppe», innrømmer hun. «Jeg trodde alle ville være trygge hvis de holdt seg unna.» En Eevee skjelver under stolen hennes. Du setter deg på huk i nærheten mens Mira legger et kart og et ekstra ullskjerf i sekken din.\n\n«Stjernelysglasset samler lys til lyktene og varmeovnene i tårnet», sier Mira. «Stjernene er der ennå. Det er lyset deres som ikke når fram til oss. Frøet ber om hjelp.» Hun tegner inn tårnet på kartet ditt og fester en liten frøpose til beltet ditt. «Følg skinnet. Jeg sender tepper og mat opp forsyningsstien og holder en lykt tent her, så vi kan sende signaler. Snu hvis stien kjennes utrygg.»",
+          "text": "«Det er tårnets nødklokke», sier Mira. «Ingen ringer med den for moro skyld.»\n\nUnder festteltet bretter Mira ut et kart. Måneskogen, Lumen-elven, fjellstien – og et pent hull der Stjernefallstårnet skulle vært. «Jeg klippet det bort etter at noen skadet seg der oppe», innrømmer hun. «Jeg trodde alle ville være trygge hvis de holdt seg unna.» En Eevee skjelver under stolen hennes. Du setter deg på huk i nærheten mens Mira legger et kart og et ekstra ullskjerf i sekken din.\n\n«Stjernelysglasset samler lys til lyktene og varmeovnene i tårnet», sier Mira. «Stjernene er der ennå. Det er lyset deres som ikke når fram til oss. Frøet ber om hjelp.» Hun tegner inn tårnet på kartet ditt og fester en liten frøpose til beltet ditt. «Følg skinnet. Jeg sender tepper og mat opp forsyningsstien og holder en lykt tent her, så vi kan sende signaler. Snu hvis stien kjennes utrygg.»",
           "image": "images/scenes/painted/scene-square.png",
           "choice": "square.1"
         },
@@ -3919,7 +3919,7 @@
         {
           "language": "nb",
           "scene": "gate",
-          "text": "Du løfter grenen mens vennen din støtter den med en kløftet kvist. Hoothoot sjekker redet, bruser med fjærene og synger de tre tonene igjen.\n\nFire stier går fra landsbyporten. Røtter danner en bue over veien til lunden. Til høyre stiger en åsrygg, og til venstre snor en bekk seg av sted. Mellom dem lyser frøet opp en smal sti under trærne. Du børster gjørme av skiltet og sammenligner det med kartet. Et sted inne i Moonwood knekker en kvist.\n\nCharmander ser etter tørre blader på stien før den lyser opp veien.",
+          "text": "Du løfter grenen mens vennen din støtter den med en kløftet kvist. Hoothoot sjekker redet, bruser med fjærene og synger de tre tonene igjen.\n\nFire stier går fra landsbyporten. Røtter danner en bue over veien til lunden. Til høyre stiger en åsrygg, og til venstre snor en bekk seg av sted. Mellom dem lyser frøet opp en smal sti under trærne. Du børster gjørme av skiltet og sammenligner det med kartet. Et sted inne i Måneskogen knekker en kvist.\n\nCharmander ser etter tørre blader på stien før den lyser opp veien.",
           "image": "images/scenes/painted/scene-gate.png",
           "choice": "gate.1"
         },
@@ -3982,7 +3982,7 @@
         {
           "language": "nb",
           "scene": "bridge",
-          "text": "«Lumi prøvde å hjelpe Shinx», sier du. «Men noe mer må ha skjedd i tårnet.»\n\nStien fra øya stiger i nesten en time før du når en hengebro. På den andre siden av juvet ligger observatoriet inntil den nedre muren på Starfall-tårnet. Tårnrommet lyser over det. Broplankene er hele, men vinden får dem til å svaie. En annen sti slynger seg mot utkikkspunktet til Altaria. Langt under broen går en smal avløpstunnel gjennom fjellet.\n\nDu tar Miras tykke reserveskjerf rundt halsen før du går ut i vinden.",
+          "text": "«Lumi prøvde å hjelpe Shinx», sier du. «Men noe mer må ha skjedd i tårnet.»\n\nStien fra øya stiger i nesten en time før du når en hengebro. På den andre siden av juvet ligger observatoriet inntil den nedre muren på Stjernefallstårnet. Tårnrommet lyser over det. Broplankene er hele, men vinden får dem til å svaie. En annen sti slynger seg mot utkikkspunktet til Altaria. Langt under broen går en smal avløpstunnel gjennom fjellet.\n\nDu tar Miras tykke reserveskjerf rundt halsen før du går ut i vinden.",
           "image": "images/scenes/painted/scene-bridge.png",
           "choice": "bridge.2"
         },
@@ -4250,7 +4250,7 @@
         {
           "language": "nb",
           "scene": "square",
-          "text": "«Det er tårnets nødklokke», sier Mira. «Ingen ringer med den for moro skyld.»\n\nUnder festteltet bretter Mira ut et kart. Moonwood, Lumen-elven, fjellstien – og et pent hull der Starfall-tårnet skulle vært. «Jeg klippet det bort etter at noen skadet seg der oppe», innrømmer hun. «Jeg trodde alle ville være trygge hvis de holdt seg unna.» En Eevee skjelver under stolen hennes. Du setter deg på huk i nærheten mens Mira legger et kart og et ekstra ullskjerf i sekken din.\n\n«Stjernelysglasset samler lys til lyktene og varmeovnene i tårnet», sier Mira. «Stjernene er der ennå. Det er lyset deres som ikke når fram til oss. Frøet ber om hjelp.» Hun tegner inn tårnet på kartet ditt og fester en liten frøpose til beltet ditt. «Følg skinnet. Jeg sender tepper og mat opp forsyningsstien og holder en lykt tent her, så vi kan sende signaler. Snu hvis stien kjennes utrygg.»",
+          "text": "«Det er tårnets nødklokke», sier Mira. «Ingen ringer med den for moro skyld.»\n\nUnder festteltet bretter Mira ut et kart. Måneskogen, Lumen-elven, fjellstien – og et pent hull der Stjernefallstårnet skulle vært. «Jeg klippet det bort etter at noen skadet seg der oppe», innrømmer hun. «Jeg trodde alle ville være trygge hvis de holdt seg unna.» En Eevee skjelver under stolen hennes. Du setter deg på huk i nærheten mens Mira legger et kart og et ekstra ullskjerf i sekken din.\n\n«Stjernelysglasset samler lys til lyktene og varmeovnene i tårnet», sier Mira. «Stjernene er der ennå. Det er lyset deres som ikke når fram til oss. Frøet ber om hjelp.» Hun tegner inn tårnet på kartet ditt og fester en liten frøpose til beltet ditt. «Følg skinnet. Jeg sender tepper og mat opp forsyningsstien og holder en lykt tent her, så vi kan sende signaler. Snu hvis stien kjennes utrygg.»",
           "image": "images/scenes/painted/scene-square.png",
           "choice": "square.1"
         },
@@ -4264,7 +4264,7 @@
         {
           "language": "nb",
           "scene": "gate",
-          "text": "Du løfter grenen mens vennen din støtter den med en kløftet kvist. Hoothoot sjekker redet, bruser med fjærene og synger de tre tonene igjen.\n\nFire stier går fra landsbyporten. Røtter danner en bue over veien til lunden. Til høyre stiger en åsrygg, og til venstre snor en bekk seg av sted. Mellom dem lyser frøet opp en smal sti under trærne. Du børster gjørme av skiltet og sammenligner det med kartet. Et sted inne i Moonwood knekker en kvist.\n\nBulbasaur tilbyr å skyve røttene varsomt til side i stedet for å rive dem løs.",
+          "text": "Du løfter grenen mens vennen din støtter den med en kløftet kvist. Hoothoot sjekker redet, bruser med fjærene og synger de tre tonene igjen.\n\nFire stier går fra landsbyporten. Røtter danner en bue over veien til lunden. Til høyre stiger en åsrygg, og til venstre snor en bekk seg av sted. Mellom dem lyser frøet opp en smal sti under trærne. Du børster gjørme av skiltet og sammenligner det med kartet. Et sted inne i Måneskogen knekker en kvist.\n\nBulbasaur tilbyr å skyve røttene varsomt til side i stedet for å rive dem løs.",
           "image": "images/scenes/painted/scene-gate.png",
           "choice": "gate.1"
         },
@@ -4327,7 +4327,7 @@
         {
           "language": "nb",
           "scene": "bridge",
-          "text": "«Lumi prøvde å hjelpe Shinx», sier du. «Men noe mer må ha skjedd i tårnet.»\n\nStien fra øya stiger i nesten en time før du når en hengebro. På den andre siden av juvet ligger observatoriet inntil den nedre muren på Starfall-tårnet. Tårnrommet lyser over det. Broplankene er hele, men vinden får dem til å svaie. En annen sti slynger seg mot utkikkspunktet til Altaria. Langt under broen går en smal avløpstunnel gjennom fjellet.\n\nDu tar Miras tykke reserveskjerf rundt halsen før du går ut i vinden.",
+          "text": "«Lumi prøvde å hjelpe Shinx», sier du. «Men noe mer må ha skjedd i tårnet.»\n\nStien fra øya stiger i nesten en time før du når en hengebro. På den andre siden av juvet ligger observatoriet inntil den nedre muren på Stjernefallstårnet. Tårnrommet lyser over det. Broplankene er hele, men vinden får dem til å svaie. En annen sti slynger seg mot utkikkspunktet til Altaria. Langt under broen går en smal avløpstunnel gjennom fjellet.\n\nDu tar Miras tykke reserveskjerf rundt halsen før du går ut i vinden.",
           "image": "images/scenes/painted/scene-bridge.png",
           "choice": "bridge.1"
         },
@@ -4588,7 +4588,7 @@
         {
           "language": "nb",
           "scene": "square",
-          "text": "«Det er tårnets nødklokke», sier Mira. «Ingen ringer med den for moro skyld.»\n\nUnder festteltet bretter Mira ut et kart. Moonwood, Lumen-elven, fjellstien – og et pent hull der Starfall-tårnet skulle vært. «Jeg klippet det bort etter at noen skadet seg der oppe», innrømmer hun. «Jeg trodde alle ville være trygge hvis de holdt seg unna.» En Eevee skjelver under stolen hennes. Du setter deg på huk i nærheten mens Mira legger et kart og et ekstra ullskjerf i sekken din.\n\n«Stjernelysglasset samler lys til lyktene og varmeovnene i tårnet», sier Mira. «Stjernene er der ennå. Det er lyset deres som ikke når fram til oss. Frøet ber om hjelp.» Hun tegner inn tårnet på kartet ditt og fester en liten frøpose til beltet ditt. «Følg skinnet. Jeg sender tepper og mat opp forsyningsstien og holder en lykt tent her, så vi kan sende signaler. Snu hvis stien kjennes utrygg.»",
+          "text": "«Det er tårnets nødklokke», sier Mira. «Ingen ringer med den for moro skyld.»\n\nUnder festteltet bretter Mira ut et kart. Måneskogen, Lumen-elven, fjellstien – og et pent hull der Stjernefallstårnet skulle vært. «Jeg klippet det bort etter at noen skadet seg der oppe», innrømmer hun. «Jeg trodde alle ville være trygge hvis de holdt seg unna.» En Eevee skjelver under stolen hennes. Du setter deg på huk i nærheten mens Mira legger et kart og et ekstra ullskjerf i sekken din.\n\n«Stjernelysglasset samler lys til lyktene og varmeovnene i tårnet», sier Mira. «Stjernene er der ennå. Det er lyset deres som ikke når fram til oss. Frøet ber om hjelp.» Hun tegner inn tårnet på kartet ditt og fester en liten frøpose til beltet ditt. «Følg skinnet. Jeg sender tepper og mat opp forsyningsstien og holder en lykt tent her, så vi kan sende signaler. Snu hvis stien kjennes utrygg.»",
           "image": "images/scenes/painted/scene-square.png",
           "choice": "square.1"
         },
@@ -4602,7 +4602,7 @@
         {
           "language": "nb",
           "scene": "gate",
-          "text": "Du løfter grenen mens vennen din støtter den med en kløftet kvist. Hoothoot sjekker redet, bruser med fjærene og synger de tre tonene igjen.\n\nFire stier går fra landsbyporten. Røtter danner en bue over veien til lunden. Til høyre stiger en åsrygg, og til venstre snor en bekk seg av sted. Mellom dem lyser frøet opp en smal sti under trærne. Du børster gjørme av skiltet og sammenligner det med kartet. Et sted inne i Moonwood knekker en kvist.\n\nCharmander ser etter tørre blader på stien før den lyser opp veien.",
+          "text": "Du løfter grenen mens vennen din støtter den med en kløftet kvist. Hoothoot sjekker redet, bruser med fjærene og synger de tre tonene igjen.\n\nFire stier går fra landsbyporten. Røtter danner en bue over veien til lunden. Til høyre stiger en åsrygg, og til venstre snor en bekk seg av sted. Mellom dem lyser frøet opp en smal sti under trærne. Du børster gjørme av skiltet og sammenligner det med kartet. Et sted inne i Måneskogen knekker en kvist.\n\nCharmander ser etter tørre blader på stien før den lyser opp veien.",
           "image": "images/scenes/painted/scene-gate.png",
           "choice": "gate.1"
         },
@@ -4665,7 +4665,7 @@
         {
           "language": "nb",
           "scene": "bridge",
-          "text": "«Lumi prøvde å hjelpe Shinx», sier du. «Men noe mer må ha skjedd i tårnet.»\n\nStien fra øya stiger i nesten en time før du når en hengebro. På den andre siden av juvet ligger observatoriet inntil den nedre muren på Starfall-tårnet. Tårnrommet lyser over det. Broplankene er hele, men vinden får dem til å svaie. En annen sti slynger seg mot utkikkspunktet til Altaria. Langt under broen går en smal avløpstunnel gjennom fjellet.\n\nDu tar Miras tykke reserveskjerf rundt halsen før du går ut i vinden.",
+          "text": "«Lumi prøvde å hjelpe Shinx», sier du. «Men noe mer må ha skjedd i tårnet.»\n\nStien fra øya stiger i nesten en time før du når en hengebro. På den andre siden av juvet ligger observatoriet inntil den nedre muren på Stjernefallstårnet. Tårnrommet lyser over det. Broplankene er hele, men vinden får dem til å svaie. En annen sti slynger seg mot utkikkspunktet til Altaria. Langt under broen går en smal avløpstunnel gjennom fjellet.\n\nDu tar Miras tykke reserveskjerf rundt halsen før du går ut i vinden.",
           "image": "images/scenes/painted/scene-bridge.png",
           "choice": "bridge.1"
         },
@@ -4926,7 +4926,7 @@
         {
           "language": "nb",
           "scene": "square",
-          "text": "«Det er tårnets nødklokke», sier Mira. «Ingen ringer med den for moro skyld.»\n\nUnder festteltet bretter Mira ut et kart. Moonwood, Lumen-elven, fjellstien – og et pent hull der Starfall-tårnet skulle vært. «Jeg klippet det bort etter at noen skadet seg der oppe», innrømmer hun. «Jeg trodde alle ville være trygge hvis de holdt seg unna.» En Eevee skjelver under stolen hennes. Du setter deg på huk i nærheten mens Mira legger et kart og et ekstra ullskjerf i sekken din.\n\n«Stjernelysglasset samler lys til lyktene og varmeovnene i tårnet», sier Mira. «Stjernene er der ennå. Det er lyset deres som ikke når fram til oss. Frøet ber om hjelp.» Hun tegner inn tårnet på kartet ditt og fester en liten frøpose til beltet ditt. «Følg skinnet. Jeg sender tepper og mat opp forsyningsstien og holder en lykt tent her, så vi kan sende signaler. Snu hvis stien kjennes utrygg.»",
+          "text": "«Det er tårnets nødklokke», sier Mira. «Ingen ringer med den for moro skyld.»\n\nUnder festteltet bretter Mira ut et kart. Måneskogen, Lumen-elven, fjellstien – og et pent hull der Stjernefallstårnet skulle vært. «Jeg klippet det bort etter at noen skadet seg der oppe», innrømmer hun. «Jeg trodde alle ville være trygge hvis de holdt seg unna.» En Eevee skjelver under stolen hennes. Du setter deg på huk i nærheten mens Mira legger et kart og et ekstra ullskjerf i sekken din.\n\n«Stjernelysglasset samler lys til lyktene og varmeovnene i tårnet», sier Mira. «Stjernene er der ennå. Det er lyset deres som ikke når fram til oss. Frøet ber om hjelp.» Hun tegner inn tårnet på kartet ditt og fester en liten frøpose til beltet ditt. «Følg skinnet. Jeg sender tepper og mat opp forsyningsstien og holder en lykt tent her, så vi kan sende signaler. Snu hvis stien kjennes utrygg.»",
           "image": "images/scenes/painted/scene-square.png",
           "choice": "square.1"
         },
@@ -4940,7 +4940,7 @@
         {
           "language": "nb",
           "scene": "gate",
-          "text": "Du løfter grenen mens vennen din støtter den med en kløftet kvist. Hoothoot sjekker redet, bruser med fjærene og synger de tre tonene igjen.\n\nFire stier går fra landsbyporten. Røtter danner en bue over veien til lunden. Til høyre stiger en åsrygg, og til venstre snor en bekk seg av sted. Mellom dem lyser frøet opp en smal sti under trærne. Du børster gjørme av skiltet og sammenligner det med kartet. Et sted inne i Moonwood knekker en kvist.\n\nSquirtle peker ut hvor bekken er grunn nok til å krysse.",
+          "text": "Du løfter grenen mens vennen din støtter den med en kløftet kvist. Hoothoot sjekker redet, bruser med fjærene og synger de tre tonene igjen.\n\nFire stier går fra landsbyporten. Røtter danner en bue over veien til lunden. Til høyre stiger en åsrygg, og til venstre snor en bekk seg av sted. Mellom dem lyser frøet opp en smal sti under trærne. Du børster gjørme av skiltet og sammenligner det med kartet. Et sted inne i Måneskogen knekker en kvist.\n\nSquirtle peker ut hvor bekken er grunn nok til å krysse.",
           "image": "images/scenes/painted/scene-gate.png",
           "choice": "gate.1"
         },
@@ -5003,7 +5003,7 @@
         {
           "language": "nb",
           "scene": "bridge",
-          "text": "«Lumi prøvde å hjelpe Shinx», sier du. «Men noe mer må ha skjedd i tårnet.»\n\nStien fra øya stiger i nesten en time før du når en hengebro. På den andre siden av juvet ligger observatoriet inntil den nedre muren på Starfall-tårnet. Tårnrommet lyser over det. Broplankene er hele, men vinden får dem til å svaie. En annen sti slynger seg mot utkikkspunktet til Altaria. Langt under broen går en smal avløpstunnel gjennom fjellet.\n\nDu tar Miras tykke reserveskjerf rundt halsen før du går ut i vinden.",
+          "text": "«Lumi prøvde å hjelpe Shinx», sier du. «Men noe mer må ha skjedd i tårnet.»\n\nStien fra øya stiger i nesten en time før du når en hengebro. På den andre siden av juvet ligger observatoriet inntil den nedre muren på Stjernefallstårnet. Tårnrommet lyser over det. Broplankene er hele, men vinden får dem til å svaie. En annen sti slynger seg mot utkikkspunktet til Altaria. Langt under broen går en smal avløpstunnel gjennom fjellet.\n\nDu tar Miras tykke reserveskjerf rundt halsen før du går ut i vinden.",
           "image": "images/scenes/painted/scene-bridge.png",
           "choice": "bridge.1"
         },
@@ -5264,7 +5264,7 @@
         {
           "language": "nb",
           "scene": "square",
-          "text": "«Det er tårnets nødklokke», sier Mira. «Ingen ringer med den for moro skyld.»\n\nUnder festteltet bretter Mira ut et kart. Moonwood, Lumen-elven, fjellstien – og et pent hull der Starfall-tårnet skulle vært. «Jeg klippet det bort etter at noen skadet seg der oppe», innrømmer hun. «Jeg trodde alle ville være trygge hvis de holdt seg unna.» En Eevee skjelver under stolen hennes. Du setter deg på huk i nærheten mens Mira legger et kart og et ekstra ullskjerf i sekken din.\n\n«Stjernelysglasset samler lys til lyktene og varmeovnene i tårnet», sier Mira. «Stjernene er der ennå. Det er lyset deres som ikke når fram til oss. Frøet ber om hjelp.» Hun tegner inn tårnet på kartet ditt og fester en liten frøpose til beltet ditt. «Følg skinnet. Jeg sender tepper og mat opp forsyningsstien og holder en lykt tent her, så vi kan sende signaler. Snu hvis stien kjennes utrygg.»",
+          "text": "«Det er tårnets nødklokke», sier Mira. «Ingen ringer med den for moro skyld.»\n\nUnder festteltet bretter Mira ut et kart. Måneskogen, Lumen-elven, fjellstien – og et pent hull der Stjernefallstårnet skulle vært. «Jeg klippet det bort etter at noen skadet seg der oppe», innrømmer hun. «Jeg trodde alle ville være trygge hvis de holdt seg unna.» En Eevee skjelver under stolen hennes. Du setter deg på huk i nærheten mens Mira legger et kart og et ekstra ullskjerf i sekken din.\n\n«Stjernelysglasset samler lys til lyktene og varmeovnene i tårnet», sier Mira. «Stjernene er der ennå. Det er lyset deres som ikke når fram til oss. Frøet ber om hjelp.» Hun tegner inn tårnet på kartet ditt og fester en liten frøpose til beltet ditt. «Følg skinnet. Jeg sender tepper og mat opp forsyningsstien og holder en lykt tent her, så vi kan sende signaler. Snu hvis stien kjennes utrygg.»",
           "image": "images/scenes/painted/scene-square.png",
           "choice": "square.1"
         },
@@ -5278,7 +5278,7 @@
         {
           "language": "nb",
           "scene": "gate",
-          "text": "Du løfter grenen mens vennen din støtter den med en kløftet kvist. Hoothoot sjekker redet, bruser med fjærene og synger de tre tonene igjen.\n\nFire stier går fra landsbyporten. Røtter danner en bue over veien til lunden. Til høyre stiger en åsrygg, og til venstre snor en bekk seg av sted. Mellom dem lyser frøet opp en smal sti under trærne. Du børster gjørme av skiltet og sammenligner det med kartet. Et sted inne i Moonwood knekker en kvist.\n\nBulbasaur tilbyr å skyve røttene varsomt til side i stedet for å rive dem løs.",
+          "text": "Du løfter grenen mens vennen din støtter den med en kløftet kvist. Hoothoot sjekker redet, bruser med fjærene og synger de tre tonene igjen.\n\nFire stier går fra landsbyporten. Røtter danner en bue over veien til lunden. Til høyre stiger en åsrygg, og til venstre snor en bekk seg av sted. Mellom dem lyser frøet opp en smal sti under trærne. Du børster gjørme av skiltet og sammenligner det med kartet. Et sted inne i Måneskogen knekker en kvist.\n\nBulbasaur tilbyr å skyve røttene varsomt til side i stedet for å rive dem løs.",
           "image": "images/scenes/painted/scene-gate.png",
           "choice": "gate.1"
         },
@@ -5341,7 +5341,7 @@
         {
           "language": "nb",
           "scene": "bridge",
-          "text": "«Lumi prøvde å hjelpe Shinx», sier du. «Men noe mer må ha skjedd i tårnet.»\n\nStien fra øya stiger i nesten en time før du når en hengebro. På den andre siden av juvet ligger observatoriet inntil den nedre muren på Starfall-tårnet. Tårnrommet lyser over det. Broplankene er hele, men vinden får dem til å svaie. En annen sti slynger seg mot utkikkspunktet til Altaria. Langt under broen går en smal avløpstunnel gjennom fjellet.\n\nDu tar Miras tykke reserveskjerf rundt halsen før du går ut i vinden.",
+          "text": "«Lumi prøvde å hjelpe Shinx», sier du. «Men noe mer må ha skjedd i tårnet.»\n\nStien fra øya stiger i nesten en time før du når en hengebro. På den andre siden av juvet ligger observatoriet inntil den nedre muren på Stjernefallstårnet. Tårnrommet lyser over det. Broplankene er hele, men vinden får dem til å svaie. En annen sti slynger seg mot utkikkspunktet til Altaria. Langt under broen går en smal avløpstunnel gjennom fjellet.\n\nDu tar Miras tykke reserveskjerf rundt halsen før du går ut i vinden.",
           "image": "images/scenes/painted/scene-bridge.png",
           "choice": "bridge.1"
         },
@@ -5404,7 +5404,7 @@
         {
           "language": "nb",
           "scene": "endGarden",
-          "text": "Du legger potten i en polstret kurv ved Shinx. Mira svarer på signalet: Hun hjelper dere med å plante den i landsbyen i morgen.\n\nSølvbladet lyser jevnt ved Shinx. Lumi sjekker varmen en siste gang og åpner låsen. Stjernelyset når dalen igjen. Dere bærer Shinx og den polstrede potten ned sammen. En hjelper støtter bærekurven, og Lumi lyser opp stien.\n\nNeste morgen planter du og Mira den lille sølvplanten i felleshagen i Willowbrook. Naboene bærer vann i små bøtter. Røttene blir i den myke hagejorden. Shinx hviler ved de varme bladene når han besøker hagen fra rommet sitt hos Mira.\n\nBulbasaur løsner jorden rundt røttene og klapper fornøyd på arbeidet sitt.\n\nLumi fører hagedagbok. Shinx tegner små, skjeve figurer i margen. I skumringen setter du deg ved de varme bladene og ser opp. Det lille treet har sitt eget lys. Himmelen har alle stjernene sine.",
+          "text": "Du legger potten i en polstret kurv ved Shinx. Mira svarer på signalet: Hun hjelper dere med å plante den i landsbyen i morgen.\n\nSølvbladet lyser jevnt ved Shinx. Lumi sjekker varmen en siste gang og åpner låsen. Stjernelyset når dalen igjen. Dere bærer Shinx og den polstrede potten ned sammen. En hjelper støtter bærekurven, og Lumi lyser opp stien.\n\nNeste morgen planter du og Mira den lille sølvplanten i felleshagen i Pilebekk. Naboene bærer vann i små bøtter. Røttene blir i den myke hagejorden. Shinx hviler ved de varme bladene når han besøker hagen fra rommet sitt hos Mira.\n\nBulbasaur løsner jorden rundt røttene og klapper fornøyd på arbeidet sitt.\n\nLumi fører hagedagbok. Shinx tegner små, skjeve figurer i margen. I skumringen setter du deg ved de varme bladene og ser opp. Det lille treet har sitt eget lys. Himmelen har alle stjernene sine.",
           "image": "images/scenes/painted/scene-endGarden.png",
           "choice": null
         }
@@ -5618,7 +5618,7 @@
         {
           "language": "nb",
           "scene": "square",
-          "text": "«Det er tårnets nødklokke», sier Mira. «Ingen ringer med den for moro skyld.»\n\nUnder festteltet bretter Mira ut et kart. Moonwood, Lumen-elven, fjellstien – og et pent hull der Starfall-tårnet skulle vært. «Jeg klippet det bort etter at noen skadet seg der oppe», innrømmer hun. «Jeg trodde alle ville være trygge hvis de holdt seg unna.» En Eevee skjelver under stolen hennes. Du setter deg på huk i nærheten mens Mira legger et kart og et ekstra ullskjerf i sekken din.\n\n«Stjernelysglasset samler lys til lyktene og varmeovnene i tårnet», sier Mira. «Stjernene er der ennå. Det er lyset deres som ikke når fram til oss. Frøet ber om hjelp.» Hun tegner inn tårnet på kartet ditt og fester en liten frøpose til beltet ditt. «Følg skinnet. Jeg sender tepper og mat opp forsyningsstien og holder en lykt tent her, så vi kan sende signaler. Snu hvis stien kjennes utrygg.»",
+          "text": "«Det er tårnets nødklokke», sier Mira. «Ingen ringer med den for moro skyld.»\n\nUnder festteltet bretter Mira ut et kart. Måneskogen, Lumen-elven, fjellstien – og et pent hull der Stjernefallstårnet skulle vært. «Jeg klippet det bort etter at noen skadet seg der oppe», innrømmer hun. «Jeg trodde alle ville være trygge hvis de holdt seg unna.» En Eevee skjelver under stolen hennes. Du setter deg på huk i nærheten mens Mira legger et kart og et ekstra ullskjerf i sekken din.\n\n«Stjernelysglasset samler lys til lyktene og varmeovnene i tårnet», sier Mira. «Stjernene er der ennå. Det er lyset deres som ikke når fram til oss. Frøet ber om hjelp.» Hun tegner inn tårnet på kartet ditt og fester en liten frøpose til beltet ditt. «Følg skinnet. Jeg sender tepper og mat opp forsyningsstien og holder en lykt tent her, så vi kan sende signaler. Snu hvis stien kjennes utrygg.»",
           "image": "images/scenes/painted/scene-square.png",
           "choice": "square.1"
         },
@@ -5632,7 +5632,7 @@
         {
           "language": "nb",
           "scene": "gate",
-          "text": "Du løfter grenen mens vennen din støtter den med en kløftet kvist. Hoothoot sjekker redet, bruser med fjærene og synger de tre tonene igjen.\n\nFire stier går fra landsbyporten. Røtter danner en bue over veien til lunden. Til høyre stiger en åsrygg, og til venstre snor en bekk seg av sted. Mellom dem lyser frøet opp en smal sti under trærne. Du børster gjørme av skiltet og sammenligner det med kartet. Et sted inne i Moonwood knekker en kvist.\n\nSquirtle peker ut hvor bekken er grunn nok til å krysse.",
+          "text": "Du løfter grenen mens vennen din støtter den med en kløftet kvist. Hoothoot sjekker redet, bruser med fjærene og synger de tre tonene igjen.\n\nFire stier går fra landsbyporten. Røtter danner en bue over veien til lunden. Til høyre stiger en åsrygg, og til venstre snor en bekk seg av sted. Mellom dem lyser frøet opp en smal sti under trærne. Du børster gjørme av skiltet og sammenligner det med kartet. Et sted inne i Måneskogen knekker en kvist.\n\nSquirtle peker ut hvor bekken er grunn nok til å krysse.",
           "image": "images/scenes/painted/scene-gate.png",
           "choice": "gate.1"
         },
@@ -5709,7 +5709,7 @@
         {
           "language": "nb",
           "scene": "bridge",
-          "text": "«Lumi prøvde å hjelpe Shinx», sier du. «Men noe mer må ha skjedd i tårnet.»\n\nStien fra øya stiger i nesten en time før du når en hengebro. På den andre siden av juvet ligger observatoriet inntil den nedre muren på Starfall-tårnet. Tårnrommet lyser over det. Broplankene er hele, men vinden får dem til å svaie. En annen sti slynger seg mot utkikkspunktet til Altaria. Langt under broen går en smal avløpstunnel gjennom fjellet.\n\nDu tar Miras tykke reserveskjerf rundt halsen før du går ut i vinden.",
+          "text": "«Lumi prøvde å hjelpe Shinx», sier du. «Men noe mer må ha skjedd i tårnet.»\n\nStien fra øya stiger i nesten en time før du når en hengebro. På den andre siden av juvet ligger observatoriet inntil den nedre muren på Stjernefallstårnet. Tårnrommet lyser over det. Broplankene er hele, men vinden får dem til å svaie. En annen sti slynger seg mot utkikkspunktet til Altaria. Langt under broen går en smal avløpstunnel gjennom fjellet.\n\nDu tar Miras tykke reserveskjerf rundt halsen før du går ut i vinden.",
           "image": "images/scenes/painted/scene-bridge.png",
           "choice": "bridge.1"
         },
@@ -5970,7 +5970,7 @@
         {
           "language": "nb",
           "scene": "square",
-          "text": "«Det er tårnets nødklokke», sier Mira. «Ingen ringer med den for moro skyld.»\n\nUnder festteltet bretter Mira ut et kart. Moonwood, Lumen-elven, fjellstien – og et pent hull der Starfall-tårnet skulle vært. «Jeg klippet det bort etter at noen skadet seg der oppe», innrømmer hun. «Jeg trodde alle ville være trygge hvis de holdt seg unna.» En Eevee skjelver under stolen hennes. Du setter deg på huk i nærheten mens Mira legger et kart og et ekstra ullskjerf i sekken din.\n\n«Stjernelysglasset samler lys til lyktene og varmeovnene i tårnet», sier Mira. «Stjernene er der ennå. Det er lyset deres som ikke når fram til oss. Frøet ber om hjelp.» Hun tegner inn tårnet på kartet ditt og fester en liten frøpose til beltet ditt. «Følg skinnet. Jeg sender tepper og mat opp forsyningsstien og holder en lykt tent her, så vi kan sende signaler. Snu hvis stien kjennes utrygg.»",
+          "text": "«Det er tårnets nødklokke», sier Mira. «Ingen ringer med den for moro skyld.»\n\nUnder festteltet bretter Mira ut et kart. Måneskogen, Lumen-elven, fjellstien – og et pent hull der Stjernefallstårnet skulle vært. «Jeg klippet det bort etter at noen skadet seg der oppe», innrømmer hun. «Jeg trodde alle ville være trygge hvis de holdt seg unna.» En Eevee skjelver under stolen hennes. Du setter deg på huk i nærheten mens Mira legger et kart og et ekstra ullskjerf i sekken din.\n\n«Stjernelysglasset samler lys til lyktene og varmeovnene i tårnet», sier Mira. «Stjernene er der ennå. Det er lyset deres som ikke når fram til oss. Frøet ber om hjelp.» Hun tegner inn tårnet på kartet ditt og fester en liten frøpose til beltet ditt. «Følg skinnet. Jeg sender tepper og mat opp forsyningsstien og holder en lykt tent her, så vi kan sende signaler. Snu hvis stien kjennes utrygg.»",
           "image": "images/scenes/painted/scene-square.png",
           "choice": "square.1"
         },
@@ -5984,7 +5984,7 @@
         {
           "language": "nb",
           "scene": "gate",
-          "text": "Du løfter grenen mens vennen din støtter den med en kløftet kvist. Hoothoot sjekker redet, bruser med fjærene og synger de tre tonene igjen.\n\nFire stier går fra landsbyporten. Røtter danner en bue over veien til lunden. Til høyre stiger en åsrygg, og til venstre snor en bekk seg av sted. Mellom dem lyser frøet opp en smal sti under trærne. Du børster gjørme av skiltet og sammenligner det med kartet. Et sted inne i Moonwood knekker en kvist.\n\nBulbasaur tilbyr å skyve røttene varsomt til side i stedet for å rive dem løs.",
+          "text": "Du løfter grenen mens vennen din støtter den med en kløftet kvist. Hoothoot sjekker redet, bruser med fjærene og synger de tre tonene igjen.\n\nFire stier går fra landsbyporten. Røtter danner en bue over veien til lunden. Til høyre stiger en åsrygg, og til venstre snor en bekk seg av sted. Mellom dem lyser frøet opp en smal sti under trærne. Du børster gjørme av skiltet og sammenligner det med kartet. Et sted inne i Måneskogen knekker en kvist.\n\nBulbasaur tilbyr å skyve røttene varsomt til side i stedet for å rive dem løs.",
           "image": "images/scenes/painted/scene-gate.png",
           "choice": "gate.1"
         },
@@ -6047,7 +6047,7 @@
         {
           "language": "nb",
           "scene": "bridge",
-          "text": "«Lumi prøvde å hjelpe Shinx», sier du. «Men noe mer må ha skjedd i tårnet.»\n\nStien fra øya stiger i nesten en time før du når en hengebro. På den andre siden av juvet ligger observatoriet inntil den nedre muren på Starfall-tårnet. Tårnrommet lyser over det. Broplankene er hele, men vinden får dem til å svaie. En annen sti slynger seg mot utkikkspunktet til Altaria. Langt under broen går en smal avløpstunnel gjennom fjellet.\n\nDu tar Miras tykke reserveskjerf rundt halsen før du går ut i vinden.",
+          "text": "«Lumi prøvde å hjelpe Shinx», sier du. «Men noe mer må ha skjedd i tårnet.»\n\nStien fra øya stiger i nesten en time før du når en hengebro. På den andre siden av juvet ligger observatoriet inntil den nedre muren på Stjernefallstårnet. Tårnrommet lyser over det. Broplankene er hele, men vinden får dem til å svaie. En annen sti slynger seg mot utkikkspunktet til Altaria. Langt under broen går en smal avløpstunnel gjennom fjellet.\n\nDu tar Miras tykke reserveskjerf rundt halsen før du går ut i vinden.",
           "image": "images/scenes/painted/scene-bridge.png",
           "choice": "bridge.1"
         },
@@ -6308,7 +6308,7 @@
         {
           "language": "nb",
           "scene": "square",
-          "text": "«Det er tårnets nødklokke», sier Mira. «Ingen ringer med den for moro skyld.»\n\nUnder festteltet bretter Mira ut et kart. Moonwood, Lumen-elven, fjellstien – og et pent hull der Starfall-tårnet skulle vært. «Jeg klippet det bort etter at noen skadet seg der oppe», innrømmer hun. «Jeg trodde alle ville være trygge hvis de holdt seg unna.» En Eevee skjelver under stolen hennes. Du setter deg på huk i nærheten mens Mira legger et kart og et ekstra ullskjerf i sekken din.\n\n«Stjernelysglasset samler lys til lyktene og varmeovnene i tårnet», sier Mira. «Stjernene er der ennå. Det er lyset deres som ikke når fram til oss. Frøet ber om hjelp.» Hun tegner inn tårnet på kartet ditt og fester en liten frøpose til beltet ditt. «Følg skinnet. Jeg sender tepper og mat opp forsyningsstien og holder en lykt tent her, så vi kan sende signaler. Snu hvis stien kjennes utrygg.»",
+          "text": "«Det er tårnets nødklokke», sier Mira. «Ingen ringer med den for moro skyld.»\n\nUnder festteltet bretter Mira ut et kart. Måneskogen, Lumen-elven, fjellstien – og et pent hull der Stjernefallstårnet skulle vært. «Jeg klippet det bort etter at noen skadet seg der oppe», innrømmer hun. «Jeg trodde alle ville være trygge hvis de holdt seg unna.» En Eevee skjelver under stolen hennes. Du setter deg på huk i nærheten mens Mira legger et kart og et ekstra ullskjerf i sekken din.\n\n«Stjernelysglasset samler lys til lyktene og varmeovnene i tårnet», sier Mira. «Stjernene er der ennå. Det er lyset deres som ikke når fram til oss. Frøet ber om hjelp.» Hun tegner inn tårnet på kartet ditt og fester en liten frøpose til beltet ditt. «Følg skinnet. Jeg sender tepper og mat opp forsyningsstien og holder en lykt tent her, så vi kan sende signaler. Snu hvis stien kjennes utrygg.»",
           "image": "images/scenes/painted/scene-square.png",
           "choice": "square.1"
         },
@@ -6322,7 +6322,7 @@
         {
           "language": "nb",
           "scene": "gate",
-          "text": "Du løfter grenen mens vennen din støtter den med en kløftet kvist. Hoothoot sjekker redet, bruser med fjærene og synger de tre tonene igjen.\n\nFire stier går fra landsbyporten. Røtter danner en bue over veien til lunden. Til høyre stiger en åsrygg, og til venstre snor en bekk seg av sted. Mellom dem lyser frøet opp en smal sti under trærne. Du børster gjørme av skiltet og sammenligner det med kartet. Et sted inne i Moonwood knekker en kvist.\n\nCharmander ser etter tørre blader på stien før den lyser opp veien.",
+          "text": "Du løfter grenen mens vennen din støtter den med en kløftet kvist. Hoothoot sjekker redet, bruser med fjærene og synger de tre tonene igjen.\n\nFire stier går fra landsbyporten. Røtter danner en bue over veien til lunden. Til høyre stiger en åsrygg, og til venstre snor en bekk seg av sted. Mellom dem lyser frøet opp en smal sti under trærne. Du børster gjørme av skiltet og sammenligner det med kartet. Et sted inne i Måneskogen knekker en kvist.\n\nCharmander ser etter tørre blader på stien før den lyser opp veien.",
           "image": "images/scenes/painted/scene-gate.png",
           "choice": "gate.1"
         },
@@ -6385,7 +6385,7 @@
         {
           "language": "nb",
           "scene": "bridge",
-          "text": "«Lumi prøvde å hjelpe Shinx», sier du. «Men noe mer må ha skjedd i tårnet.»\n\nStien fra øya stiger i nesten en time før du når en hengebro. På den andre siden av juvet ligger observatoriet inntil den nedre muren på Starfall-tårnet. Tårnrommet lyser over det. Broplankene er hele, men vinden får dem til å svaie. En annen sti slynger seg mot utkikkspunktet til Altaria. Langt under broen går en smal avløpstunnel gjennom fjellet.\n\nDu tar Miras tykke reserveskjerf rundt halsen før du går ut i vinden.",
+          "text": "«Lumi prøvde å hjelpe Shinx», sier du. «Men noe mer må ha skjedd i tårnet.»\n\nStien fra øya stiger i nesten en time før du når en hengebro. På den andre siden av juvet ligger observatoriet inntil den nedre muren på Stjernefallstårnet. Tårnrommet lyser over det. Broplankene er hele, men vinden får dem til å svaie. En annen sti slynger seg mot utkikkspunktet til Altaria. Langt under broen går en smal avløpstunnel gjennom fjellet.\n\nDu tar Miras tykke reserveskjerf rundt halsen før du går ut i vinden.",
           "image": "images/scenes/painted/scene-bridge.png",
           "choice": "bridge.1"
         },
@@ -6646,7 +6646,7 @@
         {
           "language": "nb",
           "scene": "square",
-          "text": "«Det er tårnets nødklokke», sier Mira. «Ingen ringer med den for moro skyld.»\n\nUnder festteltet bretter Mira ut et kart. Moonwood, Lumen-elven, fjellstien – og et pent hull der Starfall-tårnet skulle vært. «Jeg klippet det bort etter at noen skadet seg der oppe», innrømmer hun. «Jeg trodde alle ville være trygge hvis de holdt seg unna.» En Eevee skjelver under stolen hennes. Du setter deg på huk i nærheten mens Mira legger et kart og et ekstra ullskjerf i sekken din.\n\n«Stjernelysglasset samler lys til lyktene og varmeovnene i tårnet», sier Mira. «Stjernene er der ennå. Det er lyset deres som ikke når fram til oss. Frøet ber om hjelp.» Hun tegner inn tårnet på kartet ditt og fester en liten frøpose til beltet ditt. «Følg skinnet. Jeg sender tepper og mat opp forsyningsstien og holder en lykt tent her, så vi kan sende signaler. Snu hvis stien kjennes utrygg.»",
+          "text": "«Det er tårnets nødklokke», sier Mira. «Ingen ringer med den for moro skyld.»\n\nUnder festteltet bretter Mira ut et kart. Måneskogen, Lumen-elven, fjellstien – og et pent hull der Stjernefallstårnet skulle vært. «Jeg klippet det bort etter at noen skadet seg der oppe», innrømmer hun. «Jeg trodde alle ville være trygge hvis de holdt seg unna.» En Eevee skjelver under stolen hennes. Du setter deg på huk i nærheten mens Mira legger et kart og et ekstra ullskjerf i sekken din.\n\n«Stjernelysglasset samler lys til lyktene og varmeovnene i tårnet», sier Mira. «Stjernene er der ennå. Det er lyset deres som ikke når fram til oss. Frøet ber om hjelp.» Hun tegner inn tårnet på kartet ditt og fester en liten frøpose til beltet ditt. «Følg skinnet. Jeg sender tepper og mat opp forsyningsstien og holder en lykt tent her, så vi kan sende signaler. Snu hvis stien kjennes utrygg.»",
           "image": "images/scenes/painted/scene-square.png",
           "choice": "square.1"
         },
@@ -6660,7 +6660,7 @@
         {
           "language": "nb",
           "scene": "gate",
-          "text": "Du løfter grenen mens vennen din støtter den med en kløftet kvist. Hoothoot sjekker redet, bruser med fjærene og synger de tre tonene igjen.\n\nFire stier går fra landsbyporten. Røtter danner en bue over veien til lunden. Til høyre stiger en åsrygg, og til venstre snor en bekk seg av sted. Mellom dem lyser frøet opp en smal sti under trærne. Du børster gjørme av skiltet og sammenligner det med kartet. Et sted inne i Moonwood knekker en kvist.\n\nSquirtle peker ut hvor bekken er grunn nok til å krysse.",
+          "text": "Du løfter grenen mens vennen din støtter den med en kløftet kvist. Hoothoot sjekker redet, bruser med fjærene og synger de tre tonene igjen.\n\nFire stier går fra landsbyporten. Røtter danner en bue over veien til lunden. Til høyre stiger en åsrygg, og til venstre snor en bekk seg av sted. Mellom dem lyser frøet opp en smal sti under trærne. Du børster gjørme av skiltet og sammenligner det med kartet. Et sted inne i Måneskogen knekker en kvist.\n\nSquirtle peker ut hvor bekken er grunn nok til å krysse.",
           "image": "images/scenes/painted/scene-gate.png",
           "choice": "gate.1"
         },
@@ -6723,7 +6723,7 @@
         {
           "language": "nb",
           "scene": "bridge",
-          "text": "«Lumi prøvde å hjelpe Shinx», sier du. «Men noe mer må ha skjedd i tårnet.»\n\nStien fra øya stiger i nesten en time før du når en hengebro. På den andre siden av juvet ligger observatoriet inntil den nedre muren på Starfall-tårnet. Tårnrommet lyser over det. Broplankene er hele, men vinden får dem til å svaie. En annen sti slynger seg mot utkikkspunktet til Altaria. Langt under broen går en smal avløpstunnel gjennom fjellet.\n\nDu tar Miras tykke reserveskjerf rundt halsen før du går ut i vinden.",
+          "text": "«Lumi prøvde å hjelpe Shinx», sier du. «Men noe mer må ha skjedd i tårnet.»\n\nStien fra øya stiger i nesten en time før du når en hengebro. På den andre siden av juvet ligger observatoriet inntil den nedre muren på Stjernefallstårnet. Tårnrommet lyser over det. Broplankene er hele, men vinden får dem til å svaie. En annen sti slynger seg mot utkikkspunktet til Altaria. Langt under broen går en smal avløpstunnel gjennom fjellet.\n\nDu tar Miras tykke reserveskjerf rundt halsen før du går ut i vinden.",
           "image": "images/scenes/painted/scene-bridge.png",
           "choice": "bridge.1"
         },
@@ -6984,7 +6984,7 @@
         {
           "language": "nb",
           "scene": "square",
-          "text": "«Det er tårnets nødklokke», sier Mira. «Ingen ringer med den for moro skyld.»\n\nUnder festteltet bretter Mira ut et kart. Moonwood, Lumen-elven, fjellstien – og et pent hull der Starfall-tårnet skulle vært. «Jeg klippet det bort etter at noen skadet seg der oppe», innrømmer hun. «Jeg trodde alle ville være trygge hvis de holdt seg unna.» En Eevee skjelver under stolen hennes. Du setter deg på huk i nærheten mens Mira legger et kart og et ekstra ullskjerf i sekken din.\n\n«Stjernelysglasset samler lys til lyktene og varmeovnene i tårnet», sier Mira. «Stjernene er der ennå. Det er lyset deres som ikke når fram til oss. Frøet ber om hjelp.» Hun tegner inn tårnet på kartet ditt og fester en liten frøpose til beltet ditt. «Følg skinnet. Jeg sender tepper og mat opp forsyningsstien og holder en lykt tent her, så vi kan sende signaler. Snu hvis stien kjennes utrygg.»",
+          "text": "«Det er tårnets nødklokke», sier Mira. «Ingen ringer med den for moro skyld.»\n\nUnder festteltet bretter Mira ut et kart. Måneskogen, Lumen-elven, fjellstien – og et pent hull der Stjernefallstårnet skulle vært. «Jeg klippet det bort etter at noen skadet seg der oppe», innrømmer hun. «Jeg trodde alle ville være trygge hvis de holdt seg unna.» En Eevee skjelver under stolen hennes. Du setter deg på huk i nærheten mens Mira legger et kart og et ekstra ullskjerf i sekken din.\n\n«Stjernelysglasset samler lys til lyktene og varmeovnene i tårnet», sier Mira. «Stjernene er der ennå. Det er lyset deres som ikke når fram til oss. Frøet ber om hjelp.» Hun tegner inn tårnet på kartet ditt og fester en liten frøpose til beltet ditt. «Følg skinnet. Jeg sender tepper og mat opp forsyningsstien og holder en lykt tent her, så vi kan sende signaler. Snu hvis stien kjennes utrygg.»",
           "image": "images/scenes/painted/scene-square.png",
           "choice": "square.1"
         },
@@ -6998,7 +6998,7 @@
         {
           "language": "nb",
           "scene": "gate",
-          "text": "Du løfter grenen mens vennen din støtter den med en kløftet kvist. Hoothoot sjekker redet, bruser med fjærene og synger de tre tonene igjen.\n\nFire stier går fra landsbyporten. Røtter danner en bue over veien til lunden. Til høyre stiger en åsrygg, og til venstre snor en bekk seg av sted. Mellom dem lyser frøet opp en smal sti under trærne. Du børster gjørme av skiltet og sammenligner det med kartet. Et sted inne i Moonwood knekker en kvist.\n\nBulbasaur tilbyr å skyve røttene varsomt til side i stedet for å rive dem løs.",
+          "text": "Du løfter grenen mens vennen din støtter den med en kløftet kvist. Hoothoot sjekker redet, bruser med fjærene og synger de tre tonene igjen.\n\nFire stier går fra landsbyporten. Røtter danner en bue over veien til lunden. Til høyre stiger en åsrygg, og til venstre snor en bekk seg av sted. Mellom dem lyser frøet opp en smal sti under trærne. Du børster gjørme av skiltet og sammenligner det med kartet. Et sted inne i Måneskogen knekker en kvist.\n\nBulbasaur tilbyr å skyve røttene varsomt til side i stedet for å rive dem løs.",
           "image": "images/scenes/painted/scene-gate.png",
           "choice": "gate.1"
         },
@@ -7061,7 +7061,7 @@
         {
           "language": "nb",
           "scene": "bridge",
-          "text": "«Lumi prøvde å hjelpe Shinx», sier du. «Men noe mer må ha skjedd i tårnet.»\n\nStien fra øya stiger i nesten en time før du når en hengebro. På den andre siden av juvet ligger observatoriet inntil den nedre muren på Starfall-tårnet. Tårnrommet lyser over det. Broplankene er hele, men vinden får dem til å svaie. En annen sti slynger seg mot utkikkspunktet til Altaria. Langt under broen går en smal avløpstunnel gjennom fjellet.\n\nDu tar Miras tykke reserveskjerf rundt halsen før du går ut i vinden.",
+          "text": "«Lumi prøvde å hjelpe Shinx», sier du. «Men noe mer må ha skjedd i tårnet.»\n\nStien fra øya stiger i nesten en time før du når en hengebro. På den andre siden av juvet ligger observatoriet inntil den nedre muren på Stjernefallstårnet. Tårnrommet lyser over det. Broplankene er hele, men vinden får dem til å svaie. En annen sti slynger seg mot utkikkspunktet til Altaria. Langt under broen går en smal avløpstunnel gjennom fjellet.\n\nDu tar Miras tykke reserveskjerf rundt halsen før du går ut i vinden.",
           "image": "images/scenes/painted/scene-bridge.png",
           "choice": "bridge.1"
         },
@@ -7322,7 +7322,7 @@
         {
           "language": "nb",
           "scene": "square",
-          "text": "«Det er tårnets nødklokke», sier Mira. «Ingen ringer med den for moro skyld.»\n\nUnder festteltet bretter Mira ut et kart. Moonwood, Lumen-elven, fjellstien – og et pent hull der Starfall-tårnet skulle vært. «Jeg klippet det bort etter at noen skadet seg der oppe», innrømmer hun. «Jeg trodde alle ville være trygge hvis de holdt seg unna.» En Eevee skjelver under stolen hennes. Du setter deg på huk i nærheten mens Mira legger et kart og et ekstra ullskjerf i sekken din.\n\n«Stjernelysglasset samler lys til lyktene og varmeovnene i tårnet», sier Mira. «Stjernene er der ennå. Det er lyset deres som ikke når fram til oss. Frøet ber om hjelp.» Hun tegner inn tårnet på kartet ditt og fester en liten frøpose til beltet ditt. «Følg skinnet. Jeg sender tepper og mat opp forsyningsstien og holder en lykt tent her, så vi kan sende signaler. Snu hvis stien kjennes utrygg.»",
+          "text": "«Det er tårnets nødklokke», sier Mira. «Ingen ringer med den for moro skyld.»\n\nUnder festteltet bretter Mira ut et kart. Måneskogen, Lumen-elven, fjellstien – og et pent hull der Stjernefallstårnet skulle vært. «Jeg klippet det bort etter at noen skadet seg der oppe», innrømmer hun. «Jeg trodde alle ville være trygge hvis de holdt seg unna.» En Eevee skjelver under stolen hennes. Du setter deg på huk i nærheten mens Mira legger et kart og et ekstra ullskjerf i sekken din.\n\n«Stjernelysglasset samler lys til lyktene og varmeovnene i tårnet», sier Mira. «Stjernene er der ennå. Det er lyset deres som ikke når fram til oss. Frøet ber om hjelp.» Hun tegner inn tårnet på kartet ditt og fester en liten frøpose til beltet ditt. «Følg skinnet. Jeg sender tepper og mat opp forsyningsstien og holder en lykt tent her, så vi kan sende signaler. Snu hvis stien kjennes utrygg.»",
           "image": "images/scenes/painted/scene-square.png",
           "choice": "square.1"
         },
@@ -7336,7 +7336,7 @@
         {
           "language": "nb",
           "scene": "gate",
-          "text": "Du løfter grenen mens vennen din støtter den med en kløftet kvist. Hoothoot sjekker redet, bruser med fjærene og synger de tre tonene igjen.\n\nFire stier går fra landsbyporten. Røtter danner en bue over veien til lunden. Til høyre stiger en åsrygg, og til venstre snor en bekk seg av sted. Mellom dem lyser frøet opp en smal sti under trærne. Du børster gjørme av skiltet og sammenligner det med kartet. Et sted inne i Moonwood knekker en kvist.\n\nCharmander ser etter tørre blader på stien før den lyser opp veien.",
+          "text": "Du løfter grenen mens vennen din støtter den med en kløftet kvist. Hoothoot sjekker redet, bruser med fjærene og synger de tre tonene igjen.\n\nFire stier går fra landsbyporten. Røtter danner en bue over veien til lunden. Til høyre stiger en åsrygg, og til venstre snor en bekk seg av sted. Mellom dem lyser frøet opp en smal sti under trærne. Du børster gjørme av skiltet og sammenligner det med kartet. Et sted inne i Måneskogen knekker en kvist.\n\nCharmander ser etter tørre blader på stien før den lyser opp veien.",
           "image": "images/scenes/painted/scene-gate.png",
           "choice": "gate.1"
         },
@@ -7399,7 +7399,7 @@
         {
           "language": "nb",
           "scene": "bridge",
-          "text": "«Lumi prøvde å hjelpe Shinx», sier du. «Men noe mer må ha skjedd i tårnet.»\n\nStien fra øya stiger i nesten en time før du når en hengebro. På den andre siden av juvet ligger observatoriet inntil den nedre muren på Starfall-tårnet. Tårnrommet lyser over det. Broplankene er hele, men vinden får dem til å svaie. En annen sti slynger seg mot utkikkspunktet til Altaria. Langt under broen går en smal avløpstunnel gjennom fjellet.\n\nDu tar Miras tykke reserveskjerf rundt halsen før du går ut i vinden.",
+          "text": "«Lumi prøvde å hjelpe Shinx», sier du. «Men noe mer må ha skjedd i tårnet.»\n\nStien fra øya stiger i nesten en time før du når en hengebro. På den andre siden av juvet ligger observatoriet inntil den nedre muren på Stjernefallstårnet. Tårnrommet lyser over det. Broplankene er hele, men vinden får dem til å svaie. En annen sti slynger seg mot utkikkspunktet til Altaria. Langt under broen går en smal avløpstunnel gjennom fjellet.\n\nDu tar Miras tykke reserveskjerf rundt halsen før du går ut i vinden.",
           "image": "images/scenes/painted/scene-bridge.png",
           "choice": "bridge.1"
         },
@@ -7668,7 +7668,7 @@
         {
           "language": "nb",
           "scene": "square",
-          "text": "«Det er tårnets nødklokke», sier Mira. «Ingen ringer med den for moro skyld.»\n\nUnder festteltet bretter Mira ut et kart. Moonwood, Lumen-elven, fjellstien – og et pent hull der Starfall-tårnet skulle vært. «Jeg klippet det bort etter at noen skadet seg der oppe», innrømmer hun. «Jeg trodde alle ville være trygge hvis de holdt seg unna.» En Eevee skjelver under stolen hennes. Du setter deg på huk i nærheten mens Mira legger et kart og et ekstra ullskjerf i sekken din.\n\n«Stjernelysglasset samler lys til lyktene og varmeovnene i tårnet», sier Mira. «Stjernene er der ennå. Det er lyset deres som ikke når fram til oss. Frøet ber om hjelp.» Hun tegner inn tårnet på kartet ditt og fester en liten frøpose til beltet ditt. «Følg skinnet. Jeg sender tepper og mat opp forsyningsstien og holder en lykt tent her, så vi kan sende signaler. Snu hvis stien kjennes utrygg.»",
+          "text": "«Det er tårnets nødklokke», sier Mira. «Ingen ringer med den for moro skyld.»\n\nUnder festteltet bretter Mira ut et kart. Måneskogen, Lumen-elven, fjellstien – og et pent hull der Stjernefallstårnet skulle vært. «Jeg klippet det bort etter at noen skadet seg der oppe», innrømmer hun. «Jeg trodde alle ville være trygge hvis de holdt seg unna.» En Eevee skjelver under stolen hennes. Du setter deg på huk i nærheten mens Mira legger et kart og et ekstra ullskjerf i sekken din.\n\n«Stjernelysglasset samler lys til lyktene og varmeovnene i tårnet», sier Mira. «Stjernene er der ennå. Det er lyset deres som ikke når fram til oss. Frøet ber om hjelp.» Hun tegner inn tårnet på kartet ditt og fester en liten frøpose til beltet ditt. «Følg skinnet. Jeg sender tepper og mat opp forsyningsstien og holder en lykt tent her, så vi kan sende signaler. Snu hvis stien kjennes utrygg.»",
           "image": "images/scenes/painted/scene-square.png",
           "choice": "square.1"
         },
@@ -7682,7 +7682,7 @@
         {
           "language": "nb",
           "scene": "gate",
-          "text": "Du løfter grenen mens vennen din støtter den med en kløftet kvist. Hoothoot sjekker redet, bruser med fjærene og synger de tre tonene igjen.\n\nFire stier går fra landsbyporten. Røtter danner en bue over veien til lunden. Til høyre stiger en åsrygg, og til venstre snor en bekk seg av sted. Mellom dem lyser frøet opp en smal sti under trærne. Du børster gjørme av skiltet og sammenligner det med kartet. Et sted inne i Moonwood knekker en kvist.\n\nSquirtle peker ut hvor bekken er grunn nok til å krysse.",
+          "text": "Du løfter grenen mens vennen din støtter den med en kløftet kvist. Hoothoot sjekker redet, bruser med fjærene og synger de tre tonene igjen.\n\nFire stier går fra landsbyporten. Røtter danner en bue over veien til lunden. Til høyre stiger en åsrygg, og til venstre snor en bekk seg av sted. Mellom dem lyser frøet opp en smal sti under trærne. Du børster gjørme av skiltet og sammenligner det med kartet. Et sted inne i Måneskogen knekker en kvist.\n\nSquirtle peker ut hvor bekken er grunn nok til å krysse.",
           "image": "images/scenes/painted/scene-gate.png",
           "choice": "gate.1"
         },
@@ -7745,7 +7745,7 @@
         {
           "language": "nb",
           "scene": "bridge",
-          "text": "«Lumi prøvde å hjelpe Shinx», sier du. «Men noe mer må ha skjedd i tårnet.»\n\nStien fra øya stiger i nesten en time før du når en hengebro. På den andre siden av juvet ligger observatoriet inntil den nedre muren på Starfall-tårnet. Tårnrommet lyser over det. Broplankene er hele, men vinden får dem til å svaie. En annen sti slynger seg mot utkikkspunktet til Altaria. Langt under broen går en smal avløpstunnel gjennom fjellet.\n\nDu tar Miras tykke reserveskjerf rundt halsen før du går ut i vinden.",
+          "text": "«Lumi prøvde å hjelpe Shinx», sier du. «Men noe mer må ha skjedd i tårnet.»\n\nStien fra øya stiger i nesten en time før du når en hengebro. På den andre siden av juvet ligger observatoriet inntil den nedre muren på Stjernefallstårnet. Tårnrommet lyser over det. Broplankene er hele, men vinden får dem til å svaie. En annen sti slynger seg mot utkikkspunktet til Altaria. Langt under broen går en smal avløpstunnel gjennom fjellet.\n\nDu tar Miras tykke reserveskjerf rundt halsen før du går ut i vinden.",
           "image": "images/scenes/painted/scene-bridge.png",
           "choice": "bridge.2"
         },
@@ -7989,7 +7989,7 @@
         {
           "language": "nb",
           "scene": "square",
-          "text": "«Det er tårnets nødklokke», sier Mira. «Ingen ringer med den for moro skyld.»\n\nUnder festteltet bretter Mira ut et kart. Moonwood, Lumen-elven, fjellstien – og et pent hull der Starfall-tårnet skulle vært. «Jeg klippet det bort etter at noen skadet seg der oppe», innrømmer hun. «Jeg trodde alle ville være trygge hvis de holdt seg unna.» En Eevee skjelver under stolen hennes. Du setter deg på huk i nærheten mens Mira legger et kart og et ekstra ullskjerf i sekken din.\n\n«Stjernelysglasset samler lys til lyktene og varmeovnene i tårnet», sier Mira. «Stjernene er der ennå. Det er lyset deres som ikke når fram til oss. Frøet ber om hjelp.» Hun tegner inn tårnet på kartet ditt og fester en liten frøpose til beltet ditt. «Følg skinnet. Jeg sender tepper og mat opp forsyningsstien og holder en lykt tent her, så vi kan sende signaler. Snu hvis stien kjennes utrygg.»",
+          "text": "«Det er tårnets nødklokke», sier Mira. «Ingen ringer med den for moro skyld.»\n\nUnder festteltet bretter Mira ut et kart. Måneskogen, Lumen-elven, fjellstien – og et pent hull der Stjernefallstårnet skulle vært. «Jeg klippet det bort etter at noen skadet seg der oppe», innrømmer hun. «Jeg trodde alle ville være trygge hvis de holdt seg unna.» En Eevee skjelver under stolen hennes. Du setter deg på huk i nærheten mens Mira legger et kart og et ekstra ullskjerf i sekken din.\n\n«Stjernelysglasset samler lys til lyktene og varmeovnene i tårnet», sier Mira. «Stjernene er der ennå. Det er lyset deres som ikke når fram til oss. Frøet ber om hjelp.» Hun tegner inn tårnet på kartet ditt og fester en liten frøpose til beltet ditt. «Følg skinnet. Jeg sender tepper og mat opp forsyningsstien og holder en lykt tent her, så vi kan sende signaler. Snu hvis stien kjennes utrygg.»",
           "image": "images/scenes/painted/scene-square.png",
           "choice": "square.1"
         },
@@ -8003,7 +8003,7 @@
         {
           "language": "nb",
           "scene": "gate",
-          "text": "Du løfter grenen mens vennen din støtter den med en kløftet kvist. Hoothoot sjekker redet, bruser med fjærene og synger de tre tonene igjen.\n\nFire stier går fra landsbyporten. Røtter danner en bue over veien til lunden. Til høyre stiger en åsrygg, og til venstre snor en bekk seg av sted. Mellom dem lyser frøet opp en smal sti under trærne. Du børster gjørme av skiltet og sammenligner det med kartet. Et sted inne i Moonwood knekker en kvist.\n\nBulbasaur tilbyr å skyve røttene varsomt til side i stedet for å rive dem løs.",
+          "text": "Du løfter grenen mens vennen din støtter den med en kløftet kvist. Hoothoot sjekker redet, bruser med fjærene og synger de tre tonene igjen.\n\nFire stier går fra landsbyporten. Røtter danner en bue over veien til lunden. Til høyre stiger en åsrygg, og til venstre snor en bekk seg av sted. Mellom dem lyser frøet opp en smal sti under trærne. Du børster gjørme av skiltet og sammenligner det med kartet. Et sted inne i Måneskogen knekker en kvist.\n\nBulbasaur tilbyr å skyve røttene varsomt til side i stedet for å rive dem løs.",
           "image": "images/scenes/painted/scene-gate.png",
           "choice": "gate.1"
         },
@@ -8052,7 +8052,7 @@
         {
           "language": "nb",
           "scene": "bridge",
-          "text": "Du bretter kartet sammen. De bør få fortelle sin egen historie først.\n\nStien fra øya stiger i nesten en time før du når en hengebro. På den andre siden av juvet ligger observatoriet inntil den nedre muren på Starfall-tårnet. Tårnrommet lyser over det. Broplankene er hele, men vinden får dem til å svaie. En annen sti slynger seg mot utkikkspunktet til Altaria. Langt under broen går en smal avløpstunnel gjennom fjellet.\n\nDu tar Miras tykke reserveskjerf rundt halsen før du går ut i vinden.",
+          "text": "Du bretter kartet sammen. De bør få fortelle sin egen historie først.\n\nStien fra øya stiger i nesten en time før du når en hengebro. På den andre siden av juvet ligger observatoriet inntil den nedre muren på Stjernefallstårnet. Tårnrommet lyser over det. Broplankene er hele, men vinden får dem til å svaie. En annen sti slynger seg mot utkikkspunktet til Altaria. Langt under broen går en smal avløpstunnel gjennom fjellet.\n\nDu tar Miras tykke reserveskjerf rundt halsen før du går ut i vinden.",
           "image": "images/scenes/painted/scene-bridge.png",
           "choice": "bridge.1"
         },
@@ -8354,7 +8354,7 @@
         {
           "language": "nb",
           "scene": "square",
-          "text": "«Det er tårnets nødklokke», sier Mira. «Ingen ringer med den for moro skyld.»\n\nUnder festteltet bretter Mira ut et kart. Moonwood, Lumen-elven, fjellstien – og et pent hull der Starfall-tårnet skulle vært. «Jeg klippet det bort etter at noen skadet seg der oppe», innrømmer hun. «Jeg trodde alle ville være trygge hvis de holdt seg unna.» En Eevee skjelver under stolen hennes. Du setter deg på huk i nærheten mens Mira legger et kart og et ekstra ullskjerf i sekken din.\n\n«Stjernelysglasset samler lys til lyktene og varmeovnene i tårnet», sier Mira. «Stjernene er der ennå. Det er lyset deres som ikke når fram til oss. Frøet ber om hjelp.» Hun tegner inn tårnet på kartet ditt og fester en liten frøpose til beltet ditt. «Følg skinnet. Jeg sender tepper og mat opp forsyningsstien og holder en lykt tent her, så vi kan sende signaler. Snu hvis stien kjennes utrygg.»",
+          "text": "«Det er tårnets nødklokke», sier Mira. «Ingen ringer med den for moro skyld.»\n\nUnder festteltet bretter Mira ut et kart. Måneskogen, Lumen-elven, fjellstien – og et pent hull der Stjernefallstårnet skulle vært. «Jeg klippet det bort etter at noen skadet seg der oppe», innrømmer hun. «Jeg trodde alle ville være trygge hvis de holdt seg unna.» En Eevee skjelver under stolen hennes. Du setter deg på huk i nærheten mens Mira legger et kart og et ekstra ullskjerf i sekken din.\n\n«Stjernelysglasset samler lys til lyktene og varmeovnene i tårnet», sier Mira. «Stjernene er der ennå. Det er lyset deres som ikke når fram til oss. Frøet ber om hjelp.» Hun tegner inn tårnet på kartet ditt og fester en liten frøpose til beltet ditt. «Følg skinnet. Jeg sender tepper og mat opp forsyningsstien og holder en lykt tent her, så vi kan sende signaler. Snu hvis stien kjennes utrygg.»",
           "image": "images/scenes/painted/scene-square.png",
           "choice": "square.3"
         },
@@ -8368,7 +8368,7 @@
         {
           "language": "nb",
           "scene": "gate",
-          "text": "Du og vennen din støtter grenen med en kløftet kvist fra bakken. Hoothoot sjekker redet, synger de tre tonene igjen og hopper opp på sekken din. Musikklæreren blir med.\n\nFire stier går fra landsbyporten. Røtter danner en bue over veien til lunden. Til høyre stiger en åsrygg, og til venstre snor en bekk seg av sted. Mellom dem lyser frøet opp en smal sti under trærne. Du børster gjørme av skiltet og sammenligner det med kartet. Et sted inne i Moonwood knekker en kvist.\n\nBulbasaur tilbyr å skyve røttene varsomt til side i stedet for å rive dem løs.",
+          "text": "Du og vennen din støtter grenen med en kløftet kvist fra bakken. Hoothoot sjekker redet, synger de tre tonene igjen og hopper opp på sekken din. Musikklæreren blir med.\n\nFire stier går fra landsbyporten. Røtter danner en bue over veien til lunden. Til høyre stiger en åsrygg, og til venstre snor en bekk seg av sted. Mellom dem lyser frøet opp en smal sti under trærne. Du børster gjørme av skiltet og sammenligner det med kartet. Et sted inne i Måneskogen knekker en kvist.\n\nBulbasaur tilbyr å skyve røttene varsomt til side i stedet for å rive dem løs.",
           "image": "images/scenes/painted/gate-eevee.png",
           "choice": "gate.2"
         },
@@ -8466,7 +8466,7 @@
         {
           "language": "nb",
           "scene": "bridge",
-          "text": "Start-Pokémonen din hører løftet og nikker alvorlig.\n\nStien fra øya stiger i nesten en time før du når en hengebro. På den andre siden av juvet ligger observatoriet inntil den nedre muren på Starfall-tårnet. Tårnrommet lyser over det. Broplankene er hele, men vinden får dem til å svaie. En annen sti slynger seg mot utkikkspunktet til Altaria. Langt under broen går en smal avløpstunnel gjennom fjellet.\n\nDu tar Miras tykke reserveskjerf rundt halsen før du går ut i vinden.",
+          "text": "Start-Pokémonen din hører løftet og nikker alvorlig.\n\nStien fra øya stiger i nesten en time før du når en hengebro. På den andre siden av juvet ligger observatoriet inntil den nedre muren på Stjernefallstårnet. Tårnrommet lyser over det. Broplankene er hele, men vinden får dem til å svaie. En annen sti slynger seg mot utkikkspunktet til Altaria. Langt under broen går en smal avløpstunnel gjennom fjellet.\n\nDu tar Miras tykke reserveskjerf rundt halsen før du går ut i vinden.",
           "image": "images/scenes/painted/scene-bridge.png",
           "choice": "bridge.2"
         },
@@ -8734,7 +8734,7 @@
         {
           "language": "nb",
           "scene": "square",
-          "text": "«Det er tårnets nødklokke», sier Mira. «Ingen ringer med den for moro skyld.»\n\nUnder festteltet bretter Mira ut et kart. Moonwood, Lumen-elven, fjellstien – og et pent hull der Starfall-tårnet skulle vært. «Jeg klippet det bort etter at noen skadet seg der oppe», innrømmer hun. «Jeg trodde alle ville være trygge hvis de holdt seg unna.» En Eevee skjelver under stolen hennes. Du setter deg på huk i nærheten mens Mira legger et kart og et ekstra ullskjerf i sekken din.\n\n«Stjernelysglasset samler lys til lyktene og varmeovnene i tårnet», sier Mira. «Stjernene er der ennå. Det er lyset deres som ikke når fram til oss. Frøet ber om hjelp.» Hun tegner inn tårnet på kartet ditt og fester en liten frøpose til beltet ditt. «Følg skinnet. Jeg sender tepper og mat opp forsyningsstien og holder en lykt tent her, så vi kan sende signaler. Snu hvis stien kjennes utrygg.»",
+          "text": "«Det er tårnets nødklokke», sier Mira. «Ingen ringer med den for moro skyld.»\n\nUnder festteltet bretter Mira ut et kart. Måneskogen, Lumen-elven, fjellstien – og et pent hull der Stjernefallstårnet skulle vært. «Jeg klippet det bort etter at noen skadet seg der oppe», innrømmer hun. «Jeg trodde alle ville være trygge hvis de holdt seg unna.» En Eevee skjelver under stolen hennes. Du setter deg på huk i nærheten mens Mira legger et kart og et ekstra ullskjerf i sekken din.\n\n«Stjernelysglasset samler lys til lyktene og varmeovnene i tårnet», sier Mira. «Stjernene er der ennå. Det er lyset deres som ikke når fram til oss. Frøet ber om hjelp.» Hun tegner inn tårnet på kartet ditt og fester en liten frøpose til beltet ditt. «Følg skinnet. Jeg sender tepper og mat opp forsyningsstien og holder en lykt tent her, så vi kan sende signaler. Snu hvis stien kjennes utrygg.»",
           "image": "images/scenes/painted/scene-square.png",
           "choice": "square.1"
         },
@@ -8748,7 +8748,7 @@
         {
           "language": "nb",
           "scene": "gate",
-          "text": "Du løfter grenen mens vennen din støtter den med en kløftet kvist. Hoothoot sjekker redet, bruser med fjærene og synger de tre tonene igjen.\n\nFire stier går fra landsbyporten. Røtter danner en bue over veien til lunden. Til høyre stiger en åsrygg, og til venstre snor en bekk seg av sted. Mellom dem lyser frøet opp en smal sti under trærne. Du børster gjørme av skiltet og sammenligner det med kartet. Et sted inne i Moonwood knekker en kvist.\n\nBulbasaur tilbyr å skyve røttene varsomt til side i stedet for å rive dem løs.",
+          "text": "Du løfter grenen mens vennen din støtter den med en kløftet kvist. Hoothoot sjekker redet, bruser med fjærene og synger de tre tonene igjen.\n\nFire stier går fra landsbyporten. Røtter danner en bue over veien til lunden. Til høyre stiger en åsrygg, og til venstre snor en bekk seg av sted. Mellom dem lyser frøet opp en smal sti under trærne. Du børster gjørme av skiltet og sammenligner det med kartet. Et sted inne i Måneskogen knekker en kvist.\n\nBulbasaur tilbyr å skyve røttene varsomt til side i stedet for å rive dem løs.",
           "image": "images/scenes/painted/scene-gate.png",
           "choice": "gate.1"
         },
@@ -8811,7 +8811,7 @@
         {
           "language": "nb",
           "scene": "bridge",
-          "text": "Start-Pokémonen din hører løftet og nikker alvorlig.\n\nStien fra øya stiger i nesten en time før du når en hengebro. På den andre siden av juvet ligger observatoriet inntil den nedre muren på Starfall-tårnet. Tårnrommet lyser over det. Broplankene er hele, men vinden får dem til å svaie. En annen sti slynger seg mot utkikkspunktet til Altaria. Langt under broen går en smal avløpstunnel gjennom fjellet.\n\nDu tar Miras tykke reserveskjerf rundt halsen før du går ut i vinden.",
+          "text": "Start-Pokémonen din hører løftet og nikker alvorlig.\n\nStien fra øya stiger i nesten en time før du når en hengebro. På den andre siden av juvet ligger observatoriet inntil den nedre muren på Stjernefallstårnet. Tårnrommet lyser over det. Broplankene er hele, men vinden får dem til å svaie. En annen sti slynger seg mot utkikkspunktet til Altaria. Langt under broen går en smal avløpstunnel gjennom fjellet.\n\nDu tar Miras tykke reserveskjerf rundt halsen før du går ut i vinden.",
           "image": "images/scenes/painted/scene-bridge.png",
           "choice": "bridge.1"
         },

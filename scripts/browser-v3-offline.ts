@@ -38,7 +38,7 @@ try{
   if(index<0){const puzzle=getPuzzle(state)!;for(const n of puzzle.answer)await page.locator('.puzzle-controls button').nth(n).click();state=await page.evaluate(()=>JSON.parse(localStorage.getItem('starlight-story-v1')!));index=available(state).findIndex(c=>c.id===id);}
   assert(index>=0,id);const target=page.locator('[data-choice-id="'+id+'"]');
  if(await target.count()===0&&await page.locator('.choice-pages').count()){const prev=page.locator('.choice-pages button').first();while(await prev.isEnabled())await prev.click();while(await target.count()===0)await page.locator('.choice-pages button').last().click();}
- await target.click();
+ await target.click();if(await page.locator(".continue-story").isVisible())await page.locator(".continue-story").click();
  }
  assert.equal(await page.evaluate(()=>JSON.parse(localStorage.getItem('starlight-story-v1')!).scene),'F_DAWN');
  const fixtures=JSON.parse(readFileSync('docs/v3-fixtures.json','utf8')) as State[];

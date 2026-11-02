@@ -84,16 +84,33 @@ function conditionalText(s:State,text:string){
    return include?t:'';}).join('').trim();
  }).filter(Boolean).join('\n\n');
 }
+export function resultText(s:State):string{
+ const choice=choicesById[s.world?.lastChoiceId||''];
+ const response=choice?.[getLanguage()==='nb'?'nbResponse':'response']||'';
+ return authoredText(conditionalText(s,response).replace(/\{starter\}/g,s.starter));
+}
+export function selectStoryChoice(s:State,c:Choice):State{
+ if(s.pendingResult)return s;
+ if(c.id==='S09.3'&&s.scene==='S09'){
+  const nextHint=s.flags.includes('tree-hint:1')?'tree-hint:2':'tree-hint:1';
+  if(s.flags.includes(nextHint))return s;
+  return {...s,flags:[...s.flags,nextHint],world:{...s.world!,flags:{...s.world!.flags,tree_hint:'true'}}};
+ }
+ const next=advance(s,c);
+ return resultText(next)?{...next,pendingResult:true}:next;
+}
+function replayHints(s:State,flags:string[]){
+ if(s.scene!=='S09'||!flags.includes('tree-hint:1'))return;
+ s.flags=[...new Set([...s.flags,'tree-hint:1',...flags.filter(f=>f==='tree-hint:2')])];
+ s.world!.flags.tree_hint='true';
+}
 export function storyText(s:State):string{
  let id=s.scene; if(id.startsWith('F_'))id='S25';
  let text=rawById[id][getLanguage()==='nb'?'nb':'en'];
- const previous=s.world!.lastChoiceId?choicesById[s.world!.lastChoiceId]:null;
- const response=previous?.[getLanguage()==='nb'?'nbResponse':'response'];
- if(response)text=response+'\n\n'+text;
  text=conditionalText(s,text).replace(/\{starter\}/g,s.starter).replace(/\*\*([^*]+)\*\*/g,'$1');
  const isNb=getLanguage()==='nb';
  if(s.scene==='Q_RETURN')text+='\n\n'+(Number(s.world!.flags.return_visits||0)>2?(isNb?'Flere frivillige bærer nå lykter langs stien. Tårnklokken slår igjen.':'More volunteers now carry lanterns along the path. The tower bell rings again.'):(isNb?'Blomstenes lys er svakere nå. Dere følger de trygge merkene sammen.':'The flowers glow more faintly now. Together you follow the safe trail markers.'));
- if(s.world!.lastChoiceId?.startsWith('Q_PREP.')){const choice=s.world!.lastChoiceId!;const index=Number(choice.split('.')[1]);if([1,2,4].includes(index))text=(isNb?'Dere har prøvd løsningen. Den er klar til å vises til Shinx.':'You have tested the plan. It is ready to show Shinx.')+'\n\n'+text;}
+
  return authoredText(text);
 }
 /** Replay every recorded choice: saved booleans cannot bypass equipment or consent. */
@@ -102,6 +119,7 @@ export function restore(value:unknown):State|null{
  const legacyHeat=v.world.flags.earth_backup_ready==='true'&&!v.history.some(h=>h.choiceId==='Q_PREP.4');
  let s=initial(v.starter);
  for(const h of v.history){if(h.scene!==s.scene)return null;
+  replayHints(s,h.flags||[]);
   restoreOptionalDiscoveries(s,h.world?.flags);
   // Only validated puzzle solutions from the snapshot may enable a puzzle-gated choice.
   const flags=(h.flags||[]).filter(f=>/^puzzle:(S06|S07|S17|Q_MOON1|Q_STAR)$/.test(f));
@@ -114,6 +132,8 @@ export function restore(value:unknown):State|null{
   }
  }
  if(s.scene!==v.scene)return null;
+ replayHints(s,v.flags||[]);
+ if(v.pendingResult===true&&s.world!.lastChoiceId&&resultText(s))s.pendingResult=true;
  restoreOptionalDiscoveries(s,v.world.flags);
  const current=(v.flags||[]).filter(f=>/^puzzle:(S06|S07|S17|Q_MOON1|Q_STAR)$/.test(f));
  const inspections=(v.flags||[]).filter(f=>(f.startsWith('inspected:')&&[...s.world!.items,...s.world!.usedItems].includes(f.slice(10)))||/^map-seen:[a-z0-9_]+$/.test(f));

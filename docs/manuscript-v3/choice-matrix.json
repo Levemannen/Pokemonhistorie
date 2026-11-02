@@ -124,8 +124,8 @@
     "choices": [
       {
         "id": "S05.1",
-        "en": "Follow the lantern-lit path",
-        "nb": "Følg stien med lykten",
+        "en": "Follow the lit path — safer but slower",
+        "nb": "Følg den opplyste stien – tryggere, men langsommere",
         "requires": "TRUE",
         "to": "S06",
         "flags": [
@@ -135,8 +135,8 @@
       },
       {
         "id": "S05.2",
-        "en": "Follow the seed's pulse",
-        "nb": "Følg sølvfrøets blinkende retning",
+        "en": "Follow the seed’s pulse — find the unknown shortcut",
+        "nb": "Følg sølvfrøets blink – finn den ukjente snarveien",
         "requires": "TRUE",
         "to": "S06",
         "flags": [
@@ -153,8 +153,8 @@
     "choices": [
       {
         "id": "S06.1",
-        "en": "Study and arrange the stones in seasonal order",
-        "nb": "Undersøk steinene og sett symbolene i årstidens rekkefølge",
+        "en": "Solve the stone pattern and search for a hidden mark",
+        "nb": "Løs steinmønsteret og se etter et skjult tegn",
         "requires": "solved_S06",
         "to": "S07",
         "flags": [
@@ -165,8 +165,8 @@
       },
       {
         "id": "S06.2",
-        "en": "Take the broad path",
-        "nb": "Velg den brede stien",
+        "en": "Keep moving along the broad path",
+        "nb": "Fortsett raskt langs den brede stien",
         "requires": "TRUE",
         "to": "S07",
         "flags": [
@@ -227,8 +227,8 @@
     "choices": [
       {
         "id": "S08.1",
-        "en": "Secure nest and invite Hoothoot",
-        "nb": "Sikre redet og inviter Hoothoot",
+        "en": "Secure the nest and invite Hoothoot along",
+        "nb": "Sikre redet og spør Hoothoot om å følge dere",
         "requires": "TRUE",
         "to": "S09",
         "flags": [
@@ -240,8 +240,8 @@
       },
       {
         "id": "S08.2",
-        "en": "Secure nest and let Hoothoot guard egg",
-        "nb": "Sikre redet og la Hoothoot vokte egget",
+        "en": "Secure the nest and let Hoothoot guard the egg",
+        "nb": "Sikre redet og la Hoothoot bli hos egget",
         "requires": "TRUE",
         "to": "S09",
         "flags": [
@@ -252,8 +252,8 @@
       },
       {
         "id": "S08.3",
-        "en": "Ask directions without repair",
-        "nb": "Be Hoothoot om veibeskrivelse uten å reparere",
+        "en": "Ask Hoothoot for directions — leave the nest for now",
+        "nb": "Be Hoothoot vise vei – la redet vente",
         "requires": "TRUE",
         "to": "S09",
         "flags": [
@@ -270,8 +270,8 @@
     "choices": [
       {
         "id": "S09.1",
-        "en": "Answer from a rescue",
-        "nb": "Bruk lærdommen fra en redning",
+        "en": "Tell the tree how you helped someone",
+        "nb": "Fortell hvordan du hjalp noen i skogen",
         "requires": "rescued_pikachu OR hoothoot_nest",
         "to": "S10",
         "flags": [],
@@ -281,8 +281,8 @@
       },
       {
         "id": "S09.2",
-        "en": "Examine all four hollows",
-        "nb": "Studer alle fire fordypningene",
+        "en": "Examine what the empty hollow is missing",
+        "nb": "Undersøk hva den tomme fordypningen mangler",
         "requires": "TRUE",
         "to": "S10",
         "flags": [
@@ -294,8 +294,8 @@
       },
       {
         "id": "S09.3",
-        "en": "Ask for a hint",
-        "nb": "Be om et hint",
+        "en": "Ask the tree for a hint — stay here",
+        "nb": "Be treet om et hint – bli på samme sted",
         "requires": "TRUE",
         "to": "S09",
         "flags": [
@@ -312,8 +312,8 @@
     "choices": [
       {
         "id": "S10.1",
-        "en": "Examine cup using lens",
-        "nb": "Undersøk koppen med linsen",
+        "en": "Study the mysterious scratches with the lens",
+        "nb": "Undersøk de mystiske ripene med linsen",
         "requires": "crescent_lens",
         "to": "S11",
         "flags": [
@@ -324,8 +324,8 @@
       },
       {
         "id": "S10.2",
-        "en": "Take photo as clue",
-        "nb": "Ta med fotografiet som spor",
+        "en": "Keep the photograph as a clue to the friends",
+        "nb": "Ta med fotografiet som spor etter vennene",
         "requires": "TRUE",
         "to": "S11",
         "flags": [],
@@ -335,8 +335,8 @@
       },
       {
         "id": "S10.3",
-        "en": "Follow fresh prints",
-        "nb": "Følg de ferske sporene",
+        "en": "Follow the fresh tracks before they fade",
+        "nb": "Følg de ferske sporene før de forsvinner",
         "requires": "TRUE",
         "to": "S11",
         "flags": [
@@ -353,8 +353,8 @@
     "choices": [
       {
         "id": "S11.1",
-        "en": "Help Lapras and accept passage",
-        "nb": "Hjelp Lapras og få skyss",
+        "en": "Free Lapras and cross on its back",
+        "nb": "Frigjør Lapras og kryss på ryggen dens",
         "requires": "TRUE",
         "to": "S12",
         "flags": [
@@ -365,8 +365,8 @@
       },
       {
         "id": "S11.2",
-        "en": "Fix Psyduck's wheel and use cable platform",
-        "nb": "Reparer Psyducks hjul og bruk kabelplattformen",
+        "en": "Help Psyduck and use the maintenance platform",
+        "nb": "Hjelp Psyduck og bruk vedlikeholdsplattformen",
         "requires": "TRUE",
         "to": "S12",
         "flags": [
@@ -377,8 +377,8 @@
       },
       {
         "id": "S11.3",
-        "en": "Secure damaged bridge using toolbox rope",
-        "nb": "Sikre den gjenværende broen med tau fra verktøykassen",
+        "en": "Secure the bridge yourself and cross carefully",
+        "nb": "Sikre broen selv og kryss forsiktig",
         "requires": "TRUE",
         "to": "S12",
         "flags": [
@@ -541,8 +541,8 @@
     "choices": [
       {
         "id": "S16.1",
-        "en": "Stay and hear Gastly's story",
-        "nb": "Bli hos Gastly og hør hele historien",
+        "en": "Stay and hear the story Gastly wants to tell",
+        "nb": "Bli og hør historien Gastly vil fortelle",
         "requires": "TRUE",
         "to": "S17",
         "flags": [
@@ -554,8 +554,8 @@
       },
       {
         "id": "S16.2",
-        "en": "Thank Gastly and continue",
-        "nb": "Takk Gastly og gå videre",
+        "en": "Thank Gastly and continue toward the tower",
+        "nb": "Takk Gastly og fortsett mot tårnet",
         "requires": "TRUE",
         "to": "S17",
         "flags": [
@@ -572,8 +572,8 @@
     "choices": [
       {
         "id": "S17.1",
-        "en": "Use lens and moon rune",
-        "nb": "Bruk linse og månerune",
+        "en": "Open the gate with the moon rune and lens",
+        "nb": "Åpne porten med månerunen og linsen",
         "requires": "crescent_lens AND moon_rune",
         "to": "S18",
         "flags": [
@@ -583,8 +583,8 @@
       },
       {
         "id": "S17.2",
-        "en": "Have Pikachu power motor",
-        "nb": "Be Pikachu drive motoren",
+        "en": "Ask Pikachu to try powering the motor",
+        "nb": "La Pikachu prøve å starte motoren",
         "requires": "companion_pikachu",
         "to": "S18",
         "flags": [
@@ -594,8 +594,8 @@
       },
       {
         "id": "S17.3",
-        "en": "Repair crank and gears",
-        "nb": "Reparer sveiv og tannhjul",
+        "en": "Repair the crank and open the gate by hand",
+        "nb": "Reparer sveiven og åpne porten for hånd",
         "requires": "solved_S17",
         "to": "S18",
         "flags": [
@@ -612,8 +612,8 @@
     "choices": [
       {
         "id": "S18.1",
-        "en": "Copy the three rings' rules",
-        "nb": "Kopier reglene om de tre ringene",
+        "en": "Learn how the three rescue plans work",
+        "nb": "Lær hvordan de tre redningsplanene virker",
         "requires": "TRUE",
         "to": "S19",
         "flags": [
@@ -623,8 +623,8 @@
       },
       {
         "id": "S18.2",
-        "en": "Search with lens",
-        "nb": "Let etter skjult informasjon med linsen",
+        "en": "Search for hidden map marks with the lens",
+        "nb": "Let etter hemmelige karttegn med linsen",
         "requires": "crescent_lens",
         "to": "S19",
         "flags": [
@@ -634,8 +634,8 @@
       },
       {
         "id": "S18.3",
-        "en": "Read Lumi's temperature log",
-        "nb": "Les Lumis temperaturjournal",
+        "en": "Find out how Lumi has cared for Shinx",
+        "nb": "Finn ut hvordan Lumi har passet Shinx",
         "requires": "TRUE",
         "to": "S19",
         "flags": [
@@ -661,8 +661,8 @@
       },
       {
         "id": "S19.2",
-        "en": "Inspect basket",
-        "nb": "Undersøk kurven",
+        "en": "Check whether the basket can carry Shinx safely",
+        "nb": "Undersøk om kurven kan bære Shinx trygt",
         "requires": "TRUE",
         "to": "S20",
         "flags": [
@@ -672,8 +672,8 @@
       },
       {
         "id": "S19.3",
-        "en": "Inspect watch roster",
-        "nb": "Undersøk vaktlisten",
+        "en": "Check whether the lantern watches are fully covered",
+        "nb": "Sjekk om lyktevaktene har en fullstendig plan",
         "requires": "TRUE",
         "to": "S20",
         "flags": [
@@ -683,8 +683,8 @@
       },
       {
         "id": "S19.4",
-        "en": "Inspect Earth pot",
-        "nb": "Undersøk jordpotten",
+        "en": "Inspect the soil pot and backup stove",
+        "nb": "Undersøk jordpotten og reserveovnen",
         "requires": "TRUE",
         "to": "S20",
         "flags": [
@@ -710,8 +710,8 @@
     "choices": [
       {
         "id": "S20.1",
-        "en": "Show photo or read letter",
-        "nb": "Vis fotografiet eller brevet",
+        "en": "Show the photo or letter to build trust",
+        "nb": "Vis fotografiet eller brevet for å bygge tillit",
         "requires": "photo_lumi_shinx OR compassionate_letter",
         "to": "S21",
         "flags": [
@@ -721,8 +721,8 @@
       },
       {
         "id": "S20.2",
-        "en": "Explain the old book",
-        "nb": "Fortell hva du fant i boken",
+        "en": "Explain the danger of leaving the glass closed",
+        "nb": "Forklar faren ved å vente med å åpne glasset",
         "requires": "TRUE",
         "to": "S21",
         "flags": [
@@ -732,8 +732,8 @@
       },
       {
         "id": "S20.3",
-        "en": "Ask Shinx through the door",
-        "nb": "Spør Shinx direkte gjennom døren",
+        "en": "Ask Shinx what he needs before anyone decides",
+        "nb": "Spør Shinx hva han trenger, før noen bestemmer",
         "requires": "TRUE",
         "to": "S21",
         "flags": [
@@ -750,8 +750,8 @@
     "choices": [
       {
         "id": "S21.1",
-        "en": "Listen before proposing plans",
-        "nb": "Lytt før du foreslår løsninger",
+        "en": "Let Lumi finish speaking before making a plan",
+        "nb": "La Lumi fortelle ferdig før dere planlegger",
         "requires": "TRUE",
         "to": "S22",
         "flags": [
@@ -762,8 +762,8 @@
       },
       {
         "id": "S21.2",
-        "en": "Explain risks without blame",
-        "nb": "Forklar konkrete farer uten å klandre",
+        "en": "Explain what the darkness is doing to the valley",
+        "nb": "Forklar hva mørket gjør med dalen",
         "requires": "TRUE",
         "to": "S22",
         "flags": [
@@ -780,8 +780,8 @@
     "choices": [
       {
         "id": "S22.1",
-        "en": "Explain safe basket",
-        "nb": "Beskriv trygg kurv",
+        "en": "Let Shinx try the warm carrying basket",
+        "nb": "La Shinx prøve den varme bærekurven",
         "requires": "warmth_sky_ready",
         "to": "S23",
         "flags": [
@@ -791,8 +791,8 @@
       },
       {
         "id": "S22.2",
-        "en": "Explain watch plan",
-        "nb": "Beskriv vaktplanen",
+        "en": "Let Shinx consider the watch plan",
+        "nb": "La Shinx vurdere vaktordningen",
         "requires": "warmth_heart_ready",
         "to": "S23",
         "flags": [
@@ -802,8 +802,8 @@
       },
       {
         "id": "S22.3",
-        "en": "Explain Earth plan and backup heat",
-        "nb": "Beskriv jordplanen og reservevarmen",
+        "en": "Let Shinx test the Earth plan’s backup heat",
+        "nb": "La Shinx prøve jordplanens reservevarme",
         "requires": "earth_pot_found AND earth_backup_ready AND silver_seed",
         "to": "S23",
         "flags": [
@@ -813,8 +813,8 @@
       },
       {
         "id": "S22.4",
-        "en": "Gather supplies",
-        "nb": "Skaff nødvendig utstyr",
+        "en": "Fetch and test the missing equipment",
+        "nb": "Hent og test utstyret som mangler",
         "requires": "NOT valid_consent",
         "to": "Q_PREP",
         "flags": [],
@@ -847,8 +847,8 @@
       },
       {
         "id": "S23.2",
-        "en": "Revisit the valley",
-        "nb": "Undersøk dalen igjen",
+        "en": "Check which places in the valley need help",
+        "nb": "Se hvilke steder i dalen som trenger hjelp",
         "requires": "NOT release_done",
         "to": "Q_RETURN",
         "flags": [],
@@ -856,8 +856,8 @@
       },
       {
         "id": "S23.3",
-        "en": "Check equipment",
-        "nb": "Kontroller utstyret igjen",
+        "en": "Go back and test the plans before choosing",
+        "nb": "Gå tilbake og test planene før dere velger",
         "requires": "TRUE",
         "to": "Q_PREP",
         "flags": [],
@@ -872,8 +872,8 @@
     "choices": [
       {
         "id": "S24.1",
-        "en": "Sky",
-        "nb": "Himmelveien",
+        "en": "Sky — carry Shinx safely to the warm room",
+        "nb": "Himmel – bær Shinx trygt til det varme rommet",
         "requires": "warmth_sky_ready AND shinx_consents_sky",
         "to": "E_DAWN",
         "alternate": {
@@ -887,8 +887,8 @@
       },
       {
         "id": "S24.2",
-        "en": "Heart",
-        "nb": "Hjerteveien",
+        "en": "Heart — keep the lanterns burning in shifts",
+        "nb": "Hjerte – hold lyktene varme med skiftordning",
         "requires": "warmth_heart_ready AND shinx_consents_heart",
         "to": "E_LANTERN",
         "alternate": {
@@ -902,8 +902,8 @@
       },
       {
         "id": "S24.3",
-        "en": "Earth",
-        "nb": "Jordveien",
+        "en": "Earth — use the seed with backup heat",
+        "nb": "Jord – bruk frøet med reservevarme",
         "requires": "earth_pot_found AND earth_backup_ready AND silver_seed AND shinx_consents_earth",
         "to": "E_GARDEN",
         "alternate": {
@@ -917,8 +917,8 @@
       },
       {
         "id": "S24.4",
-        "en": "Reconsider",
-        "nb": "Prøv en annen løsning",
+        "en": "Don’t choose yet — check the equipment",
+        "nb": "Ikke velg ennå – se over utstyret",
         "requires": "TRUE",
         "to": "Q_PREP",
         "flags": [],
@@ -996,7 +996,7 @@
       {
         "id": "Q_PREP.4",
         "en": "Test Earth backup",
-        "nb": "Reparer ekstra lys",
+        "nb": "Test reservevarmen for jordplanen",
         "requires": "earth_pot_found AND NOT earth_backup_ready",
         "to": "Q_PREP",
         "flags": [
@@ -1022,8 +1022,8 @@
     "choices": [
       {
         "id": "Q_RETURN.1",
-        "en": "Help in Willowbrook",
-        "nb": "Hjelp i Willowbrook",
+        "en": "Return to Eevee and Pichu in the square",
+        "nb": "Tilbake til Eevee og Pichu på torget",
         "requires": "NOT rescue_square",
         "to": "Q_VILLAGE",
         "flags": [],
@@ -1031,8 +1031,8 @@
       },
       {
         "id": "Q_RETURN.2",
-        "en": "Pikachu",
-        "nb": "Pikachu",
+        "en": "Return to Pikachu in the ivy",
+        "nb": "Tilbake til Pikachu i eføyen",
         "requires": "NOT rescued_pikachu",
         "to": "Q_PIKACHU",
         "flags": [],
@@ -1040,8 +1040,8 @@
       },
       {
         "id": "Q_RETURN.3",
-        "en": "Hoothoot",
-        "nb": "Hoothoot",
+        "en": "Return to Hoothoot’s unsafe nest",
+        "nb": "Tilbake til Hoothoots utrygge rede",
         "requires": "NOT hoothoot_nest",
         "to": "Q_HOOTHOOT",
         "flags": [],
@@ -1049,8 +1049,8 @@
       },
       {
         "id": "Q_RETURN.4",
-        "en": "Lapras",
-        "nb": "Lapras",
+        "en": "Return to Lapras at the river",
+        "nb": "Tilbake til Lapras ved elven",
         "requires": "NOT rescued_lapras",
         "to": "Q_LAPRAS",
         "flags": [],
@@ -1058,8 +1058,8 @@
       },
       {
         "id": "Q_RETURN.5",
-        "en": "Psyduck",
-        "nb": "Psyduck",
+        "en": "Return to Psyduck’s waterwheel",
+        "nb": "Tilbake til Psyducks vannhjul",
         "requires": "NOT helped_psyduck",
         "to": "Q_PSYDUCK",
         "flags": [],
@@ -1067,8 +1067,8 @@
       },
       {
         "id": "Q_RETURN.6",
-        "en": "Repair the bridge",
-        "nb": "Reparer broen",
+        "en": "Return to secure the damaged bridge",
+        "nb": "Tilbake for å sikre den ødelagte broen",
         "requires": "NOT bridge_repaired",
         "to": "Q_BRIDGE",
         "flags": [],
@@ -1076,8 +1076,8 @@
       },
       {
         "id": "Q_RETURN.7",
-        "en": "Altaria",
-        "nb": "Altaria",
+        "en": "Return to search for Altaria’s chick",
+        "nb": "Tilbake for å lete etter Altarias unge",
         "requires": "NOT helped_altaria",
         "to": "Q_ALTARIA",
         "flags": [],
@@ -1085,8 +1085,8 @@
       },
       {
         "id": "Q_RETURN.8",
-        "en": "Gastly",
-        "nb": "Gastly",
+        "en": "Return to hear Gastly’s story",
+        "nb": "Tilbake for å høre Gastlys fortelling",
         "requires": "NOT gastly_friend",
         "to": "Q_GASTLY",
         "flags": [],

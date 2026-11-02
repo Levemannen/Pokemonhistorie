@@ -20,8 +20,22 @@ for(const [index,s] of data.entries()){
  const hasPainting=fs.existsSync('public/'+painting);
  if(hasPainting)base=Object.fromEntries(['Bulbasaur','Charmander','Squirtle'].map(n=>[n,painting]));
  scenes[s.id]={base:base||Object.fromEntries(['Bulbasaur','Charmander','Squirtle'].map(n=>[n,path])),fallbackBase:Object.fromEntries(['Bulbasaur','Charmander','Squirtle'].map(n=>[n,path])),render:base?'painted-baked':undefined};
- prompts.push({scene:s.id,status:base?'reused-existing-painting':'local-svg-fallback',path:base||path,prompt:`Wide 2:1 colorful animated Pokémon adventure storybook illustration, rich painterly detail, warm gold light against blue night, consistent ten-year-old traveler with navy cap, mustard jacket and teal backpack. Scene: ${s.title}. Depict this exact situation: ${s.en.replace(/\[[^\]]+\]/g,'').slice(0,1100)}. Show the child STANDING or WALKING and actively exploring, not sitting or crouching unless the scene explicitly requires rest. Do not add companions not present in the selected state. Keep one silver seed only before planting; none in hands after planting. No text, labels or UI. Preserve child-friendly atmosphere and safe footing.`});
+ prompts.push({scene:s.id,status:base?'reused-existing-painting':'local-svg-fallback',path:base||path,prompt:`Wide 2:1 colorful animated Pokémon adventure storybook illustration, rich painterly detail, warm gold light against blue night, consistent ten-year-old traveler with navy cap, mustard jacket and teal backpack. Scene: ${s.title}. Depict this exact situation: ${s.en.replace(/\[[^\]]+\]/g,'').slice(0,1100)}. Show the child STANDING or WALKING and actively exploring, not sitting or crouching unless the scene explicitly requires rest. If Mira appears, depict a woman about 68 with silver hair in a bun, green cloak and an antique star brooch. Keep the protagonist gender-neutral. Show no completed puzzle or projected memory on arrival. Do not add companions not present in the selected state. Keep one silver seed only before planting; none in hands after planting. No text, labels or UI. Preserve child-friendly atmosphere and safe footing.`});
  if(hasPainting)prompts.at(-1).status='new-v3-painting';
+}
+// Keep earned discoveries out of the arrival illustration.
+for(const [id,arrival,choice,painting] of [
+ ['S14',null,'S14.1','scene-island.png'],
+ ['Q_HOOTHOOT','S08','Q_HOOTHOOT.1','v3-Q_HOOTHOOT.jpg'],
+ ['Q_STAR',null,'Q_STAR.1','v3-Q_STAR-result.jpg'],
+ ['Q_MOON2','S10','Q_MOON2.1','v3-Q_MOON2.jpg'],
+ ['Q_MOON3','S14','Q_MOON3.1','v3-Q_MOON3.jpg'],
+ ['Q_ARCHIVE','S18','Q_ARCHIVE.1','v3-Q_ARCHIVE.jpg'],
+]){
+ const scene=scenes[id];
+ if(arrival)scene.base={...scenes[arrival].base};
+ scene.results={[choice]:'images/scenes/painted/'+painting};
+ const prompt=prompts.find(p=>p.scene===id);prompt.path=scene.base;prompt.resultPaths=scene.results;
 }
 for(const id of ['DAWN','AURORA','SONG','LANTERN','SANCTUARY','GARDEN'])scenes['F_'+id]=scenes['E_'+id];
 fs.writeFileSync('src/v3-art.json',JSON.stringify(scenes,null,2));

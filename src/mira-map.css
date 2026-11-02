@@ -1,15 +1,14 @@
-.mira-map-scroll{overflow:auto;max-height:65dvh;border:1px solid #b49b6e;border-radius:16px;background:#f1e5c5;overscroll-behavior:contain}
-.mira-map-canvas{position:relative;width:940px;height:740px;margin:auto;color:#493d28}
-.mira-map-canvas>svg{position:absolute;inset:0;width:100%;height:100%}
-.mira-place{position:absolute;width:148px;transform:translate(-50%,-50%);text-align:center}
-.mira-place>button{min-height:48px;max-width:148px;background:#f9f0d9e8;border:1px solid #ac9367;border-radius:12px;padding:5px 9px;color:#493d28}
-.mira-place strong{display:block;font-family:Georgia,serif;font-size:15px;font-weight:normal;line-height:1.25}
-.mira-place .mira-current{outline:3px solid #52755f;outline-offset:3px}
-.mira-marks{display:flex;justify-content:center;flex-wrap:wrap;gap:4px;margin-top:5px}
-.mira-marks button{width:44px;min-height:44px;border-radius:50%;border:1px solid #8a7349;background:#fff9dc;color:#635023;font-size:25px}
-.mira-marks button[aria-pressed=true]{background:#d8e7c4;border-color:#405f48}
-.mira-fog{border-radius:50%;background:#e7dcbc;box-shadow:0 0 30px 28px #e7dcbc}
-.mira-fog>button{background:none;border:0;min-width:44px;color:#887650;font-size:24px}
+.field-map{position:relative;margin:0 auto;max-width:940px;isolation:isolate}
+.field-sheet{display:block;width:100%;height:auto;border-radius:5px;box-shadow:0 3px 10px #67492738}
+.field-pin{position:absolute;transform:translate(-50%,-50%);min-width:32px;min-height:32px;border:0;background:transparent;padding:0;display:grid;place-items:center}
+.field-pin i,.field-index i,.field-notes i{font:italic bold 16px/1 Georgia,serif;color:#772d1c}
+.field-pin i{border:1.5px solid #8c4632;border-radius:48% 53% 44% 50%;background:#fff0cb;min-width:23px;padding:3px;box-shadow:0 1px 2px #6c492d38}
+.field-pin[aria-current=location] i,.field-pin[aria-pressed=true] i{background:#783522;color:white}
+.field-heading{font:italic 20px Georgia,serif;margin:16px 0 6px;color:#493621}
+.field-index,.field-notes{display:flex;flex-wrap:wrap;column-gap:12px}
+.field-index button,.field-notes button{text-align:left;background:transparent;border:0;border-bottom:1px solid #cdbd9e;color:#453523;font:16px/1.4 Georgia,serif;min-height:44px;padding:6px 4px}
+.field-index i,.field-notes i{margin-right:6px}
+.field-index button[aria-pressed=true],.field-notes button[aria-pressed=true]{background:#f2e4c5}
 .mira-map-detail{min-height:4em;padding:15px;background:#f2eddb;color:#493d28;border-radius:8px;font-size:17px!important;line-height:1.6}
 .mira-place-memory p{font-family:Georgia,serif;font-size:18px;line-height:1.8}
 .mira-map button:focus-visible,.optional-puzzle button:focus-visible{outline:3px solid #446a57;outline-offset:3px}

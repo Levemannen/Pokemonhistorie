@@ -39,8 +39,8 @@ const translations:Record<string,string[]>={
  listen:['Fortell Lumi at hun ikke står alene.','La Shinx velge hva han trenger.','Del den myke varmen fra fjæren.'],
  plan:['Gjør klart til å slippe stjernene tilbake på himmelen.','Samle alle rundt hjerteringen.','Ta med jordringen til hagebalkongen.','Følg planen vår og ta med den lukkede sfæren til Mira.'],
  sky:['Lag et varmt rede med skyfjæren.','La Charmander holde Shinx trygt varm.','Slipp stjernene fri og bær Shinx hjem.','Nynn en lindrende vuggesang mens vi åpner ringen.'],
- heart:['Lag et trygt tilfluktssted her med Lumi.','Koble Pikachus gnist til lyktene i landsbyen.','Syng sangen med tre toner sammen.','Ta med varmesirkelen til Willowbrook.'],
- earth:['Plant en stjernelyshage i Willowbrook.','La Bulbasaur dyrke en levende himmelplante.','Spar frøet og lag et tilfluktssted i tårnet.','Plant stjernesiv langs Psyducks lyktesti.'],
+ heart:['Lag et trygt tilfluktssted her med Lumi.','Koble Pikachus gnist til lyktene i landsbyen.','Syng sangen med tre toner sammen.','Ta med varmesirkelen til Pilebekk.'],
+ earth:['Plant en stjernelyshage i Pilebekk.','La Bulbasaur dyrke en levende himmelplante.','Spar frøet og lag et tilfluktssted i tårnet.','Plant stjernesiv langs Psyducks lyktesti.'],
 };
 export function choiceNorwegian(scene:string,choice:Choice,starter:string):string{
  if(choice.id)return norwegianChoice(choice.id)||'';

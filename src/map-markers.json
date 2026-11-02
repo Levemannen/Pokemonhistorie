@@ -55,5 +55,12 @@
     ],
     "nb": "Du sikret broen.",
     "en": "You secured the bridge."
+  },
+  {
+    "flags": [
+      "hoothoot_directions"
+    ],
+    "nb": "Hoothoot viste deg den hvitmerkede steinen ved stien til eiketreet.",
+    "en": "Hoothoot showed you the white-striped stone on the way to the old oak."
   }
 ]
