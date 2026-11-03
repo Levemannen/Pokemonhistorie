@@ -523,8 +523,8 @@
       },
       {
         "id": "S15.2",
-        "en": "Let Altaria search while you mark safe trail",
-        "nb": "La Altaria lete mens dere merker trygg sti",
+        "en": "Mark the trail for the helpers — let Altaria stay with her chicks",
+        "nb": "Merk stien for hjelperne – la Altaria bli hos ungene",
         "requires": "TRUE",
         "to": "S16",
         "flags": [

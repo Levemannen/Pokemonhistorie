@@ -14,7 +14,7 @@ export const mapCopy={
  legend:{nb:'Steder · Stier · Dine markeringer · Hemmelige tegn',en:'Places · Paths · Your marks · Secret signs'}
 };
 export const mapPlaces=[
- {id:'village',x:7,y:85,en:'Willowbrook',nb:'Pilebekk',scenes:['S01','S02','S03','Q_VILLAGE','E_LANTERN','E_GARDEN']},
+ {id:'village',x:7,y:85,en:'Willowbrook',nb:'Pilebekk',scenes:['S01','S02','S03','S25','Q_VILLAGE','E_LANTERN','E_GARDEN']},
  {id:'library',x:19,y:86,en:'The library',nb:'Biblioteket',scenes:['S04']},
  {id:'forest',x:15,y:54,en:'Moonwood · stone circle at the dry pool',nb:'Måneskogen · steinringen ved den tørre dammen',scenes:['S06','Q_MOON1']},
  {id:'pikachu',x:23,y:48,en:'Pikachu Beneath the Ivy',nb:'Pikachu under eføyen',scenes:['S07','Q_PIKACHU']},
@@ -27,7 +27,7 @@ export const mapPlaces=[
  {id:'island',x:84,y:63,en:'The Island That Shows Yesterday',nb:'Øya som viser gårsdagen',scenes:['S14','Q_MOON3']},
  {id:'altaria',x:69,y:35,en:'Altaria’s Nest',nb:'Altarias rede',scenes:['S15','Q_ALTARIA']},
  {id:'cave',x:65,y:25,en:"Gastly's cave",nb:'Gastlys hule',scenes:['S16','Q_GASTLY']},
- {id:'tower',x:92,y:13,en:'Starfall Tower',nb:'Stjernefallstårnet',scenes:['S17','S20','S21','S22','S23','S24','S25','Q_PREP','Q_LEAD','Q_RETURN','E_DAWN','E_AURORA','E_SANCTUARY']},
+ {id:'tower',x:92,y:13,en:'Starfall Tower',nb:'Stjernefallstårnet',scenes:['S17','S20','S21','S22','S23','S24','Q_PREP','Q_LEAD','Q_RETURN','E_DAWN','E_AURORA','E_SANCTUARY']},
  {id:'archive',x:81,y:17,en:'Observatory archive',nb:'Observatoriets arkiv',scenes:['S18','S19','Q_ARCHIVE','Q_STAR']},
  {id:'hill',x:11,y:71,en:'Hill above Willowbrook',nb:'Høyden over Pilebekk',scenes:['S05']},
  {id:'cove',x:46,y:85,en:'Lapras’s quiet cove',nb:'Lapras’ rolige bukt',scenes:['Q_LAPRAS']},
