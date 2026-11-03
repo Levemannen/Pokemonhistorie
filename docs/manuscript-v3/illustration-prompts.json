@@ -61,13 +61,17 @@
   },
   {
     "scene": "S07",
-    "status": "reused-existing-painting",
+    "status": "new-v3-painting",
     "path": {
-      "Bulbasaur": "images/scenes/painted/scene-grove.png",
-      "Charmander": "images/scenes/painted/scene-grove.png",
-      "Squirtle": "images/scenes/painted/scene-grove.png"
+      "Bulbasaur": "images/scenes/painted/pikachu-ivy-post.png",
+      "Charmander": "images/scenes/painted/pikachu-ivy-post.png",
+      "Squirtle": "images/scenes/painted/pikachu-ivy-post.png"
     },
-    "prompt": "Wide 2:1 colorful animated Pokémon adventure storybook illustration, rich painterly detail, warm gold light against blue night, consistent ten-year-old traveler with navy cap, mustard jacket and teal backpack. Scene: Pikachu Beneath the Ivy. Depict this exact situation: A sharp crackling sound comes from a clearing. Pikachu is trapped in ivy wound around an old lantern post. Every time it tries an electric jolt, the vines tighten. “Pika!” it cries, furious and frightened at once.\n\n“Don't use any more electricity!” you call. “The plants react to the light.”\n\n Bulbasaur can loosen the roots without hurting them.\n\n Charmander can gently warm the post so it expands and the ivy slips free, but must keep its tail away from the leaves.\n\n Squirtle can soak the ground and free the lowest root.\n\nWhatever you do, you must first cover the flashing lamp.\n\nPikachu looks straight at you. The ivy tightens once more, and the lantern post creaks. You need to choose how to help before it breaks.. Show the child STANDING or WALKING and actively exploring, not sitting or crouching unless the scene explicitly requires rest. If Mira appears, depict a woman about 68 with silver hair in a bun, green cloak and an antique star brooch. Keep the protagonist gender-neutral. Show no completed puzzle or projected memory on arrival. Do not add companions not present in the selected state. Keep one silver seed only before planting; none in hands after planting. No text, labels or UI. Preserve child-friendly atmosphere and safe footing."
+    "prompt": "Edit this 2:1 woodland storybook picture. Keep same boy, outfit, Pokémon character designs and lovely blue and gold forest palette. Illustrate a gentle visual puzzle: Pikachu's distinctive lightning-shaped tail has snagged in a fork between an ivy-covered wooden lantern post and a sturdy leafy shoot. Emphasize the mechanics by showing one silver-green ivy stem overlapping the notch in the zigzag tail, with the bright yellow tip clearly emerging on the other side. Make the post with its warm lamp, tail and leaf shape easily legible near the center. Pikachu stands freely on the moss and looks over its shoulder at its snagged tail with a puzzled expression; boy looks at the same spot. A quiet discovery before helping. No other Pokémon, no words. Match reference's painted style.",
+    "resultPaths": {
+      "S07.1": "images/scenes/painted/scene-rescue.png",
+      "S07.2": "images/scenes/painted/scene-rescue.png"
+    }
   },
   {
     "scene": "S08",
@@ -307,13 +311,16 @@
   },
   {
     "scene": "Q_PIKACHU",
-    "status": "reused-existing-painting",
+    "status": "new-v3-painting",
     "path": {
-      "Bulbasaur": "images/scenes/painted/scene-grove.png",
-      "Charmander": "images/scenes/painted/scene-grove.png",
-      "Squirtle": "images/scenes/painted/scene-grove.png"
+      "Bulbasaur": "images/scenes/painted/pikachu-ivy-post.png",
+      "Charmander": "images/scenes/painted/pikachu-ivy-post.png",
+      "Squirtle": "images/scenes/painted/pikachu-ivy-post.png"
     },
-    "prompt": "Wide 2:1 colorful animated Pokémon adventure storybook illustration, rich painterly detail, warm gold light against blue night, consistent ten-year-old traveler with navy cap, mustard jacket and teal backpack. Scene: Ivy Again. Depict this exact situation: The lantern post is still flashing in the clearing. Ivy has wound itself around both the post and Pikachu. It lifts its head when you arrive but does not dare use more electricity.\n\n The bright strip of cloth still hangs where you marked the place for the helpers. They are on their way, but Pikachu is not free yet. \n\nYour partner looks at the lamp. You know what must happen first: stop the flashing before you try to loosen the ivy.. Show the child STANDING or WALKING and actively exploring, not sitting or crouching unless the scene explicitly requires rest. If Mira appears, depict a woman about 68 with silver hair in a bun, green cloak and an antique star brooch. Keep the protagonist gender-neutral. Show no completed puzzle or projected memory on arrival. Do not add companions not present in the selected state. Keep one silver seed only before planting; none in hands after planting. No text, labels or UI. Preserve child-friendly atmosphere and safe footing."
+    "prompt": "Edit this 2:1 woodland storybook picture. Keep same boy, outfit, Pokémon character designs and lovely blue and gold forest palette. Illustrate a gentle visual puzzle: Pikachu's distinctive lightning-shaped tail has snagged in a fork between an ivy-covered wooden lantern post and a sturdy leafy shoot. Emphasize the mechanics by showing one silver-green ivy stem overlapping the notch in the zigzag tail, with the bright yellow tip clearly emerging on the other side. Make the post with its warm lamp, tail and leaf shape easily legible near the center. Pikachu stands freely on the moss and looks over its shoulder at its snagged tail with a puzzled expression; boy looks at the same spot. A quiet discovery before helping. No other Pokémon, no words. Match reference's painted style.",
+    "resultPaths": {
+      "Q_PIKACHU.1": "images/scenes/painted/scene-rescue.png"
+    }
   },
   {
     "scene": "Q_HOOTHOOT",

@@ -1,3 +1,4 @@
+import {applyV311} from './apply-v311.mjs';
 import fs from 'node:fs';
 import assert from 'node:assert/strict';
 
@@ -36,6 +37,7 @@ assert.equal(data.length,52);assert.equal(data.flatMap(s=>s.choices).length,116)
 const supplied=lines.slice(lines.findIndex(l=>l.startsWith('# DEL B')),lines.findIndex(l=>l.startsWith('# DEL D'))).filter(l=>l.startsWith('> '));
 const manuscriptFields=data.flatMap(s=>[s.nb,s.en,...s.choices.flatMap(c=>[c.nb,c.label,c.nbResponse,c.response])]).filter(Boolean);
 for(const line of supplied)assert(manuscriptFields.some(value=>value.includes(line.slice(2))), 'Unmatched author text: '+line);
+applyV311(data);
 fs.writeFileSync('src/manuscript-v3.json',JSON.stringify(data,null,2)+'\n');
 const mapCopy=lines.slice(767,785).filter(l=>l.startsWith('| ')&&!l.includes('Betydning')).map(l=>{const [,key,nb,en]=l.split('|').map(v=>v.trim());return [key,{nb,en}]});
 fs.writeFileSync('src/map-copy-v31.json',JSON.stringify(Object.fromEntries(mapCopy),null,2)+'\n');
