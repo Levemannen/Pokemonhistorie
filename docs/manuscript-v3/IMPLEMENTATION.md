@@ -1,3 +1,5 @@
+Gjeldende revisjon er 3.1.0. Se [endringsloggen](../editorial/v3.1-change-log.md) og [revisjonskilden](../editorial/v3.1-codex-prompt.md). Opplysningene nedenfor beskriver det historiske v3-grunnlaget.
+
 # Implementasjon av manus v3
 
 Dato: 31. oktober 2026. Autoritativ kilde: [det vedlagte v3-manuset](source.md). Kilden er bevart uendret. Produksjonsdata finnes i `src/manuscript-v3.json`; importen kan gjentas med `node scripts/import-v3.mjs`.

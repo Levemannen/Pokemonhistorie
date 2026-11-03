@@ -1,9 +1,9 @@
 {
   "passed": true,
-  "checkedStates": 15714,
+  "checkedStates": 14050,
   "scenes": 58,
-  "choiceCoverage": 117,
-  "totalChoices": 117,
+  "choiceCoverage": 116,
+  "totalChoices": 116,
   "defensiveChoiceTestedWithPartialState": "Q_PREP.4",
   "missingChoices": [],
   "starters": 3,

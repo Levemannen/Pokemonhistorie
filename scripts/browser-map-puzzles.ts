@@ -42,6 +42,11 @@ try{
    }
    assert(await hint.isDisabled());
   }
+  await load('Q_RETURN');
+  await page.getByRole('button',{name:mapCopy.open[language],exact:true}).first().click();
+  await page.locator('[data-map-choice="Q_RETURN.16"]').tap();
+  assert.equal(await page.getByRole('dialog').count(),0);
+  assert(['S20','S22'].includes((await saved()).scene));
   await load('S04');
   const before=await saved();
   const mapButton=page.getByRole('button',{name:mapCopy.open[language],exact:true}).first();

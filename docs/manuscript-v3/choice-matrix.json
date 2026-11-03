@@ -652,8 +652,8 @@
     "choices": [
       {
         "id": "S19.1",
-        "en": "Return through valley",
-        "nb": "Utforsk tidligere steder",
+        "en": "Revisit places and finish open clues before the finale",
+        "nb": "Besøk tidligere steder og fullfør åpne spor før finalen",
         "requires": "TRUE",
         "to": "Q_RETURN",
         "flags": [],
@@ -838,8 +838,8 @@
     "choices": [
       {
         "id": "S23.1",
-        "en": "Approach rings",
-        "nb": "Gå til ringene",
+        "en": "Go to the rings and begin the final release",
+        "nb": "Gå til ringene og begynn den endelige åpningen",
         "requires": "valid_consent",
         "to": "S24",
         "flags": [],
@@ -847,8 +847,8 @@
       },
       {
         "id": "S23.2",
-        "en": "Check which places in the valley need help",
-        "nb": "Se hvilke steder i dalen som trenger hjelp",
+        "en": "Check remaining places and hidden clues",
+        "nb": "Se hvilke steder og skjulte spor som gjenstår",
         "requires": "NOT release_done",
         "to": "Q_RETURN",
         "flags": [],
@@ -856,8 +856,8 @@
       },
       {
         "id": "S23.3",
-        "en": "Go back and test the plans before choosing",
-        "nb": "Gå tilbake og test planene før dere velger",
+        "en": "Check or change the warmth plans before release",
+        "nb": "Kontroller eller endre varmeplanene før åpningen",
         "requires": "TRUE",
         "to": "Q_PREP",
         "flags": [],
@@ -913,15 +913,6 @@
         "flags": [
           "chosen_route=earth"
         ],
-        "items": []
-      },
-      {
-        "id": "S24.4",
-        "en": "Don’t choose yet — check the equipment",
-        "nb": "Ikke velg ennå – se over utstyret",
-        "requires": "TRUE",
-        "to": "Q_PREP",
-        "flags": [],
         "items": []
       }
     ]

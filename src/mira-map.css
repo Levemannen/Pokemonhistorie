@@ -1,6 +1,6 @@
 .field-map{position:relative;margin:0 auto;max-width:940px;isolation:isolate}
 .field-sheet{display:block;width:100%;height:auto;border-radius:5px;box-shadow:0 3px 10px #67492738}
-.field-pin{position:absolute;transform:translate(-50%,-50%);min-width:32px;min-height:32px;border:0;background:transparent;padding:0;display:grid;place-items:center}
+.field-pin{position:absolute;transform:translate(-50%,-50%);min-width:44px;min-height:44px;border:0;background:transparent;padding:0;display:grid;place-items:center}
 .field-pin i,.field-index i,.field-notes i{font:italic bold 16px/1 Georgia,serif;color:#772d1c}
 .field-pin i{border:1.5px solid #8c4632;border-radius:48% 53% 44% 50%;background:#fff0cb;min-width:23px;padding:3px;box-shadow:0 1px 2px #6c492d38}
 .field-pin[aria-current=location] i,.field-pin[aria-pressed=true] i{background:#783522;color:white}

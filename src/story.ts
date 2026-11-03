@@ -1,3 +1,5 @@
+import v31Dialogue from './v31-dialogue.json';
+import {authoredText,getLanguage} from './i18n';
 import * as v3 from './edition3';
 import * as legacy from './legacyStory';
 import * as edition from './edition';
@@ -36,6 +38,8 @@ export function hasNeed(state:State,need:string):boolean{
 export const visibleCompanions=(state:State)=>state.world?edition.visibleCompanions(state):legacy.visibleCompanions(state);
 export const companionLine=(state:State)=>state.world?state.starter==='Bulbasaur'?'Bulbasaur’s vines curl toward you: “We can help this place grow.”':state.starter==='Charmander'?'Charmander lifts its tail carefully: “There is always a little light.”':'Squirtle pats your hand: “Together, one small step at a time.”':legacy.companionLine(state);
 export function companionConversation(state:State){
+ const lines=v31Dialogue[state.scene as keyof typeof v31Dialogue];
+ if(v3.isV3(state) && lines)return [{speaker:state.starter,text:authoredText(lines[state.starter][getLanguage()])},...editionConversation(state).filter(line=>state.world!.partyTraveling.includes(line.speaker))];
  if(!state.world)return legacy.companionConversation(state);
  return editionConversation(state);
 }

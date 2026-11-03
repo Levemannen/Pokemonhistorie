@@ -1425,7 +1425,7 @@
       },
       {
         "scene": "S23",
-        "choice": "Approach rings",
+        "choice": "Go to the rings and begin the final release",
         "choiceId": "S23.1",
         "world": {
           "edition": "3",
@@ -3337,7 +3337,7 @@
       },
       {
         "scene": "S23",
-        "choice": "Approach rings",
+        "choice": "Go to the rings and begin the final release",
         "choiceId": "S23.1",
         "world": {
           "edition": "3",
@@ -5234,7 +5234,7 @@
       },
       {
         "scene": "S23",
-        "choice": "Approach rings",
+        "choice": "Go to the rings and begin the final release",
         "choiceId": "S23.1",
         "world": {
           "edition": "3",
@@ -7134,7 +7134,7 @@
       },
       {
         "scene": "S23",
-        "choice": "Approach rings",
+        "choice": "Go to the rings and begin the final release",
         "choiceId": "S23.1",
         "world": {
           "edition": "3",
@@ -9143,7 +9143,7 @@
       },
       {
         "scene": "S23",
-        "choice": "Approach rings",
+        "choice": "Go to the rings and begin the final release",
         "choiceId": "S23.1",
         "world": {
           "edition": "3",
@@ -11129,7 +11129,7 @@
       },
       {
         "scene": "S23",
-        "choice": "Approach rings",
+        "choice": "Go to the rings and begin the final release",
         "choiceId": "S23.1",
         "world": {
           "edition": "3",
@@ -13016,7 +13016,7 @@
       },
       {
         "scene": "S23",
-        "choice": "Approach rings",
+        "choice": "Go to the rings and begin the final release",
         "choiceId": "S23.1",
         "world": {
           "edition": "3",
@@ -14928,7 +14928,7 @@
       },
       {
         "scene": "S23",
-        "choice": "Approach rings",
+        "choice": "Go to the rings and begin the final release",
         "choiceId": "S23.1",
         "world": {
           "edition": "3",
@@ -16825,7 +16825,7 @@
       },
       {
         "scene": "S23",
-        "choice": "Approach rings",
+        "choice": "Go to the rings and begin the final release",
         "choiceId": "S23.1",
         "world": {
           "edition": "3",
@@ -18725,7 +18725,7 @@
       },
       {
         "scene": "S23",
-        "choice": "Approach rings",
+        "choice": "Go to the rings and begin the final release",
         "choiceId": "S23.1",
         "world": {
           "edition": "3",
@@ -20734,7 +20734,7 @@
       },
       {
         "scene": "S23",
-        "choice": "Approach rings",
+        "choice": "Go to the rings and begin the final release",
         "choiceId": "S23.1",
         "world": {
           "edition": "3",
@@ -22720,7 +22720,7 @@
       },
       {
         "scene": "S23",
-        "choice": "Approach rings",
+        "choice": "Go to the rings and begin the final release",
         "choiceId": "S23.1",
         "world": {
           "edition": "3",
@@ -24607,7 +24607,7 @@
       },
       {
         "scene": "S23",
-        "choice": "Approach rings",
+        "choice": "Go to the rings and begin the final release",
         "choiceId": "S23.1",
         "world": {
           "edition": "3",
@@ -26519,7 +26519,7 @@
       },
       {
         "scene": "S23",
-        "choice": "Approach rings",
+        "choice": "Go to the rings and begin the final release",
         "choiceId": "S23.1",
         "world": {
           "edition": "3",
@@ -28416,7 +28416,7 @@
       },
       {
         "scene": "S23",
-        "choice": "Approach rings",
+        "choice": "Go to the rings and begin the final release",
         "choiceId": "S23.1",
         "world": {
           "edition": "3",
@@ -30316,7 +30316,7 @@
       },
       {
         "scene": "S23",
-        "choice": "Approach rings",
+        "choice": "Go to the rings and begin the final release",
         "choiceId": "S23.1",
         "world": {
           "edition": "3",
@@ -32325,7 +32325,7 @@
       },
       {
         "scene": "S23",
-        "choice": "Approach rings",
+        "choice": "Go to the rings and begin the final release",
         "choiceId": "S23.1",
         "world": {
           "edition": "3",
@@ -34311,7 +34311,7 @@
       },
       {
         "scene": "S23",
-        "choice": "Approach rings",
+        "choice": "Go to the rings and begin the final release",
         "choiceId": "S23.1",
         "world": {
           "edition": "3",
@@ -36199,7 +36199,7 @@
       },
       {
         "scene": "S23",
-        "choice": "Check which places in the valley need help",
+        "choice": "Check remaining places and hidden clues",
         "choiceId": "S23.2",
         "world": {
           "edition": "3",
@@ -38071,7 +38071,7 @@
       },
       {
         "scene": "S23",
-        "choice": "Approach rings",
+        "choice": "Go to the rings and begin the final release",
         "choiceId": "S23.1",
         "world": {
           "edition": "3",
@@ -40352,7 +40352,7 @@
       },
       {
         "scene": "S23",
-        "choice": "Check which places in the valley need help",
+        "choice": "Check remaining places and hidden clues",
         "choiceId": "S23.2",
         "world": {
           "edition": "3",
@@ -42224,7 +42224,7 @@
       },
       {
         "scene": "S23",
-        "choice": "Approach rings",
+        "choice": "Go to the rings and begin the final release",
         "choiceId": "S23.1",
         "world": {
           "edition": "3",
@@ -44505,7 +44505,7 @@
       },
       {
         "scene": "S23",
-        "choice": "Check which places in the valley need help",
+        "choice": "Check remaining places and hidden clues",
         "choiceId": "S23.2",
         "world": {
           "edition": "3",
@@ -46377,7 +46377,7 @@
       },
       {
         "scene": "S23",
-        "choice": "Approach rings",
+        "choice": "Go to the rings and begin the final release",
         "choiceId": "S23.1",
         "world": {
           "edition": "3",
@@ -48657,7 +48657,7 @@
       },
       {
         "scene": "S23",
-        "choice": "Check which places in the valley need help",
+        "choice": "Check remaining places and hidden clues",
         "choiceId": "S23.2",
         "world": {
           "edition": "3",
@@ -49885,7 +49885,7 @@
       },
       {
         "scene": "S23",
-        "choice": "Approach rings",
+        "choice": "Go to the rings and begin the final release",
         "choiceId": "S23.1",
         "world": {
           "edition": "3",
@@ -52107,7 +52107,7 @@
       },
       {
         "scene": "S23",
-        "choice": "Check which places in the valley need help",
+        "choice": "Check remaining places and hidden clues",
         "choiceId": "S23.2",
         "world": {
           "edition": "3",
@@ -53335,7 +53335,7 @@
       },
       {
         "scene": "S23",
-        "choice": "Approach rings",
+        "choice": "Go to the rings and begin the final release",
         "choiceId": "S23.1",
         "world": {
           "edition": "3",
@@ -55557,7 +55557,7 @@
       },
       {
         "scene": "S23",
-        "choice": "Check which places in the valley need help",
+        "choice": "Check remaining places and hidden clues",
         "choiceId": "S23.2",
         "world": {
           "edition": "3",
@@ -56785,7 +56785,7 @@
       },
       {
         "scene": "S23",
-        "choice": "Approach rings",
+        "choice": "Go to the rings and begin the final release",
         "choiceId": "S23.1",
         "world": {
           "edition": "3",
@@ -59009,7 +59009,7 @@
       },
       {
         "scene": "S23",
-        "choice": "Check which places in the valley need help",
+        "choice": "Check remaining places and hidden clues",
         "choiceId": "S23.2",
         "world": {
           "edition": "3",
@@ -62390,7 +62390,7 @@
       },
       {
         "scene": "S23",
-        "choice": "Approach rings",
+        "choice": "Go to the rings and begin the final release",
         "choiceId": "S23.1",
         "world": {
           "edition": "3",
@@ -64816,7 +64816,7 @@
       },
       {
         "scene": "S23",
-        "choice": "Check which places in the valley need help",
+        "choice": "Check remaining places and hidden clues",
         "choiceId": "S23.2",
         "world": {
           "edition": "3",
@@ -68197,7 +68197,7 @@
       },
       {
         "scene": "S23",
-        "choice": "Approach rings",
+        "choice": "Go to the rings and begin the final release",
         "choiceId": "S23.1",
         "world": {
           "edition": "3",
@@ -70623,7 +70623,7 @@
       },
       {
         "scene": "S23",
-        "choice": "Check which places in the valley need help",
+        "choice": "Check remaining places and hidden clues",
         "choiceId": "S23.2",
         "world": {
           "edition": "3",
@@ -74004,7 +74004,7 @@
       },
       {
         "scene": "S23",
-        "choice": "Approach rings",
+        "choice": "Go to the rings and begin the final release",
         "choiceId": "S23.1",
         "world": {
           "edition": "3",
@@ -76429,7 +76429,7 @@
       },
       {
         "scene": "S23",
-        "choice": "Check which places in the valley need help",
+        "choice": "Check remaining places and hidden clues",
         "choiceId": "S23.2",
         "world": {
           "edition": "3",
@@ -79548,7 +79548,7 @@
       },
       {
         "scene": "S23",
-        "choice": "Approach rings",
+        "choice": "Go to the rings and begin the final release",
         "choiceId": "S23.1",
         "world": {
           "edition": "3",
@@ -81941,7 +81941,7 @@
       },
       {
         "scene": "S23",
-        "choice": "Check which places in the valley need help",
+        "choice": "Check remaining places and hidden clues",
         "choiceId": "S23.2",
         "world": {
           "edition": "3",
@@ -85060,7 +85060,7 @@
       },
       {
         "scene": "S23",
-        "choice": "Approach rings",
+        "choice": "Go to the rings and begin the final release",
         "choiceId": "S23.1",
         "world": {
           "edition": "3",
@@ -87453,7 +87453,7 @@
       },
       {
         "scene": "S23",
-        "choice": "Check which places in the valley need help",
+        "choice": "Check remaining places and hidden clues",
         "choiceId": "S23.2",
         "world": {
           "edition": "3",
@@ -90572,7 +90572,7 @@
       },
       {
         "scene": "S23",
-        "choice": "Approach rings",
+        "choice": "Go to the rings and begin the final release",
         "choiceId": "S23.1",
         "world": {
           "edition": "3",
