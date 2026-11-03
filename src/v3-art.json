@@ -79,16 +79,20 @@
   },
   "S07": {
     "base": {
-      "Bulbasaur": "images/scenes/painted/scene-grove.png",
-      "Charmander": "images/scenes/painted/scene-grove.png",
-      "Squirtle": "images/scenes/painted/scene-grove.png"
+      "Bulbasaur": "images/scenes/painted/pikachu-ivy-post.png",
+      "Charmander": "images/scenes/painted/pikachu-ivy-post.png",
+      "Squirtle": "images/scenes/painted/pikachu-ivy-post.png"
     },
     "fallbackBase": {
       "Bulbasaur": "images/scenes/v3/S07.svg",
       "Charmander": "images/scenes/v3/S07.svg",
       "Squirtle": "images/scenes/v3/S07.svg"
     },
-    "render": "painted-baked"
+    "render": "painted-baked",
+    "results": {
+      "S07.1": "images/scenes/painted/scene-rescue.png",
+      "S07.2": "images/scenes/painted/scene-rescue.png"
+    }
   },
   "S08": {
     "base": {
@@ -397,16 +401,19 @@
   },
   "Q_PIKACHU": {
     "base": {
-      "Bulbasaur": "images/scenes/painted/scene-grove.png",
-      "Charmander": "images/scenes/painted/scene-grove.png",
-      "Squirtle": "images/scenes/painted/scene-grove.png"
+      "Bulbasaur": "images/scenes/painted/pikachu-ivy-post.png",
+      "Charmander": "images/scenes/painted/pikachu-ivy-post.png",
+      "Squirtle": "images/scenes/painted/pikachu-ivy-post.png"
     },
     "fallbackBase": {
       "Bulbasaur": "images/scenes/v3/Q_PIKACHU.svg",
       "Charmander": "images/scenes/v3/Q_PIKACHU.svg",
       "Squirtle": "images/scenes/v3/Q_PIKACHU.svg"
     },
-    "render": "painted-baked"
+    "render": "painted-baked",
+    "results": {
+      "Q_PIKACHU.1": "images/scenes/painted/scene-rescue.png"
+    }
   },
   "Q_HOOTHOOT": {
     "base": {

@@ -37,6 +37,15 @@ for(const [id,arrival,choice,painting] of [
  scene.results={[choice]:'images/scenes/painted/'+painting};
  const prompt=prompts.find(p=>p.scene===id);prompt.path=scene.base;prompt.resultPaths=scene.results;
 }
+// Both visits begin before the ivy has been loosened.
+for (const [id, freedChoices] of [['S07', ['S07.1', 'S07.2']], ['Q_PIKACHU', ['Q_PIKACHU.1']]]) {
+ const entry = scenes[id];
+ const arrival = 'images/scenes/painted/pikachu-ivy-post.png';
+ entry.base = Object.fromEntries(Object.keys(entry.base).map(starter => [starter, arrival]));
+ entry.results = Object.fromEntries(freedChoices.map(choice => [choice, 'images/scenes/painted/scene-rescue.png']));
+ const prompt = prompts.find(item => item.scene === id);
+ Object.assign(prompt, {path: entry.base, resultPaths: entry.results, status: 'new-v3-painting', prompt: "Edit this 2:1 woodland storybook picture. Keep same boy, outfit, Pokémon character designs and lovely blue and gold forest palette. Illustrate a gentle visual puzzle: Pikachu's distinctive lightning-shaped tail has snagged in a fork between an ivy-covered wooden lantern post and a sturdy leafy shoot. Emphasize the mechanics by showing one silver-green ivy stem overlapping the notch in the zigzag tail, with the bright yellow tip clearly emerging on the other side. Make the post with its warm lamp, tail and leaf shape easily legible near the center. Pikachu stands freely on the moss and looks over its shoulder at its snagged tail with a puzzled expression; boy looks at the same spot. A quiet discovery before helping. No other Pokémon, no words. Match reference's painted style."});
+}
 for(const id of ['DAWN','AURORA','SONG','LANTERN','SANCTUARY','GARDEN'])scenes['F_'+id]=scenes['E_'+id];
 fs.writeFileSync('src/v3-art.json',JSON.stringify(scenes,null,2));
 fs.writeFileSync('docs/manuscript-v3/illustration-prompts.json',JSON.stringify(prompts,null,2));
