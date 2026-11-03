@@ -1,0 +1,44 @@
+{
+  "S07": {
+    "Bulbasaur": {
+      "en": "“I can hold the vine while you loosen it. We don't have to tear anything apart.”",
+      "nb": "«Jeg kan holde ranken mens du løsner den. Vi trenger ikke rive noe i stykker.»"
+    },
+    "Charmander": {
+      "en": "“My tail stays over here. We're helping Pikachu, not frightening the ivy.”",
+      "nb": "«Halen min blir her borte. Vi skal hjelpe Pikachu, ikke skremme eføyen.»"
+    },
+    "Squirtle": {
+      "en": "“A little water around the root. Not a drop on Pikachu.”",
+      "nb": "«Litt vann rundt roten. Ikke en dråpe på Pikachu.»"
+    }
+  },
+  "S17": {
+    "Bulbasaur": {
+      "en": "“I can hold the frame steady. You choose how we open it.”",
+      "nb": "«Jeg kan holde rammen stødig. Du bestemmer hvilken vei vi åpner.»"
+    },
+    "Charmander": {
+      "en": "“Look at the gears first. I'll provide the light, away from the oil.”",
+      "nb": "«Se på tannhjulene først. Jeg lyser, men holder meg unna oljen.»"
+    },
+    "Squirtle": {
+      "en": "“There's water dripping beside the gate. I'll make sure nobody slips.”",
+      "nb": "«Det drypper vann ved porten. Jeg passer på at ingen sklir.»"
+    }
+  },
+  "S24": {
+    "Bulbasaur": {
+      "en": "“I'll keep us together. You can take the final step.”",
+      "nb": "«Jeg holder oss samlet. Du kan ta det siste skrittet.»"
+    },
+    "Charmander": {
+      "en": "“I'm ready. This time I'll keep the flame a safe distance away.”",
+      "nb": "«Jeg er klar. Denne gangen holder jeg flammen på trygg avstand.»"
+    },
+    "Squirtle": {
+      "en": "“The floor is dry. The way is clear. I'll stay beside you.”",
+      "nb": "«Gulvet er tørt. Veien er klar. Jeg blir ved siden av deg.»"
+    }
+  }
+}

@@ -55,3 +55,6 @@
 
 /* Preserve the manuscript’s distinct arrival and narrative paragraphs. */
 .story-text{white-space:pre-line}
+
+/* Keep the optional solutions outside the gate illustration until chosen. */
+.scene-art[data-gate-crop] > .scene-art-base { width: 180%; max-width: none; transform: translateX(-44.4445%); object-position: right center; }

@@ -1,3 +1,4 @@
+import historicalDetour from './legacy-v3-detour.json';
 import data from './manuscript-v3.json';
 import {restoreOptionalDiscoveries} from './optionalPuzzles';
 import type {State,Scene,Choice,Starter} from './legacyStory';
@@ -59,6 +60,10 @@ function release(s:State,id:string){
 }
 export function advance(s:State,requested:Choice):State{
  const c=available(s).find(c=>c.id===requested.id&&c.to===requested.to);if(!c)throw Error('Unavailable v3 choice');
+ return commitChoice(s,c);
+}
+// Historical replay may consume the retired 3.0.8 detour, but it is never selectable.
+function commitChoice(s:State,c:V3Choice):State{
  const w=structuredClone(s.world!);const next:State={...s,world:w,scene:c.to,history:[...s.history,{scene:s.scene,choice:c.label,choiceId:c.id,world:structuredClone(s.world!),flags:[...s.flags],companions:[...s.companions]}]};
  if(c.id==='Q_PREP.3')next.history[next.history.length-1].earthPrepVersion=2;
  if((c.to==='Q_RETURN'||c.to==='Q_PREP')&&!s.scene.startsWith('Q_'))w.flags.return_main=s.world!.visited.includes('S21')?'S22':'S20';
@@ -85,7 +90,7 @@ function conditionalText(s:State,text:string){
  }).filter(Boolean).join('\n\n');
 }
 export function resultText(s:State):string{
- const choice=choicesById[s.world?.lastChoiceId||''];
+ const choice=s.world?.lastChoiceId==='S24.4'?historicalDetour:choicesById[s.world?.lastChoiceId||''];
  const response=choice?.[getLanguage()==='nb'?'nbResponse':'response']||'';
  return authoredText(conditionalText(s,response).replace(/\{starter\}/g,s.starter));
 }
@@ -108,8 +113,6 @@ export function storyText(s:State):string{
  let id=s.scene; if(id.startsWith('F_'))id='S25';
  let text=rawById[id][getLanguage()==='nb'?'nb':'en'];
  text=conditionalText(s,text).replace(/\{starter\}/g,s.starter).replace(/\*\*([^*]+)\*\*/g,'$1');
- const isNb=getLanguage()==='nb';
- if(s.scene==='Q_RETURN')text+='\n\n'+(Number(s.world!.flags.return_visits||0)>2?(isNb?'Flere frivillige bærer nå lykter langs stien. Tårnklokken slår igjen.':'More volunteers now carry lanterns along the path. The tower bell rings again.'):(isNb?'Blomstenes lys er svakere nå. Dere følger de trygge merkene sammen.':'The flowers glow more faintly now. Together you follow the safe trail markers.'));
 
  return authoredText(text);
 }
@@ -118,22 +121,24 @@ export function restore(value:unknown):State|null{
  try{const v=value as State;if(!v||v.world?.edition!=='3'||!['Bulbasaur','Charmander','Squirtle'].includes(v.starter)||!Array.isArray(v.history)||v.history.length>10000)return null;
  const legacyHeat=v.world.flags.earth_backup_ready==='true'&&!v.history.some(h=>h.choiceId==='Q_PREP.4');
  let s=initial(v.starter);
+ let recoverAtReview=false;
  for(const h of v.history){if(h.scene!==s.scene)return null;
   replayHints(s,h.flags||[]);
   restoreOptionalDiscoveries(s,h.world?.flags);
   // Only validated puzzle solutions from the snapshot may enable a puzzle-gated choice.
   const flags=(h.flags||[]).filter(f=>/^puzzle:(S06|S07|S17|Q_MOON1|Q_STAR)$/.test(f));
   s={...s,flags:[...new Set([...s.flags,...flags])]};
-  const c=available(s).find(c=>c.id===h.choiceId);if(!c)return null;s=advance(s,c);
+  if(h===v.history.at(-1) && v.scene==='S24' && s.scene==='S23' && h.choiceId==='S23.1' && !fact(s,'valid_consent')){recoverAtReview=true;break;}
+  const c=available(s).find(c=>c.id===h.choiceId) || (s.scene==='S24' && h.choiceId==='S24.4' ? historicalDetour : undefined);if(!c)return null;s=commitChoice(s,c);
   if(c.id==='Q_PREP.3'&&legacyHeat&&h.earthPrepVersion===undefined){
    s.world!.flags.earth_backup_ready='true';
    // Keep the original single-step receipt across subsequent saves and replays.
    delete s.history[s.history.length-1].earthPrepVersion;
   }
  }
- if(s.scene!==v.scene)return null;
+ if(s.scene!==v.scene && !(v.scene==='S24' && s.scene==='S23' && !fact(s,'valid_consent')))return null;
  replayHints(s,v.flags||[]);
- if(v.pendingResult===true&&s.world!.lastChoiceId&&resultText(s))s.pendingResult=true;
+ if(!recoverAtReview && s.scene===v.scene && v.pendingResult===true&&s.world!.lastChoiceId&&resultText(s))s.pendingResult=true;
  restoreOptionalDiscoveries(s,v.world.flags);
  const current=(v.flags||[]).filter(f=>/^puzzle:(S06|S07|S17|Q_MOON1|Q_STAR)$/.test(f));
  const inspections=(v.flags||[]).filter(f=>(f.startsWith('inspected:')&&[...s.world!.items,...s.world!.usedItems].includes(f.slice(10)))||/^map-seen:[a-z0-9_]+$/.test(f));

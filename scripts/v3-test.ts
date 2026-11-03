@@ -125,6 +125,22 @@ for(const scene of v3.raw.filter(scene=>scene.id.startsWith('Q_') && scene.choic
   assert(!v3.storyText(result).includes(v3.resultText(result)));
  }
 }
+for(const lang of ['nb','en'] as const){
+ setLanguage(lang);
+ for(const photo of [true,false])for(const letter of [true,false]){
+  let s=structuredClone(fixtures.get('S20')!);
+  s.world!.items=s.world!.items.filter(i=>i!=='photo_lumi_shinx');
+  if(photo)s.world!.items.push('photo_lumi_shinx');
+  s.world!.flags.compassionate_letter=String(letter);
+  const choice=v3.available(s).find(c=>c.id==='S20.1');
+  assert.equal(!!choice,photo||letter);if(!choice)continue;
+  s=v3.advance(s,choice);
+  for(const text of [v3.resultText(s),v3.storyText(s)]){
+   assert.equal(/fotografiet|the photograph/i.test(text),photo);
+   assert.equal(/brevet|the (?:creased )?letter/i.test(text),!photo&&letter);
+  }
+ }
+}
 const star=fixtures.get('Q_STAR')!;
 assert(!v3.available({...star,flags:star.flags.filter(f=>f!=='puzzle:Q_STAR')}).some(c=>c.id==='Q_STAR.1'));
 assert(v3.fact(pot,'earth_pot_found')&&!v3.fact(pot,'earth_backup_ready'));
@@ -157,6 +173,7 @@ for(const scene of v3.raw)for(const choice of scene.choices){
  for(const language of ['en','nb'] as const){
   setLanguage(language);
   const expected=language==='nb'?choice.nbResponse:choice.response;
+  if(choice.id==='S20.1'){assert(v3.resultText(arrived).endsWith(expected!.split('[END]')[1].trim()));continue;}
   const visible=expected?.split('\n\n').filter(p=>!p.startsWith('[IF ')||p.startsWith('[IF starter_'+arrived.starter+']')).map(p=>p.replace(/\[IF starter_\w+\]|\[END\]/g,'').trim()).join('\n\n');
   assert(visible&&v3.resultText(arrived).includes(visible.replace(/\{starter\}/g,arrived.starter)),choice.id+' response '+language);
  }

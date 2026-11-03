@@ -1958,7 +1958,7 @@
     "scene": "plan",
     "label": "Ask Mira to organize help from Willowbrook before release",
     "norwegian": {
-      "label": "Be Mira ordne hjelp fra Willowbrook før lyset slippes fri",
+      "label": "Be Mira ordne hjelp fra Pilebekk før lyset slippes fri",
       "immediateText": "Du blinker Miras festsignal fra tårnvinduet. Et klart svar kommer fra landsbyen."
     },
     "destination": "heart",
@@ -2170,7 +2170,7 @@
     "scene": "earth",
     "label": "Prepare the plant for Willowbrook’s shared garden",
     "norwegian": {
-      "label": "Gjør planten klar til felleshagen i Willowbrook",
+      "label": "Gjør planten klar til felleshagen i Pilebekk",
       "immediateText": "Du legger potten i en polstret kurv ved Shinx. Mira svarer på signalet: Hun hjelper dere med å plante den i landsbyen i morgen."
     },
     "destination": "endGarden",
@@ -2195,7 +2195,7 @@
     "label": "Ask Bulbasaur to make a living basket for the plant",
     "norwegian": {
       "label": "La Bulbasaur forme en levende kurv rundt planten",
-      "immediateText": "Bulbasaur leder den unge ranken rundt kanten på reisepotten. Potten sitter stødig ved Shinx, klar til turen til Willowbrook."
+      "immediateText": "Bulbasaur leder den unge ranken rundt kanten på reisepotten. Potten sitter stødig ved Shinx, klar til turen til Pilebekk."
     },
     "destination": "endGarden",
     "condition": "starter=Bulbasaur",

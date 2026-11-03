@@ -1,0 +1,11 @@
+{
+  "id": "S24.4",
+  "label": "Don’t choose yet — check the equipment",
+  "nb": "Ikke velg ennå – se over utstyret",
+  "to": "Q_PREP",
+  "when": "TRUE",
+  "set": [],
+  "get": [],
+  "nbResponse": "Du ser på ringene en gang til. «Vi er ikke nødt til å velge bare fordi vi har hastverk», sier du. Shinx svarer: «Da gjør vi det vi mangler, og kommer tilbake.»",
+  "response": "You look at the rings once more. “We don’t have to choose just because we’re in a hurry,” you say. Shinx replies, “Then let’s finish what’s missing and come back.”"
+}

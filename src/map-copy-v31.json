@@ -1,0 +1,62 @@
+{
+  "Overskrift": {
+    "nb": "Miras kart",
+    "en": "Mira's Map"
+  },
+  "Oppdaget sted": {
+    "nb": "Utforsket",
+    "en": "Explored"
+  },
+  "Uferdig oppdrag": {
+    "nb": "Noen trenger fortsatt hjelp",
+    "en": "Someone still needs help"
+  },
+  "Fullført redning": {
+    "nb": "Hjelpen kom frem",
+    "en": "Help arrived"
+  },
+  "Ukjent spor": {
+    "nb": "Et spor venter",
+    "en": "A clue is waiting"
+  },
+  "Kartmarkør handling": {
+    "nb": "Merk av oppdagelsen",
+    "en": "Mark this discovery"
+  },
+  "Hovedhistorie": {
+    "nb": "Tilbake til tårnet",
+    "en": "Return to the tower"
+  },
+  "Sideoppdragsoversikt": {
+    "nb": "Steder du kan besøke",
+    "en": "Places you can visit"
+  },
+  "Før finale": {
+    "nb": "Se over kartet før åpningen",
+    "en": "Check the map before the release"
+  },
+  "Ingen tvang": {
+    "nb": "Du kan fortsette uten å finne alt.",
+    "en": "You can continue without finding everything."
+  },
+  "Stjernekart tilbakemelding": {
+    "nb": "Sølvlinjene på kartet begynner å henge sammen.",
+    "en": "The silver lines on the map are beginning to connect."
+  },
+  "Månehint": {
+    "nb": "Tre månetegn kan være skjult på steder der noen tok seg tid til å se nøye etter.",
+    "en": "Three moon signs may be hidden where someone took the time to look closely."
+  },
+  "Solhint": {
+    "nb": "Noen veier åpnes først når flere har fått hjelp.",
+    "en": "Some paths open only after several others have been helped."
+  },
+  "Kombinert hint": {
+    "nb": "Solen og månen er tegnet på hver sin side av en tom sirkel.",
+    "en": "The sun and moon are drawn on opposite sides of an empty circle."
+  },
+  "Hemmelighet funnet": {
+    "nb": "Du fant et tegn som ikke sto på kartet før.",
+    "en": "You found a mark that wasn't on the map before."
+  }
+}
