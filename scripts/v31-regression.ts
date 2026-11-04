@@ -19,9 +19,9 @@ function checkBranches(id:string,keys:string[],fallback:boolean,lang:'en'|'nb'){
 }
 for(const lang of ['en','nb'] as const){
  setLanguage(lang);
- checkBranches('S25',['companion_pikachu','pikachu_guard','rescued_pikachu','pikachu_help_sent'],true,lang);
- checkBranches('S25',['companion_hoothoot','hoothoot_nest'],true,lang);
- for(const id of ['S05','S25'])checkBranches(id,['mira_trust','mira_accountability'],false,lang);
+ checkBranches('S25',['companion_pikachu','helped_altaria','companion_hoothoot','rescued_pikachu','helped_psyduck'],true,lang);
+ checkBranches('S05',['mira_trust','mira_accountability'],false,lang);
+ checkBranches('S25',['mira_trust','mira_accountability'],true,lang);
  checkBranches('S24',['lumi_trust','lumi_informed'],false,lang);
  for(const id of ['S16','S24'])for(const starter of ['Bulbasaur','Charmander','Squirtle'] as const){
   const s={...fixture(id),starter};
