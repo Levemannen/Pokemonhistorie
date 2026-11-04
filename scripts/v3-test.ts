@@ -135,10 +135,11 @@ for(const lang of ['nb','en'] as const){
   const choice=v3.available(s).find(c=>c.id==='S20.1');
   assert.equal(!!choice,photo||letter);if(!choice)continue;
   s=v3.advance(s,choice);
-  for(const text of [v3.resultText(s),v3.storyText(s)]){
-   assert.equal(/fotografiet|the photograph/i.test(text),photo);
-   assert.equal(/brevet|the (?:creased )?letter/i.test(text),!photo&&letter);
-  }
+  assert.equal(v3.resultText(s),choice[lang==='nb'?'nbResponse':'response']);
+  const branch=v3.rawById.S21[lang].split('\n\n').find(p=>p.startsWith('[IF lumi_open_to_talk AND photo_lumi_shinx]'))!;
+  const [photoText,letterText]=branch.split(/\[(?:IF |ELSE IF )[^\]]+\]|\[END\]/).map(part=>part.trim()).filter(Boolean);
+  assert.equal(v3.storyText(s).includes(photoText),photo);
+  assert.equal(v3.storyText(s).includes(letterText),!photo&&letter);
  }
 }
 const star=fixtures.get('Q_STAR')!;
@@ -173,7 +174,6 @@ for(const scene of v3.raw)for(const choice of scene.choices){
  for(const language of ['en','nb'] as const){
   setLanguage(language);
   const expected=language==='nb'?choice.nbResponse:choice.response;
-  if(choice.id==='S20.1'){assert(v3.resultText(arrived).endsWith(expected!.split('[END]')[1].trim()));continue;}
   const visible=expected?.split('\n\n').filter(p=>!p.startsWith('[IF ')||p.startsWith('[IF starter_'+arrived.starter+']')).map(p=>p.replace(/\[IF starter_\w+\]|\[END\]/g,'').trim()).join('\n\n');
   assert(visible&&v3.resultText(arrived).includes(visible.replace(/\{starter\}/g,arrived.starter)),choice.id+' response '+language);
  }

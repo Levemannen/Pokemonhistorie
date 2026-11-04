@@ -281,8 +281,8 @@
       },
       {
         "id": "S09.2",
-        "en": "Examine what the empty hollow is missing",
-        "nb": "Undersøk hva den tomme fordypningen mangler",
+        "en": "Examine the empty hollow and make it safe",
+        "nb": "Undersøk den tomme fordypningen og gjør den trygg",
         "requires": "TRUE",
         "to": "S10",
         "flags": [
@@ -1033,7 +1033,7 @@
         "id": "Q_RETURN.3",
         "en": "Return to Hoothoot’s unsafe nest",
         "nb": "Tilbake til Hoothoots utrygge rede",
-        "requires": "NOT hoothoot_nest",
+        "requires": "NOT hoothoot_nest AND NOT companion_hoothoot",
         "to": "Q_HOOTHOOT",
         "flags": [],
         "items": []

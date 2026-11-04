@@ -1,6 +1,6 @@
 {
   "name": "lost-starlight",
-  "version": "3.1.2",
+  "version": "3.2.0",
   "private": true,
   "packageManager": "pnpm@11.25.0",
   "type": "module",
@@ -12,7 +12,7 @@
     "test:full": "pnpm test && pnpm build && node scripts/deployment-test.mjs",
     "test": "pnpm test:compat && pnpm test:v3 && tsx scripts/map-puzzles-test.ts",
     "export:story": "tsx scripts/export-edition.ts",
-    "test:v3": "tsx scripts/v3-test.ts && tsx scripts/v31-regression.ts && tsx scripts/v311-regression.ts",
+    "test:v3": "node scripts/v32-manuscript-test.mjs && tsx scripts/v3-test.ts && tsx scripts/v31-regression.ts && tsx scripts/v311-regression.ts",
     "test:compat": "tsx scripts/edition-test.ts && tsx scripts/edition-presentation-test.tsx && tsx scripts/editorial-test.ts",
     "test:browser:v3": "tsx scripts/browser-v3.ts"
   },

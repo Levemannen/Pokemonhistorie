@@ -50,7 +50,17 @@ try{
  }
  // Every authored scene at the narrowest supported width, independently in both languages.
  for(const language of ['en','nb'] as const){const ctx=await browser.newContext({viewport:{width:320,height:900},serviceWorkers:'block'});const page=await ctx.newPage();page.on('pageerror',(e:Error)=>errors.push(e.message));await page.goto('http://127.0.0.1:4173/');
- for(const s of fixtures){await page.evaluate((v:State)=>{localStorage.setItem('starlight-story-v1',JSON.stringify(v));localStorage.setItem('starlight-language',v.language!);}, {...s,language,journeyId:'fixture'});await page.reload();await page.locator('.page-body h2').waitFor();if(language==='nb')assert(!/Willowbrook|Moonwood|Starfall/i.test(await page.locator('.story-text').first().innerText()),s.scene);assert(await page.evaluate(()=>document.documentElement.scrollWidth<=innerWidth+1),s.scene);await page.locator('.illustration .scene-art-base').evaluate((i:HTMLImageElement)=>i.decode());pages++;}
+ for(const s of fixtures){await page.evaluate((v:State)=>{localStorage.setItem('starlight-story-v1',JSON.stringify(v));localStorage.setItem('starlight-language',v.language!);}, {...s,language,journeyId:'fixture'});await page.reload();await page.locator('.page-body h2').waitFor();if(language==='nb')assert(!/Willowbrook|Moonwood|Starfall/i.test(await page.locator('.story-text').first().innerText()),s.scene);assert(await page.evaluate(()=>document.documentElement.scrollWidth<=innerWidth+1),s.scene);await page.locator('.illustration .scene-art-base').evaluate((i:HTMLImageElement)=>i.decode());pages++;
+ if(s.scene==='S09'){
+  const hint=page.locator('[data-choice-id="S09.3"]');
+  await hint.click();
+  const text=v3.choicesById['S09.3'][language==='nb'?'nbResponse':'response']!;
+  for(const p of text.split('\n\n'))assert((await page.locator('.page-body').innerText()).includes(p));
+  await hint.click();assert(await hint.isDisabled());
+  await page.locator('[data-choice-id="S09.2"]').click();
+  assert.equal((await stateOf(page)).scene,'S10');
+ }
+ }
  await ctx.close();}
 }finally{await browser.close();writeFileSync('docs/browser-qa/v3/report.json',JSON.stringify({journeys,pages,errors,failures,languages:['en','nb'],widths:[320,375,820,1280]},null,2));}
 assert.deepEqual(errors,[]);assert.deepEqual(failures,[]);assert.equal(journeys,44);console.log(`PASS: ${journeys} browser journeys, ${pages} pages, both languages.`);
